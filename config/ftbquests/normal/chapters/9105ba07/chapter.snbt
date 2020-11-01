@@ -1,0 +1,12 @@
+{
+	title: "Tier1 : Back to the Earth",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "notreepunching:axe/flint"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
