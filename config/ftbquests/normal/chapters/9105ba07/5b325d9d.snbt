@@ -1,0 +1,11 @@
+{
+	x: 12.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "01be87b7",
+		type: "item",
+		items: [{
+			item: "minecraft:lapis_ore"
+		}]
+	}]
+}

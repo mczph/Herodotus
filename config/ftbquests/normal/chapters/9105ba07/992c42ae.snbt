@@ -1,0 +1,11 @@
+{
+	x: 12.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "268df09a",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 4"
+		}]
+	}]
+}

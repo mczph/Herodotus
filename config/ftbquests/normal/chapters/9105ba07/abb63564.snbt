@@ -1,0 +1,11 @@
+{
+	x: 13.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: "f4846164",
+		type: "item",
+		items: [{
+			item: "silentgems:gemore 1 7"
+		}]
+	}]
+}

@@ -22,6 +22,7 @@
 				}
 			},
 			id: "itemfilters:filter"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

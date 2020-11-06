@@ -1,0 +1,11 @@
+{
+	x: 13.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "7a5a624e",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:rock_salt"
+		}]
+	}]
+}

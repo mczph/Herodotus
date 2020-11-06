@@ -1,0 +1,25 @@
+{
+	title: "混沌矿脉",
+	x: 7.5d,
+	y: 7.0d,
+	text: [
+		"稀有度: 1/30chunks",
+		"生成高度: Y10~25",
+		"规模: 500~1300blocks",
+		"所含矿物: 混沌源质,末影源质"
+	],
+	tasks: [{
+		uid: "afa0722a",
+		type: "item",
+		items: [{
+			item: "silentgems:essenceore"
+		}]
+	},
+	{
+		uid: "ba22fbcb",
+		type: "item",
+		items: [{
+			item: "silentgems:essenceore 1 1"
+		}]
+	}]
+}

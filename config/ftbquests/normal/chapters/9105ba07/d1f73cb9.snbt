@@ -1,0 +1,37 @@
+{
+	title: "铝矿脉",
+	x: 5.5d,
+	y: 7.0d,
+	text: [
+		"稀有度: 1/20chunks",
+		"生成高度: Y50~80",
+		"规模: 600~1500blocks",
+		"所含矿物: 铝,蓝宝石,绿色蓝宝石"
+	],
+	tasks: [{
+		uid: "099b436a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:ore 1 1"
+		}]
+	},
+	{
+		uid: "43e52340",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 9"
+		}]
+	},
+	{
+		uid: "84e0a271",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "aebb841f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

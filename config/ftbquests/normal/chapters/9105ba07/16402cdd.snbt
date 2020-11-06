@@ -1,0 +1,11 @@
+{
+	x: 11.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "882cc4ad",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}]
+	}]
+}

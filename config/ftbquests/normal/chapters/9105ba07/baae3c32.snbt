@@ -1,0 +1,21 @@
+{
+	x: 10.5d,
+	y: 3.5d,
+	shape: "rsquare",
+	dependencies: [
+		"e0dadab1"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "441e1305",
+		type: "checkmark",
+		title: "矿脉",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:coresample"
+		}
+	}]
+}

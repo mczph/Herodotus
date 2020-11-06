@@ -1,11 +1,26 @@
 {
+	title: "神秘花",
 	x: 0.0d,
 	y: 0.0d,
+	text: [
+		"收集一些这些随处可见的特殊花朵"
+	],
+	dependencies: [
+		"cb717c64"
+	],
+	hide: true,
 	tasks: [{
 		uid: "6d0fbc3c",
 		type: "item",
+		title: "Any botmflowers",
 		items: [{
-			item: "botania:flower"
+			ForgeCaps: {
+				Parent: {
+					data: "botmflowers",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
 		}]
 	}]
 }

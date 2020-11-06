@@ -1,0 +1,30 @@
+{
+	title: "铜矿脉",
+	x: 8.5d,
+	y: 7.0d,
+	text: [
+		"稀有度: 1/20chunks",
+		"生成高度: Y30~60",
+		"规模: 500~1700blocks",
+		"所含矿物: 铜,孔雀石"
+	],
+	tasks: [{
+		uid: "f3e35615",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 1"
+		}]
+	},
+	{
+		uid: "e3e66b93",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:gem 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "8362efcb",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}
