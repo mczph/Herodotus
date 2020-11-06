@@ -49,13 +49,13 @@ minecraft:sandstone:0, 砂岩
 minecraft:sandstone:1, 錾制砂岩
 minecraft:sandstone:2, 平滑砂岩
 minecraft:noteblock, 音符盒
-minecraft:golden_rail, 助推轨道
-minecraft:detector_rail, 检测轨道
+minecraft:golden_rail, 充能铁轨
+minecraft:detector_rail, 探测铁轨
 minecraft:sticky_piston, 粘性活塞
 minecraft:web, 蜘蛛网
 minecraft:tallgrass:1, 草
 minecraft:tallgrass:2, 蕨
-minecraft:deadbush, 枯死的草丛
+minecraft:deadbush, 枯死的灌木
 minecraft:piston, 活塞
 minecraft:wool:0, 白色羊毛
 minecraft:wool:1, 橙色羊毛
@@ -95,22 +95,22 @@ minecraft:stone_slab:5, 石砖台阶
 minecraft:stone_slab:6, 地狱砖台阶
 minecraft:stone_slab:7, 石英台阶
 minecraft:brick_block, 砖块
-minecraft:tnt, 火药炸弹
+minecraft:tnt, TNT
 minecraft:bookshelf, 书架
 minecraft:mossy_cobblestone, 苔石
 minecraft:obsidian, 黑曜石
 minecraft:torch, 火把
 minecraft:mob_spawner, 刷怪箱
 minecraft:oak_stairs, 橡木楼梯
-minecraft:chest, 木箱子
+minecraft:chest, 箱子
 minecraft:diamond_ore, 钻石矿石
 minecraft:diamond_block, 钻石块
 minecraft:crafting_table, 工作台
 minecraft:farmland, 耕地
 minecraft:furnace, 熔炉
 minecraft:ladder, 梯子
-minecraft:rail, 轨道
-minecraft:stone_stairs, 石头楼梯
+minecraft:rail, 铁轨
+minecraft:stone_stairs, 圆石楼梯
 minecraft:lever, 拉杆
 minecraft:stone_pressure_plate, 石质压力板
 minecraft:wooden_pressure_plate, 木质压力板
@@ -158,7 +158,7 @@ minecraft:stonebrick:2, 裂石砖
 minecraft:stonebrick:3, 錾制石砖
 minecraft:brown_mushroom_block, 蘑菇
 minecraft:red_mushroom_block, 蘑菇
-minecraft:iron_bars, 铁栅栏
+minecraft:iron_bars, 铁栏杆
 minecraft:glass_pane, 玻璃板
 minecraft:melon_block, 西瓜
 minecraft:vine, 藤蔓
@@ -208,7 +208,7 @@ minecraft:quartz_block:0, 石英块
 minecraft:quartz_block:1, 錾制石英块
 minecraft:quartz_block:2, 竖纹石英块
 minecraft:quartz_stairs, 石英楼梯
-minecraft:activator_rail, 激活轨道
+minecraft:activator_rail, 激活铁轨
 minecraft:dropper, 投掷器
 minecraft:stained_hardened_clay:0, 白色陶瓦
 minecraft:stained_hardened_clay:1, 橙色陶瓦
@@ -466,8 +466,8 @@ minecraft:reeds, 甘蔗
 minecraft:paper, 纸
 minecraft:book, 书
 minecraft:slime_ball, 粘液球
-minecraft:chest_minecart, 箱子车
-minecraft:furnace_minecart, 熔炉车
+minecraft:chest_minecart, 运输矿车
+minecraft:furnace_minecart, 动力矿车
 minecraft:egg, 鸡蛋
 minecraft:compass, 指南针
 minecraft:fishing_rod, 钓鱼竿
@@ -570,8 +570,8 @@ minecraft:enchanted_book, 附魔书
 minecraft:comparator, 红石比较器
 minecraft:netherbrick, 地狱砖块
 minecraft:quartz, 下界石英
-minecraft:tnt_minecart, TNT车
-minecraft:hopper_minecart, 漏斗车
+minecraft:tnt_minecart, TNT矿车
+minecraft:hopper_minecart, 漏斗矿车
 minecraft:prismarine_shard, 海晶碎片
 minecraft:prismarine_crystals, 海晶砂粒
 minecraft:rabbit, 生兔肉
@@ -580,9 +580,9 @@ minecraft:rabbit_stew, 兔肉煲
 minecraft:rabbit_foot, 兔子脚
 minecraft:rabbit_hide, 兔子皮
 minecraft:armor_stand, 盔甲架
-minecraft:iron_horse_armor, 铁制宠物盔甲
-minecraft:golden_horse_armor, 金制宠物盔甲
-minecraft:diamond_horse_armor, 钻石宠物盔甲
+minecraft:iron_horse_armor, 铁马铠
+minecraft:golden_horse_armor, 金马铠
+minecraft:diamond_horse_armor, 钻石马铠
 minecraft:lead, 拴绳
 minecraft:name_tag, 命名牌
 minecraft:command_block_minecart, 命令方块矿车
@@ -6978,7 +6978,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - 黑色羊毛
 appliedenergistics2:facade:0, 线缆伪装板 - 金块
 appliedenergistics2:facade:0, 线缆伪装板 - 铁块
 appliedenergistics2:facade:0, 线缆伪装板 - 砖块
-appliedenergistics2:facade:0, 线缆伪装板 - 火药炸弹
+appliedenergistics2:facade:0, 线缆伪装板 - TNT
 appliedenergistics2:facade:0, 线缆伪装板 - 书架
 appliedenergistics2:facade:0, 线缆伪装板 - 苔石
 appliedenergistics2:facade:0, 线缆伪装板 - 黑曜石
@@ -9369,65 +9369,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 雕琢褐岩块
 appliedenergistics2:facade:0, 线缆伪装板 - 三角纹褐岩石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 细纹褐岩石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 褐岩瓷砖块
-appliedenergistics2:facade:0, 线缆伪装板 - 烟熏石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制烟熏石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹烟熏石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 魔力石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制魔力石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹魔力石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 烈焰石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制烈焰石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹烈焰石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 熏香石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制熏香石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹熏香石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 红色石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制红色石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹红色石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 精灵石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制精灵石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹精灵石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 金黄石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制金黄石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹金黄石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 变质森林石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质平原石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高山石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高原石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质森林圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质平原圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高山圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高原圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质森林石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质平原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高山石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质森林石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质平原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质高山石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质菌丝石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质沼泽石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质沙漠石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质雪原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质高原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 白色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 黑色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 蓝色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 红色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 黄色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 绿色葡萄牙路面
 appliedenergistics2:facade:0, 线缆伪装板 - 活石
 appliedenergistics2:facade:0, 线缆伪装板 - 活石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 苔活石砖
@@ -9498,6 +9439,65 @@ appliedenergistics2:facade:0, 线缆伪装板 - 鲜草草地
 appliedenergistics2:facade:0, 线缆伪装板 - 焦草草地
 appliedenergistics2:facade:0, 线缆伪装板 - 注魔草地
 appliedenergistics2:facade:0, 线缆伪装板 - 异变草地
+appliedenergistics2:facade:0, 线缆伪装板 - 烟熏石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制烟熏石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹烟熏石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 魔力石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制魔力石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹魔力石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 烈焰石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制烈焰石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹烈焰石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 熏香石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制熏香石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹熏香石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 红色石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制红色石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹红色石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 精灵石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制精灵石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹精灵石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 金黄石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制金黄石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹金黄石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 变质森林石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质平原石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高山石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高原石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质森林圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质平原圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高山圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高原圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质森林石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质平原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高山石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质森林石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质平原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质高山石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质菌丝石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质沼泽石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质沙漠石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质雪原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质高原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 白色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 黑色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 蓝色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 红色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 黄色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 绿色葡萄牙路面
 appliedenergistics2:facade:0, 线缆伪装板 - 致密构建方块
 appliedenergistics2:facade:0, 线缆伪装板 - 紧实型压缩空间壁
 appliedenergistics2:facade:0, 线缆伪装板 - 压缩空间壁
@@ -13897,33 +13897,33 @@ tconstruct:slime_vine_purple_mid:0, 紫色史莱姆藤蔓
 tconstruct:slime_vine_purple:0, 紫色史莱姆藤蔓
 tconstruct:pattern:0, 空白模具
 tconstruct:pattern:0, 磨制工具模具
-tconstruct:pattern:0, 大板模具
-tconstruct:pattern:0, 牌板模具
-tconstruct:pattern:0, 护手模具
-tconstruct:pattern:0, 镐头模具
-tconstruct:pattern:0, 宽剑刃模具
-tconstruct:pattern:0, 园艺镰头模具
 tconstruct:pattern:0, 弓臂模具
-tconstruct:pattern:0, 斧刃模具
-tconstruct:pattern:0, 刀刃模具
-tconstruct:pattern:0, 坚韧手柄模具
-tconstruct:pattern:0, 锤头模具
-tconstruct:pattern:0, 盘模具
-tconstruct:pattern:0, 弓弦模具
-tconstruct:pattern:0, 手柄模具
-tconstruct:pattern:0, 宽斧刃模具
-tconstruct:pattern:0, 十字柄模具
-tconstruct:pattern:0, 箭羽模具
-tconstruct:pattern:0, 开掘铲头模具
-tconstruct:pattern:0, 剑刃模具
-tconstruct:pattern:0, 铲头模具
 tconstruct:pattern:0, 箭杆模具
-tconstruct:pattern:0, 箭头模具
-tconstruct:pattern:0, 坚韧绑定结模具
+tconstruct:pattern:0, 箭羽模具
 tconstruct:pattern:0, 绑定结模具
+tconstruct:pattern:0, 宽斧刃模具
 tconstruct:pattern:0, 碎片模具
+tconstruct:pattern:0, 园艺镰头模具
+tconstruct:pattern:0, 盘模具
+tconstruct:pattern:0, 牌板模具
+tconstruct:pattern:0, 剑刃模具
+tconstruct:pattern:0, 坚韧绑定结模具
+tconstruct:pattern:0, 大板模具
+tconstruct:pattern:0, 刀刃模具
+tconstruct:pattern:0, 护手模具
 tconstruct:pattern:0, 宽护手模具
+tconstruct:pattern:0, 铲头模具
+tconstruct:pattern:0, 十字柄模具
+tconstruct:pattern:0, 坚韧手柄模具
+tconstruct:pattern:0, 宽剑刃模具
+tconstruct:pattern:0, 箭头模具
 tconstruct:pattern:0, 镰刀头模具
+tconstruct:pattern:0, 斧刃模具
+tconstruct:pattern:0, 镐头模具
+tconstruct:pattern:0, 开掘铲头模具
+tconstruct:pattern:0, 手柄模具
+tconstruct:pattern:0, 弓弦模具
+tconstruct:pattern:0, 锤头模具
 tconstruct:shard:0, 磁钢碎片
 tconstruct:shard:0, 充能合金碎片
 tconstruct:shard:0, 脉冲合金碎片
@@ -18015,31 +18015,31 @@ tconstruct:seared_stairs_tile:0, 焦黑瓷砖楼梯
 tconstruct:seared_stairs_creeper:0, 焦黑雕琢楼梯
 tconstruct:cast:0, 空白铸模
 tconstruct:cast:0, 磨制工具铸模
-tconstruct:cast:0, 大板铸模
-tconstruct:cast:0, 牌板铸模
-tconstruct:cast:0, 护手铸模
-tconstruct:cast:0, 镐头铸模
-tconstruct:cast:0, 宽剑刃铸模
-tconstruct:cast:0, 园艺镰头铸模
 tconstruct:cast:0, 弓臂铸模
-tconstruct:cast:0, 斧刃铸模
-tconstruct:cast:0, 刀刃铸模
-tconstruct:cast:0, 坚韧手柄铸模
-tconstruct:cast:0, 锤头铸模
-tconstruct:cast:0, 盘铸模
-tconstruct:cast:0, 弓弦铸模
-tconstruct:cast:0, 手柄铸模
-tconstruct:cast:0, 宽斧刃铸模
-tconstruct:cast:0, 十字柄铸模
-tconstruct:cast:0, 开掘铲头铸模
-tconstruct:cast:0, 剑刃铸模
-tconstruct:cast:0, 铲头铸模
-tconstruct:cast:0, 箭头铸模
-tconstruct:cast:0, 坚韧绑定结铸模
 tconstruct:cast:0, 绑定结铸模
+tconstruct:cast:0, 宽斧刃铸模
 tconstruct:cast:0, 碎片铸模
+tconstruct:cast:0, 园艺镰头铸模
+tconstruct:cast:0, 盘铸模
+tconstruct:cast:0, 牌板铸模
+tconstruct:cast:0, 剑刃铸模
+tconstruct:cast:0, 坚韧绑定结铸模
+tconstruct:cast:0, 大板铸模
+tconstruct:cast:0, 刀刃铸模
+tconstruct:cast:0, 护手铸模
 tconstruct:cast:0, 宽护手铸模
+tconstruct:cast:0, 铲头铸模
+tconstruct:cast:0, 十字柄铸模
+tconstruct:cast:0, 坚韧手柄铸模
+tconstruct:cast:0, 宽剑刃铸模
+tconstruct:cast:0, 箭头铸模
 tconstruct:cast:0, 镰刀头铸模
+tconstruct:cast:0, 斧刃铸模
+tconstruct:cast:0, 镐头铸模
+tconstruct:cast:0, 开掘铲头铸模
+tconstruct:cast:0, 手柄铸模
+tconstruct:cast:0, 弓弦铸模
+tconstruct:cast:0, 锤头铸模
 tconstruct:cast_custom:0, 锭铸模
 tconstruct:cast_custom:1, 粒铸模
 tconstruct:cast_custom:2, 宝石铸模
@@ -18047,31 +18047,31 @@ tconstruct:cast_custom:3, 板铸模
 tconstruct:cast_custom:4, 齿轮铸模
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
 tconstruct:clay_cast:0, 磨制工具粘土铸模
-tconstruct:clay_cast:0, 大板粘土铸模
-tconstruct:clay_cast:0, 牌板粘土铸模
-tconstruct:clay_cast:0, 护手粘土铸模
-tconstruct:clay_cast:0, 镐头粘土铸模
-tconstruct:clay_cast:0, 宽剑刃粘土铸模
-tconstruct:clay_cast:0, 园艺镰头粘土铸模
 tconstruct:clay_cast:0, 弓臂粘土铸模
-tconstruct:clay_cast:0, 斧刃粘土铸模
-tconstruct:clay_cast:0, 刀刃粘土铸模
-tconstruct:clay_cast:0, 坚韧手柄粘土铸模
-tconstruct:clay_cast:0, 锤头粘土铸模
-tconstruct:clay_cast:0, 盘粘土铸模
-tconstruct:clay_cast:0, 弓弦粘土铸模
-tconstruct:clay_cast:0, 手柄粘土铸模
-tconstruct:clay_cast:0, 宽斧刃粘土铸模
-tconstruct:clay_cast:0, 十字柄粘土铸模
-tconstruct:clay_cast:0, 开掘铲头粘土铸模
-tconstruct:clay_cast:0, 剑刃粘土铸模
-tconstruct:clay_cast:0, 铲头粘土铸模
-tconstruct:clay_cast:0, 箭头粘土铸模
-tconstruct:clay_cast:0, 坚韧绑定结粘土铸模
 tconstruct:clay_cast:0, 绑定结粘土铸模
+tconstruct:clay_cast:0, 宽斧刃粘土铸模
 tconstruct:clay_cast:0, 碎片粘土铸模
+tconstruct:clay_cast:0, 园艺镰头粘土铸模
+tconstruct:clay_cast:0, 盘粘土铸模
+tconstruct:clay_cast:0, 牌板粘土铸模
+tconstruct:clay_cast:0, 剑刃粘土铸模
+tconstruct:clay_cast:0, 坚韧绑定结粘土铸模
+tconstruct:clay_cast:0, 大板粘土铸模
+tconstruct:clay_cast:0, 刀刃粘土铸模
+tconstruct:clay_cast:0, 护手粘土铸模
 tconstruct:clay_cast:0, 宽护手粘土铸模
+tconstruct:clay_cast:0, 铲头粘土铸模
+tconstruct:clay_cast:0, 十字柄粘土铸模
+tconstruct:clay_cast:0, 坚韧手柄粘土铸模
+tconstruct:clay_cast:0, 宽剑刃粘土铸模
+tconstruct:clay_cast:0, 箭头粘土铸模
 tconstruct:clay_cast:0, 镰刀头粘土铸模
+tconstruct:clay_cast:0, 斧刃粘土铸模
+tconstruct:clay_cast:0, 镐头粘土铸模
+tconstruct:clay_cast:0, 开掘铲头粘土铸模
+tconstruct:clay_cast:0, 手柄粘土铸模
+tconstruct:clay_cast:0, 弓弦粘土铸模
+tconstruct:clay_cast:0, 锤头粘土铸模
 tconstruct:stone_torch:0, 石柄火把
 tconstruct:stone_ladder:0, 石梯
 tconstruct:punji:0, 尖竹钉
@@ -18475,169 +18475,6 @@ bibliocraft:biblioglasses:2, 单片眼镜
 bibliocraft:bibliodrill, 机械螺丝刀
 bibliocraft:bibliocreativelock, 钥匙与锁
 bibliocraft:biblioclipboard, 写字板
-botania:livingwood0stairs, tile.livingwood0Stairs.name
-botania:livingwood0slab:0, 活木台阶
-botania:livingwood0wall, tile.livingwood0Wall.name
-botania:livingwood1stairs, tile.livingwood1Stairs.name
-botania:livingwood1slab:0, 活木台阶
-botania:livingrock0stairs, tile.livingrock0Stairs.name
-botania:livingrock0slab:0, 活石台阶
-botania:livingrock0wall, tile.livingrock0Wall.name
-botania:livingrock1stairs, tile.livingrock1Stairs.name
-botania:livingrock1slab:0, 活石砖台阶
-botania:dreamwood0stairs, tile.dreamwood0Stairs.name
-botania:dreamwood0slab:0, 梦之木台阶
-botania:dreamwood0wall, tile.dreamwood0Wall.name
-botania:dreamwood1stairs, tile.dreamwood1Stairs.name
-botania:dreamwood1slab:0, 梦之木台阶
-botania:quartztypedark:0, 烟熏石英块
-botania:quartztypedark:1, 錾制烟熏石英块
-botania:quartztypedark:2, 竖纹烟熏石英块
-botania:quartzslabdarkhalf:0, 烟熏石英台阶
-botania:quartzstairsdark, tile.quartzStairsDark.name
-botania:quartztypemana:0, 魔力石英块
-botania:quartztypemana:1, 錾制魔力石英块
-botania:quartztypemana:2, 竖纹魔力石英块
-botania:quartzslabmanahalf:0, 魔力石英台阶
-botania:quartzstairsmana, tile.quartzStairsMana.name
-botania:quartztypeblaze:0, 烈焰石英块
-botania:quartztypeblaze:1, 錾制烈焰石英块
-botania:quartztypeblaze:2, 竖纹烈焰石英块
-botania:quartzslabblazehalf:0, 烈焰石英台阶
-botania:quartzstairsblaze, tile.quartzStairsBlaze.name
-botania:quartztypelavender:0, 熏香石英块
-botania:quartztypelavender:1, 錾制熏香石英块
-botania:quartztypelavender:2, 竖纹熏香石英块
-botania:quartzslablavenderhalf:0, 熏香石英台阶
-botania:quartzstairslavender, tile.quartzStairsLavender.name
-botania:quartztypered:0, 红色石英块
-botania:quartztypered:1, 錾制红色石英块
-botania:quartztypered:2, 竖纹红色石英块
-botania:quartzslabredhalf:0, 红色石英台阶
-botania:quartzstairsred, tile.quartzStairsRed.name
-botania:quartztypeelf:0, 精灵石英块
-botania:quartztypeelf:1, 錾制精灵石英块
-botania:quartztypeelf:2, 竖纹精灵石英块
-botania:quartzslabelfhalf:0, 精灵石英台阶
-botania:quartzstairself, tile.quartzStairsElf.name
-botania:quartztypesunny:0, 金黄石英块
-botania:quartztypesunny:1, 錾制金黄石英块
-botania:quartztypesunny:2, 竖纹金黄石英块
-botania:quartzslabsunnyhalf:0, 金黄石英台阶
-botania:quartzstairssunny, tile.quartzStairsSunny.name
-botania:biomestonea:0, 变质森林石头
-botania:biomestonea:1, 变质平原石头
-botania:biomestonea:2, 变质高山石头
-botania:biomestonea:3, 变质菌丝石头
-botania:biomestonea:4, 变质沼泽石头
-botania:biomestonea:5, 变质沙漠石头
-botania:biomestonea:6, 变质雪原石头
-botania:biomestonea:7, 变质高原石头
-botania:biomestonea:8, 变质森林圆石
-botania:biomestonea:9, 变质平原圆石
-botania:biomestonea:10, 变质高山圆石
-botania:biomestonea:11, 变质菌丝圆石
-botania:biomestonea:12, 变质沼泽圆石
-botania:biomestonea:13, 变质沙漠圆石
-botania:biomestonea:14, 变质雪原圆石
-botania:biomestonea:15, 变质高原圆石
-botania:biomestoneb:0, 变质森林石砖
-botania:biomestoneb:1, 变质平原石砖
-botania:biomestoneb:2, 变质高山石砖
-botania:biomestoneb:3, 变质菌丝石砖
-botania:biomestoneb:4, 变质沼泽石砖
-botania:biomestoneb:5, 变质沙漠石砖
-botania:biomestoneb:6, 变质雪原石砖
-botania:biomestoneb:7, 变质高原石砖
-botania:biomestoneb:8, 錾制变质森林石砖
-botania:biomestoneb:9, 錾制变质平原石砖
-botania:biomestoneb:10, 錾制变质高山石砖
-botania:biomestoneb:11, 錾制变质菌丝石砖
-botania:biomestoneb:12, 錾制变质沼泽石砖
-botania:biomestoneb:13, 錾制变质沙漠石砖
-botania:biomestoneb:14, 錾制变质雪原石砖
-botania:biomestoneb:15, 錾制变质高原石砖
-botania:pavement:0, 白色葡萄牙路面
-botania:pavement:1, 黑色葡萄牙路面
-botania:pavement:2, 蓝色葡萄牙路面
-botania:pavement:3, 红色葡萄牙路面
-botania:pavement:4, 黄色葡萄牙路面
-botania:pavement:5, 绿色葡萄牙路面
-botania:biomestonea0stairs, tile.biomeStoneA0Stairs.name
-botania:biomestonea0slab:0, 变质森林石头台阶
-botania:biomestonea1stairs, tile.biomeStoneA1Stairs.name
-botania:biomestonea1slab:0, 变质平原石头台阶
-botania:biomestonea2stairs, tile.biomeStoneA2Stairs.name
-botania:biomestonea2slab:0, 变质高山石头台阶
-botania:biomestonea3stairs, tile.biomeStoneA3Stairs.name
-botania:biomestonea3slab:0, 变质菌丝石头台阶
-botania:biomestonea4stairs, tile.biomeStoneA4Stairs.name
-botania:biomestonea4slab:0, 变质沼泽石头台阶
-botania:biomestonea5stairs, tile.biomeStoneA5Stairs.name
-botania:biomestonea5slab:0, 变质沙漠石头台阶
-botania:biomestonea6stairs, tile.biomeStoneA6Stairs.name
-botania:biomestonea6slab:0, 变质雪原石头台阶
-botania:biomestonea7stairs, tile.biomeStoneA7Stairs.name
-botania:biomestonea7slab:0, 变质高原石头台阶
-botania:biomestonea8stairs, tile.biomeStoneA8Stairs.name
-botania:biomestonea8slab:0, 变质森林圆石台阶
-botania:biomestonea9stairs, tile.biomeStoneA9Stairs.name
-botania:biomestonea9slab:0, 变质平原圆石台阶
-botania:biomestonea10stairs, tile.biomeStoneA10Stairs.name
-botania:biomestonea10slab:0, 变质高山圆石台阶
-botania:biomestonea11stairs, tile.biomeStoneA11Stairs.name
-botania:biomestonea11slab:0, 变质菌丝圆石台阶
-botania:biomestonea12stairs, tile.biomeStoneA12Stairs.name
-botania:biomestonea12slab:0, 变质沼泽圆石台阶
-botania:biomestonea13stairs, tile.biomeStoneA13Stairs.name
-botania:biomestonea13slab:0, 变质沙漠圆石台阶
-botania:biomestonea14stairs, tile.biomeStoneA14Stairs.name
-botania:biomestonea14slab:0, 变质雪原圆石台阶
-botania:biomestonea15stairs, tile.biomeStoneA15Stairs.name
-botania:biomestonea15slab:0, 变质高原圆石台阶
-botania:biomestoneb0stairs, tile.biomeStoneB0Stairs.name
-botania:biomestoneb0slab:0, 变质森林石砖台阶
-botania:biomestoneb1stairs, tile.biomeStoneB1Stairs.name
-botania:biomestoneb1slab:0, 变质平原石砖台阶
-botania:biomestoneb2stairs, tile.biomeStoneB2Stairs.name
-botania:biomestoneb2slab:0, 变质高山石砖台阶
-botania:biomestoneb3stairs, tile.biomeStoneB3Stairs.name
-botania:biomestoneb3slab:0, 变质菌丝石砖台阶
-botania:biomestoneb4stairs, tile.biomeStoneB4Stairs.name
-botania:biomestoneb4slab:0, 变质沼泽石砖台阶
-botania:biomestoneb5stairs, tile.biomeStoneB5Stairs.name
-botania:biomestoneb5slab:0, 变质沙漠石砖台阶
-botania:biomestoneb6stairs, tile.biomeStoneB6Stairs.name
-botania:biomestoneb6slab:0, 变质雪原石砖台阶
-botania:biomestoneb7stairs, tile.biomeStoneB7Stairs.name
-botania:biomestoneb7slab:0, 变质高原石砖台阶
-botania:biomestonea0wall:0, 变质森林石墙
-botania:biomestonea0wall:1, 变质平原石墙
-botania:biomestonea0wall:2, 变质高山石墙
-botania:biomestonea0wall:3, 变质菌丝石墙
-botania:biomestonea0wall:4, 变质沼泽石墙
-botania:biomestonea0wall:5, 变质沙漠石墙
-botania:biomestonea0wall:6, 变质雪原石墙
-botania:biomestonea0wall:7, 变质高原石墙
-botania:pavement0stairs, tile.pavement0Stairs.name
-botania:pavement0slab:0, 白色葡萄牙台阶
-botania:pavement1stairs, tile.pavement1Stairs.name
-botania:pavement1slab:0, 黑色葡萄牙台阶
-botania:pavement2stairs, tile.pavement2Stairs.name
-botania:pavement2slab:0, 蓝色葡萄牙台阶
-botania:pavement3stairs, tile.pavement3Stairs.name
-botania:pavement3slab:0, 红色葡萄牙台阶
-botania:pavement4stairs, tile.pavement4Stairs.name
-botania:pavement4slab:0, 黄色葡萄牙台阶
-botania:pavement5stairs, tile.pavement5Stairs.name
-botania:pavement5slab:0, 绿色葡萄牙台阶
-botania:shimmerrock0slab:0, 微光石台阶
-botania:shimmerrock0stairs, tile.shimmerrock0Stairs.name
-botania:shimmerwoodplanks0slab:0, 微光木板台阶
-botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
-botania:managlasspane, tile.manaGlassPane.name
-botania:elfglasspane, tile.elfGlassPane.name
-botania:bifrostpermpane, tile.bifrostPermPane.name
 botania:lexicon, item.lexicon.name
 botania:petal:0, 白色神秘花瓣
 botania:petal:1, 橙色神秘花瓣
@@ -19058,10 +18895,10 @@ botania:specialflower:0, 小气泡铃
 botania:specialflower:0, 弱磁兰
 botania:specialflower:0, 小弱磁兰
 botania:specialflower:0, 消音柑
-botania:specialflower:0, 惊雷之花
-botania:specialflower:0, 碎玉之花
 botania:specialflower:0, 清露之花
+botania:specialflower:0, 碎玉之花
 botania:specialflower:0, 凋零之花
+botania:specialflower:0, 惊雷之花
 botania:spreader:0, 魔力发射器
 botania:spreader:1, 魔力发射器（红石）
 botania:spreader:2, 精灵魔力发射器
@@ -19216,10 +19053,10 @@ botania:floatingspecialflower:0, 浮空小气泡铃
 botania:floatingspecialflower:0, 浮空弱磁兰
 botania:floatingspecialflower:0, 浮空小弱磁兰
 botania:floatingspecialflower:0, 浮空消音柑
-botania:floatingspecialflower:0, 浮空惊雷之花
-botania:floatingspecialflower:0, 浮空碎玉之花
 botania:floatingspecialflower:0, 浮空清露之花
+botania:floatingspecialflower:0, 浮空碎玉之花
 botania:floatingspecialflower:0, 浮空凋零之花
+botania:floatingspecialflower:0, 浮空惊雷之花
 botania:prism, tile.prism.name
 botania:enchantedsoil, tile.enchantedSoil.name
 botania:petalblock:0, 白色花瓣块
@@ -19306,6 +19143,169 @@ botania:altgrass:3, 焦草草地
 botania:altgrass:4, 注魔草地
 botania:altgrass:5, 异变草地
 botania:animatedtorch, tile.animatedTorch.name
+botania:livingwood0stairs, tile.livingwood0Stairs.name
+botania:livingwood0slab:0, 活木台阶
+botania:livingwood0wall, tile.livingwood0Wall.name
+botania:livingwood1stairs, tile.livingwood1Stairs.name
+botania:livingwood1slab:0, 活木台阶
+botania:livingrock0stairs, tile.livingrock0Stairs.name
+botania:livingrock0slab:0, 活石台阶
+botania:livingrock0wall, tile.livingrock0Wall.name
+botania:livingrock1stairs, tile.livingrock1Stairs.name
+botania:livingrock1slab:0, 活石砖台阶
+botania:dreamwood0stairs, tile.dreamwood0Stairs.name
+botania:dreamwood0slab:0, 梦之木台阶
+botania:dreamwood0wall, tile.dreamwood0Wall.name
+botania:dreamwood1stairs, tile.dreamwood1Stairs.name
+botania:dreamwood1slab:0, 梦之木台阶
+botania:quartztypedark:0, 烟熏石英块
+botania:quartztypedark:1, 錾制烟熏石英块
+botania:quartztypedark:2, 竖纹烟熏石英块
+botania:quartzslabdarkhalf:0, 烟熏石英台阶
+botania:quartzstairsdark, tile.quartzStairsDark.name
+botania:quartztypemana:0, 魔力石英块
+botania:quartztypemana:1, 錾制魔力石英块
+botania:quartztypemana:2, 竖纹魔力石英块
+botania:quartzslabmanahalf:0, 魔力石英台阶
+botania:quartzstairsmana, tile.quartzStairsMana.name
+botania:quartztypeblaze:0, 烈焰石英块
+botania:quartztypeblaze:1, 錾制烈焰石英块
+botania:quartztypeblaze:2, 竖纹烈焰石英块
+botania:quartzslabblazehalf:0, 烈焰石英台阶
+botania:quartzstairsblaze, tile.quartzStairsBlaze.name
+botania:quartztypelavender:0, 熏香石英块
+botania:quartztypelavender:1, 錾制熏香石英块
+botania:quartztypelavender:2, 竖纹熏香石英块
+botania:quartzslablavenderhalf:0, 熏香石英台阶
+botania:quartzstairslavender, tile.quartzStairsLavender.name
+botania:quartztypered:0, 红色石英块
+botania:quartztypered:1, 錾制红色石英块
+botania:quartztypered:2, 竖纹红色石英块
+botania:quartzslabredhalf:0, 红色石英台阶
+botania:quartzstairsred, tile.quartzStairsRed.name
+botania:quartztypeelf:0, 精灵石英块
+botania:quartztypeelf:1, 錾制精灵石英块
+botania:quartztypeelf:2, 竖纹精灵石英块
+botania:quartzslabelfhalf:0, 精灵石英台阶
+botania:quartzstairself, tile.quartzStairsElf.name
+botania:quartztypesunny:0, 金黄石英块
+botania:quartztypesunny:1, 錾制金黄石英块
+botania:quartztypesunny:2, 竖纹金黄石英块
+botania:quartzslabsunnyhalf:0, 金黄石英台阶
+botania:quartzstairssunny, tile.quartzStairsSunny.name
+botania:biomestonea:0, 变质森林石头
+botania:biomestonea:1, 变质平原石头
+botania:biomestonea:2, 变质高山石头
+botania:biomestonea:3, 变质菌丝石头
+botania:biomestonea:4, 变质沼泽石头
+botania:biomestonea:5, 变质沙漠石头
+botania:biomestonea:6, 变质雪原石头
+botania:biomestonea:7, 变质高原石头
+botania:biomestonea:8, 变质森林圆石
+botania:biomestonea:9, 变质平原圆石
+botania:biomestonea:10, 变质高山圆石
+botania:biomestonea:11, 变质菌丝圆石
+botania:biomestonea:12, 变质沼泽圆石
+botania:biomestonea:13, 变质沙漠圆石
+botania:biomestonea:14, 变质雪原圆石
+botania:biomestonea:15, 变质高原圆石
+botania:biomestoneb:0, 变质森林石砖
+botania:biomestoneb:1, 变质平原石砖
+botania:biomestoneb:2, 变质高山石砖
+botania:biomestoneb:3, 变质菌丝石砖
+botania:biomestoneb:4, 变质沼泽石砖
+botania:biomestoneb:5, 变质沙漠石砖
+botania:biomestoneb:6, 变质雪原石砖
+botania:biomestoneb:7, 变质高原石砖
+botania:biomestoneb:8, 錾制变质森林石砖
+botania:biomestoneb:9, 錾制变质平原石砖
+botania:biomestoneb:10, 錾制变质高山石砖
+botania:biomestoneb:11, 錾制变质菌丝石砖
+botania:biomestoneb:12, 錾制变质沼泽石砖
+botania:biomestoneb:13, 錾制变质沙漠石砖
+botania:biomestoneb:14, 錾制变质雪原石砖
+botania:biomestoneb:15, 錾制变质高原石砖
+botania:pavement:0, 白色葡萄牙路面
+botania:pavement:1, 黑色葡萄牙路面
+botania:pavement:2, 蓝色葡萄牙路面
+botania:pavement:3, 红色葡萄牙路面
+botania:pavement:4, 黄色葡萄牙路面
+botania:pavement:5, 绿色葡萄牙路面
+botania:biomestonea0stairs, tile.biomeStoneA0Stairs.name
+botania:biomestonea0slab:0, 变质森林石头台阶
+botania:biomestonea1stairs, tile.biomeStoneA1Stairs.name
+botania:biomestonea1slab:0, 变质平原石头台阶
+botania:biomestonea2stairs, tile.biomeStoneA2Stairs.name
+botania:biomestonea2slab:0, 变质高山石头台阶
+botania:biomestonea3stairs, tile.biomeStoneA3Stairs.name
+botania:biomestonea3slab:0, 变质菌丝石头台阶
+botania:biomestonea4stairs, tile.biomeStoneA4Stairs.name
+botania:biomestonea4slab:0, 变质沼泽石头台阶
+botania:biomestonea5stairs, tile.biomeStoneA5Stairs.name
+botania:biomestonea5slab:0, 变质沙漠石头台阶
+botania:biomestonea6stairs, tile.biomeStoneA6Stairs.name
+botania:biomestonea6slab:0, 变质雪原石头台阶
+botania:biomestonea7stairs, tile.biomeStoneA7Stairs.name
+botania:biomestonea7slab:0, 变质高原石头台阶
+botania:biomestonea8stairs, tile.biomeStoneA8Stairs.name
+botania:biomestonea8slab:0, 变质森林圆石台阶
+botania:biomestonea9stairs, tile.biomeStoneA9Stairs.name
+botania:biomestonea9slab:0, 变质平原圆石台阶
+botania:biomestonea10stairs, tile.biomeStoneA10Stairs.name
+botania:biomestonea10slab:0, 变质高山圆石台阶
+botania:biomestonea11stairs, tile.biomeStoneA11Stairs.name
+botania:biomestonea11slab:0, 变质菌丝圆石台阶
+botania:biomestonea12stairs, tile.biomeStoneA12Stairs.name
+botania:biomestonea12slab:0, 变质沼泽圆石台阶
+botania:biomestonea13stairs, tile.biomeStoneA13Stairs.name
+botania:biomestonea13slab:0, 变质沙漠圆石台阶
+botania:biomestonea14stairs, tile.biomeStoneA14Stairs.name
+botania:biomestonea14slab:0, 变质雪原圆石台阶
+botania:biomestonea15stairs, tile.biomeStoneA15Stairs.name
+botania:biomestonea15slab:0, 变质高原圆石台阶
+botania:biomestoneb0stairs, tile.biomeStoneB0Stairs.name
+botania:biomestoneb0slab:0, 变质森林石砖台阶
+botania:biomestoneb1stairs, tile.biomeStoneB1Stairs.name
+botania:biomestoneb1slab:0, 变质平原石砖台阶
+botania:biomestoneb2stairs, tile.biomeStoneB2Stairs.name
+botania:biomestoneb2slab:0, 变质高山石砖台阶
+botania:biomestoneb3stairs, tile.biomeStoneB3Stairs.name
+botania:biomestoneb3slab:0, 变质菌丝石砖台阶
+botania:biomestoneb4stairs, tile.biomeStoneB4Stairs.name
+botania:biomestoneb4slab:0, 变质沼泽石砖台阶
+botania:biomestoneb5stairs, tile.biomeStoneB5Stairs.name
+botania:biomestoneb5slab:0, 变质沙漠石砖台阶
+botania:biomestoneb6stairs, tile.biomeStoneB6Stairs.name
+botania:biomestoneb6slab:0, 变质雪原石砖台阶
+botania:biomestoneb7stairs, tile.biomeStoneB7Stairs.name
+botania:biomestoneb7slab:0, 变质高原石砖台阶
+botania:biomestonea0wall:0, 变质森林石墙
+botania:biomestonea0wall:1, 变质平原石墙
+botania:biomestonea0wall:2, 变质高山石墙
+botania:biomestonea0wall:3, 变质菌丝石墙
+botania:biomestonea0wall:4, 变质沼泽石墙
+botania:biomestonea0wall:5, 变质沙漠石墙
+botania:biomestonea0wall:6, 变质雪原石墙
+botania:biomestonea0wall:7, 变质高原石墙
+botania:pavement0stairs, tile.pavement0Stairs.name
+botania:pavement0slab:0, 白色葡萄牙台阶
+botania:pavement1stairs, tile.pavement1Stairs.name
+botania:pavement1slab:0, 黑色葡萄牙台阶
+botania:pavement2stairs, tile.pavement2Stairs.name
+botania:pavement2slab:0, 蓝色葡萄牙台阶
+botania:pavement3stairs, tile.pavement3Stairs.name
+botania:pavement3slab:0, 红色葡萄牙台阶
+botania:pavement4stairs, tile.pavement4Stairs.name
+botania:pavement4slab:0, 黄色葡萄牙台阶
+botania:pavement5stairs, tile.pavement5Stairs.name
+botania:pavement5slab:0, 绿色葡萄牙台阶
+botania:shimmerrock0slab:0, 微光石台阶
+botania:shimmerrock0stairs, tile.shimmerrock0Stairs.name
+botania:shimmerwoodplanks0slab:0, 微光木板台阶
+botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
+botania:managlasspane, tile.manaGlassPane.name
+botania:elfglasspane, tile.elfGlassPane.name
+botania:bifrostpermpane, tile.bifrostPermPane.name
 buildinggadgets:buildingtool, 建筑小帮手
 buildinggadgets:exchangertool, 更替小帮手
 buildinggadgets:copypastetool, 复制-粘贴小帮手
@@ -21177,27 +21177,6 @@ notreepunching:saw/bronze, 青铜锯
 notreepunching:saw/steel, 钢锯
 snad:snad:0, 子沙
 snad:snad:1, 红子沙
-storagedrawers:upgrade_template, 升级模板
-storagedrawers:upgrade_storage:0, 抽屉容量升级（I）
-storagedrawers:upgrade_storage:1, 抽屉容量升级（II）
-storagedrawers:upgrade_storage:2, 抽屉容量升级（III）
-storagedrawers:upgrade_storage:3, 抽屉容量升级（IV）
-storagedrawers:upgrade_storage:4, 抽屉容量升级（V）
-storagedrawers:upgrade_one_stack, 存储降级
-storagedrawers:upgrade_status:0, 状态显示升级（I）
-storagedrawers:upgrade_status:1, 状态显示升级（II）
-storagedrawers:upgrade_void, 清空升级
-storagedrawers:upgrade_conversion, 转换升级
-storagedrawers:upgrade_creative:0, 创造模式容量升级
-storagedrawers:upgrade_creative:1, 创造模式取出升级
-storagedrawers:upgrade_redstone:0, 红石升级
-storagedrawers:upgrade_redstone:1, 红石升级（最大）
-storagedrawers:upgrade_redstone:2, 红石升级（最小）
-storagedrawers:drawer_key, 抽屉钥匙
-storagedrawers:shroud_key, 屏蔽钥匙
-storagedrawers:personal_key, 私人钥匙
-storagedrawers:quantify_key, 量化钥匙
-storagedrawers:tape, 打包带
 storagedrawers:basicdrawers:0, 基础抽屉
 storagedrawers:basicdrawers:0, 基础抽屉
 storagedrawers:basicdrawers:0, 基础抽屉
@@ -21248,6 +21227,27 @@ storagedrawers:customdrawers:2, 2x2 镶框抽屉
 storagedrawers:customdrawers:3, 1x2 小型镶框抽屉
 storagedrawers:customdrawers:4, 2x2 小型镶框抽屉
 storagedrawers:customtrim, 镶框
+storagedrawers:upgrade_template, 升级模板
+storagedrawers:upgrade_storage:0, 抽屉容量升级（I）
+storagedrawers:upgrade_storage:1, 抽屉容量升级（II）
+storagedrawers:upgrade_storage:2, 抽屉容量升级（III）
+storagedrawers:upgrade_storage:3, 抽屉容量升级（IV）
+storagedrawers:upgrade_storage:4, 抽屉容量升级（V）
+storagedrawers:upgrade_one_stack, 存储降级
+storagedrawers:upgrade_status:0, 状态显示升级（I）
+storagedrawers:upgrade_status:1, 状态显示升级（II）
+storagedrawers:upgrade_void, 清空升级
+storagedrawers:upgrade_conversion, 转换升级
+storagedrawers:upgrade_creative:0, 创造模式容量升级
+storagedrawers:upgrade_creative:1, 创造模式取出升级
+storagedrawers:upgrade_redstone:0, 红石升级
+storagedrawers:upgrade_redstone:1, 红石升级（最大）
+storagedrawers:upgrade_redstone:2, 红石升级（最小）
+storagedrawers:drawer_key, 抽屉钥匙
+storagedrawers:shroud_key, 屏蔽钥匙
+storagedrawers:personal_key, 私人钥匙
+storagedrawers:quantify_key, 量化钥匙
+storagedrawers:tape, 打包带
 storagedrawersextra:extra_drawers:0, 基础抽屉
 storagedrawersextra:extra_drawers:0, 基础抽屉
 storagedrawersextra:extra_drawers:0, 基础抽屉
@@ -25287,65 +25287,6 @@ chiselsandbits:block_bit:0, 雕刻碎屑 - 雕琢褐岩块
 chiselsandbits:block_bit:0, 雕刻碎屑 - 三角纹褐岩石砖
 chiselsandbits:block_bit:0, 雕刻碎屑 - 细纹褐岩石砖
 chiselsandbits:block_bit:0, 雕刻碎屑 - 褐岩瓷砖块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 烟熏石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制烟熏石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹烟熏石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 魔力石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制魔力石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹魔力石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 烈焰石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制烈焰石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹烈焰石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 熏香石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制熏香石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹熏香石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 红色石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制红色石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹红色石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 精灵石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制精灵石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹精灵石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 金黄石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制金黄石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹金黄石英块
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质森林石头
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质平原石头
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质高山石头
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质菌丝石头
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质沼泽石头
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质沙漠石头
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质雪原石头
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质高原石头
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质森林圆石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质平原圆石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质高山圆石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质菌丝圆石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质沼泽圆石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质沙漠圆石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质雪原圆石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质高原圆石
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质森林石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质平原石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质高山石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质菌丝石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质沼泽石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质沙漠石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质雪原石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 变质高原石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质森林石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质平原石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质高山石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质菌丝石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质沼泽石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质沙漠石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质雪原石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质高原石砖
-chiselsandbits:block_bit:0, 雕刻碎屑 - 白色葡萄牙路面
-chiselsandbits:block_bit:0, 雕刻碎屑 - 黑色葡萄牙路面
-chiselsandbits:block_bit:0, 雕刻碎屑 - 蓝色葡萄牙路面
-chiselsandbits:block_bit:0, 雕刻碎屑 - 红色葡萄牙路面
-chiselsandbits:block_bit:0, 雕刻碎屑 - 黄色葡萄牙路面
-chiselsandbits:block_bit:0, 雕刻碎屑 - 绿色葡萄牙路面
 chiselsandbits:block_bit:0, 雕刻碎屑 - 活石
 chiselsandbits:block_bit:0, 雕刻碎屑 - 活石砖
 chiselsandbits:block_bit:0, 雕刻碎屑 - 苔活石砖
@@ -25408,6 +25349,65 @@ chiselsandbits:block_bit:0, 雕刻碎屑 - 恶魔头南瓜 南
 chiselsandbits:block_bit:0, 雕刻碎屑 - 魔力风暴
 chiselsandbits:block_bit:0, 雕刻碎屑 - 微光石
 chiselsandbits:block_bit:0, 雕刻碎屑 - 微光木板
+chiselsandbits:block_bit:0, 雕刻碎屑 - 烟熏石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制烟熏石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹烟熏石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 魔力石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制魔力石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹魔力石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 烈焰石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制烈焰石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹烈焰石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 熏香石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制熏香石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹熏香石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 红色石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制红色石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹红色石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 精灵石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制精灵石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹精灵石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 金黄石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制金黄石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 竖纹金黄石英块
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质森林石头
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质平原石头
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质高山石头
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质菌丝石头
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质沼泽石头
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质沙漠石头
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质雪原石头
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质高原石头
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质森林圆石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质平原圆石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质高山圆石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质菌丝圆石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质沼泽圆石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质沙漠圆石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质雪原圆石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质高原圆石
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质森林石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质平原石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质高山石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质菌丝石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质沼泽石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质沙漠石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质雪原石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 变质高原石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质森林石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质平原石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质高山石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质菌丝石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质沼泽石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质沙漠石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质雪原石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 錾制变质高原石砖
+chiselsandbits:block_bit:0, 雕刻碎屑 - 白色葡萄牙路面
+chiselsandbits:block_bit:0, 雕刻碎屑 - 黑色葡萄牙路面
+chiselsandbits:block_bit:0, 雕刻碎屑 - 蓝色葡萄牙路面
+chiselsandbits:block_bit:0, 雕刻碎屑 - 红色葡萄牙路面
+chiselsandbits:block_bit:0, 雕刻碎屑 - 黄色葡萄牙路面
+chiselsandbits:block_bit:0, 雕刻碎屑 - 绿色葡萄牙路面
 chiselsandbits:block_bit:0, 雕刻碎屑 - 致密构建方块
 chiselsandbits:block_bit:0, 雕刻碎屑 - 压缩空间壁
 chiselsandbits:block_bit:0, 雕刻碎屑 - 厨房地板
