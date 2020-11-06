@@ -1,0 +1,27 @@
+{
+	title: "石儿子儿",
+	x: 7.5d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"地上随处可见的石子也可以拼凑成大块的圆石"
+	],
+	dependencies: [
+		"d4f4dd1b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "eb78da01",
+		type: "item",
+		title: "Any rockStone",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rockStone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

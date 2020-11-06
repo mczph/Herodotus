@@ -1,0 +1,32 @@
+{
+	title: "你的第一把工具",
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"使用燧石左键敲击硬表面（如石头），磨制出燧石碎片，将燧石碎片接在木棍上，制作一把燧石小刀"
+	],
+	dependencies: [
+		"e2064a8c",
+		"86b65e5d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "85a7e5ec",
+		type: "item",
+		items: [{
+			item: "notreepunching:flint_shard"
+		}]
+	},
+	{
+		uid: "176e8de9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "notreepunching:knife/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

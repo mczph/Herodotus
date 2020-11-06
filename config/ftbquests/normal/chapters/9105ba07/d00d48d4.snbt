@@ -1,0 +1,28 @@
+{
+	title: "背包",
+	x: 9.5d,
+	y: -1.0d,
+	shape: "rsquare",
+	text: [
+		"制作装东西用的背包"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2ce82121",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					upgrade: [],
+					type: "ironbackpacks:basic",
+					spec: "NONE"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

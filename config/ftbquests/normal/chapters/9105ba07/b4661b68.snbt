@@ -1,0 +1,25 @@
+{
+	title: "燧石锹",
+	x: 6.0d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		"制作一把燧石锹"
+	],
+	dependencies: [
+		"f06b3d74"
+	],
+	optional: true,
+	tasks: [{
+		uid: "23a1f867",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "notreepunching:shovel/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

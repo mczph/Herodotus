@@ -1,0 +1,28 @@
+{
+	title: "宝石宝石宝石宝石",
+	x: 10.5d,
+	y: 1.0d,
+	text: [
+		"绝大多数材料已被禁用",
+		"采掘一些宝石，使用宝石制作匠魂工具"
+	],
+	dependencies: [
+		"fd179ec6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a0953dd9",
+		type: "item",
+		title: "Any sgems",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "sgems",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "制作黑切(雾",
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"使用植物线把燧石碎片和木棍绑在一起，制作一把粗糙的斧子"
+	],
+	dependencies: [
+		"5fa61cdf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fff4e4e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "notreepunching:axe/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f135d90b",
+		type: "item",
+		item: "minecraft:log",
+		count: 5
+	}]
+}
