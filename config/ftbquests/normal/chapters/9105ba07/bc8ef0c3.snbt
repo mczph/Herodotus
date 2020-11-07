@@ -1,11 +1,28 @@
 {
-	x: 13.0d,
-	y: 3.0d,
+	title: "盐矿脉",
+	x: 14.5d,
+	y: 6.5d,
+	text: [
+		"稀有度: 1/12chunks",
+		"生成高度: Y60~80",
+		"规模: 300~800blocks",
+		"所含矿物: 岩盐"
+	],
+	dependencies: [
+		"baae3c32"
+	],
+	hide: true,
+	optional: true,
 	tasks: [{
-		uid: "7a5a624e",
+		uid: "e59f51e1",
 		type: "item",
 		items: [{
-			item: "xlfoodmod:rock_salt"
+			item: "xlfoodmod:salt"
 		}]
+	}],
+	rewards: [{
+		uid: "373d75d9",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

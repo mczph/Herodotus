@@ -1,11 +1,49 @@
 {
-	x: 12.0d,
-	y: 5.0d,
+	title: "海蓝宝石宝石簇",
+	x: 11.0d,
+	y: 10.5d,
+	text: [
+		"稀有度: 1/50chunks",
+		"生成高度: Y20~30",
+		"规模:200~800blocks",
+		"所含矿物: 海蓝宝石,紫色蓝宝石,坦桑石,蓝晶石"
+	],
+	dependencies: [
+		"baae3c32"
+	],
+	hide: true,
+	optional: true,
 	tasks: [{
-		uid: "e1f8b53a",
+		uid: "ec0cbe6d",
 		type: "item",
 		items: [{
-			item: "silentgems:gemore 1 8"
+			item: "silentgems:gem 1 8"
 		}]
+	},
+	{
+		uid: "50b8783d",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 27"
+		}]
+	},
+	{
+		uid: "6502ea83",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 26"
+		}]
+	},
+	{
+		uid: "660edc69",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 41"
+		}]
+	}],
+	rewards: [{
+		uid: "5d813d6a",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

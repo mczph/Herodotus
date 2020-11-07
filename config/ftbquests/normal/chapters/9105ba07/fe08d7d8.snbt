@@ -1,11 +1,35 @@
 {
-	x: 10.0d,
-	y: 5.0d,
+	title: "磷灰石宝石簇",
+	x: 13.0d,
+	y: 10.5d,
+	text: [
+		"稀有度: 1/50chunks",
+		"生成高度: Y20~30",
+		"规模:200~800blocks",
+		"所含矿物: 磷灰石,磷云母"
+	],
+	dependencies: [
+		"baae3c32"
+	],
+	hide: true,
+	optional: true,
 	tasks: [{
-		uid: "3d292f4c",
+		uid: "4b4f495a",
 		type: "item",
 		items: [{
-			item: "silentgems:gemorelight 1 7"
+			item: "silentgems:gem 1 39"
 		}]
+	},
+	{
+		uid: "796ce597",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 28"
+		}]
+	}],
+	rewards: [{
+		uid: "39dc8915",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

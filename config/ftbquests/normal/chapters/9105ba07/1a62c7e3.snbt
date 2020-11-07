@@ -1,13 +1,18 @@
 {
 	title: "黑钻矿脉",
-	x: 6.0d,
-	y: 7.0d,
+	x: 6.5d,
+	y: 5.5d,
 	text: [
 		"稀有度: 1/40chunks",
 		"生成高度: Y10~30",
 		"规模: 500~1300blocks",
 		"所含矿物: 煤,焦黑石英,黑钻"
 	],
+	dependencies: [
+		"baae3c32"
+	],
+	hide: true,
+	optional: true,
 	tasks: [{
 		uid: "1e9e3a88",
 		type: "item",

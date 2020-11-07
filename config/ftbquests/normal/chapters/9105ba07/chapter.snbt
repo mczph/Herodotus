@@ -10,8 +10,8 @@
 	group: 0,
 	default_quest_shape: "",
 	images: [{
-		x: 3.5d,
-		y: -2.0d,
+		x: 4.5d,
+		y: -2.5d,
 		width: 11.0d,
 		height: 3.2d,
 		rotation: 0.0d,

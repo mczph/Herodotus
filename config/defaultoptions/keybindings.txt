@@ -167,7 +167,7 @@ key_key.journeymap.fullscreen.south:208:NONE
 key_key.journeymap.fullscreen.east:205:NONE
 key_key.journeymap.fullscreen.west:203:NONE
 key_key.control:29:NONE
-key_Profile GUI:0:NONE
+key_Profile GUI:210:NONE
 key_enderio.keybind.inventory:23:NONE
 key_enderio.keybind.dsu:0:NONE
 key_enderio.keybind.glidertoggle:34:NONE

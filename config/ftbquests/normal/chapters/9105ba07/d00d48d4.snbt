@@ -1,11 +1,16 @@
 {
 	title: "背包",
-	x: 9.5d,
-	y: -1.0d,
+	x: 8.5d,
+	y: -0.5d,
 	shape: "rsquare",
 	text: [
 		"制作装东西用的背包"
 	],
+	dependencies: [
+		"fd179ec6"
+	],
+	hide: true,
+	dependency_requirement: "all_started",
 	optional: true,
 	tasks: [{
 		uid: "2ce82121",

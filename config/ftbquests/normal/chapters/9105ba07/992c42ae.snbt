@@ -1,11 +1,42 @@
 {
-	x: 12.0d,
-	y: 2.0d,
+	title: "铀矿脉",
+	x: 14.5d,
+	y: 5.5d,
+	text: [
+		"稀有度: 1/56chunks",
+		"生成高度: Y30~40",
+		"规模: 300~1000blocks",
+		"所含矿物: 铀,钍,尖晶石"
+	],
+	dependencies: [
+		"baae3c32"
+	],
+	hide: true,
+	optional: true,
 	tasks: [{
 		uid: "268df09a",
 		type: "item",
 		items: [{
 			item: "ic2:resource 1 4"
 		}]
+	},
+	{
+		uid: "9604a724",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 3"
+		}]
+	},
+	{
+		uid: "2b37dd47",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "8376568e",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

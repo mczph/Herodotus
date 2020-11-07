@@ -1,11 +1,49 @@
 {
-	x: 13.0d,
-	y: 5.0d,
+	title: "锆石宝石簇",
+	x: 12.0d,
+	y: 10.5d,
+	text: [
+		"稀有度: 1/50chunks",
+		"生成高度: Y20~30",
+		"规模:200~800blocks",
+		"所含矿物: 锆石,莫达维石,绿松石,月长石"
+	],
+	dependencies: [
+		"baae3c32"
+	],
+	hide: true,
+	optional: true,
 	tasks: [{
-		uid: "7d2b3734",
+		uid: "07134fb3",
 		type: "item",
 		items: [{
-			item: "silentgems:gemorelight 1 4"
+			item: "silentgems:gem 1 36"
 		}]
+	},
+	{
+		uid: "ffdb567f",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 21"
+		}]
+	},
+	{
+		uid: "8190d8e8",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 23"
+		}]
+	},
+	{
+		uid: "04ee90aa",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 24"
+		}]
+	}],
+	rewards: [{
+		uid: "d7ebeb83",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

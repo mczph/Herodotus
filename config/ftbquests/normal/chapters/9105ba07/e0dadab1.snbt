@@ -11,18 +11,15 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "a0953dd9",
-		type: "item",
-		title: "Any sgems",
-		items: [{
+		uid: "d156d948",
+		type: "checkmark",
+		icon: {
 			ForgeCaps: {
-				Parent: {
-					data: "sgems",
-					id: "ore"
-				}
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "itemfilters:filter"
-		}],
-		count: 16L
+			id: "silentgems:chaosgem",
+			tag: {},
+			Damage: 48s
+		}
 	}]
 }

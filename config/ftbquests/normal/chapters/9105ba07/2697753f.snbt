@@ -1,11 +1,42 @@
 {
-	x: 11.0d,
-	y: 2.5d,
+	title: "红石矿脉",
+	x: 14.5d,
+	y: 7.5d,
+	text: [
+		"稀有度: 1/20chunks",
+		"生成高度: Y10~30",
+		"规模: 600~1500blocks",
+		"所含矿物: 红石,红宝石,红玉髓"
+	],
+	dependencies: [
+		"baae3c32"
+	],
+	hide: true,
+	optional: true,
 	tasks: [{
-		uid: "00b456bd",
+		uid: "0b168903",
 		type: "item",
 		items: [{
-			item: "minecraft:redstone_ore"
+			item: "minecraft:redstone"
 		}]
+	},
+	{
+		uid: "323c145c",
+		type: "item",
+		items: [{
+			item: "silentgems:gem"
+		}]
+	},
+	{
+		uid: "57a2ce1f",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "7b700ffc",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

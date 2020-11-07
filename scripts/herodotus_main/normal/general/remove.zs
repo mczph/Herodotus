@@ -12,7 +12,17 @@ val removingArray = [
     <ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
     <ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:extra_upgrade"}),
     <ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:everlasting"}),
-    <flopper:flopper>
+    <flopper:flopper>,
+    <botania_tweaks:basic_extended_crafty_crate>,
+    <botania_tweaks:advanced_extended_crafty_crate>,
+    <botania_tweaks:elite_extended_crafty_crate>,
+    <botania_tweaks:ultimate_extended_crafty_crate>,
+    <engineerstools:crushing_hammer>,
+    <engineerstools:redia_tool>,
+    <engineerstools:iron_grit>,
+    <engineerstools:gold_grit>,
+    <engineerstools:stimpack>,
+    <engineerstools:sleeping_bag>
 ] as IItemStack[];
 
 
@@ -59,7 +69,10 @@ val removingMODIDArray = [
     "darkutils",
     "ic2",
     "teslacorelib",
-    "fluxnetworks"
+    "fluxnetworks",
+    "tinker_io",
+    "waystone",
+    "enderstorage"
 ] as string[];
 
 //Settlement

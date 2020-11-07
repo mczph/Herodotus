@@ -1,11 +1,42 @@
 {
-	x: 14.0d,
-	y: 6.0d,
+	title: "玛瑙宝石簇",
+	x: 9.0d,
+	y: 10.5d,
+	text: [
+		"稀有度: 1/50chunks",
+		"生成高度: Y20~30",
+		"规模:200~800blocks",
+		"所含矿物: 玛瑙,摩根石,缟玛瑙"
+	],
+	dependencies: [
+		"baae3c32"
+	],
+	hide: true,
+	optional: true,
 	tasks: [{
-		uid: "c8ee961c",
+		uid: "69f9cf83",
 		type: "item",
 		items: [{
-			item: "silentgems:gemore 1 12"
+			item: "silentgems:gem 1 12"
 		}]
+	},
+	{
+		uid: "f6f11989",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 13"
+		}]
+	},
+	{
+		uid: "7d6622be",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "11edf715",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

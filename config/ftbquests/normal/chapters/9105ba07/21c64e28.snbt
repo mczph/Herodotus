@@ -1,11 +1,16 @@
 {
 	title: "吃好喝好",
-	x: 10.5d,
-	y: -1.0d,
+	x: 9.5d,
+	y: -0.5d,
 	shape: "rsquare",
 	text: [
 		"XL Food模组提供了大量食物"
 	],
+	dependencies: [
+		"fd179ec6"
+	],
+	hide: true,
+	dependency_requirement: "all_started",
 	optional: true,
 	tasks: [{
 		uid: "ead795a6",

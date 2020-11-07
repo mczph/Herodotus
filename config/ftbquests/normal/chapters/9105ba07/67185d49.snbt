@@ -1,11 +1,56 @@
 {
-	x: 12.0d,
-	y: 6.0d,
+	title: "黄玉宝石簇",
+	x: 7.0d,
+	y: 10.5d,
+	text: [
+		"稀有度: 1/50chunks",
+		"生成高度: Y20~30",
+		"规模:200~800blocks",
+		"所含矿物: 黄玉,琥珀,金绿柱石,黄水晶,蓝黄玉"
+	],
+	dependencies: [
+		"baae3c32"
+	],
+	hide: true,
+	optional: true,
 	tasks: [{
-		uid: "a9f09058",
+		uid: "6bb4102d",
 		type: "item",
 		items: [{
-			item: "silentgems:gemore 1 2"
+			item: "silentgems:gem 1 2"
 		}]
+	},
+	{
+		uid: "93c46412",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 3"
+		}]
+	},
+	{
+		uid: "66bbce44",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 20"
+		}]
+	},
+	{
+		uid: "5b8fc1c0",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 18"
+		}]
+	},
+	{
+		uid: "da89a1b2",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 25"
+		}]
+	}],
+	rewards: [{
+		uid: "0ef2b2b5",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }
