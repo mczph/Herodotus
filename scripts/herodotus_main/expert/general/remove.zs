@@ -1,4 +1,4 @@
-#packmode normal
+#packmode expert
 #modloaded bathappymod
 #priority 0
 
@@ -7,6 +7,11 @@ import crafttweaker.oredict.IOreDictEntry;
 
 //Remove by ID
 val removingArray = [
+    <ironbackpacks:upgrade>,
+    <ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}),
+    <ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
+    <ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:extra_upgrade"}),
+    <ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:everlasting"}),
     <flopper:flopper>,
     <botania_tweaks:basic_extended_crafty_crate>,
     <botania_tweaks:advanced_extended_crafty_crate>,
