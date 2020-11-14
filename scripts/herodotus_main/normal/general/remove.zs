@@ -8,10 +8,6 @@ import crafttweaker.oredict.IOreDictEntry;
 //Remove by ID
 val removingArray = [
     <flopper:flopper>,
-    <botania_tweaks:basic_extended_crafty_crate>,
-    <botania_tweaks:advanced_extended_crafty_crate>,
-    <botania_tweaks:elite_extended_crafty_crate>,
-    <botania_tweaks:ultimate_extended_crafty_crate>,
     <engineerstools:crushing_hammer>,
     <engineerstools:redia_tool>,
     <engineerstools:iron_grit>,
