@@ -1,0 +1,45 @@
+{
+	title: "这破玩意儿怎么满地都是？",
+	x: 1.5d,
+	y: -0.5d,
+	text: [
+		"？"
+	],
+	tasks: [{
+		uid: "ae30c61c",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:flower_0"
+		}],
+		count: 64L
+	},
+	{
+		uid: "f5b8f04e",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:flower_0"
+		}],
+		count: 64L
+	},
+	{
+		uid: "776f6122",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:flower_0"
+		}],
+		count: 64L
+	},
+	{
+		uid: "c37249b5",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:flower_0"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "4ab0c05d",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "*To go and get your hands dirty*",
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		"*If we don't do something, we'll be stuck up in the mud againt*",
+		"*Don't wanna mess it up, cause I want everything and nothing at all*",
+		"----grandson《Dirty》"
+	],
+	tasks: [{
+		uid: "84a47375",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4614125726978689832L,
+					AS_Amulet_HolderMost: 44211946793158452L
+				}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sand",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "732c4fa4",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}
