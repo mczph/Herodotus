@@ -1,0 +1,17 @@
+{
+	title: "完成Tier1的所有任务",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "notreepunching:axe/flint"
+	},
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9105ba07"
+	]
+}

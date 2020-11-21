@@ -249,6 +249,21 @@
             "posY" : -35,
             "color" : -1,
             "alignment" : "bottom_left"
+        },
+
+        "tester":
+        {
+            "text":"中文测试",
+            "posX" : 40,
+            "posY" : 115,
+            "color" : -1
+        },
+        "tester2":
+        {
+            "text" : "Is This What You Wanted",
+            "posX" : 40,
+            "posY" : 125,
+            "color" : -1
         }
     },
     

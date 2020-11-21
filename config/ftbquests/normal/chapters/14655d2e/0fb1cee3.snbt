@@ -1,0 +1,20 @@
+{
+	title: "出现了，野生橡胶!",
+	icon: "ic2:misc_resource 1 4",
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"其实IC2的橡胶没那么难找啦"
+	],
+	dependencies: [
+		"cb717c64"
+	],
+	tasks: [{
+		uid: "02539e81",
+		type: "observation",
+		icon: "ic2:rubber_wood",
+		match_type: "block_id",
+		match: "ic2:rubber_wood",
+		timer: 0L
+	}]
+}
