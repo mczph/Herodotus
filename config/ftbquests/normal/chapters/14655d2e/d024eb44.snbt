@@ -1,0 +1,18 @@
+{
+	title: "鸟池",
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"比坩埚更好!"
+	],
+	dependencies: [
+		"e1935d1c"
+	],
+	tasks: [{
+		uid: "74551d3a",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}]
+}

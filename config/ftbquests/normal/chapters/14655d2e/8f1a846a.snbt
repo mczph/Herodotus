@@ -37,5 +37,28 @@
 		match_type: "block_id",
 		match: "astralsorcery:blockcollectorcrystal",
 		timer: 100L
+	},
+	{
+		uid: "fed8b393",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:writable_book"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c42cf13",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}
 	}]
 }

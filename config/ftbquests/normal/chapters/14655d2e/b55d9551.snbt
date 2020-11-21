@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "38b4c024",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	}]
+}

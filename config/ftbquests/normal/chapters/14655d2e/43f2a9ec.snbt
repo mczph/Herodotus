@@ -1,0 +1,15 @@
+{
+	title: "大白缸",
+	x: 6.0d,
+	y: 1.0d,
+	text: [
+		"比坩埚更坏!"
+	],
+	tasks: [{
+		uid: "87e47260",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	}]
+}
