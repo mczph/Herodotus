@@ -1,7 +1,8 @@
 {
 	title: "四次元书架",
-	x: 9.0d,
-	y: 2.0d,
+	x: -3.0d,
+	y: 0.5d,
+	shape: "square",
 	text: [
 		"总有一天你会需要它的"
 	],
@@ -11,6 +12,7 @@
 		"e1935d1c"
 	],
 	hide: true,
+	optional: true,
 	tasks: [{
 		uid: "59afa689",
 		type: "item",

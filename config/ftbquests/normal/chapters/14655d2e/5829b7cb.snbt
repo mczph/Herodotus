@@ -1,0 +1,28 @@
+{
+	title: "高级线缆",
+	x: 7.5d,
+	y: 6.0d,
+	shape: "square",
+	text: [
+		"建立更高级更高效的电网"
+	],
+	dependencies: [
+		"9399f037"
+	],
+	optional: true,
+	tasks: [{
+		uid: "12c4ba14",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialwires:ic2_wire_coil",
+			tag: {
+				wireLength: 2048
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}]
+}

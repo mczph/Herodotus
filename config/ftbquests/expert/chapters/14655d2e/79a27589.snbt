@@ -1,0 +1,28 @@
+{
+	title: "绝缘线圈",
+	x: 7.5d,
+	y: 4.0d,
+	shape: "square",
+	text: [
+		"被电烦了，是吗？"
+	],
+	dependencies: [
+		"9399f037"
+	],
+	optional: true,
+	tasks: [{
+		uid: "38cf0e55",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialwires:ic2_wire_coil",
+			tag: {
+				wireLength: 1024
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}]
+}

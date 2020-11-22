@@ -1,9 +1,12 @@
 {
 	title: "大白缸",
-	x: 6.0d,
-	y: 1.5d,
+	x: 8.5d,
+	y: 1.0d,
 	text: [
 		"比坩埚更坏!"
+	],
+	dependencies: [
+		"b3c31cdc"
 	],
 	tasks: [{
 		uid: "87e47260",

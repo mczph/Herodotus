@@ -1,0 +1,18 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	shape: "square",
+	text: [
+		"省事儿，所以呢？"
+	],
+	dependencies: [
+		"953be5df"
+	],
+	tasks: [{
+		uid: "3abda3fb",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 10"
+		}]
+	}]
+}

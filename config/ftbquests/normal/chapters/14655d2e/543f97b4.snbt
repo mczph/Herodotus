@@ -1,0 +1,18 @@
+{
+	title: "土高炉",
+	x: 4.5d,
+	y: 5.0d,
+	text: [
+		"搭建土高炉，开始不间断炼钢"
+	],
+	dependencies: [
+		"59b76224"
+	],
+	tasks: [{
+		uid: "f9fb0359",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}]
+	}]
+}

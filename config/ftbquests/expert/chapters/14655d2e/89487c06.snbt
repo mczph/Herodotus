@@ -1,0 +1,28 @@
+{
+	x: 4.5d,
+	y: 4.0d,
+	shape: "square",
+	dependencies: [
+		"543f97b4"
+	],
+	tasks: [{
+		uid: "fb4a9de9",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 50"
+		}]
+	},
+	{
+		uid: "bd57e3fb",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "3faf54c0",
+		type: "item",
+		item: "ic2:fluid_cell",
+		count: 16
+	}]
+}

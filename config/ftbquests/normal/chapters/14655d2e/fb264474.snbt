@@ -1,0 +1,22 @@
+{
+	title: "精灵祭坛",
+	x: 10.5d,
+	y: -4.0d,
+	shape: "square",
+	text: [
+		"集合精灵的力量，增强了接受魔力的力量",
+		"",
+		"说白了，就是个能插火花的符文祭坛"
+	],
+	dependencies: [
+		"c92a676b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "381b578b",
+		type: "item",
+		items: [{
+			item: "botanicadds:elven_altar"
+		}]
+	}]
+}

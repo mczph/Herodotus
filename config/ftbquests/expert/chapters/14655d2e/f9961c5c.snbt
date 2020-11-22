@@ -1,7 +1,8 @@
 {
 	title: "植物科技",
 	x: 4.5d,
-	y: -2.5d,
+	y: -4.0d,
+	shape: "square",
 	text: [
 		"好吧，如果你真用得到的话....."
 	],
@@ -9,6 +10,7 @@
 		"0943202a"
 	],
 	dependency_requirement: "all_started",
+	optional: true,
 	tasks: [{
 		uid: "1126d063",
 		type: "item",

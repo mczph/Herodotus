@@ -1,0 +1,21 @@
+{
+	title: "大灯笼",
+	x: -3.0d,
+	y: 3.0d,
+	shape: "square",
+	text: [
+		"在周围提供照明"
+	],
+	dependencies: [
+		"cb717c64"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "25494044",
+		type: "item",
+		items: [{
+			item: "torchmaster:feral_flare_lantern"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "方块线缆已禁用",
+	x: 7.5d,
+	y: 5.0d,
+	text: [
+		"所有的IC2方块形式的线缆均已壮烈牺牲",
+		"请使用工业线缆模组提供的各式线圈，接电规则与沉浸工艺一致",
+		"*关于电网设备，详见工程师手册*"
+	],
+	dependencies: [
+		"953be5df"
+	],
+	tasks: [{
+		uid: "adec8d7a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialwires:ic2_wire_coil",
+			tag: {
+				wireLength: 1024
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "神秘花",
 	x: 0.0d,
-	y: -1.5d,
+	y: -3.0d,
 	text: [
 		"收集一些这些随处可见的特殊花朵"
 	],
@@ -23,6 +23,18 @@
 			id: "itemfilters:filter"
 		}],
 		count: 5L
+	},
+	{
+		uid: "1729cac6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:writable_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "909d0b9a",

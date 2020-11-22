@@ -2,7 +2,7 @@
 	title: "登陆史莱姆岛",
 	icon: "tconstruct:slime_grass 1 1",
 	x: 0.0d,
-	y: 7.5d,
+	y: 9.0d,
 	text: [
 		"你还没被撞下去啊（"
 	],
@@ -18,5 +18,27 @@
 		match_type: "block_id",
 		match: "tconstruct:slime_grass",
 		timer: 100L
+	},
+	{
+		uid: "adaa3d50",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:writable_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "347f53e7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:book"
+		}
 	}]
 }
