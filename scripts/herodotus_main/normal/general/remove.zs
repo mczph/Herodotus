@@ -13,7 +13,9 @@ val removingArray = [
     <engineerstools:iron_grit>,
     <engineerstools:gold_grit>,
     <engineerstools:stimpack>,
-    <engineerstools:sleeping_bag>
+    <engineerstools:sleeping_bag>,
+    <botania:pool>,
+    <botania:pool:2>
 ] as IItemStack[];
 
 

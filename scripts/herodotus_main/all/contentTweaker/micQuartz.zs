@@ -17,5 +17,4 @@ micq.setBlockResistance(5.0);
 micq.setToolClass("pickaxe");
 micq.setToolLevel(2);
 micq.setBlockSoundType(<soundtype:stone>);
-micq.setSlipperiness(0.3);
 micq.register();

@@ -1,0 +1,18 @@
+{
+	title: "魔力浸渍",
+	x: 3.0d,
+	y: 1.5d,
+	text: [
+		"使用精准采集获得赛特斯石英矿石，将其投入魔力池"
+	],
+	dependencies: [
+		"0eb615d9"
+	],
+	tasks: [{
+		uid: "44b639ba",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mic_quartz"
+		}]
+	}]
+}

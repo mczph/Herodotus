@@ -5,6 +5,9 @@
 	text: [
 		"比坩埚更坏!"
 	],
+	dependencies: [
+		"b3c31cdc"
+	],
 	tasks: [{
 		uid: "87e47260",
 		type: "item",
