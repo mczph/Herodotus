@@ -1,6 +1,13 @@
 {
+	title: "魔力池*注1",
 	x: 7.5d,
 	y: -1.5d,
+	text: [
+		"制作阉割版魔力池"
+	],
+	dependencies: [
+		"aff15c41"
+	],
 	tasks: [{
 		uid: "f62f3e53",
 		type: "item",
