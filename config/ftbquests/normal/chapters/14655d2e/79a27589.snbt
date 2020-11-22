@@ -1,6 +1,6 @@
 {
 	title: "绝缘线圈",
-	x: 7.5d,
+	x: 10.5d,
 	y: 4.0d,
 	shape: "square",
 	text: [

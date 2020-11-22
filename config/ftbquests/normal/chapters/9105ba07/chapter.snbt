@@ -13,7 +13,7 @@
 		x: 4.5d,
 		y: -2.5d,
 		width: 11.0d,
-		height: 3.2d,
+		height: 3.4d,
 		rotation: 0.0d,
 		image: "mainmenu:title.png",
 		hover: [],
