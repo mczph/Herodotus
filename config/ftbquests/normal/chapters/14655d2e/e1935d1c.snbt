@@ -1,7 +1,7 @@
 {
 	title: "神秘花",
 	x: 0.0d,
-	y: 0.0d,
+	y: -1.5d,
 	text: [
 		"收集一些这些随处可见的特殊花朵"
 	],
@@ -23,5 +23,16 @@
 			id: "itemfilters:filter"
 		}],
 		count: 5L
+	}],
+	rewards: [{
+		uid: "909d0b9a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lexicon",
+			tag: {}
+		}
 	}]
 }

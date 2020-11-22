@@ -2,7 +2,7 @@
 	title: "登陆史莱姆岛",
 	icon: "tconstruct:slime_grass 1 1",
 	x: 0.0d,
-	y: 2.0d,
+	y: 4.0d,
 	text: [
 		"你还没被撞下去啊（"
 	],

@@ -2,7 +2,7 @@
 	title: "出现了，野生橡胶!",
 	icon: "ic2:misc_resource 1 4",
 	x: 0.0d,
-	y: 3.0d,
+	y: 6.5d,
 	text: [
 		"其实IC2的橡胶没那么难找啦"
 	],
