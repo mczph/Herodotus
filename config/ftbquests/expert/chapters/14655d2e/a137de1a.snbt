@@ -1,0 +1,26 @@
+{
+	title: "无限增殖",
+	x: 1.5d,
+	y: -2.5d,
+	text: [
+		"如果你某种颜色的神秘花吃紧，你可以将神秘花合成成花瓣，放在地上，使用骨粉催成高神秘花，用剪刀收集后制作出更多花瓣"
+	],
+	dependencies: [
+		"d024eb44"
+	],
+	hide: true,
+	tasks: [{
+		uid: "752d4dda",
+		type: "item",
+		title: "Any botdflowers",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "botdflowers",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

@@ -1,0 +1,101 @@
+{
+	title: "做好矿物储备",
+	x: 12.0d,
+	y: 1.0d,
+	shape: "pentagon",
+	text: [
+		"准备一些基础矿物"
+	],
+	dependencies: [
+		"e0dadab1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d1e32bf6",
+		type: "item",
+		title: "Any oreCopper",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	},
+	{
+		uid: "5a0168d7",
+		type: "item",
+		title: "Any oreLead",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreLead",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	},
+	{
+		uid: "511476e8",
+		type: "item",
+		title: "Any oreTin",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreTin",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	},
+	{
+		uid: "e7ffbd7a",
+		type: "item",
+		title: "Any oreIron",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	},
+	{
+		uid: "1f7dbc6d",
+		type: "item",
+		title: "Any oreGold",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreGold",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	},
+	{
+		uid: "68268b47",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "7828e5e7",
+		type: "xp",
+		xp: 500
+	}]
+}

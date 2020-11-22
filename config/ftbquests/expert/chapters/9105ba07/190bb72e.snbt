@@ -1,0 +1,35 @@
+{
+	title: "绿宝石矿脉",
+	x: 8.5d,
+	y: 9.5d,
+	text: [
+		"稀有度: 1/40chunks",
+		"生成高度: Y20~40",
+		"规模:100~800blocks",
+		"所含矿物: 绿宝石,黄绿柱石"
+	],
+	dependencies: [
+		"baae3c32"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "4ba349d5",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}]
+	},
+	{
+		uid: "7498dd17",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "77f1f720",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

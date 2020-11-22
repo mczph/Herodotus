@@ -1,0 +1,18 @@
+{
+	title: "绿色电路",
+	x: 4.5d,
+	y: -1.5d,
+	text: [
+		"制作魔力发射器，导出产能花产出的魔力"
+	],
+	dependencies: [
+		"147c94e4"
+	],
+	tasks: [{
+		uid: "f08f2c55",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}]
+}

@@ -7,10 +7,9 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.SoundType;
-import mods.contenttweaker.ResourceLocation;
 
 
-var micq = VanillaFactory.createBlock("mic_quartz", <blockmaterial:stone>);
+var micq = VanillaFactory.createBlock("mic_quartz", <blockmaterial:rock>);
 micq.setLightOpacity(3);
 micq.setLightValue(0);
 micq.setBlockHardness(5.0);
@@ -20,4 +19,3 @@ micq.setToolLevel(2);
 micq.setBlockSoundType(<soundtype:stone>);
 micq.setSlipperiness(0.3);
 micq.register();
-ResourceLocation.create("contenttweaker:ore_micquartz");

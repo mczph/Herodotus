@@ -1,0 +1,25 @@
+{
+	title: "宝石宝石宝石宝石",
+	x: 10.5d,
+	y: 1.0d,
+	text: [
+		"绝大多数材料已被禁用",
+		"采掘一些宝石，使用宝石制作匠魂工具"
+	],
+	dependencies: [
+		"fd179ec6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d156d948",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "silentgems:chaosgem",
+			tag: {},
+			Damage: 48s
+		}
+	}]
+}

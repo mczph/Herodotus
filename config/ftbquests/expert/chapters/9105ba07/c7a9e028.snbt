@@ -1,0 +1,35 @@
+{
+	title: "镁矿脉",
+	x: 14.5d,
+	y: 9.5d,
+	text: [
+		"稀有度: 1/32chunks",
+		"生成高度: Y35~45",
+		"规模: 600~1500blocks",
+		"所含矿物: 镁,橄榄石"
+	],
+	dependencies: [
+		"baae3c32"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "fcbb7051",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 7"
+		}]
+	},
+	{
+		uid: "2a2160be",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "e74dac74",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

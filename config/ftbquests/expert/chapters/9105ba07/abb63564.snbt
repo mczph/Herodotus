@@ -1,0 +1,49 @@
+{
+	title: "蓝碧玺宝石簇",
+	x: 8.0d,
+	y: 10.5d,
+	text: [
+		"稀有度: 1/50chunks",
+		"生成高度: Y20~30",
+		"规模:200~800blocks",
+		"所含矿物: 蓝碧玺,堇青石,碧玉,翡翠"
+	],
+	dependencies: [
+		"baae3c32"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "995f6b69",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 7"
+		}]
+	},
+	{
+		uid: "f6f11430",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 10"
+		}]
+	},
+	{
+		uid: "3bd04350",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 19"
+		}]
+	},
+	{
+		uid: "6508d83a",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 37"
+		}]
+	}],
+	rewards: [{
+		uid: "1a11f94b",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

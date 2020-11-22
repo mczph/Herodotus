@@ -1,0 +1,12 @@
+{
+	title: "Tier2",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "dandelifeon"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,38 @@
+{
+	title: "神秘花",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"收集一些这些随处可见的特殊花朵"
+	],
+	dependencies: [
+		"cb717c64"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6d0fbc3c",
+		type: "item",
+		title: "Any botmflowers",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "botmflowers",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "909d0b9a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lexicon",
+			tag: {}
+		}
+	}]
+}

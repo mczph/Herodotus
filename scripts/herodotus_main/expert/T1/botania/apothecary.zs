@@ -10,7 +10,7 @@ val removingArray = [
     "entropinnyum",
     "kekimurus",
     "gourmaryllis",
-    "danelifeon",
+    "dandelifeon",
     "shulk_me_not",
     "rafflowsia",
     "puredaisy"
