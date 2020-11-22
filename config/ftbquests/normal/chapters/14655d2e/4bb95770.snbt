@@ -1,0 +1,11 @@
+{
+	x: 7.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "f62f3e53",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 2"
+		}]
+	}]
+}

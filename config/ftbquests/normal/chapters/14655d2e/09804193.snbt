@@ -1,0 +1,21 @@
+{
+	title: "贪得无厌",
+	x: 3.0d,
+	y: -0.5d,
+	text: [
+		"制作彼方兰产魔系统"
+	],
+	dependencies: [
+		"147c94e4"
+	],
+	tasks: [{
+		uid: "b4988a08",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "gourmaryllis"
+			}
+		}]
+	}]
+}
