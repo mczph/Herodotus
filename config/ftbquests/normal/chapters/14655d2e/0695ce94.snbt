@@ -1,0 +1,18 @@
+{
+	title: "E X T E N D E D",
+	x: 5.0d,
+	y: 7.5d,
+	text: [
+		"制作金闪闪的进阶合成台"
+	],
+	dependencies: [
+		"dcaf1165"
+	],
+	tasks: [{
+		uid: "d10315ae",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}]
+	}]
+}

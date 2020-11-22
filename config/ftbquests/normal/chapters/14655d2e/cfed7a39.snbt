@@ -1,0 +1,26 @@
+{
+	title: "合成计算器",
+	x: -3.0d,
+	y: 4.5d,
+	shape: "square",
+	text: [
+		"本整合包内置了JustEnoughCalculation模组，提供方便的合成计算功能",
+		"键位详见控制菜单"
+	],
+	dependencies: [
+		"cb717c64"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "a888f3ab",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		}
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "大号火把",
+	x: -3.0d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		"阻止以其为中心128格直径范围内刷怪"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"cb717c64"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "94fa8786",
+		type: "item",
+		items: [{
+			item: "torchmaster:mega_torch"
+		}]
+	}]
+}

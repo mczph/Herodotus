@@ -1,0 +1,20 @@
+{
+	title: "镜子",
+	x: 2.0d,
+	y: 2.5d,
+	shape: "square",
+	text: [
+		"恰当摆放时，可以增强星能(详见星芒宝典)"
+	],
+	dependencies: [
+		"0eb615d9"
+	],
+	optional: true,
+	tasks: [{
+		uid: "1e4737d4",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementrelay"
+		}]
+	}]
+}
