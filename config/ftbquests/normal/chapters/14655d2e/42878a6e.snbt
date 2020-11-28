@@ -1,14 +1,25 @@
 {
+	title: "蓝蓝的好看宝石！",
 	x: 6.5d,
 	y: 0.0d,
+	text: [
+		"获取海蓝宝石"
+	],
 	dependencies: [
 		"b3c31cdc"
 	],
 	tasks: [{
 		uid: "4b0022ce",
 		type: "item",
+		title: "Any gemAquamarine",
 		items: [{
-			item: "silentgems:gem 1 8"
+			ForgeCaps: {
+				Parent: {
+					data: "gemAquamarine",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
 		}]
 	}]
 }

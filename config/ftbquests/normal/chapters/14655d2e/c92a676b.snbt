@@ -1,6 +1,10 @@
 {
+	title: "活石工作台",
 	x: 10.5d,
 	y: -2.0d,
+	text: [
+		"制作符文祭坛"
+	],
 	dependencies: [
 		"7d226af9"
 	],

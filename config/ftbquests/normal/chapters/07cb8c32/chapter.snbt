@@ -1,0 +1,7 @@
+{
+	title: "Dev",
+	icon: "tconstruct:throwball 1 1",
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: "octagon"
+}

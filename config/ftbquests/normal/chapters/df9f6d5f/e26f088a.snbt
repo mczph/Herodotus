@@ -1,0 +1,16 @@
+{
+	title: "完成所有成就",
+	icon: "tconstruct:materials 1 50",
+	x: 1.0d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b8d3663e",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}]
+}

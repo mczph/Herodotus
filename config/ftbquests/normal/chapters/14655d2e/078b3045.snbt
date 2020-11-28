@@ -1,6 +1,10 @@
 {
+	title: "炼钢大业",
 	x: 7.0d,
 	y: 6.0d,
+	text: [
+		"制作钢锭"
+	],
 	dependencies: [
 		"543f97b4"
 	],

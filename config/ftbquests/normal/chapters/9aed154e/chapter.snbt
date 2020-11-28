@@ -1,6 +1,11 @@
 {
 	title: "Tier5",
-	icon: "rftools:machine_frame",
+	icon: {
+		id: "requious:quantron",
+		tag: {
+			energy: 68000000
+		}
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

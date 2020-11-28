@@ -1,7 +1,11 @@
 {
+	title: "风水轮流转 ch.水",
 	x: 15.5d,
 	y: 4.5d,
 	shape: "square",
+	text: [
+		"制作木 质 涡 轮"
+	],
 	dependencies: [
 		"714dd836"
 	],

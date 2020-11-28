@@ -1,7 +1,7 @@
 {
 	title: "*To go and get your hands dirty*",
-	x: -1.5d,
-	y: -0.5d,
+	x: -3.0d,
+	y: 1.0d,
 	text: [
 		"*If we don't do something, we'll be stuck up in the mud againt*",
 		"*Don't wanna mess it up, cause I want everything and nothing at all*",

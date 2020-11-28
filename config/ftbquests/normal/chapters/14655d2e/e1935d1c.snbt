@@ -1,5 +1,6 @@
 {
 	title: "神秘花",
+	icon: "botania:flower",
 	x: 0.0d,
 	y: -3.0d,
 	text: [
