@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "ef1059d3",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:book_manual"
+		}]
+	}]
+}

@@ -18,7 +18,7 @@
 		timer: 0L
 	},
 	{
-		uid: "4dcfca3e",
+		uid: "548c251e",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -30,7 +30,7 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "dfc0b8ba",
+		uid: "a41c924f",
 		type: "item",
 		item: {
 			ForgeCaps: {
