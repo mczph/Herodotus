@@ -8,6 +8,8 @@ import crafttweaker.formatting.IFormattedText;
 //Normals
 val toAdd as string[IIngredient] = {
     <botania:opencrate> : "没了，别想了",
+    <tconstruct:cast_custom:3> : "没了，别想了",
+    <tconstruct:cast_custom:4> : "没了，别想了"
 };
 
 //Warnings

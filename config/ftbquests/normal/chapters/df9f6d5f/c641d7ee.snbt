@@ -13,12 +13,5 @@
 	],
 	dependencies: [
 		"9aed154e"
-	],
-	tasks: [{
-		uid: "f4acbe27",
-		type: "item",
-		items: [{
-			item: "minecraft:planks 1 2"
-		}]
-	}]
+	]
 }
