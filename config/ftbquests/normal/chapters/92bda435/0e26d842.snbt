@@ -1,0 +1,28 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "fb00d418",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersivepetroleum:schematic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "90d77a9a",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:itemcircuitplate 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "ecd7def3",
+		type: "item",
+		item: "libvulpes:holoprojector"
+	}]
+}
