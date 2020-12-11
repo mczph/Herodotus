@@ -18,7 +18,10 @@ val removingArray = [
     <engineerstools:iron_grit>,
     <engineerstools:gold_grit>,
     <engineerstools:stimpack>,
-    <engineerstools:sleeping_bag>
+    <engineerstools:sleeping_bag>,
+    <botania:pool>,
+    <botania:pool:2>,
+    <advancedrocketry:platepress>
 ] as IItemStack[];
 
 
@@ -36,32 +39,6 @@ val removingRNArray = [
 
 //Remove by Mod ID
 val removingMODIDArray = [
-    "appliedenergistics2",
-    "enderio",
-    "extendedcrafting",
-    "danknull",
-    "extracells",
-    "ae2stuff",
-    "modularmachinery",
-    "wct",
-    "industrialwires",
-    "packagedauto",
-    "packagedexcrafting",
-    "cookingforblockheads",
-    "industrialforegoing",
-    "botanicadds",
-    "xnet",
-    "ic2",
-    "rftools",
-    "ironjetpacks",
-    "buildinggadgets",
-    "compactmachines3",
-    "darkutils",
-    "teslacorelib",
-    "fluxnetworks",
-    "tinker_io",
-    "waystone",
-    "enderstorage"
 ] as string[];
 
 //Settlement
