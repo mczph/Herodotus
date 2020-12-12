@@ -19,7 +19,6 @@ val removingArray = [
     <advancedrocketry:platepress>,
     <botania:opencrate>,
     <botania:opencrate:1>,
-    <ic2:crafting:1>,
     <ic2:crafting:2>,
     <ic2:crafting:7>
 ] as IItemStack[];

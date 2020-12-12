@@ -11,9 +11,3 @@ recipes.addShaped("thermalsintering", <ic2:crafting:7>,[
     [ru,<ic2:crafting:1>,ru,],
     [ru,<ore:plateCopper>,ru]
 ]);
-
-recipes.addShaped("advcircuit", <ic2:crafting:2>,[
-    [<fluxnetworks:flux>,<ore:dustGlowstone>,<fluxnetworks:flux>],
-    [<botania:manaresource>,<ic2:crafting:1>,<botania:manaresource>],
-    [<fluxnetworks:flux>,<ore:dustGlowstone>,<fluxnetworks:flux>]
-]);
