@@ -6,8 +6,10 @@ import mods.botania.ManaInfusion;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-//add the micquartz recipe
+//add
 mods.botania.ManaInfusion.addInfusion(<contenttweaker:mic_quartz>, <appliedenergistics2:quartz_ore>, 2000);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotSteel>, 1000);
 
-//remove the tiny potato recipe, see elvenTrade.zs for new recipe
+//remove
 mods.botania.ManaInfusion.removeRecipe(<botania:tinypotato>);
+mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);

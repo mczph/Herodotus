@@ -22,7 +22,8 @@ val removingArray = [
     <botania:pool>,
     <botania:pool:2>,
     <advancedrocketry:platepress>,
-    <botania:opencrate>
+    <botania:opencrate>,
+    <botania:opencrate:1>
 ] as IItemStack[];
 
 
@@ -34,7 +35,7 @@ val removingODArray = [
 
 //Remove by recipe ID
 val removingRNArray = [
-
+    "extendedcrafting:black_iron_ingot"
 ] as string[];
 
 
