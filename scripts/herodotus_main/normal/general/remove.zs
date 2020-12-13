@@ -20,7 +20,12 @@ val removingArray = [
     <botania:opencrate>,
     <botania:opencrate:1>,
     <ic2:crafting:2>,
-    <ic2:crafting:7>
+    <ic2:crafting:7>,
+    <ic2:te:111>,
+    <ic2:te:112>,
+    <ic2:te:113>,
+    <ic2:te:114>,
+    <ic2:te:115>
 ] as IItemStack[];
 
 
