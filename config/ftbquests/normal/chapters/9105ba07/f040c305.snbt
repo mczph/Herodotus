@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "f80a185b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

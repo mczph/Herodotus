@@ -1,0 +1,16 @@
+{
+	title: "棍子",
+	x: 1.0d,
+	y: -0.5d,
+	text: [
+		"通过破坏树叶，获取一些木棍"
+	],
+	tasks: [{
+		uid: "aa26ac6a",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}],
+		count: 16L
+	}]
+}

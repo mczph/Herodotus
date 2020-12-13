@@ -1,13 +1,13 @@
 {
 	title: "做好矿物储备",
 	x: 12.0d,
-	y: 1.0d,
+	y: 0.5d,
 	shape: "pentagon",
 	text: [
 		"准备一些基础矿物"
 	],
 	dependencies: [
-		"e0dadab1"
+		"fd179ec6"
 	],
 	hide: true,
 	tasks: [{

@@ -1,8 +1,8 @@
 {
 	title: "矿脉",
 	icon: "minecraft:stone",
-	x: 10.5d,
-	y: 6.5d,
+	x: 3.5d,
+	y: 5.5d,
 	shape: "rsquare",
 	text: [
 		"普通的矿物生成已被替代",
@@ -11,7 +11,7 @@
 		"*注:宝石不仅要挖做工具的,很多宝石会参与合成*"
 	],
 	dependencies: [
-		"e0dadab1"
+		"454c123f"
 	],
 	hide: true,
 	optional: true,

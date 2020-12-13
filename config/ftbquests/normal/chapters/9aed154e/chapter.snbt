@@ -1,11 +1,6 @@
 {
 	title: "Tier5",
-	icon: {
-		id: "requious:quantron",
-		tag: {
-			energy: 68000000
-		}
-	},
+	icon: "rftools:powercell_card",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""
