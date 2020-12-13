@@ -1,7 +1,11 @@
 {
+	title: "好看的绿色鞋子",
 	x: 4.5d,
 	y: 8.0d,
 	shape: "square",
+	text: [
+		"史莱姆变身靴"
+	],
 	dependencies: [
 		"089fdf04"
 	],

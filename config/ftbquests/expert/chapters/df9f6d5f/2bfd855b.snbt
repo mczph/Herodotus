@@ -1,0 +1,12 @@
+{
+	title: "完成Tier4的所有任务",
+	icon: "industrialforegoing:plastic",
+	x: 2.0d,
+	y: -1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"92bda435"
+	]
+}

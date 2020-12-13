@@ -1,7 +1,7 @@
 {
 	title: "背包",
-	x: 8.5d,
-	y: -1.0d,
+	x: 20.0d,
+	y: 1.5d,
 	shape: "square",
 	text: [
 		"制作装东西用的背包"

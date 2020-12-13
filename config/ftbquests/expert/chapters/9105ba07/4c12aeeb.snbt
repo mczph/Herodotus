@@ -1,0 +1,15 @@
+{
+	x: 15.5d,
+	y: -0.5d,
+	shape: "square",
+	dependencies: [
+		"c10009b0"
+	],
+	tasks: [{
+		uid: "d715f1ac",
+		type: "item",
+		items: [{
+			item: "pyrotech:wither_forge"
+		}]
+	}]
+}

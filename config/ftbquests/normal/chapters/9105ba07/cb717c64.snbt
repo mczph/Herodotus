@@ -1,6 +1,6 @@
 {
 	title: "做好矿物储备",
-	x: 12.0d,
+	x: 23.5d,
 	y: 0.5d,
 	shape: "pentagon",
 	text: [
@@ -88,8 +88,15 @@
 	{
 		uid: "68268b47",
 		type: "item",
+		title: "Any cobblestone",
 		items: [{
-			item: "minecraft:cobblestone"
+			ForgeCaps: {
+				Parent: {
+					data: "cobblestone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 32L
 	}],

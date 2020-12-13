@@ -1,0 +1,22 @@
+{
+	title: "not sevtech",
+	x: 5.5d,
+	y: -0.5d,
+	shape: "square",
+	text: [
+		"制作储物箱储存物品",
+		"",
+		"同类物品：架子，储物盒，储木架"
+	],
+	dependencies: [
+		"37a3f368"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e66ba4fa",
+		type: "item",
+		items: [{
+			item: "pyrotech:crate"
+		}]
+	}]
+}

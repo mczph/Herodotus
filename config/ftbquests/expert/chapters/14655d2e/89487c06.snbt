@@ -1,7 +1,11 @@
 {
+	title: "真正的高炉",
 	x: 6.5d,
 	y: 4.0d,
 	shape: "square",
+	text: [
+		"电力高炉，目前似乎很贵"
+	],
 	dependencies: [
 		"543f97b4"
 	],

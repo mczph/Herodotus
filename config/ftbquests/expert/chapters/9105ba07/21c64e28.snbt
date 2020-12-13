@@ -1,8 +1,8 @@
 {
 	title: "吃好喝好",
-	x: 9.5d,
-	y: -0.5d,
-	shape: "rsquare",
+	x: 21.0d,
+	y: 1.5d,
+	shape: "square",
 	text: [
 		"XL Food模组提供了大量食物"
 	],

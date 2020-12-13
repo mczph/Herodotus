@@ -1,12 +1,12 @@
 {
 	title: "年轻人的第一个加工站",
-	x: 9.0d,
-	y: 1.0d,
+	x: 20.5d,
+	y: 0.5d,
 	text: [
 		"制作一些木制台桌，用于制作工具"
 	],
 	dependencies: [
-		"d4f4dd1b"
+		"009aac01"
 	],
 	hide: true,
 	tasks: [{

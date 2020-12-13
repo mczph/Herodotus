@@ -1,0 +1,14 @@
+{
+	x: 14.0d,
+	y: -0.5d,
+	dependencies: [
+		"ce0a2fa3"
+	],
+	tasks: [{
+		uid: "7762a4b8",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 5"
+		}]
+	}]
+}

@@ -1,17 +1,12 @@
 {
 	title: "Tier1",
-	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
-		id: "notreepunching:axe/flint"
-	},
+	icon: "pyrotech:campfire",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "",
 	images: [{
-		x: 4.5d,
-		y: -2.5d,
+		x: 4.0d,
+		y: -4.5d,
 		width: 11.0d,
 		height: 3.4d,
 		rotation: 0.0d,

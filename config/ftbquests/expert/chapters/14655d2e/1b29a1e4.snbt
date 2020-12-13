@@ -1,7 +1,11 @@
 {
+	title: "高级电路",
 	x: 14.5d,
 	y: 1.5d,
 	shape: "pentagon",
+	text: [
+		"你将高级电路板加进了机器中"
+	],
 	dependencies: [
 		"b36ef582",
 		"1a6efc7b"

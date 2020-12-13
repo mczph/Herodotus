@@ -1,6 +1,10 @@
 {
+	title: "大水池子",
 	x: 7.5d,
 	y: -2.0d,
+	text: [
+		"制作魔力池"
+	],
 	dependencies: [
 		"4bb95770"
 	],

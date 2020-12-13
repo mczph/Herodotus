@@ -1,22 +1,23 @@
 {
-	title: "镐子，是镐子!",
-	x: 7.5d,
-	y: 1.0d,
+	title: "熟悉的黑色石头",
+	x: 7.0d,
+	y: -0.5d,
+	shape: "square",
 	text: [
-		"制作燧石镐，采一些石材"
+		"制作燧石工具"
 	],
 	dependencies: [
-		"f06b3d74"
+		"cd36df1a"
 	],
-	hide: true,
+	optional: true,
 	tasks: [{
-		uid: "59e4e1ce",
+		uid: "fa1de483",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "notreepunching:pickaxe/flint"
+			id: "pyrotech:flint_axe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

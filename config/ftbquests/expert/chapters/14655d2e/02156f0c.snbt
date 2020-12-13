@@ -1,7 +1,11 @@
 {
+	title: "魔电",
 	x: 10.5d,
 	y: -0.5d,
 	shape: "square",
+	text: [
+		"Powered By Vazkii!"
+	],
 	dependencies: [
 		"c92a676b",
 		"9e5bdaa6"

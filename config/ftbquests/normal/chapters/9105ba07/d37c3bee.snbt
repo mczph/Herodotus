@@ -1,0 +1,20 @@
+{
+	title: "获得升级",
+	x: 8.0d,
+	y: -0.5d,
+	shape: "square",
+	text: [
+		"升级你的工作桌"
+	],
+	dependencies: [
+		"cd36df1a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d88d4035",
+		type: "item",
+		items: [{
+			item: "pyrotech:worktable_stone"
+		}]
+	}]
+}

@@ -1,5 +1,15 @@
 {
 	title: "莎普爱思",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "astralsorcery.liquidstarlight",
+			Amount: 1000
+		}
+	},
 	x: 9.0d,
 	y: -0.5d,
 	text: [

@@ -1,6 +1,6 @@
 {
 	title: "Tier5",
-	icon: "rftools:machine_frame",
+	icon: "rftools:powercell_card",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

@@ -1,0 +1,16 @@
+{
+	x: 18.5d,
+	y: 2.5d,
+	shape: "square",
+	dependencies: [
+		"7b1ef607"
+	],
+	optional: true,
+	tasks: [{
+		uid: "bdb5b1b9",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}]
+}
