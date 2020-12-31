@@ -1,9 +1,9 @@
 {
-	title: "{hds.quest.bdc4ebc5.name}",
+	title: "棍子",
 	x: 1.5d,
 	y: -0.5d,
 	text: [
-		"{hds.quest.bdc4ebc5.desc}"
+		"通过破坏树叶，获取一些木棍"
 	],
 	tasks: [{
 		uid: "aa26ac6a",
