@@ -26,3 +26,5 @@ config/astralsorcery/amulet_enchantments.cfg
 /scripts/nc_script_addons
 !/structures/
 !/patchouli_books/
+config/AppliedEnergistics2/items.csv
+config/AppliedEnergistics2/CustomRecipes.cfg
