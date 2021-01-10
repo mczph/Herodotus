@@ -19,10 +19,10 @@ config/AE2Stuff/readme.txt
 config/vanillafix/methods-stable_39.csv
 
 !/patchouli_books/*
-!/resources/*
-!/scripts/*
+!/resources/
+!/scripts/
 scripts/nc_script_addons
-!/structures/*
+!/structures/
 
 
 #Files
