@@ -6,7 +6,6 @@ $ cat .gitignore
 !/config/
 config/tellme/*
 config/InvTweaks.cfg
-config/topaddons.cfg
 config/jei/worldSettings.cfg
 config/craftpresence.properties
 config/AppliedEnergistics2/items.csv
