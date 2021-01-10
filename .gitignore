@@ -1,8 +1,9 @@
+$ cat .gitignore
 #Whitelist
 /*
 
 #Folders
-!/config/*
+!/config/
 config/tellme/*
 config/InvTweaks.cfg
 config/topaddons.cfg
@@ -14,11 +15,13 @@ config/AppliedEnergistics2/VersionChecker.cfg
 config/biomesoplenty/biomes/defaults/*
 config/biomesoplenty/biomes/Put biome config files here
 config/astralsorcery/amulet_enchantments.cfg
+config/AE2Stuff/readme.txt
+config/vanillafix/methods-stable_39.csv
 
 !/patchouli_books/*
 !/resources/*
 !/scripts/*
-/scripts/nc_script_addons
+scripts/nc_script_addons
 !/structures/*
 
 
@@ -29,3 +32,4 @@ config/astralsorcery/amulet_enchantments.cfg
 !/CHANGELOG
 
 !/icon.png
+
