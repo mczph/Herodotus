@@ -1,7 +1,0 @@
-{
-	title: "Tier6(EndGame)",
-	icon: "extendedcrafting:singularity_ultimate",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
