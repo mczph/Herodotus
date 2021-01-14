@@ -28,6 +28,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.aluminum"
       ],
       "output": [
+        "agricraft:agri_nugget:8",
         "embers:nugget_aluminum:0",
         "libvulpes:productnugget:9",
         "magneticraft:nuggets:7",
@@ -67,6 +68,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.copper"
       ],
       "output": [
+        "agricraft:agri_nugget:4",
         "crossroads:nugget_copper:0",
         "embers:nugget_copper:0",
         "factorytech:ore_dust:4",
@@ -104,6 +106,7 @@
         "minecraft:tile.oreIron"
       ],
       "output": [
+        "agricraft:agri_nugget:3",
         "minecraft:iron_nugget:0"
       ]
     },
@@ -116,6 +119,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.lead"
       ],
       "output": [
+        "agricraft:agri_nugget:6",
         "embers:nugget_lead:0",
         "magneticraft:nuggets:3",
         "thermalfoundation:material:195"
@@ -139,6 +143,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.nickel"
       ],
       "output": [
+        "agricraft:agri_nugget:9",
         "embers:nugget_nickel:0",
         "factorytech:ore_dust:5",
         "magneticraft:nuggets:10",
@@ -151,6 +156,7 @@
         "mekanism:tile.OreBlock.OsmiumOre"
       ],
       "output": [
+        "agricraft:agri_nugget:11",
         "magneticraft:nuggets:11",
         "mekanism:nugget:1"
       ]
@@ -161,6 +167,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.platinum"
       ],
       "output": [
+        "agricraft:agri_nugget:10",
         "thermalfoundation:material:198"
       ]
     },
@@ -172,6 +179,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.silver"
       ],
       "output": [
+        "agricraft:agri_nugget:7",
         "embers:nugget_silver:0",
         "magneticraft:nuggets:12",
         "thermalfoundation:material:194"
@@ -188,6 +196,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.tin"
       ],
       "output": [
+        "agricraft:agri_nugget:5",
         "crossroads:nugget_tin:0",
         "embers:nugget_tin:0",
         "libvulpes:productnugget:5",
