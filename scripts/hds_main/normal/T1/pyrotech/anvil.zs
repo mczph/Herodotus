@@ -11,6 +11,7 @@ function allPyroAnvil(name as string, output as IItemStack, input as IIngredient
     GraniteAnvil.addRecipe("G" ~ name, output, input, hits, type);
     IroncladAnvil.addRecipe("I" ~ name, output, input, hits, type);
 }
+
 if(!isInvalid){
 allPyroAnvil("breakCopperOre", <tinker_io:crushed_ore>.withTag({oreDict: "oreCopper"}), <thermalfoundation:ore:0>, 5, "hammer");
 allPyroAnvil("breakTinOre", <tinker_io:crushed_ore>.withTag({oreDict: "oreTin"}), <thermalfoundation:ore:1>, 5, "hammer");
