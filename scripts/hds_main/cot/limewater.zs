@@ -4,5 +4,5 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
 
-val lw = VanillaFactory.createFluid("limewater", 0x727272);
+val lw = VanillaFactory.createFluid("limewater", 0x858585);
 lw.register();
