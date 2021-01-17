@@ -3,21 +3,41 @@
     {
         "title":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
+            "image" : "mainmenu:title.png",
+            "posX" : -260,
+            "posY" : 25,
+            "width" : 260,
+            "height" : 80,
             "alignment" : "top_center"
         },
-        
-        "edition":
+
+        "b1":
         {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
+            "image" : "mainmenu:left_center.png",
+            "posX" : -245,
+            "posY" : 130,
+            "width" : 146.475,
+            "height" : 108.36,
+            "alignment" : "top_center"
+        },
+
+        "b2":
+        {
+            "image" : "mainmenu:right_down.png",
+            "posX" : -95.525,
+            "posY" : 130,
+            "width" : 120,
+            "height" : 60,
+            "alignment" : "top_center"
+        },
+
+        "b3":
+        {
+            "image" : "mainmenu:right_up.png",
+            "posX" : -95.525,
+            "posY" : 200,
+            "width" : 120,
+            "height" : 38.36,
             "alignment" : "top_center"
         }
     },
@@ -26,86 +46,139 @@
     {
         "singleplayer":
         {
-            "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
-            "height" : 20,
+            "text" : "",
+            "texture" : "mainmenu:singleplayer.png",
+            "posX" : 60,
+            "posY" : 40,
+            "width" : 113.4,
+            "height" : 47.304,
+            "imageWidth": "344",
+            "imageHeight": "146",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
             }
         },
+
+        "realms":
+        {
+            "text" : "",
+            "texture" : "mainmenu:realms.png",
+            "posX" : 173.4,
+            "posY" : 40,
+            "width" : 72.9,
+            "height" : 47.304,
+            "imageWidth" : "219",
+            "imageHeight" : "145",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "realms"
+            }
+        },
         
         "multiplayer":
         {
-            "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
-            "height" : 20,
+            "text" : "",
+            "texture" : "mainmenu:multiplayer.png",
+            "posX" : 28,
+            "posY" : -20,
+            "width" : 225,
+            "height" : 56.7,
+            "imageWidth" : "685",
+            "imageHeight" : "184",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
             }
         },
-        
-        "mods":
-        {
-            "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
             
-        "options":
+        "settings":
         {
-            "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
+            "text" : "",
+            "texture" : "mainmenu:settings.png",
+            "posX" : 70,
+            "posY" : 93,
+            "width" : 80,
+            "height" : 47.304,
+            "imageWidth" : "219",
+            "imageHeight" : "145",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "options"
             }
         },
-        
-        "quit":
+
+        "mods":
         {
-            "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
+            "text" : "",
+            "texture" : "mainmenu:mods.png",
+            "posX" : 155,
+            "posY" : 93,
+            "width" : 65,
+            "height" : 47.304,
+            "imageWidth" : "207",
+            "imageHeight" : "145",
             "action" : 
             {
-                "type" : "quit"
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "about":
+        {
+            "text" : "",
+            "texture" : "mainmenu:about.png",
+            "posX" : 220,
+            "posY" : 93,
+            "width" : 46,
+            "height" : 47.304,
+            "imageWidth" : "126",
+            "imageHeight" : "145",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "about"
             }
         },
         
         "language":
         {
             "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
+            "texture" : "mainmenu:lang.png",
+            "posX" : 60,
+            "posY" : 147,
+            "width" : 52,
+            "height" : 50,
+            "imageWidth" : "149",
+            "imageHeight" : "146",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "languages"
             }
         },
+
+        "quit":
+        {
+            "text" : "",
+            "texture" : "mainmenu:quit.png",
+            "posX" : 120,
+            "posY" : 147,
+            "width" : 125,
+            "height" : 50,
+            "imageWidth" : "375",
+            "imageHeight" : "146",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
         
         "refresh":
         {
@@ -127,8 +200,8 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
-            "posX" : -197,
+            "hoverText" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -165,
             "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_right",
@@ -151,18 +224,9 @@
     
     "other":
     {
-        "splash-text":
-        {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
         "panorama":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "images" : "panorama:panorama_%c.png",
             "animate" : true,
             "animationSpeed" : 1,
             "blur" : true,
