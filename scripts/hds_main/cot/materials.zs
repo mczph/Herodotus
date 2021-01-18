@@ -11,12 +11,13 @@ val partsList as string[] = [
     "block", "shard", "molten", "flawless_gem", "dust", 
     "crushed_ore", "ore", "small_dust", "long_rod", "small_spring", 
     "clump", "flawed_gem", "large_spring", "purified_ore", "poor_ore", 
-    "minecart", "armor", "round", "ore_sample", "dense_ore", 
+    "minecart", "round", "ore_sample", "dense_ore", 
     "bolt", "ingot", "tiny_dust", "gear"
 ];
 
-val materialList as string[int] = {
-    "iron" : 0x000000
+val materialList as int[string] = {
+    //"white" : 0x000000,
+    //"black" : 0xffffff
 };
 
 val register as MaterialSystemHelper = CotUtils.getMaterialSystemHelper(1);
