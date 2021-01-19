@@ -20,7 +20,7 @@ zenClass MaterialSystemHelper {
     }
     var materialList as Material[string] = {};
     var partList as string[] = [];
-    val id as int;
+    val id as string;
 
     function getLogID() as string {
         return "Material System Helper " ~ this.id ~ ": ";
