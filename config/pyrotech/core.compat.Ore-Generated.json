@@ -58,7 +58,6 @@
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
-        "crossroads:tile.ore_copper",
         "embers:tile.ore_copper",
         "factorytech:tile.factorytech:factorytech.ore:0",
         "libvulpes:material.Copper",
@@ -69,7 +68,6 @@
       ],
       "output": [
         "agricraft:agri_nugget:4",
-        "crossroads:nugget_copper:0",
         "embers:nugget_copper:0",
         "factorytech:ore_dust:4",
         "libvulpes:productnugget:4",
@@ -188,7 +186,6 @@
     "oreTin": {
       "slagColor": "c3e9ff",
       "langKey": [
-        "crossroads:tile.ore_tin",
         "embers:tile.ore_tin",
         "libvulpes:material.Tin",
         "mekanism:tile.OreBlock.TinOre",
@@ -197,7 +194,6 @@
       ],
       "output": [
         "agricraft:agri_nugget:5",
-        "crossroads:nugget_tin:0",
         "embers:nugget_tin:0",
         "libvulpes:productnugget:5",
         "magneticraft:nuggets:13",

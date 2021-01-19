@@ -1,9 +1,12 @@
+#packmode normal
+#priority 0
+
 import mods.dropt.Dropt;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
-//Removes
+//Remove
 Dropt.list("remove_form_tall_grass")
   .add(Dropt.rule()
       .matchBlocks(["minecraft:double_plant:2", "minecraft:tallgrass:1"])
@@ -12,6 +15,6 @@ Dropt.list("remove_form_tall_grass")
       .addDrop(Dropt.drop())
   );
 
-//Adds
+//Add
 
 }

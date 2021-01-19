@@ -1,3 +1,6 @@
+#packmode normal
+#priority -1
+
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.event.IEventPositionable;

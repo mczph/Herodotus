@@ -1,3 +1,4 @@
+#packmode normal
 #priority -1
 
 import crafttweaker.item.IItemStack;
@@ -7,5 +8,8 @@ import mods.inworldcrafting.FluidToFluid;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
+//Remove
+
+//Add
 mods.inworldcrafting.FluidToFluid.transform(<liquid:limewater>, <liquid:water>, [<pyrotech:material:22> *3]);
 }
