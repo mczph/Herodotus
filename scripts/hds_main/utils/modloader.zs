@@ -30,6 +30,7 @@ static invalidMods as string[] = [
 for i in invalidMods{
     if(loadedMods in i){
         isInvalid = true;
+        print("[ModLoader] Found invalid mods, no gameplay scripts will be loaded anymore.");
         break;
     }
 }
@@ -37,5 +38,5 @@ for i in invalidMods{
 //calling
 //import scripts.hds_main.utils.modloader.isInvalid;
 if(!isInvalid){
-    print("The check for invalid mods has been completed, and all scripts will now be loaded.");
+    print("[ModLoader] The check for invalid mods has been completed, and all scripts will now be loaded.");
 }
