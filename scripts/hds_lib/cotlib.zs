@@ -50,6 +50,36 @@ static allMaterialMap as int[string][int] = {
         "square" : 0xffffff
     },
     2 : {
-        // "name": 0xabcdef
+        "iron" : 0xe6e6e6,
+        "lithium" : 0xd2d2d2,
+        "coal" : 0x000000,
+        "copper" : 0xff4100,
+        "mercury" : 0xc8c8c8,
+        "quartz" : 0xffffff,
+        "lead" : 0x2b2b2b,
+        "tin" : 0xdbdbdb,
+
+        "nickel" : 0xd2d2ac,
+        "silver" : 0xf7f7f7,
+
+        "lapis" : 0x1010cb,
+        //colored gems
+        "tungsten" : 0x2c2c45,
+        "sodium" : 0xdbdbdb,
+        "aluminum": 0xe8e8e8,
+
+        "radioactive_residue" : 0xe9c935,
+        "gold" : 0xe8da16,
+        "chromium" : 0xbfbfbf,
+
+        "silicon" : 0x909090,
+        "diamond" : 0x2fc7e4,
+        "cobalt" : 0x2d8ba5,
+        "titanium" : 0xded3f8,
+        "potassium" : 0xff9e00,
+        "iridium" : 0xeaeaea,
+        "osmium" : 0x1ea2f6,
+
+
     }
 };

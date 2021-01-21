@@ -1,1 +1,43 @@
 fluid.limewater=Lime Water
+
+#MSH
+contenttweaker.part.rhombus=%s Rhombus
+contenttweaker.part.spherical=%s Spherical
+contenttweaker.part.square=%s Square
+
+base.material.red=Red
+base.material.yellow=Yellow
+base.material.blue=Blue
+base.material.rhombus=Rombus
+base.material.spherical=Spherical
+base.material.square=Square
+
+base.material.iron=Iron
+base.material.lithium=Lithium
+base.material.coal=Coal
+base.material.copper=Copper
+base.material.mercury=Mercury
+base.material.quartz=Quartz
+base.material.lead=Lead
+base.material.tin=Tin
+
+base.material.nickel=Nickel
+base.material.silver=Silver
+
+base.material.lapis=Lapis
+//colored gems
+base.material.tungsten=Tunngsten
+base.material.sodium=Sodium
+base.material.aluminum=Aluminium
+
+base.material.radioactive_residue=Radioactive Residue
+base.material.gold=Gold
+base.material.chromium=Chromium
+
+base.material.silicon=Silicon
+base.material.diamond=Diamond
+base.material.cobalt=Cobalt
+base.material.titanium=Titanium
+base.material.potassium=Potassium
+base.material.iridium=Iridium
+base.material.osmium=Osmium
