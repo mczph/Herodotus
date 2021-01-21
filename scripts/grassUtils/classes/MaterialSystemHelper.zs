@@ -15,7 +15,7 @@ import scripts.grassUtils.StringHelperCot as StringHelper;
 import scripts.grassUtils.LoggerCot as Logger;
 
 zenClass MaterialSystemHelper {
-    zenConstructor(arg as int) {
+    zenConstructor(arg as string) {
         this.id = arg;
     }
     var materialList as Material[string] = {};
