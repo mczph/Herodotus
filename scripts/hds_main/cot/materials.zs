@@ -23,4 +23,4 @@ materialBuilder("colorOresBuilder", cotlib.colorOresPartsArray, cotlib.colorOres
 materialBuilder("geometryOresBuilder", cotlib.geometryOresPartsArray, cotlib.geometryOresMaterialArray);
 
 //metals
-//materialBuilder("metalsBuilder_1", cotlib.metalPartsArray_1, cotlib.metalsMaterialArray);
+//materialBuilder("metalsBuilder_1", cotlib.metalPartsArray_1, cotlib.metalsMaterialArray_1);

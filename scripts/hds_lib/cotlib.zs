@@ -64,6 +64,6 @@ static geometryOresMaterialArray as int[string] = {
     "square" : 0xffffff
 };
 
-static metalMaterialArray as int[string] = {
+static metalMaterialArray_1 as int[string] = {
     //"name" : 0xffffff
 };
