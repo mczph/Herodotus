@@ -23,6 +23,7 @@ recipes.removeShaped(<minecraft:stick>*16,[
     [null, <ore:logWood>],
     [null, <ore:logWood>]
 ]);
+
 //damn furnace
 furnace.removeAll();
 

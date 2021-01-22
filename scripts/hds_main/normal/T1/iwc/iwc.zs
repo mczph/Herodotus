@@ -11,5 +11,5 @@ if(!isInvalid){
 //Remove
 
 //Add
-mods.inworldcrafting.FluidToFluid.transform(<liquid:limewater>, <liquid:water>, [<pyrotech:material:22> *3]);
+mods.inworldcrafting.FluidToFluid.transform(<liquid:limewater>, <liquid:water>, [<pyrotech:material:22> *3]);//make limewater
 }

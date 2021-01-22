@@ -4,7 +4,7 @@
 import scripts.grassUtils.CotUtils;
 import scripts.grassUtils.classes.MaterialSystemHelper.MaterialSystemHelper;
 
-//registerPart
+//registerParts
 val registerPartsArray as string[] = [
     "rhombus", "spherical", "square"
 ];
@@ -13,8 +13,9 @@ for name in registerPartsArray{
     register.registerNormalPart(name, "item", false);
 }
 
+//partsArrays
 static allPartsMap as string[][int] = {
-    0 : [
+    0 : [//allPartsAsExample
         "nugget", "beam", "dirty_dust", "cluster", "ring",
         "rod", "crystal", "plate", "chipped_gem", "centrifuged_ore",
         "rock", "ore_rock", "casing", "missing", "dense_plate",
@@ -24,35 +25,44 @@ static allPartsMap as string[][int] = {
         "minecart", "armor", "round", "ore_sample", "dense_ore",
         "bolt", "ingot", "tiny_dust", "gear"
     ],
-    1 : [
+    1 : [//geometryOre
         "rhombus", "spherical", "square",
         "ore", "purified_ore", "poor_ore", "ore_sample", "molten"
     ],
-    2 : [
+    2 : [//metal1
         "nugget", "beam", "dirty_dust", "cluster", "ring",
         "rod", "crystal", "plate", "chipped_gem", "casing",
         "missing", "dense_plate", "block", "shard", "molten",
         "flawless_gem", "dust", "small_dust", "long_rod", "small_spring",
         "clump", "flawed_gem", "large_spring", "minecart", "round",
-        "bolt", "ingot", "tiny_dust", "gear"
+        "ore", "purified_ore", "poor_ore", "ore_sample", "bolt",
+        "ingot", "tiny_dust", "gear","centrifuged_ore", "dense_ore",
+        "crushed_ore", "rock", "ore_rock",
+    ],
+    3 : [//gems
+        "nugget", "dirty_dust", "cluster",
+        "chipped_gem", "casing", "missing",
+        "block", "molten", "flawless_gem",
+        "small_dust", "flawed_gem", "tiny_dust", "dust"
     ]
 };
 
+//materialArrays
 static allMaterialMap as int[string][int] = {
-    0 : {
+    0 : {//coloredOre
         "red" : 0xfc0d20,
         "yellow" : 0xffd701,
         "blue" : 0x00a2dd
     },
-    1 : {
+    1 : {//geometryOre
         "rhombus" : 0xffffff,
         "spherical" : 0xffffff,
         "square" : 0xffffff
     },
-    2 : {
-        "iron" : 0xe6e6e6,
+    2 : {//metal1
+        "iron" : 0xd8af93,
         "lithium" : 0xd2d2d2,
-        "coal" : 0x000000,
+        "coal" : 0x0f0f0f,
         "copper" : 0xff4100,
         "mercury" : 0xc8c8c8,
         "quartz" : 0xffffff,
@@ -73,13 +83,15 @@ static allMaterialMap as int[string][int] = {
         "chromium" : 0xbfbfbf,
 
         "silicon" : 0x909090,
-        "diamond" : 0x2fc7e4,
         "cobalt" : 0x2d8ba5,
         "titanium" : 0xded3f8,
         "potassium" : 0xff9e00,
         "iridium" : 0xeaeaea,
         "osmium" : 0x1ea2f6,
 
-
+    },
+    3 : {//gems
+        //colored gems
+        "diamond" : 0x2fc7e4
     }
 };

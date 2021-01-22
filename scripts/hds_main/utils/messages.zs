@@ -8,7 +8,7 @@ import crafttweaker.command.ICommandSender;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(isInvalid == true){
-events.onCommand(function(event as CommandEvent){
+events.onCommand(function(event as CommandEvent){//disable the "/gamemode creative(1)" command by cancelling the command event
    val sender as ICommandSender = event.commandSender;
    if (!event.commandSender.world.remote && event.command.name == "gamemode" 
        && (event.parameters in "1" || event.parameters in "creative")) {
@@ -16,14 +16,14 @@ events.onCommand(function(event as CommandEvent){
        sender.sendMessage("呐呐, 不可以使用这个指令的哦（；´д｀）ゞ");
    }
 });
-events.onCommand(function(event as CommandEvent){
+events.onCommand(function(event as CommandEvent){//disable the "/give" command by cancelling the command event
    val sender as ICommandSender = event.commandSender;
    if (!event.commandSender.world.remote && event.command.name == "give" ) {
        event.cancel();
        sender.sendMessage("呐呐, 不可以使用这个指令的哦（；´д｀）ゞ");
    }
 });
-events.onPlayerTick(function(event as PlayerTickEvent) {
+events.onPlayerTick(function(event as PlayerTickEvent) {//send the tips
     val player as IPlayer = event.player;
     val world as IWorld = player.world;
     if (world.time % 100 == 0) {

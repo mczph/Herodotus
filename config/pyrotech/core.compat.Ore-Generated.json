@@ -23,12 +23,14 @@
     "oreAluminum": {
       "slagColor": "e2e2e3",
       "langKey": [
+        "contenttweaker:tile.contenttweaker.sub_block_holder_6",
         "embers:tile.ore_aluminum",
         "libvulpes:material.Aluminum",
         "thermalfoundation:tile.thermalfoundation.ore.aluminum"
       ],
       "output": [
         "agricraft:agri_nugget:8",
+        "contenttweaker:material_part:170",
         "embers:nugget_aluminum:0",
         "libvulpes:productnugget:9",
         "magneticraft:nuggets:7",
@@ -47,10 +49,12 @@
     "oreCobalt": {
       "slagColor": "1c5bc1",
       "langKey": [
+        "contenttweaker:tile.contenttweaker.sub_block_holder_4",
         "magneticraft:tile.magneticraft.ores_cobalt",
         "tconstruct:tile.tconstruct.ore.cobalt"
       ],
       "output": [
+        "contenttweaker:material_part:315",
         "magneticraft:nuggets:4",
         "tconstruct:nuggets:0"
       ]
@@ -58,6 +62,7 @@
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
+        "contenttweaker:tile.contenttweaker.sub_block_holder_5",
         "embers:tile.ore_copper",
         "factorytech:tile.factorytech:factorytech.ore:0",
         "libvulpes:material.Copper",
@@ -68,6 +73,7 @@
       ],
       "output": [
         "agricraft:agri_nugget:4",
+        "contenttweaker:material_part:721",
         "embers:nugget_copper:0",
         "factorytech:ore_dust:4",
         "libvulpes:productnugget:4",
@@ -79,19 +85,23 @@
     "oreGold": {
       "slagColor": "fcee4b",
       "langKey": [
+        "contenttweaker:tile.contenttweaker.sub_block_holder_6",
         "minecraft:tile.oreGold"
       ],
       "output": [
+        "contenttweaker:material_part:141",
         "minecraft:gold_nugget:0"
       ]
     },
     "oreIridium": {
       "slagColor": "d5d4e7",
       "langKey": [
+        "contenttweaker:tile.contenttweaker.sub_block_holder_3",
         "libvulpes:material.Iridium",
         "thermalfoundation:tile.thermalfoundation.ore.iridium"
       ],
       "output": [
+        "contenttweaker:material_part:692",
         "libvulpes:productnugget:10",
         "thermalfoundation:material:199"
       ]
@@ -99,18 +109,21 @@
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
+        "contenttweaker:tile.contenttweaker.sub_block_holder_4",
         "industrialrenewal:item.industrialrenewal.chunk_hematite",
         "industrialrenewal:tile.industrialrenewal.orevein_hematite",
         "minecraft:tile.oreIron"
       ],
       "output": [
         "agricraft:agri_nugget:3",
+        "contenttweaker:material_part:257",
         "minecraft:iron_nugget:0"
       ]
     },
     "oreLead": {
       "slagColor": "95afee",
       "langKey": [
+        "contenttweaker:tile.contenttweaker.sub_block_holder_4",
         "embers:tile.ore_lead",
         "magneticraft:tile.magneticraft.ores_lead",
         "nuclearcraft:tile.nuclearcraft.ore.lead",
@@ -118,6 +131,7 @@
       ],
       "output": [
         "agricraft:agri_nugget:6",
+        "contenttweaker:material_part:547",
         "embers:nugget_lead:0",
         "magneticraft:nuggets:3",
         "thermalfoundation:material:195"
@@ -136,12 +150,14 @@
     "oreNickel": {
       "slagColor": "e4e5d8",
       "langKey": [
+        "contenttweaker:tile.contenttweaker.sub_block_holder_3",
         "embers:tile.ore_nickel",
         "factorytech:tile.factorytech:factorytech.ore:1",
         "thermalfoundation:tile.thermalfoundation.ore.nickel"
       ],
       "output": [
         "agricraft:agri_nugget:9",
+        "contenttweaker:material_part:634",
         "embers:nugget_nickel:0",
         "factorytech:ore_dust:5",
         "magneticraft:nuggets:10",
@@ -151,10 +167,12 @@
     "oreOsmium": {
       "slagColor": "9babc4",
       "langKey": [
+        "contenttweaker:tile.contenttweaker.sub_block_holder_5",
         "mekanism:tile.OreBlock.OsmiumOre"
       ],
       "output": [
         "agricraft:agri_nugget:11",
+        "contenttweaker:material_part:344",
         "magneticraft:nuggets:11",
         "mekanism:nugget:1"
       ]
@@ -172,12 +190,14 @@
     "oreSilver": {
       "slagColor": "e8f6fd",
       "langKey": [
+        "contenttweaker:tile.contenttweaker.sub_block_holder_4",
         "embers:tile.ore_silver",
         "magneticraft:tile.magneticraft.ores_lead",
         "thermalfoundation:tile.thermalfoundation.ore.silver"
       ],
       "output": [
         "agricraft:agri_nugget:7",
+        "contenttweaker:material_part:373",
         "embers:nugget_silver:0",
         "magneticraft:nuggets:12",
         "thermalfoundation:material:194"
@@ -186,6 +206,7 @@
     "oreTin": {
       "slagColor": "c3e9ff",
       "langKey": [
+        "contenttweaker:tile.contenttweaker.sub_block_holder_5",
         "embers:tile.ore_tin",
         "libvulpes:material.Tin",
         "mekanism:tile.OreBlock.TinOre",
@@ -194,6 +215,7 @@
       ],
       "output": [
         "agricraft:agri_nugget:5",
+        "contenttweaker:material_part:576",
         "embers:nugget_tin:0",
         "libvulpes:productnugget:5",
         "magneticraft:nuggets:13",
