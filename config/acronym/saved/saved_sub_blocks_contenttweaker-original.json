@@ -131,7 +131,32 @@
       "1": "iridium_poor_ore",
       "2": "iron_poor_ore",
       "3": "lithium_ore_sample",
-      "4": "nickel_ore_sample"
+      "4": "nickel_ore_sample",
+      "5": "coal_dense_ore",
+      "6": "iridium_dense_ore",
+      "7": "osmium_dense_ore",
+      "8": "silver_dense_ore",
+      "9": "lead_dense_ore",
+      "10": "lapis_dense_ore",
+      "11": "quartz_dense_ore",
+      "12": "iron_dense_ore",
+      "13": "sodium_dense_ore",
+      "14": "titanium_dense_ore",
+      "15": "potassium_dense_ore"
+    },
+    "8": {
+      "0": "nickel_dense_ore",
+      "1": "silicon_dense_ore",
+      "2": "copper_dense_ore",
+      "3": "cobalt_dense_ore",
+      "4": "chromium_dense_ore",
+      "5": "tin_dense_ore",
+      "6": "gold_dense_ore",
+      "7": "radioactive_residue_dense_ore",
+      "8": "mercury_dense_ore",
+      "9": "lithium_dense_ore",
+      "10": "tungsten_dense_ore",
+      "11": "aluminum_dense_ore"
     }
   }
 }
