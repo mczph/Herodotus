@@ -32,3 +32,4 @@ scripts/nc_script_addons
 !/CHANGELOG
 
 !/icon.png
+*.properties
