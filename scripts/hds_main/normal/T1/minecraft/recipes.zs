@@ -1,4 +1,5 @@
 #packmode normal
+#disable_search_tree
 #priority -1
 
 import scripts.grassUtils.RecipeUtils;
