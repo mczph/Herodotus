@@ -23,7 +23,7 @@ config/brandon3055/contributors.json
 !/scripts/
 scripts/nc_script_addons
 !/structures/
-
+!/docs/
 
 #Files
 !/.gitignore
