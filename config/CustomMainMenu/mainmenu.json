@@ -4,10 +4,10 @@
         "title":
         {
             "image" : "mainmenu:title.png",
-            "posX" : -260,
-            "posY" : 25,
-            "width" : 260,
-            "height" : 80,
+            "posX" : -285,
+            "posY" : 35,
+            "width" : 290,
+            "height" : 75,
             "alignment" : "top_center"
         },
 

@@ -27,7 +27,7 @@ static allPartsMap as string[][int] = {
     ],
     1 : [//geometryOre
         "rhombus", "spherical", "square",
-        "ore", "purified_ore", "poor_ore", "ore_sample", "molten"
+        "ore", "dense_ore", "poor_ore", "molten"
     ],
     2 : [//metal1
         "nugget", "beam", "dirty_dust", "cluster", "ring",
@@ -94,4 +94,11 @@ static allMaterialMap as int[string][int] = {
         //colored gems
         "diamond" : 0x2fc7e4
     }
+};
+
+//dyewaterArray
+static dyelist as int[string] = {
+    "red_t1" : 0xfc0d20,
+    "yellow_t1" : 0xffd701,
+    "blue_t1" : 0x00a2dd
 };
