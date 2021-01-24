@@ -15,8 +15,8 @@
       "11": "tin_block",
       "12": "copper_block",
       "13": "lead_block",
-      "14": "rhombus_ore_sample",
-      "15": "square_ore_sample"
+      "14": "square_dense_ore",
+      "15": "spherical_dense_ore"
     },
     "1": {
       "0": "titanium_block",
@@ -37,7 +37,7 @@
       "15": "yellow_dense_ore"
     },
     "2": {
-      "0": "spherical_ore_sample",
+      "0": "rhombus_dense_ore",
       "1": "square_ore",
       "2": "coal_block",
       "3": "tungsten_block",
