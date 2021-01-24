@@ -16,6 +16,7 @@ config/biomesoplenty/biomes/Put biome config files here
 config/astralsorcery/amulet_enchantments.cfg
 config/AE2Stuff/readme.txt
 config/vanillafix/methods-stable_39.csv
+config/brandon3055/contributors.json
 
 !/patchouli_books/*
 !/resources/
@@ -31,3 +32,4 @@ scripts/nc_script_addons
 !/CHANGELOG
 
 !/icon.png
+
