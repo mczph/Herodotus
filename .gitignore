@@ -8,7 +8,6 @@ config/tellme/*
 config/InvTweaks.cfg
 config/jei/worldSettings.cfg
 config/jei/bookmarks.ini
-config/craftpresence.properties
 config/AppliedEnergistics2/items.csv
 config/AppliedEnergistics2/CustomRecipes.cfg
 config/AppliedEnergistics2/VersionChecker.cfg
@@ -32,4 +31,3 @@ scripts/nc_script_addons
 !/CHANGELOG
 
 !/icon.png
-*.properties
