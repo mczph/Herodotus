@@ -261,6 +261,7 @@
   "tinkersjei": "1.2",
   "opencomputers|core": "1.7.5.192",
   "incorporeal": "1.2.5",
+  "dlcloader": "1.0",
   "packmode": "1.2.0",
   "modelloader": "1.1.7"
 }

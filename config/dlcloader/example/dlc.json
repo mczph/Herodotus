@@ -1,0 +1,18 @@
+[
+    {
+        "__comment0": "put your json to config/dlc_loader/dlc.json",
+        "__comment1": "this is only a comment. remove it in your configuration",
+        "name": "vanilla",
+        "mods": [
+            "minecraft",
+            "forge"
+        ]
+    },
+    {
+        "name": "tech",
+        "mods": [
+            "thermalexpansion",
+            "mekanism"
+        ]
+    }
+]
