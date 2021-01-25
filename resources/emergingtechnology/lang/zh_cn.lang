@@ -23,11 +23,11 @@ item.emergingtechnology.nozzlelong.name=长喷嘴
 item.emergingtechnology.nozzlesmart.name=智能喷嘴
 item.emergingtechnology.nozzleprecise.name=精确喷嘴
 
-item.emergingtechnology.aquaponicblock.name=水培框架
-item.emergingtechnology.aquaponicglass.name=水培玻璃
-item.emergingtechnology.aquaponicbase.name=水培基座
-item.emergingtechnology.aquaponic.name=水培控制器
-item.emergingtechnology.aquaponicport.name=水培接口
+item.emergingtechnology.aquaponicblock.name=水族箱框架
+item.emergingtechnology.aquaponicglass.name=水族箱玻璃
+item.emergingtechnology.aquaponicbase.name=水族箱基座
+item.emergingtechnology.aquaponic.name=水族箱控制器
+item.emergingtechnology.aquaponicport.name=水族箱接口
 
 item.emergingtechnology.fertilizer.name=肥料
 
@@ -114,11 +114,11 @@ blocks.emergingtechnology.injector.name=营养注射器
 blocks.emergingtechnology.light.name=水培生长灯
 blocks.emergingtechnology.frame.name=塑料板
 
-blocks.emergingtechnology.aquaponicblock.name=水培框架
-blocks.emergingtechnology.aquaponicglass.name=水培玻璃
-blocks.emergingtechnology.aquaponicbase.name=水培基座
-blocks.emergingtechnology.aquaponic.name=水培控制器
-blocks.emergingtechnology.aquaponicport.name=水培接口
+blocks.emergingtechnology.aquaponicblock.name=水族箱框架
+blocks.emergingtechnology.aquaponicglass.name=水族箱玻璃
+blocks.emergingtechnology.aquaponicbase.name=水族箱基座
+blocks.emergingtechnology.aquaponic.name=水族箱控制器
+blocks.emergingtechnology.aquaponicport.name=水族箱接口
 
 #POLYMERS MODULE
 blocks.emergingtechnology.processor.name=加工机
@@ -167,11 +167,11 @@ tile.emergingtechnology.injector.name=营养注射器
 tile.emergingtechnology.light.name=水培生长灯
 tile.emergingtechnology.frame.name=塑料板
 
-tile.emergingtechnology.aquaponicblock.name=水培框架
-tile.emergingtechnology.aquaponicglass.name=水培玻璃
-tile.emergingtechnology.aquaponicbase.name=水培基座
-tile.emergingtechnology.aquaponic.name=水培控制器
-tile.emergingtechnology.aquaponicport.name=水培接口
+tile.emergingtechnology.aquaponicblock.name=水族箱框架
+tile.emergingtechnology.aquaponicglass.name=水族箱玻璃
+tile.emergingtechnology.aquaponicbase.name=水族箱基座
+tile.emergingtechnology.aquaponic.name=水族箱控制器
+tile.emergingtechnology.aquaponicport.name=水族箱接口
 
 #POLYMERS MODULE
 tile.emergingtechnology.processor.name=加工机
