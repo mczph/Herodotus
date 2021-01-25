@@ -19,6 +19,8 @@ Dropt.list("remove_form_tall_grass")
 
 
 //Add
+
+// TODO: Use IOreDictEntry
 val sbh as string = "contenttweaker:sub_block_holder_";
 val mp as string = "contenttweaker:material_part:";
 geometryOreDropt("rhombus", [sbh~"0:6", sbh~"0:5", sbh~"2:0"], mp~"125");
