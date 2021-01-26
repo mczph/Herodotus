@@ -2,7 +2,9 @@
 #priority 0
 
 import mods.dropt.Dropt;
+import scripts.grassUtils.StringHelper;
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
 import scripts.hds_main.utils.modloader.isInvalid;
 import scripts.hds_lib.droptlib.geometryOreDropt;
 
@@ -20,10 +22,19 @@ Dropt.list("remove_form_tall_grass")
 
 //Add
 
-// TODO: Use IOreDictEntry
-val sbh as string = "contenttweaker:sub_block_holder_";
-val mp as string = "contenttweaker:material_part:";
-geometryOreDropt("rhombus", [sbh~"0:6", sbh~"0:5", sbh~"2:0"], mp~"125");
-geometryOreDropt("square", [sbh~"1:4", sbh~"2:1", sbh~"0:14"], mp~"135");
-geometryOreDropt("spherical", [sbh~"2:15", sbh~"2:14", sbh~"0:15"], mp~"118");
+geometryOreDropt("rhombus",
+    [StringHelper.getItemName(<ore:poorOreRhombus>.firstItem),
+     StringHelper.getItemName(<ore:oreRhombus>.firstItem),
+     StringHelper.getItemName(<ore:denseOreRhombus>.firstItem)],
+     StringHelper.getItemName(<ore:rhombusRhombus>.firstItem));
+geometryOreDropt("square",
+    [StringHelper.getItemName(<ore:poorOreSquare>.firstItem),
+     StringHelper.getItemName(<ore:oreSquare>.firstItem),
+     StringHelper.getItemName(<ore:denseOreSquare>.firstItem)],
+     StringHelper.getItemName(<ore:squareSquare>.firstItem));
+geometryOreDropt("spherical",
+    [StringHelper.getItemName(<ore:poorOreSpherical>.firstItem),
+     StringHelper.getItemName(<ore:oreSpherical>.firstItem),
+     StringHelper.getItemName(<ore:denseOreSpherical>.firstItem)],
+     StringHelper.getItemName(<ore:sphericalSpherical>.firstItem));
 }
