@@ -31,7 +31,6 @@
       "9": "blue_ore",
       "10": "potassium_block",
       "11": "blue_dense_ore",
-      "12": "mercury_block",
       "13": "quartz_block",
       "14": "sodium_block",
       "15": "yellow_dense_ore"
@@ -95,10 +94,8 @@
       "1": "potassium_poor_ore",
       "2": "osmium_ore",
       "3": "tungsten_poor_ore",
-      "4": "mercury_poor_ore",
       "5": "lead_poor_ore",
       "6": "tin_ore",
-      "7": "mercury_ore_sample",
       "8": "copper_ore_sample",
       "9": "sodium_ore_sample",
       "10": "coal_ore_sample",
@@ -116,7 +113,6 @@
       "4": "gold_ore_sample",
       "5": "chromium_ore_sample",
       "6": "gold_poor_ore",
-      "7": "mercury_ore",
       "8": "lithium_ore",
       "9": "tungsten_ore",
       "10": "radioactive_residue_poor_ore",
@@ -153,10 +149,11 @@
       "5": "tin_dense_ore",
       "6": "gold_dense_ore",
       "7": "radioactive_residue_dense_ore",
-      "8": "mercury_dense_ore",
       "9": "lithium_dense_ore",
       "10": "tungsten_dense_ore",
-      "11": "aluminum_dense_ore"
+      "11": "aluminum_dense_ore",
+      "12": "redstone_ore_sample",
+      "13": "redstone_block"
     }
   }
 }

@@ -52,6 +52,14 @@ static allPartsMap as string[][int] = {
         "chipped_gem", "casing", "missing",
         "block", "molten", "flawless_gem",
         "small_dust", "flawed_gem", "tiny_dust", "dust"
+    ],
+    4 : [ // redstone
+        "nugget", "dirty_dust", "cluster", "crystal",
+        "centrifuged_ore", "rock", "ore_rock", "missing",
+        "block", "shard", "flawed_gem", "chipped_gem", "flawless_gem",
+        "crushed_ore", "small_dust", "clump",
+        "purified_ore", "ore_sample", 
+        "ingot", "tiny_dust"
     ]
 };
 
@@ -72,9 +80,8 @@ static allMaterialMap as int[string][int] = {
         "lithium" : 0xd2d2d2,
         "coal" : 0x0f0f0f,
         "copper" : 0xff4100,
-        "mercury" : 0xc8c8c8,
         "quartz" : 0xffffff,
-        "lead" : 0x2b2b2b,
+        "lead" : 0x818ebe,
         "tin" : 0xdbdbdb,
 
         "nickel" : 0xd2d2ac,
@@ -101,6 +108,9 @@ static allMaterialMap as int[string][int] = {
     3 : {//gems
         //colored gems
         "diamond" : 0x2fc7e4
+    },
+    4 : {
+        "redstone" : 0x720000
     }
 };
 

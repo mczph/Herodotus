@@ -20,4 +20,13 @@ if(!isInvalid){
 //Add
 allPyroAnvil("breakCopperOre", <tinker_io:crushed_ore>.withTag({oreDict: "oreCopper"}), <thermalfoundation:ore:0>, 5, "hammer");
 allPyroAnvil("breakTinOre", <tinker_io:crushed_ore>.withTag({oreDict: "oreTin"}), <thermalfoundation:ore:1>, 5, "hammer");
+
+allPyroAnvil("break_blue_square", <ore:rockLead>.firstItem, <ore:squareBlue>, 6, "hammer");
+allPyroAnvil("break_rock_lead", <ore:crushedOreLead>.firstItem, <ore:rockLead>, 6, "pickaxe");
+
+allPyroAnvil("break_yellow_square", <ore:rockCopper>.firstItem, <ore:squareYellow>, 6, "hammer");
+allPyroAnvil("break_rock_copper", <ore:crushedOreCopper>.firstItem, <ore:rockCopper>, 6, "pickaxe");
+
+allPyroAnvil("break_blue_cicrle", <ore:rockTin>.firstItem, <ore:sphericalBlue>, 6, "hammer");
+allPyroAnvil("break_rock_tin", <ore:crushedOreTin>.firstItem, <ore:rockTin>, 6, "pickaxe");
 }
