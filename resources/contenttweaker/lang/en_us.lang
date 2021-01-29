@@ -1,9 +1,9 @@
 fluid.limewater=Lime Water
 
 #MSH
-contenttweaker.part.rhombus=%sRhombus
-contenttweaker.part.spherical=%sSpherical
-contenttweaker.part.square=%sSquare
+contenttweaker.part.rhombus=%s Rhombus
+contenttweaker.part.spherical=%s Spherical
+contenttweaker.part.square=%s Square
 
 base.material.red=Red
 base.material.yellow=Yellow
