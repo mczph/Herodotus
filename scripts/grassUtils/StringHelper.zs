@@ -6,7 +6,7 @@ import crafttweaker.item.IItemStack;
 function getItemName(input as IItemStack) as string {
     val id as string = input.definition.id;
     val meta as int = input.metadata;
-    return (meta == 0) ? id : (id ~ meta);
+    return id ~ ":" ~ meta;
 }
 
 function getItemNameWithUnderline(input as IItemStack) as string {

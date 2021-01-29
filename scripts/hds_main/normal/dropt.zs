@@ -26,15 +26,15 @@ geometryOreDropt("rhombus",
     [StringHelper.getItemName(<ore:poorOreRhombus>.firstItem),
      StringHelper.getItemName(<ore:oreRhombus>.firstItem),
      StringHelper.getItemName(<ore:denseOreRhombus>.firstItem)],
-     StringHelper.getItemName(<ore:rhombusRhombus>.firstItem));
+    <ore:rhombusRhombus>.firstItem);
 geometryOreDropt("square",
     [StringHelper.getItemName(<ore:poorOreSquare>.firstItem),
      StringHelper.getItemName(<ore:oreSquare>.firstItem),
      StringHelper.getItemName(<ore:denseOreSquare>.firstItem)],
-     StringHelper.getItemName(<ore:squareSquare>.firstItem));
+    <ore:squareSquare>.firstItem);
 geometryOreDropt("spherical",
     [StringHelper.getItemName(<ore:poorOreSpherical>.firstItem),
      StringHelper.getItemName(<ore:oreSpherical>.firstItem),
      StringHelper.getItemName(<ore:denseOreSpherical>.firstItem)],
-     StringHelper.getItemName(<ore:sphericalSpherical>.firstItem));
+    <ore:sphericalSpherical>.firstItem);
 }

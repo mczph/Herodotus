@@ -41,6 +41,7 @@
   "resourceloader": "1.5.3",
   "bedrockores": "1.2.7.42",
   "modularmagic": "1.4.0",
+  "hdsutils": "1.0",
   "teslathingies": "1.0.15",
   "topaddons": "1.12.2-1.13.0",
   "teslacorelib": "1.0.17",
@@ -261,7 +262,6 @@
   "tinkersjei": "1.2",
   "opencomputers|core": "1.7.5.192",
   "incorporeal": "1.2.5",
-  "dlcloader": "1.0",
   "packmode": "1.2.0",
   "modelloader": "1.1.7"
 }
