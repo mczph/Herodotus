@@ -12,19 +12,19 @@
         "meta": 32767
       },
       "input_fluid": {
-        "comment": "Ë®",
+        "comment": "æ°´",
         "name": "water",
         "amount": 1000
       },
       "output_fluid": {
-        "comment": "ÄıÈéÃ¸",
+        "comment": "å‡ä¹³é…¶",
         "name": "fluid_rennet",
         "amount": 1000
       },
       "residue": {
         "pomace": 0.0,
         "ore": null,
-        "comment": "¹Ç·Û",
+        "comment": "éª¨ç²‰",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -37,26 +37,26 @@
       "comment": "",
       "item": {
         "ore": null,
-        "comment": "ÌÇ",
+        "comment": "ç³–",
         "mod_id": "minecraft",
         "name": "sugar",
         "amount": 1,
         "meta": 0
       },
       "input_fluid": {
-        "comment": "ÍÑÖ¬ÄÌ",
+        "comment": "è„±è„‚å¥¶",
         "name": "fluid_skim_milk",
         "amount": 250
       },
       "output_fluid": {
-        "comment": "°ÍÊÏÄÌ",
+        "comment": "å·´æ°å¥¶",
         "name": "fluid_condensed_milk",
         "amount": 250
       },
       "residue": {
         "pomace": 1.0,
         "ore": null,
-        "comment": "·¢½Í¼Á",
+        "comment": "å‘é…µå‰‚",
         "mod_id": "growthcraft_milk",
         "name": "starter_culture",
         "amount": 1,
@@ -69,12 +69,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Æ»¹û¾Æ",
+        "comment": "è‹¹æœé…’",
         "name": "fluid_booze_apple_cider_fermented",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Æ»¹û¾Æ",
+        "comment": "è‹¹æœé…’",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
@@ -86,12 +86,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Æ»¹û¾Æ",
+        "comment": "è‹¹æœé…’",
         "name": "fluid_booze_apple_cider_potent",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Æ»¹û¾Æ",
+        "comment": "è‹¹æœé…’",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
@@ -103,12 +103,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Æ»¹û¾Æ",
+        "comment": "è‹¹æœé…’",
         "name": "fluid_booze_apple_cider_extended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Æ»¹û¾Æ",
+        "comment": "è‹¹æœé…’",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
@@ -120,12 +120,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÏÉâÍÃÜ¾Æ",
+        "comment": "ä»™é¦”å¯†é…’",
         "name": "fluid_booze_apple_cider_ethereal",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Æ»¹û¾Æ",
+        "comment": "è‹¹æœé…’",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
@@ -137,12 +137,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Æ»¹û¾Æ",
+        "comment": "è‹¹æœé…’",
         "name": "fluid_booze_apple_cider_intoxicated",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Æ»¹û¾Æ",
+        "comment": "è‹¹æœé…’",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
@@ -154,12 +154,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Æ»¹û¾Æ",
+        "comment": "è‹¹æœé…’",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Æ»¹û¾Æ",
+        "comment": "è‹¹æœé…’",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
@@ -178,19 +178,19 @@
         "meta": 32767
       },
       "input_fluid": {
-        "comment": "×ÏÆÏÌÑ¾Æ",
+        "comment": "ç´«è‘¡è„é…’",
         "name": "fluid_booze_purple_wine",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "²¨ÌØ¾Æ",
+        "comment": "æ³¢ç‰¹é…’",
         "name": "fluid_booze_purple_portwine",
         "amount": 40
       },
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "¹Ç·Û",
+        "comment": "éª¨ç²‰",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -210,19 +210,19 @@
         "meta": 32767
       },
       "input_fluid": {
-        "comment": "ºìÆÏÌÑ¾Æ",
+        "comment": "çº¢è‘¡è„é…’",
         "name": "fluid_booze_red_wine",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "²¨ÌØ¾Æ",
+        "comment": "æ³¢ç‰¹é…’",
         "name": "fluid_booze_red_portwine",
         "amount": 40
       },
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "¹Ç·Û",
+        "comment": "éª¨ç²‰",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -242,19 +242,19 @@
         "meta": 32767
       },
       "input_fluid": {
-        "comment": "ÂÌÆÏÌÑ¾Æ",
+        "comment": "ç»¿è‘¡è„é…’",
         "name": "fluid_booze_green_wine",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "²¨ÌØ¾Æ",
+        "comment": "æ³¢ç‰¹é…’",
         "name": "fluid_booze_green_portwine",
         "amount": 40
       },
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "¹Ç·Û",
+        "comment": "éª¨ç²‰",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -267,12 +267,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "×ÏÆÏÌÑ¾Æ",
+        "comment": "ç´«è‘¡è„é…’",
         "name": "fluid_booze_purple_wine",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "×ÏÆÏÌÑ¾Æ",
+        "comment": "ç´«è‘¡è„é…’",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -284,12 +284,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "×ÏÆÏÌÑ¾Æ",
+        "comment": "ç´«è‘¡è„é…’",
         "name": "fluid_booze_purple_wine_potent",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "×ÏÆÏÌÑ¾Æ",
+        "comment": "ç´«è‘¡è„é…’",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -301,12 +301,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "×ÏÆÏÌÑ¾Æ",
+        "comment": "ç´«è‘¡è„é…’",
         "name": "fluid_booze_purple_wine_extended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "×ÏÆÏÌÑ¾Æ",
+        "comment": "ç´«è‘¡è„é…’",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -318,12 +318,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÏÉâÍÃÜ¾Æ",
+        "comment": "ä»™é¦”å¯†é…’",
         "name": "fluid_booze_purple_ambrosia",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "×ÏÆÏÌÑ¾Æ",
+        "comment": "ç´«è‘¡è„é…’",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -335,12 +335,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "²¨ÌØ¾Æ",
+        "comment": "æ³¢ç‰¹é…’",
         "name": "fluid_booze_purple_portwine",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "×ÏÆÏÌÑ¾Æ",
+        "comment": "ç´«è‘¡è„é…’",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -352,12 +352,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "×ÏÆÏÌÑ¾Æ",
+        "comment": "ç´«è‘¡è„é…’",
         "name": "fluid_booze_purple_wine_intoxicated",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "×ÏÆÏÌÑ¾Æ",
+        "comment": "ç´«è‘¡è„é…’",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -369,12 +369,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "×ÏÆÏÌÑ¾Æ",
+        "comment": "ç´«è‘¡è„é…’",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "×ÏÆÏÌÑ¾Æ",
+        "comment": "ç´«è‘¡è„é…’",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -386,12 +386,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ºìÆÏÌÑ¾Æ",
+        "comment": "çº¢è‘¡è„é…’",
         "name": "fluid_booze_red_wine",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ºìÆÏÌÑ¾Æ",
+        "comment": "çº¢è‘¡è„é…’",
         "name": "fluid_booze_red_wine_poisoned",
         "amount": 40
       },
@@ -403,12 +403,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ºìÆÏÌÑ¾Æ",
+        "comment": "çº¢è‘¡è„é…’",
         "name": "fluid_booze_red_wine_potent",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ºìÆÏÌÑ¾Æ",
+        "comment": "çº¢è‘¡è„é…’",
         "name": "fluid_booze_red_wine_poisoned",
         "amount": 40
       },
@@ -420,12 +420,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ºìÆÏÌÑ¾Æ",
+        "comment": "çº¢è‘¡è„é…’",
         "name": "fluid_booze_red_wine_extended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ºìÆÏÌÑ¾Æ",
+        "comment": "çº¢è‘¡è„é…’",
         "name": "fluid_booze_red_wine_poisoned",
         "amount": 40
       },
@@ -437,12 +437,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÏÉâÍÃÜ¾Æ",
+        "comment": "ä»™é¦”å¯†é…’",
         "name": "fluid_booze_red_ambrosia",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ºìÆÏÌÑ¾Æ",
+        "comment": "çº¢è‘¡è„é…’",
         "name": "fluid_booze_red_wine_poisoned",
         "amount": 40
       },
@@ -454,12 +454,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "²¨ÌØ¾Æ",
+        "comment": "æ³¢ç‰¹é…’",
         "name": "fluid_booze_red_portwine",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ºìÆÏÌÑ¾Æ",
+        "comment": "çº¢è‘¡è„é…’",
         "name": "fluid_booze_red_wine_poisoned",
         "amount": 40
       },
@@ -471,12 +471,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ºìÆÏÌÑ¾Æ",
+        "comment": "çº¢è‘¡è„é…’",
         "name": "fluid_booze_red_wine_intoxicated",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ºìÆÏÌÑ¾Æ",
+        "comment": "çº¢è‘¡è„é…’",
         "name": "fluid_booze_red_wine_poisoned",
         "amount": 40
       },
@@ -488,12 +488,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ºìÆÏÌÑ¾Æ",
+        "comment": "çº¢è‘¡è„é…’",
         "name": "fluid_booze_red_wine_poisoned",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ºìÆÏÌÑ¾Æ",
+        "comment": "çº¢è‘¡è„é…’",
         "name": "fluid_booze_red_wine_poisoned",
         "amount": 40
       },
@@ -505,12 +505,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÂÌÆÏÌÑ¾Æ",
+        "comment": "ç»¿è‘¡è„é…’",
         "name": "fluid_booze_green_wine",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂÌÆÏÌÑ¾Æ",
+        "comment": "ç»¿è‘¡è„é…’",
         "name": "fluid_booze_green_wine_poisoned",
         "amount": 40
       },
@@ -522,12 +522,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÂÌÆÏÌÑ¾Æ",
+        "comment": "ç»¿è‘¡è„é…’",
         "name": "fluid_booze_green_wine_potent",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂÌÆÏÌÑ¾Æ",
+        "comment": "ç»¿è‘¡è„é…’",
         "name": "fluid_booze_green_wine_poisoned",
         "amount": 40
       },
@@ -539,12 +539,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÂÌÆÏÌÑ¾Æ",
+        "comment": "ç»¿è‘¡è„é…’",
         "name": "fluid_booze_green_wine_extended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂÌÆÏÌÑ¾Æ",
+        "comment": "ç»¿è‘¡è„é…’",
         "name": "fluid_booze_green_wine_poisoned",
         "amount": 40
       },
@@ -556,12 +556,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÏÉâÍÃÜ¾Æ",
+        "comment": "ä»™é¦”å¯†é…’",
         "name": "fluid_booze_green_ambrosia",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂÌÆÏÌÑ¾Æ",
+        "comment": "ç»¿è‘¡è„é…’",
         "name": "fluid_booze_green_wine_poisoned",
         "amount": 40
       },
@@ -573,12 +573,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "²¨ÌØ¾Æ",
+        "comment": "æ³¢ç‰¹é…’",
         "name": "fluid_booze_green_portwine",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂÌÆÏÌÑ¾Æ",
+        "comment": "ç»¿è‘¡è„é…’",
         "name": "fluid_booze_green_wine_poisoned",
         "amount": 40
       },
@@ -590,12 +590,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÂÌÆÏÌÑ¾Æ",
+        "comment": "ç»¿è‘¡è„é…’",
         "name": "fluid_booze_green_wine_intoxicated",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂÌÆÏÌÑ¾Æ",
+        "comment": "ç»¿è‘¡è„é…’",
         "name": "fluid_booze_green_wine_poisoned",
         "amount": 40
       },
@@ -607,12 +607,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÂÌÆÏÌÑ¾Æ",
+        "comment": "ç»¿è‘¡è„é…’",
         "name": "fluid_booze_green_wine_poisoned",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂÌÆÏÌÑ¾Æ",
+        "comment": "ç»¿è‘¡è„é…’",
         "name": "fluid_booze_green_wine_poisoned",
         "amount": 40
       },
@@ -624,12 +624,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "·äÃÛ¾Æ",
+        "comment": "èœ‚èœœé…’",
         "name": "fluid_booze_mead_fermented",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "·äÃÛ¾Æ",
+        "comment": "èœ‚èœœé…’",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
@@ -641,12 +641,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "³¤Ğ§·äÃÛ¾Æ",
+        "comment": "é•¿æ•ˆèœ‚èœœé…’",
         "name": "fluid_booze_mead_extended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "·äÃÛ¾Æ",
+        "comment": "èœ‚èœœé…’",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
@@ -658,12 +658,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Å¨·äÃÛ¾Æ",
+        "comment": "æµ“èœ‚èœœé…’",
         "name": "fluid_booze_mead_potent",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "·äÃÛ¾Æ",
+        "comment": "èœ‚èœœé…’",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
@@ -675,12 +675,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÔÌÄ§·äÃÛ¾Æ",
+        "comment": "è•´é­”èœ‚èœœé…’",
         "name": "fluid_booze_mead_ethereal",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "·äÃÛ¾Æ",
+        "comment": "èœ‚èœœé…’",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
@@ -692,12 +692,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "×íÈËµÄ·äÃÛ¾Æ",
+        "comment": "é†‰äººçš„èœ‚èœœé…’",
         "name": "fluid_booze_mead_intoxicated",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "·äÃÛ¾Æ",
+        "comment": "èœ‚èœœé…’",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
@@ -709,12 +709,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "·äÃÛ¾Æ",
+        "comment": "èœ‚èœœé…’",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "·äÃÛ¾Æ",
+        "comment": "èœ‚èœœé…’",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
@@ -726,26 +726,26 @@
       "comment": "",
       "item": {
         "ore": null,
-        "comment": "µ¾Ã×",
+        "comment": "ç¨»ç±³",
         "mod_id": "growthcraft_rice",
         "name": "rice",
         "amount": 1,
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Ë®",
+        "comment": "æ°´",
         "name": "water",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Çå¾Æ·¢½Í»ù",
+        "comment": "æ¸…é…’å‘é…µåŸº",
         "name": "fluid_booze_sake_water",
         "amount": 200
       },
       "residue": {
         "pomace": 1.0,
         "ore": null,
-        "comment": "³´·¹",
+        "comment": "ç‚’é¥­",
         "mod_id": "growthcraft_rice",
         "name": "rice_cooked",
         "amount": 1,
@@ -758,26 +758,26 @@
       "comment": "",
       "item": {
         "ore": null,
-        "comment": "Ä¢¹½",
+        "comment": "è˜‘è‡",
         "mod_id": "minecraft",
         "name": "brown_mushroom",
         "amount": 1,
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Çå¾Æ·¢½Í»ù",
+        "comment": "æ¸…é…’å‘é…µåŸº",
         "name": "fluid_booze_sake_water",
         "amount": 250
       },
       "output_fluid": {
-        "comment": "Î´·¢½ÍµÄÇå¾Æ",
+        "comment": "æœªå‘é…µçš„æ¸…é…’",
         "name": "fluid_booze_sake_mash",
         "amount": 250
       },
       "residue": {
         "pomace": 0.0,
         "ore": null,
-        "comment": "¹Ç·Û",
+        "comment": "éª¨ç²‰",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -790,26 +790,26 @@
       "comment": "",
       "item": {
         "ore": null,
-        "comment": "Ä¢¹½",
+        "comment": "è˜‘è‡",
         "mod_id": "minecraft",
         "name": "red_mushroom",
         "amount": 1,
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Çå¾Æ·¢½Í»ù",
+        "comment": "æ¸…é…’å‘é…µåŸº",
         "name": "fluid_booze_sake_water",
         "amount": 250
       },
       "output_fluid": {
-        "comment": "Î´·¢½ÍµÄÇå¾Æ",
+        "comment": "æœªå‘é…µçš„æ¸…é…’",
         "name": "fluid_booze_sake_mash",
         "amount": 250
       },
       "residue": {
         "pomace": 0.0,
         "ore": null,
-        "comment": "¹Ç·Û",
+        "comment": "éª¨ç²‰",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -822,12 +822,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_fermented",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
@@ -839,12 +839,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_potent",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
@@ -856,12 +856,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_extended",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
@@ -873,12 +873,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_hyperextended",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
@@ -890,12 +890,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_potent_extended",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
@@ -907,12 +907,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_potent_hyperextended",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
@@ -924,12 +924,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Çå¾Æ",
+        "comment": "æ¸…é…’",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
@@ -948,19 +948,19 @@
         "meta": 32767
       },
       "input_fluid": {
-        "comment": "Ë®",
+        "comment": "æ°´",
         "name": "water",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_young",
         "amount": 40
       },
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "¹Ç·Û",
+        "comment": "éª¨ç²‰",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -980,19 +980,19 @@
         "meta": 32767
       },
       "input_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_young",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_unhopped",
         "amount": 40
       },
       "residue": {
         "pomace": 0.0,
         "ore": null,
-        "comment": "¹Ç·Û",
+        "comment": "éª¨ç²‰",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -1005,12 +1005,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_normal",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_poisoned",
         "amount": 40
       },
@@ -1022,12 +1022,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_potent",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_poisoned",
         "amount": 40
       },
@@ -1039,12 +1039,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_extended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_poisoned",
         "amount": 40
       },
@@ -1056,12 +1056,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_hyperextended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_poisoned",
         "amount": 40
       },
@@ -1073,12 +1073,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_lager",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_poisoned",
         "amount": 40
       },
@@ -1090,12 +1090,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_intoxicated",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_poisoned",
         "amount": 40
       },
@@ -1107,12 +1107,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_poisoned",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_poisoned",
         "amount": 40
       },
@@ -1131,19 +1131,19 @@
         "meta": 32767
       },
       "input_fluid": {
-        "comment": "ÂóÑ¿¾Æ",
+        "comment": "éº¦èŠ½é…’",
         "name": "fluid_booze_hopale_young",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "À­¸ñÆ¡¾Æ",
+        "comment": "æ‹‰æ ¼å•¤é…’",
         "name": "fluid_booze_lager_young",
         "amount": 40
       },
       "residue": {
         "pomace": 0.0,
         "ore": null,
-        "comment": "¹Ç·Û",
+        "comment": "éª¨ç²‰",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -1156,12 +1156,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "À­¸ñÆ¡¾Æ",
+        "comment": "æ‹‰æ ¼å•¤é…’",
         "name": "fluid_booze_lager_normal",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "À­¸ñÆ¡¾Æ",
+        "comment": "æ‹‰æ ¼å•¤é…’",
         "name": "fluid_booze_lager_poisoned",
         "amount": 40
       },
@@ -1173,12 +1173,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "À­¸ñÆ¡¾Æ",
+        "comment": "æ‹‰æ ¼å•¤é…’",
         "name": "fluid_booze_lager_potent",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "À­¸ñÆ¡¾Æ",
+        "comment": "æ‹‰æ ¼å•¤é…’",
         "name": "fluid_booze_lager_poisoned",
         "amount": 40
       },
@@ -1190,12 +1190,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "À­¸ñÆ¡¾Æ",
+        "comment": "æ‹‰æ ¼å•¤é…’",
         "name": "fluid_booze_lager_extended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "À­¸ñÆ¡¾Æ",
+        "comment": "æ‹‰æ ¼å•¤é…’",
         "name": "fluid_booze_lager_poisoned",
         "amount": 40
       },
@@ -1207,12 +1207,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "À­¸ñÆ¡¾Æ",
+        "comment": "æ‹‰æ ¼å•¤é…’",
         "name": "fluid_booze_lager_hyperextended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "À­¸ñÆ¡¾Æ",
+        "comment": "æ‹‰æ ¼å•¤é…’",
         "name": "fluid_booze_lager_poisoned",
         "amount": 40
       },
@@ -1224,12 +1224,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "À­¸ñÆ¡¾Æ",
+        "comment": "æ‹‰æ ¼å•¤é…’",
         "name": "fluid_booze_lager_intoxicated",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "À­¸ñÆ¡¾Æ",
+        "comment": "æ‹‰æ ¼å•¤é…’",
         "name": "fluid_booze_lager_poisoned",
         "amount": 40
       },
@@ -1241,12 +1241,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "À­¸ñÆ¡¾Æ",
+        "comment": "æ‹‰æ ¼å•¤é…’",
         "name": "fluid_booze_lager_poisoned",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "À­¸ñÆ¡¾Æ",
+        "comment": "æ‹‰æ ¼å•¤é…’",
         "name": "fluid_booze_lager_poisoned",
         "amount": 40
       },

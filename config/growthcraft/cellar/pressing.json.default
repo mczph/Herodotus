@@ -12,14 +12,14 @@
         "meta": 32767
       },
       "fluid": {
-        "comment": "Æ»¹ûÖ­",
+        "comment": "è‹¹æœæ±",
         "name": "fluid_booze_apple_juice",
         "amount": 40
       },
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "¹Ç·Û",
+        "comment": "éª¨ç²‰",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -31,21 +31,21 @@
       "comment": "",
       "item": {
         "ore": null,
-        "comment": "×ÏÆÏÌÑ",
+        "comment": "ç´«è‘¡è„",
         "mod_id": "growthcraft_grapes",
         "name": "grape",
         "amount": 1,
         "meta": 10
       },
       "fluid": {
-        "comment": "×ÏÆÏÌÑÖ­",
+        "comment": "ç´«è‘¡è„æ±",
         "name": "fluid_booze_purple_juice",
         "amount": 40
       },
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "¹Ç·Û",
+        "comment": "éª¨ç²‰",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -57,21 +57,21 @@
       "comment": "",
       "item": {
         "ore": null,
-        "comment": "ºìÆÏÌÑ",
+        "comment": "çº¢è‘¡è„",
         "mod_id": "growthcraft_grapes",
         "name": "grape",
         "amount": 1,
         "meta": 14
       },
       "fluid": {
-        "comment": "ºìÆÏÌÑÖ­",
+        "comment": "çº¢è‘¡è„æ±",
         "name": "fluid_booze_red_juice",
         "amount": 40
       },
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "¹Ç·Û",
+        "comment": "éª¨ç²‰",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -83,21 +83,21 @@
       "comment": "",
       "item": {
         "ore": null,
-        "comment": "ÂÌÆÏÌÑ",
+        "comment": "ç»¿è‘¡è„",
         "mod_id": "growthcraft_grapes",
         "name": "grape",
         "amount": 1,
         "meta": 13
       },
       "fluid": {
-        "comment": "ÂÌÆÏÌÑÖ­",
+        "comment": "ç»¿è‘¡è„æ±",
         "name": "fluid_booze_green_juice",
         "amount": 40
       },
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "¹Ç·Û",
+        "comment": "éª¨ç²‰",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
