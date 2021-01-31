@@ -3,7 +3,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import scripts.hds_main.utils.modloader.isInvalid;
-import scripts.hds_main.normal.T1.artisanWorktables.manson.MRLTOreProcessor;
+import scripts.hds_main.normal.T1.artisanWorktables.mason.MRLTOreProcessor;
 import scripts.hds_main.normal.T1.pyrotech.stoneKiln.KRCSOreProcessor;
 import scripts.hds_main.normal.T1.pyrotech.anvil.allPyroAnvil;
 import scripts.hds_main.normal.T1.pyrotech.stoneCrucible.allPyroCrucible;

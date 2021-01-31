@@ -3,6 +3,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.pyrotech.StoneKiln;
+import mods.pyrotech.BrickKiln;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 //add all kiln recipes

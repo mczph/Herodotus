@@ -1,6 +1,9 @@
 #packmode normal
 #priority -1
 import mods.pyrotech.StoneCrucible;
+import mods.pyrotech.BrickCrucible;
+import crafttweaker.item.IIngredient;
+import crafttweaker.fluid.IFluidStack;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 //add all crubible recipes
