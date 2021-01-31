@@ -1,11 +1,13 @@
 #packmode normal
 #priority -1
 import mods.artisanworktables.builder.RecipeBuilder;
+import scripts.hds_main.utils.modloader.isInvalid;
 
+if(!isInvalid){
 RecipeBuilder.get("mason")
   .setShapeless([<ore:rhombusYellow>])
   .addTool(<ore:artisansBurner>, 5)
-  .addOutput(<minecraft:coal>)
+  .addOutput(<ore:coal>.firstItem)
   .create();
 
 RecipeBuilder.get("jeweler")
@@ -30,7 +32,8 @@ RecipeBuilder.get("mason")
   .setShapeless([<ore:crushedOreLead>])
   .addTool(<ore:artisansSifter>, 8)
   .addOutput(<ore:orePurifiedLead>.firstItem)
-  .setExtraOutputOne(<pyrotech:rock> * 1, 1.0)
-  .setExtraOutputTwo(<pyrotech:rock> * 1, 0.5)
-  .setExtraOutputThree(<pyrotech:rock> * 2, 0.18)
+  .setExtraOutputOne(<ore:rock>.firstItem, 1.0)
+  .setExtraOutputTwo(<ore:rock>.firstItem, 0.5)
+  .setExtraOutputThree(<ore:rock>.firstItem*2, 0.18)
   .create();
+}

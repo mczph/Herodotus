@@ -53,7 +53,7 @@ static allPartsMap as string[][int] = {
         "block", "molten", "flawless_gem",
         "small_dust", "flawed_gem", "tiny_dust", "dust"
     ],
-    4 : [ // redstone
+    4 : [//redstone
         "nugget", "dirty_dust", "cluster", "crystal",
         "centrifuged_ore", "rock", "ore_rock", "missing",
         "block", "shard", "flawed_gem", "chipped_gem", "flawless_gem",
@@ -106,10 +106,10 @@ static allMaterialMap as int[string][int] = {
 
     },
     3 : {//gems
-        //colored gems
+        //TODO colored gems
         "diamond" : 0x2fc7e4
     },
-    4 : {
+    4 : {//redstone
         "redstone" : 0x720000
     }
 };
