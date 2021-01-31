@@ -5,5 +5,4 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 CompactingBin.addRecipe("coal_block", <minecraft:coal_block>, <minecraft:coal>, 9);
-
 }

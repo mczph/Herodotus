@@ -1,5 +1,5 @@
 #packmode normal
-#priority 0
+#priority 1000
 
 import mods.dropt.Dropt;
 import scripts.grassUtils.StringHelper;

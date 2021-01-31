@@ -1,5 +1,5 @@
 #packmode normal
-#priority 0
+#priority 1000
 
 import scripts.hds_main.utils.modloader.isInvalid;
 
