@@ -1,7 +1,7 @@
 #packmode normal
 #priority -1
 
-import crafttweaker.fluid.IFluidStack;
+import crafttweaker.liquid.ILiquidStack;
 import mods.inworldcrafting.FluidToItem;
 import mods.inworldcrafting.FluidToFluid;
 import scripts.hds_main.utils.modloader.isInvalid;

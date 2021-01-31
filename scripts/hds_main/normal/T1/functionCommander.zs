@@ -16,7 +16,7 @@ allPyroAnvil("copper", <ore:tinyDustCopper>.firstItem, <ore:shardCopper>, 6, "ha
 allPyroCrucible("molten_copper", <fluid:copper>*144, <ore:dustCopper>, 20*20);
 
 MRLTOreProcessor("tin", <ore:clumpTin>.firstItem*4, <ore:crushedOreTin>);
-KRCSOreProcess("tin", <ore:shardTin>.firstItem, <ore:clumpTin> [<ore:crushedOreTin>.firstItem]);
+KRCSOreProcessor("tin", <ore:shardTin>.firstItem, <ore:clumpTin> [<ore:crushedOreTin>.firstItem]);
 allPyroAnvil("tin", <ore:tinyDustTin>.firstItem, <ore:shardTin>, 6, "hammer");
 allPyroCrucible("molten_tin", <fluid:tin>*144, <ore:dustTin>, 20*20);
 

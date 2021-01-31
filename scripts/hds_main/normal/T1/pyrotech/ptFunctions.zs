@@ -3,7 +3,7 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import crafttweaker.fluid.IFluidStack;
+import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.pyrotech.StoneKiln;
 import mods.pyrotech.BrickKiln;
