@@ -18,12 +18,12 @@ config/AE2Stuff/readme.txt
 config/vanillafix/methods-stable_39.csv
 config/brandon3055/contributors.json
 
-!/patchouli_books/*
-!/resources/
-!/scripts/
+!/patchouli_books
+!/resources
+!/scripts
 scripts/nc_script_addons
-!/structures/
-!/docs/
+!/structures
+!/docs
 
 #Files
 !/.gitignore
