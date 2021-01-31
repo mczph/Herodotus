@@ -10,6 +10,7 @@ mods.ltt.LootTable.removeModItem("actuallyadditions");
 mods.ltt.LootTable.removeModItem("enderio");
 mods.ltt.LootTable.removeModItem("nuclearcraft");
 mods.ltt.LootTable.removeModItem("growthcraft");
+mods.ltt.LootTable.removeModItem("minecraft");
 
 //Add
 }
