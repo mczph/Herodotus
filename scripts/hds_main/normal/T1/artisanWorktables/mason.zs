@@ -9,7 +9,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 function MRLTOreProcessor(name as string, output as IItemStack, input as IIngredient){
 val coal as IIngredient = <ore:pieceCoal>;
 RecipeBuilder.get("manson")
-  .setName(name~"_lop")
+  .setName(name~"_mrlt")
   .setShapeless([input, input, input, input, input, coal, coal, coal, coal])
   .setFluid(<liquid:limewater>*1000)
   .addTool(<ore:artisansTrowel>, 10)
