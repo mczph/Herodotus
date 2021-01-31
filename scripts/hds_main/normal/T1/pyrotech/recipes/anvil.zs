@@ -18,5 +18,7 @@ allPyroAnvil("rock_copper", <ore:crushedOreCopper>.firstItem, <ore:rockCopper>, 
 allPyroAnvil("blue_cicrle", <ore:rockTin>.firstItem, <ore:sphericalBlue>, 6, "hammer");
 allPyroAnvil("rock_tin", <ore:crushedOreTin>.firstItem, <ore:rockTin>, 6, "pickaxe");
 
+allPyroAnvil("copper", <ore:tinyDustCopper>.firstItem, <ore:shardCopper>, 6, "hammer");
+allPyroAnvil("tin", <ore:tinyDustTin>.firstItem, <ore:shardTin>, 6, "hammer");
 allPyroAnvil("coal_block", <ore:pieceCoal>.firstItem*16, <ore:blockCoal>, 8, "hammer");
 }
