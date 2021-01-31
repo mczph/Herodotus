@@ -11,9 +11,9 @@ StoneKiln.addRecipe(name~"_sk", output, input, time);
 BrickKiln.addRecipe(name~"_bk", output, input, time);
 }
 
-//Stone kiln Recipe that make Crushed ores into Shards(SRCS)
-function SRCSOreProcessor(name as string, output as IItemStack, input as IIngredient){
-allPyroKiln(name~"_srcs", output, input, 40*20);
+//Kiln Recipe that make Crushed ores into Shards(KRCS)
+function KRCSOreProcessor(name as string, output as IItemStack, input as IIngredient){
+allPyroKiln(name~"_krcs", output, input, 40*20);
 }
 
 

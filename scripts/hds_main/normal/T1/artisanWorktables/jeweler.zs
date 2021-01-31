@@ -8,7 +8,7 @@ if(!isInvalid){
 //ore processing
 RecipeBuilder.get("jeweler")
   .setShapeless([<ore:rhombusRed>])
-  .addTool(<ore:artisansPliers>, 5)
+  .addTool(<ore:artisansPliers>, 150)
   .addOutput(<ore:dirtyDustRedstone>.firstItem)
   .setExtraOutputOne(<ore:gemFlawlessRedstone>.firstItem, 0.05)
   .setExtraOutputTwo(<ore:gemFlawedRedstone>.firstItem, 0.12)
@@ -17,7 +17,7 @@ RecipeBuilder.get("jeweler")
 
 RecipeBuilder.get("jeweler")
   .setShapeless([<ore:rhombusBlue>])
-  .addTool(<ore:artisansPliers>, 5)
+  .addTool(<ore:artisansPliers>, 150)
   .addOutput(<ore:dirtyDustQuartz>.firstItem)
   .setExtraOutputOne(<ore:gemFlawlessQuartz>.firstItem, 0.05)
   .setExtraOutputTwo(<ore:gemFlawedQuartz>.firstItem, 0.12)
