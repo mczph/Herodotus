@@ -3,9 +3,12 @@
 
 import mods.artisanworktables.builder.RecipeBuilder;
 import scripts.hds_main.utils.modloader.isInvalid;
+import scripts.hds_main.normal.T1.artisanWorktables.awFunctions.MRLTOreProcessor;
 
 if(!isInvalid){
 
+MRLTOreProcessor("copper", <ore:clumpCopper>.firstItem*4, <ore:crushedOreCopper>);
+MRLTOreProcessor("tin", <ore:clumpTin>.firstItem*4, <ore:crushedOreTin>);
 //ore processing
 RecipeBuilder.get("mason")
   .setShapeless([<ore:rhombusYellow>])
