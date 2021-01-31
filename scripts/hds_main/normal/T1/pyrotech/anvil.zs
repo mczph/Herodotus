@@ -26,6 +26,6 @@ allPyroAnvil("rock_copper", <ore:crushedOreCopper>.firstItem, <ore:rockCopper>, 
 
 allPyroAnvil("blue_cicrle", <ore:rockTin>.firstItem, <ore:sphericalBlue>, 6, "hammer");
 allPyroAnvil("rock_tin", <ore:crushedOreTin>.firstItem, <ore:rockTin>, 6, "pickaxe");
-//TODO add the fucking oredict
-allPyroAnvil("coal_block", <pyrotech:material:21>*16, <ore:blockCoal>, 8, "hammer");
+
+allPyroAnvil("coal_block", <ore:pieceCoal>.firstItem*16, <ore:blockCoal>, 8, "hammer");
 }
