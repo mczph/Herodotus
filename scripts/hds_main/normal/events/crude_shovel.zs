@@ -13,6 +13,7 @@ import mods.ctutils.utils.Math;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
+
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent){//PlayerInteractBlockEvent(rightclick)
     val world as IWorld = event.world;
     val player as IPlayer = event.player;

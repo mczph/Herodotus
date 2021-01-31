@@ -5,6 +5,7 @@ import mods.pyrotech.Campfire;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
+
 //Remove
 
 //Add

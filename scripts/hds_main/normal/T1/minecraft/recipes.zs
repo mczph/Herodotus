@@ -1,7 +1,7 @@
 #packmode normal
 #disable_search_tree
-#priority -1
 
+#priority -1
 import scripts.grassUtils.RecipeUtils;
 import scripts.hds_main.utils.modloader.isInvalid;
 

@@ -1,20 +1,11 @@
 #packmode normal
 #priority -1
 
-import crafttweaker.item.IItemStack;
-import crafttweaker.oredict.IOreDictEntry;
-import crafttweaker.item.IIngredient;
-import mods.pyrotech.GraniteAnvil;
-import mods.pyrotech.IroncladAnvil;
 import scripts.hds_main.utils.modloader.isInvalid;
-
-//add both pyrotech anvil recipes in once
-function allPyroAnvil(name as string, output as IItemStack, input as IIngredient, hits as int, type as string){
-    GraniteAnvil.addRecipe("g_break_" ~ name, output, input, hits, type);
-    IroncladAnvil.addRecipe("i_break_" ~ name, output, input, hits, type);
-}
+import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
 
 if(!isInvalid){
+
 //Remove
 
 //Add
