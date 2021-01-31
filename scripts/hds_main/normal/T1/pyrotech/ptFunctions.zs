@@ -13,7 +13,7 @@ import mods.pyrotech.StoneCrucible;
 import mods.pyrotech.BrickCrucible;
 
 //add all pyrotech kiln recipes
-function allPyroKiln(name as name, output as IItemStack, input as IIngredient, time as int){
+function allPyroKiln(name as string, output as IItemStack, input as IIngredient, time as int){
 StoneKiln.addRecipe(name~"_sk", output, input, time);
 BrickKiln.addRecipe(name~"_bk", output, input, time);
 }
@@ -25,7 +25,7 @@ function allPyroAnvil(name as string, output as IItemStack, input as IIngredient
 }
 
 //add all pyrotech crubible recipes
-function allPyroCrucible(name as string, output as IFluidStack, input as IIngredient, time as int){
+function allPyroCrucible(name as string, output as ILiquidStack, input as IIngredient, time as int){
     StoneCrucible.addRecipe(name~"_sc", output, input, time);
     BrickCrucible.addRecipe(name~"_bc", output, input, time);
 }
