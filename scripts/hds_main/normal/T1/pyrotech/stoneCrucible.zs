@@ -3,8 +3,13 @@
 import mods.pyrotech.StoneCrucible;
 import scripts.hds_main.utils.modloader.isInvalid;
 
+//add all crubible recipes
+function allPyroCrucible(name as string, output as IFluidStack, input as IIngredient, time as int){
+    StoneCrucible.addRecipe(name~"_sc", output, input, time);
+    BrickCrucible.addRecipe(name~"_bc", output, input, time);
+}
+
 if(!isInvalid){
-StoneCrucible.addRecipe("molten_lead", <fluid:lead> * 144, <ore:orePurifiedLead>, 4800, true);
-StoneCrucible.addRecipe("molten_tin", <fluid:tin> * 144, <ore:crushedOreTin>, 4800, true);
-StoneCrucible.addRecipe("molten_copper", <fluid:copper> * 144, <ore:crushedOreCopper>, 4800, true);
+allPyroCrucible("molten_lead", <fluid:lead>*144, <ore:orePurifiedLead>, 4800, true);
+allPyroCrucible("molten_bronze", <fluid:bronze>*144, <ore:dustBronze>, 20*20);
 }

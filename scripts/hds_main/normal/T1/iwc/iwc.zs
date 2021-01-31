@@ -6,10 +6,13 @@ import crafttweaker.item.IIngredient;
 import mods.inworldcrafting.FluidToItem;
 import mods.inworldcrafting.FluidToFluid;
 import scripts.hds_main.utils.modloader.isInvalid;
+import scripts.hds_lib.cotlib.dyelist;
 
 if(!isInvalid){
-//Remove
+//dyewater
+//TODO dyewater
 
 //Add
-mods.inworldcrafting.FluidToFluid.transform(<liquid:limewater>, <liquid:water>, [<pyrotech:material:22> *3]);//make limewater
+FluidToFluid.transform(<liquid:limewater>, <liquid:water>, [<pyrotech:material:22>*3]);
+
 }

@@ -10,11 +10,11 @@ if(!isInvalid){
 //other workstumps
 RecipeBuilder.get("basic")
   .setShaped([
-    [<pyrotech:stone_bricks>, <minecraft:brick_block>, <pyrotech:stone_bricks>],
-    [<minecraft:planks>, <pyrotech:worktable>, <minecraft:planks>],
-    [<minecraft:planks>, <pyrotech:stash>, <minecraft:planks>]])
-  .setFluid(<liquid:water>*1000)
-  .addTool(<artisanworktables:artisans_hammer_stone>, 150)
+    [<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>],
+    [<ore:plankWood>, <pyrotech:worktable>, <ore:plankWood>],
+    [<ore:logWood>, <pyrotech:stash>, <ore:logWood>]])
+  .setFluid(<liquid:limewater>*1000)
+  .addTool(<ore:artisansTrowel>, 75)
   .addOutput(<artisanworkstumps:workstump_mason>)
   .create();
 
@@ -27,3 +27,13 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworkstumps:workstump_jeweler>)
   .create();
 }
+
+//stuff
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<pyrotech:material:12>, <pyrotech:material:12>, <pyrotech:material:12>],
+    [<ore:logWood>, <ore:plankWood>, <ore:logWood>],
+    [<ore:plankWood>, <ore:logWood>, <ore:plankWood>]])
+  .addTool(<artisanworktables:artisans_framing_hammer_stone>, 1)
+  .addOutput(<artisanworkstumps:log_basin>)
+  .create();

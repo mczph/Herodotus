@@ -76,6 +76,7 @@ static allMaterialMap as int[string][int] = {
         "square" : 0xffffff
     },
     2 : {//metal1
+        "bronze" : 0xe9a230,
         "iron" : 0xd8af93,
         "lithium" : 0xd2d2d2,
         "coal" : 0x0f0f0f,

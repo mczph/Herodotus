@@ -10,7 +10,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 //add both pyrotech anvil recipes in once
 function allPyroAnvil(name as string, output as IItemStack, input as IIngredient, hits as int, type as string){
-    GraniteAnvil.addRecipe("g_break" ~ name, output, input, hits, type);
+    GraniteAnvil.addRecipe("g_break_" ~ name, output, input, hits, type);
     IroncladAnvil.addRecipe("i_break_" ~ name, output, input, hits, type);
 }
 

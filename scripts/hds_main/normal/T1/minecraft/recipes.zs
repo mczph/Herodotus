@@ -29,4 +29,9 @@ RecipeUtils.recipeTweak(true, <artisanworkstumps:workstump_basic>,[
 	[<ore:plankWood>, <pyrotech:worktable>, <ore:plankWood>],
 	[<ore:plankWood>, <pyrotech:stash>, <ore:plankWood>]
 ]);
+
+RecipeUtils.recipeTweak(false, <ore:dustBronze>.firstItem,[
+	[<ore:dustTin>, <ore:dustCopper>],
+	[null, null]
+]);
 }
