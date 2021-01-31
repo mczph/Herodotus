@@ -1,4 +1,6 @@
 fluid.limewater=Lime Water
+item.contenttweaker.copper_cast.name=Copper Empty Cast
+item.contenttweaker.cast_four_nuggets.name=Copper Four-Nuggets Cast
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus

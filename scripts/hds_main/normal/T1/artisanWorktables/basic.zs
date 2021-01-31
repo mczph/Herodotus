@@ -14,7 +14,7 @@ RecipeBuilder.get("basic")
     [<minecraft:planks>, <pyrotech:worktable>, <minecraft:planks>],
     [<minecraft:planks>, <pyrotech:stash>, <minecraft:planks>]])
   .setFluid(<liquid:water>*1000)
-  .addTool(<artisanworktables:artisans_hammer_stone>, 1)
+  .addTool(<artisanworktables:artisans_hammer_stone>, 150)
   .addOutput(<artisanworkstumps:workstump_mason>)
   .create();
 
@@ -23,7 +23,7 @@ RecipeBuilder.get("basic")
     [<ore:blockWool>, <ore:blockGlass>, <ore:blockWool>],
     [<ore:plankWood>, <pyrotech:worktable>, <ore:plankWood>],
     [<ore:logWood>, <pyrotech:stash>, <ore:logWood>]])
-  .addTool(<ore:artisansLens>, 1)
+  .addTool(<ore:artisansLens>, 150)
   .addOutput(<artisanworkstumps:workstump_jeweler>)
   .create();
 }
