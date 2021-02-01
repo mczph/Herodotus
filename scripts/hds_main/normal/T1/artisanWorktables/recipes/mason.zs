@@ -7,6 +7,9 @@ import scripts.hds_main.normal.T1.artisanWorktables.awFunctions.MRLTOreProcessor
 
 if(!isInvalid){
 
+val ptm5 as IItemStack = <pyrotech:material:5>;
+
+
 MRLTOreProcessor("copper", <ore:clumpCopper>.firstItem*4, <ore:crushedOreCopper>);
 MRLTOreProcessor("tin", <ore:clumpTin>.firstItem*4, <ore:crushedOreTin>);
 //ore processing
@@ -37,11 +40,29 @@ RecipeBuilder.get("mason")
 //stuff
 RecipeBuilder.get("mason")
   .setShaped([
-    [<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>],
-    [<ore:plankWood>, <pyrotech:worktable>, <ore:plankWood>],
-    [<ore:logWood>, <pyrotech:stash>, <ore:logWood>]])
-  .setFluid(<liquid:limewater>*1000)
+    [<ore:tinyDustBronze>, <ore:tinyDustBronze>, <ore:tinyDustBronze>],
+    [<ore:tinyDustBronze>, <pyrotech:stone_bricks>, <ore:tinyDustBronze>],
+    [<ore:tinyDustBronze>, <ore:tinyDustBronze>, <ore:tinyDustBronze>]])
+  .addTool(<ore:artisansBurner>, 30)
+  .addOutput(ptm5)
+  .create();
+
+RecipeBuilder.get("mason")
+  .setShaped([
+    [ptm5, ptm5, ptm5],
+    [ptm5, null, ptm5],
+    [ptm5, null, ptm5]])
   .addTool(<ore:artisansTrowel>, 75)
-  .addOutput(<artisanworkstumps:workstump_mason>)
+  .addOutput(<tconstruct:casting>)
+  .create();
+
+RecipeBuilder.get("mason")
+  .setShaped([
+    [ptm5, null, ptm5],
+    [ptm5, null, ptm5],
+    [ptm5, ptm5, ptm5]])
+  .addTool(<ore:artisansTrowel>, 75)
+  .addOutput(<tconstruct:casting:1>)
   .create();
 }
+
