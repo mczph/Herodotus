@@ -21,4 +21,6 @@ allPyroAnvil("rock_tin", <ore:crushedOreTin>.firstItem, <ore:rockTin>, 6, "picka
 allPyroAnvil("copper", <ore:tinyDustCopper>.firstItem, <ore:shardCopper>, 6, "hammer");
 allPyroAnvil("tin", <ore:tinyDustTin>.firstItem, <ore:shardTin>, 6, "hammer");
 allPyroAnvil("coal_block", <ore:pieceCoal>.firstItem*16, <ore:blockCoal>, 8, "hammer");
+
+allPyroAnvil("cast_four_nuggets", <contenttweaker:cast_four_nuggets>, <contenttweaker:copper_cast>, 4, "pickaxe");
 }

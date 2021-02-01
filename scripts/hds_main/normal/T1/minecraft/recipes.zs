@@ -34,4 +34,6 @@ RecipeUtils.recipeTweak(false, <ore:dustBronze>.firstItem,[
 	[<ore:dustTin>, <ore:dustCopper>],
 	[null, null]
 ]);
+
+recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>);
 }
