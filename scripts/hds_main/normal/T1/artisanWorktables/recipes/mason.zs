@@ -1,6 +1,7 @@
 #packmode normal
 #priority -1
 
+import crafttweaker.item.IItemStack;
 import mods.artisanworktables.builder.RecipeBuilder;
 import scripts.hds_main.utils.modloader.isInvalid;
 import scripts.hds_main.normal.T1.artisanWorktables.awFunctions.MRLTOreProcessor;
