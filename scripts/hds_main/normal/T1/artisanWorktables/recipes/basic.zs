@@ -27,7 +27,27 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansLens>, 150)
   .addOutput(<artisanworkstumps:workstump_jeweler>)
   .create();
-}
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:gearBronze>, <ore:ingotBronze>, <ore:gearBronze>],
+    [<ore:plankWood>, <pyrotech:worktable>, <ore:plankWood>],
+    [<ore:ingotBronze>, <pyrotech:stash>, <ore:ingotBronze>]])
+  .setFluid(<liquid:clay>*576)
+  .addTool(<ore:artisansHammer>, 75)
+  .addOutput(<artisanworkstumps:workstump_engineer>)
+  .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:plateIron>, <ore:blockIron>, <ore:plateIron>],
+    [<ore:barsIron>, <pyrotech:worktable>, <ore:barsIron>],
+    [<ore:barsIron>, <pyrotech:stash>, <ore:barsIron>]])
+  .setFluid(<liquid:water>*1000)
+  .addTool(<ore:artisansHammer>, 75)
+  .addOutput(<artisanworkstumps:workstump_blacksmith>)
+  .create();
+
 
 //stuff
 RecipeBuilder.get("basic")
@@ -38,3 +58,5 @@ RecipeBuilder.get("basic")
   .addTool(<artisanworktables:artisans_framing_hammer_stone>, 1)
   .addOutput(<artisanworkstumps:log_basin>)
   .create();
+
+}
