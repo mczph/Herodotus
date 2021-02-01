@@ -26,6 +26,8 @@ recipes.removeShaped(<minecraft:stick>*16,[
     [null, <ore:logWood>]
 ]);
 
+recipes.remove(<tconstruct:casting>);
+recipes.remove(<tconstruct:casting:1>);
 
 //damn furnace
 furnace.removeAll();
