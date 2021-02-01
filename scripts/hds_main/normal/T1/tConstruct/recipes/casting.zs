@@ -9,4 +9,5 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
+Cast.addTableRecipe(<contenttweaker:copper_cast>, null, <liquid:copper>, 288);
 }
