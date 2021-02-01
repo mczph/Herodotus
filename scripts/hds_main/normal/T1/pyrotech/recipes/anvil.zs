@@ -1,12 +1,16 @@
 #packmode normal
 #priority -1
 
+import mods.pyrotech.GraniteAnvil;
+import mods.pyrotech.IroncladAnvil;
 import scripts.hds_main.utils.modloader.isInvalid;
 import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
 
 if(!isInvalid){
 
 //Remove
+GraniteAnvil.removeRecipes(<ore:pieceCoal>.firstItem);
+IroncladAnvil.removeRecipes(<ore:pieceCoal>.firstItem);
 
 //Add
 allPyroAnvil("blue_square", <ore:rockLead>.firstItem, <ore:squareBlue>, 6, "hammer");

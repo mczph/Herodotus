@@ -33,5 +33,5 @@ function allPyroCrucible(name as string, output as ILiquidStack, input as IIngre
 //Kiln Recipe that make Clump ores into Shards(KRCS)
 function KRCSOreProcessor(name as string, output as IItemStack, input as IIngredient, fitem as IItemStack[]){
 StoneKiln.addRecipe(name~"_sk_krcs", output, input, 2*60*20, 0.25, fitem);
-BrickKiln.addRecipe(name~"_bk_krcs", output, input, 2*60*20*0.8);
+BrickKiln.addRecipe(name~"_bk_krcs", output, input, 2*60*16);
 }

@@ -10,4 +10,4 @@ ccast.register();
 
 var cfn = VanillaFactory.createItem("cast_four_nuggets");
 cfn.maxStackSize = 1;
-cfn.register();
+cfn.register();//TODO replace this with single copper nugget cast and texture

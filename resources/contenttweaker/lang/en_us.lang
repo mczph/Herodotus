@@ -7,6 +7,7 @@ contenttweaker.part.rhombus=%s Rhombus
 contenttweaker.part.spherical=%s Spherical
 contenttweaker.part.square=%s Square
 
+base.material.bronze=Bronze
 base.material.red=Red
 base.material.yellow=Yellow
 base.material.blue=Blue

@@ -10,6 +10,7 @@ if(!isInvalid){
 
 //something that recipeutils can't do or just remove
 recipes.removeByRecipeName("minecraft:crafting_table");
+recipes.removeByRecipeName("minecraft:coal_block");
 recipes.removeByRecipeName("minecraft:dark_oak_planks");
 recipes.removeByRecipeName("minecraft:oak_planks");
 recipes.removeByRecipeName("minecraft:brich_planks");
@@ -28,6 +29,7 @@ recipes.removeShaped(<minecraft:stick>*16,[
 
 recipes.remove(<tconstruct:casting>);
 recipes.remove(<tconstruct:casting:1>);
+recipes.remove(<pyrotech:faucet_brick>);
 
 //damn furnace
 furnace.removeAll();
