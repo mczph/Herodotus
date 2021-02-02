@@ -18,6 +18,11 @@ StoneKiln.addRecipe(name~"_sk", output, input, time);
 BrickKiln.addRecipe(name~"_bk", output, input, time);
 }
 
+//remove all pyroteh anvil recipes in once
+function rAllPyroAnvil(name as string, output as IIngredient){
+    GraniteAnvil.removeRecipes(output);
+    IroncladAnvil.removeRecipes(output);
+}
 //add all pyrotech anvil recipes in once
 function allPyroAnvil(name as string, output as IItemStack, input as IIngredient, hits as int, type as string){
     GraniteAnvil.addRecipe("g_break_" ~ name, output, input, hits, type);
@@ -32,6 +37,6 @@ function allPyroCrucible(name as string, output as ILiquidStack, input as IIngre
 
 //Kiln Recipe that make Clump ores into Shards(KRCS)
 function KRCSOreProcessor(name as string, output as IItemStack, input as IIngredient, fitem as IItemStack[]){
-StoneKiln.addRecipe(name~"_sk_krcs", output, input, 2*60*20, 0.25, fitem);
-BrickKiln.addRecipe(name~"_bk_krcs", output, input, 2*60*16);
+    StoneKiln.addRecipe(name~"_sk_krcs", output, input, 2*60*20, 0.25, fitem);
+    BrickKiln.addRecipe(name~"_bk_krcs", output, input, 2*60*16);
 }

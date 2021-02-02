@@ -11,7 +11,5 @@ if(!isInvalid){
 
 Casting.addTableRecipe(<contenttweaker:copper_cast>, null, <liquid:copper>, 288);
 
-//TODO fix with single copper nugget cast
-Casting.addTableRecipe(<ore:nuggetCopper>.firstItem*4, <contenttweaker:copper_cast>, <liquid:copper>, 576);
-Casting.addTableRecipe(<ore:nuggetBronze>.firstItem*4, <contenttweaker:copper_cast>, <liquid:bronze>, 576);
+//TODO add the copper cast recipes and textures, see cotlib.zs and item.zs for IDs and part names.
 }
