@@ -8,9 +8,8 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
-val oreDictMap as IItemStack[IOreDictEntry] = {
-    <ore:pieceCoal> : <pyrotech:material:21>,
-    <ore:pieceCoal> : <actuallyadditions:item_misc:10>
+val oreDictMap as IItemStack[][IOreDictEntry] = {
+    <ore:pieceCoal> : [<pyrotech:material:21>, <actuallyadditions:item_misc:10>]
 };
 
 //st
