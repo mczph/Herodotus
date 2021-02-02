@@ -5,12 +5,13 @@ import mods.pyrotech.GraniteAnvil;
 import mods.pyrotech.IroncladAnvil;
 import scripts.hds_main.utils.modloader.isInvalid;
 import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
+import scripts.hds_main.normal.T1.pyrotech.ptFunctions.rAllPyroAnvil;
 
 if(!isInvalid){
 
 //Remove
-GraniteAnvil.removeRecipes(<ore:pieceCoal>.firstItem);
-IroncladAnvil.removeRecipes(<ore:pieceCoal>.firstItem);
+rAllPyroAnvil(<ore:pieceCoal>.firstItem);
+rAllPyroAnvil(<minecraft:coal>);
 
 //Add
 allPyroAnvil("blue_square", <ore:rockLead>.firstItem, <ore:squareBlue>, 6, "hammer");
@@ -24,6 +25,7 @@ allPyroAnvil("rock_tin", <ore:crushedOreTin>.firstItem, <ore:rockTin>, 6, "picka
 
 allPyroAnvil("copper", <ore:dustSmallCopper>.firstItem, <ore:shardCopper>, 6, "hammer");
 allPyroAnvil("tin", <ore:dustSmallTin>.firstItem, <ore:shardTin>, 6, "hammer");
+
 allPyroAnvil("coal_block", <ore:pieceCoal>.firstItem*16, <ore:blockCoal>, 8, "hammer");
 
 allPyroAnvil("cast_four_nuggets", <contenttweaker:cast_four_nuggets>, <contenttweaker:copper_cast>, 4, "pickaxe");

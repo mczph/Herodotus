@@ -6,7 +6,7 @@ import scripts.grassUtils.classes.MaterialSystemHelper.MaterialSystemHelper;
 
 //registerParts
 val registerPartsArray as string[] = [
-    "rhombus", "spherical", "square"
+    "rhombus", "spherical", "square", "4nugget"
 ];
 val register as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("registerPart");
 for name in registerPartsArray{
