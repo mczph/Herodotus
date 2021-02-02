@@ -4,11 +4,13 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.artisanworktables.builder.RecipeBuilder;
 import mods.inworldcrafting.FluidToFluid;
 import mods.inworldcrafting.FluidToItem;
 import mods.pyrotech.SoakingPot;
 import mods.pyrotech.IroncladAnvil;
 import mods.pyrotech.BrickCrucible;
+import mods.pyrotech.BrickKiln;
 import mods.tconstruct.Casting;
 import mods.prodigytech.rotarygrinder;
 import scripts.grassUtils.StringHelper;
@@ -60,8 +62,16 @@ for color in colors {
     
     for shape in shapes {
         var output as IItemStack = oreDict.get(shape ~ od).firstItem;
-        var input as IOreDictEntry = getColorlessShape(shape);
-        SoakingPot.addRecipe(shape ~ "_soaking_" ~ color, output, fluidTier1*500, input, true, 5*60*20);
-        Casting.addTableRecipe(output, input, fluidTier2, 250, true, 3*60*20);
+        var input1 as IOreDictEntry = getColorlessShape(shape);
+        var input2 as IItemStack = itemUtils.getItem("contenttweaker:polished_" ~ shape);
+        var input3 as IOreDictEntry = oreDict.get(shape ~ "Cover" ~ od);
+        SoakingPot.addRecipe(shape ~ "_soaking_" ~ color, output, fluidTier1*500, input1, true, 5*60*20);
+        Casting.addTableRecipe(output, input2, fluidTier2, 250, true, 3*60*20);
+        RecipeBuilder.get("mason")
+            .setShapeless([input2, dust])
+            .addTool(<ore:artisansTrowel>, 4)
+            .addOutput(input3.firstItem)
+            .create();
+        BrickKiln.addRecipe(shape ~ "_kiln_" ~ color, output, input3, 2.5 * 60 * 20);
     }
 }
