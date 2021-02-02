@@ -6,6 +6,7 @@ item.contenttweaker.cast_four_nuggets.name=Copper Four-Nuggets Cast
 contenttweaker.part.rhombus=%s Rhombus
 contenttweaker.part.spherical=%s Spherical
 contenttweaker.part.square=%s Square
+contenttweaker.part.four_nuggets=Four %s Nuggets
 
 base.material.bronze=Bronze
 base.material.red=Red

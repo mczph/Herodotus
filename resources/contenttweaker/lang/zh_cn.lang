@@ -6,6 +6,7 @@ item.contenttweaker.cast_four_nuggets.name=铜四粒铸模
 contenttweaker.part.rhombus=%s菱形
 contenttweaker.part.spherical=%s球形
 contenttweaker.part.square=%s方形
+contenttweaker.part.four_nuggets=四%s粒
 
 base.material.bronze=青铜
 

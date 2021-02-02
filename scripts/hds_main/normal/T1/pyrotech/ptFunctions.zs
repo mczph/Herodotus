@@ -19,7 +19,7 @@ BrickKiln.addRecipe(name~"_bk", output, input, time);
 }
 
 //remove all pyroteh anvil recipes in once
-function rAllPyroAnvil(name as string, output as IIngredient){
+function rAllPyroAnvil(output as IIngredient){
     GraniteAnvil.removeRecipes(output);
     IroncladAnvil.removeRecipes(output);
 }

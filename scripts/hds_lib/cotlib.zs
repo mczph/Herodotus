@@ -6,7 +6,7 @@ import scripts.grassUtils.classes.MaterialSystemHelper.MaterialSystemHelper;
 
 //registerParts
 val registerPartsArray as string[] = [
-    "rhombus", "spherical", "square", "4nugget"
+    "rhombus", "spherical", "square", "fourNuggets"
 ];
 val register as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("registerPart");
 for name in registerPartsArray{
@@ -45,7 +45,7 @@ static allPartsMap as string[][int] = {
         "clump", "flawed_gem", "large_spring", "minecart", "round",
         "ore", "purified_ore", "poor_ore", "ore_sample", "bolt",
         "ingot", "tiny_dust", "gear", "centrifuged_ore", "dense_ore",
-        "crushed_ore", "rock", "ore_rock"
+        "crushed_ore", "rock", "ore_rock", "fourNuggets"
     ],
     3 : [//gems
         "nugget", "dirty_dust", "cluster",
