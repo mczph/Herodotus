@@ -22,13 +22,13 @@ function getColorEssences(color as string, tier as int) as ILiquidStack {
 
 function getColorlessShape(shape as string) as IOreDictEntry {
     if (shape.equalsIgnoreCase("Rhombus")) {
-        return <ore:rhombusRhombus>;
+        return <contenttweaker:rhombus>;
     }
     if (shape.equalsIgnoreCase("Spherical")) {
-        return <ore:sphericalSpherical>;
+        return <contenttweaker:spherical>;
     }
     if (shape.equalsIgnoreCase("Square")) {
-        return <ore:squareSquare>;
+        return <contenttweaker:square>;
     }
     logger.logError("invalid shape: " ~ shape);
     return null;

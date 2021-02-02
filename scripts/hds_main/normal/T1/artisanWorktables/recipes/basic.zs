@@ -55,8 +55,16 @@ RecipeBuilder.get("basic")
     [<pyrotech:material:12>, <pyrotech:material:12>, <pyrotech:material:12>],
     [<ore:logWood>, <ore:plankWood>, <ore:logWood>],
     [<ore:plankWood>, <ore:logWood>, <ore:plankWood>]])
-  .addTool(<artisanworktables:artisans_framing_hammer_stone>, 1)
+  .addTool(<ore:artisansFramingHammer>, 10)
   .addOutput(<artisanworkstumps:log_basin>)
   .create();
-
 }
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:leather>, <ore:leather>, <ore:leather>],
+    [<ore:string>, <pyrotech:worktable>, <ore:string>],
+    [<ore:logWood>, <pyrotech:stash>, <ore:logWood>]])
+  .addOutput(<artisanworkstumps:workstump_tanner>)
+  .addTool(<ore:artisansFramingHammer>, 75)
+.create();

@@ -2,11 +2,21 @@ fluid.limewater=石灰水
 item.contenttweaker.copper_cast.name=铜空白铸模
 item.contenttweaker.cast_four_nuggets.name=铜四粒铸模
 item.contenttweaker.copper_nugget_cast.name=铜粒铸模
+item.contenttweaker.square.name=灰色方形
+item.contenttweaker.rhombus.name=灰色菱形
+item.contenttweaker.spherical.name=灰色球形
+item.contenttweaker.polished_square.name=抛光方形
+item.contenttweaker.polished_rhombus.name=抛光菱形
+item.contenttweaker.polished_spherical.name=抛光球形
+item.contenttweaker.sandpaper.name=砂纸
 
 #MSH
 contenttweaker.part.rhombus=%s菱形
 contenttweaker.part.spherical=%s球形
 contenttweaker.part.square=%s方形
+contenttweaker.part.rhombus_cover=%s粉覆盖的菱形
+contenttweaker.part.spherical_cover=%s粉覆盖的球形
+contenttweaker.part.square_cover=%s粉覆盖的方形
 contenttweaker.part.four_nuggets=四%s粒
 
 base.material.bronze=青铜

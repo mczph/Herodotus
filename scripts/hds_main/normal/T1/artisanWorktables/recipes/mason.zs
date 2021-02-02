@@ -31,9 +31,9 @@ RecipeBuilder.get("mason")
 
 RecipeBuilder.get("mason")
   .setShaped([
-    [null, <ore:dustBronze>, null],
-    [null, <ore:dustBronze>, null],
-    [null, <pyrotech:faucet_stone>, null]])
+    [<ore:dustBronze>],
+    [<ore:dustBronze>],
+    [<pyrotech:faucet_stone>]])
   .addTool(<ore:artisansBurner>, 150)
   .addOutput(<pyrotech:faucet_brick>)
   .create();
@@ -67,3 +67,20 @@ RecipeBuilder.get("mason")
   .create();
 }
 
+RecipeBuilder.get("mason")
+  .setShapeless([<contenttweaker:rhombus>])
+  .addTool(<contenttweaker:sandpaper>, 1)
+  .addOutput(<contenttweaker:polished_rhombus>)
+  .create();
+
+RecipeBuilder.get("mason")
+  .setShapeless([<contenttweaker:square>])
+  .addTool(<contenttweaker:sandpaper>, 1)
+  .addOutput(<contenttweaker:polished_square>)
+  .create();
+
+RecipeBuilder.get("mason")
+  .setShapeless([<contenttweaker:spherical>])
+  .addTool(<contenttweaker:sandpaper>, 1)
+  .addOutput(<contenttweaker:polished_spherical>)
+  .create();

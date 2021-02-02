@@ -2,11 +2,21 @@ fluid.limewater=Lime Water
 item.contenttweaker.copper_cast.name=Copper Empty Cast
 item.contenttweaker.cast_four_nuggets.name=Copper Four-Nuggets Cast
 item.contenttweaker.copper_nugget_cast.name=Copper Nugget Cast
+item.contenttweaker.square.name=Gray Square
+item.contenttweaker.rhombus.name=Gray Rhombus
+item.contenttweaker.spherical.name=Gray Spherical
+item.contenttweaker.polished_square.name=Polished Square
+item.contenttweaker.polished_rhombus.name=Polished Rhombus
+item.contenttweaker.polished_spherical.name=Polished Spherical
+item.contenttweaker.sandpaper.name=Sandpaper
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus
 contenttweaker.part.spherical=%s Spherical
 contenttweaker.part.square=%s Square
+contenttweaker.part.rhombus_cover=%s Dust Covered Rhombus
+contenttweaker.part.spherical_cover=%s Dust Convered Spherical
+contenttweaker.part.square_cover=%s Dust Convered Square
 contenttweaker.part.four_nuggets=Four %s Nuggets
 
 base.material.bronze=Bronze
