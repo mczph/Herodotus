@@ -41,6 +41,7 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
 
             if (!isNull(molten)) {
                 Casting.addTableRecipe(fourNuggets.firstItem, <contenttweaker:cast_four_nuggets>, molten, 64, false);
+                Casting.addTableRecipe(nugget.firstItem, <contenttweaker:copper_nugget_cast>, molten, 16, false);
             }
         }
     }
