@@ -132,5 +132,5 @@ static plainItemIDs as string[] = [
     "polished_square",
     "square",
     "rhombus",
-    "square"
+    "spherical"
 ];
