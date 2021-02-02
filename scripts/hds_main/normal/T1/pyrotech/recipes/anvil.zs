@@ -28,5 +28,6 @@ allPyroAnvil("tin", <ore:dustSmallTin>.firstItem, <ore:shardTin>, 6, "hammer");
 
 allPyroAnvil("coal_block", <ore:pieceCoal>.firstItem*16, <ore:blockCoal>, 8, "hammer");
 
-allPyroAnvil("cast_four_nuggets", <contenttweaker:cast_four_nuggets>, <contenttweaker:copper_cast>, 4, "pickaxe");
+allPyroAnvil("cast_four_nuggets", <contenttweaker:cast_four_nuggets>, <contenttweaker:copper_nugget_cast>, 4, "pickaxe");
+allPyroAnvil("cast_nugget", <contenttweaker:copper_nugget_cast>, <contenttweaker:copper_cast>, 4, "pickaxe");
 }
