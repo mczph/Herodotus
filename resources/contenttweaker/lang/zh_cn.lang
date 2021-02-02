@@ -1,6 +1,7 @@
 fluid.limewater=石灰水
 item.contenttweaker.copper_cast.name=铜空白铸模
 item.contenttweaker.cast_four_nuggets.name=铜四粒铸模
+item.contenttweaker.copper_nugget_cast.name=铜粒铸模
 
 #MSH
 contenttweaker.part.rhombus=%s菱形
