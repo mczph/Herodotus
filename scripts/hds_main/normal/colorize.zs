@@ -54,14 +54,14 @@ for color in colors {
     FluidToFluid.transform(fluidTier1, <liquid:limewater>, [denseOre]);
     FluidToFluid.transform(fluidTier1, <liquid:limewater>, [crushedOre]);
 
-    SoakingPot.addRecipe("dye_t2_" ~ color, clump.firstItem, fluidTier1 * 1000, crushedOre, true, 20 * 20);
-    BrickCrucible.addRecipe("dye_t2_melt_" ~ color, fluidTier2 * 1000, clump, 60 * 20);
+    SoakingPot.addRecipe("dye_t2_" ~ color, clump.firstItem, fluidTier1*500, crushedOre, true, 20*20);
+    BrickCrucible.addRecipe("dye_t2_melt_" ~ color, fluidTier2*500, clump, 60*20);
     rotarygrinder.addRecipe(crushedOre, dust.firstItem);
     
     for shape in shapes {
         var output as IItemStack = oreDict.get(shape ~ od).firstItem;
         var input as IOreDictEntry = getColorlessShape(shape);
-        SoakingPot.addRecipe(shape ~ "_soaking_" ~ color, output, fluidTier1 * 1000, input, true, 5 * 60 * 20);
-        Casting.addTableRecipe(output, input, fluidTier2, 250, true, 3 * 60 * 20);
+        SoakingPot.addRecipe(shape ~ "_soaking_" ~ color, output, fluidTier1*500, input, true, 5*60*20);
+        Casting.addTableRecipe(output, input, fluidTier2, 250, true, 3*60*20);
     }
 }
