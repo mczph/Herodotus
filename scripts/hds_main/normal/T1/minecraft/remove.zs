@@ -30,6 +30,11 @@ recipes.removeShaped(<minecraft:stick>*16,[
 recipes.remove(<tconstruct:casting>);
 recipes.remove(<tconstruct:casting:1>);
 recipes.remove(<pyrotech:faucet_brick>);
+recipes.remove(<prodigytech:solid_fuel_aeroheater>);
+recipes.remove(<prodigytech:rotary_grinder>);
+recipes.remove(<prodigytech:heat_sawmill>);
+recipes.remove(<prodigytech:magmatic_aeroheater>);
+recipes.remove(<prodigytech:ferramic_gear>);
 
 //damn furnace
 furnace.removeAll();

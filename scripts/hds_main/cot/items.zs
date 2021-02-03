@@ -18,6 +18,10 @@ var scn = VanillaFactory.createItem("copper_nugget_cast");
 scn.maxStackSize = 1;
 scn.register();
 
+var cgc = VanillaFactory.createItem("copper_gear_cast");
+cgc.maxStackSize = 1;
+cgc.register();
+
 var sandpaper = VanillaFactory.createItem("sandpaper");
 sandpaper.maxStackSize = 1;
 sandpaper.maxDamage = 64;

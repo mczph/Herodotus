@@ -30,9 +30,15 @@ RecipeUtils.recipeTweak(true, <artisanworkstumps:workstump_basic>,[
 	[<ore:plankWood>, <pyrotech:stash>, <ore:plankWood>]
 ]);
 
-RecipeUtils.recipeTweak(false, <ore:dustBronze>.firstItem,[
+RecipeUtils.recipeTweak(false, <ore:dustBronze>.firstItem*4,[
 	[<ore:dustTin>, <ore:dustCopper>],
-	[null, null]
+	[<ore:dustCopper>, <ore:dustCopper>]
+]);
+
+RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
+	[<ore:plateBronze>.firstItem, null, <ore:plateBronze>.firstItem],
+	[<ore:plateBronze>.firstItem, <pyrotech:crate>, <ore:plateBronze>.firstItem],
+	[null, <ore:plateBronze>.firstItem, null]
 ]);
 
 recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>);

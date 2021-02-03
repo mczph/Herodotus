@@ -48,6 +48,16 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworkstumps:workstump_blacksmith>)
   .create();
 
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:wool>, <minecraft:glass>, <minecraft:wool>],
+    [<minecraft:planks>, <pyrotech:worktable>, <minecraft:planks>],
+    [<minecraft:planks>, <pyrotech:stash>, <minecraft:planks>]])
+  .setFluid(<liquid:wood_tar> * 1000)
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<artisanworkstumps:workstump_mage>)
+  .create();
+
 
 //stuff
 RecipeBuilder.get("basic")
