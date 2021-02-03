@@ -9,6 +9,7 @@ item.contenttweaker.polished_square.name=Polished Square
 item.contenttweaker.polished_rhombus.name=Polished Rhombus
 item.contenttweaker.polished_spherical.name=Polished Spherical
 item.contenttweaker.sandpaper.name=Sandpaper
+item.contenttweaker.brass_dust.name=Brass Dust
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus

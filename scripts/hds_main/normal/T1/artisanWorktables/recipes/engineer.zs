@@ -10,27 +10,27 @@ if(!isInvalid){
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<contenttweaker:material_part:1106>, null, <contenttweaker:material_part:1106>],
-    [<contenttweaker:material_part:1106>, <pyrotech:brick_kiln>, <contenttweaker:material_part:1106>],
-    [<contenttweaker:material_part:1106>, <contenttweaker:material_part:1106>, <contenttweaker:material_part:1106>]])
+    [<ore:ingotBronze>, null, <ore:ingotBronze>],
+    [<ore:ingotBronze>, <pyrotech:brick_kiln>, <ore:ingotBronze>],
+    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]])
   .addTool(<artisanworktables:artisans_driver_wood>, 20)
   .addOutput(<prodigytech:solid_fuel_aeroheater>)
   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<contenttweaker:material_part:1106>, null, <contenttweaker:material_part:1106>],
+    [<ore:ingotBronze>, null, <ore:ingotBronze>],
     [<contenttweaker:material_part:1108>, <contenttweaker:material_part:1108>, <contenttweaker:material_part:1108>],
-    [<contenttweaker:material_part:1106>, null, <contenttweaker:material_part:1106>]])
+    [<ore:ingotBronze>, null, <ore:ingotBronze>]])
   .addTool(<artisanworktables:artisans_spanner_wood>, 1)
   .addOutput(<prodigytech:rotary_grinder>)
   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<contenttweaker:material_part:1106>, <contenttweaker:material_part:1108>, <contenttweaker:material_part:1106>],
-    [<contenttweaker:material_part:1106>, null, <contenttweaker:material_part:1106>],
-    [<contenttweaker:material_part:1106>, null, <contenttweaker:material_part:1106>]])
+    [<ore:ingotBronze>, <ore:gearBronze>, <ore:ingotBronze>],
+    [<ore:ingotBronze>, null, <ore:ingotBronze>],
+    [<ore:ingotBronze>, null, <ore:ingotBronze>]])
   .addTool(<artisanworktables:artisans_spanner_wood>, 1)
   .addOutput(<prodigytech:heat_sawmill>)
   .create();

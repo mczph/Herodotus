@@ -47,24 +47,25 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         recipes.addShaped("dust_from_small_" ~ nameSnake, dust.firstItem, createFull2(dustSmall));
         recipes.addShaped("dust_from_tiny_" ~ nameSnake, dust.firstItem, createFull3(dustTiny));
 
-        //tcon traversal
+        //tcon
         if (!fourNuggets.empty) {
             recipes.addShaped("four_nuggets_unpack_" ~ nameSnake, nugget.firstItem * 4, [[fourNuggets]]);
             recipes.addShaped("four_nuggets_pack_" ~ nameSnake, fourNuggets.firstItem, createFull2(nugget));
 
-            if (!isNull(molten)) {
+            // comment these due to cast issue
+            /* if (!isNull(molten)) {
                 Casting.addTableRecipe(fourNuggets.firstItem, <contenttweaker:cast_four_nuggets>, molten, 64, false, 120);
                 Casting.addTableRecipe(nugget.firstItem, <contenttweaker:copper_nugget_cast>, molten, 16, false, 60);
-            }
+            } */
         }
-        if (!gear.empty && !isNull(molten)) {
+        /* if (!gear.empty && !isNull(molten)) {
             Casting.addTableRecipe(gear.firstItem, <contenttweaker:copper_gear_cast>, molten, 864, false, 80);
-        }
+        } */
 
-        //prodigytech traversal
+        //prodigytech
         if (!dust.empty && !shard.empty) {LOERProcesser(dust, shard.firstItem);}
 
-        //pyrotech traversal
+        //pyrotech
         if (!block.empty && !plate.empty) {
             allPyroAnvil("block_to_plate_ptanvil_" ~ nameSnake, plate.firstItem, block, 6, "hammer");
         }

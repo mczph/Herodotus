@@ -9,6 +9,7 @@ item.contenttweaker.polished_square.name=抛光方形
 item.contenttweaker.polished_rhombus.name=抛光菱形
 item.contenttweaker.polished_spherical.name=抛光球形
 item.contenttweaker.sandpaper.name=砂纸
+item.contenttweaker.brass_dust.name=黄铜粉
 
 #MSH
 contenttweaker.part.rhombus=%s菱形
