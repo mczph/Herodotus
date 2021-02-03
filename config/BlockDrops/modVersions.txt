@@ -106,6 +106,7 @@
   "enderiopowertools": "5.2.66",
   "manatweaks": "1.4",
   "dropt": "1.12.2-1.18.0",
+  "ctintegration": "1.4.0",
   "tweakersconstructpostload": "1.12.2-1.5.5",
   "jeiintegration": "1.6.0",
   "chattweaks": "5.1.25",
