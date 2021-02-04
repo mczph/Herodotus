@@ -20,7 +20,7 @@ RecipeBuilder.get("engineer")
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:ingotBronze>, null, <ore:ingotBronze>],
-    [<contenttweaker:material_part:1108>, <contenttweaker:material_part:1108>, <contenttweaker:material_part:1108>],
+    [<ore:gearBronze>, <ore:gearBronze>, <ore:gearBronze>],
     [<ore:ingotBronze>, null, <ore:ingotBronze>]])
   .addTool(<artisanworktables:artisans_spanner_wood>, 1)
   .addOutput(<prodigytech:rotary_grinder>)
