@@ -159,7 +159,8 @@
       "11": "spherical_ore",
       "12": "spherical_poor_ore",
       "13": "nickel_ore_sample",
-      "14": "bronze_dense_ore"
+      "14": "bronze_dense_ore",
+      "15": "glass_ore"
     }
   }
 }
