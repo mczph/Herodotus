@@ -40,6 +40,10 @@ RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
 	[null, <ore:plateBronze>.firstItem, null]
 ]);
 
+recipes.addShapeless("dark_energion_crystal_seed", <contenttweaker:dark_energion_crystal_seed>, [
+	<prodigytech:primordium>, <ore:dustBronze>, <ore:dustIron>, <ore:gunpowder>
+]);
+
 recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(function(item) {
 	return item.ores.length == 0 || !item.ores[0].name.contains("Ferramic");
 }));

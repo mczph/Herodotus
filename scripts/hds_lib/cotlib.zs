@@ -61,6 +61,9 @@ static allPartsMap as string[][int] = {
         "crushed_ore", "small_dust", "clump",
         "purified_ore", "ore_sample", 
         "ingot", "tiny_dust"
+    ],
+    5 : [ // only ore
+        "ore"
     ]
 };
 
@@ -114,6 +117,9 @@ static allMaterialMap as int[string][int] = {
     },
     4 : {//redstone
         "redstone" : 0x720000
+    },
+    5 : { // only ore
+        "glass": 0xeeeeee
     }
 };
 
