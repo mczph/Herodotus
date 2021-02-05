@@ -95,5 +95,6 @@ RecipeBuilder.get("mage")
         [null, <tconstruct:tool_rod>.withTag({Material: "iron"}), null],
         [<tconstruct:tool_rod>.withTag({Material: "iron"}), null, null]])
     .addTool(<ore:artisansAthame>, 75)
+    .setFluid(<liquid:glass> * 1000)
     .addOutput(<astralsorcery:itemlinkingtool>)
     .create();
