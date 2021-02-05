@@ -10,6 +10,9 @@ item.contenttweaker.polished_rhombus.name=Polished Rhombus
 item.contenttweaker.polished_spherical.name=Polished Spherical
 item.contenttweaker.sandpaper.name=Sandpaper
 item.contenttweaker.brass_dust.name=Brass Dust
+item.contenttweaker.dark_energion_crystal_seed.name=Gloomy Energion Crystal Seed
+
+tile.contenttweaker.starlight_frame.name=Starlight Frame
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus
@@ -27,6 +30,7 @@ base.material.blue=Blue
 base.material.rhombus=Rombus
 base.material.spherical=Spherical
 base.material.square=Square
+base.material.glimmerite=Glimmerite
 
 base.material.iron=Iron
 base.material.lithium=Lithium

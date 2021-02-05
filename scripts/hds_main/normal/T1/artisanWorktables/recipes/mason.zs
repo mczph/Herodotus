@@ -84,3 +84,36 @@ RecipeBuilder.get("mason")
   .addTool(<contenttweaker:sandpaper>, 1)
   .addOutput(<contenttweaker:polished_spherical>)
   .create();
+
+RecipeBuilder.get("mason")
+  .setShapeless([<ore:clusterGlimmerite>])
+  .addTool(<contenttweaker:sandpaper>, 1)
+  .addOutput(<ore:gemChippedGlimmerite>.firstItem, 5)
+  .addOutput(<ore:gemFlawedGlimmerite>.firstItem, 3)
+  .addOutput(<ore:gemFlawlessGlimmerite>.firstItem, 1)
+  .create();
+
+RecipeBuilder.get("mason")
+  .setShapeless([<contenttweaker:square>])
+  .addTool(<contenttweaker:sandpaper>, 1)
+  .addOutput(<contenttweaker:polished_square>)
+  .create();
+
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<pyrotech:material:12>, <pyrotech:material:12>, <pyrotech:material:12>],
+    [<pyrotech:stone_bricks>, <pyrotech:material:5>, <pyrotech:stone_bricks>],
+    [<pyrotech:material:5>, <pyrotech:stone_bricks>, <pyrotech:material:5>]])
+  .addTool(<ore:artisansTrowel>, 10)
+  .setFluid(<liquid:limewater>*1000)
+  .addOutput(<artisanworkstumps:stone_basin>)
+  .create();
+
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<astralsorcery:blockmarbleslab>, <ore:plateIron>, <astralsorcery:blockmarbleslab>],
+    [<ore:plateIron>, <ore:dustGlimmerite>, <ore:plateIron>],
+    [<astralsorcery:blockmarbleslab>, <ore:plateIron>, <astralsorcery:blockmarbleslab>]])
+  .addTool(<ore:artisansTrowel>, 10)
+  .addOutput(<contenttweaker:starlight_frame>)
+  .create();

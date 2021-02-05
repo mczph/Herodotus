@@ -31,8 +31,7 @@ RecipeUtils.recipeTweak(true, <artisanworkstumps:workstump_basic>,[
 ]);
 
 RecipeUtils.recipeTweak(false, <ore:dustBronze>.firstItem*4,[
-	[<ore:dustTin>, <ore:dustCopper>],
-	[<ore:dustCopper>, <ore:dustCopper>]
+	[<ore:dustTin>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]
 ]);
 
 RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
@@ -41,5 +40,7 @@ RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
 	[null, <ore:plateBronze>.firstItem, null]
 ]);
 
-recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>);
+recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(function(item) {
+	return item.ores.length == 0 || !item.ores[0].name.contains("Ferramic");
+}));
 }

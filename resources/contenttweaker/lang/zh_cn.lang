@@ -10,6 +10,9 @@ item.contenttweaker.polished_rhombus.name=抛光菱形
 item.contenttweaker.polished_spherical.name=抛光球形
 item.contenttweaker.sandpaper.name=砂纸
 item.contenttweaker.brass_dust.name=黄铜粉
+item.contenttweaker.dark_energion_crystal_seed.name=暗淡的能量种子
+
+tile.contenttweaker.starlight_frame.name=星光框架
 
 #MSH
 contenttweaker.part.rhombus=%s菱形
@@ -28,6 +31,7 @@ base.material.blue=蓝色
 base.material.rhombus=菱形
 base.material.spherical=球形
 base.material.square=方形
+base.material.glimmerite=微光
 
 base.material.iron=铁
 base.material.lithium=锂

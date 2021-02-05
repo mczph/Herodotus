@@ -19,7 +19,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if(!isInvalid){
 
 for item in <item:contenttweaker:material_part>.definition.subItems {
-    if (item.ores[0].name.startsWith("ingot")) {
+    if (item.ores[0].name.startsWith("ingot")) { // metal
         val ingot as IItemStack = item;
         val name as string = item.ores[0].name.substring("ingot".length);
         val nameSnake as string = toSnakeCase(name);
@@ -67,7 +67,21 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
 
         //pyrotech
         if (!block.empty && !plate.empty) {
-            allPyroAnvil("block_to_plate_ptanvil_" ~ nameSnake, plate.firstItem, block, 6, "hammer");
+            allPyroAnvil("block_to_plate_ptanvil_" ~ nameSnake, plate.firstItem * 4, block, 6, "hammer");
+        }
+    } else if (item.ores[0].name.startsWith("cluster")) {
+        val name as string = item.ores[0].name.substring("cluster".length);
+        val nameSnake as string = toSnakeCase(name);
+        if (oreDict.get("ingot" ~ name).empty) { // gem
+            val dust as IOreDictEntry = oreDict.get("dust" ~ name);
+            val dustTiny as IOreDictEntry = oreDict.get("dustTiny" ~ name);
+            val dustSmall as IOreDictEntry = oreDict.get("dustSmall" ~ name);
+            val fourNuggets as IOreDictEntry = oreDict.get("fourNuggets" ~ name);
+
+            recipes.addShaped("small_dust_" ~ nameSnake, dustSmall.firstItem * 4, [[dust]]);
+            recipes.addShaped("tiny_dust_" ~ nameSnake, dustTiny.firstItem * 9, [[dust]]);
+            recipes.addShaped("dust_from_small_" ~ nameSnake, dust.firstItem, createFull2(dustSmall));
+            recipes.addShaped("dust_from_tiny_" ~ nameSnake, dust.firstItem, createFull3(dustTiny));
         }
     }
 }

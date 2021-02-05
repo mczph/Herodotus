@@ -38,3 +38,14 @@ geometryOreDropt("spherical",
      StringHelper.getItemName(<ore:denseOreSpherical>.firstItem)],
     <contenttweaker:spherical>);
 }
+
+Dropt.list("glass")
+    .add(Dropt.rule()
+        .matchBlocks(["minecraft:glass", "minecraft:stained_glass"])
+        .replaceStrategy("REPLACE_ITEMS")
+        .addDrop(Dropt.drop()
+            .selector(Dropt.weight(10), "EXCLUDED")
+            .items([<pyrotech:material:32>], Dropt.range(1, 4))
+        )
+    );
+

@@ -17,6 +17,7 @@ recipes.removeByRecipeName("minecraft:brich_planks");
 recipes.removeByRecipeName("minecraft:jungle_planks");
 recipes.removeByRecipeName("minecraft:stick");
 recipes.removeByRecipeName("growthcraft_apples:stick");
+recipes.removeByRecipeName("astralsorcery:shaped/altar_tier_1");
 
 recipes.removeShaped(<minecraft:stick>*16,[
     [<ore:logWood>, null],
@@ -27,14 +28,21 @@ recipes.removeShaped(<minecraft:stick>*16,[
     [null, <ore:logWood>]
 ]);
 
-recipes.remove(<tconstruct:casting>);
-recipes.remove(<tconstruct:casting:1>);
-recipes.remove(<pyrotech:faucet_brick>);
-recipes.remove(<prodigytech:solid_fuel_aeroheater>);
-recipes.remove(<prodigytech:rotary_grinder>);
-recipes.remove(<prodigytech:heat_sawmill>);
-recipes.remove(<prodigytech:magmatic_aeroheater>);
-recipes.remove(<prodigytech:ferramic_gear>);
+val toRemove as IItemStack[] = [
+    <tconstruct:casting>,
+    <tconstruct:casting:1>,
+    <pyrotech:faucet_brick>,
+    <prodigytech:solid_fuel_aeroheater>,
+    <prodigytech:rotary_grinder>,
+    <prodigytech:heat_sawmill>,
+    <prodigytech:magmatic_aeroheater>,
+    <prodigytech:ferramic_gear>,
+    <astralsorcery:itemjournal>
+];
+
+for item in toRemove {
+    recipes.remove(item);
+}
 
 //damn furnace
 furnace.removeAll();

@@ -12,7 +12,16 @@ RecipeBuilder.get("tanner")
     [<pyrotech:material:32>, <pyrotech:material:32>, <pyrotech:material:32>],
     [<ore:paper>, <ore:slimeball>, <ore:paper>],
     [<ore:leather>, <ore:leather>, <ore:leather>]])
-  .addTool(<ore:artisansTrowel>, 20)
+  .addTool(<ore:artisansRazor>, 20)
   .addOutput(<contenttweaker:sandpaper>)
   .create();
 }
+
+RecipeBuilder.get("tanner")
+  .setShaped([
+    [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+    [<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
+    [<ore:paper>, <ore:paper>, <ore:paper>]])
+  .addTool(<ore:artisansRazor>, 20)
+  .addOutput(<astralsorcery:itemcraftingcomponent:5>)
+  .create();

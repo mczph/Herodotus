@@ -109,7 +109,8 @@ static allMaterialMap as int[string][int] = {
     },
     3 : {//gems
         //TODO colored gems
-        "diamond" : 0x2fc7e4
+        "diamond" : 0x2fc7e4,
+        "glimmerite" : 0xff9500 
     },
     4 : {//redstone
         "redstone" : 0x720000
@@ -132,5 +133,6 @@ static plainItemIDs as string[] = [
     "polished_square",
     "square",
     "rhombus",
-    "spherical"
+    "spherical",
+    "dark_energion_crystal_seed"
 ];
