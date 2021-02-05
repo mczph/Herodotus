@@ -44,6 +44,10 @@ recipes.addShapeless("dark_energion_crystal_seed", <contenttweaker:dark_energion
 	<prodigytech:primordium>, <ore:dustBronze>, <ore:dustIron>, <ore:gunpowder>
 ]);
 
+recipes.addShapeless("tiny_bronze_dust", <ore:dustTinyBronze>.firstItem * 4, [
+	<ore:dustTinyCopper>, <ore:dustTinyCopper>, <ore:dustTinyCopper>, <ore:dustTinyTin>
+]);
+
 recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(function(item) {
 	return item.ores.length == 0 || !item.ores[0].name.contains("Ferramic");
 }));
