@@ -63,6 +63,9 @@ for color in colors {
     SoakingPot.addRecipe("dye_t2_" ~ color, clump.materialPart, fluidTier1*500, crushedOre, true, 20*20);
     BrickCrucible.addRecipe("dye_t2_melt_" ~ color, fluidTier2*500, clump, 60*20);
     rotarygrinder.addRecipe(crushedOre, dust.materialPart);
+
+    // remove other dust crafting
+    mods.astralsorcery.Grindstone.removeRecipe(dust.materialPart);
     
     for shape in shapes {
         var output as IItemStack = oreDict.get(shape ~ od).materialPart;
