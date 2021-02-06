@@ -24,7 +24,10 @@ val removeByOutput as IItemStack[] = [
     <pyrotech:material:9>,
     <botania:altar>,
     <minecraft:bucket>,
-    <minecraft:cauldron>
+    <minecraft:cauldron>,
+    <prodigytech:magnetic_reassembler>,
+    <prodigytech:atomic_reshaper>,
+    <prodigytech:primordialis_reactor>
 ];
 
 val removeByRecipeName as string[] = [

@@ -44,4 +44,14 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSpanner>, 80)
   .addOutput(<prodigytech:solderer>)
   .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateIron>, <hdsutils:tiny_starlight_storage:1>, <ore:plateIron>],
+    [<astralsorcery:blockcustomflower>, <contenttweaker:starlight_frame>, <astralsorcery:blockcustomflower>],
+    [<ore:plateIron>, <astralsorcery:blockcustomflower>, <ore:plateIron>]])
+  .addTool(<artisanworktables:artisans_spanner_constantan>, 1)
+  .addOutput(<prodigytech:primordialis_reactor>)
+  .create();
+  
 }

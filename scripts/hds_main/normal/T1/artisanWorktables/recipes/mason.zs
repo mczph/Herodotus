@@ -64,9 +64,8 @@ RecipeBuilder.get("mason")
   .addTool(<ore:artisansTrowel>, 75)
   .addOutput(<tconstruct:casting:1>)
   .create();
-}
 
-RecipeBuilder.get("mason")
+  RecipeBuilder.get("mason")
   .setShapeless([<contenttweaker:rhombus>])
   .addTool(<contenttweaker:sandpaper>, 1)
   .addOutput(<contenttweaker:polished_rhombus>)
@@ -122,3 +121,12 @@ RecipeBuilder.get("mason")
   .addTool(<ore:artisansTrowel>, 10)
   .addOutput(<contenttweaker:starlight_frame>)
   .create();
+
+RecipeBuilder.get("mason")
+    .setShaped([
+        [<ore:sphericalYellow>, <ore:sphericalYellow>],
+        [<ore:sphericalYellow>, <ore:sphericalYellow>]])
+    .addTool(<ore:artisansTrowel>, 10)
+    .addOutput(<contenttweaker:yellow_spherical_block>)
+    .create();
+}

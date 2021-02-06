@@ -15,7 +15,7 @@ sandpaper.register();
 
 var solderer = VanillaFactory.createItem("hot_air_solderer");
 solderer.maxStackSize = 1;
-solderer.maxDamage = 1024;
+solderer.maxDamage = 32000;
 solderer.register();
 
 var brass = VanillaFactory.createItem("brass_dust");

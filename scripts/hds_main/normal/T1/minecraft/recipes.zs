@@ -51,4 +51,32 @@ recipes.addShapeless("tiny_bronze_dust", <ore:dustTinyBronze>.materialPart * 4, 
 recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(function(item) {
 	return item.ores.length == 0 || !item.ores[0].name.contains("Ferramic");
 }));
+
+recipes.addShapeless("hot_air_solderer_trans_0", <contenttweaker:hot_air_solderer>,
+	[<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_0:*>.marked("c")], 
+	function(out, ins, info) {
+		return out.withDamage(max(0, 32000 - (12000 - ins.c.damage)));
+	}, null
+);
+
+recipes.addShapeless("hot_air_solderer_trans_1", <contenttweaker:hot_air_solderer>,
+	[<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_1:*>.marked("c")], 
+	function(out, ins, info) {
+		return out.withDamage(max(0, 32000 - (12000 - ins.c.damage) * 3));
+	}, null
+);
+
+recipes.addShapeless("hot_air_solderer_trans_2", <contenttweaker:hot_air_solderer>,
+	[<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_2:*>.marked("c")], 
+	function(out, ins, info) {
+		return out.withDamage(max(0, 32000 - (12000 - ins.c.damage) * 5));
+	}, null
+);
+
+recipes.addShapeless("hot_air_solderer_trans_3", <contenttweaker:hot_air_solderer>,
+	[<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_3:*>.marked("c")], 
+	function(out, ins, info) {
+		return out.withDamage(max(0, 32000 - (12000 - ins.c.damage) * 12));
+	}, null
+);
 }

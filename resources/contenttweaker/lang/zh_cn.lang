@@ -9,9 +9,11 @@ item.contenttweaker.polished_spherical.name=抛光球形
 item.contenttweaker.sandpaper.name=砂纸
 item.contenttweaker.brass_dust.name=黄铜粉
 item.contenttweaker.dark_energion_crystal_seed.name=暗淡的能量种子
+item.contenttweaker.hot_air_solderer.name=热空气焊铁
 item.contenttweaker.astral_lens.name=星芒透镜
 
 tile.contenttweaker.starlight_frame.name=星光框架
+tile.contenttweaker.yellow_spherical_block.name=黄色球形晶体块
 
 #MSH
 contenttweaker.part.rhombus=%s菱形

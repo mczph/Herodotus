@@ -68,15 +68,6 @@ RecipeBuilder.get("mage")
 
 RecipeBuilder.get("mage")
     .setShaped([
-        [<ore:sphericalYellow>, <ore:sphericalYellow>],
-        [<ore:sphericalYellow>, <ore:sphericalYellow>]])
-    .addTool(<ore:artisansAthame>, 10)
-    .addOutput(<contenttweaker:yellow_spherical_block>)
-    .create();
-
-
-RecipeBuilder.get("mage")
-    .setShaped([
         [<ore:dustCoal>, <ore:gemFlawlessGlimmerite>, <ore:dustCoal>],
         [<ore:plateCopper>, <contenttweaker:starlight_frame>, <ore:plateCopper>],
         [<ore:dustCoal>, <ore:plateCopper>, <ore:dustCoal>]])
@@ -107,4 +98,27 @@ RecipeBuilder.get("mage")
     .setFluid(<liquid:glass> * 1000)
     .addOutput(<astralsorcery:itemlinkingtool>)
     .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:ingotCopper>, <ore:gemFlawlessQuartz>, <ore:ingotCopper>],
+    [<ore:gemFlawedGlimmerite>, <contenttweaker:starlight_frame>, <ore:gemFlawedGlimmerite>],
+    [<ore:ingotIron>, <ore:gemFlawedGlimmerite>, <ore:ingotIron>]])
+  .addTool(<ore:artisansAthame>, 100)
+  .setFluid(<liquid:mercury> * 1000)
+  .setRecipeFunction(function(out, ins, info) {
+        val player as IPlayer = info.player;
+        if (isNull(player)) {
+	        return out;
+	    } else {
+            return (XPUtil.getPlayerXP(player) >= 1000 && player.health > 12.0f) ? out : null;
+        }
+    })
+    .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        XPUtil.removePlayerXP(player, 1000);
+        player.attackEntityFrom(<damageSource:MAGIC>, 12.0f);
+    })
+  .addOutput(<contenttweaker:altar>)
+  .create();
 }

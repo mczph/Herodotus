@@ -10,9 +10,11 @@ item.contenttweaker.polished_rhombus.name=Polished Rhombus
 item.contenttweaker.polished_spherical.name=Polished Spherical
 item.contenttweaker.sandpaper.name=Sandpaper
 item.contenttweaker.brass_dust.name=Brass Dust
+item.contenttweaker.hot_air_solderer.name=Hot Air Solderer
 item.contenttweaker.dark_energion_crystal_seed.name=Gloomy Energion Crystal Seed
 
 tile.contenttweaker.starlight_frame.name=Starlight Frame
+tile.contenttweaker.yellow_spherical_block.name=Block of Yellow Spherical Crystal
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus
