@@ -53,7 +53,7 @@ val temp = RecipeBuilder.get("mage")
         XPUtil.removePlayerXP(player, 50);
     });
 for i in 2 .. 10 {
-    temp.addOutput(<ore:dustTinyGlimmerite>.firstItem * i, pow(1.5, (10 - i)));
+    temp.addOutput(<ore:dustTinyGlimmerite>.materialPart * i, pow(1.5, (10 - i)));
 }
 temp.create();
 

@@ -7,6 +7,6 @@ import scripts.hds_main.normal.T1.pyrotech.ptFunctions.KRCSOreProcessor;
 
 if(!isInvalid){
 
-KRCSOreProcessor("copper", <ore:shardCopper>.firstItem, <ore:clumpCopper>, [<ore:crushedOreCopper>.firstItem]);
-KRCSOreProcessor("tin", <ore:shardTin>.firstItem, <ore:clumpTin>, [<ore:crushedOreTin>.firstItem]);
+KRCSOreProcessor("copper", <ore:shardCopper>.materialPart, <ore:clumpCopper>, [<ore:crushedOreCopper>.materialPart]);
+KRCSOreProcessor("tin", <ore:shardTin>.materialPart, <ore:clumpTin>, [<ore:crushedOreTin>.materialPart]);
 }

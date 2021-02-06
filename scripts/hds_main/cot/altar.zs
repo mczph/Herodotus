@@ -30,7 +30,7 @@ altar.onBlockActivated = function(world, pos, state, player, hand, facing, block
                     foodStats.foodLevel -= 2;
                 } else return false;
                 player.attackEntityFrom(<damageSource:MAGIC>, 2.0f);
-                player.give(<ore:nuggetGold>.firstItem * amount);
+                player.give(<ore:nuggetGold>.materialPart * amount);
                 return true;
             }
         }

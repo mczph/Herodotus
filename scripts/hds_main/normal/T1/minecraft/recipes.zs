@@ -30,14 +30,14 @@ RecipeUtils.recipeTweak(true, <artisanworkstumps:workstump_basic>,[
 	[<ore:plankWood>, <pyrotech:stash>, <ore:plankWood>]
 ]);
 
-RecipeUtils.recipeTweak(false, <ore:dustBronze>.firstItem*4,[
+RecipeUtils.recipeTweak(false, <ore:dustBronze>.materialPart*4,[
 	[<ore:dustTin>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]
 ]);
 
 RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
-	[<ore:plateBronze>.firstItem, null, <ore:plateBronze>.firstItem],
-	[<ore:plateBronze>.firstItem, <pyrotech:crate>, <ore:plateBronze>.firstItem],
-	[null, <ore:plateBronze>.firstItem, null]
+	[<ore:plateBronze>.materialPart, null, <ore:plateBronze>.materialPart],
+	[<ore:plateBronze>.materialPart, <pyrotech:crate>, <ore:plateBronze>.materialPart],
+	[null, <ore:plateBronze>.materialPart, null]
 ]);
 
 RecipeUtils.recipeTweak(false, <contenttweaker:astral_lens>,[
@@ -48,7 +48,7 @@ recipes.addShapeless("dark_energion_crystal_seed", <contenttweaker:dark_energion
 	<prodigytech:primordium>, <ore:dustBronze>, <ore:dustIron>, <ore:gunpowder>
 ]);
 
-recipes.addShapeless("tiny_bronze_dust", <ore:dustTinyBronze>.firstItem * 4, [
+recipes.addShapeless("tiny_bronze_dust", <ore:dustTinyBronze>.materialPart * 4, [
 	<ore:dustTinyCopper>, <ore:dustTinyCopper>, <ore:dustTinyCopper>, <ore:dustTinyTin>
 ]);
 

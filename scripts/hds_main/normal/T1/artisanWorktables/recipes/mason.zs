@@ -10,22 +10,22 @@ if(!isInvalid){
 
 val ptm5 as IItemStack = <pyrotech:material:5>;
 
-MRLTOreProcessor("copper", <ore:clumpCopper>.firstItem*4, <ore:crushedOreCopper>);
-MRLTOreProcessor("tin", <ore:clumpTin>.firstItem*4, <ore:crushedOreTin>);
+MRLTOreProcessor("copper", <ore:clumpCopper>.materialPart*4, <ore:crushedOreCopper>);
+MRLTOreProcessor("tin", <ore:clumpTin>.materialPart*4, <ore:crushedOreTin>);
 //ore processing
 RecipeBuilder.get("mason")
   .setShapeless([<ore:rhombusYellow>])
   .addTool(<ore:artisansBurner>, 5)
-  .addOutput(<ore:coal>.firstItem)
+  .addOutput(<ore:coal>.materialPart)
   .create();
 
 RecipeBuilder.get("mason")
   .setShapeless([<ore:crushedOreLead>])
   .addTool(<ore:artisansSifter>, 8)
-  .addOutput(<ore:orePurifiedLead>.firstItem)
-  .setExtraOutputOne(<ore:rock>.firstItem, 1.0)
-  .setExtraOutputTwo(<ore:rock>.firstItem, 0.5)
-  .setExtraOutputThree(<ore:rock>.firstItem*2, 0.18)
+  .addOutput(<ore:orePurifiedLead>.materialPart)
+  .setExtraOutputOne(<ore:rock>.materialPart, 1.0)
+  .setExtraOutputTwo(<ore:rock>.materialPart, 0.5)
+  .setExtraOutputThree(<ore:rock>.materialPart*2, 0.18)
   .create();
 
 RecipeBuilder.get("mason")
@@ -87,9 +87,9 @@ RecipeBuilder.get("mason")
 RecipeBuilder.get("mason")
   .setShapeless([<ore:clusterGlimmerite>])
   .addTool(<contenttweaker:sandpaper>, 1)
-  .addOutput(<ore:gemChippedGlimmerite>.firstItem, 5)
-  .addOutput(<ore:gemFlawedGlimmerite>.firstItem, 3)
-  .addOutput(<ore:gemFlawlessGlimmerite>.firstItem, 1)
+  .addOutput(<ore:gemChippedGlimmerite>.materialPart, 5)
+  .addOutput(<ore:gemFlawedGlimmerite>.materialPart, 3)
+  .addOutput(<ore:gemFlawlessGlimmerite>.materialPart, 1)
   .create();
 
 RecipeBuilder.get("mason")

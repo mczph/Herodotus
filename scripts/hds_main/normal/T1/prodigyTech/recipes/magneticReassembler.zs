@@ -9,5 +9,5 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
-magneticreassembler.addRecipe(<ore:crushedOreIron>, <ore:oreCentrifugedIron>.firstItem);
+magneticreassembler.addRecipe(<ore:crushedOreIron>, <ore:oreCentrifugedIron>.materialPart);
 }

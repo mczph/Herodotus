@@ -99,7 +99,7 @@ static allMaterialMap as int[string][int] = {
         "aluminum": 0xe8e8e8,
 
         "radioactive_residue" : 0xe9c935,
-        "gold" : 0xe8da16,
+        "gold" : 0xffff00,
         "chromium" : 0xbfbfbf,
 
         "silicon" : 0x909090,

@@ -9,5 +9,5 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
-rotarygrinder.addRecipe(<ore:rockIron>, <ore:crushedOreIron>.firstItem);
+rotarygrinder.addRecipe(<ore:rockIron>, <ore:crushedOreIron>.materialPart);
 }

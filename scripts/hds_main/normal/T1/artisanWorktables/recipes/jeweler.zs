@@ -10,18 +10,18 @@ if(!isInvalid){
 RecipeBuilder.get("jeweler")
   .setShapeless([<ore:rhombusRed>])
   .addTool(<ore:artisansPliers>, 50)
-  .addOutput(<ore:dirtyDustRedstone>.firstItem)
-  .setExtraOutputOne(<ore:gemFlawlessRedstone>.firstItem, 0.05)
-  .setExtraOutputTwo(<ore:gemFlawedRedstone>.firstItem, 0.12)
-  .setExtraOutputThree(<ore:gemChippedRedstone>.firstItem, 0.25)
+  .addOutput(<ore:dirtyDustRedstone>.materialPart)
+  .setExtraOutputOne(<ore:gemFlawlessRedstone>.materialPart, 0.05)
+  .setExtraOutputTwo(<ore:gemFlawedRedstone>.materialPart, 0.12)
+  .setExtraOutputThree(<ore:gemChippedRedstone>.materialPart, 0.25)
   .create();
 
 RecipeBuilder.get("jeweler")
   .setShapeless([<ore:rhombusBlue>])
   .addTool(<ore:artisansPliers>, 50)
-  .addOutput(<ore:dirtyDustQuartz>.firstItem)
-  .setExtraOutputOne(<ore:gemFlawlessQuartz>.firstItem, 0.05)
-  .setExtraOutputTwo(<ore:gemFlawedQuartz>.firstItem, 0.12)
-  .setExtraOutputThree(<ore:gemChippedQuartz>.firstItem, 0.25)
+  .addOutput(<ore:dirtyDustQuartz>.materialPart)
+  .setExtraOutputOne(<ore:gemFlawlessQuartz>.materialPart, 0.05)
+  .setExtraOutputTwo(<ore:gemFlawedQuartz>.materialPart, 0.12)
+  .setExtraOutputThree(<ore:gemChippedQuartz>.materialPart, 0.25)
   .create();
 }

@@ -10,5 +10,5 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if(!isInvalid){
 
 //Casting.addTableRecipe(<contenttweaker:copper_cast>, null, <liquid:copper>, 288);
-Casting.addBasinRecipe(<ore:oreGlass>.firstItem, <minecraft:stone>, <liquid:glass>, 4000);
+Casting.addBasinRecipe(<ore:oreGlass>.materialPart, <minecraft:stone>, <liquid:glass>, 4000);
 }

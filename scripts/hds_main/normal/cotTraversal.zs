@@ -41,37 +41,37 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         //mods.unidict.removeByKind.get("Crafting").remove(*);
 
         //basic recipes
-        recipes.addShaped("block_" ~ nameSnake, block.firstItem, createFull3(ingot));
+        recipes.addShaped("block_" ~ nameSnake, block.materialPart, createFull3(ingot));
         recipes.addShaped("ingot_from_block_" ~ nameSnake, ingot * 9, [[block]]);
         recipes.addShaped("ingot_from_nugget_" ~ nameSnake, ingot, createFull3(nugget));
-        recipes.addShaped("nugget" ~ nameSnake, nugget.firstItem * 9, [[ingot]]);
-        recipes.addShaped("small_dust_" ~ nameSnake, dustSmall.firstItem * 4, [[dust]]);
-        recipes.addShaped("tiny_dust_" ~ nameSnake, dustTiny.firstItem * 9, [[dust]]);
-        recipes.addShaped("dust_from_small_" ~ nameSnake, dust.firstItem, createFull2(dustSmall));
-        recipes.addShaped("dust_from_tiny_" ~ nameSnake, dust.firstItem, createFull3(dustTiny));
+        recipes.addShaped("nugget" ~ nameSnake, nugget.materialPart * 9, [[ingot]]);
+        recipes.addShaped("small_dust_" ~ nameSnake, dustSmall.materialPart * 4, [[dust]]);
+        recipes.addShaped("tiny_dust_" ~ nameSnake, dustTiny.materialPart * 9, [[dust]]);
+        recipes.addShaped("dust_from_small_" ~ nameSnake, dust.materialPart, createFull2(dustSmall));
+        recipes.addShaped("dust_from_tiny_" ~ nameSnake, dust.materialPart, createFull3(dustTiny));
 
         //tcon
         // comment these due to cast issue
         /* if (!fourNuggets.empty) {
-            recipes.addShaped("four_nuggets_unpack_" ~ nameSnake, nugget.firstItem * 4, [[fourNuggets]]);
-            recipes.addShaped("four_nuggets_pack_" ~ nameSnake, fourNuggets.firstItem, createFull2(nugget));
+            recipes.addShaped("four_nuggets_unpack_" ~ nameSnake, nugget.materialPart * 4, [[fourNuggets]]);
+            recipes.addShaped("four_nuggets_pack_" ~ nameSnake, fourNuggets.materialPart, createFull2(nugget));
             
             if (!isNull(molten)) {
-                Casting.addTableRecipe(fourNuggets.firstItem, <contenttweaker:cast_four_nuggets>, molten, 64, false, 120);
-                Casting.addTableRecipe(nugget.firstItem, <contenttweaker:copper_nugget_cast>, molten, 16, false, 60);
+                Casting.addTableRecipe(fourNuggets.materialPart, <contenttweaker:cast_four_nuggets>, molten, 64, false, 120);
+                Casting.addTableRecipe(nugget.materialPart, <contenttweaker:copper_nugget_cast>, molten, 16, false, 60);
             } 
         }
         if (!gear.empty && !isNull(molten)) {
-            Casting.addTableRecipe(gear.firstItem, <contenttweaker:copper_gear_cast>, molten, 864, false, 80);
+            Casting.addTableRecipe(gear.materialPart, <contenttweaker:copper_gear_cast>, molten, 864, false, 80);
         } */
 
         //prodigytech
-        if (!dust.empty && !shard.empty) {LOERProcesser(dust, shard.firstItem);}
-        //if (!rock.empty && !crushed.empty) {rotarygrinder.addRecipe(rock, crushed.firstItem);}
+        if (!dust.empty && !shard.empty) {LOERProcesser(dust, shard.materialPart);}
+        //if (!rock.empty && !crushed.empty) {rotarygrinder.addRecipe(rock, crushed.materialPart);}
 
         //pyrotech
         if (!block.empty && !plate.empty) {
-            allPyroAnvil("block_to_plate_ptanvil_" ~ nameSnake, plate.firstItem * 4, block, 6, "hammer");
+            allPyroAnvil("block_to_plate_ptanvil_" ~ nameSnake, plate.materialPart * 4, block, 6, "hammer");
         }
     } else if (item.ores[0].name.startsWith("cluster")) {
         val name as string = item.ores[0].name.substring("cluster".length);
@@ -82,10 +82,10 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
             val dustSmall as IOreDictEntry = oreDict.get("dustSmall" ~ name);
             val fourNuggets as IOreDictEntry = oreDict.get("fourNuggets" ~ name);
 
-            recipes.addShaped("small_dust_" ~ nameSnake, dustSmall.firstItem * 4, [[dust]]);
-            recipes.addShaped("tiny_dust_" ~ nameSnake, dustTiny.firstItem * 9, [[dust]]);
-            recipes.addShaped("dust_from_small_" ~ nameSnake, dust.firstItem, createFull2(dustSmall));
-            recipes.addShaped("dust_from_tiny_" ~ nameSnake, dust.firstItem, createFull3(dustTiny));
+            recipes.addShaped("small_dust_" ~ nameSnake, dustSmall.materialPart * 4, [[dust]]);
+            recipes.addShaped("tiny_dust_" ~ nameSnake, dustTiny.materialPart * 9, [[dust]]);
+            recipes.addShaped("dust_from_small_" ~ nameSnake, dust.materialPart, createFull2(dustSmall));
+            recipes.addShaped("dust_from_tiny_" ~ nameSnake, dust.materialPart, createFull3(dustTiny));
         }
     }
 }

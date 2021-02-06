@@ -51,21 +51,21 @@ for color in colors {
     val clump as IOreDictEntry = oreDict.get("clump" ~ od);
     val dust as IOreDictEntry = oreDict.get("dust" ~ od);
 
-    IroncladAnvil.addRecipe(color ~ "_from_poor_ore", crushedOre.firstItem, poorOre, 8, "pickaxe");
-    IroncladAnvil.addRecipe(color ~ "_from_ore", crushedOre.firstItem * 2, ore, 8, "pickaxe");
-    IroncladAnvil.addRecipe(color ~ "_from_dense_ore", crushedOre.firstItem * 4, ore, 12, "pickaxe");
+    IroncladAnvil.addRecipe(color ~ "_from_poor_ore", crushedOre.materialPart, poorOre, 8, "pickaxe");
+    IroncladAnvil.addRecipe(color ~ "_from_ore", crushedOre.materialPart * 2, ore, 8, "pickaxe");
+    IroncladAnvil.addRecipe(color ~ "_from_dense_ore", crushedOre.materialPart * 4, ore, 12, "pickaxe");
 
     FluidToFluid.transform(fluidTier1, <liquid:limewater>, [poorOre * 3]);
     FluidToFluid.transform(fluidTier1, <liquid:limewater>, [ore]);
     FluidToFluid.transform(fluidTier1, <liquid:limewater>, [denseOre]);
     FluidToFluid.transform(fluidTier1, <liquid:limewater>, [crushedOre]);
 
-    SoakingPot.addRecipe("dye_t2_" ~ color, clump.firstItem, fluidTier1*500, crushedOre, true, 20*20);
+    SoakingPot.addRecipe("dye_t2_" ~ color, clump.materialPart, fluidTier1*500, crushedOre, true, 20*20);
     BrickCrucible.addRecipe("dye_t2_melt_" ~ color, fluidTier2*500, clump, 60*20);
-    rotarygrinder.addRecipe(crushedOre, dust.firstItem);
+    rotarygrinder.addRecipe(crushedOre, dust.materialPart);
     
     for shape in shapes {
-        var output as IItemStack = oreDict.get(shape ~ od).firstItem;
+        var output as IItemStack = oreDict.get(shape ~ od).materialPart;
         var input1 as IOreDictEntry = getColorlessShape(shape);
         var input2 as IItemStack = itemUtils.getItem("contenttweaker:polished_" ~ shape);
         var input3 as IOreDictEntry = oreDict.get(shape ~ "Cover" ~ od);
@@ -74,7 +74,7 @@ for color in colors {
         RecipeBuilder.get("mason")
             .setShapeless([input2, dust])
             .addTool(<ore:artisansTrowel>, 4)
-            .addOutput(input3.firstItem)
+            .addOutput(input3.materialPart)
             .create();
         BrickKiln.addRecipe(shape ~ "_kiln_" ~ color, output, input3, 2.5 * 60 * 20);
     }

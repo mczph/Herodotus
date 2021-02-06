@@ -23,19 +23,19 @@ Dropt.list("remove_form_tall_grass")
 //Add
 
 geometryOreDropt("rhombus",
-    [StringHelper.getItemName(<ore:poorOreRhombus>.firstItem),
-     StringHelper.getItemName(<ore:oreRhombus>.firstItem),
-     StringHelper.getItemName(<ore:denseOreRhombus>.firstItem)],
+    [StringHelper.getItemName(<ore:poorOreRhombus>.materialPart),
+     StringHelper.getItemName(<ore:oreRhombus>.materialPart),
+     StringHelper.getItemName(<ore:denseOreRhombus>.materialPart)],
     <contenttweaker:rhombus>);
 geometryOreDropt("square",
-    [StringHelper.getItemName(<ore:poorOreSquare>.firstItem),
-     StringHelper.getItemName(<ore:oreSquare>.firstItem),
-     StringHelper.getItemName(<ore:denseOreSquare>.firstItem)],
+    [StringHelper.getItemName(<ore:poorOreSquare>.materialPart),
+     StringHelper.getItemName(<ore:oreSquare>.materialPart),
+     StringHelper.getItemName(<ore:denseOreSquare>.materialPart)],
     <contenttweaker:square>);
 geometryOreDropt("spherical",
-    [StringHelper.getItemName(<ore:poorOreSpherical>.firstItem),
-     StringHelper.getItemName(<ore:oreSpherical>.firstItem),
-     StringHelper.getItemName(<ore:denseOreSpherical>.firstItem)],
+    [StringHelper.getItemName(<ore:poorOreSpherical>.materialPart),
+     StringHelper.getItemName(<ore:oreSpherical>.materialPart),
+     StringHelper.getItemName(<ore:denseOreSpherical>.materialPart)],
     <contenttweaker:spherical>);
 }
 
