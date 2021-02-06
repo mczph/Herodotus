@@ -21,7 +21,7 @@ for oda, item in oreDictAddMap{
     oda.add(item);
 }
 
-for odr, item in oreDictRemoveMap{
+for odr, items in oreDictRemoveMap{
     odr.removeItems(items);
 }
 }

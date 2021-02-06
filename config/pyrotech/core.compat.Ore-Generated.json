@@ -110,8 +110,6 @@
       "slagColor": "d8af93",
       "langKey": [
         "contenttweaker:tile.contenttweaker.sub_block_holder_3",
-        "industrialrenewal:item.industrialrenewal.chunk_hematite",
-        "industrialrenewal:tile.industrialrenewal.orevein_hematite",
         "minecraft:tile.oreIron"
       ],
       "output": [

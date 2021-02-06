@@ -41,7 +41,7 @@ RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
 ]);
 
 RecipeUtils.recipeTweak(false, <contenttweaker:astral_lens>,[
-	[<contenttweaker:perfect_starlight_crystal>, <contenttweaker:sandpaper>.anyDamage(), null, null]
+	[<contenttweaker:perfect_starlight_crystal>, <contenttweaker:sandpaper>.anyDamage()]
 ]);
 
 recipes.addShapeless("dark_energion_crystal_seed", <contenttweaker:dark_energion_crystal_seed>, [
