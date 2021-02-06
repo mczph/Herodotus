@@ -65,7 +65,6 @@ RecipeBuilder.get("mage")
     .addTool(<ore:artisansAthame>, 10)
     .addOutput(<astralsorcery:blockmarble> * 12)
     .create();
-}
 
 RecipeBuilder.get("mage")
     .setShaped([
@@ -74,7 +73,7 @@ RecipeBuilder.get("mage")
     .addTool(<ore:artisansAthame>, 10)
     .addOutput(<contenttweaker:yellow_spherical_block>)
     .create();
-};
+
 
 RecipeBuilder.get("mage")
     .setShaped([
@@ -108,3 +107,4 @@ RecipeBuilder.get("mage")
     .setFluid(<liquid:glass> * 1000)
     .addOutput(<astralsorcery:itemlinkingtool>)
     .create();
+}
