@@ -40,6 +40,10 @@ RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
 	[null, <ore:plateBronze>.firstItem, null]
 ]);
 
+RecipeUtils.recipeTweak(false, <contenttweaker:astral_lens>,[
+	[<contenttweaker:perfect_starlight_crystal>, <contenttweaker:sandpaper>.anyDamage(), null, null]
+]);
+
 recipes.addShapeless("dark_energion_crystal_seed", <contenttweaker:dark_energion_crystal_seed>, [
 	<prodigytech:primordium>, <ore:dustBronze>, <ore:dustIron>, <ore:gunpowder>
 ]);

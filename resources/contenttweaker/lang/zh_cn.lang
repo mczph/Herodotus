@@ -1,7 +1,5 @@
 fluid.limewater=石灰水
-item.contenttweaker.copper_cast.name=铜空白铸模
-item.contenttweaker.cast_four_nuggets.name=铜四粒铸模
-item.contenttweaker.copper_nugget_cast.name=铜粒铸模
+
 item.contenttweaker.square.name=灰色方形
 item.contenttweaker.rhombus.name=灰色菱形
 item.contenttweaker.spherical.name=灰色球形
@@ -11,6 +9,8 @@ item.contenttweaker.polished_spherical.name=抛光球形
 item.contenttweaker.sandpaper.name=砂纸
 item.contenttweaker.brass_dust.name=黄铜粉
 item.contenttweaker.dark_energion_crystal_seed.name=暗淡的能量种子
+item.contenttweaker.perfect_starlight_crystal.name=完美的星光晶体
+item.contenttweaker.astral_lens.name=星芒透镜
 
 tile.contenttweaker.starlight_frame.name=星光框架
 

@@ -8,12 +8,20 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
-val oreDictMap as IItemStack[][IOreDictEntry] = {
+val oreDictAddMap as IItemStack[][IOreDictEntry] = {
     <ore:pieceCoal> : [<pyrotech:material:21>, <actuallyadditions:item_misc:10>]
 };
 
+val oreDictRemoveMap as IItemStack[][IOreDictEntry] = {
+    <ore:oreIron> : [<industrialrenewal:chunk_hematite>, <industrialrenewal:orevein_hematite>]
+};
+
 //st
-for od, item in oreDictMap{
-    od.add(item);
+for oda, item in oreDictAddMap{
+    oda.add(item);
+}
+
+for odr, item in oreDictRemoveMap{
+    odr.removeItems(items);
 }
 }

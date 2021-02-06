@@ -14,8 +14,8 @@ import mods.pyrotech.BrickCrucible;
 
 //add all pyrotech kiln recipes
 function allPyroKiln(name as string, output as IItemStack, input as IIngredient, time as int){
-StoneKiln.addRecipe(name~"_sk", output, input, time);
-BrickKiln.addRecipe(name~"_bk", output, input, time);
+    StoneKiln.addRecipe(name~"_sk", output, input, time);
+    BrickKiln.addRecipe(name~"_bk", output, input, time);
 }
 
 //remove all pyroteh anvil recipes in once

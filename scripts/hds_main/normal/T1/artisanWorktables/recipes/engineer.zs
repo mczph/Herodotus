@@ -13,7 +13,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotBronze>, null, <ore:ingotBronze>],
     [<ore:ingotBronze>, <pyrotech:brick_kiln>, <ore:ingotBronze>],
     [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]])
-  .addTool(<artisanworktables:artisans_driver_wood>, 20)
+  .addTool(<ore:artisansDriver>, 20)
   .addOutput(<prodigytech:solid_fuel_aeroheater>)
   .create();
 
@@ -22,7 +22,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotBronze>, null, <ore:ingotBronze>],
     [<ore:gearBronze>, <ore:gearBronze>, <ore:gearBronze>],
     [<ore:ingotBronze>, null, <ore:ingotBronze>]])
-  .addTool(<artisanworktables:artisans_spanner_wood>, 1)
+  .addTool(<ore:artisansSpanner>, 50)
   .addOutput(<prodigytech:rotary_grinder>)
   .create();
 
@@ -31,7 +31,17 @@ RecipeBuilder.get("engineer")
     [<ore:ingotBronze>, <ore:gearBronze>, <ore:ingotBronze>],
     [<ore:ingotBronze>, null, <ore:ingotBronze>],
     [<ore:ingotBronze>, null, <ore:ingotBronze>]])
-  .addTool(<artisanworktables:artisans_spanner_wood>, 1)
+  .addTool(<ore:artisansSpanner>, 50)
   .addOutput(<prodigytech:heat_sawmill>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<contenttweaker:astral_lens>, <contenttweaker:astral_lens>, <contenttweaker:astral_lens>],
+    [<ore:plateIron>, <contenttweaker:starlight_frame>, <ore:plateIron>],
+    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]])
+  .setFluid(<liquid:lava> * 1000)
+  .addTool(<ore:artisansSpanner>, 80)
+  .addOutput(<prodigytech:solderer>)
   .create();
 }

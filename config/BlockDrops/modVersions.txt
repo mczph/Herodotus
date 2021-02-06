@@ -232,7 +232,7 @@
   "bonsaitrees": "1.1.4",
   "toastcontrol": "1.8.1",
   "growthcraft_rice": "4.2.2",
-  "collision": "1.0.4",
+  "collision": "1.0.5",
   "enderstorage": "2.4.6.137",
   "akashictome": "1.2-12",
   "botania_tweaks": "1.9.1",

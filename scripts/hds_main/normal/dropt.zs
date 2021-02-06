@@ -49,3 +49,11 @@ Dropt.list("glass")
         )
     );
 
+Dropt.list("glow_flower")
+    .add(Dropt.rule()
+        .matchBlocks(["astralsorcery:blockcustomflower"])
+        .replaceStrategy("REPLACE_ITEMS")
+        .addDrop(Dropt.drop()
+            .items([<astralsorcery:blockcustomflower>], Dropt.range(0, 2))
+        )
+    );

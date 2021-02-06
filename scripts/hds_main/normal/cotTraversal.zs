@@ -11,7 +11,9 @@ import scripts.grassUtils.RecipeUtils.createFull2;
 import scripts.grassUtils.RecipeUtils.createFull3;
 
 import mods.tconstruct.Casting;
+import mods.prodigytech.rotarygrinder;
 import scripts.hds_main.normal.T1.prodigyTech.prtFunctions.LOERProcesser;
+import mods.pyrotech.IroncladAnvil;
 import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
 
 import scripts.hds_main.utils.modloader.isInvalid;
@@ -28,10 +30,11 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         val dust as IOreDictEntry = oreDict.get("dust" ~ name);
         val dustSmall as IOreDictEntry = oreDict.get("dustSmall" ~ name);
         val dustTiny as IOreDictEntry = oreDict.get("dustTiny" ~ name);
-        val fourNuggets as IOreDictEntry = oreDict.get("fourNuggets" ~ name);
         val shard as IOreDictEntry = oreDict.get("shard" ~ name);
         val plate as IOreDictEntry = oreDict.get("plate" ~ name);
         val gear as IOreDictEntry = oreDict.get("gear" ~ name);
+        val rock as IOreDictEntry = oreDict.get("rock" ~ name);
+        val crushed as IOreDictEntry = oreDict.get("crushedOre" ~ name);
         val molten as ILiquidStack = game.getLiquid(nameSnake);
 
         //unidict
@@ -48,22 +51,23 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         recipes.addShaped("dust_from_tiny_" ~ nameSnake, dust.firstItem, createFull3(dustTiny));
 
         //tcon
-        if (!fourNuggets.empty) {
+        // comment these due to cast issue
+        /* if (!fourNuggets.empty) {
             recipes.addShaped("four_nuggets_unpack_" ~ nameSnake, nugget.firstItem * 4, [[fourNuggets]]);
             recipes.addShaped("four_nuggets_pack_" ~ nameSnake, fourNuggets.firstItem, createFull2(nugget));
-
-            // comment these due to cast issue
-            /* if (!isNull(molten)) {
+            
+            if (!isNull(molten)) {
                 Casting.addTableRecipe(fourNuggets.firstItem, <contenttweaker:cast_four_nuggets>, molten, 64, false, 120);
                 Casting.addTableRecipe(nugget.firstItem, <contenttweaker:copper_nugget_cast>, molten, 16, false, 60);
-            } */
+            } 
         }
-        /* if (!gear.empty && !isNull(molten)) {
+        if (!gear.empty && !isNull(molten)) {
             Casting.addTableRecipe(gear.firstItem, <contenttweaker:copper_gear_cast>, molten, 864, false, 80);
         } */
 
         //prodigytech
         if (!dust.empty && !shard.empty) {LOERProcesser(dust, shard.firstItem);}
+        //if (!rock.empty && !crushed.empty) {rotarygrinder.addRecipe(rock, crushed.firstItem);}
 
         //pyrotech
         if (!block.empty && !plate.empty) {
