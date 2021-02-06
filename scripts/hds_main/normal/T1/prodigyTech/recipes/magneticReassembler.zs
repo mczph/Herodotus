@@ -10,4 +10,5 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if(!isInvalid){
 
 magneticreassembler.addRecipe(<ore:crushedOreIron>, <ore:oreCentrifugedIron>.materialPart);
+magneticreassembler.removeRecipe(<prodigytech:energion_crystal_seed>);
 }

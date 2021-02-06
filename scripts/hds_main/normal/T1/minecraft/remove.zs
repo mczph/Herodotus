@@ -21,7 +21,9 @@ val removeByOutput as IItemStack[] = [
     <astralsorcery:itemjournal>,
     <advancedrocketry:platepress>,
     <prodigytech:energion_dust>,
-    <botania:altar>
+    <botania:altar>,
+    <minecraft:bucket>,
+    <minecraft:cauldron>
 ];
 
 val removeByRecipeName as string[] = [

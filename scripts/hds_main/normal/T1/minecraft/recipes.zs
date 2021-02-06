@@ -40,10 +40,6 @@ RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
 	[null, <ore:plateBronze>.materialPart, null]
 ]);
 
-RecipeUtils.recipeTweak(false, <contenttweaker:astral_lens>,[
-	[<ore:gemFlawlessGlimmerite>, <contenttweaker:sandpaper>.anyDamage()]
-]);
-
 recipes.addShapeless("dark_energion_crystal_seed", <contenttweaker:dark_energion_crystal_seed>, [
 	<prodigytech:primordium>, <ore:dustBronze>, <ore:dustIron>, <ore:gunpowder>
 ]);

@@ -85,6 +85,12 @@ RecipeBuilder.get("mason")
   .create();
 
 RecipeBuilder.get("mason")
+  .setShapeless([<ore:gemFlawlessGlimmerite>])
+  .addTool(<contenttweaker:sandpaper>, 5)
+  .addOutput(<contenttweaker:astral_lens>)
+  .create();
+
+RecipeBuilder.get("mason")
   .setShapeless([<ore:clusterGlimmerite>])
   .addTool(<contenttweaker:sandpaper>, 1)
   .addOutput(<ore:gemChippedGlimmerite>.materialPart, 5)
