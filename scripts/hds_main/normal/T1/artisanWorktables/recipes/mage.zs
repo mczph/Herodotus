@@ -74,7 +74,7 @@ RecipeBuilder.get("mage")
     .addTool(<ore:artisansAthame>, 10)
     .addOutput(<contenttweaker:yellow_spherical_block>)
     .create();
-}
+};
 
 RecipeBuilder.get("mage")
     .setShaped([
