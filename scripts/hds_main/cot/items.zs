@@ -20,9 +20,6 @@ brass.itemColorSupplier = function(item, tintIndex) {
 };
 brass.register();
 
-var psc = VanillaFactory.createItem("perfect_starlight_crystal");
-psc.register();
-
 var arl = VanillaFactory.createItem("astral_lens");
 arl.maxStackSize = 16;
 arl.register();
