@@ -8,5 +8,6 @@ import crafttweaker.liquid.ILiquidStack;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
-    mods.tconstruct.Alloy.removeRecipe(<liquid:alubrass>);
+
+mods.tconstruct.Alloy.removeRecipe(<liquid:alubrass>);
 }

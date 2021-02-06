@@ -1,5 +1,6 @@
 #packmode normal
 #priority -1
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
@@ -14,6 +15,7 @@ import mods.pyrotech.BrickKiln;
 import mods.tconstruct.Casting;
 import mods.prodigytech.rotarygrinder;
 import scripts.grassUtils.StringHelper;
+import scripts.hds_main.utils.modloader.isInvalid;
 
 val colors as string[] = ["red", "yellow", "blue"];
 val shapes as string[] = ["rhombus", "spherical", "square"];
@@ -35,6 +37,8 @@ function getColorlessShape(shape as string) as IOreDictEntry {
     logger.logError("invalid shape: " ~ shape);
     return null;
 }
+
+if (!isInvalid){
 
 for color in colors {
     val od as string = StringHelper.toUpperCamelCase(color);
@@ -74,4 +78,5 @@ for color in colors {
             .create();
         BrickKiln.addRecipe(shape ~ "_kiln_" ~ color, output, input3, 2.5 * 60 * 20);
     }
+}
 }

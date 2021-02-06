@@ -10,7 +10,6 @@ if(!isInvalid){
 
 val ptm5 as IItemStack = <pyrotech:material:5>;
 
-
 MRLTOreProcessor("copper", <ore:clumpCopper>.firstItem*4, <ore:crushedOreCopper>);
 MRLTOreProcessor("tin", <ore:clumpTin>.firstItem*4, <ore:crushedOreTin>);
 //ore processing

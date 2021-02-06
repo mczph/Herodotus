@@ -7,6 +7,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if (!isInvalid) {
+
 RecipeBuilder.get("tanner")
   .setShaped([
     [<pyrotech:material:32>, <pyrotech:material:32>, <pyrotech:material:32>],

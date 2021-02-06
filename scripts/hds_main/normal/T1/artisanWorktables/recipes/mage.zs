@@ -8,8 +8,8 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.hdsutils.XPUtil;
 import scripts.hds_main.utils.modloader.isInvalid;
 
-
 if (!isInvalid){
+
 RecipeBuilder.get("mage")
     .setShaped([
         [null, <astralsorcery:itemcraftingcomponent:5>, null],

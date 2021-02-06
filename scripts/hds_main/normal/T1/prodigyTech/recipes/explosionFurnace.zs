@@ -10,5 +10,6 @@ import mods.prodigytech.explosionfurnace.dampeners;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
-    recipes.addRecipe(<contenttweaker:dark_energion_crystal_seed>, <prodigytech:energion_crystal_seed>, 2880);
+
+recipes.addRecipe(<contenttweaker:dark_energion_crystal_seed>, <prodigytech:energion_crystal_seed>, 2880);
 }
