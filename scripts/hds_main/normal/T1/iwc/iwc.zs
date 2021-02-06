@@ -9,4 +9,5 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if(!isInvalid){
 
 FluidToFluid.transform(<liquid:limewater>, <liquid:water>, [<pyrotech:material:22>*3]);
+FluidToItem.transform(<astralsorcery:blockcustomflower>, <liquid:astralsorcery.liquidstarlight>, [<minecraft:tallgrass>]);
 }

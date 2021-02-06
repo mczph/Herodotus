@@ -48,12 +48,3 @@ Dropt.list("glass")
             .items([<pyrotech:material:32>], Dropt.range(1, 4))
         )
     );
-
-Dropt.list("glow_flower")
-    .add(Dropt.rule()
-        .matchBlocks(["astralsorcery:blockcustomflower"])
-        .replaceStrategy("REPLACE_ITEMS")
-        .addDrop(Dropt.drop()
-            .items([<astralsorcery:blockcustomflower>], Dropt.range(0, 2))
-        )
-    );
