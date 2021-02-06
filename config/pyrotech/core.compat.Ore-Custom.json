@@ -99,8 +99,6 @@
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
-        "industrialrenewal:item.industrialrenewal.chunk_hematite",
-        "industrialrenewal:tile.industrialrenewal.orevein_hematite",
         "minecraft:tile.oreIron"
       ],
       "output": [

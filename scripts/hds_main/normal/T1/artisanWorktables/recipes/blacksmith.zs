@@ -4,6 +4,9 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
+import scripts.hds_main.utils.modloader.isInvalid;
+
+if(!isInvalid){
 
 RecipeBuilder.get("blacksmith")
   .setShaped([
@@ -29,3 +32,4 @@ RecipeBuilder.get("blacksmith")
   .addTool(<ore:artisansHammer>, 24)
   .addOutput(<minecraft:cauldron>)
   .create();
+}
