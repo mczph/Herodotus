@@ -70,7 +70,7 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
     .setShaped([
         [<ore:sphericalYellow>, <ore:sphericalYellow>],
-        [<ore:sphericalYellow>, <ore:sphericalYellow>])
+        [<ore:sphericalYellow>, <ore:sphericalYellow>]])
     .addTool(<ore:artisansAthame>, 10)
     .addOutput(<contenttweaker:yellow_spherical_block>)
     .create();
