@@ -7,7 +7,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 //something that recipeutils can't do or just remove
-static removeByOutput as IItemStack[] = [
+val removeByOutput as IItemStack[] = [
     <tconstruct:casting>,
     <tconstruct:casting:1>,
     <pyrotech:faucet_brick>,
@@ -41,15 +41,6 @@ val removeByRecipeName as string[] = [
     "growthcraft_apples:stick",
     "astralsorcery:shaped/altar_tier_1"
 ];
-
-function isRemoveOutput(item as IIngredient) as bool {
-    for i in removeByOutput {
-        if (item.matches(i)) {
-            return true;
-        }
-    }
-    return false;
-}
 
 if(!isInvalid) {
 recipes.removeShaped(<minecraft:stick>*16,[
