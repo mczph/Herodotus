@@ -73,7 +73,7 @@ for color in colors {
         var input2 as IItemStack = itemUtils.getItem("contenttweaker:polished_" ~ shape);
         var input3 as IOreDictEntry = oreDict.get(shape ~ "Cover" ~ od);
         SoakingPot.addRecipe(shape ~ "_soaking_" ~ color, output, fluidTier1*500, input1, true, 5*60*20);
-        Casting.addTableRecipe(output, input2, fluidTier2, 250, true, 3*60*20);
+        Casting.addTableRecipe(output, input2, fluidTier2, 250, true, 60 * 20);
         RecipeBuilder.get("mason")
             .setShapeless([input2, dust])
             .addTool(<ore:artisansTrowel>, 4)

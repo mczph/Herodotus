@@ -4,6 +4,7 @@
 
 import scripts.grassUtils.RecipeUtils;
 import scripts.hds_main.utils.modloader.isInvalid;
+import scripts.hds_main.normal.T1.minecraft.remove.isRemoveOutput;
 
 if(!isInvalid){
 
@@ -49,7 +50,11 @@ recipes.addShapeless("tiny_bronze_dust", <ore:dustTinyBronze>.materialPart * 4, 
 ]);
 
 recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(function(item) {
-	return item.ores.length == 0 || !item.ores[0].name.contains("Ferramic");
+	return item.definition.owner == "prodigytech" && !isRemoveOutput(item) && (item.ores.length == 0 || !item.ores[0].name.contains("Ferramic"));
+}));
+
+recipes.replaceAllOccurences(<ore:gearFerramic>, <ore:gearBronze>, <*>.only(function(item) {
+	return item.definition.owner == "prodigytech" && !isRemoveOutput(item);
 }));
 
 recipes.addShapeless("hot_air_solderer_trans_0", <contenttweaker:hot_air_solderer>,

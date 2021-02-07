@@ -6,17 +6,20 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import scripts.hds_main.utils.modloader.isInvalid;
 
-if(!isInvalid){
-
 //something that recipeutils can't do or just remove
-val removeByOutput as IItemStack[] = [
+static removeByOutput as IItemStack[] = [
     <tconstruct:casting>,
     <tconstruct:casting:1>,
     <pyrotech:faucet_brick>,
     <prodigytech:solid_fuel_aeroheater>,
+    <prodigytech:energion_aeroheater>,
     <prodigytech:rotary_grinder>,
     <prodigytech:heat_sawmill>,
     <prodigytech:magmatic_aeroheater>,
+    <prodigytech:magnetic_reassembler>,
+    <prodigytech:atomic_reshaper>,
+    <prodigytech:primordialis_reactor>,
+    <prodigytech:solderer>,
     <prodigytech:ferramic_gear>,
     <astralsorcery:itemjournal>,
     <advancedrocketry:platepress>,
@@ -24,10 +27,7 @@ val removeByOutput as IItemStack[] = [
     <pyrotech:material:9>,
     <botania:altar>,
     <minecraft:bucket>,
-    <minecraft:cauldron>,
-    <prodigytech:magnetic_reassembler>,
-    <prodigytech:atomic_reshaper>,
-    <prodigytech:primordialis_reactor>
+    <minecraft:cauldron>
 ];
 
 val removeByRecipeName as string[] = [
@@ -42,6 +42,16 @@ val removeByRecipeName as string[] = [
     "astralsorcery:shaped/altar_tier_1"
 ];
 
+function isRemoveOutput(item as IIngredient) as bool {
+    for i in removeByOutput {
+        if (item.matches(i)) {
+            return true;
+        }
+    }
+    return false;
+}
+
+if(!isInvalid) {
 recipes.removeShaped(<minecraft:stick>*16,[
     [<ore:logWood>, null],
     [<ore:logWood>, null]

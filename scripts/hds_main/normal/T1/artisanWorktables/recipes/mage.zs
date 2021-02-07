@@ -71,7 +71,7 @@ RecipeBuilder.get("mage")
         [<ore:dustCoal>, <ore:gemFlawlessGlimmerite>, <ore:dustCoal>],
         [<ore:plateCopper>, <contenttweaker:starlight_frame>, <ore:plateCopper>],
         [<ore:dustCoal>, <ore:plateCopper>, <ore:dustCoal>]])
-    .addTool(<ore:artisansAthame>, 1)
+    .addTool(<ore:artisansAthame>, 100)
     .setFluid(<liquid:mercury> * 1000)
     .addOutput(<astralsorcery:blockaltar>)
     .setRecipeFunction(function(out, ins, info) {

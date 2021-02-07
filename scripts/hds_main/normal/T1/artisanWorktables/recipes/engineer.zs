@@ -50,8 +50,17 @@ RecipeBuilder.get("engineer")
     [<ore:plateIron>, <hdsutils:tiny_starlight_storage:1>, <ore:plateIron>],
     [<astralsorcery:blockcustomflower>, <contenttweaker:starlight_frame>, <astralsorcery:blockcustomflower>],
     [<ore:plateIron>, <astralsorcery:blockcustomflower>, <ore:plateIron>]])
-  .addTool(<artisanworktables:artisans_spanner_constantan>, 1)
+  .addTool(<ore:artisansSpanner>, 80)
   .addOutput(<prodigytech:primordialis_reactor>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotBronze>, <ore:blockRedstone>, <ore:ingotBronze>],
+    [<ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>],
+    [<ore:ingotBronze>, <ore:gearBronze>, <ore:ingotBronze>]])
+  .addTool(<ore:artisansDriver>, 80)
+  .addOutput(<prodigytech:energion_aeroheater>)
   .create();
   
 }
