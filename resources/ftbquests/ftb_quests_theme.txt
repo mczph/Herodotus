@@ -1,12 +1,12 @@
 [*]
 background:          ftblib:textures/gui/background_squares.png; color=#DCFFFFFF; tile_size=64
-extra_quest_shapes:  hexagon1, hexagon2, hexagon3, hexagon4, hexagon5, hex1rs
+extra_quest_shapes:  hexagon1, hexagon2, hexagon3, hexagon4, hexagon5
 
 text_color:          #FFFFFF
 hover_text_color:    #FFFFA0
 disabled_text_color: #999999
 
-widget_border:     #1B1D1E
+widget_border:     #44000000
 widget_background: #44000000
 symbol_in:         #9BC600
 symbol_out:        #408300
@@ -50,10 +50,10 @@ rewards_text_color:                 #FFAA00
 quest_view_background:              {{context_menu}}
 quest_view_border:                  {{widget_border}}
 quest_view_title:                   #AAAAAA
-quest_completed_color:              #FF9D00
-quest_started_color:                #DBDBDB
+quest_completed_color:              #C856FF56
+quest_started_color:                #C800FFFF
 dependency_line_texture:            ftbquests:textures/gui/dependency.png
-dependency_line_completed_color:    #FF9D00
+dependency_line_completed_color:    #64DC64
 dependency_line_requires_color:     #00C8C8
 dependency_line_required_for_color: #C8C800
 dependency_line_selected_speed:     1.0
