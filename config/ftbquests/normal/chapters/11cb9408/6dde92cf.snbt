@@ -1,0 +1,11 @@
+{
+	icon: "minecraft:sapling",
+	x: 4.2d,
+	y: 3.0d,
+	shape: "hexagon1",
+	tasks: [{
+		uid: "d151a1ac",
+		type: "dimension",
+		dim: 0
+	}]
+}

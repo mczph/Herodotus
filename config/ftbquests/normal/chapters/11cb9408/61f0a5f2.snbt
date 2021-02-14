@@ -1,0 +1,11 @@
+{
+	icon: "minecraft:bedrock",
+	x: 3.5d,
+	y: 3.0d,
+	shape: "hexagon1",
+	tasks: [{
+		uid: "2bbb2b68",
+		type: "forge_energy",
+		value: 1000L
+	}]
+}

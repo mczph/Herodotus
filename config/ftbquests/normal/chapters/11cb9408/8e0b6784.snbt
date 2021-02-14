@@ -1,0 +1,11 @@
+{
+	icon: "botania:manaresource 1 2",
+	x: 3.9d,
+	y: 3.5999999999999996d,
+	shape: "hexagon1",
+	tasks: [{
+		uid: "25a7e307",
+		type: "botania_mana",
+		value: 1000L
+	}]
+}

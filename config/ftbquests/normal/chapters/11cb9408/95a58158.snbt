@@ -1,0 +1,12 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	shape: "hexagon5",
+	tasks: [{
+		uid: "a5a2f659",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt 1 1"
+		}]
+	}]
+}

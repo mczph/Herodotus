@@ -1,0 +1,16 @@
+{
+	x: 0.1d,
+	y: 3.6d,
+	shape: "hexagon1",
+	dependencies: [
+		"07feced3",
+		"44d1dc13"
+	],
+	tasks: [{
+		uid: "0ebf44e1",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}]
+	}]
+}
