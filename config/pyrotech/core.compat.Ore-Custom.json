@@ -23,15 +23,17 @@
     "oreAluminum": {
       "slagColor": "e2e2e3",
       "langKey": [
+        "thermalfoundation:tile.thermalfoundation.ore.aluminum",
+        "contenttweaker:tile.contenttweaker.sub_block_holder_6",
         "embers:tile.ore_aluminum",
-        "libvulpes:material.Aluminum",
-        "thermalfoundation:tile.thermalfoundation.ore.aluminum"
+        "libvulpes:material.Aluminum"
       ],
       "output": [
+        "thermalfoundation:material:196",
+        "contenttweaker:material_part:174",
         "embers:nugget_aluminum:0",
         "libvulpes:productnugget:9",
-        "magneticraft:nuggets:7",
-        "thermalfoundation:material:196"
+        "magneticraft:nuggets:7"
       ]
     },
     "oreArdite": {
@@ -46,77 +48,87 @@
     "oreCobalt": {
       "slagColor": "1c5bc1",
       "langKey": [
-        "magneticraft:tile.magneticraft.ores_cobalt",
-        "tconstruct:tile.tconstruct.ore.cobalt"
+        "tconstruct:tile.tconstruct.ore.cobalt",
+        "contenttweaker:tile.contenttweaker.sub_block_holder_2",
+        "magneticraft:tile.magneticraft.ores_cobalt"
       ],
       "output": [
-        "magneticraft:nuggets:4",
-        "tconstruct:nuggets:0"
+        "tconstruct:nuggets:0",
+        "contenttweaker:material_part:330",
+        "magneticraft:nuggets:4"
       ]
     },
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
-        "crossroads:tile.ore_copper",
+        "thermalfoundation:tile.thermalfoundation.ore.copper",
+        "contenttweaker:tile.contenttweaker.sub_block_holder_5",
         "embers:tile.ore_copper",
         "factorytech:tile.factorytech:factorytech.ore:0",
         "libvulpes:material.Copper",
         "magneticraft:tile.magneticraft.ores_copper",
         "mekanism:tile.OreBlock.CopperOre",
-        "nuclearcraft:tile.nuclearcraft.ore.copper",
-        "thermalfoundation:tile.thermalfoundation.ore.copper"
+        "nuclearcraft:tile.nuclearcraft.ore.copper"
       ],
       "output": [
-        "crossroads:nugget_copper:0",
+        "thermalfoundation:material:192",
+        "contenttweaker:material_part:876",
         "embers:nugget_copper:0",
         "factorytech:ore_dust:4",
         "libvulpes:productnugget:4",
         "magneticraft:nuggets:2",
-        "mekanism:nugget:5",
-        "thermalfoundation:material:192"
+        "mekanism:nugget:5"
       ]
     },
     "oreGold": {
       "slagColor": "fcee4b",
       "langKey": [
-        "minecraft:tile.oreGold"
+        "minecraft:tile.oreGold",
+        "contenttweaker:tile.contenttweaker.sub_block_holder_8"
       ],
       "output": [
-        "minecraft:gold_nugget:0"
+        "minecraft:gold_nugget:0",
+        "contenttweaker:material_part:135"
       ]
     },
     "oreIridium": {
       "slagColor": "d5d4e7",
       "langKey": [
-        "libvulpes:material.Iridium",
-        "thermalfoundation:tile.thermalfoundation.ore.iridium"
+        "thermalfoundation:tile.thermalfoundation.ore.iridium",
+        "contenttweaker:tile.contenttweaker.sub_block_holder_1",
+        "libvulpes:material.Iridium"
       ],
       "output": [
-        "libvulpes:productnugget:10",
-        "thermalfoundation:material:199"
+        "thermalfoundation:material:199",
+        "contenttweaker:material_part:837",
+        "libvulpes:productnugget:10"
       ]
     },
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
-        "minecraft:tile.oreIron"
+        "minecraft:tile.oreIron",
+        "contenttweaker:tile.contenttweaker.sub_block_holder_3"
       ],
       "output": [
-        "minecraft:iron_nugget:0"
+        "minecraft:iron_nugget:0",
+        "contenttweaker:material_part:252"
       ]
     },
     "oreLead": {
       "slagColor": "95afee",
       "langKey": [
+        "thermalfoundation:tile.thermalfoundation.ore.lead",
+        "contenttweaker:tile.contenttweaker.sub_block_holder_4",
         "embers:tile.ore_lead",
         "magneticraft:tile.magneticraft.ores_lead",
-        "nuclearcraft:tile.nuclearcraft.ore.lead",
-        "thermalfoundation:tile.thermalfoundation.ore.lead"
+        "nuclearcraft:tile.nuclearcraft.ore.lead"
       ],
       "output": [
+        "thermalfoundation:material:195",
+        "contenttweaker:material_part:642",
         "embers:nugget_lead:0",
-        "magneticraft:nuggets:3",
-        "thermalfoundation:material:195"
+        "magneticraft:nuggets:3"
       ]
     },
     "oreMithril": {
@@ -125,32 +137,36 @@
         "thermalfoundation:tile.thermalfoundation.ore.mithril"
       ],
       "output": [
-        "magneticraft:nuggets:9",
-        "thermalfoundation:material:200"
+        "thermalfoundation:material:200",
+        "magneticraft:nuggets:9"
       ]
     },
     "oreNickel": {
       "slagColor": "e4e5d8",
       "langKey": [
+        "thermalfoundation:tile.thermalfoundation.ore.nickel",
+        "contenttweaker:tile.contenttweaker.sub_block_holder_0",
         "embers:tile.ore_nickel",
-        "factorytech:tile.factorytech:factorytech.ore:1",
-        "thermalfoundation:tile.thermalfoundation.ore.nickel"
+        "factorytech:tile.factorytech:factorytech.ore:1"
       ],
       "output": [
+        "thermalfoundation:material:197",
+        "contenttweaker:material_part:759",
         "embers:nugget_nickel:0",
         "factorytech:ore_dust:5",
-        "magneticraft:nuggets:10",
-        "thermalfoundation:material:197"
+        "magneticraft:nuggets:10"
       ]
     },
     "oreOsmium": {
       "slagColor": "9babc4",
       "langKey": [
-        "mekanism:tile.OreBlock.OsmiumOre"
+        "mekanism:tile.OreBlock.OsmiumOre",
+        "contenttweaker:tile.contenttweaker.sub_block_holder_4"
       ],
       "output": [
-        "magneticraft:nuggets:11",
-        "mekanism:nugget:1"
+        "mekanism:nugget:1",
+        "contenttweaker:material_part:369",
+        "magneticraft:nuggets:11"
       ]
     },
     "orePlatinum": {
@@ -165,33 +181,35 @@
     "oreSilver": {
       "slagColor": "e8f6fd",
       "langKey": [
+        "thermalfoundation:tile.thermalfoundation.ore.silver",
+        "contenttweaker:tile.contenttweaker.sub_block_holder_2",
         "embers:tile.ore_silver",
-        "magneticraft:tile.magneticraft.ores_lead",
-        "thermalfoundation:tile.thermalfoundation.ore.silver"
+        "magneticraft:tile.magneticraft.ores_lead"
       ],
       "output": [
+        "thermalfoundation:material:194",
+        "contenttweaker:material_part:408",
         "embers:nugget_silver:0",
-        "magneticraft:nuggets:12",
-        "thermalfoundation:material:194"
+        "magneticraft:nuggets:12"
       ]
     },
     "oreTin": {
       "slagColor": "c3e9ff",
       "langKey": [
-        "crossroads:tile.ore_tin",
+        "thermalfoundation:tile.thermalfoundation.ore.tin",
+        "contenttweaker:tile.contenttweaker.sub_block_holder_4",
         "embers:tile.ore_tin",
         "libvulpes:material.Tin",
         "mekanism:tile.OreBlock.TinOre",
-        "nuclearcraft:tile.nuclearcraft.ore.tin",
-        "thermalfoundation:tile.thermalfoundation.ore.tin"
+        "nuclearcraft:tile.nuclearcraft.ore.tin"
       ],
       "output": [
-        "crossroads:nugget_tin:0",
+        "thermalfoundation:material:193",
+        "contenttweaker:material_part:681",
         "embers:nugget_tin:0",
         "libvulpes:productnugget:5",
         "magneticraft:nuggets:13",
-        "mekanism:nugget:6",
-        "thermalfoundation:material:193"
+        "mekanism:nugget:6"
       ]
     }
   }
