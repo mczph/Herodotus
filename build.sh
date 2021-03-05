@@ -1,6 +1,7 @@
 #!/bin/sh -x
 
 exec 2>&1
+set +x
 
 BUILD=Herodotus
 DATE="$(date +%Y-%m-%d_%H:%M:%S:%N)"
