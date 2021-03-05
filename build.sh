@@ -1,10 +1,8 @@
 #!/bin/sh -x
 
-exec 2>&1
-set +x
 
 BUILD=Herodotus
-DATE="$(date +%Y-%m-%d_%H:%M:%S:%N)"
+DATE="$(TZ='Asia/Shanghai' date +%Y-%m-%d_%H:%M:%S:%N)"
 #VERSION=1.0
 #VERSION=$"(echo r$(git rev-list --count HEAD).$(git rev-parse --short HEAD)"
 VERSION=DevEdition #被硬编码了
@@ -19,5 +17,4 @@ ZIP_FILE_NAME="${COMMON_NAME}.zip"
 
 mv .minecraft overrides
 zip "${ZIP_FILE_NAME}" manifest.json modlist.html overrides
-ls
-mv {,artifact/}${ZIP_FILE_NAME}
+mv {,artifacts/}${ZIP_FILE_NAME}
