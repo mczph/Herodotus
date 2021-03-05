@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -x
 
 
 
@@ -18,8 +18,9 @@ COMMON_NAME="${BUILD}-${VERSION}-${DATE}"
 #JAR_FILE_NAME="${COMMON_NAME}.jar"
 ZIP_FILE_NAME="${COMMON_NAME}.zip"
 
-_PROJECT_DIR="${HOME}/work/Herodotus/
-cd $_PROJECT_DIR
+#PROJECT_DIR="${HOME}/Projects/"
+[ -d "${GITHUB_WORKSPACE}" ] && PROJECT_DIR="${GITHUB_WORKSPACE}"
+[ "${PROJECT_DIR}" != "${PWD}" ] && cd $PROJECT_DIR
 
 ln .minecraft overrides
 zip $ZIP_FILE_NAME manifest.json modlist.html overrides
