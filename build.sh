@@ -2,7 +2,7 @@
 
 
 BUILD=Herodotus
-DATE="$(TZ='Asia/Shanghai' date +%Y-%m-%d_%H:%M:%S:%N)"
+DATE="$(TZ='Asia/Shanghai' date +%Y-%m-%d_%H-%M-%S-%N)"
 #VERSION=1.0
 #VERSION=$"(echo r$(git rev-list --count HEAD).$(git rev-parse --short HEAD)"
 VERSION=DevEdition #被硬编码了
