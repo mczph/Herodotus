@@ -16,5 +16,5 @@ ZIP_FILE_NAME="${COMMON_NAME}.zip"
 
 
 mv .minecraft overrides
-zip "${ZIP_FILE_NAME}" manifest.json modlist.html overrides
+zip "${ZIP_FILE_NAME}" -i manifest.json modlist.html overrides/*
 mv {,artifacts/}${ZIP_FILE_NAME}
