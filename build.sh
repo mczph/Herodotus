@@ -16,6 +16,6 @@ ZIP_FILE_NAME="${COMMON_NAME}.zip"
 [ "${PROJECT_DIR}" != "${PWD}" ] && cd "${PROJECT_DIR}"
 
 
-ln .minecraft overrides
+mv .minecraft overrides
 zip "${ZIP_FILE_NAME}" manifest.json modlist.html overrides
-ln {,artifact}/${ZIP_FILE_NAME}
+mv {,artifact}/${ZIP_FILE_NAME}
