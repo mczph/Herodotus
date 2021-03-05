@@ -1,6 +1,6 @@
 #!/bin/sh -x
 
-exec 2>&1
+
 
 BUILD=Herodotus
 DATE="$(date +%Y-%m-%d_%H:%M:%S:%N)"
@@ -18,4 +18,4 @@ ZIP_FILE_NAME="${COMMON_NAME}.zip"
 
 mv .minecraft overrides
 zip "${ZIP_FILE_NAME}" manifest.json modlist.html overrides
-mv {,artifact}/${ZIP_FILE_NAME}
+mv {,artifact/}${ZIP_FILE_NAME}
