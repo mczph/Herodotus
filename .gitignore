@@ -40,6 +40,7 @@
 /.minecraft/config/enderio/painter_paint_sources_user.xml
 /.minecraft/config/jei/itemBlacklist.cfg
 /.minecraft/config/Guide-API/Guide-API.cfg
+/.minecraft/config/thaumicjei_itemstack_aspects.json
 
 #other stuff
 !/.minecraft/patchouli_books
