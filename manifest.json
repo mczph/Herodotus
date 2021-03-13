@@ -11,9 +11,80 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Herodotus",
-  "version": "dev20210304",
-  "author": "GBLodb, friendlyhj, Lubang-SF, yaoyaoDream, MangoHi, yuesha-yc",
+  "version": "dev20210313",
+  "author": "GBLodb, friendlyhj, Lubang-SF, yaoyaoDream, MangoHi, yuesha-yc, ikexing",
   "files": [
+    {
+      "projectID": 293505,
+      "fileID": 2766866,
+      "required": true
+    },
+    
+    {
+      "projectID": 297365,
+      "fileID": 2702806,
+      "required": true
+    },
+    {
+      "projectID": 301795,
+      "fileID": 2636599,
+      "required": true
+    },
+    {
+      "projectID": 316704,
+      "fileID": 2787954,
+      "required": true
+    },
+    {
+      "projectID": 223666,
+      "fileID": 2915506,
+      "required": true
+    },
+    {
+      "projectID": 285492,
+      "fileID": 2705304,
+      "required": true
+    },
+    {
+      "projectID": 232564,
+      "fileID": 3102463,
+      "required": true
+    },
+    {
+      "projectID": 319441,
+      "fileID": 3148983,
+      "required": true
+    },
+    {
+      "projectID": 223628,
+      "fileID": 2629023,
+      "required": true
+    },
+    {
+      "projectID": 293768,
+      "fileID": 2777074,
+      "required": true
+    },
+    {
+      "projectID": 238003,
+      "fileID": 2559089,
+      "required": true
+    },
+    {
+      "projectID": 306851,
+      "fileID": 2638208,
+      "required": true
+    },
+    {
+      "projectID": 228823,
+      "fileID": 2904183,
+      "required": true
+    },
+    {
+      "projectID": 224791,
+      "fileID": 2822288,
+      "required": true
+    },
     {
       "projectID": 220954,
       "fileID": 2881277,
@@ -536,7 +607,12 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3223511,
+      "fileID": 3231443,
+      "required": true
+    },
+    {
+      "projectID": 229302,
+      "fileID": 3235316,
       "required": true
     },
     {
