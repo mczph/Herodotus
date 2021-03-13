@@ -108,6 +108,7 @@
   "mousetweaks": "2.10",
   "ftbquests": "1202.9.0.15",
   "thermaldynamics": "2.5.6",
+  "requious": "1.0",
   "growthcraft_milk": "4.2.2",
   "adlods": "1.12.2-1.0.8.0",
   "thaumicenergistics": "2.2.3",
