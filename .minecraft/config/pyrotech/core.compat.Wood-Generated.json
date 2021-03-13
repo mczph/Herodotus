@@ -58,6 +58,10 @@
     "minecraft:planks:3": "minecraft:wooden_slab:3",
     "minecraft:planks:4": "minecraft:wooden_slab:4",
     "minecraft:planks:5": "minecraft:wooden_slab:5",
-    "prodigytech:zorra_log:0": "prodigytech:zorra_planks:0"
+    "prodigytech:zorra_log:0": "prodigytech:zorra_planks:0",
+    "thaumcraft:log_greatwood:0": "thaumcraft:plank_greatwood:0",
+    "thaumcraft:log_silverwood:0": "thaumcraft:plank_silverwood:0",
+    "thaumcraft:plank_greatwood:0": "thaumcraft:slab_greatwood:0",
+    "thaumcraft:plank_silverwood:0": "thaumcraft:slab_silverwood:0"
   }
 }

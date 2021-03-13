@@ -79,6 +79,7 @@
         "libvulpes:productnugget:4",
         "magneticraft:nuggets:2",
         "mekanism:nugget:5",
+        "thaumcraft:nugget:1",
         "thermalfoundation:material:192"
       ]
     },
@@ -115,7 +116,8 @@
       "output": [
         "agricraft:agri_nugget:3",
         "contenttweaker:material_part:252",
-        "minecraft:iron_nugget:0"
+        "minecraft:iron_nugget:0",
+        "thaumcraft:nugget:0"
       ]
     },
     "oreLead": {
@@ -132,6 +134,7 @@
         "contenttweaker:material_part:642",
         "embers:nugget_lead:0",
         "magneticraft:nuggets:3",
+        "thaumcraft:nugget:4",
         "thermalfoundation:material:195"
       ]
     },
@@ -198,6 +201,7 @@
         "contenttweaker:material_part:408",
         "embers:nugget_silver:0",
         "magneticraft:nuggets:12",
+        "thaumcraft:nugget:3",
         "thermalfoundation:material:194"
       ]
     },
@@ -218,6 +222,7 @@
         "libvulpes:productnugget:5",
         "magneticraft:nuggets:13",
         "mekanism:nugget:6",
+        "thaumcraft:nugget:2",
         "thermalfoundation:material:193"
       ]
     }

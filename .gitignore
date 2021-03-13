@@ -1,13 +1,23 @@
 #Whitelist
 /*
+!/.minecraft
 /.minecraft/*
 
-#pack stuff
+#repo stuff
+!/.gtihub
+!/docs
+!/artifacts
+!/LICENSE
+!/README.md
+!/CHANGELOG
+!/build.sh
+!/icon.png
+
+#configs
 !/.minecraft/config/
 /.minecraft/config/agricraft/json/defaults/*
 /.minecraft/config/enderio/recipes/*
 /.minecraft/config/tellme/*
-/.minecraft/config/InvTweaks.cfg
 /.minecraft/config/jei/worldSettings.cfg
 /.minecraft/config/jei/bookmarks.ini
 /.minecraft/config/AppliedEnergistics2/items.csv
@@ -29,25 +39,18 @@
 /.minecraft/config/enderio/painter_paint_sources_core.xml
 /.minecraft/config/enderio/painter_paint_sources_user.xml
 /.minecraft/config/jei/itemBlacklist.cfg
+/.minecraft/config/Guide-API/Guide-API.cfg
 
+#other stuff
 !/.minecraft/patchouli_books
 !/.minecraft/resources
 !/.minecraft/scripts
-/.minecraftscripts/nc_script_addons
+/.minecraft/scripts/nc_script_addons/*
 !/.minecraft/structures
 
-!/.minecraft/icon.png
-
-#repo stuff
-!/docs
-!/.gitignore
-!/LICENSE
-!/README.md
-!/CHANGELOG
-!/icon.png
-
+#pack stuff
 /instance.cfg
 /mmc-pack.json
 !/modlist.html
 !/manifest.json
-
+!/.minecraft/icon.png
