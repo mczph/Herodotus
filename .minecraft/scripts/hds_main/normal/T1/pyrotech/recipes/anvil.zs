@@ -27,6 +27,4 @@ allPyroAnvil("copper", <ore:dustSmallCopper>.materialPart, <ore:shardCopper>, 6,
 allPyroAnvil("tin", <ore:dustSmallTin>.materialPart, <ore:shardTin>, 6, "hammer");
 
 allPyroAnvil("coal_block", <ore:pieceCoal>.materialPart*16, <ore:blockCoal>, 8, "hammer");
-
-IroncladAnvil.addRecipe("rock_iron_to_crushed", <ore:crushedOreIron>.materialPart, <ore:rockIron>, 6, "hammer");
 }
