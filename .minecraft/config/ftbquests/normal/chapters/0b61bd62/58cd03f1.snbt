@@ -1,0 +1,17 @@
+{
+	x: 1.4d,
+	y: 3.4d,
+	shape: "hexagon3",
+	tasks: [{
+		uid: "8f7bacc1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

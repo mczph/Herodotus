@@ -1,0 +1,13 @@
+{
+	title: "制作挤压桶",
+	x: 4.4d,
+	y: 2.2d,
+	shape: "hexagon2",
+	tasks: [{
+		uid: "56219da1",
+		type: "item",
+		items: [{
+			item: "pyrotech:compacting_bin"
+		}]
+	}]
+}

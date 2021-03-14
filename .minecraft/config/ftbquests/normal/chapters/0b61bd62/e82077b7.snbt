@@ -1,0 +1,18 @@
+{
+	title: "制作燧石和火绒",
+	x: 4.4d,
+	y: 1.0d,
+	shape: "hexagon3",
+	tasks: [{
+		uid: "64438574",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:flint_and_tinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

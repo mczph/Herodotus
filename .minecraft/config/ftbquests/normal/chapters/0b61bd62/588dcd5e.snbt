@@ -1,0 +1,13 @@
+{
+	title: "晒干植物纤维",
+	x: 0.0d,
+	y: 1.0d,
+	shape: "hexagon5",
+	tasks: [{
+		uid: "bf15ba00",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 13"
+		}]
+	}]
+}

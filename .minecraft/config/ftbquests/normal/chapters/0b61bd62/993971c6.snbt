@@ -1,0 +1,18 @@
+{
+	title: "制作简陋的锹",
+	x: 1.4d,
+	y: 1.0d,
+	shape: "hexagon1",
+	tasks: [{
+		uid: "e49d8696",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

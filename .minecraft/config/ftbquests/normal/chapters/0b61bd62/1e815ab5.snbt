@@ -1,0 +1,13 @@
+{
+	title: "2制作简陋的晾干架",
+	x: 4.3d,
+	y: -0.2d,
+	shape: "hexagon4",
+	tasks: [{
+		uid: "94915675",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack"
+		}]
+	}]
+}

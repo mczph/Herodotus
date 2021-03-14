@@ -1,0 +1,13 @@
+{
+	title: "捡石子",
+	x: 1.4d,
+	y: -0.2d,
+	shape: "hexagon2",
+	tasks: [{
+		uid: "0f271021",
+		type: "item",
+		items: [{
+			item: "pyrotech:rock"
+		}]
+	}]
+}

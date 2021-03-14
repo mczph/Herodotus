@@ -1,0 +1,12 @@
+{
+	x: 4.4d,
+	y: 3.4d,
+	shape: "hexagon5",
+	tasks: [{
+		uid: "d4b26841",
+		type: "item",
+		items: [{
+			item: "artisanworkstumps:workstump_mason"
+		}]
+	}]
+}
