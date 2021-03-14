@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 1.0d,
+	dependencies: [
+		"0f4e82b1"
+	],
+	tasks: [{
+		uid: "936cac10",
+		type: "item",
+		items: [{
+			item: "pyrotech:compacting_bin"
+		}]
+	}]
+}

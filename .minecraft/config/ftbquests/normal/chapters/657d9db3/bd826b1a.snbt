@@ -1,0 +1,43 @@
+{
+	icon: "contenttweaker:material_part 1 24",
+	x: 7.5d,
+	y: 0.75d,
+	shape: "hexagon1",
+	dependencies: [
+		"403cd748"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "c7adefbc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_5 1 1"
+		}]
+	},
+	{
+		uid: "b05bd00e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_6 1 9"
+		}]
+	},
+	{
+		uid: "048512f9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_8 1 4"
+		}]
+	},
+	{
+		uid: "af332534",
+		type: "item",
+		items: [{
+			item: "contenttweaker:square"
+		}]
+	}],
+	rewards: [{
+		uid: "077108b2",
+		type: "item",
+		item: "contenttweaker:material_part 1 24"
+	}]
+}

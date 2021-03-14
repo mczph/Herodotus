@@ -11,17 +11,24 @@ import scripts.hds_lib.droptlib.geometryOreDropt;
 if(!isInvalid){
 
 //Remove
-Dropt.list("remove_form_tall_grass")
+Dropt.list("remove_from_grass")
   .add(Dropt.rule()
       .matchBlocks(["minecraft:double_plant:2", "minecraft:tallgrass:1"])
       .matchDrops([<pyrotech:material:13>])
       .replaceStrategy("REPLACE_ITEMS")
       .addDrop(Dropt.drop())
   );
-
+Dropt.list("no_wood_punching")
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:dirt:*"])
+      .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+          .mainHand("BLACKLIST", [], "axe;0;-1")
+      )
+      .addDrop(Dropt.drop())
+  );
 
 //Add
-
 geometryOreDropt("rhombus",
     [StringHelper.getItemName(<ore:poorOreRhombus>.materialPart),
      StringHelper.getItemName(<ore:oreRhombus>.materialPart),

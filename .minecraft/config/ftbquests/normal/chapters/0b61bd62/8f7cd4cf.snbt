@@ -1,0 +1,15 @@
+{
+	x: 9.0d,
+	y: 0.0d,
+	dependencies: [
+		"bab71db3",
+		"321039a5"
+	],
+	tasks: [{
+		uid: "69e61a88",
+		type: "item",
+		items: [{
+			item: "pyrotech:anvil_granite"
+		}]
+	}]
+}

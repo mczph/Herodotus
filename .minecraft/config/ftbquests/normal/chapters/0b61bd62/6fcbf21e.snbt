@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: 2.0d,
+	dependencies: [
+		"c30b3607"
+	],
+	tasks: [{
+		uid: "6390bf9e",
+		type: "item",
+		items: [{
+			item: "artisanworkstumps:workstump_mason"
+		}]
+	}]
+}

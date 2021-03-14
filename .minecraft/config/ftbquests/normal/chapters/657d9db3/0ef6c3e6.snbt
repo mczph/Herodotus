@@ -1,0 +1,42 @@
+{
+	icon: "contenttweaker:material_part 1 79",
+	x: 3.0d,
+	y: 0.75d,
+	dependencies: [
+		"403cd748"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "14c53a7d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_8"
+		}]
+	},
+	{
+		uid: "e2bd485a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_3 1 13"
+		}]
+	},
+	{
+		uid: "1c745b6e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_7 1 9"
+		}]
+	},
+	{
+		uid: "1d056965",
+		type: "item",
+		items: [{
+			item: "contenttweaker:spherical"
+		}]
+	}],
+	rewards: [{
+		uid: "855120cf",
+		type: "item",
+		item: "contenttweaker:material_part 1 79"
+	}]
+}

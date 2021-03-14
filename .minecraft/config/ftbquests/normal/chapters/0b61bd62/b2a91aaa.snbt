@@ -1,0 +1,14 @@
+{
+	x: 22.5d,
+	y: 0.5d,
+	dependencies: [
+		"a6b26a74"
+	],
+	tasks: [{
+		uid: "7c4e594e",
+		type: "item",
+		items: [{
+			item: "pyrotech:faucet_brick"
+		}]
+	}]
+}

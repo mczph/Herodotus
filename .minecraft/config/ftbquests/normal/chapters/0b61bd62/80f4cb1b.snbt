@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	shape: "hexagon2",
+	dependencies: [
+		"3257ea58"
+	],
+	optional: true,
+	tasks: [{
+		uid: "15de2983",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack 1 1"
+		}]
+	}]
+}

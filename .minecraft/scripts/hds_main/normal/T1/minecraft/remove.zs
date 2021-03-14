@@ -27,7 +27,11 @@ val removeByOutput as IItemStack[] = [
     <pyrotech:material:9>,
     <botania:altar>,
     <minecraft:bucket>,
-    <minecraft:cauldron>
+    <minecraft:cauldron>,
+    <minecraft:chest>,
+    <actuallyadditions:block_giant_chest>,
+    <actuallyadditions:block_giant_chest_medium>,
+    <actuallyadditions:block_giant_chest_large>
 ];
 
 val removeByRecipeName as string[] = [

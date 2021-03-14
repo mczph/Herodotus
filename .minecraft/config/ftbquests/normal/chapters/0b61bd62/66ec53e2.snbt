@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "ac8577ec",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}]
+}

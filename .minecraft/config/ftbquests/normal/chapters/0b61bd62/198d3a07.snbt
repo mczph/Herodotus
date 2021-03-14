@@ -1,0 +1,16 @@
+{
+	x: 9.0d,
+	y: 3.0d,
+	shape: "hexagon2",
+	dependencies: [
+		"6fcbf21e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "bfcbeb0c",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_oven"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 10.5d,
+	y: 0.0d,
+	shape: "hexagon2",
+	dependencies: [
+		"8f7cd4cf"
+	],
+	optional: true,
+	tasks: [{
+		uid: "35b56a31",
+		type: "item",
+		items: [{
+			item: "pyrotech:anvil_iron_plated"
+		}]
+	}]
+}

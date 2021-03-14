@@ -7,9 +7,15 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
+RecipeUtils.recipeTweak(true, <pyrotech:mechanical_hopper>,[
+	[<pyrotech:material:16>, null, <pyrotech:material:16>],
+	[<ore:plankWood>, <ore:stickStone>, <ore:plankWood>],
+	[null, <pyrotech:material:16>, null]
+]);
+
 RecipeUtils.recipeTweak(true, <pyrotech:crude_axe>,[
-    [<tconstruct:axe_head>.withTag({Material: "stone"}),<pyrotech:material:12>],
-    [null,<minecraft:stick>]
+    [<ore:rock>, <pyrotech:material:12>],
+    [null, <minecraft:stick>]
 ]);
 
 RecipeUtils.recipeTweak(true, <pyrotech:compacting_bin>,[
@@ -36,7 +42,7 @@ RecipeUtils.recipeTweak(false, <ore:dustBronze>.materialPart*4,[
 
 RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
 	[<ore:plateBronze>.materialPart, null, <ore:plateBronze>.materialPart],
-	[<ore:plateBronze>.materialPart, <pyrotech:crate>, <ore:plateBronze>.materialPart],
+	[<ore:plateBronze>.materialPart, <pyrotech:mechanical_hopper>, <ore:plateBronze>.materialPart],
 	[null, <ore:plateBronze>.materialPart, null]
 ]);
 

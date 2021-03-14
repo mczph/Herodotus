@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: 2.0d,
+	dependencies: [
+		"0f4e82b1"
+	],
+	tasks: [{
+		uid: "1aca2df2",
+		type: "item",
+		items: [{
+			item: "artisanworkstumps:workstump_basic"
+		}]
+	}]
+}

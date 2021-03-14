@@ -1,5 +1,5 @@
 {
-	title: "Tier1",
+	title: "Ore",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "hexagon1"

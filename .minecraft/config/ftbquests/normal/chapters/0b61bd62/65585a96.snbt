@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"ba5fc984"
+	],
+	tasks: [{
+		uid: "27f0f174",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
