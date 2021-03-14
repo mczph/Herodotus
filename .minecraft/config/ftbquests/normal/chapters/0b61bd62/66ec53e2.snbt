@@ -1,6 +1,12 @@
 {
+	title: "捡木棍",
 	x: 0.0d,
 	y: 0.0d,
+	description: "这是副标题",
+	text: [
+		"捡木棍捡木棍！",
+		"不要停下来啊！"
+	],
 	tasks: [{
 		uid: "ac8577ec",
 		type: "item",

@@ -12,6 +12,7 @@
 !/CHANGELOG
 !/build.sh
 !/icon.png
+!/ftbq_lang_processor.py
 
 #configs
 !/.minecraft/config/
