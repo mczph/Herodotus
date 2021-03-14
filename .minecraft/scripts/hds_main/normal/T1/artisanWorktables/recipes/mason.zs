@@ -40,9 +40,9 @@ RecipeBuilder.get("mason")
 //stuff
 RecipeBuilder.get("mason")
   .setShaped([
-    [<ore:dustTinyBronze>, <ore:dustTinyBronze>, <ore:dustTinyBronze>],
+    [null, <ore:dustTinyBronze>, null],
     [<ore:dustTinyBronze>, <pyrotech:material:16>, <ore:dustTinyBronze>],
-    [<ore:dustTinyBronze>, <ore:dustTinyBronze>, <ore:dustTinyBronze>]])
+    [null, <ore:dustTinyBronze>, null]])
   .addTool(<ore:artisansBurner>, 30)
   .addOutput(ptm5)
   .create();

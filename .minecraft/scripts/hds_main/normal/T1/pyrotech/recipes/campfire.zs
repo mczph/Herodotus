@@ -11,4 +11,6 @@ if(!isInvalid){
 //Add
 Campfire.addRecipe("stone_axe_head", <tconstruct:axe_head>.withTag({Material: "stone"}), <ore:rock>, 100);
 Campfire.addRecipe("stone_picaxe_head", <tconstruct:pick_head>.withTag({Material: "stone"}), <ore:itemFlint>, 100);
+Campfire.addRecipe("quicklime", <pyrotech:material:22>, <pyrotech:material:28>, 2 * 60 * 20);
+Campfire.addRecipe("quicklime_overtime", <pyrotech:material>, <pyrotech:material:22>, 2 * 60 * 20);
 }
