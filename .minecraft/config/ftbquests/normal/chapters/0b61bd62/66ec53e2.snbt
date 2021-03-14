@@ -1,8 +1,8 @@
 {
-	title: "捡木棍",
+	title: "{herodotus.quests.66ec53e2.title}",
 	x: 0.0d,
 	y: 0.0d,
-	description: "这是副标题",
+	description: "{herodotus.quests.66ec53e2.description}",
 	text: [
 		"捡木棍捡木棍！",
 		"不要停下来啊！"
