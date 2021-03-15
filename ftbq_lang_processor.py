@@ -28,7 +28,7 @@ def read_snbt(full_path, file_name):
     j = 0
     for i, line in enumerate(f_list):
         if (line.lstrip().startswith("],")):
-                flag = False
+            flag = False
         if (flag):
             j += 1
             text_key = "text." + str(j)
@@ -37,13 +37,6 @@ def read_snbt(full_path, file_name):
         for key in should_replace_key:
             if (line.lstrip().startswith(key)):
                 replace_with_lang_key(line, key, f_list, i, file_name)
-                # head, context, tail = line.split("\"")
-                # if not(context.startswith("{") and context.endswith("}")):
-                #     lang_key = "herodotus.quests.%s.%s" % (file_name, key_copy)
-                #     print("get lang key %s, value = %s" % (lang_key, context))
-                #     new_context = head + "\"{" + lang_key + "}\"" + tail
-                #     f_list[i] = new_context
-                #     context_dict[lang_key] = context
         if (line.lstrip().startswith("text")):
             flag = True
     f = open(full_path, "w+", encoding="utf-8")
@@ -76,7 +69,7 @@ def write_lang(path):
         to_append_entries.append(key + "=" + value)
     f = open(path, "w+", encoding="utf-8")
     f.writelines(f_list_copy)
-    if (len(f_list[-1]) != 0 or f_list[-1] != "\n"):
+    if (len(f_list[-1]) != 0 and f_list[-1] != "\n"):
         f.write("\n")
     for entry in to_append_entries:
         f.write(entry + "\n")
