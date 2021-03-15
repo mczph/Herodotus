@@ -29,6 +29,7 @@ def read_snbt(full_path, file_name):
     for i, line in enumerate(f_list):
         if (line.lstrip().startswith("],")):
             flag = False
+            j = 0
         if (flag):
             j += 1
             text_key = "text." + str(j)
