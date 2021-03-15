@@ -1,10 +1,10 @@
 {
-	title: "{herodotus.quests.66ec53e2.title}",
+	title: "捡木棍",
 	x: 0.0d,
 	y: 0.0d,
-	description: "{herodotus.quests.66ec53e2.description}",
+	description: "捡木棍是第一步",
 	text: [
-		"捡木棍捡木棍！",
+		"只要不断地捡木棍，道路就会不断延伸。",
 		"不要停下来啊！"
 	],
 	tasks: [{

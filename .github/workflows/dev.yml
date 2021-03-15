@@ -23,7 +23,26 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with: 
+          python-version: 3.8
       
+      - name: Run FTB Quests lang processor
+        run: |
+          python ftbq_lang_processor.py
+
+      - name: commit and push processor changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: friendlyhj
+          author_email: youyi580@qq.com
+          message: "ftbq lang processor changes"
+          add: "*.*"
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTION_TOKEN }}
+
     # Runs a single command using the runners shell
       - name: Run build.sh
         run: bash build.sh

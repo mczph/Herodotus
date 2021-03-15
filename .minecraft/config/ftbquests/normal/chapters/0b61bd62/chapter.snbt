@@ -1,5 +1,5 @@
 {
-	title: "{herodotus.quests.0b61bd62.title}",
+	title: "一阶",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "hexagon1"
