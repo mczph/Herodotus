@@ -4,10 +4,8 @@ name: dev
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
+  # Triggers the workflow on push but only for the master branch
   push:
-    branches: [ master ]
-  pull_request:
     branches: [ master ]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -38,7 +36,7 @@ jobs:
         with:
           author_name: friendlyhj
           author_email: youyi580@qq.com
-          message: "ftbq lang processor changes"
+          message: "ftbq lang processor changes (github action)"
           add: "."
         env:
           GITHUB_TOKEN: ${{ secrets.ACTION_TOKEN }}

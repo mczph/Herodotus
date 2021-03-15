@@ -24,19 +24,40 @@ def read_snbt(full_path, file_name):
     f.close()
     if (file_name == "chapter"):
         file_name = full_path.split("/")[-2]
+    flag = False # is true, then read quest text
+    j = 0
     for i, line in enumerate(f_list):
+        if (line.lstrip().startswith("],")):
+                flag = False
+        if (flag):
+            j += 1
+            text_key = "text." + str(j)
+            replace_with_lang_key(line, text_key, f_list, i, file_name)
+            continue
         for key in should_replace_key:
             if (line.lstrip().startswith(key)):
-                head, context, tail = line.split("\"")
-                if not(context.startswith("{") and context.endswith("}")):
-                    lang_key = "herodotus.quests.%s.%s" % (file_name, key)
-                    print("get lang key %s, value = %s" % (lang_key, context))
-                    new_context = head + "\"{" + lang_key + "}\"" + tail
-                    f_list[i] = new_context
-                    context_dict[lang_key] = context
+                replace_with_lang_key(line, key, f_list, i, file_name)
+                # head, context, tail = line.split("\"")
+                # if not(context.startswith("{") and context.endswith("}")):
+                #     lang_key = "herodotus.quests.%s.%s" % (file_name, key_copy)
+                #     print("get lang key %s, value = %s" % (lang_key, context))
+                #     new_context = head + "\"{" + lang_key + "}\"" + tail
+                #     f_list[i] = new_context
+                #     context_dict[lang_key] = context
+        if (line.lstrip().startswith("text")):
+            flag = True
     f = open(full_path, "w+", encoding="utf-8")
     f.writelines(f_list)
     f.close()
+
+def replace_with_lang_key(line, key, f_list, index, file_name):
+    head, context, tail = line.split("\"")
+    if not(context.startswith("{") and context.endswith("}")):
+        lang_key = "herodotus.quests.%s.%s" % (file_name, key)
+        print("get lang key %s, value = %s" % (lang_key, context))
+        new_context = head + "\"{" + lang_key + "}\"" + tail
+        f_list[index] = new_context
+        context_dict[lang_key] = context
 
 def write_lang(path):
     copy = context_dict.copy()
@@ -55,7 +76,7 @@ def write_lang(path):
         to_append_entries.append(key + "=" + value)
     f = open(path, "w+", encoding="utf-8")
     f.writelines(f_list_copy)
-    if (len(f_list[-1]) != 0):
+    if (len(f_list[-1]) != 0 or f_list[-1] != "\n"):
         f.write("\n")
     for entry in to_append_entries:
         f.write(entry + "\n")
