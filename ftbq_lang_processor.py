@@ -30,6 +30,7 @@ def read_snbt(full_path, file_name):
                 head, context, tail = line.split("\"")
                 if not(context.startswith("{") and context.endswith("}")):
                     lang_key = "herodotus.quests.%s.%s" % (file_name, key)
+                    print("get lang key %s, value = %s" % (lang_key, context))
                     new_context = head + "\"{" + lang_key + "}\"" + tail
                     f_list[i] = new_context
                     context_dict[lang_key] = context
@@ -54,7 +55,7 @@ def write_lang(path):
         to_append_entries.append(key + "=" + value)
     f = open(path, "w+", encoding="utf-8")
     f.writelines(f_list_copy)
-    if (len(f_list[-1]) == 0):
+    if (len(f_list[-1]) != 0):
         f.write("\n")
     for entry in to_append_entries:
         f.write(entry + "\n")
