@@ -56,3 +56,8 @@
 !/modlist.html
 !/manifest.json
 !/.minecraft/icon.png
+
+# utils mod
+!/.minecraft/mods
+/.minecraft/mods/*
+!/.minecraft/mods/herodotusutils*.jar
