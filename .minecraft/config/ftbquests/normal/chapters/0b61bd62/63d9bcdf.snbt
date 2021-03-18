@@ -1,0 +1,11 @@
+{
+	x: 24.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "e1592eb6",
+		type: "item",
+		items: [{
+			item: "prodigytech:solid_fuel_aeroheater"
+		}]
+	}]
+}

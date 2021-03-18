@@ -1,0 +1,11 @@
+{
+	x: 24.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: "55e67133",
+		type: "item",
+		items: [{
+			item: "contenttweaker:starlight_frame"
+		}]
+	}]
+}

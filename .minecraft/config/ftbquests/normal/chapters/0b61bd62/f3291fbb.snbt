@@ -1,0 +1,11 @@
+{
+	x: 24.5d,
+	y: 6.5d,
+	tasks: [{
+		uid: "e0339cb2",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 3"
+		}]
+	}]
+}

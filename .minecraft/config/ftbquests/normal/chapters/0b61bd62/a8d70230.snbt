@@ -1,0 +1,11 @@
+{
+	x: 27.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "52ba49f2",
+		type: "item",
+		items: [{
+			item: "prodigytech:heat_sawmill"
+		}]
+	}]
+}

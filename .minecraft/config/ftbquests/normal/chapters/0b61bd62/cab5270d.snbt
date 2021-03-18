@@ -1,0 +1,18 @@
+{
+	x: 27.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "e4041d4b",
+		type: "item",
+		items: [{
+			item: "artisanworkstumps:workstump_mage"
+		}]
+	},
+	{
+		uid: "1a12a264",
+		type: "item",
+		items: [{
+			item: "artisanworkstumps:workstump_jeweler"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 27.5d,
+	y: 8.5d,
+	tasks: [{
+		uid: "e8774e05",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dark_energion_crystal_seed"
+		}]
+	}]
+}

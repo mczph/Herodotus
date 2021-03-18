@@ -1,0 +1,11 @@
+{
+	x: 26.0d,
+	y: 7.5d,
+	tasks: [{
+		uid: "5f6e2e02",
+		type: "item",
+		items: [{
+			item: "prodigytech:primordialis_reactor"
+		}]
+	}]
+}

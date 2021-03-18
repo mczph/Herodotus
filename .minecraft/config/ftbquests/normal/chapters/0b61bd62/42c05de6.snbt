@@ -1,0 +1,14 @@
+{
+	x: 26.0d,
+	y: 9.5d,
+	text: [
+		"boom!!!!!!!"
+	],
+	tasks: [{
+		uid: "3979226c",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_crystal_seed"
+		}]
+	}]
+}

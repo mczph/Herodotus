@@ -1,0 +1,11 @@
+{
+	x: 26.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: "9c209388",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_dust"
+		}]
+	}]
+}

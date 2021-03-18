@@ -1,0 +1,16 @@
+{
+	x: 29.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "fb822b43",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemlinkingtool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

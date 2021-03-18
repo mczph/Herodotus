@@ -1,0 +1,15 @@
+{
+	x: 27.5d,
+	y: 6.5d,
+	tasks: [{
+		uid: "51092f48",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "hdsutils:tiny_starlight_storage"
+		}],
+		ignore_nbt: 1b
+	}]
+}

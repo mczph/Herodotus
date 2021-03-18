@@ -1,0 +1,11 @@
+{
+	x: 24.5d,
+	y: 8.5d,
+	tasks: [{
+		uid: "501660a9",
+		type: "item",
+		items: [{
+			item: "prodigytech:atomic_reshaper"
+		}]
+	}]
+}

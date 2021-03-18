@@ -1,0 +1,14 @@
+{
+	x: 29.0d,
+	y: 5.5d,
+	text: [
+		"破坏星辉矿有概率获得星尘"
+	],
+	tasks: [{
+		uid: "b88abf31",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 2"
+		}]
+	}]
+}

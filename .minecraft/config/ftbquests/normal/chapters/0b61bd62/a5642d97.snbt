@@ -1,0 +1,11 @@
+{
+	x: 26.0d,
+	y: 5.5d,
+	tasks: [{
+		uid: "0b9e0a6e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:astral_lens"
+		}]
+	}]
+}
