@@ -110,7 +110,7 @@ jobs:
           sudo mkdir -p ${GITHUB_WORKSPACE}/gml/.minecraft
           sudo mkdir -p ${GITHUB_WORKSPACE}/gml/.minecraft/assets
           sudo mkdir -p ${GITHUB_WORKSPACE}/gml/.minecraft/libraries
-          sudo mkdir -p ${GITHUB_WORKSPACE}/gml/.minecraft/version
+          sudo mkdir -p ${GITHUB_WORKSPACE}/gml/.minecraft/versions
           sudo chmod +rwx -R ${GITHUB_WORKSPACE}/gml/
 
       - name: Download Minecraft 1.12.2
