@@ -107,12 +107,12 @@ jobs:
 
       - name: Grant Premission for GML
         run: | 
-          sudo chmod +x -R ${GITHUB_WORKSPACE}/gml/
+          sudo chmod +x -R ${GITHUB_WORKSPACE}/gml/gml-linux
 
       - name: Download Minecraft 1.12.2
         run: |
           cd gml
-          ./gml-linux -downver 1.12.2 -type "vanilla" -independent=f
+          ./gml/gml-linux -downver 1.12.2 -type "vanilla" -independent=f
 
       - name: Load Modpack Stuff
         run: mv ${GITHUB_WORKSPACE}/modpack/overrides/ ${GITHUB_WORKSPACE}/gml/.minecraft/
