@@ -83,9 +83,6 @@ jobs:
           name: Herodotus-dev
           path: modpack
 
-      - name: Grant Premission
-        run: sudo chmod -R 777 ${GITHUB_WORKSPACE}
-
       - name: Unzip the modpack
         run: unzip -o ${GITHUB_WORKSPACE}/modpack/${COMMON_NAME}.zip
 
@@ -107,6 +104,9 @@ jobs:
 
       - name: Unzip GML
         run: sudo gzip -d ${GITHUB_WORKSPACE}/gml/gml-linux.gz
+
+      - name: Grant Premission for GML
+        run: sudo chmod +x ${GITHUB_WORKSPACE}/gml/gml-linux
 
       - name: Download Minecraft 1.12.2
         run: |
