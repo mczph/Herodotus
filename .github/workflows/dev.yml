@@ -121,11 +121,7 @@ jobs:
         run: sudo bash ${GITHUB_WORKSPACE}/runners/set_launcher_profiles.sh
 
       - name: Download Forge 14.23.5.2854 Installer
-        uses: carlosperate/download-file-action@v1.0.3
-        with:
-          file-url: https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-installer.jar
-          file-name: forge-1.12.2-14.23.5.2854-installer.jar
-          location: gml
+        run: sudo wget https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-installer.jar -O ${GITHUB_WORKSPACE}/gml/forge-1.12.2-14.23.5.2854-installer.jar
 
       - name: Download Forge Install Bootstrapper
         uses: Legion2/download-release-action@v2.1.0
