@@ -109,7 +109,7 @@ jobs:
         run: sudo mv ${GITHUB_WORKSPACE}/.minecraft/* ${GITHUB_WORKSPACE}/gml/.minecraft/
 
       - name: Set launcher_profiles.json
-        run: sudo bash ${GITHUB_WORKSPACE}/runners/set_launcher_profiles.sh
+        run: sudo mv ${GITHUB_WORKSPACE}/runners/launcher_profiles.json ${GITHUB_WORKSPACE}/gml/.minecraft/
 
       - name: Download Forge 14.23.5.2854 Installer
         uses: carlosperate/download-file-action@v1.0.3
