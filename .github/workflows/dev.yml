@@ -131,8 +131,8 @@ jobs:
 
       - name: Install Forge 14.23.5.2854
         run: |
-        cd gml
-        java -cp "forge-install-bootstrapper.jar;forge-1.12.2-14.23.5.2854-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
+          cd gml
+          java -cp "forge-install-bootstrapper.jar;forge-1.12.2-14.23.5.2854-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
 
       - name: Install Autostop
         run: mv runner/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
