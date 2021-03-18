@@ -1,7 +1,7 @@
 #!/bin/sh -x
 
 #JAR_FILE_NAME="${COMMON_NAME}.jar"
-ZIP_FILE_NAME="${COMMON_NAME}.zip"
+ZIP_FILE_NAME="${BUILD}-${VERSION}-build${GITHUB_RUN_NUMBER}.zip"
 #PROJECT_DIR="${HOME}/Projects/example"
 
 [ -d "${GITHUB_WORKSPACE}" ] && PROJECT_DIR="${GITHUB_WORKSPACE}"
