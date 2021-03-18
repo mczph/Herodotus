@@ -84,7 +84,7 @@ jobs:
           path: modpack
 
       - name: Unzip the modpack
-        run: unzip -o ${GITHUB_WORKSPACE}/modpack/${COMMON_NAME}.zip
+        run: unzip ${GITHUB_WORKSPACE}/modpack/${COMMON_NAME}.zip
 
       - name: Download Modpack Downloader CLI
         uses: Legion2/download-release-action@v2.1.0
