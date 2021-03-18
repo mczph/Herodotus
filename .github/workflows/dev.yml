@@ -77,15 +77,6 @@ jobs:
         with:
           java-version: 1.8
 
-      - name: Download the Build Artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: Herodotus-dev
-          path: modpack
-
-      - name: Unzip the modpack
-        run: unzip -o ${GITHUB_WORKSPACE}/modpack/${COMMON_NAME}.zip
-
       - name: Download Modpack Downloader CLI
         uses: Legion2/download-release-action@v2.1.0
         with:
@@ -115,7 +106,7 @@ jobs:
           ./gml-linux -downver 1.12.2 -type "vanilla" -independent=f
 
       - name: Load Modpack Stuff
-        run: mv ${GITHUB_WORKSPACE}/modpack/overrides/ ${GITHUB_WORKSPACE}/gml/.minecraft/
+        run: mv ${GITHUB_WORKSPACE}/.minecraft/* ${GITHUB_WORKSPACE}/gml/.minecraft/
 
       - name: Set launcher_profiles.json
         run: bash runners/set_laucher_profiles.sh
