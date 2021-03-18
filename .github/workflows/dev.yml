@@ -103,7 +103,7 @@ jobs:
           file: gml-linux.gz
 
       - name: Unzip GML
-        run: gzip --d ${GITHUB_WORKSPACE}/gml/gml-linux.gz
+        run: gzip -d ${GITHUB_WORKSPACE}/gml/gml-linux.gz
 
       - name: Download Minecraft 1.12.2
         run: ./gml/gml-linux -downver 1.12.2 -type "vanilla" -indepentent=f
