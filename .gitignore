@@ -7,12 +7,12 @@
 !/.gtihub
 !/docs
 !/artifacts
+!/runners
 !/LICENSE
 !/README.md
 !/CHANGELOG
 !/build.sh
 !/icon.png
-!/ftbq_lang_processor.py
 
 #configs
 !/.minecraft/config/
