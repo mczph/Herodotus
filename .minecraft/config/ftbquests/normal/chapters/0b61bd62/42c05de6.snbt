@@ -2,7 +2,7 @@
 	x: 26.0d,
 	y: 9.5d,
 	text: [
-		"boom!!!!!!!"
+		"{herodotus.quests.42c05de6.text.1}"
 	],
 	tasks: [{
 		uid: "3979226c",

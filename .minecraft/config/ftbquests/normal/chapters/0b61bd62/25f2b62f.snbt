@@ -2,8 +2,8 @@
 	x: 27.5d,
 	y: 4.5d,
 	text: [
-		"各个等级的星光晶体均可以转化为星能液",
-		""
+		"{herodotus.quests.25f2b62f.text.1}",
+		"{herodotus.quests.25f2b62f.text.2}"
 	],
 	tasks: [{
 		uid: "4704a24a",

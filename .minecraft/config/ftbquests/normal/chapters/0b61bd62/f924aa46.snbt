@@ -2,7 +2,7 @@
 	x: 29.0d,
 	y: 5.5d,
 	text: [
-		"破坏星辉矿有概率获得星尘"
+		"{herodotus.quests.f924aa46.text.1}"
 	],
 	tasks: [{
 		uid: "b88abf31",
