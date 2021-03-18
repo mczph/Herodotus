@@ -144,4 +144,6 @@ jobs:
         run: sudo mv ${GITHUB_WORKSPACE}/runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
 
       - name: Run modpack
-        run: sudo ./gml/gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144
+        run: | 
+         cd ./gml
+         sudo ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144
