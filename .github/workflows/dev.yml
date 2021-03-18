@@ -107,10 +107,10 @@ jobs:
 
       - name: Grant Premission for GML
         run: | 
-          mkdir -p ${GITHUB_WORKSPACE}/gml/.minecraft
-          mkdir -p ${GITHUB_WORKSPACE}/gml/.minecraft/assets
-          mkdir -p ${GITHUB_WORKSPACE}/gml/.minecraft/libraries
-          mkdir -p ${GITHUB_WORKSPACE}/gml/.minecraft/version
+          sudo mkdir -p ${GITHUB_WORKSPACE}/gml/.minecraft
+          sudo mkdir -p ${GITHUB_WORKSPACE}/gml/.minecraft/assets
+          sudo mkdir -p ${GITHUB_WORKSPACE}/gml/.minecraft/libraries
+          sudo mkdir -p ${GITHUB_WORKSPACE}/gml/.minecraft/version
           sudo chmod +rwx -R ${GITHUB_WORKSPACE}/gml/
 
       - name: Download Minecraft 1.12.2
