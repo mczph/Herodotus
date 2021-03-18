@@ -109,7 +109,9 @@ jobs:
         run: sudo gzip -d ${GITHUB_WORKSPACE}/gml/gml-linux.gz
 
       - name: Download Minecraft 1.12.2
-        run: bash -x runners/install.sh
+        run: |
+          sudo -i
+          ./gml/gml-linux -downver 1.12.2 -type "vanilla" -indepentent=f
 
       - name: Load Modpack Stuff
         run: mv ${GITHUB_WORKSPACE}/modpack/overrides/* ${GITHUB_WORKSPACE}/gml/.minecraft/
