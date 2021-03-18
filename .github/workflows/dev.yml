@@ -104,6 +104,9 @@ jobs:
           cd gml
           sudo ./gml-linux -downver 1.12.2 -type "vanilla" -independent=f
 
+      - name: Enable Hard fail Script
+        run: sudo mv ${GITHUB_WORKSPACE}/.minecraft/scripts/hardfail.zs.disabled ${GITHUB_WORKSPACE}/.minecraft/scripts/hardfail.zs
+
       - name: Load Modpack Stuff
         run: sudo mv ${GITHUB_WORKSPACE}/.minecraft/* ${GITHUB_WORKSPACE}/gml/.minecraft/
 
@@ -127,9 +130,7 @@ jobs:
           sudo java -cp "forge-install-bootstrapper.jar:forge-1.12.2-14.23.5.2854-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
 
       - name: Download Mods
-        run: |
-         tree -a
-         sudo java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
+        run: sudo java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
 
       - name: Install Autostop
         run: sudo mv ${GITHUB_WORKSPACE}/runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
@@ -137,4 +138,4 @@ jobs:
       - name: Run modpack
         run: | 
          cd ./gml
-         sudo ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144
+         sudo ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144 -log
