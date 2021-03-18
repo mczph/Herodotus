@@ -16,7 +16,6 @@ on:
 env:
   BUILD: Herodotus
   VERSION: DevEdition
-  COMMON_NAME: ${BUILD}-${VERSION}-build${GITHUB_RUN_NUMBER}
 
 jobs:
 
@@ -109,14 +108,10 @@ jobs:
         run: sudo mv ${GITHUB_WORKSPACE}/.minecraft/* ${GITHUB_WORKSPACE}/gml/.minecraft/
 
       - name: Set launcher_profiles.json
-        run: sudo mv ${GITHUB_WORKSPACE}/runners/launcher_profiles.json ${GITHUB_WORKSPACE}/gml/.minecraft/
+        run: sudo bash ${GITHUB_WORKSPACE}/runners/set_launcher_profiles.sh
 
       - name: Download Forge 14.23.5.2854 Installer
-        uses: carlosperate/download-file-action@v1.0.3
-        with:
-          file-url: https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-installer.jar
-          file-name: forge-1.12.2-14.23.5.2854-installer.jar
-          location: gml
+        run: sudo wget https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-installer.jar -O ${GITHUB_WORKSPACE}/gml/forge-1.12.2-14.23.5.2854-installer.jar
 
       - name: Download Forge Install Bootstrapper
         uses: Legion2/download-release-action@v2.1.0
@@ -129,13 +124,17 @@ jobs:
       - name: Install Forge 14.23.5.2854
         run: |
           cd gml
-          sudo java -cp "forge-install-bootstrapper.jar;forge-1.12.2-14.23.5.2854-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
+          sudo java -cp "forge-install-bootstrapper.jar:forge-1.12.2-14.23.5.2854-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
 
       - name: Download Mods
-        run: sudo java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
+        run: |
+         tree -a
+         sudo java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
 
       - name: Install Autostop
-        run: sudo mv runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
+        run: sudo mv ${GITHUB_WORKSPACE}/runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
 
       - name: Run modpack
-        run: sudo ./gml/gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144
+        run: | 
+         cd ./gml
+         sudo ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144
