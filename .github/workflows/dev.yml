@@ -83,7 +83,7 @@ jobs:
           name: Herodotus-dev
           path: modpack
 
-      - name: Grand Premission for all shell commands
+      - name: Grant Premission for all shell commands
         run: chmod -x runners/*
 
       - name: Unzip the modpack
@@ -109,7 +109,7 @@ jobs:
         run: sudo gzip -d ${GITHUB_WORKSPACE}/gml/gml-linux.gz
 
       - name: Download Minecraft 1.12.2
-        run: bash runners/install.sh
+        run: bash -x runners/install.sh
 
       - name: Load Modpack Stuff
         run: mv ${GITHUB_WORKSPACE}/modpack/overrides/* ${GITHUB_WORKSPACE}/gml/.minecraft/
@@ -117,7 +117,7 @@ jobs:
       - name: Set launcher_profiles.json
         run: bash runners/set_laucher_profiles.sh
 
-      - name: Download Forge 14.23.5.2854
+      - name: Download Forge 14.23.5.2854 Installer
         uses: carlosperate/download-file-action@v1.0.3
         with:
           file-url: https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-installer.jar
