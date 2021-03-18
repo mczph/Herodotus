@@ -84,7 +84,7 @@ jobs:
           path: modpack
 
       - name: Grant Premission
-        run: sudo chmod -r 777 ${GITHUB_WORKSPACE}
+        run: sudo chmod -R 777 ${GITHUB_WORKSPACE}
 
       - name: Unzip the modpack
         run: unzip -o ${GITHUB_WORKSPACE}/modpack/${COMMON_NAME}.zip
