@@ -115,7 +115,7 @@ jobs:
           sudo ./gml-linux -downver 1.12.2 -type "vanilla" -independent=f
 
       - name: Load Modpack Stuff
-        run: mv ${GITHUB_WORKSPACE}/modpack/overrides/ ${GITHUB_WORKSPACE}/gml/.minecraft/
+        run: mv ${GITHUB_WORKSPACE}/.minecraft/* ${GITHUB_WORKSPACE}/gml/.minecraft/
 
       - name: Set launcher_profiles.json
         run: bash runners/set_laucher_profiles.sh
@@ -147,4 +147,4 @@ jobs:
         run: mv runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
 
       - name: Run modpack
-        run: ./gml/gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144
+        run: sudo ./gml/gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144
