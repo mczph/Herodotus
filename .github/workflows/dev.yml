@@ -33,7 +33,7 @@ jobs:
           python-version: 3.8
       
       - name: Run FTB Quests lang processor
-        run: python runner/ftbq_lang_processor.py
+        run: python runners/ftbq_lang_processor.py
 
       - name: Commit processor changes
         uses: EndBug/add-and-commit@v7
@@ -55,7 +55,7 @@ jobs:
       - uses: actions/checkout@v2
     # Runs a single command using the runners shell
       - name: Run build.sh
-        run: bash runner/build.sh
+        run: bash runners/build.sh
     #Upload the artifact
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2
@@ -109,7 +109,7 @@ jobs:
         run: ./gml/gml-linux -downver 1.12.2 -type "vanilla" -indepentent=f
 
       - name: Set launcher_profiles.json
-        run: bash runner/set_laucher_profiles.sh
+        run: bash runners/set_laucher_profiles.sh
 
       - name: Download Mods
         run: java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/modpack/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
@@ -135,7 +135,7 @@ jobs:
           java -cp "forge-install-bootstrapper.jar;forge-1.12.2-14.23.5.2854-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
 
       - name: Install Autostop
-        run: mv runner/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
+        run: mv runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
 
       - name: Run modpack
         run: ./gml/gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144
