@@ -118,7 +118,7 @@ jobs:
         run: sudo mv ${GITHUB_WORKSPACE}/.minecraft/* ${GITHUB_WORKSPACE}/gml/.minecraft/
 
       - name: Set launcher_profiles.json
-        run: sudo bash ./runners/set_laucher_profiles.sh
+        run: sudo bash ${GITHUB_WORKSPACE}/runners/set_laucher_profiles.sh
 
       - name: Download Forge 14.23.5.2854 Installer
         uses: carlosperate/download-file-action@v1.0.3
@@ -144,7 +144,7 @@ jobs:
         run: sudo java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/modpack/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
 
       - name: Install Autostop
-        run: sudo mv runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
+        run: sudo mv ${GITHUB_WORKSPACE}/runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
 
       - name: Run modpack
         run: sudo ./gml/gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144
