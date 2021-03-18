@@ -108,6 +108,9 @@ jobs:
       - name: Download Minecraft 1.12.2
         run: ./gml/gml-linux -downver 1.12.2 -type "vanilla" -indepentent=f
 
+      - name: Load Modpack Stuff
+        run: mv ${GITHUB_WORKSPACE}/modpack/overrides/* ${GITHUB_WORKSPACE}/gml/.minecraft/
+
       - name: Set launcher_profiles.json
         run: bash runners/set_laucher_profiles.sh
 
