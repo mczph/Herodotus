@@ -103,13 +103,13 @@ jobs:
       - name: Download Minecraft 1.12.2
         run: |
           cd gml
-          ./gml-linux -downver 1.12.2 -type "vanilla" -independent=f
+          sudo ./gml-linux -downver 1.12.2 -type "vanilla" -independent=f
 
       - name: Load Modpack Stuff
-        run: mv ${GITHUB_WORKSPACE}/.minecraft/* ${GITHUB_WORKSPACE}/gml/.minecraft/
+        run: sudo mv ${GITHUB_WORKSPACE}/.minecraft/* ${GITHUB_WORKSPACE}/gml/.minecraft/
 
       - name: Set launcher_profiles.json
-        run: bash runners/set_laucher_profiles.sh
+        run: sudo bash runners/set_laucher_profiles.sh
 
       - name: Download Forge 14.23.5.2854 Installer
         uses: carlosperate/download-file-action@v1.0.3
@@ -129,10 +129,10 @@ jobs:
       - name: Install Forge 14.23.5.2854
         run: |
           cd gml
-          java -cp "forge-install-bootstrapper.jar;forge-1.12.2-14.23.5.2854-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
+          sudo java -cp "forge-install-bootstrapper.jar;forge-1.12.2-14.23.5.2854-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
 
       - name: Download Mods
-        run: java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/modpack/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
+        run: sudo java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
 
       - name: Install Autostop
         run: mv runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
