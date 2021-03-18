@@ -134,7 +134,7 @@ jobs:
       - name: Install Forge 14.23.5.2854
         run: |
           cd gml
-          sudo java -cp "forge-install-bootstrapper.jar;forge-1.12.2-14.23.5.2854-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
+          sudo java -cp "forge-install-bootstrapper.jar:forge-1.12.2-14.23.5.2854-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
 
       - name: Download Mods
         run: sudo java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/modpack/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
