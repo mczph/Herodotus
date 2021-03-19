@@ -139,4 +139,5 @@ jobs:
         run: | 
          cd ./gml
          sudo chmod +rwx -R ${JAVA_HOME}
+         setenforce 0
          sudo ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144 -log -javapath ${JAVA_HOME} -independent=f
