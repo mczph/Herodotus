@@ -2,6 +2,7 @@
 #no_fix_recipe_book
 #priority -1
 
+import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import scripts.hds_main.utils.modloader.isInvalid;
 import scripts.grassUtils.RecipeUtils.createCrossWithCore;
@@ -47,10 +48,26 @@ RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
 	[null, <ore:plateBronze>.materialPart, null]
 ]);
 
-RecipeUtils.recipeTweak(true, <pyrotech:brick_kiln>, createCrossWithCore(<pyrotech:stone_kiln>, <pyrotech:material:5>, <pyrotech:refractory_brick_block>));
-RecipeUtils.recipeTweak(true, <pyrotech:brick_oven>, createCrossWithCore(<pyrotech:stone_oven>, <pyrotech:material:5>, <pyrotech:refractory_brick_block>));
-RecipeUtils.recipeTweak(true, <pyrotech:brick_sawmill>, createCrossWithCore(<pyrotech:stone_sawmill>, <pyrotech:material:5>, <pyrotech:refractory_brick_block>));
-RecipeUtils.recipeTweak(true, <pyrotech:brick_crucible>, createCrossWithCore(<pyrotech:stone_crucible>, <pyrotech:material:5>, <pyrotech:refractory_brick_block>));
+val pyrotechDevices as IItemStack[IItemStack] = {
+	<pyrotech:brick_kiln> : <pyrotech:stone_kiln>,
+	<pyrotech:brick_oven> : <pyrotech:stone_oven>,
+	<pyrotech:brick_sawmill> : <pyrotech:stone_sawmill>,
+	<pyrotech:brick_crucible> : <pyrotech:stone_crucible>
+};
+
+for brick, stone in pyrotechDevices {
+	RecipeUtils.recipeTweak(true, brick, [
+		[<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>],
+		[<pyrotech:material:5>, stone, <pyrotech:material:5>],
+		[<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>]
+	]);
+}
+
+RecipeUtils.recipeTweak(true, <pyrotech:anvil_iron_plated>, [
+	[<ore:stoneMarble>, <ore:stoneMarble>, <ore:stoneMarble>],
+	[<ore:stoneGranitePolished>, <ore:stoneGranitePolished>, <ore:stoneGranitePolished>],
+	[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
+]);
 
 recipes.addShapeless("tiny_bronze_dust", <ore:dustTinyBronze>.materialPart * 4, [
 	<ore:dustTinyCopper>, <ore:dustTinyCopper>, <ore:dustTinyCopper>, <ore:dustTinyTin>
