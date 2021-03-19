@@ -7,6 +7,8 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if (!isInvalid) {
 
+LightTransmutation.removeTransmutation(<astralsorcery:blockcustomore:1>, false);
+
 LightTransmutation.addTransmutation(<contenttweaker:starlight_frame>, <astralsorcery:blockwell>, 120);
 LightTransmutation.addTransmutation(<ore:oreGlass>.materialPart, <astralsorcery:blockcustomore:1>, 100);
 }
