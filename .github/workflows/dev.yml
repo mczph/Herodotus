@@ -138,5 +138,5 @@ jobs:
       - name: Run modpack
         run: | 
          cd ./gml
-         sudo chome +rwx -R {JAVA_HOME}
+         sudo chmod +rwx -R {JAVA_HOME}
          sudo ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144 -log -javapath ${JAVA_HOME} -independent=f
