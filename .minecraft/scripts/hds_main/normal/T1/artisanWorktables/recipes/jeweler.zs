@@ -24,4 +24,13 @@ RecipeBuilder.get("jeweler")
   .setExtraOutputTwo(<ore:gemFlawedQuartz>.materialPart, 0.12)
   .setExtraOutputThree(<ore:gemChippedQuartz>.materialPart, 0.25)
   .create();
+
+RecipeBuilder.get("jeweler")
+  .setShapeless([<ore:clusterGlimmerite>])
+  .addTool(<contenttweaker:sandpaper>, 1)
+  .addOutput(<ore:gemChippedGlimmerite>.materialPart, 2)
+  .addOutput(<ore:gemFlawedGlimmerite>.materialPart, 2)
+  .addOutput(<ore:gemFlawlessGlimmerite>.materialPart, 1)
+  .create();
+
 }

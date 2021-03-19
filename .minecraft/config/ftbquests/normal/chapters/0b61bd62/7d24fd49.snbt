@@ -1,15 +1,27 @@
 {
-	x: 19.5d,
+	title: "青铜粉",
+	x: 19.0d,
 	y: 2.0d,
 	dependencies: [
-		"9419885c",
-		"24787da3"
+		"84dc6405",
+		"4aff1002"
 	],
 	tasks: [{
 		uid: "d1803168",
 		type: "item",
 		items: [{
-			item: "contenttweaker:material_part 1 112"
+			ForgeCaps: {
+				Parent: {
+					data: "dustBronze",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustBronze"
+				}
+			}
 		}]
 	}]
 }

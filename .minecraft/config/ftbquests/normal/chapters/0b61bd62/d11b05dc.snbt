@@ -1,4 +1,5 @@
 {
+	title: "铜碎片",
 	x: 16.5d,
 	y: 5.0d,
 	dependencies: [
@@ -8,7 +9,18 @@
 		uid: "2f1b32c0",
 		type: "item",
 		items: [{
-			item: "contenttweaker:material_part 1 889"
+			ForgeCaps: {
+				Parent: {
+					data: "shardCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any shardCopper"
+				}
+			}
 		}]
 	}]
 }

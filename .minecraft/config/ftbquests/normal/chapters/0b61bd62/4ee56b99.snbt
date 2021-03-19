@@ -1,4 +1,5 @@
 {
+	title: "黄色方形",
 	x: 13.5d,
 	y: 4.0d,
 	dependencies: [
@@ -8,7 +9,18 @@
 		uid: "ae8e1394",
 		type: "item",
 		items: [{
-			item: "contenttweaker:material_part 1 80"
+			ForgeCaps: {
+				Parent: {
+					data: "squareYellow",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any squareYellow"
+				}
+			}
 		}]
 	}]
 }

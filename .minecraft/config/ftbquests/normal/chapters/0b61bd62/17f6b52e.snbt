@@ -1,6 +1,6 @@
 {
-	x: 29.0d,
-	y: 1.5d,
+	x: 30.5d,
+	y: 0.0d,
 	tasks: [{
 		uid: "0786424f",
 		type: "item",
@@ -11,6 +11,6 @@
 			id: "astralsorcery:itemjournal"
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	}]
 }

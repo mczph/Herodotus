@@ -1,14 +1,14 @@
 {
-	x: 10.5d,
+	x: 25.5d,
 	y: 4.0d,
 	dependencies: [
-		"d770519e"
+		"b2a91aaa"
 	],
 	tasks: [{
-		uid: "2740dea2",
+		uid: "d219e280",
 		type: "item",
 		items: [{
-			item: "pyrotech:mechanical_hopper"
+			item: "tconstruct:casting"
 		}]
 	}]
 }

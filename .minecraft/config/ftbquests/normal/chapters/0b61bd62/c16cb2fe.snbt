@@ -1,6 +1,6 @@
 {
-	x: 26.0d,
-	y: 3.5d,
+	x: 30.5d,
+	y: 1.0d,
 	tasks: [{
 		uid: "acff2771",
 		type: "item",

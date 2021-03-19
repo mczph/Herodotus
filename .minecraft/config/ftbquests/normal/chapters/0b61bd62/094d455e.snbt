@@ -1,4 +1,5 @@
 {
+	title: "铜矿石",
 	x: 15.0d,
 	y: 5.0d,
 	dependencies: [
@@ -8,7 +9,18 @@
 		uid: "218ca025",
 		type: "item",
 		items: [{
-			item: "contenttweaker:material_part 1 913"
+			ForgeCaps: {
+				Parent: {
+					data: "rockCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rockCopper"
+				}
+			}
 		}]
 	}]
 }

@@ -90,14 +90,6 @@ RecipeBuilder.get("mason")
   .create();
 
 RecipeBuilder.get("mason")
-  .setShapeless([<ore:clusterGlimmerite>])
-  .addTool(<contenttweaker:sandpaper>, 1)
-  .addOutput(<ore:gemChippedGlimmerite>.materialPart, 5)
-  .addOutput(<ore:gemFlawedGlimmerite>.materialPart, 3)
-  .addOutput(<ore:gemFlawlessGlimmerite>.materialPart, 1)
-  .create();
-
-RecipeBuilder.get("mason")
   .setShapeless([<contenttweaker:square>])
   .addTool(<contenttweaker:sandpaper>, 1)
   .addOutput(<contenttweaker:polished_square>)
