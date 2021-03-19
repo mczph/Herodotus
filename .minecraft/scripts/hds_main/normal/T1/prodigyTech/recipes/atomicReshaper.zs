@@ -6,5 +6,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if (!isInvalid){
 
+atomicreshaper.removeAll();
+
 atomicreshaper.addRecipe(<minecraft:cauldron>, <botania:altar>, 200);
 }

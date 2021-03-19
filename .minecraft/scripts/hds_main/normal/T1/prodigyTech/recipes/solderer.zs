@@ -6,5 +6,5 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
-// solderer.removeAll();
+solderer.removeAll();
 }
