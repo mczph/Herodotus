@@ -1,5 +1,5 @@
 {
-	title: "铜矿石",
+	title: "{herodotus.quests.094d455e.title}",
 	x: 15.0d,
 	y: 5.0d,
 	dependencies: [

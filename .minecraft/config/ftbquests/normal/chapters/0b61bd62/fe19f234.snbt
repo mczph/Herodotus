@@ -1,5 +1,5 @@
 {
-	title: "青铜锭",
+	title: "{herodotus.quests.fe19f234.title}",
 	x: 27.0d,
 	y: 3.0d,
 	dependencies: [
