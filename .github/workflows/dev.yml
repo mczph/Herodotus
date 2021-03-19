@@ -95,9 +95,10 @@ jobs:
       - name: Unzip GML
         run: sudo gzip -d ${GITHUB_WORKSPACE}/gml/gml-linux.gz
 
-      - name: Grant Premission for GML
+      - name: Grant Permission for GML
         run: | 
           sudo chmod +x ${GITHUB_WORKSPACE}/gml/gml-linux
+          sudo chmod +rx -R ${JAVA_HOME}
 
       - name: Download Minecraft 1.12.2
         run: |
