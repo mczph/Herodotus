@@ -1,7 +1,5 @@
 fluid.limewater=Lime Water
-item.contenttweaker.copper_cast.name=Copper Empty Cast
-item.contenttweaker.cast_four_nuggets.name=Copper Four-Nuggets Cast
-item.contenttweaker.copper_nugget_cast.name=Copper Nugget Cast
+
 item.contenttweaker.square.name=Gray Square
 item.contenttweaker.rhombus.name=Gray Rhombus
 item.contenttweaker.spherical.name=Gray Spherical
@@ -12,6 +10,8 @@ item.contenttweaker.sandpaper.name=Sandpaper
 item.contenttweaker.brass_dust.name=Brass Dust
 item.contenttweaker.hot_air_solderer.name=Hot Air Solderer
 item.contenttweaker.dark_energion_crystal_seed.name=Gloomy Energion Crystal Seed
+item.contenttweaker.astral_lens.name=Astral Lens
+tile.contenttweaker.altar.name=Sun-Moon Altar
 
 tile.contenttweaker.starlight_frame.name=Starlight Frame
 tile.contenttweaker.yellow_spherical_block.name=Block of Yellow Spherical Crystal
