@@ -1,6 +1,9 @@
 {
-	x: 38.5d,
-	y: 7.0d,
+	x: 27.0d,
+	y: 10.5d,
+	dependencies: [
+		"f3291fbb"
+	],
 	tasks: [{
 		uid: "fb822b43",
 		type: "item",

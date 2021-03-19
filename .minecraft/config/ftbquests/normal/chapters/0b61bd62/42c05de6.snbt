@@ -1,9 +1,14 @@
 {
-	x: 26.0d,
-	y: 9.5d,
+	x: 36.81904761904761d,
+	y: 8.509523809523742d,
+	shape: "hexagon3",
 	text: [
 		"{herodotus.quests.42c05de6.text.1}"
 	],
+	dependencies: [
+		"abe047ab"
+	],
+	size: 1.6d,
 	tasks: [{
 		uid: "3979226c",
 		type: "item",

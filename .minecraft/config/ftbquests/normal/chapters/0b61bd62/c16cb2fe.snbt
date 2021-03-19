@@ -1,6 +1,9 @@
 {
-	x: 30.5d,
-	y: 1.0d,
+	x: 22.25d,
+	y: 8.25d,
+	dependencies: [
+		"cab5270d"
+	],
 	tasks: [{
 		uid: "acff2771",
 		type: "item",

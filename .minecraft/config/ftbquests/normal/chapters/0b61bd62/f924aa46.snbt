@@ -1,8 +1,11 @@
 {
-	x: 29.0d,
-	y: 5.5d,
+	x: 31.5d,
+	y: 10.5d,
 	text: [
 		"{herodotus.quests.f924aa46.text.1}"
+	],
+	dependencies: [
+		"3bac949f"
 	],
 	tasks: [{
 		uid: "b88abf31",

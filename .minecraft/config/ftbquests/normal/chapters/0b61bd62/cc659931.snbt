@@ -1,14 +1,14 @@
 {
 	x: 24.0d,
-	y: 2.5d,
+	y: 1.5d,
 	dependencies: [
-		"a6b26a74"
+		"d83c349e"
 	],
 	tasks: [{
-		uid: "a2f57f2a",
+		uid: "e845d7eb",
 		type: "item",
 		items: [{
-			item: "contenttweaker:brass_dust"
+			item: "tconstruct:cast_custom 1 4"
 		}]
 	}]
 }
