@@ -65,7 +65,7 @@ jobs:
           path: artifacts
 
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     needs: build
 
     steps:
@@ -98,7 +98,6 @@ jobs:
       - name: Grant Permission for GML
         run: | 
           sudo chmod +x ${GITHUB_WORKSPACE}/gml/gml-linux
-          sudo chmod +rx -R ${JAVA_HOME}
 
       - name: Download Minecraft 1.12.2
         run: |
@@ -139,4 +138,4 @@ jobs:
       - name: Run modpack
         run: | 
          cd ./gml
-         sudo ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144 -log -javapath ${JAVA_HOME} -independent=f
+         sudo ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144 -log -independent=f
