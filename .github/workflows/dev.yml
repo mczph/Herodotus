@@ -138,4 +138,4 @@ jobs:
       - name: Run modpack
         run: | 
          cd ./gml
-         sudo ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144 -log
+         sudo ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144 -log -javapath ${JAVA_HOME} -independent=f
