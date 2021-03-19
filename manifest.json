@@ -15,11 +15,20 @@
   "author": "GBLodb, friendlyhj, Lubang-SF, yaoyaoDream, MangoHi, yuesha-yc, ikexing",
   "files": [
     {
+      "projectID": 317586,
+      "fileID": 2827161,
+      "required": true
+    },
+    {
+      "projectID": 397104,
+      "fileID": 3013979,
+      "required": true
+    },
+    {
       "projectID": 293505,
       "fileID": 2766866,
       "required": true
     },
-    
     {
       "projectID": 297365,
       "fileID": 2702806,
