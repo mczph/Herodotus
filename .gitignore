@@ -42,6 +42,9 @@
 /.minecraft/config/jei/itemBlacklist.cfg
 /.minecraft/config/Guide-API/Guide-API.cfg
 /.minecraft/config/thaumicjei_itemstack_aspects.json
+/.minecraft/config/customloadingscreen_timings.nbt
+/.minecraft/config/splash.properties
+/.minecraft/config/InvTweaks/InvTweaks.cfg
 
 #other stuff
 !/.minecraft/patchouli_books
