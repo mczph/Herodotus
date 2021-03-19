@@ -2,11 +2,11 @@
 
 name: dev
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push but only for the master branch
   push:
-    branches: [ master ]
+    branches: [master]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -18,8 +18,7 @@ env:
   VERSION: DevEdition
 
 jobs:
-
-  FTBQuestsProcessor: 
+  FTBQuestsProcessor:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,9 +27,9 @@ jobs:
 
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
-        with: 
+        with:
           python-version: 3.8
-      
+
       - name: Run FTB Quests lang processor
         run: python runners/ftbq_lang_processor.py
 
@@ -52,16 +51,16 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v2
-    # Runs a single command using the runners shell
+      # Runs a single command using the runners shell
       - name: Run build.sh
         run: bash runners/build.sh
-    #Upload the artifact
+      #Upload the artifact
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2
         with:
-        # Artifact name
+          # Artifact name
           name: Herodotus-dev
-        # A file, directory or wildcard pattern that describes what to upload
+          # A file, directory or wildcard pattern that describes what to upload
           path: artifacts
 
   test:
@@ -77,26 +76,20 @@ jobs:
           java-version: 1.8
 
       - name: Download Modpack Downloader CLI
-        uses: Legion2/download-release-action@v2.1.0
-        with:
-          repository: Nincraft/ModPackDownloader
-          tag: 0.6.1
-          path: downloader
-          file: ModpackDownloader-cli-0.6.1.jar
+        run: |
+          mkdir ${GITHUB_WORKSPACE}/downloader
+          wget https://github.com/Nincraft/ModPackDownloader/releases/download/0.6.1/ModpackDownloader-cli-0.6.1.jar -O ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar
 
       - name: Download GML
-        uses: Legion2/download-release-action@v2.1.0
-        with:
-          repository: xmdhs/gomclauncher
-          tag: v1.3.9
-          path: gml
-          file: gml-linux.gz
+        run: |
+          mkdir ${GITHUB_WORKSPACE}/gml
+          wget https://github.com/xmdhs/gomclauncher/releases/download/v1.3.9/gml-linux.gz -O ${GITHUB_WORKSPACE}/gml/gml-linux.gz
 
       - name: Unzip GML
-        run: sudo gzip -d ${GITHUB_WORKSPACE}/gml/gml-linux.gz
+        run: gzip -d ${GITHUB_WORKSPACE}/gml/gml-linux.gz
 
       - name: Grant Permission for GML
-        run: | 
+        run: |
           sudo chmod +x ${GITHUB_WORKSPACE}/gml/gml-linux
 
       - name: Download Minecraft 1.12.2
@@ -117,12 +110,8 @@ jobs:
         run: sudo wget https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-installer.jar -O ${GITHUB_WORKSPACE}/gml/forge-1.12.2-14.23.5.2854-installer.jar
 
       - name: Download Forge Install Bootstrapper
-        uses: Legion2/download-release-action@v2.1.0
-        with:
-          repository: bangbang93/forge-install-bootstrapper
-          tag: 0.0.0
-          path: gml
-          file: forge-install-bootstrapper.jar
+        run: |
+          wget https://github.com/bangbang93/forge-install-bootstrapper/releases/download/0.0.0/forge-install-bootstrapper.jar -O ${GITHUB_WORKSPACE}/gml/forge-install-bootstrapper.jar
 
       - name: Install Forge 14.23.5.2854
         run: |
@@ -130,14 +119,12 @@ jobs:
           sudo java -cp "forge-install-bootstrapper.jar:forge-1.12.2-14.23.5.2854-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
 
       - name: Download Mods
-        run: sudo java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
+        run: sudo ${JAVA_HOME_11_X64}/bin/java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
 
       - name: Install Autostop
         run: sudo mv ${GITHUB_WORKSPACE}/runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
 
       - name: Run modpack
-        run: | 
-         cd ./gml
-         sudo chmod +rwx -R ${JAVA_HOME}
-         setenforce 0
-         sudo ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144 -log -javapath ${JAVA_HOME} -independent=f
+        run: |
+          cd ./gml
+          sudo xvfb-run ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144 -log -independent=f -javapath ${JAVA_HOME_8_X64}/bin/java
