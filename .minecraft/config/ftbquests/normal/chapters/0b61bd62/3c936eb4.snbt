@@ -1,4 +1,5 @@
 {
+	title: "{herodotus.quests.3c936eb4.title}",
 	x: 13.5d,
 	y: 0.0d,
 	dependencies: [
@@ -8,7 +9,18 @@
 		uid: "0f1d9646",
 		type: "item",
 		items: [{
-			item: "contenttweaker:material_part 1 51"
+			ForgeCaps: {
+				Parent: {
+					data: "sphericalBlue",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any sphericalBlue"
+				}
+			}
 		}]
 	}]
 }

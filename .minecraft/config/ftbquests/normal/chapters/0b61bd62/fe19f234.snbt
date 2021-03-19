@@ -1,24 +1,25 @@
 {
-	title: "{herodotus.quests.4ee56b99.title}",
-	x: 13.5d,
-	y: 4.0d,
+	title: "{herodotus.quests.fe19f234.title}",
+	x: 27.0d,
+	y: 3.0d,
 	dependencies: [
-		"403cd748"
+		"4a2c54ab",
+		"3c3bbee4"
 	],
 	tasks: [{
-		uid: "ae8e1394",
+		uid: "e6af8ada",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				Parent: {
-					data: "squareYellow",
+					data: "ingotBronze",
 					id: "ore"
 				}
 			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any squareYellow"
+					Name: "Any ingotBronze"
 				}
 			}
 		}]

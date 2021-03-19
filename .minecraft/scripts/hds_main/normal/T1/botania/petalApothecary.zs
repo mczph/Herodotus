@@ -9,4 +9,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if(!isInvalid){
 
 Apothecary.removeRecipe(<botania:specialflower>);
+Apothecary.addRecipe(<contenttweaker:dark_energion_crystal_seed>, [
+    <prodigytech:primordium>, <ore:dustBronze>, <ore:dustIron>, <ore:gunpowder>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>
+]);
 }

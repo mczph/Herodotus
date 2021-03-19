@@ -4,6 +4,7 @@
 
 import scripts.grassUtils.RecipeUtils;
 import scripts.hds_main.utils.modloader.isInvalid;
+import scripts.grassUtils.RecipeUtils.createCrossWithCore;
 
 if(!isInvalid){
 
@@ -46,12 +47,17 @@ RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
 	[null, <ore:plateBronze>.materialPart, null]
 ]);
 
-recipes.addShapeless("dark_energion_crystal_seed", <contenttweaker:dark_energion_crystal_seed>, [
-	<prodigytech:primordium>, <ore:dustBronze>, <ore:dustIron>, <ore:gunpowder>
-]);
+RecipeUtils.recipeTweak(true, <pyrotech:brick_kiln>, createCrossWithCore(<pyrotech:stone_kiln>, <pyrotech:material:5>, <pyrotech:refractory_brick_block>));
+RecipeUtils.recipeTweak(true, <pyrotech:brick_oven>, createCrossWithCore(<pyrotech:stone_oven>, <pyrotech:material:5>, <pyrotech:refractory_brick_block>));
+RecipeUtils.recipeTweak(true, <pyrotech:brick_sawmill>, createCrossWithCore(<pyrotech:stone_sawmill>, <pyrotech:material:5>, <pyrotech:refractory_brick_block>));
+RecipeUtils.recipeTweak(true, <pyrotech:brick_crucible>, createCrossWithCore(<pyrotech:stone_crucible>, <pyrotech:material:5>, <pyrotech:refractory_brick_block>));
 
 recipes.addShapeless("tiny_bronze_dust", <ore:dustTinyBronze>.materialPart * 4, [
 	<ore:dustTinyCopper>, <ore:dustTinyCopper>, <ore:dustTinyCopper>, <ore:dustTinyTin>
+]);
+
+recipes.addShapeless("bronze_dust_from_small", <ore:dustBronze>.materialPart, [
+	<ore:dustSmallCopper>, <ore:dustSmallCopper>, <ore:dustSmallCopper>, <ore:dustSmallTin>
 ]);
 
 recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(function(item) {

@@ -18,7 +18,7 @@ static allPartsMap as string[][int] = {
     /*allPartsAsExample
     "nugget", "beam", "dirty_dust", "cluster", "ring",
     "rod", "crystal", "plate", "chipped_gem", "centrifuged_ore",
-    "rock", "ore_rock", "casing", "missing", "dense_plate",
+    "ore_rock", "casing", "missing", "dense_plate",
     "block", "shard", "molten", "flawless_gem", "dust",
     "crushed_ore", "ore", "small_dust", "long_rod", "small_spring",
     "clump", "flawed_gem", "large_spring", "purified_ore", "poor_ore",
@@ -27,7 +27,7 @@ static allPartsMap as string[][int] = {
     */
     0 : [//coloredOre
         "nugget", "dirty_dust", "cluster", "crystal",
-        "centrifuged_ore", "rock", "ore_rock", "missing",
+        "centrifuged_ore", "ore_rock", "missing",
         "block", "shard", "molten", "dust",
         "crushed_ore", "ore", "small_dust", "clump",
         "purified_ore", "poor_ore", "ore_sample", "dense_ore",
@@ -46,7 +46,7 @@ static allPartsMap as string[][int] = {
         "clump", "flawed_gem", "large_spring", "minecart", "round",
         "ore", "purified_ore", "poor_ore", "ore_sample", "bolt",
         "ingot", "tiny_dust", "gear", "centrifuged_ore", "dense_ore",
-        "crushed_ore", "rock", "ore_rock", "fourNuggets"
+        "crushed_ore", "ore_rock", "fourNuggets"
     ],
     3 : [//gems
         "nugget", "dirty_dust", "cluster",
@@ -56,7 +56,7 @@ static allPartsMap as string[][int] = {
     ],
     4 : [//redstone
         "nugget", "dirty_dust", "cluster", "crystal",
-        "centrifuged_ore", "rock", "ore_rock", "missing",
+        "centrifuged_ore", "ore_rock", "missing",
         "block", "shard", "flawed_gem", "chipped_gem", "flawless_gem",
         "crushed_ore", "small_dust", "clump",
         "purified_ore", "ore_sample", 

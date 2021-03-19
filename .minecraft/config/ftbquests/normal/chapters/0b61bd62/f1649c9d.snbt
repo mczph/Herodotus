@@ -1,4 +1,5 @@
 {
+	title: "{herodotus.quests.f1649c9d.title}",
 	x: 16.5d,
 	y: 3.0d,
 	dependencies: [
@@ -8,7 +9,18 @@
 		uid: "57cca3be",
 		type: "item",
 		items: [{
-			item: "contenttweaker:material_part 1 896"
+			ForgeCaps: {
+				Parent: {
+					data: "clumpCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any clumpCopper"
+				}
+			}
 		}]
 	}]
 }

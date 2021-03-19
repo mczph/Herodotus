@@ -37,8 +37,9 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         val crushed as IOreDictEntry = oreDict.get("crushedOre" ~ name);
         val molten as ILiquidStack = game.getLiquid(nameSnake);
 
-        //unidict
-        //mods.unidict.removeByKind.get("Crafting").remove(*);
+        // unidict
+        mods.unidict.removalByKind.get("Crafting").remove("plate");
+        mods.unidict.removalByKind.get("Crafting").remove("gear");
 
         //basic recipes
         recipes.addShaped("block_" ~ nameSnake, block.materialPart, createFull3(ingot));
@@ -70,7 +71,7 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         //if (!rock.empty && !crushed.empty) {rotarygrinder.addRecipe(rock, crushed.materialPart);}
 
         //pyrotech
-        if (!block.empty && !plate.empty) {
+        if (!block.empty && !plate.empty && nameSnake != "coal") {
             allPyroAnvil("block_to_plate_ptanvil_" ~ nameSnake, plate.materialPart * 4, block, 6, "hammer");
         }
     } else if (item.ores[0].name.startsWith("cluster")) {

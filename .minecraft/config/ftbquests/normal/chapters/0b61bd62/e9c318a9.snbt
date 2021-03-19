@@ -1,0 +1,17 @@
+{
+	x: 20.0d,
+	y: 4.0d,
+	text: [
+		"{herodotus.quests.e9c318a9.text.1}"
+	],
+	dependencies: [
+		"7d24fd49"
+	],
+	tasks: [{
+		uid: "85239e99",
+		type: "item",
+		items: [{
+			item: "artisanworkstumps:workstump_mage"
+		}]
+	}]
+}

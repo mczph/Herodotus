@@ -1,6 +1,7 @@
 {
+	title: "{herodotus.quests.84dc6405.title}",
 	x: 18.0d,
-	y: 5.0d,
+	y: 4.0d,
 	dependencies: [
 		"d11b05dc"
 	],
@@ -8,7 +9,18 @@
 		uid: "12322038",
 		type: "item",
 		items: [{
-			item: "contenttweaker:material_part 1 893"
+			ForgeCaps: {
+				Parent: {
+					data: "dustSmallCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustSmallCopper"
+				}
+			}
 		}]
 	}]
 }

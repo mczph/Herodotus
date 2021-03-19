@@ -1,6 +1,7 @@
 {
+	title: "{herodotus.quests.4aff1002.title}",
 	x: 18.0d,
-	y: -1.0d,
+	y: 0.0d,
 	dependencies: [
 		"b9d77d8e"
 	],
@@ -8,7 +9,18 @@
 		uid: "f52447e9",
 		type: "item",
 		items: [{
-			item: "contenttweaker:material_part 1 698"
+			ForgeCaps: {
+				Parent: {
+					data: "dustSmallTin",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustSmallTin"
+				}
+			}
 		}]
 	}]
 }
