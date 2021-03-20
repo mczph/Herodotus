@@ -16,8 +16,13 @@
 
 #configs
 !/.minecraft/config/
+/.minecraft/config/enderio/recipes/*.pdf
+/.minecraft/config/enderio/recipes/examples/*
+!/.minecraft/config/enderio/recipes/user/*.xml
+/.minecraft/config/enderio/painter_paint_sources_core.xml
+/.minecraft/config/enderio/painter_paint_sources_user.xml
+
 /.minecraft/config/agricraft/json/defaults/*
-/.minecraft/config/enderio/recipes/*
 /.minecraft/config/tellme/*
 /.minecraft/config/jei/worldSettings.cfg
 /.minecraft/config/jei/bookmarks.ini
@@ -37,8 +42,6 @@
 /.minecraft/config/blur.cfg
 /.minecraft/config/codechicken/supporters.json
 /.minecraft/config/codechicken/supporters.marker
-/.minecraft/config/enderio/painter_paint_sources_core.xml
-/.minecraft/config/enderio/painter_paint_sources_user.xml
 /.minecraft/config/jei/itemBlacklist.cfg
 /.minecraft/config/Guide-API/Guide-API.cfg
 /.minecraft/config/thaumicjei_itemstack_aspects.json
