@@ -19,6 +19,7 @@
 /.minecraft/config/enderio/recipes/*.pdf
 /.minecraft/config/enderio/recipes/examples/*
 !/.minecraft/config/enderio/recipes/user/*.xml
+!/.minecraft/config/enderio/recipes/user/recipes.xsd
 /.minecraft/config/enderio/painter_paint_sources_core.xml
 /.minecraft/config/enderio/painter_paint_sources_user.xml
 
