@@ -16,7 +16,7 @@ RecipeUtils.recipeTweak(true, <pyrotech:mechanical_hopper>,[
 ]);
 
 RecipeUtils.recipeTweak(true, <pyrotech:crude_axe>,[
-    [<ore:rock>, <pyrotech:material:12>],
+    [<pyrotech:material:10>, <pyrotech:material:12>],
     [null, <minecraft:stick>]
 ]);
 
@@ -83,6 +83,14 @@ recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(fu
 
 recipes.replaceAllOccurences(<ore:gearFerramic>, <ore:gearBronze>, <*>.only(function(item) {
 	return item.definition.owner == "prodigytech";
+}));
+
+recipes.replaceAllOccurences(<minecraft:iron_ingot>, <ore:ingotIron>, <*>.only(function(item) {
+	return item.definition.owner == "factorytech";
+}));
+
+recipes.replaceAllOccurences(<minecraft:iron_nugget>, <ore:nuggetIron>, <*>.only(function(item) {
+	return item.definition.owner == "factorytech";
 }));
 
 recipes.addShapeless("hot_air_solderer_trans_0", <contenttweaker:hot_air_solderer>,

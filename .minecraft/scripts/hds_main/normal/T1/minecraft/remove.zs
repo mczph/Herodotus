@@ -8,6 +8,11 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 //something that recipeutils can't do or just remove
 val removeByOutput as IItemStack[] = [
+    <tconstruct:tooltables:1>,
+    <tconstruct:tooltables:2>,
+    <tconstruct:tooltables:3>,
+    <tconstruct:tooltables:4>,
+    <tconstruct:tooltables:5>,
     <tconstruct:casting>,
     <tconstruct:casting:1>,
     <pyrotech:faucet_brick>,
@@ -39,11 +44,17 @@ val removeByRecipeName as string[] = [
     "minecraft:coal_block",
     "minecraft:dark_oak_planks",
     "minecraft:oak_planks",
+    "minecraft:spruce_planks",
     "minecraft:brich_planks",
+    "minecraft:acacia_planks",
     "minecraft:jungle_planks",
     "minecraft:stick",
     "growthcraft_apples:stick",
     "astralsorcery:shaped/altar_tier_1"
+];
+
+val removeByModid as string[] = [
+    "biomesoplenty"
 ];
 
 if(!isInvalid) {
@@ -62,6 +73,10 @@ for item in removeByOutput {
 
 for name in removeByRecipeName {
     recipes.removeByRecipeName(name);
+}
+
+for id in removeByModid {
+    recipes.removeByMod(id);
 }
 //damn furnace
 furnace.removeAll();
