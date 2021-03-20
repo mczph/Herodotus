@@ -5,7 +5,18 @@
 		uid: "5c255be4",
 		type: "item",
 		items: [{
-			item: "pyrotech:rock"
+			ForgeCaps: {
+				Parent: {
+					data: "rock",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rock"
+				}
+			}
 		}]
 	}]
 }

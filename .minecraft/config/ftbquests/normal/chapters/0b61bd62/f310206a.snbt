@@ -8,7 +8,18 @@
 		uid: "85591619",
 		type: "item",
 		items: [{
-			item: "minecraft:log"
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
 		}]
 	}]
 }
