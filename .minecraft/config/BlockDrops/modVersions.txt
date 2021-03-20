@@ -16,6 +16,7 @@
   "artisanworktables": "1.12.2-1.24.2",
   "xnet": "1.8.2",
   "reauth": "3.6.0",
+  "wgblockreplacer": "2.2.0",
   "forgelin": "1.8.4",
   "stg": "1.12.2-1.2.3",
   "randompatches": "1.12.2-1.22.1.10",
