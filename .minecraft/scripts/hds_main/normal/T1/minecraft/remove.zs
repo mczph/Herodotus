@@ -45,7 +45,7 @@ val removeByRecipeName as string[] = [
     "minecraft:dark_oak_planks",
     "minecraft:oak_planks",
     "minecraft:spruce_planks",
-    "minecraft:brich_planks",
+    "minecraft:birch_planks",
     "minecraft:acacia_planks",
     "minecraft:jungle_planks",
     "minecraft:stick",
