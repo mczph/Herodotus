@@ -7,7 +7,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if(!isInvalid){
 
 PitKiln.removeRecipes(<minecraft:stone>);
-PitKiln.addRecipe("stone_from_cobblestone", <minecraft:stone>, <minecraft:cobblestone>, 3*60* 20, 0.6, [
+PitKiln.addRecipe("stone_from_cobblestone", <minecraft:stone>, <minecraft:cobblestone>, 3*60* 20, 0.2, [
     <pyrotech:material>,
     <pyrotech:rock>*2,
     <pyrotech:rock>*3
