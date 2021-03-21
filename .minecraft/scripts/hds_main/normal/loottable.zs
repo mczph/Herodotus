@@ -7,11 +7,11 @@ import mods.ltt.LootTable;
 if(!isInvalid){
 
 //Remove
-LootTable.removeGlobalItem("minecraft:obsidian");
 LootTable.removeGlobalItem("botania:lexicon");
 
 LootTable.removeModItem("actuallyadditions");
 LootTable.removeModItem("growthcraft");
+LootTable.removeModItem("minecraft");
 
 LootTable.removeModTable("biomesoplenty");
 LootTable.removeModTable("pneumaticcraft");
