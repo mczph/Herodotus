@@ -103,32 +103,10 @@ jobs:
       - name: Install Autostop
         run: sudo mv ${GITHUB_WORKSPACE}/runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
 
-      - name: tweak ThaumicJEI config
+      - name: Tweak ThaumicJEI config
         run: sudo mv -f ${GITHUB_WORKSPACE}/runners/thaumicjei.cfg ${GITHUB_WORKSPACE}/gml/.minecraft/config
 
       - name: Run modpack
         run: |
           cd ./gml
           sudo xvfb-run ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144 -log -independent=f -javapath ${JAVA_HOME_8_X64}/bin/java
-
-  GetLogs:
-    runs-on: ubuntu-lastest
-    needs: TestRunner
-    steps:
-      - name: Clean the folder
-        run: sudo rm ${GITHUB_WORKSPACE}/artifacts/*
-
-      - name: Get lastest.log
-        run: sudo mv ${GITHUB_WORKSPACE}/gml/.minecraft/logs/lastest.log ${GITHUB_WORKSPACE}/artifacts
-
-      - name: Get debug.log
-        run: sudo mv ${GITHUB_WORKSPACE}/gml/.minecraft/logs/debug.log ${GITHUB_WORKSPACE}/artifacts
-
-      - name: Get crafttweaker.log
-        run: sudo mv ${GITHUB_WORKSPACE}/gml/.minecraft/crafttweaker.log ${GITHUB_WORKSPACE}/artifacts
-
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: GameLogs
-          path: artifacts
