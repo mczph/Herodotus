@@ -14,7 +14,7 @@ if(!isInvalid){
 Dropt.list("remove_from_grass")
   .add(Dropt.rule()
       .matchBlocks(["minecraft:double_plant:2", "minecraft:tallgrass:1"])
-      .matchDrops([<pyrotech:material:13>])
+      .matchDrops([<teslathingies:tesla_plant_seeds>])
       .replaceStrategy("REPLACE_ITEMS")
       .addDrop(Dropt.drop())
   );
