@@ -5,6 +5,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.pyrotech.PitKiln;
 import mods.pyrotech.StoneKiln;
 import mods.pyrotech.BrickKiln;
 import mods.pyrotech.GraniteAnvil;
@@ -20,16 +21,26 @@ function allDryingRack(name as string, output as IItemStack, input as IIngredien
     DryingRack.addRecipe(name~"_dr", output, input, time);
 }
 
-//add all pyrotech kiln recipes
-function allPyroKiln(name as string, output as IItemStack, input as IIngredient, time as int){
-    StoneKiln.addRecipe(name~"_sk", output, input, time);
-    BrickKiln.addRecipe(name~"_bk", output, input, time);
-}
-
 //remove all pyrotech drying rack recipes 
 function rAllPyroDr(output as IIngredient){
     DryingRack.removeRecipes(output);
     CrudeDryingRack.removeRecipes(output);
+}
+
+//universal pyrotech kilns recipes tweaker
+function uPyroKilns(name as string, output as IItemStack, input as IIngredient, failed as IItemStack, time as int){
+    PitKiln.removeRecipes(output);
+    StoneKiln.removeRecipes(output);
+    BrickKiln.removeRecipes(output);
+    PitKiln.addRecipe(name~"_pk", output, input, time, 0.3, [failed, failed*2, failed*3]);
+    StoneKiln.addRecipe(name~"_sk", output, input, time - 5*20, 0.2, [failed*2, failed*3]);
+    BrickKiln.addRecipe(name~"_bk", output, input, time - 10*20, 0.15, [failed*3]);
+}
+
+//add all pyrotech kiln recipes
+function allPyroKiln(name as string, output as IItemStack, input as IIngredient, time as int){
+    StoneKiln.addRecipe(name~"_sk", output, input, time);
+    BrickKiln.addRecipe(name~"_bk", output, input, time);
 }
 
 //remove all pyroteh anvil recipes in once
