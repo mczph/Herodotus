@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	shape: "hexagon2",
+	dependencies: [
+		"f310206a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d6071ee3",
+		type: "item",
+		items: [{
+			item: "pyrotech:log_pile"
+		}]
+	}]
+}
