@@ -43,7 +43,7 @@ jobs:
         with:
           name: Herodotus-dev
           path: artifacts
-
+          
   TestRunner:
     runs-on: ubuntu-latest
     needs: CreateCursePack
@@ -110,3 +110,19 @@ jobs:
         run: |
           cd ./gml
           sudo xvfb-run ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144 -log -independent=f -javapath ${JAVA_HOME_8_X64}/bin/java
+
+  GetLogs:
+    runs-on: ubuntu-lastest
+    needs: TestRunner
+    steps:
+      - name: Clean the folder
+        run: sudo rm ${GITHUB_WORKSPACE}/artifacts/*
+
+      - name: Get lastest.log
+        run: sudo mv ${GITHUB_WORKSPACE}/gml/.minecraft/logs/lastest.log ${GITHUB_WORKSPACE}/artifacts
+
+      - name: Get debug.log
+        run: sudo mv ${GITHUB_WORKSPACE}/gml/.minecraft/logs/debug.log ${GITHUB_WORKSPACE}/artifacts
+
+      - name: Get crafttweaker.log
+        run: sudo mv ${GITHUB_WORKSPACE}/gml/.minecraft/crafttweaker.log ${GITHUB_WORKSPACE}/artifacts
