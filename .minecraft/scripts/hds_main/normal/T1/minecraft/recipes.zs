@@ -27,7 +27,7 @@ RecipeUtils.recipeTweak(true, <pyrotech:compacting_bin>,[
 ]);
 
 RecipeUtils.recipeTweak(true, <pyrotech:crude_pickaxe>,[
-	[null, <tconstruct:pick_head>.withTag({Material: "stone"}), null], 
+	[null, <tconstruct:pick_head>.withTag({Material: "flint"}), null], 
 	[null, <pyrotech:material:12>, null], 
 	[null, <ore:stickWood>, null]
 ]);

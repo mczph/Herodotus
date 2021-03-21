@@ -11,6 +11,14 @@ import mods.pyrotech.GraniteAnvil;
 import mods.pyrotech.IroncladAnvil;
 import mods.pyrotech.StoneCrucible;
 import mods.pyrotech.BrickCrucible;
+import mods.pyrotech.DryingRack;
+import mods.pyroteh.CrudeDryingRack;
+
+//add universal drying rack recipes
+function allDryingRack(name as string, output as IItemStack, input as IIngredient, time as int){
+    CrudeDryingRack.addRecipe(name~"_cdr", output, input, time+=10*20);
+    DryingRack.addRecipe(name~"_dr", output, input, time);
+}
 
 //add all pyrotech kiln recipes
 function allPyroKiln(name as string, output as IItemStack, input as IIngredient, time as int){
@@ -18,11 +26,18 @@ function allPyroKiln(name as string, output as IItemStack, input as IIngredient,
     BrickKiln.addRecipe(name~"_bk", output, input, time);
 }
 
+//remove all pyrotech drying rack recipes 
+function rAllPyroDr(output as IIngredient){
+    DryingRack.removeRecipes(output);
+    CrudeDryingRack.removeRecipes(output);
+}
+
 //remove all pyroteh anvil recipes in once
 function rAllPyroAnvil(output as IIngredient){
     GraniteAnvil.removeRecipes(output);
     IroncladAnvil.removeRecipes(output);
 }
+
 //add all pyrotech anvil recipes in once
 function allPyroAnvil(name as string, output as IItemStack, input as IIngredient, hits as int, type as string){
     GraniteAnvil.addRecipe("g_break_" ~ name, output, input, hits, type);
