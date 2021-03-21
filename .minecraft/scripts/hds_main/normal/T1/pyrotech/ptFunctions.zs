@@ -12,11 +12,11 @@ import mods.pyrotech.IroncladAnvil;
 import mods.pyrotech.StoneCrucible;
 import mods.pyrotech.BrickCrucible;
 import mods.pyrotech.DryingRack;
-import mods.pyroteh.CrudeDryingRack;
+import mods.pyrotech.CrudeDryingRack;
 
 //add universal drying rack recipes
 function allDryingRack(name as string, output as IItemStack, input as IIngredient, time as int){
-    CrudeDryingRack.addRecipe(name~"_cdr", output, input, time+=10*20);
+    CrudeDryingRack.addRecipe(name~"_cdr", output, input, time + 200);
     DryingRack.addRecipe(name~"_dr", output, input, time);
 }
 
