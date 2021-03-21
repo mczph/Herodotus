@@ -1,7 +1,7 @@
 {
 	title: "{herodotus.quests.66ec53e2.title}",
 	x: 0.0d,
-	y: 0.0d,
+	y: 2.0d,
 	description: "{herodotus.quests.66ec53e2.description}",
 	text: [
 		"{herodotus.quests.66ec53e2.text.1}",
