@@ -20,6 +20,10 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
+// unidict
+mods.unidict.removalByKind.get("Crafting").remove("plate");
+mods.unidict.removalByKind.get("Crafting").remove("gear");
+
 for item in <item:contenttweaker:material_part>.definition.subItems {
     if (item.ores[0].name.startsWith("ingot")) { // metal
         val ingot as IItemStack = item;
@@ -36,10 +40,6 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         val rock as IOreDictEntry = oreDict.get("rock" ~ name);
         val crushed as IOreDictEntry = oreDict.get("crushedOre" ~ name);
         val molten as ILiquidStack = game.getLiquid(nameSnake);
-
-        // unidict
-        mods.unidict.removalByKind.get("Crafting").remove("plate");
-        mods.unidict.removalByKind.get("Crafting").remove("gear");
 
         //basic recipes
         recipes.addShaped("block_" ~ nameSnake, block.materialPart, createFull3(ingot));
