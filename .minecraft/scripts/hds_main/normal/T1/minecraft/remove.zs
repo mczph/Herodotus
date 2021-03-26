@@ -58,15 +58,6 @@ val removeByModid as string[] = [
 ];
 
 if(!isInvalid) {
-recipes.removeShaped(<minecraft:stick>*16,[
-    [<ore:logWood>, null],
-    [<ore:logWood>, null]
-]);
-recipes.removeShaped(<minecraft:stick>*16,[
-    [null, <ore:logWood>],
-    [null, <ore:logWood>]
-]);
-
 for item in removeByOutput {
     recipes.remove(item);
 }
