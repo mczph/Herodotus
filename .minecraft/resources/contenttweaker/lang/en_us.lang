@@ -24,6 +24,7 @@ contenttweaker.part.rhombus_cover=%s Dust Covered Rhombus
 contenttweaker.part.spherical_cover=%s Dust Convered Spherical
 contenttweaker.part.square_cover=%s Dust Convered Square
 contenttweaker.part.four_nuggets=Four %s Nuggets
+contenttweaker.part.light_plate=Light %s Plate
 
 base.material.bronze=Bronze
 base.material.red=Red
