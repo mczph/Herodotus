@@ -15,6 +15,7 @@ import mods.prodigytech.rotarygrinder;
 import scripts.hds_main.normal.T1.prodigyTech.prtFunctions.LOERProcesser;
 import mods.pyrotech.IroncladAnvil;
 import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 import scripts.hds_main.utils.modloader.isInvalid;
 
@@ -39,6 +40,9 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         val gear as IOreDictEntry = oreDict.get("gear" ~ name);
         val rock as IOreDictEntry = oreDict.get("rock" ~ name);
         val crushed as IOreDictEntry = oreDict.get("crushedOre" ~ name);
+        val lightPlate as IOreDictEntry = oreDict.get("lightPlate" ~ name);
+        val rod as IOreDictEntry = oreDict.get("rod" ~ name);
+        val rodLong as IOreDictEntry = oreDict.get("rodLong" ~ name);
         val molten as ILiquidStack = game.getLiquid(nameSnake);
 
         //basic recipes
@@ -74,6 +78,16 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         if (!block.empty && !plate.empty && nameSnake != "coal") {
             allPyroAnvil("block_to_plate_ptanvil_" ~ nameSnake, plate.materialPart * 4, block, 6, "hammer");
         }
+        if (!lightPlate.empty && !rod.empty && !rodLong.empty){
+            allPyroAnvil("lightplate_to_rod_ptanvil_" ~ nameSnake, rod.materialPart*3, lightPlate, 6, "pickaxe");
+            RecipeBuilder.get("blacksmith")
+                .setName("rod_to_longrod" ~ nameSnake)
+                .setShapeless([rod, rod])
+                .addTool(<contenttweaker:hot_air_solderer>, 10)
+                .addOutput(rodLong.materialPart)
+                .create();
+        }
+
     } else if (item.ores[0].name.startsWith("cluster")) {
         val name as string = item.ores[0].name.substring("cluster".length);
         val nameSnake as string = toSnakeCase(name);
