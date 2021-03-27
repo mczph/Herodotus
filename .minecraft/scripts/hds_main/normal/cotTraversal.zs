@@ -41,10 +41,16 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         val rock as IOreDictEntry = oreDict.get("rock" ~ name);
         val crushed as IOreDictEntry = oreDict.get("crushedOre" ~ name);
         val lightPlate as IOreDictEntry = oreDict.get("lightPlate" ~ name);
+        val densePlate as IOreDictEntry = oreDict.get("densePlate" ~ name);
         val rod as IOreDictEntry = oreDict.get("rod" ~ name);
         val rodLong as IOreDictEntry = oreDict.get("rodLong" ~ name);
         val molten as ILiquidStack = game.getLiquid(nameSnake);
 
+        //oredict translate
+        if(!densePlate.empty){
+        oreDict.get("heavyPlate"~nameSnake).add(densePlate.materialPart);
+        }
+        
         //basic recipes
         recipes.addShaped("block_" ~ nameSnake, block.materialPart, createFull3(ingot));
         recipes.addShaped("ingot_from_block_" ~ nameSnake, ingot * 9, [[block]]);

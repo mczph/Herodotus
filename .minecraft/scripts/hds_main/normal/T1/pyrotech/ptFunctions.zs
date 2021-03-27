@@ -40,7 +40,7 @@ function uPyroKilns(name as string, output as IItemStack, input as IIngredient, 
 //add all pyrotech kiln recipes
 function allPyroKiln(name as string, output as IItemStack, input as IIngredient, time as int){
     StoneKiln.addRecipe(name~"_sk", output, input, time);
-    BrickKiln.addRecipe(name~"_bk", output, input, time);
+    BrickKiln.addRecipe(name~"_bk", output, input, time - 5*20);
 }
 
 //remove all pyroteh anvil recipes in once
