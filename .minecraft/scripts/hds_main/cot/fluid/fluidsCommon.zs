@@ -9,5 +9,5 @@ import mods.contenttweaker.Fluid;
 val lw = VanillaFactory.createFluid("limewater", 0x858585);
 lw.register();
 
-val dw = VanillaFactory.createFluid("distilledwater", 0x3498DB);
+val dw = VanillaFactory.createFluid("distilledwater", 0x43ECFB);
 dw.register();
