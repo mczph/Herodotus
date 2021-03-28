@@ -93,6 +93,10 @@ recipes.replaceAllOccurences(<minecraft:iron_nugget>, <ore:nuggetIron>, <*>.only
 	return item.definition.owner == "factorytech";
 }));
 
+recipes.replaceAllOccurences(<minecraft:dye:4>, <ore:gemFlawedQuartz>, <*>.only(function(item) {
+	return <ore:artisansAthame>.matches(item);
+}));
+
 recipes.addShapeless("hot_air_solderer_trans_0", <contenttweaker:hot_air_solderer>,
 	[<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_0:*>.marked("c")], 
 	function(out, ins, info) {
