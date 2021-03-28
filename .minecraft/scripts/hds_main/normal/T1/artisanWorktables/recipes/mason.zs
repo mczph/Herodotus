@@ -40,9 +40,9 @@ RecipeBuilder.get("mason")
 //stuff
 RecipeBuilder.get("mason")
   .setShaped([
-    [<ore:dustSmallBronze>, <ore:dustSmallBronze>, <ore:dustSmallBronze>],
+    [null, <ore:dustSmallBronze>, null],
     [<ore:dustSmallBronze>, <pyrotech:material:16>, <ore:dustSmallBronze>],
-    [<ore:dustSmallBronze>, <ore:dustSmallBronze>, <ore:dustSmallBronze>]])
+    [null, <ore:dustSmallBronze>, null]])
   .addTool(<ore:artisansBurner>, 30)
   .addOutput(ptm5)
   .create();
@@ -50,7 +50,7 @@ RecipeBuilder.get("mason")
 RecipeBuilder.get("mason")
   .setShapeless([<ore:ingotBronze>])
   .addTool(<ore:artisansBurner>, 40)
-  .addOutput(ptm5)
+  .addOutput(ptm5 * 2)
   .create();
 
 RecipeBuilder.get("mason")
