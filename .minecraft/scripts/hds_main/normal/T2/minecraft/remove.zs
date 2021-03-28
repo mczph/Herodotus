@@ -13,7 +13,8 @@ val removeByOutput as IItemStack[] = [
     <embers:item_pipe>,
     <embers:pipe>,
     <embers:pump>,
-    <embers:item_pump>
+    <embers:item_pump>,
+    <magneticraft:multiblock_parts:*>
 ];
 
 val removeByRecipeName as string[] = [];

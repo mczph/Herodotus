@@ -4,7 +4,6 @@
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import scripts.hds_main.utils.modloader.isInvalid;
-import scripts.grassUtils.RecipeUtils.createCrossWithCore;
 
 if(!isInvalid){
 

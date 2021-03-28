@@ -43,7 +43,7 @@ RecipeBuilder.get("mason")
     [<pyrotech:material:16>, <ore:dustSmallBronze>, <pyrotech:material:16>],
     [<ore:dustSmallBronze>, <pyrotech:material:16>, <ore:dustSmallBronze>],
     [<pyrotech:material:16>, <ore:dustSmallBronze>, <pyrotech:material:16>]])
-  .addTool(<ore:artisansBurner>, 20)
+  .addTool(<ore:artisansBurner>, 30)
   .addOutput(ptm5 * 3)
   .create();
 

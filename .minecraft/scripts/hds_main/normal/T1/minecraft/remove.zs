@@ -49,6 +49,7 @@ val removeByRecipeName as string[] = [
     "minecraft:acacia_planks",
     "minecraft:jungle_planks",
     "minecraft:stick",
+    "pyrotech:crafting_table",
     "growthcraft_apples:stick",
     "astralsorcery:shaped/altar_tier_1"
 ];
