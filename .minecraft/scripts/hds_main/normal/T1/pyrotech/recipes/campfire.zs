@@ -7,6 +7,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if(!isInvalid){
 
 //Remove
+Campfire.removeRecipe(<pyrotech:material:22>);
 
 //Add
 Campfire.addRecipe("stone_picaxe_head", <tconstruct:pick_head>.withTag({Material: "flint"}), <ore:itemFlint>, 100);
