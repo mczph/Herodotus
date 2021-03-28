@@ -18,7 +18,8 @@ RecipeBuilder.get("engineer")
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
 for i in 0 .. 16 {
 	val worktable as IItemStack = worktableDef.makeStack(i);
-	val type as string = worktable.name.split(".")[3];
+	print(worktable.name);
+	val type as string = worktable.name.split("\\.")[3];
 	val workstump as IItemStack = itemUtils.getItem("artisanworkstumps:workstump_" ~ type);
 	RecipeBuilder.get("engineer")
   		.setShaped([
