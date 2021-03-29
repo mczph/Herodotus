@@ -127,7 +127,7 @@ static allMaterialMap as int[string][int] = {
 static dyelist as int[string] = {
     "red_t1" : 0xfc0d20,
     "yellow_t1" : 0xffd701,
-    "blue_t1" : 0x00aadd,
+    "blue_t1" : 0x10aadd,
     "red_t2" : 0xff2400,
     "yellow_t2": 0xebcc14,
     "blue_t2": 0x3018cf

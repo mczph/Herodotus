@@ -30,7 +30,7 @@ RecipeBuilder.get("basic")
 
 RecipeBuilder.get("basic")
     .setShaped([
-	    [<ore:gearBronze>, <ore:ingotBronze>, <ore:gearBronze>],
+	    [<ore:ingotBronze>, <ore:gearBronze>, <ore:ingotBronze>],
 	    [<ore:plankWood>, <pyrotech:worktable>, <ore:plankWood>],
 	    [<ore:ingotBronze>, <pyrotech:stash>, <ore:ingotBronze>]])
     .setFluid(<liquid:clay>*576)

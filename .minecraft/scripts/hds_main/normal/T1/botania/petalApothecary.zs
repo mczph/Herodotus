@@ -10,6 +10,6 @@ if(!isInvalid){
 
 Apothecary.removeRecipe(<botania:specialflower>);
 Apothecary.addRecipe(<contenttweaker:dark_energion_crystal_seed>, [
-    <prodigytech:primordium>, <ore:dustBronze>, <ore:dustIron>, <ore:gunpowder>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>
+    <prodigytech:primordium>, <ore:dustEnergion>, <ore:dustBronze>, <ore:dustIron>, <ore:gunpowder>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>
 ]);
 }

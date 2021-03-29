@@ -15,6 +15,7 @@ import mods.pyrotech.BrickKiln;
 import mods.tconstruct.Casting;
 import mods.prodigytech.rotarygrinder;
 import scripts.grassUtils.StringHelper;
+import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 val colors as string[] = ["red", "yellow", "blue"];
@@ -51,9 +52,9 @@ for color in colors {
     val clump as IOreDictEntry = oreDict.get("clump" ~ od);
     val dust as IOreDictEntry = oreDict.get("dust" ~ od);
 
-    IroncladAnvil.addRecipe(color ~ "_from_poor_ore", crushedOre.materialPart, poorOre, 8, "pickaxe");
-    IroncladAnvil.addRecipe(color ~ "_from_ore", crushedOre.materialPart * 2, ore, 8, "pickaxe");
-    IroncladAnvil.addRecipe(color ~ "_from_dense_ore", crushedOre.materialPart * 4, ore, 12, "pickaxe");
+    allPyroAnvil(color ~ "_from_poor_ore", crushedOre.materialPart, poorOre, 8, "pickaxe");
+    allPyroAnvil(color ~ "_from_ore", crushedOre.materialPart * 2, ore, 8, "pickaxe");
+    allPyroAnvil(color ~ "_from_dense_ore", crushedOre.materialPart * 4, denseOre, 12, "pickaxe");
 
     FluidToFluid.transform(fluidTier1, <liquid:limewater>, [poorOre * 3]);
     FluidToFluid.transform(fluidTier1, <liquid:limewater>, [ore]);
@@ -73,7 +74,7 @@ for color in colors {
         var input2 as IItemStack = itemUtils.getItem("contenttweaker:polished_" ~ shape);
         var input3 as IOreDictEntry = oreDict.get(shape ~ "Cover" ~ od);
         SoakingPot.addRecipe(shape ~ "_soaking_" ~ color, output, fluidTier1*500, input1, true, 4.5*60*20);
-        Casting.addTableRecipe(output, input2, fluidTier2, 250, true, 45 * 20);
+        Casting.addTableRecipe(output, input2, fluidTier2, 250, true, 25 * 20);
         RecipeBuilder.get("mason")
             .setShapeless([input2, dust])
             .addTool(<ore:artisansTrowel>, 4)

@@ -10,7 +10,7 @@ import scripts.grassUtils.CotUtils;
 
 var sandpaper = VanillaFactory.createItem("sandpaper");
 sandpaper.maxStackSize = 1;
-sandpaper.maxDamage = 64;
+sandpaper.maxDamage = 144;
 sandpaper.register();
 
 var solderer = VanillaFactory.createItem("hot_air_solderer");

@@ -59,6 +59,7 @@ RecipeBuilder.get("mason")
     [ptm5, null, ptm5],
     [ptm5, null, ptm5]])
   .addTool(<ore:artisansTrowel>, 75)
+  .setFluid(<liquid:limewater> * 1000)
   .addOutput(<tconstruct:casting>)
   .create();
 
@@ -68,6 +69,7 @@ RecipeBuilder.get("mason")
     [ptm5, null, ptm5],
     [ptm5, ptm5, ptm5]])
   .addTool(<ore:artisansTrowel>, 75)
+  .setFluid(<liquid:limewater> * 1000)
   .addOutput(<tconstruct:casting:1>)
   .create();
 
