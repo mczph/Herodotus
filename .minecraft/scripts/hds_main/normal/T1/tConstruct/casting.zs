@@ -12,4 +12,6 @@ if(!isInvalid){
 //Casting.addTableRecipe(<contenttweaker:copper_cast>, null, <liquid:copper>, 288);
 Casting.addBasinRecipe(<ore:oreGlass>.materialPart, <minecraft:stone>, <liquid:glass>, 4000);
 Casting.addBasinRecipe(<ore:oreGlass>.materialPart, <minecraft:stone>, <liquid:glass>, 4000);
+Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
+Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearStone>, <liquid:alubrass>, 144, true, 200);
 }

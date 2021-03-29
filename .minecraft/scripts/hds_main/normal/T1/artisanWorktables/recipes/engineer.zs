@@ -12,16 +12,16 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:ingotBronze>, null, <ore:ingotBronze>],
     [<ore:ingotBronze>, <pyrotech:brick_kiln>, <ore:ingotBronze>],
-    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]])
+    [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>]])
   .addTool(<ore:artisansDriver>, 20)
   .addOutput(<prodigytech:solid_fuel_aeroheater>)
   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:ingotBronze>, null, <ore:ingotBronze>],
+    [<pyrotech:material:5>, null, <pyrotech:material:5>],
     [<ore:gearBronze>, <ore:gearBronze>, <ore:gearBronze>],
-    [<ore:ingotBronze>, null, <ore:ingotBronze>]])
+    [<pyrotech:material:5>, null, <pyrotech:material:5>]])
   .addTool(<ore:artisansSpanner>, 50)
   .addOutput(<prodigytech:rotary_grinder>)
   .create();

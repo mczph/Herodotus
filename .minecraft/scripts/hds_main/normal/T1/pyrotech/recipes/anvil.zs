@@ -17,11 +17,11 @@ rAllPyroAnvil(<minecraft:coal>);
 allPyroAnvil("blue_square", <ore:rockLead>.materialPart, <ore:squareBlue>, 6, "hammer");
 allPyroAnvil("rock_lead", <ore:crushedOreLead>.materialPart, <ore:rockLead>, 6, "pickaxe");
 
-allPyroAnvil("yellow_square", <ore:rockCopper>.materialPart, <ore:squareYellow>, 6, "hammer");
-allPyroAnvil("rock_copper", <ore:crushedOreCopper>.materialPart, <ore:rockCopper>, 6, "pickaxe");
+allPyroAnvil("yellow_square", <ore:rockCopper>.materialPart, <ore:squareYellow>, 4, "hammer");
+allPyroAnvil("rock_copper", <ore:crushedOreCopper>.materialPart, <ore:rockCopper>, 4, "pickaxe");
 
-allPyroAnvil("blue_cicrle", <ore:rockTin>.materialPart, <ore:sphericalBlue>, 6, "hammer");
-allPyroAnvil("rock_tin", <ore:crushedOreTin>.materialPart, <ore:rockTin>, 6, "pickaxe");
+allPyroAnvil("blue_cicrle", <ore:rockTin>.materialPart, <ore:sphericalBlue>, 4, "hammer");
+allPyroAnvil("rock_tin", <ore:crushedOreTin>.materialPart, <ore:rockTin>, 4, "pickaxe");
 
 allPyroAnvil("copper", <ore:dustSmallCopper>.materialPart, <ore:shardCopper>, 6, "hammer");
 allPyroAnvil("tin", <ore:dustSmallTin>.materialPart, <ore:shardTin>, 6, "hammer");
