@@ -16,7 +16,7 @@ RecipeBuilder.get("engineer")
   .create();
 
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
-for i in 0 .. 16 {
+for i in 0 .. 15 {
 	val worktable as IItemStack = worktableDef.makeStack(i);
 	print(worktable.name);
 	val type as string = worktable.name.split("\\.")[3];
