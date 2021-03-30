@@ -9,4 +9,5 @@ if (!isInvalid){
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/journal");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/lightwell");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_linking");
+Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/glasslens");
 }

@@ -62,5 +62,40 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansDriver>, 80)
   .addOutput(<prodigytech:energion_aeroheater>)
   .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<pyrotech:material:23>, <pyrotech:material:23>, <pyrotech:material:23>],
+    [<pyrotech:material:5>, null, <pyrotech:material:5>],
+    [<pyrotech:material:5>, null, <pyrotech:material:5>]])
+  .addTool(<ore:artisansDriver>, 30)
+  .addOutput(<tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}))
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>],
+    [<pyrotech:material:23>, null, <pyrotech:material:23>],
+    [<pyrotech:material:23>, null, <pyrotech:material:23>]])
+  .addTool(<ore:artisansDriver>, 30)
+  .addOutput(<tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}))
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<tconstruct:pattern>],
+    [<pyrotech:crate_stone>]])
+  .addTool(<ore:artisansDriver>, 30)
+  .addOutput(<tconstruct:tooltables:4>)
+  .create();
   
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<pyrotech:material:23>, <pyrotech:material:23>, <pyrotech:material:23>],
+    [<pyrotech:material:5>, <artisanworkstumps:workstump_basic>, <pyrotech:material:5>],
+    [<pyrotech:material:5>, null, <pyrotech:material:5>]])
+  .addTool(<ore:artisansDriver>, 1)
+  .addOutput(<tconstruct:tooltables:3>)
+  .create();
+
 }

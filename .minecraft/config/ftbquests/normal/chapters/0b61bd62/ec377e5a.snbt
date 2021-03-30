@@ -1,0 +1,17 @@
+{
+	x: 21.0d,
+	y: 5.0d,
+	text: [
+		"强化玻璃瓶可以存储小于一桶的任意数量的流体，并且有安全的存储汞的能力。"
+	],
+	dependencies: [
+		"e9c318a9"
+	],
+	tasks: [{
+		uid: "9dcbcb7a",
+		type: "item",
+		items: [{
+			item: "hdsutils:refined_bottle"
+		}]
+	}]
+}

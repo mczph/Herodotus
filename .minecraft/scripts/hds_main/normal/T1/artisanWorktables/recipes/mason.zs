@@ -129,4 +129,13 @@ RecipeBuilder.get("mason")
     .addTool(<ore:artisansTrowel>, 10)
     .addOutput(<contenttweaker:yellow_spherical_block>)
     .create();
+
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<ore:dustQuartz>, <ore:dustBronze>, <ore:dustQuartz>],
+    [<tconstruct:clear_glass>, <ore:dustQuartz>, <tconstruct:clear_glass>],
+    [null, <tconstruct:clear_glass>, null]])
+  .addTool(<ore:artisansBurner>, 80)
+  .addOutput(<hdsutils:refined_bottle>)
+  .create();
 }

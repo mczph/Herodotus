@@ -26,5 +26,6 @@ for i in 0 .. 15 {
             [<ore:lightPlateLead>, workstump, <ore:lightPlateLead>],
             [<pyrotech:refractory_brick_block>, <ore:lightPlateLead>, <pyrotech:refractory_brick_block>]])
         .addOutput(worktable)
+        .addTool(<ore:artisansSpanner>, 50)
         .create();
 }

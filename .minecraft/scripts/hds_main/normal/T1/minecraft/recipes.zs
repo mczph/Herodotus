@@ -42,6 +42,11 @@ RecipeUtils.recipeTweak(false, <ore:dustBronze>.materialPart*4,[
     [<ore:dustTin>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]
 ]);
 
+RecipeUtils.recipeTweak(false, <tconstruct:pattern> * 4, [
+    [<pyrotech:material:20>, <pyrotech:material:13>],
+    [<pyrotech:material:13>, <pyrotech:material:20>]
+]);
+
 RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
     [<ore:plateBronze>.materialPart, null, <ore:plateBronze>.materialPart],
     [<ore:plateBronze>.materialPart, <pyrotech:mechanical_hopper>, <ore:plateBronze>.materialPart],
@@ -65,7 +70,7 @@ for brick, stone in pyrotechDevices {
 
 RecipeUtils.recipeTweak(true, <pyrotech:anvil_iron_plated>, [
     [<ore:stoneMarble>, <ore:stoneMarble>, <ore:stoneMarble>],
-    [<ore:stoneGranitePolished>, <ore:stoneGranitePolished>, <ore:stoneGranitePolished>],
+    [<minecraft:stone:2>, <minecraft:stone:2>, <minecraft:stone:2>],
     [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
 ]);
 
