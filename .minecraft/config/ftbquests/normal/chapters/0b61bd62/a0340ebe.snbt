@@ -2,7 +2,7 @@
 	x: 28.5d,
 	y: 7.25d,
 	text: [
-		"在正午手持铜锭或在午夜手持铁锭右键祭坛获取随机数量的金粒。"
+		"{herodotus.quests.a0340ebe.text.1}"
 	],
 	dependencies: [
 		"e6db9460"
