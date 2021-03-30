@@ -42,7 +42,7 @@ RecipeUtils.recipeTweak(false, <ore:dustBronze>.materialPart*4,[
     [<ore:dustTin>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]
 ]);
 
-RecipeUtils.recipeTweak(false, <tconstruct:pattern> * 4, [
+RecipeUtils.recipeTweak(true, <tconstruct:pattern> * 4, [
     [<pyrotech:material:20>, <pyrotech:material:13>],
     [<pyrotech:material:13>, <pyrotech:material:20>]
 ]);
