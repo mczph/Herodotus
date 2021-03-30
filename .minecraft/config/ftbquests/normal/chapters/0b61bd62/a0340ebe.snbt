@@ -1,0 +1,17 @@
+{
+	x: 28.5d,
+	y: 7.25d,
+	text: [
+		"在正午手持铜锭或在午夜手持铁锭右键祭坛获取随机数量的金粒。"
+	],
+	dependencies: [
+		"e6db9460"
+	],
+	tasks: [{
+		uid: "04b147cf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:altar"
+		}]
+	}]
+}

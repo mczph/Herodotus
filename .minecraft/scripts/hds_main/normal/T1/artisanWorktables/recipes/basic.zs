@@ -33,7 +33,7 @@ RecipeBuilder.get("basic")
 	    [<ore:ingotBronze>, <ore:gearBronze>, <ore:ingotBronze>],
 	    [<ore:plankWood>, <pyrotech:worktable>, <ore:plankWood>],
 	    [<ore:ingotBronze>, <pyrotech:stash>, <ore:ingotBronze>]])
-    .setFluid(<liquid:clay>*576)
+    .setFluid(<liquid:red_t2> * 1000)
     .addTool(<ore:artisansHammer>, 75)
     .addOutput(<artisanworkstumps:workstump_engineer>)
     .create();

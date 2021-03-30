@@ -9,14 +9,6 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if (!isInvalid) {
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:plateCopper>, null, <ore:plateCopper>],
-    [null, <ore:plateCopper>, null]])
-  .addTool(<ore:artisansHammer>, 12)
-  .addOutput(<hdsutils:copper_bucket>)
-  .create();
-
-RecipeBuilder.get("blacksmith")
-  .setShaped([
     [<ore:plateIron>, null, <ore:plateIron>],
     [null, <ore:plateIron>, null]])
   .addTool(<ore:artisansHammer>, 15)

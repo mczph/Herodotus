@@ -1,19 +1,19 @@
 {
-	x: 21.25d,
-	y: 4.25d,
+	x: 27.0d,
+	y: 4.75d,
 	dependencies: [
-		"e9c318a9"
+		"3c3bbee4"
 	],
 	tasks: [{
-		uid: "0786424f",
+		uid: "97f2a422",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "astralsorcery:itemjournal"
+			id: "hdsutils:copper_bucket"
 		}],
 		ignore_damage: true,
-		ignore_nbt: 2b
+		ignore_nbt: 1b
 	}]
 }
