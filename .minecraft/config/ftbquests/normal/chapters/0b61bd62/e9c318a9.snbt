@@ -13,5 +13,10 @@
 		items: [{
 			item: "artisanworkstumps:workstump_mage"
 		}]
+	}],
+	rewards: [{
+		uid: "172b5033",
+		type: "xp",
+		xp: 1000
 	}]
 }
