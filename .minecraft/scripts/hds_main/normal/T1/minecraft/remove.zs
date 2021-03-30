@@ -34,6 +34,7 @@ val removeByOutput as IItemStack[] = [
     <minecraft:bucket>,
     <minecraft:cauldron>,
     <minecraft:chest>,
+    <minecraft:furnace>,
     <actuallyadditions:block_giant_chest>,
     <actuallyadditions:block_giant_chest_medium>,
     <actuallyadditions:block_giant_chest_large>
@@ -70,7 +71,17 @@ for name in removeByRecipeName {
 for id in removeByModid {
     recipes.removeByMod(id);
 }
-//damn furnace
-furnace.removeAll();
+
+for recipe in furnace.all {
+    if (!recipe.output.isFood) {
+        furnace.remove(recipe.output);
+    }
+}
+
+// mob drops
+<entity:minecraft:zombie>.removeDrop(<minecraft:iron_ingot>);
+<entity:minecraft:witch>.removeDrop(<minecraft:redstone>);
+<entity:minecraft:witch>.removeDrop(<minecraft:glowstone_dust>);
+<entity:minecraft:villager_golem>.clearDrops();
 
 }
