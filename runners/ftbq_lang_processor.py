@@ -38,7 +38,7 @@ def read_snbt(full_path, file_name):
         for key in should_replace_key:
             if (line.lstrip().startswith(key)):
                 replace_with_lang_key(line, key, f_list, i, file_name)
-        if (line.lstrip().startswith("text")):
+        if (line.lstrip().startswith("text:")):
             flag = True
     f = open(full_path, "w+", encoding="utf-8")
     f.writelines(f_list)
