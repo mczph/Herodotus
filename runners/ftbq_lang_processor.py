@@ -55,6 +55,8 @@ def replace_with_lang_key(line, key, f_list, index, file_name):
 
 def write_lang(path):
     copy = context_dict.copy()
+    if (len(copy) == 0):
+        return
     to_append_entries = []
     f = open(path, "r+", encoding='utf-8')
     f_list = f.readlines()
