@@ -18,15 +18,6 @@ Dropt.list("remove_from_grass")
       .replaceStrategy("REPLACE_ITEMS")
       .addDrop(Dropt.drop())
   );
-Dropt.list("no_wood_punching")
-  .add(Dropt.rule()
-      .matchBlocks(["minecraft:dirt:*"])
-      .matchHarvester(Dropt.harvester()
-          .type("PLAYER")
-          .mainHand("BLACKLIST", [], "axe;0;-1")
-      )
-      .addDrop(Dropt.drop())
-  );
 
 //Add
 geometryOreDropt("rhombus",
