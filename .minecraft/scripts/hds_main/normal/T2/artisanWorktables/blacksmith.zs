@@ -27,7 +27,7 @@ RecipeBuilder.get("blacksmith")
   .setShaped([
     [<ore:ingotIron>, <ore:lightPlateIron>, <ore:ingotIron>],
     [<ore:ingotIron>, <magneticraft:crafting:2>, <ore:ingotIron>],
-    [<contenttweaker:material_part:672>, <contenttweaker:material_part:1053>, <contenttweaker:material_part:672>]])
+    [<ore:ingotLead>, <ore:lightPlateLead>, <ore:ingotLead>]])
   .addTool(<contenttweaker:hot_air_solderer>, 200)
   .addOutput(<magneticraft:multiblock_parts>)
   .create();

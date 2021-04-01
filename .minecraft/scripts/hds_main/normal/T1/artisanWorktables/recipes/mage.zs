@@ -93,9 +93,9 @@ RecipeBuilder.get("mage")
 
 RecipeBuilder.get("mage")
     .setShaped([
-        [null, null, <contenttweaker:material_part:1016>],
-        [null, <tconstruct:tool_rod>.withTag({Material: "iron"}), null],
-        [<tconstruct:tool_rod>.withTag({Material: "iron"}), null, null]])
+        [null, null, <ore:gemFlawedQuartz>],
+        [null, <ore:rodLongIron>, null],
+        [<ore:rodLongIron>, null, null]])
     .addTool(<ore:artisansAthame>, 75)
     .setFluid(<liquid:glass> * 1000)
     .addOutput(<astralsorcery:itemlinkingtool>)

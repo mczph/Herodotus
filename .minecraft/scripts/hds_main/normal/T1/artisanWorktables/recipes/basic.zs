@@ -54,18 +54,6 @@ RecipeBuilder.get("basic")
 	    [<pyrotech:material:25>, <pyrotech:worktable>, <pyrotech:material:25>],
 	    [<ore:plankWood>, <pyrotech:stash>, <ore:plankWood>]])
     .setFluid(<liquid:lava> * 1000)
-    .setRecipeFunction(function(out, ins, info) {
-        if (isNull(info.player)) {
-	        return out;
-	    } else {
-            return (info.player.getTotalXP() >= 1000 && info.player.health > 16.0f) ? out : null;
-        }
-    })
-    .setRecipeAction(function(out, info, player) {
-        if (isNull(player) || player.world.remote) return;
-        player.attackEntityFrom(<damageSource:MAGIC>, 16.0f);
-        player.removeXP(1000);
-    })
     .addTool(<ore:artisansAthame>, 150)
     .addOutput(<artisanworkstumps:workstump_mage>)
     .create();
