@@ -13,7 +13,7 @@ if(!isInvalid){
 //Remove
 Dropt.list("remove_from_grass")
   .add(Dropt.rule()
-      .matchBlocks(["minecraft:double_plant:2", "minecraft:tallgrass:1"])
+      .matchBlocks(["minecraft:double_plant:2", "minecraft:double_plant:1", "minecraft:double_plant:0", "minecraft:tallgrass:1", "minecraft:tallgrass:0"])
       .matchDrops([<teslathingies:tesla_plant_seeds>])
       .replaceStrategy("REPLACE_ITEMS")
       .addDrop(Dropt.drop())
