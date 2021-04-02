@@ -6,10 +6,17 @@ item.contenttweaker.spherical.name=灰色球形
 item.contenttweaker.polished_square.name=抛光方形
 item.contenttweaker.polished_rhombus.name=抛光菱形
 item.contenttweaker.polished_spherical.name=抛光球形
+item.contenttweaker.square_polluted.name=污染方形
+item.contenttweaker.rhombus_polluted.name=污染菱形
+item.contenttweaker.spherical_polluted.name=污染球形
+item.contenttweaker.square_recrystallized.name=重结晶方形
+item.contenttweaker.rhombus_recrystallized.name=重结晶菱形
+item.contenttweaker.spherical_recrystallized.name=重结晶球形
 item.contenttweaker.sandpaper.name=砂纸
 item.contenttweaker.brass_dust.name=黄铜粉
 item.contenttweaker.dark_energion_crystal_seed.name=暗淡的能量种子
 item.contenttweaker.hot_air_solderer.name=热空气焊铁
+item.contenttweaker.black_dye.name=黑色油性染料
 item.contenttweaker.astral_lens.name=星芒透镜
 tile.contenttweaker.altar.name=日月祭坛
 
@@ -25,6 +32,9 @@ contenttweaker.part.spherical_cover=%s粉覆盖的球形
 contenttweaker.part.square_cover=%s粉覆盖的方形
 contenttweaker.part.four_nuggets=四%s粒
 contenttweaker.part.light_plate=轻薄%s板
+contenttweaker.part.rhombus_tier_two=二级%s菱形
+contenttweaker.part.spherical_tier_two=二级%s球形
+contenttweaker.part.square_tier_two=二级%s方形
 
 base.material.bronze=青铜
 

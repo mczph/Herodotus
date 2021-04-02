@@ -6,7 +6,9 @@ import scripts.grassUtils.classes.MaterialSystemHelper.MaterialSystemHelper;
 
 //registerParts
 val registerPartsArray as string[] = [
-    "rhombus", "spherical", "square", "fourNuggets", "rhombusCover", "sphericalCover", "squareCover", "lightPlate"
+    "rhombus", "spherical", "square", "fourNuggets", "lightPlate",
+    "rhombusCover", "sphericalCover", "squareCover",
+    "rhombusTierTwo", "sphericalTierTwo", "squareTierTwo"
 ];
 val register as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("registerPart");
 for name in registerPartsArray{
@@ -31,8 +33,10 @@ static allPartsMap as string[][int] = {
         "block", "shard", "molten", "dust",
         "crushed_ore", "ore", "small_dust", "clump",
         "purified_ore", "poor_ore", "ore_sample", "dense_ore",
-        "ingot", "tiny_dust", "rhombus", "spherical", "square",
-        "rhombusCover", "sphericalCover", "squareCover"
+        "ingot", "tiny_dust", 
+        "rhombus", "spherical", "square",
+        "rhombusCover", "sphericalCover", "squareCover",
+        "rhombusTierTwo", "sphericalTierTwo", "squareTierTwo"
     ],
     1 : [//geometryOre
         // "rhombus", "spherical", "square",
@@ -130,7 +134,7 @@ static dyelist as int[string] = {
     "blue_t1" : 0x10aadd,
     "red_t2" : 0xff2400,
     "yellow_t2": 0xebcc14,
-    "blue_t2": 0x3018cf
+    "blue_t2": 0x3018cf,
 };
 
 static plainItemIDs as string[] = [
@@ -140,5 +144,13 @@ static plainItemIDs as string[] = [
     "square",
     "rhombus",
     "spherical",
-    "dark_energion_crystal_seed"
+    "rhombus_polluted",
+    "spherical_polluted",
+    "square_polluted",
+    "rhombus_recrystallized",
+    "spherical_recrystallized",
+    "square_recrystallized",
+    "dark_energion_crystal_seed",
+    "black_dye",
+    "primordium_shard"
 ];

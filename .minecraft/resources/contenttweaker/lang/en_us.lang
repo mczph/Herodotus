@@ -11,6 +11,10 @@ item.contenttweaker.brass_dust.name=Brass Dust
 item.contenttweaker.hot_air_solderer.name=Hot Air Solderer
 item.contenttweaker.dark_energion_crystal_seed.name=Gloomy Energion Crystal Seed
 item.contenttweaker.astral_lens.name=Astral Lens
+item.contenttweaker.square_polluted.name=Polluted Square
+item.contenttweaker.rhombus_polluted.name=Polluted Rhombus
+item.contenttweaker.spherical_polluted.name=Polluted Spherical
+item.contenttweaker.black_dye.name=Black Oily Dye
 tile.contenttweaker.altar.name=Sun-Moon Altar
 
 tile.contenttweaker.starlight_frame.name=Starlight Frame
@@ -25,6 +29,9 @@ contenttweaker.part.spherical_cover=%s Dust Convered Spherical
 contenttweaker.part.square_cover=%s Dust Convered Square
 contenttweaker.part.four_nuggets=Four %s Nuggets
 contenttweaker.part.light_plate=Light %s Plate
+contenttweaker.part.rhombus_tier_two=%s Rhombus (Tier Two)
+contenttweaker.part.spherical_tier_two=%s Spherical (Tier Two)
+contenttweaker.part.square_tier_two=%s Square (Tier Two)
 
 base.material.bronze=Bronze
 base.material.red=Red
