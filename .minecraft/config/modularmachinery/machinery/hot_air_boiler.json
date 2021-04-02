@@ -1,15 +1,14 @@
 {
-    "registryname": "heavy_energy_boiler",
-    "localizedname":"herodotus.mm.heavy_energy_boiler.name",
+    "registryname": "hot_air_boiler",
+    "localizedname":"placeholder",
     "color": "535353",
-    "controller":"hdsutils:mm_controller",
     "parts": [
         {
             "x": -1,
             "y": 0,
             "z": 0,
             "elements": [
-                "magneticraft:multiblock_column@0"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -17,7 +16,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@1"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -25,7 +24,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch@1"
+                "magneticraft:multiblock_parts@3"
             ]
         },
         {
@@ -37,11 +36,19 @@
             ]
         },
         {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modulardiversity:blockhotairinputhatch"
+            ]
+        },
+        {
             "x": 1,
             "y": 0,
             "z": 0,
             "elements": [
-                "magneticraft:multiblock_column@0"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -49,7 +56,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "magneticraft:multiblock_column@0"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -65,7 +72,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -73,7 +80,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "magneticraft:multiblock_parts@5"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -81,15 +88,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "magneticraft:multiblock_column@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "magneticraft:multiblock_column@0"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -97,15 +96,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "magneticraft:multiblock_column@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "magneticraft:multiblock_column@0"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -113,7 +104,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "magneticraft:multiblock_column@1"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -121,23 +112,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "magneticraft:multiblock_parts@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "minecraft:brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "magneticraft:multiblock_column@0"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -149,19 +124,11 @@
             ]
         },
         {
-            "x": -1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "magneticraft:multiblock_column@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 3,
             "z": 2,
             "elements": [
-                "magneticraft:multiblock_column@2"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -169,15 +136,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "magneticraft:multiblock_column@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "magneticraft:multiblock_column@0"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -185,7 +144,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "magneticraft:multiblock_parts@5"
+                "magneticraft:multiblock_parts@3"
             ]
         },
         {
@@ -193,15 +152,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "magneticraft:multiblock_parts@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "magneticraft:multiblock_column@0"
+                "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {
@@ -225,7 +176,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "magneticraft:multiblock_parts@5"
+                "magneticraft:multiblock_parts@3"
             ]
         },
         {
@@ -233,60 +184,12 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "magneticraft:multiblock_parts@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "minecraft:brick_block@0"
+                "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
             "x": 1,
             "y": 1,
-            "z": 2,
-            "elements": [
-                "magneticraft:multiblock_column@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "magneticraft:multiblock_parts@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "magneticraft:multiblock_column@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "minecraft:brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "minecraft:brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
             "z": 2,
             "elements": [
                 "magneticraft:multiblock_column@0"
@@ -313,7 +216,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "magneticraft:multiblock_parts@5"
+                "magneticraft:multiblock_parts@3"
             ]
         },
         {
@@ -332,4 +235,5 @@
                 "magneticraft:multiblock_column@0"
             ]
         }
-    ]}
+    ]
+}
