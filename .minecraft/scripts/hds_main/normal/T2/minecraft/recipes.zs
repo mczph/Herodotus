@@ -13,4 +13,6 @@ RecipeUtils.recipeTweak(true, <magneticraft:iron_pipe>*6,[
 	[null, <ore:ingotIron>, null]
 ]);
 
+RecipeUtils.recipeTweak(true, <contenttweaker:primordium_shard> * 48, [[<prodigytech:primordium>]]);
+
 }

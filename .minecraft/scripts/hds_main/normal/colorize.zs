@@ -14,15 +14,20 @@ import mods.pyrotech.BrickCrucible;
 import mods.pyrotech.BrickKiln;
 import mods.tconstruct.Casting;
 import mods.prodigytech.rotarygrinder;
+import mods.pneumaticcraft.pressurechamber;
 import scripts.grassUtils.StringHelper;
 import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
 import scripts.hds_main.utils.modloader.isInvalid;
 
-val colors as string[] = ["red", "yellow", "blue"];
-val shapes as string[] = ["rhombus", "spherical", "square"];
+static colors as string[] = ["red", "yellow", "blue"];
+static shapes as string[] = ["rhombus", "spherical", "square"];
 
 function getColorEssences(color as string, tier as int) as ILiquidStack {
     return game.getLiquid(color ~ "_t" ~ tier);
+}
+
+function getShapeVariant(shape as string, variant as string) as IItemStack {
+    return itemUtils.getItem("contenttweaker:" + shape + "_" + variant);
 }
 
 function getColorlessShape(shape as string) as IOreDictEntry {
@@ -70,9 +75,11 @@ for color in colors {
     
     for shape in shapes {
         var output as IItemStack = oreDict.get(shape ~ od).materialPart;
+        var output2 as IItemStack = oreDict.get(shape ~ "TierTwo" ~ od).materialPart;
         var input1 as IOreDictEntry = getColorlessShape(shape);
         var input2 as IItemStack = itemUtils.getItem("contenttweaker:polished_" ~ shape);
         var input3 as IOreDictEntry = oreDict.get(shape ~ "Cover" ~ od);
+        var input4 as IItemStack = getShapeVariant(shape, "polluted");
         SoakingPot.addRecipe(shape ~ "_soaking_" ~ color, output, fluidTier1*500, input1, true, 4.5*60*20);
         Casting.addTableRecipe(output, input2, fluidTier2, 250, true, 20 * 20);
         RecipeBuilder.get("mason")
@@ -81,6 +88,8 @@ for color in colors {
             .addOutput(input3.materialPart)
             .create();
         BrickKiln.addRecipe(shape ~ "_kiln_" ~ color, output, input3, 2.5 * 60 * 20);
+        pressurechamber.addRecipe([input4, dust, <contenttweaker:primordium_shard>], 0.0 - 0.5, [output2, <thermalfoundation:material:833>]);
+        pressurechamber.addRecipe([input4 * 48, dust.materialPart * 48, <prodigytech:primordium>], 0.0 - 0.5, [output2 * 48, <thermalfoundation:material:833> * 48]);
     }
 }
 }
