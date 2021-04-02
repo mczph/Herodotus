@@ -44,6 +44,7 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         val densePlate as IOreDictEntry = oreDict.get("densePlate" ~ name);
         val rod as IOreDictEntry = oreDict.get("rod" ~ name);
         val rodLong as IOreDictEntry = oreDict.get("rodLong" ~ name);
+        val oreSample as IOreDictEntry = oreDict.get("oreSample" ~ name);
         val molten as ILiquidStack = game.getLiquid(nameSnake);
 
         //oredict translate
@@ -93,6 +94,10 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
                 .addOutput(rodLong.materialPart)
                 .create();
         }
+        if (!oreSample.empty && !dustSmall.empty && nameSnake == "red" || nameSnake == "blue" || nameSnake == "yellow") {
+            allPyroAnvil("oresample_to_dustsmall_" ~ nameSnake, dustSmall.materialPart, oreSample, 3, "hammer");
+        }
+
 
     } else if (item.ores[0].name.startsWith("cluster")) {
         val name as string = item.ores[0].name.substring("cluster".length);
