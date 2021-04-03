@@ -8,6 +8,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 //something that recipeutils can't do or just remove
 val removeByOutput as IItemStack[] = [
+    <tconstruct:smeltery_controller>,
     <mekanism:transmitter>,
     <factorytech:pipe>,
     <embers:item_pipe>,

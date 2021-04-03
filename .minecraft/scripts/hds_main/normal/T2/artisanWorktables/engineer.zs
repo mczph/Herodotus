@@ -15,6 +15,15 @@ RecipeBuilder.get("engineer")
   .addOutput(<magneticraft:multiblock_parts:4>)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>],
+    [<ore:ingotBrickSeared>, <ore:gemEnergion>, <ore:ingotBrickSeared>],
+    [<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>]])
+  .addTool(<ore:artisansDriver>, 50)
+  .addOutput(<tconstruct:smeltery_controller>)
+  .create();
+
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
 for i in 0 .. 15 {
     val worktable as IItemStack = worktableDef.makeStack(i);

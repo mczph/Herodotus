@@ -77,3 +77,12 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworkstumps:workstump_tanner>)
   .addTool(<ore:artisansFramingHammer>, 75)
 .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<pyrotech:material:20>, <pyrotech:material:20>, <pyrotech:material:20>],
+    [<pyrotech:material:20>, <ore:ingotIron>, <pyrotech:material:20>],
+    [<pyrotech:material:20>, <pyrotech:material:20>, <pyrotech:material:20>]])
+  .addTool(<ore:artisansFramingHammer>, 30)
+  .addOutput(<minecraft:chest>)
+  .create();
