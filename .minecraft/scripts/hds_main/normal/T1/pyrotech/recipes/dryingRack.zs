@@ -14,4 +14,6 @@ allDryingRack("dry_that_fiber", <pyrotech:material:13>, <pyrotech:material:12>, 
 
 rAllPyroDr(<minecraft:wheat>);
 allDryingRack("dry_that_straw", <pyrotech:material:2>, <minecraft:wheat>, 20*20);
+
+allDryingRack("dry_that_leather", <improvedbackpacks:tanned_leather>, <improvedbackpacks:bound_leather>, 30*20);
 }

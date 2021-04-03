@@ -5,7 +5,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemDefinition;
 import mods.artisanworktables.builder.RecipeBuilder;
+import scripts.hds_main.utils.modloader.isInvalid;
 
+if(!isInvalid){
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:ingotIron>, <magneticraft:crafting:3>, <ore:ingotIron>],
@@ -37,4 +39,5 @@ for i in 0 .. 15 {
         .addOutput(worktable)
         .addTool(<ore:artisansSpanner>, 50)
         .create();
+}
 }

@@ -4,7 +4,9 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
+import scripts.hds_main.utils.modloader.isInvalid;
 
+if(!isInvalid){
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:barsIron>, null],
@@ -51,3 +53,4 @@ RecipeBuilder.get("blacksmith")
   .addTool(<contenttweaker:hot_air_solderer>, 1)
   .addOutput(<magneticraft:multiblock_column> * 4)
   .create();
+}

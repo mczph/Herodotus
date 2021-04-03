@@ -17,10 +17,9 @@ import mods.prodigytech.rotarygrinder;
 import mods.pneumaticcraft.pressurechamber;
 import scripts.grassUtils.StringHelper;
 import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
+import scripts.hds_lib.crtlib;
 import scripts.hds_main.utils.modloader.isInvalid;
 
-static colors as string[] = ["red", "yellow", "blue"];
-static shapes as string[] = ["rhombus", "spherical", "square"];
 
 function getColorEssences(color as string, tier as int) as ILiquidStack {
     return game.getLiquid(color ~ "_t" ~ tier);
@@ -46,7 +45,7 @@ function getColorlessShape(shape as string) as IOreDictEntry {
 
 if (!isInvalid){
 
-for color in colors {
+for color in crtlib.colors {
     val od as string = StringHelper.toUpperCamelCase(color);
     val ore as IOreDictEntry = oreDict.get("ore" ~ od);
     val poorOre as IOreDictEntry = oreDict.get("poorOre" ~ od);
@@ -73,7 +72,7 @@ for color in colors {
     // remove other dust crafting
     mods.astralsorcery.Grindstone.removeRecipe(dust.materialPart);
     
-    for shape in shapes {
+    for shape in crtlib.shapes {
         var output as IItemStack = oreDict.get(shape ~ od).materialPart;
         var output2 as IItemStack = oreDict.get(shape ~ "TierTwo" ~ od).materialPart;
         var input1 as IOreDictEntry = getColorlessShape(shape);

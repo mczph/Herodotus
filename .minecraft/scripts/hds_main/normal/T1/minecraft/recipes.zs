@@ -86,6 +86,10 @@ recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(fu
     return item.definition.owner == "prodigytech" && (item.ores.length == 0 || !item.ores[0].name.contains("Ferramic"));
 }));
 
+recipes.replaceAllOccurences(<bibliocraft:framingsaw>, <ore:artisansHandsaw>, <*>.only(function(item) {
+    return item.definition.owner == "bibliocraft";
+}));
+
 recipes.replaceAllOccurences(<ore:gearFerramic>, <ore:gearBronze>, <*>.only(function(item) {
     return item.definition.owner == "prodigytech";
 }));

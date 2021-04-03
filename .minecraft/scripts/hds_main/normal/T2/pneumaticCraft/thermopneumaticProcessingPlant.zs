@@ -4,6 +4,9 @@
 import mods.pneumaticcraft.thermopneumaticprocessingplant;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
+import scripts.hds_main.utils.modloader.isInvalid;
+
+if(!isInvalid){
 
 val map as IItemStack[ILiquidStack] = {
     <liquid:rhombus_plastic> : <contenttweaker:rhombus>,
@@ -13,4 +16,5 @@ val map as IItemStack[ILiquidStack] = {
 
 for liquid, item in map {
     thermopneumaticprocessingplant.addRecipe(<liquid:plastic> * 125, item, 1.8, 373, liquid * 250);
+}
 }

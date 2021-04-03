@@ -37,7 +37,11 @@ val removeByOutput as IItemStack[] = [
     <minecraft:furnace>,
     <actuallyadditions:block_giant_chest>,
     <actuallyadditions:block_giant_chest_medium>,
-    <actuallyadditions:block_giant_chest_large>
+    <actuallyadditions:block_giant_chest_large>,
+    <bibliocraft:typesettingtable>,
+    <bibliocraft:printingpress>,
+    <bibliocraft:bibliochase>,
+    <bibliocraft:printplate>
 ];
 
 val removeByRecipeName as string[] = [
