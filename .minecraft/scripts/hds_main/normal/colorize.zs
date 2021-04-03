@@ -91,10 +91,4 @@ for color in crtlib.colors {
         pressurechamber.addRecipe([input4 * 48, dust.materialPart * 48, <prodigytech:primordium>], 0.0 - 0.5, [output2 * 48, <thermalfoundation:material:833> * 48]);
     }
 }
-
-// misc
-
-FluidToItem.transform(<contenttweaker:black_dye> * 3, getColorEssences("red", 2), [<ore:clumpYellow>, <ore:clumpBlue>], true);
-FluidToItem.transform(<contenttweaker:black_dye> * 3, getColorEssences("yellow", 2), [<ore:clumpRed>, <ore:clumpBlue>], true);
-FluidToItem.transform(<contenttweaker:black_dye> * 3, getColorEssences("blue", 2), [<ore:clumpRed>, <ore:clumpYellow>], true);
 }

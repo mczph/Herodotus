@@ -24,6 +24,8 @@ if(!isInvalid){
 // unidict
 mods.unidict.removalByKind.get("Crafting").remove("plate");
 mods.unidict.removalByKind.get("Crafting").remove("gear");
+mods.unidict.removalByKind.get("Furnace").remove("ingot");
+
 
 for item in <item:contenttweaker:material_part>.definition.subItems {
     if (item.ores[0].name.startsWith("ingot")) { // metal
