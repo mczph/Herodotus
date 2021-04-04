@@ -1,0 +1,15 @@
+{
+	x: -0.25d,
+	y: -0.25d,
+	dependencies: [
+		"42c05de6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7b9084b2",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_dust"
+		}]
+	}]
+}

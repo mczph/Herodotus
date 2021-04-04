@@ -1,0 +1,16 @@
+{
+	x: 31.5d,
+	y: 11.75d,
+	shape: "hexagon2",
+	dependencies: [
+		"f924aa46"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d4898969",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_aeroheater"
+		}]
+	}]
+}
