@@ -190,7 +190,6 @@
   "crafttweakerjei": "2.0.3",
   "aireducer": "0.2.1",
   "enderiomachines": "5.2.66",
-  "jehc": "1.7.2",
   "mtlib": "3.0.6",
   "artisanworkstumps": "1.12.2-1.1.4",
   "advancedrocketry": "1.7.0.-240",
