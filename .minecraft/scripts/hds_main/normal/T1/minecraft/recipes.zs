@@ -4,6 +4,7 @@
 
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
+import crafttweaker.item.IItemDefinition;
 import scripts.hds_main.utils.modloader.isInvalid;
 import scripts.grassUtils.RecipeUtils.createCrossWithCore;
 
@@ -73,6 +74,26 @@ RecipeUtils.recipeTweak(true, <pyrotech:anvil_iron_plated>, [
     [<minecraft:stone:2>, <minecraft:stone:2>, <minecraft:stone:2>],
     [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
 ]);
+
+RecipeUtils.recipeTweak(true, <bibliocraft:framedchest:6>, [
+    [<bibliocraft:framingsheet>, <bibliocraft:framingsheet>, <bibliocraft:framingsheet>],
+    [<bibliocraft:framingsheet>, <bibliocraft:label:6>, <bibliocraft:framingsheet>],
+    [<bibliocraft:framingsheet>, <minecraft:chest>, <bibliocraft:framingsheet>]
+]);
+
+val vPlankDef as IItemDefinition = <minecraft:planks>.definition;
+val bbChestDef as IItemDefinition = <bibliocraft:framedchest>.definition;
+val bbLableDef as IItemDefinition = <bibliocraft:label>.definition;
+for i in 0 .. 6{
+    val plank as IItemStack = vPlankDef.makeStack(i);
+    val lable as IItemStack = bbLableDef.makeStack(i);
+    val out as IItemStack = bbChestDef.makeStack(i);
+    RecipeUtils.recipeTweak(true, out, [
+        [plank, plank, plank],
+        [plank, lable, plank],
+        [plank, <ore:chestWood>, plank]
+    ]);
+}
 
 recipes.addShapeless("tiny_bronze_dust", <ore:dustTinyBronze>.materialPart * 4, [
     <ore:dustTinyCopper>, <ore:dustTinyCopper>, <ore:dustTinyCopper>, <ore:dustTinyTin>
