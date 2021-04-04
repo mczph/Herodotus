@@ -15,4 +15,5 @@ FluidToItem.transform(<prodigytech:energion_dust>, <liquid:astralsorcery.liquids
 FluidToItem.transform(<contenttweaker:black_dye> * 3, colorize.getColorEssences("red", 2), [<ore:clumpYellow>, <ore:clumpBlue>], true);
 FluidToItem.transform(<contenttweaker:black_dye> * 3, colorize.getColorEssences("yellow", 2), [<ore:clumpRed>, <ore:clumpBlue>], true);
 FluidToItem.transform(<contenttweaker:black_dye> * 3, colorize.getColorEssences("blue", 2), [<ore:clumpRed>, <ore:clumpYellow>], true);
+FluidToItem.transform(<contenttweaker:impure_gel>, <liquid:limewater>, [<contenttweaker:sticky_gel>], true);
 }

@@ -76,10 +76,16 @@ for id in removeByModid {
     recipes.removeByMod(id);
 }
 
+val foodMap as IItemStack[IItemStack] = {};
 for recipe in furnace.all {
-    if (!recipe.output.isFood) {
-        furnace.remove(recipe.output);
+    if (recipe.output.isFood) {
+        foodMap[recipe.input] = recipe.output;
     }
+}
+
+furnace.removeAll();
+for input, output in foodMap {
+    furnace.addRecipe(output, input);
 }
 
 // mob drops

@@ -11,7 +11,7 @@ if(!isInvalid){
 val map as IItemStack[ILiquidStack] = {
     <liquid:rhombus_plastic> : <contenttweaker:rhombus_recrystallized>,
     <liquid:square_plastic> : <contenttweaker:square_recrystallized>,
-    <liquid:rhombus_plastic> : <contenttweaker:rhombus_recrystallized>
+    <liquid:spherical_plastic> : <contenttweaker:spherical_recrystallized>
 };
 
 for liquid, item in map {

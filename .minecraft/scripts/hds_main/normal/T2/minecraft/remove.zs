@@ -16,7 +16,8 @@ val removeByOutput as IItemStack[] = [
     <embers:pump>,
     <embers:item_pump>,
     <magneticraft:multiblock_parts:*>,
-    <magneticraft:multiblock_column>
+    <magneticraft:multiblock_column>,
+    <magneticraft:crafting:3>
 ];
 
 val removeByRecipeName as string[] = [];

@@ -1,5 +1,3 @@
-fluid.limewater=Lime Water
-
 item.contenttweaker.square.name=Gray Square
 item.contenttweaker.rhombus.name=Gray Rhombus
 item.contenttweaker.spherical.name=Gray Spherical
@@ -16,10 +14,15 @@ item.contenttweaker.rhombus_polluted.name=Polluted Rhombus
 item.contenttweaker.spherical_polluted.name=Polluted Spherical
 item.contenttweaker.black_dye.name=Black Oily Dye
 item.contenttweaker.primordium_shard.name=Primordium Shard
-tile.contenttweaker.altar.name=Sun-Moon Altar
+item.contenttweaker.sticky_gel.name=Sticky Gel
+item.contenttweaker.impure_gel.name=Impure Gel
 
+tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame
 tile.contenttweaker.yellow_spherical_block.name=Block of Yellow Spherical Crystal
+
+fluid.molten_gel=Molten Gel
+fluid.limewater=Lime Water
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus

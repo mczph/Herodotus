@@ -1,5 +1,3 @@
-fluid.limewater=石灰水
-
 item.contenttweaker.square.name=灰色方形
 item.contenttweaker.rhombus.name=灰色菱形
 item.contenttweaker.spherical.name=灰色球形
@@ -19,10 +17,15 @@ item.contenttweaker.hot_air_solderer.name=热空气焊铁
 item.contenttweaker.black_dye.name=黑色油性染料
 item.contenttweaker.astral_lens.name=星芒透镜
 item.contenttweaker.primordium_shard.name=原基碎片
-tile.contenttweaker.altar.name=日月祭坛
+item.contenttweaker.sticky_gel.name=黏性凝胶质
+item.contenttweaker.impure_gel.name=含杂凝胶质
 
+tile.contenttweaker.altar.name=日月祭坛
 tile.contenttweaker.starlight_frame.name=星光框架
 tile.contenttweaker.yellow_spherical_block.name=黄色球形晶体块
+
+fluid.molten_gel=熔融凝胶质
+fluid.limewater=石灰水
 
 #MSH
 contenttweaker.part.rhombus=%s菱形

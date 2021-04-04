@@ -9,3 +9,4 @@ ysb.blockHardness = 1.0f;
 ysb.register();
 
 VanillaFactory.createBlock("starlight_frame", <blockmaterial:rock>).register();
+VanillaFactory.createBlock("static_molten_plastic", <blockmaterial:rock>).register();

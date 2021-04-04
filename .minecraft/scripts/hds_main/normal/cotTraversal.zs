@@ -30,6 +30,7 @@ mods.unidict.removalByKind.get("Furnace").remove("dust");
 for item in <item:contenttweaker:material_part>.definition.subItems {
     if (item.ores[0].name.startsWith("ingot")) { // metal
         val ingot as IItemStack = item;
+        furnace.remove(ingot);
         val name as string = item.ores[0].name.substring("ingot".length);
         val nameSnake as string = toSnakeCase(name);
         val block as IOreDictEntry = oreDict.get("block" ~ name);
@@ -79,8 +80,6 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
             Casting.addTableRecipe(gear.materialPart, <contenttweaker:copper_gear_cast>, molten, 864, false, 80);
         } */
 
-        //prodigytech
-        if (!dust.empty && !shard.empty) {LOERProcesser(dust, shard.materialPart);}
         //if (!rock.empty && !crushed.empty) {rotarygrinder.addRecipe(rock, crushed.materialPart);}
 
         //pyrotech
