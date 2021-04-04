@@ -23,7 +23,6 @@
 /.minecraft/config/enderio/painter_paint_sources_core.xml
 /.minecraft/config/enderio/painter_paint_sources_user.xml
 
-/.minecraft/config/agricraft/json/defaults/*
 /.minecraft/config/tellme/*
 /.minecraft/config/jei/worldSettings.cfg
 /.minecraft/config/jei/bookmarks.ini
