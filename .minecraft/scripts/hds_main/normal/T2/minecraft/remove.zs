@@ -42,7 +42,7 @@ val removeByModid as string[] = [
 ];
 
 val removeByRegex as string[] = [
-    "embers:ingot.*.*"
+    "embers:ingot.*_.*"
 ];
 
 if(!isInvalid) {
