@@ -20,9 +20,11 @@ item.contenttweaker.impure_gel.name=Impure Gel
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame
 tile.contenttweaker.yellow_spherical_block.name=Block of Yellow Spherical Crystal
+tile.contenttweaker.static_molten_plastic.name=Static Molten Plastic Block
 
 fluid.molten_gel=Molten Gel
 fluid.limewater=Lime Water
+fluid.lively_water=Lively Water
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus

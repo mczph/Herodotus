@@ -10,8 +10,8 @@ if(!isInvalid){
 
 val maxInt as int = 2147483647;
 
-RecipeBuilder.newBuilder("hot_air_boiler_steam", "hot_air_boiler", 8)
-    .addFluidInput(<liquid:water> * 50)
+RecipeBuilder.newBuilder("hot_air_boiler_steam", "hot_air_boiler", 10)
+    .addFluidInput(<liquid:water> * 5)
     .addHotAirInput(230, maxInt, 230)
     .addFluidOutput(<liquid:steam> * 50)
     .build();

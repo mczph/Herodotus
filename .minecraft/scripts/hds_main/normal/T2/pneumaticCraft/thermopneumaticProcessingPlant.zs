@@ -17,4 +17,5 @@ val map as IItemStack[ILiquidStack] = {
 for liquid, item in map {
     thermopneumaticprocessingplant.addRecipe(<liquid:plastic> * 125, item, 1.8, 373, liquid * 250);
 }
+thermopneumaticprocessingplant.addRecipe(<liquid:distilledwater> * 1000, <contenttweaker:wood_feature_crystal>, 2.0, 393, <liquid:lively_water> * 1000);
 }

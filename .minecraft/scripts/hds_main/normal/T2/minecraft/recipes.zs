@@ -15,4 +15,20 @@ RecipeUtils.recipeTweak(true, <magneticraft:iron_pipe>*6,[
 
 RecipeUtils.recipeTweak(true, <contenttweaker:primordium_shard> * 48, [[<prodigytech:primordium>]]);
 
+RecipeUtils.recipeTweak(true, <factorytech:sluice>, [
+	[<pyrotech:material:23>, null, <pyrotech:material:23>],
+	[<pyrotech:material:23>, <factorytech:machinepart:180>, <pyrotech:material:23>],
+	[<ore:lightPlateIron>, <ore:lightPlateIron>, <ore:lightPlateIron>]
+]);
+
+RecipeUtils.recipeTweak(true, <magneticraft:crushing_table>, [
+	[<astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>],
+	[<pyrotech:material:23>, <ore:logWood>, <pyrotech:material:23>],
+	[<ore:logWood>, <ore:logWood>, <ore:logWood>]
+]);
+
+recipes.replaceAllOccurences(<minecraft:iron_ingot>, <factorytech:ingot:5>, <*>.only(function(item) {
+    return item.definition.owner == "factorytech" && !<factorytech:machinepart:51>.matches(item);
+}));
+
 }

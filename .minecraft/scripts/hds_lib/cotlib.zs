@@ -154,5 +154,6 @@ static plainItemIDs as string[] = [
     "black_dye",
     "primordium_shard",
     "sticky_gel",
-    "impure_gel"
+    "impure_gel",
+    "wood_feature_crystal"
 ];

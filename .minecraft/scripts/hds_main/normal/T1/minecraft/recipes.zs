@@ -115,10 +115,6 @@ recipes.replaceAllOccurences(<ore:gearFerramic>, <ore:gearBronze>, <*>.only(func
     return item.definition.owner == "prodigytech";
 }));
 
-recipes.replaceAllOccurences(<minecraft:iron_ingot>, <ore:ingotIron>, <*>.only(function(item) {
-    return item.definition.owner == "factorytech";
-}));
-
 recipes.replaceAllOccurences(<minecraft:iron_nugget>, <ore:nuggetIron>, <*>.only(function(item) {
     return item.definition.owner == "factorytech";
 }));

@@ -9,7 +9,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if(!isInvalid){
 RecipeBuilder.get("mason")
   .setShapeless([<pyrotech:material:5>])
-  .setFluid(<liquid:oil> * 50)
+  .setFluid(<liquid:oil> * 150)
   .addTool(<ore:artisansBurner>, 5)
   .addOutput(<tconstruct:materials>)
   .create();

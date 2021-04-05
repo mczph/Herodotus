@@ -3,10 +3,21 @@
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
+import crafttweaker.item.IItemStack;
 
 val ysb as Block = VanillaFactory.createBlock("yellow_spherical_block", <blockmaterial:clay>);
 ysb.blockHardness = 1.0f;
 ysb.register();
 
 VanillaFactory.createBlock("starlight_frame", <blockmaterial:rock>).register();
-VanillaFactory.createBlock("static_molten_plastic", <blockmaterial:rock>).register();
+
+val smp as Block = VanillaFactory.createBlock("static_molten_plastic", <blockmaterial:rock>);
+smp.toolClass = "pickaxe";
+smp.toolLevel = 2;
+smp.setDropHandler(function(drops, world, position, state, fortune) {
+	drops.clear();
+    val plastic as IItemStack = itemUtils.getItem("pneumaticcraft:plastic", 8);
+	drops.add(plastic);
+	drops.add(plastic % 50);
+});
+smp.register();
