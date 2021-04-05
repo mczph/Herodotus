@@ -13,6 +13,12 @@ RecipeUtils.recipeTweak(true, <magneticraft:iron_pipe>*6,[
 	[null, <ore:ingotIron>, null]
 ]);
 
+RecipeUtils.recipeTweak(true, <artisanworktables:toolbox>, [
+	[<ore:plankWood>, <ore:plateBronze>, <ore:plankWood>],
+	[<ore:plankWood>, <ore:chest>, <ore:plankWood>],
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+]);
+
 RecipeUtils.recipeTweak(true, <contenttweaker:primordium_shard> * 48, [[<prodigytech:primordium>]]);
 
 RecipeUtils.recipeTweak(true, <factorytech:sluice>, [
@@ -29,6 +35,22 @@ RecipeUtils.recipeTweak(true, <magneticraft:crushing_table>, [
 
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <factorytech:ingot:5>, <*>.only(function(item) {
     return item.definition.owner == "factorytech" && !<factorytech:machinepart:51>.matches(item);
+}));
+
+recipes.replaceAllOccurences(<minecraft:gold_ingot>, <ore:ingotGold>, <*>.only(function(item) {
+    return item.definition.owner == "factorytech";
+}));
+
+recipes.replaceAllOccurences(<minecraft:quartz>, <ore:gemQuartz>, <*>.only(function(item) {
+    return item.definition.owner == "factorytech";
+}));
+
+recipes.replaceAllOccurences(<minecraft:redstone>, <ore:dustRedstone>, <*>.only(function(item) {
+    return item.definition.owner == "factorytech";
+}));
+
+recipes.replaceAllOccurences(<factorytech:ore_dust:12>, <ore:dustLapis>, <*>.only(function(item) {
+    return item.definition.owner == "factorytech";
 }));
 
 }

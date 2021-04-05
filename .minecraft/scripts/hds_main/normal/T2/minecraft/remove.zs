@@ -36,6 +36,10 @@ val removeByRecipeName as string[] = [
 
 val removeByModid as string[] = [];
 
+val removeByRegex as string[] = [
+    "embers:ingot.*.*"
+];
+
 if(!isInvalid) {
 for item in removeByOutput {
     recipes.remove(item);
@@ -47,5 +51,9 @@ for name in removeByRecipeName {
 
 for id in removeByModid {
     recipes.removeByMod(id);
+}
+
+for regex in removeByRegex {
+    recipes.removeByRegex(regex);
 }
 }
