@@ -1,0 +1,11 @@
+{
+	x: 17.0d,
+	y: 0.75d,
+	tasks: [{
+		uid: "e5a30754",
+		type: "item",
+		items: [{
+			item: "factorytech:sluice"
+		}]
+	}]
+}

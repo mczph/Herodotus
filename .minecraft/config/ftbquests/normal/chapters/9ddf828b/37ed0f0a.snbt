@@ -1,0 +1,14 @@
+{
+	x: 7.25d,
+	y: 0.75d,
+	dependencies: [
+		"8621cb22"
+	],
+	tasks: [{
+		uid: "996b0d94",
+		type: "item",
+		items: [{
+			item: "magneticraft:oil_source"
+		}]
+	}]
+}

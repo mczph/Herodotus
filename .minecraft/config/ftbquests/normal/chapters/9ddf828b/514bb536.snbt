@@ -1,0 +1,11 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "c737ca6a",
+		type: "item",
+		items: [{
+			item: "factorytech:magnetizer"
+		}]
+	}]
+}

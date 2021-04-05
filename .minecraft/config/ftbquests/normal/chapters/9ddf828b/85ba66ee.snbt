@@ -1,0 +1,11 @@
+{
+	x: 9.5d,
+	y: -0.25d,
+	tasks: [{
+		uid: "4202791f",
+		type: "item",
+		items: [{
+			item: "magneticraft:oil_heater"
+		}]
+	}]
+}

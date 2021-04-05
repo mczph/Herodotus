@@ -1,0 +1,11 @@
+{
+	x: 11.75d,
+	y: 1.75d,
+	tasks: [{
+		uid: "69c2e1f0",
+		type: "item",
+		items: [{
+			item: "magneticraft:refinery"
+		}]
+	}]
+}

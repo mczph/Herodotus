@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 2.5d,
+	dependencies: [
+		"b8d34de9"
+	],
+	tasks: [{
+		uid: "77410860",
+		type: "item",
+		items: [{
+			item: "emergingtechnology:shreddedplastic"
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 13.25d,
+	y: 0.75d,
+	dependencies: [
+		"69c8cb10",
+		"421b81a4",
+		"e4961889"
+	],
+	tasks: [{
+		uid: "cd629cc3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rhombus_polluted"
+		}]
+	},
+	{
+		uid: "d18a2d7a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:square_polluted"
+		}]
+	},
+	{
+		uid: "b6c9eb61",
+		type: "item",
+		items: [{
+			item: "contenttweaker:spherical_polluted"
+		}]
+	}]
+}

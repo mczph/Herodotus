@@ -1,0 +1,73 @@
+{
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:hot_air_boiler"
+		}
+	},
+	x: 1.25d,
+	y: -0.5d,
+	dependencies: [
+		"1f0b5ed4"
+	],
+	tasks: [{
+		uid: "220fddeb",
+		type: "item",
+		items: [{
+			item: "hdsutils:hot_air_boiler_controller"
+		}]
+	},
+	{
+		uid: "3796e685",
+		type: "item",
+		items: [{
+			item: "pyrotech:refractory_brick_block"
+		}],
+		count: 12L
+	},
+	{
+		uid: "53299057",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 3"
+		}],
+		count: 4L
+	},
+	{
+		uid: "9ec53f1d",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 2L
+	},
+	{
+		uid: "8620a200",
+		type: "item",
+		items: [{
+			item: "modulardiversity:blockhotairinputhatch"
+		}]
+	},
+	{
+		uid: "f66c8aea",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 8L
+	},
+	{
+		uid: "f90ab750",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	},
+	{
+		uid: "caa2b946",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch"
+		}]
+	}]
+}

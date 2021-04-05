@@ -1,0 +1,25 @@
+{
+	x: 1.25d,
+	y: 1.5d,
+	dependencies: [
+		"a956c7a8"
+	],
+	tasks: [{
+		uid: "76e46386",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "lightPlateIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any lightPlateIron"
+				}
+			}
+		}]
+	}]
+}

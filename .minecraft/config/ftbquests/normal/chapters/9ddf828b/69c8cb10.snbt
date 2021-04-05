@@ -1,0 +1,11 @@
+{
+	x: 13.25d,
+	y: -0.25d,
+	tasks: [{
+		uid: "34673ce0",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:thermopneumatic_processing_plant"
+		}]
+	}]
+}

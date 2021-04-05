@@ -1,0 +1,14 @@
+{
+	x: 1.25d,
+	y: 2.5d,
+	dependencies: [
+		"a956c7a8"
+	],
+	tasks: [{
+		uid: "6ae0651d",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:plastic 1 8"
+		}]
+	}]
+}

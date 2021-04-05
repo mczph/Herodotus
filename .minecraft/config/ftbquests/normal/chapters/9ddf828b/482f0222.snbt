@@ -1,0 +1,11 @@
+{
+	x: 8.5d,
+	y: -0.25d,
+	tasks: [{
+		uid: "bb83391e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:black_dye"
+		}]
+	}]
+}

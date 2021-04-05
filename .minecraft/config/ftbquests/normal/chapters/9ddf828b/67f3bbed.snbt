@@ -1,0 +1,15 @@
+{
+	x: 4.75d,
+	y: 0.75d,
+	dependencies: [
+		"514bb536",
+		"81978569"
+	],
+	tasks: [{
+		uid: "ac9b2055",
+		type: "item",
+		items: [{
+			item: "contenttweaker:punched_stone"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: 3.5d,
+	text: [
+		"生长所需光照等级0~3，其余条件见JEI"
+	],
+	tasks: [{
+		uid: "4935b6af",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "herodotus_slime_grass",
+				agri_growth: 1b
+			}
+		}]
+	},
+	{
+		uid: "fe997909",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sticky_gel"
+		}]
+	}]
+}

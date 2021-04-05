@@ -1,0 +1,15 @@
+{
+	x: 2.25d,
+	y: 3.5d,
+	dependencies: [
+		"51faa2c6",
+		"a232d0a8"
+	],
+	tasks: [{
+		uid: "e562b6a1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:static_molten_plastic"
+		}]
+	}]
+}

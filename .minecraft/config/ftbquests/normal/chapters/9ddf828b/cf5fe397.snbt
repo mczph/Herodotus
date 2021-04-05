@@ -1,0 +1,11 @@
+{
+	x: 8.5d,
+	y: 1.75d,
+	tasks: [{
+		uid: "4655432d",
+		type: "item",
+		items: [{
+			item: "magneticraft:pumpjack"
+		}]
+	}]
+}

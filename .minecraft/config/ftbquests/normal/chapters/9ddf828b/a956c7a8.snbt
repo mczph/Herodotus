@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 1.75d,
+	tasks: [{
+		uid: "c10a2d8c",
+		type: "item",
+		items: [{
+			item: "magneticraft:crushing_table"
+		}]
+	}]
+}

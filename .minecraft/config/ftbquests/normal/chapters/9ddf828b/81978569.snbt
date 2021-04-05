@@ -1,0 +1,11 @@
+{
+	x: 3.5d,
+	y: 1.25d,
+	tasks: [{
+		uid: "04b36cea",
+		type: "item",
+		items: [{
+			item: "factorytech:oredrill"
+		}]
+	}]
+}
