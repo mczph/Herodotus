@@ -14,9 +14,9 @@ for shape in crtlib.shapes {
 pressurechamber.removeRecipe([<pneumaticcraft:ingot_iron_compressed>]);
 
 val livelyWaterBucket as IItemStack = <forge:bucketfilled>.withTag({FluidName: "lively_water", Amount: 1000});
-pressurechamber.addRecipe([livelyWaterBucket, <ore:ingotIron>], 2.0, [<factorytech:ingot:5>]);
-pressurechamber.addRecipe([livelyWaterBucket, <ore:ingotCopper>], 2.0, [<factorytech:ingot:6>]);
-pressurechamber.addRecipe([livelyWaterBucket, <ore:ingotNickel>], 2.0, [<factorytech:ingot:7>]);
+pressurechamber.addRecipe([livelyWaterBucket, <ore:ingotIron>], 2.0, [<factorytech:ingot:5>, <minecraft:bucket>]);
+pressurechamber.addRecipe([livelyWaterBucket, <ore:ingotCopper>], 2.0, [<factorytech:ingot:6>, <minecraft:bucket>]);
+pressurechamber.addRecipe([livelyWaterBucket, <ore:ingotNickel>], 2.0, [<factorytech:ingot:7>, <minecraft:bucket>]);
 pressurechamber.addRecipe([<magneticraft:crafting:2>, <pneumaticcraft:plastic:8>, <minecraft:redstone> * 4, <minecraft:quartz> * 2], 2.4, [<factorytech:intermediate:4>]);
 pressurechamber.addRecipe([<ore:shardNickel>.materialPart * 2, <pyrotech:rock:2> * 3], 1.5, [<ore:gemChippedNickel>.materialPart]);
 pressurechamber.addRecipe([<magneticraft:battery_item_low>.withTag({energy: 250000}), <factorytech:intermediate:2> * 32], 3.5, [<factorytech:machinepart:140> * 32]);
