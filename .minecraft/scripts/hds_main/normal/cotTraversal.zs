@@ -16,6 +16,7 @@ import scripts.hds_main.normal.T1.prodigyTech.prtFunctions.LOERProcesser;
 import mods.pyrotech.IroncladAnvil;
 import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.factorytech.DrillGrinder;
 
 import scripts.hds_main.utils.modloader.isInvalid;
 
@@ -98,6 +99,9 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         if (!oreSample.empty && !dustSmall.empty && nameSnake == "red" || nameSnake == "blue" || nameSnake == "yellow") {
             allPyroAnvil("oresample_to_dustsmall_" ~ nameSnake, dustSmall.materialPart, oreSample, 3, "hammer");
         }
+
+        // factory tech
+        DrillGrinder.addRecipe(dust.materialPart, ingot, false);
 
 
     } else if (item.ores[0].name.startsWith("cluster")) {

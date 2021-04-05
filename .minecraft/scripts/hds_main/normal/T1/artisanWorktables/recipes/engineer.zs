@@ -94,7 +94,7 @@ RecipeBuilder.get("engineer")
     [<pyrotech:material:23>, <pyrotech:material:23>, <pyrotech:material:23>],
     [<pyrotech:material:5>, <artisanworkstumps:workstump_basic>, <pyrotech:material:5>],
     [<pyrotech:material:5>, null, <pyrotech:material:5>]])
-  .addTool(<ore:artisansDriver>, 1)
+  .addTool(<ore:artisansDriver>, 30)
   .addOutput(<tconstruct:tooltables:3>)
   .create();
 

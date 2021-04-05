@@ -32,10 +32,15 @@ val removeByOutput as IItemStack[] = [
 val removeByRecipeName as string[] = [
     "pneumaticcraft:pressure_chamber_valve",
     "pneumaticcraft:pressure_chamber_glass",
-    "pneumaticcraft:pressure_chamber_interface"
+    "pneumaticcraft:pressure_chamber_interface",
+    "pneumaticcraft:pressure_chamber_wall",
+    "factorytech:parts/motor",
+    "factorytech:parts/motorgold"
 ];
 
-val removeByModid as string[] = [];
+val removeByModid as string[] = [
+    "modularmachinery"
+];
 
 val removeByRegex as string[] = [
     "embers:ingot.*_.*"
