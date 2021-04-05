@@ -26,6 +26,51 @@ RecipeBuilder.get("engineer")
   .addOutput(<tconstruct:smeltery_controller>)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <ore:ingotCupronickel>, null],
+    [<ore:ingotCupronickel>, <factorytech:machinepart:140>, <ore:ingotCupronickel>],
+    [<ore:dustRedstone>, null, <ore:dustRedstone>]])
+  .addTool(<ore:artisansDriver>, 10)
+  .addOutput(<factorytech:machinepart:80>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <ore:ingotCupronickel>, null],
+    [<ore:ingotCupronickel>, <factorytech:machinepart:140>, <ore:ingotCupronickel>],
+    [<minecraft:blaze_rod>, null, <minecraft:blaze_rod>]])
+  .addTool(<ore:artisansDriver>, 15)
+  .addOutput(<factorytech:machinepart:81>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>],
+    [<ore:ingotIronCompressed>, <ore:heavyPlateIron>, <ore:ingotIronCompressed>],
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
+  .addTool(<ore:artisansSpanner>, 25)
+  .setFluid(<liquid:light_oil> * 500)
+  .addOutput(<pneumaticcraft:pressure_chamber_wall> * 16)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>],
+    [<ore:ingotIronCompressed>, <ore:heavyPlateIron>, <ore:ingotIronCompressed>],
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
+  .addTool(<ore:artisansSpanner>, 25)
+  .setFluid(<liquid:light_oil> * 500)
+  .addOutput(<pneumaticcraft:pressure_chamber_wall> * 16)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShapeless([<pneumaticcraft:pressure_chamber_wall>, <minecraft:hopper>, <ore:plateNickel>, <ore:plateNickel>])
+  .addTool(<ore:artisansSpanner>, 45)
+  .setFluid(<liquid:light_oil> * 500)
+  .addOutput(<pneumaticcraft:pressure_chamber_interface>)
+  .create();
+
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
 for i in 0 .. 15 {
     val worktable as IItemStack = worktableDef.makeStack(i);

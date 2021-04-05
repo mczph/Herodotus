@@ -13,4 +13,14 @@ RecipeBuilder.get("mason")
   .addTool(<ore:artisansBurner>, 5)
   .addOutput(<tconstruct:materials>)
   .create();
+
+RecipeBuilder.get("mason")
+  .setShapeless([<ore:crushedOreNickel>])
+  .addTool(<ore:artisansSifter>, 8)
+  .addOutput(<ore:orePurifiedNickel>.materialPart)
+  .setExtraOutputOne(<ore:rock>.materialPart, 1.0)
+  .setExtraOutputTwo(<ore:rock>.materialPart, 0.5)
+  .setExtraOutputThree(<ore:rock>.materialPart*2, 0.18)
+  .create();
+
 }

@@ -19,10 +19,20 @@ val removeByOutput as IItemStack[] = [
     <magneticraft:multiblock_column>,
     <magneticraft:crafting:3>,
     <magneticraft:solar_panel>,
-    <magneticraft:wind_turbine>
+    <magneticraft:solar_tower>,
+    <magneticraft:solar_mirror>,
+    <magneticraft:wind_turbine>,
+    <factorytech:intermediate:4>,
+    <factorytech:machinepart:80>,
+    <factorytech:machinepart:81>,
+    <factorytech:disassembler>
 ];
 
-val removeByRecipeName as string[] = [];
+val removeByRecipeName as string[] = [
+    "pneumaticcraft:pressure_chamber_valve",
+    "pneumaticcraft:pressure_chamber_glass",
+    "pneumaticcraft:pressure_chamber_interface"
+];
 
 val removeByModid as string[] = [];
 
