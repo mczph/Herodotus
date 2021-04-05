@@ -17,8 +17,10 @@ val livelyWaterBucket as IItemStack = <forge:bucketfilled>.withTag({FluidName: "
 pressurechamber.addRecipe([livelyWaterBucket, <ore:ingotIron>], 2.0, [<factorytech:ingot:5>]);
 pressurechamber.addRecipe([livelyWaterBucket, <ore:ingotCopper>], 2.0, [<factorytech:ingot:6>]);
 pressurechamber.addRecipe([livelyWaterBucket, <ore:ingotNickel>], 2.0, [<factorytech:ingot:7>]);
-pressurechamber.addRecipe([<magneticraft:crafting:2>, <pneumaticcraft:plastic:8>, <magneticraft:crafting:3>, <minecraft:redstone> * 4, <minecraft:quartz> * 2], 2.4, [<factorytech:intermediate:4>]);
+pressurechamber.addRecipe([<magneticraft:crafting:2>, <pneumaticcraft:plastic:8>, <minecraft:redstone> * 4, <minecraft:quartz> * 2], 2.4, [<factorytech:intermediate:4>]);
 pressurechamber.addRecipe([<ore:shardNickel>.materialPart * 2, <pyrotech:rock:2> * 3], 1.5, [<ore:gemChippedNickel>.materialPart]);
 pressurechamber.addRecipe([<magneticraft:battery_item_low>.withTag({energy: 250000}), <factorytech:intermediate:2> * 32], 3.5, [<factorytech:machinepart:140> * 32]);
 pressurechamber.addRecipe([<ore:densePlateNickel>.materialPart * 4, <prodigytech:primordium> * 8, <pneumaticcraft:plastic:2> * 16, <factorytech:machinepart:111> * 2, <factorytech:machinepart:3> * 4, <factorytech:machinepart:140> * 24], 4.5, [<factorytech:disassembler>]);
+pressurechamber.addRecipe([<factorytech:intermediate:4>, <factorytech:machinepart:21>], 2.5, [<factorytech:machinepart:60>]);
+pressurechamber.addRecipe([<factorytech:intermediate:4>, <factorytech:machinepart:22>], 2.5, [<factorytech:machinepart:61>]);
 }

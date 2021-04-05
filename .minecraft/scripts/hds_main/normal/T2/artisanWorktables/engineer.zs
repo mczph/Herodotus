@@ -55,20 +55,46 @@ RecipeBuilder.get("engineer")
   .create();
 
 RecipeBuilder.get("engineer")
-  .setShaped([
-    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>],
-    [<ore:ingotIronCompressed>, <ore:heavyPlateIron>, <ore:ingotIronCompressed>],
-    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
-  .addTool(<ore:artisansSpanner>, 25)
-  .setFluid(<liquid:light_oil> * 500)
-  .addOutput(<pneumaticcraft:pressure_chamber_wall> * 16)
-  .create();
-
-RecipeBuilder.get("engineer")
   .setShapeless([<pneumaticcraft:pressure_chamber_wall>, <minecraft:hopper>, <ore:plateNickel>, <ore:plateNickel>])
   .addTool(<ore:artisansSpanner>, 45)
   .setFluid(<liquid:light_oil> * 500)
   .addOutput(<pneumaticcraft:pressure_chamber_interface>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateIron>, <ore:gearIron>, <ore:plateIron>],
+    [<ore:gemEnergion>, <ore:gemEnergion>, <ore:gemEnergion>],
+    [<ore:plateIron>, <ore:gemFlawlessGlimmerite>, <ore:plateIron>]])
+  .addTool(<ore:artisansSpanner>, 75)
+  .addOutput(<hdsutils:hot_air_boiler_controller>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBronze>, <ore:gemQuartz>, <ore:plateBronze>],
+    [<ore:gemQuartz>, null, <ore:gemQuartz>],
+    [<ore:plateBronze>, <ore:gemQuartz>, <ore:plateBronze>]])
+  .addTool(<artisanworktables:artisans_driver_stone>, 25)
+  .addOutput(<modulardiversity:blockhotairinputhatch>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBronze>, <minecraft:hopper>, <ore:plateBronze>],
+    [null, <ore:clumpYellow>, null],
+    [<ore:plateBronze>, <minecraft:bucket>, <ore:plateBronze>]])
+  .addTool(<artisanworktables:artisans_driver_stone>, 25)
+  .addOutput(<modularmachinery:blockfluidoutputhatch>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBronze>, <minecraft:hopper>, <ore:plateBronze>],
+    [null, <ore:clumpBlue>, null],
+    [<ore:plateBronze>, <minecraft:bucket>, <ore:plateBronze>]])
+  .addTool(<artisanworktables:artisans_driver_stone>, 25)
+  .addOutput(<modularmachinery:blockfluidinputhatch>)
   .create();
 
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
