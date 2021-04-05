@@ -19,9 +19,9 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [null, <ore:ingotIron>, null],
-    [null, <ore:ingotIron>, null],
-    [null, <ore:ingotIron>, null]])
+    [<ore:ingotIron>],
+    [<ore:ingotIron>],
+    [<ore:ingotIron>]])
   .addTool(<ore:artisansFile>, 20)
   .addTool(<ore:artisansHandsaw>, 10)
   .addOutput(<factorytech:machinepart:51>*3)
