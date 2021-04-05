@@ -17,4 +17,6 @@ val livelyWaterBucket as IItemStack = <forge:bucketfilled>.withTag({FluidName: "
 pressurechamber.addRecipe([livelyWaterBucket, <ore:ingotIron>], 2.0, [<factorytech:ingot:5>]);
 pressurechamber.addRecipe([livelyWaterBucket, <ore:ingotCopper>], 2.0, [<factorytech:ingot:6>]);
 pressurechamber.addRecipe([livelyWaterBucket, <ore:ingotNickel>], 2.0, [<factorytech:ingot:7>]);
+pressurechamber.addRecipe([<magneticraft:crafting:2>, <pneumaticcraft:plastic:8>, <magneticraft:crafting:3>, <ore:dustRedstone> * 4, <ore:gemQuartz> * 2], 2.4, [<factorytech:intermediate:4>]);
+pressurechamber.addRecipe([<ore:shardNickel> * 2, <pyrotech:rock:2> * 3], 1.5, [<ore:gemChippedNickel>.materialPart]);
 }

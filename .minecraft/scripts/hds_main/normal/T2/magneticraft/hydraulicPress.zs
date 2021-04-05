@@ -10,4 +10,5 @@ if(!isInvalid){
     HydraulicPress.addRecipe(<ore:gemChippedIron>.materialPart, <ore:plateIron>.materialPart, 120, 0, true);
     HydraulicPress.addRecipe(<ore:gemChippedCopper>.materialPart, <ore:plateCopper>.materialPart, 120, 0, true);
     HydraulicPress.addRecipe(<ore:gemChippedTin>.materialPart, <ore:plateTin>.materialPart, 120, 0, true);
+    HydraulicPress.addRecipe(<ore:gemChippedNickel>.materialPart, <ore:plateNickel>.materialPart, 120, 0, true);
 }
