@@ -19,6 +19,16 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
+    [null, <ore:ingotIron>, null],
+    [null, <ore:ingotIron>, null],
+    [null, <ore:ingotIron>, null]])
+  .addTool(<ore:artisansFile>, 20)
+  .addTool(<ore:artisansHandsaw>, 10)
+  .addOutput(<factorytech:machinepart:51>*3)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
     [<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>],
     [<ore:ingotBrickSeared>, <ore:gemEnergion>, <ore:ingotBrickSeared>],
     [<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>]])

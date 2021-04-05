@@ -4,12 +4,15 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import crafttweaker.item.IItemStack;
+import scripts.hds_lib.cotlib;
+
+for id in cotlib.plainBlockIDs {
+    cotlib.addNormalBlock(id);
+}
 
 val ysb as Block = VanillaFactory.createBlock("yellow_spherical_block", <blockmaterial:clay>);
 ysb.blockHardness = 1.0f;
 ysb.register();
-
-VanillaFactory.createBlock("starlight_frame", <blockmaterial:rock>).register();
 
 val smp as Block = VanillaFactory.createBlock("static_molten_plastic", <blockmaterial:rock>);
 smp.toolClass = "pickaxe";

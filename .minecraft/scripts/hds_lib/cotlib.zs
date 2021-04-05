@@ -1,6 +1,7 @@
 #priority 2001
 #loader contenttweaker
 
+import mods.contenttweaker.VanillaFactory;
 import scripts.grassUtils.CotUtils;
 import scripts.grassUtils.classes.MaterialSystemHelper.MaterialSystemHelper;
 
@@ -13,6 +14,12 @@ val registerPartsArray as string[] = [
 val register as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("registerPart");
 for name in registerPartsArray{
     register.registerNormalPart(name, "item", false);
+}
+
+
+//util functions
+function addNormalBlock(name as string){
+    VanillaFactory.createBlock(name, <blockmaterial:rock>).register();
 }
 
 //partsArrays
@@ -156,4 +163,9 @@ static plainItemIDs as string[] = [
     "sticky_gel",
     "impure_gel",
     "wood_feature_crystal"
+];
+
+static plainBlockIDs as string[] = [
+    "starlight_frame",
+    "punched_stone"
 ];
