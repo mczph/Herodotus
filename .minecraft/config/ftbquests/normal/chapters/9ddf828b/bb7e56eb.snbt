@@ -1,13 +1,11 @@
 {
-	x: 10.0d,
-	y: 0.75d,
+	x: 5.75d,
+	y: 1.0d,
 	dependencies: [
-		"85ba66ee",
-		"3d14a304",
-		"2124ad5b"
+		"1af8784e"
 	],
 	tasks: [{
-		uid: "c1e17a7b",
+		uid: "486c5129",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -15,7 +13,7 @@
 			},
 			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "lpg",
+				FluidName: "light_oil",
 				Amount: 1000
 			}
 		}],

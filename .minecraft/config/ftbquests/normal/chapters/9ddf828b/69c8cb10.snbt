@@ -1,6 +1,9 @@
 {
-	x: 13.25d,
-	y: -0.25d,
+	x: 14.75d,
+	y: 0.25d,
+	dependencies: [
+		"623cb910"
+	],
 	tasks: [{
 		uid: "34673ce0",
 		type: "item",

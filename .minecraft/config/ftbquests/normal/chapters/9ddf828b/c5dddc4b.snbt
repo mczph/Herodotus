@@ -1,6 +1,12 @@
 {
-	x: 17.0d,
-	y: 0.75d,
+	x: 4.25d,
+	y: -0.75d,
+	text: [
+		"将其放入河底，消耗木质筛网工作。"
+	],
+	dependencies: [
+		"157043cb"
+	],
 	tasks: [{
 		uid: "e5a30754",
 		type: "item",

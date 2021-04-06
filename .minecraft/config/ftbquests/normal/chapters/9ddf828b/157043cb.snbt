@@ -1,8 +1,10 @@
 {
-	x: 1.25d,
-	y: 0.5d,
+	icon: "magneticraft:hydraulic_press",
+	x: 2.75d,
+	y: -0.75d,
 	dependencies: [
-		"1f0b5ed4"
+		"c82d0130",
+		"cdbe6fe0"
 	],
 	tasks: [{
 		uid: "9d692e93",
@@ -10,5 +12,45 @@
 		items: [{
 			item: "magneticraft:hydraulic_press"
 		}]
+	},
+	{
+		uid: "6edf9391",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 3"
+		}]
+	},
+	{
+		uid: "a0c7306d",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 2L
+	},
+	{
+		uid: "71e57c62",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 2"
+		}],
+		count: 14L
+	},
+	{
+		uid: "5f935796",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 4"
+		}],
+		count: 2L,
+		consume_items: false
+	},
+	{
+		uid: "c270e908",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 7L
 	}]
 }

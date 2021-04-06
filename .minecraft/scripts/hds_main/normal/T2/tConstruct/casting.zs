@@ -18,4 +18,9 @@ for liquid, item in map {
     Casting.addTableRecipe(item, null, liquid, 250, false, 80);
 }
 Casting.addBasinRecipe(<contenttweaker:static_molten_plastic>, <contenttweaker:sticky_gel>, <liquid:light_oil>, 360, true, 45 * 20);
+Casting.removeTableRecipe(<tconstruct:materials>);
+Casting.removeBasinRecipe(<tconstruct:seared_glass>);
+Casting.removeBasinRecipe(<tconstruct:seared_furnace_controller>);
+Casting.removeBasinRecipe(<tconstruct:seared>);
+Casting.removeBasinRecipe(<tconstruct:seared:1>);
 }

@@ -1,0 +1,14 @@
+{
+	x: 17.75d,
+	y: 2.0d,
+	dependencies: [
+		"62284329"
+	],
+	tasks: [{
+		uid: "5a2d1e09",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:vacuum_pump"
+		}]
+	}]
+}

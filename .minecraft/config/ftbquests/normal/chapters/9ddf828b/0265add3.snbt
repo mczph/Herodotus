@@ -1,14 +1,14 @@
 {
-	x: 19.5d,
+	x: 17.75d,
 	y: -0.75d,
 	dependencies: [
-		"0265add3"
+		"8b11f422"
 	],
 	tasks: [{
-		uid: "04b36cea",
+		uid: "00402f27",
 		type: "item",
 		items: [{
-			item: "factorytech:oredrill"
+			item: "factorytech:metalcutter"
 		}]
 	}]
 }

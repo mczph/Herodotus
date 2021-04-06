@@ -1,0 +1,14 @@
+{
+	x: 13.25d,
+	y: 1.0d,
+	dependencies: [
+		"dc70dd14"
+	],
+	tasks: [{
+		uid: "d3b1ea37",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:air_compressor"
+		}]
+	}]
+}

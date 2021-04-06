@@ -53,4 +53,6 @@ recipes.replaceAllOccurences(<factorytech:ore_dust:12>, <ore:dustLapis>, <*>.onl
     return item.definition.owner == "factorytech";
 }));
 
+recipes.replaceAllOccurences(<factorytech:ore_dust:14>, <ore:dustGold>);
+
 }

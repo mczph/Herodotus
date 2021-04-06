@@ -1,8 +1,10 @@
 {
+	icon: "magneticraft:steam_engine",
 	x: 1.25d,
 	y: -1.5d,
 	dependencies: [
-		"1f0b5ed4"
+		"a232d0a8",
+		"a956c7a8"
 	],
 	tasks: [{
 		uid: "57e16277",
@@ -10,5 +12,52 @@
 		items: [{
 			item: "magneticraft:steam_engine"
 		}]
+	},
+	{
+		uid: "38a58033",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block"
+		}],
+		count: 3L
+	},
+	{
+		uid: "b9970e43",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts"
+		}],
+		count: 3L,
+		consume_items: false
+	},
+	{
+		uid: "227d5c3d",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}]
+	},
+	{
+		uid: "49188ed9",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 2"
+		}],
+		count: 7L
+	},
+	{
+		uid: "57980c97",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 4"
+		}]
+	},
+	{
+		uid: "ac3af397",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 2L
 	}]
 }

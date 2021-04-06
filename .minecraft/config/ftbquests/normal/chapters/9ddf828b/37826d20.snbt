@@ -1,0 +1,22 @@
+{
+	x: -0.25d,
+	y: 0.25d,
+	dependencies: [
+		"42c05de6"
+	],
+	tasks: [{
+		uid: "55bc4921",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6439011373679840429L,
+					AS_Amulet_HolderMost: 8924419826018635449L
+				}
+			},
+			id: "prodigytech:crystal_cutter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

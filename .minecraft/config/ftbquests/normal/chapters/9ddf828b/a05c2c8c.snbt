@@ -1,0 +1,15 @@
+{
+	x: 25.5d,
+	y: 1.0d,
+	dependencies: [
+		"1efc290e"
+	],
+	size: 1.6d,
+	tasks: [{
+		uid: "0e069dad",
+		type: "item",
+		items: [{
+			item: "factorytech:disassembler"
+		}]
+	}]
+}

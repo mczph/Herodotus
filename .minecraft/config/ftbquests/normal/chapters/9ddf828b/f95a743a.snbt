@@ -1,14 +1,14 @@
 {
-	x: 4.25d,
+	x: 21.0d,
 	y: 1.0d,
 	dependencies: [
-		"85ba66ee"
+		"1572fce1"
 	],
 	tasks: [{
-		uid: "69c2e1f0",
+		uid: "e813fffb",
 		type: "item",
 		items: [{
-			item: "magneticraft:refinery"
+			item: "factorytech:machinepart 1 80"
 		}]
 	}]
 }

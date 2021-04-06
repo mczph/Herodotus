@@ -53,4 +53,13 @@ RecipeBuilder.get("blacksmith")
   .addTool(<contenttweaker:hot_air_solderer>, 60)
   .addOutput(<magneticraft:multiblock_column> * 4)
   .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:ingotIron>],
+    [<ore:ingotIron>],
+    [<ore:ingotIron>]])
+  .addTool(<ore:artisansFile>, 20)
+  .addOutput(<factorytech:machinepart:51> * 3)
+  .create();
 }

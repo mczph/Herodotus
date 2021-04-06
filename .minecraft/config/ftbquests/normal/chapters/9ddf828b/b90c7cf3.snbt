@@ -1,0 +1,14 @@
+{
+	x: 5.75d,
+	y: -0.75d,
+	dependencies: [
+		"c5dddc4b"
+	],
+	tasks: [{
+		uid: "5db8306b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:wood_feature_crystal"
+		}]
+	}]
+}

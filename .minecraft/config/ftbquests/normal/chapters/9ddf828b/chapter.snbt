@@ -1,5 +1,6 @@
 {
 	title: "{herodotus.quests.9ddf828b.title}",
+	icon: "factorytech:disassembler",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""
