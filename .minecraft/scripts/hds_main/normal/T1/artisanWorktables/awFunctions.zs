@@ -11,7 +11,7 @@ val coal as IIngredient = <ore:pieceCoal>;
 RecipeBuilder.get("mason")
   .setName(name~"_mrlt")
   .setShapeless([input, input, input, input, input, coal, coal, coal, coal])
-  .setFluid(<liquid:limewater>*1000)
+  .setFluid(<liquid:limewater> * 250)
   .addTool(<ore:artisansTrowel>, 10)
   .addOutput(output)
   .create();

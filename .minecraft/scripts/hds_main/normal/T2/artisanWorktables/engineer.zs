@@ -64,44 +64,62 @@ RecipeBuilder.get("engineer")
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>],
-    [<ore:ingotNickel>, <minecraft:cauldron>, <ore:ingotNickel>],
+    [<ore:ingotNickel>, <advancedrocketry:iquartzcrucible>, <ore:ingotNickel>],
     [<factorytech:machinepart:21>, <factorytech:machinepart:80>, <factorytech:machinepart:21>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 240)
+  .addTool(<contenttweaker:hot_air_solderer>, 800)
   .addOutput(<factorytech:htfurnace>)
   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:plateIron>, <ore:gearIron>, <ore:plateIron>],
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>],
+    [<ore:ingotIronCompressed>, <minecraft:piston>, <pneumaticcraft:pressure_tube>],
+    [<ore:ingotIronCompressed>, <magneticraft:multiblock_parts>, <pneumaticcraft:ingot_iron_compressed>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 450)
+  .addOutput(<pneumaticcraft:air_compressor>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
+    [<ore:plateInvar>, <minecraft:piston>, <pneumaticcraft:advanced_pressure_tube>],
+    [<ore:plateInvar>, <magneticraft:multiblock_parts>, <ore:plateInvar>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 450)
+  .addOutput(<pneumaticcraft:advanced_air_compressor>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIron>, <ore:gearIron>, <ore:ingotIron>],
     [<ore:gemEnergion>, <ore:gemEnergion>, <ore:gemEnergion>],
-    [<ore:plateIron>, <ore:gemFlawlessGlimmerite>, <ore:plateIron>]])
+    [<ore:ingotIron>, <ore:gemFlawlessGlimmerite>, <ore:ingotIron>]])
   .addTool(<ore:artisansSpanner>, 75)
   .addOutput(<hdsutils:hot_air_boiler_controller>)
   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:plateBronze>, <ore:gemQuartz>, <ore:plateBronze>],
+    [<ore:ingotBronze>, <ore:gemQuartz>, <ore:ingotBronze>],
     [<ore:gemQuartz>, null, <ore:gemQuartz>],
-    [<ore:plateBronze>, <ore:gemQuartz>, <ore:plateBronze>]])
+    [<ore:ingotBronze>, <ore:gemQuartz>, <ore:ingotBronze>]])
   .addTool(<artisanworktables:artisans_driver_stone>, 25)
   .addOutput(<modulardiversity:blockhotairinputhatch>)
   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:plateBronze>, <minecraft:hopper>, <ore:plateBronze>],
+    [<ore:ingotBronze>, <minecraft:hopper>, <ore:ingotBronze>],
     [null, <ore:clumpYellow>, null],
-    [<ore:plateBronze>, <minecraft:bucket>, <ore:plateBronze>]])
+    [<ore:ingotBronze>, <minecraft:bucket>, <ore:ingotBronze>]])
   .addTool(<artisanworktables:artisans_driver_stone>, 25)
   .addOutput(<modularmachinery:blockfluidoutputhatch>)
   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:plateBronze>, <minecraft:hopper>, <ore:plateBronze>],
+    [<ore:ingotBronze>, <minecraft:hopper>, <ore:ingotBronze>],
     [null, <ore:clumpBlue>, null],
-    [<ore:plateBronze>, <minecraft:bucket>, <ore:plateBronze>]])
+    [<ore:ingotBronze>, <minecraft:bucket>, <ore:ingotBronze>]])
   .addTool(<artisanworktables:artisans_driver_stone>, 25)
   .addOutput(<modularmachinery:blockfluidinputhatch>)
   .create();

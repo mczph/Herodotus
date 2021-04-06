@@ -27,7 +27,10 @@ val removeByOutput as IItemStack[] = [
     <factorytech:machinepart:81>,
     <factorytech:disassembler>,
     <factorytech:machinepart:51>,
-    <factorytech:htfurnace>
+    <factorytech:htfurnace>,
+    <magneticraft:steam_boiler>,
+    <pneumaticcraft:air_compressor>,
+    <pneumaticcraft:advanced_air_compressor>
 ];
 
 val removeByRecipeName as string[] = [

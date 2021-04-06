@@ -12,6 +12,7 @@ if(!isInvalid){
 //Remove
 rAllPyroAnvil(<ore:pieceCoal>.materialPart);
 rAllPyroAnvil(<minecraft:coal>);
+rAllPyroAnvil(<minecraft:stone_slab:7>);
 
 //Add
 allPyroAnvil("blue_square", <ore:rockLead>.materialPart, <ore:squareBlue>, 6, "hammer");

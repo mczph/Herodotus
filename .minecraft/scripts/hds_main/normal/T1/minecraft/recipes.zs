@@ -49,9 +49,9 @@ RecipeUtils.recipeTweak(true, <tconstruct:pattern> * 4, [
 ]);
 
 RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
-    [<ore:plateBronze>.materialPart, null, <ore:plateBronze>.materialPart],
-    [<ore:plateBronze>.materialPart, <pyrotech:mechanical_hopper>, <ore:plateBronze>.materialPart],
-    [null, <ore:plateBronze>.materialPart, null]
+    [<ore:ingotBronze>, null, <ore:plateBronze>],
+    [<ore:ingotBronze>, <pyrotech:mechanical_hopper>, <ore:plateBronze>],
+    [null, <ore:ingotBronze>, null]
 ]);
 
 val pyrotechDevices as IItemStack[IItemStack] = {
