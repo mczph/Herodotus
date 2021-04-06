@@ -2,7 +2,7 @@
 	x: 4.25d,
 	y: -0.75d,
 	text: [
-		"将其放入河底，消耗木质筛网工作。"
+		"{herodotus.quests.c5dddc4b.text.1}"
 	],
 	dependencies: [
 		"157043cb"
