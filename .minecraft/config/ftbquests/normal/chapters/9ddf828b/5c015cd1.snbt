@@ -1,0 +1,16 @@
+{
+	x: 14.75d,
+	y: 3.5d,
+	dependencies: [
+		"e4961889"
+	],
+	optional: true,
+	tasks: [{
+		uid: "07b638d8",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_interface"
+		}],
+		count: 2L
+	}]
+}
