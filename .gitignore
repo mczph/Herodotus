@@ -4,7 +4,7 @@
 /.minecraft/*
 
 #repo stuff
-!/.gtihub
+!/.github
 !/docs
 !/artifacts
 !/runners
