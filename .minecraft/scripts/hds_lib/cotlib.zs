@@ -158,7 +158,6 @@ static plainItemIDs as string[] = [
     "spherical_recrystallized",
     "square_recrystallized",
     "dark_energion_crystal_seed",
-    "black_dye",
     "primordium_shard",
     "sticky_gel",
     "impure_gel",
