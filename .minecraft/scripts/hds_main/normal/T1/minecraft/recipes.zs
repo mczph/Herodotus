@@ -49,8 +49,8 @@ RecipeUtils.recipeTweak(true, <tconstruct:pattern> * 4, [
 ]);
 
 RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
-    [<ore:ingotBronze>, null, <ore:plateBronze>],
-    [<ore:ingotBronze>, <pyrotech:mechanical_hopper>, <ore:plateBronze>],
+    [<ore:ingotBronze>, null, <ore:ingotBronze>],
+    [<ore:ingotBronze>, <pyrotech:mechanical_hopper>, <ore:ingotBronze>],
     [null, <ore:ingotBronze>, null]
 ]);
 
