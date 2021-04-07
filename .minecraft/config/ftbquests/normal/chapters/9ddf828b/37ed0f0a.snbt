@@ -2,7 +2,7 @@
 	x: 24.0d,
 	y: -2.25d,
 	text: [
-		"将黑色油性染料丢在空的含油地层上，地层将在一定时间后可以变成满的。这可以大大提高原油的产量。"
+		"{herodotus.quests.37ed0f0a.text.1}"
 	],
 	dependencies: [
 		"8621cb22"
