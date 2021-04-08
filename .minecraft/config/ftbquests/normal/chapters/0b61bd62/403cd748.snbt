@@ -10,5 +10,11 @@
 		items: [{
 			item: "pyrotech:soaking_pot"
 		}]
+	}],
+	rewards: [{
+		uid: "ef829c8c",
+		type: "item",
+		item: "minecraft:cooked_beef",
+		count: 16
 	}]
 }

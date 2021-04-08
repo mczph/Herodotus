@@ -59,4 +59,8 @@ recipes.replaceAllOccurences(<minecraft:furnace>, <pyrotech:brick_oven>, <*>.onl
     return item.definition.owner == "factorytech";
 }));
 
+recipes.replaceAllOccurences(<minecraft:furnace>, <pyrotech:brick_oven>, <*>.only(function(item) {
+    return item.definition.owner == "factorytech";
+}));
+
 }

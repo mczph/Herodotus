@@ -1,0 +1,18 @@
+{
+	x: 30.0d,
+	y: 4.25d,
+	text: [
+		"你可以用 TNT 炸掉黑曜石，并将其冶炼成黑曜石碎片来制作耐久更高的工具"
+	],
+	dependencies: [
+		"d4effb11"
+	],
+	optional: true,
+	tasks: [{
+		uid: "ff642b5b",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 33"
+		}]
+	}]
+}

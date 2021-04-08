@@ -41,7 +41,23 @@ val removeByOutput as IItemStack[] = [
     <bibliocraft:typesettingtable>,
     <bibliocraft:printingpress>,
     <bibliocraft:bibliochase>,
-    <bibliocraft:printplate>
+    <bibliocraft:printplate>,
+    <prodigytech:food_enricher>,
+    <prodigytech:food_purifier>,
+    <mekanismtools:bronzepaxel>,
+    <mekanismtools:bronzepickaxe>,
+    <mekanismtools:bronzeaxe>,
+    <mekanismtools:bronzeshovel>,
+    <mekanismtools:bronzehoe>,
+    <mekanismtools:bronzesword>,
+    <mekanismtools:bronzepaxel>,
+    <mekanismtools:steelpickaxe>,
+    <mekanismtools:steelaxe>,
+    <mekanismtools:steelshovel>,
+    <mekanismtools:steelhoe>,
+    <mekanismtools:steelsword>,
+    <mekanismtools:steelpaxel>,
+    <mekanismtools:bronzepaxel>
 ];
 
 val removeByRecipeName as string[] = [

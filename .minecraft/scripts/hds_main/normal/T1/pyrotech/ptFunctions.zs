@@ -32,9 +32,9 @@ function uPyroKilns(name as string, output as IItemStack, input as IIngredient, 
     PitKiln.removeRecipes(output);
     StoneKiln.removeRecipes(output);
     BrickKiln.removeRecipes(output);
-    PitKiln.addRecipe(name~"_pk", output, input, time, 0.3, [failed, failed*2, failed*3]);
-    StoneKiln.addRecipe(name~"_sk", output, input, time - 5*20, 0.2, [failed*2, failed*3]);
-    BrickKiln.addRecipe(name~"_bk", output, input, time - 10*20, 0.15, [failed*3]);
+    PitKiln.addRecipe(name~"_pk", output, input, time, 0.15, [failed, failed*2, failed*3]);
+    StoneKiln.addRecipe(name~"_sk", output, input, time - 5*20, 0.1, [failed*2, failed*3]);
+    BrickKiln.addRecipe(name~"_bk", output, input, time - 10*20, 0.05, [failed*3]);
 }
 
 //add all pyrotech kiln recipes
@@ -63,6 +63,6 @@ function allPyroCrucible(name as string, output as ILiquidStack, input as IIngre
 
 //Kiln Recipe that make Clump ores into Shards(KRCS)
 function KRCSOreProcessor(name as string, output as IItemStack, input as IIngredient, fitem as IItemStack[]){
-    StoneKiln.addRecipe(name~"_sk_krcs", output, input, 2*60*20, 0.25, fitem);
+    StoneKiln.addRecipe(name~"_sk_krcs", output, input, 2*60*20, 0.15, fitem);
     BrickKiln.addRecipe(name~"_bk_krcs", output, input, 2*60*16);
 }

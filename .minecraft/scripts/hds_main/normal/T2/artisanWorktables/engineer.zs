@@ -124,6 +124,51 @@ RecipeBuilder.get("engineer")
   .addOutput(<modularmachinery:blockfluidinputhatch>)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotBronze>, <ore:gearBronze>, <ore:ingotBronze>],
+    [<pyrotech:material:5>, <prodigytech:air_funnel>, <pyrotech:material:5>],
+    [<pyrotech:material:5>, null, <pyrotech:material:5>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 400)
+  .addOutput(<prodigytech:food_purifier>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <ore:ingotBronze>],
+    [<ore:ingotGold>, <prodigytech:air_funnel>, <ore:ingotBronze>],
+    [<ore:gearBronze>, <prodigytech:primordium>, <ore:ingotBronze>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 500)
+  .addOutput(<prodigytech:food_enricher>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:lightPlateIron>, <ore:lightPlateIron>, <ore:lightPlateIron>],
+    [<ore:lightPlateIron>, <factorytech:intermediate:4>, <ore:lightPlateIron>],
+    [<ore:lightPlateIron>, <magneticraft:crafting:4>, <ore:lightPlateIron>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 150)
+  .addOutput(<magneticraft:conveyor_belt> * 16)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:lightPlateCopper>, null, null],
+    [<ore:lightPlateLead>, <factorytech:intermediate:4>, <ore:lightPlateLead>],
+    [<ore:lightPlateIron>, <magneticraft:crafting:4>, <ore:lightPlateIron>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 200)
+  .addOutput(<magneticraft:inserter>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<magneticraft:crafting:4>, <magneticraft:crafting:4>, <magneticraft:crafting:4>],
+    [<ore:plankWood>, <ore:craftingPiston>, <ore:plankWood>],
+    [<ore:lightPlateIron>, <ore:lightPlateIron>, <ore:lightPlateIron>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 200)
+  .addOutput(<magneticraft:relay>)
+  .create();
+
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
 for i in 0 .. 15 {
     val worktable as IItemStack = worktableDef.makeStack(i);

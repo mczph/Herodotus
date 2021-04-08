@@ -12,7 +12,7 @@ RecipeBuilder.get("mason")
   .setName(name~"_mrlt")
   .setShapeless([input, input, input, input, input, coal, coal, coal, coal])
   .setFluid(<liquid:limewater> * 250)
-  .addTool(<ore:artisansTrowel>, 10)
+  .addTool(<ore:artisansTrowel>, 5)
   .addOutput(output)
   .create();
 }

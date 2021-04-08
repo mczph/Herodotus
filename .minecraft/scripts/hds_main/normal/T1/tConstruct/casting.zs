@@ -15,5 +15,4 @@ Casting.addBasinRecipe(<ore:oreGlass>.materialPart, <minecraft:stone>, <liquid:g
 Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
 Casting.removeTableRecipe(<tconstruct:cast_custom:3>);
 Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearStone>, <liquid:alubrass>, 144, true, 200);
-Casting.addTableRecipe(<hdsutils:copper_bucket>, <pyrotech:bucket_clay_unfired>, <liquid:copper>, 144 * 3, true, 200);
 }

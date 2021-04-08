@@ -138,4 +138,12 @@ RecipeBuilder.get("mason")
   .addTool(<ore:artisansBurner>, 80)
   .addOutput(<hdsutils:refined_bottle>)
   .create();
+
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<ore:dustCopper>, <pyrotech:bucket_clay_unfired>, <ore:dustCopper>],
+    [null, <ore:dustCopper>, null]])
+  .addTool(<ore:artisansBurner>, 90)
+  .addOutput(<hdsutils:copper_bucket>)
+  .create();
 }

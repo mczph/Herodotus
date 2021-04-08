@@ -30,7 +30,11 @@ val removeByOutput as IItemStack[] = [
     <factorytech:htfurnace>,
     <magneticraft:steam_boiler>,
     <pneumaticcraft:air_compressor>,
-    <pneumaticcraft:advanced_air_compressor>
+    <pneumaticcraft:advanced_air_compressor>,
+    <magneticraft:crafting:4>,
+    <magneticraft:conveyor_belt>,
+    <magneticraft:inserter>,
+    <magneticraft:relay>
 ];
 
 val removeByRecipeName as string[] = [
