@@ -311,6 +311,19 @@
       "ingredient": "ore:gemBoronNitride",
       "langKey": "material.athenaeum.boronnitride",
       "oreDictKey": "artisansToolBoronnitride"
+    },
+    {
+      "name": "obsidian",
+      "harvestLevel": 3,
+      "maxUses": 375,
+      "efficiency": 4.0,
+      "damage": 3.5,
+      "enchantability": 10,
+      "color": "4c4267",
+      "shiny": false,
+      "ingredient": "pyrotech:material:33",
+      "langKey": "tile.obsidian.name",
+      "oreDictKey": "artisansToolObsidian"
     }
   ]
 }
