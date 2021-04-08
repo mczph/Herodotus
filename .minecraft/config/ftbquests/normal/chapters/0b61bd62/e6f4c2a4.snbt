@@ -1,0 +1,14 @@
+{
+	x: 33.0d,
+	y: 7.25d,
+	dependencies: [
+		"01ed833f"
+	],
+	tasks: [{
+		uid: "26c74f9a",
+		type: "item",
+		items: [{
+			item: "prodigytech:food_enricher"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 19.5d,
+	y: -3.75d,
+	dependencies: [
+		"514bb536"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c10514bf",
+		type: "item",
+		items: [{
+			item: "magneticraft:conveyor_belt"
+		}]
+	},
+	{
+		uid: "1aa261a2",
+		type: "item",
+		items: [{
+			item: "magneticraft:inserter"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 31.5d,
+	y: 7.25d,
+	dependencies: [
+		"29291dca"
+	],
+	tasks: [{
+		uid: "a43d8da8",
+		type: "item",
+		items: [{
+			item: "prodigytech:food_purifier"
+		}]
+	}]
+}
