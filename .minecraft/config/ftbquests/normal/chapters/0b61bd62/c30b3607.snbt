@@ -2,7 +2,7 @@
 	x: 7.5d,
 	y: 2.0d,
 	text: [
-		"Tip: 你可以副手拿原版木板，主手拿木匠斧右键以修复工匠工作桌。"
+		"{herodotus.quests.c30b3607.text.1}"
 	],
 	dependencies: [
 		"0f4e82b1"

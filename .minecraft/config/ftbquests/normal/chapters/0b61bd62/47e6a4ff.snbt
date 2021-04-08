@@ -2,7 +2,7 @@
 	x: 30.0d,
 	y: 4.25d,
 	text: [
-		"你可以用 TNT 炸掉黑曜石，并将其冶炼成黑曜石碎片来制作耐久更高的工具"
+		"{herodotus.quests.47e6a4ff.text.1}"
 	],
 	dependencies: [
 		"d4effb11"

@@ -2,7 +2,7 @@
 	x: 20.0d,
 	y: 0.0d,
 	text: [
-		"铜桶可以无限制地转移常温流体，但是当转移热的流体时有几率会损坏。"
+		"{herodotus.quests.4ae80206.text.1}"
 	],
 	dependencies: [
 		"7d24fd49"
