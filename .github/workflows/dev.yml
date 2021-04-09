@@ -41,7 +41,7 @@ jobs:
           python-version: 3.8
 
       - name: Run versioner.py
-        run: python runners/versioner.py
+        run: python ${GITHUB_WORKSPACE}/runners/versioner.py
 
       - uses: actions/checkout@v2
       - name: Run build.sh
