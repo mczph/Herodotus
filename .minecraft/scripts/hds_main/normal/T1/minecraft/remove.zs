@@ -57,7 +57,9 @@ val removeByOutput as IItemStack[] = [
     <mekanismtools:steelhoe>,
     <mekanismtools:steelsword>,
     <mekanismtools:steelpaxel>,
-    <mekanismtools:bronzepaxel>
+    <mekanismtools:bronzepaxel>,
+    <pyrotech:crate>,
+    <pyrotech:crate_stone>
 ];
 
 val removeByRecipeName as string[] = [

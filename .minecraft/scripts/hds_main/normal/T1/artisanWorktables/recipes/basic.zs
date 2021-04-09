@@ -67,7 +67,6 @@ RecipeBuilder.get("basic")
     .addTool(<ore:artisansFramingHammer>, 10)
     .addOutput(<artisanworkstumps:log_basin>)
     .create();
-}
 
 RecipeBuilder.get("basic")
   .setShaped([
@@ -86,3 +85,22 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansFramingHammer>, 30)
   .addOutput(<minecraft:chest>)
   .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]])
+  .addTool(<ore:artisansFramingHammer>, 15)
+  .addOutput(<pyrotech:crate> * 2)
+  .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<pyrotech:material:16>, <pyrotech:material:20>, <ore:plankWood>],
+    [<pyrotech:material:20>, <pyrotech:crate>, <pyrotech:material:20>],
+    [<ore:plankWood>, <pyrotech:material:20>, <pyrotech:material:16>]])
+  .addTool(<ore:artisansFramingHammer>, 20)
+  .addOutput(<pyrotech:crate_stone>)
+  .create();
+}
