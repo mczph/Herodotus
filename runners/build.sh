@@ -1,6 +1,6 @@
 #!/bin/sh -x
 
-ZIP_FILE_NAME="${BUILD}-${VERSION}-build${GITHUB_RUN_NUMBER}.zip"
+ZIP_FILE_NAME="${BUILD}-${VERSION}.zip"
 
 [ -d "${GITHUB_WORKSPACE}" ] && PROJECT_DIR="${GITHUB_WORKSPACE}"
 [ "${PROJECT_DIR}" != "${PWD}" ] && cd "${PROJECT_DIR}"
