@@ -5,8 +5,7 @@ on:
   workflow_dispatch:
 env:
   BUILD: Herodotus
-  VERSION_WITHOUT_BUILD_NUMBER: 0.2.0
-  VERSION: ${VERSION_WITHOUT_BUILD_NUMBER}.${GITHUB_RUN_NUMBER}
+  VERSION: 0.2.0
 
 jobs:
   FTBQuestsProcessor:
@@ -41,9 +40,6 @@ jobs:
           python-version: 3.8
 
       - uses: actions/checkout@v2
-
-      - name: Run version.py
-        run: python runners/version.py
 
       - name: Run build.sh
         run: bash runners/build.sh
