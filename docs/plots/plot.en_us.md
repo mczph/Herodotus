@@ -1,42 +1,71 @@
-· Truth and Lies
+# Herodotus - Herodotus the Modpack Backstory
+## Prologue
+"The darkling skies and yellow earth, amid great chaos had their birth."
 
-"People call us heathens, the alternative.
+"God said, let there be light."
 
-"What we believe to be true was, for them, a false story.
+"Then Sun and Moon their courses ran, then stars were set and round they span."
 
-"The advance ship, Herodotus I, was made of despair and set out with hope.
+"Survival or destruction, that is the question."
 
-"The Herodotus project was named after the great Herodotus. 
-Its purpose was the same as Herodotus himself - to preserve the magic, the so-called unreal history.
+"I did not cherish it, and only after I lost it did I regret it, there is nothing more painful in the world than this."
 
-"After the departure of Herodotus I, seventeen other Herodotus ships left Earth between the 1730s and the 1740s. 
-They carried with them most of the believers of the magical pantheon on Earth. 
-Their departure was very secret, but still twelve Herodotus ships were destroyed. 
-Only six of Herodotus' arks remained, and they drifted deep into the universe.
+"Guo du zi fu, xu rong he que fa ze ren gan, shi wo men zhe ge chuang zuo zhe she qu quan zi zui da de yi han."
 
-· Overflowing Light
+Voices, countless voices were whispering in my head.
 
-"I was awakened by my companion. According to her, we were already in the orbit of another planet. 
-But, as I looked out the window, I asked myself: Is this really a planet?
+I pretended I didn't hear them, then open opened my eyes.
 
-"The first thing that struck me about this "planet" was that it was "full of light". 
-Its surface seemed to be a patchwork of huge oceans and land, like a mirror reflecting everything in space, even the six "Herodotus" ships. 
-However, the mirror-like surface of the planet has black gaps, dividing the land and ocean into almost perfect two-dimensional geometry.
+It was like I was woken up from a giant dream, I pinched myself hard on my left arm.
 
-"The priests of the temple called the planet "Mirror Star", but I thought "Mercury" was a more accurate description of this place - 
-it was like a droplet of mercury floating in the universe, reminding me of my childhood. 
-When I had a fever, I accidentally broke the thermometer.
+But then the pain that came, was so real.
 
-"I was almost certain that the Mirror Star was an artificial object.
-Therefore, it was no longer surprising when we found minerals of different shapes and colors and saw the miracle produced by mixing them with each other. 
-The first step of the Herodotus project was realized, but I knew that one day our enemies would find us.
+It was real, I was not dreaming.
 
-"A new century began on the Mirror Star, so did the countdown to war.
+But the voice in my head, was still springing in my mind.
 
-"But we started from scratch.
+The world was born from the hands of God. Nüwa made humans out of clay.
 
-· Finale
+Herodotus recounts the wonderfully obscure story of the world. Shakespeare portrays the complexities and depths of human nature.
 
-"Years later, when I returned to the Mirror Star, the words engraved on the Herodotus ship had not disappeared, but represented the original vision of its creators.
+Franklin caught lightning with a kite. Maxwell captured light waves with equations.
 
-"Those whom God wishes to destroy, he first makes mad. "
+ENIAC tubes whisper. The super-dimensional computer's air-cooled system rumbles and roars -
+
+These people, events, or rather, concepts, their connotations and extrapolations
+
+They were once so real to me, but now I only feel their strangeness and absurdity.
+
+I pretended I didn't hear the voices in my head, and stood still and gazed into the distance.
+
+Beneath the deep black dome covered with stars, there was a field of light and color.
+
+A straight river flowed past me, softly emitting the sound of water.
+
+I walked towards the riverbank and picked up a stone.
+
+I found that it had a perfect symmetrical geometric form, shining with a dazzling and attractive light.
+
+I casually tossed the stone into the river, only to see it change its color and shape to a geometric form of another color.
+
+It was crazy reality, so real it was crazy. I said to myself.
+
+I suddenly wondered about the world around me.
+
+I once again pinched myself hard on my left arm.
+
+The pain that came from my left arm was sore and real.
+
+It was real, I wasn't dreaming.
+
+The rumbles coming from my stomach seemed to emphasize this indisputable fact, once again.
+
+I was reminded of the philosopher's three ultimate questions.
+
+"Who am I?"
+
+"Where am I?"
+
+"What's for lunch today?"
+
+Perhaps after dinning, I'll give a little think about where I am going next.
