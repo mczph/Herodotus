@@ -6,7 +6,7 @@
 
 "Then Sun and Moon their courses ran, then stars were set and round they span."
 
-"Survival or destruction, that is the question."
+"To be or not to be, that is the question."
 
 "I did not cherish it, and only after I lost it did I regret it, there is nothing more painful in the world than this."
 
