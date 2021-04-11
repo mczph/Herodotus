@@ -50,7 +50,7 @@ RecipeBuilder.get("mason")
 RecipeBuilder.get("mason")
   .setShapeless([<ore:ingotBronze>])
   .addTool(<ore:artisansBurner>, 20)
-  .addOutput(ptm5 * 4)
+  .addOutput(ptm5 * 6)
   .create();
 
 RecipeBuilder.get("mason")
@@ -115,9 +115,9 @@ RecipeBuilder.get("mason")
 
 RecipeBuilder.get("mason")
   .setShaped([
-    [<astralsorcery:blockmarbleslab>, <ore:plateIron>, <astralsorcery:blockmarbleslab>],
-    [<ore:plateIron>, <ore:dustGlimmerite>, <ore:plateIron>],
-    [<astralsorcery:blockmarbleslab>, <ore:plateIron>, <astralsorcery:blockmarbleslab>]])
+    [<astralsorcery:blockmarbleslab>, <ore:ingotIron>, <astralsorcery:blockmarbleslab>],
+    [<ore:ingotIron>, <ore:dustGlimmerite>, <ore:ingotIron>],
+    [<astralsorcery:blockmarbleslab>, <ore:ingotIron>, <astralsorcery:blockmarbleslab>]])
   .addTool(<ore:artisansTrowel>, 10)
   .addOutput(<contenttweaker:starlight_frame>)
   .create();
