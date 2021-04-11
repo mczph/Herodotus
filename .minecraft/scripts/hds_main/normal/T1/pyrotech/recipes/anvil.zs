@@ -13,6 +13,8 @@ if(!isInvalid){
 rAllPyroAnvil(<ore:pieceCoal>.materialPart);
 rAllPyroAnvil(<minecraft:coal>);
 rAllPyroAnvil(<minecraft:stone_slab:*>);
+rAllPyroAnvil(<minecraft:iron_ingot>);
+rAllPyroAnvil(<minecraft:gold_ingot>);
 
 //Add
 allPyroAnvil("blue_square", <ore:rockLead>.materialPart, <ore:squareBlue>, 6, "hammer");

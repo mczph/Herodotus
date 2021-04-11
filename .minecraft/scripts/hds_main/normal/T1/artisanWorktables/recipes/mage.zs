@@ -37,7 +37,7 @@ val temp = RecipeBuilder.get("mage")
         [<ore:stone>, <ore:stone>, <ore:stone>],
         [<ore:stone>, <tconstruct:clear_glass>, <ore:stone>],
         [<ore:stone>, <ore:stone>, <ore:stone>]])
-    .addTool(<ore:artisansAthame>, 10)
+    .addTool(<ore:artisansAthame>, 5)
     .setFluid(<liquid:mercury> * 125)
     // .setExtraOutputOne(<pyrotech:rock> * 12, 1.0)
     .setRecipeFunction(function(out, ins, info) {
@@ -46,12 +46,12 @@ val temp = RecipeBuilder.get("mage")
 	        return out;
 	    } else {
             print(XPUtil.getPlayerXP(info.player));
-            return (XPUtil.getPlayerXP(info.player) >= 40) ? out : null;
+            return (XPUtil.getPlayerXP(info.player) >= 10) ? out : null;
         }
     })
     .setRecipeAction(function(out, info, player) {
         if (isNull(player) || player.world.remote) return;
-        XPUtil.removePlayerXP(player, 40);
+        XPUtil.removePlayerXP(player, 10);
     });
 for i in 2 .. 10 {
     temp.addOutput(<ore:dustTinyGlimmerite>.materialPart * i, pow(1.5, (10 - i)));
@@ -63,7 +63,7 @@ RecipeBuilder.get("mage")
         [<ore:stone>, <ore:dustGlimmerite>, <ore:stone>],
         [<ore:stone>, <ore:dustGlimmerite>, <ore:stone>],
         [<ore:stone>, <ore:dustGlimmerite>, <ore:stone>]])
-    .addTool(<ore:artisansAthame>, 10)
+    .addTool(<ore:artisansAthame>, 20)
     .setFluid(<liquid:mercury> * 250)
     .addOutput(<astralsorcery:blockmarble> * 12)
     .create();
