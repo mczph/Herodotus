@@ -11,7 +11,9 @@ if(!isInvalid){
 for shape in crtlib.shapes {
     pressurechamber.addRecipe([colorize.getShapeVariant(shape, "recrystallized") * 2, <contenttweaker:black_dye>], 1.5, [colorize.getShapeVariant(shape, "polluted") * 2]);
 }
+
 pressurechamber.removeRecipe([<pneumaticcraft:ingot_iron_compressed>]);
+pressurechamber.removeRecipe([<minecraft:diamond>]);
 
 val livelyWaterBucket as IItemStack = <forge:bucketfilled>.withTag({FluidName: "lively_water", Amount: 1000});
 pressurechamber.addRecipe([livelyWaterBucket, <ore:ingotIron>], 2.0, [<factorytech:ingot:5>, <minecraft:bucket>]);

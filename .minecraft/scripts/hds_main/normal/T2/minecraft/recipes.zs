@@ -53,6 +53,8 @@ recipes.replaceAllOccurences(<factorytech:ore_dust:12>, <ore:dustLapis>, <*>.onl
     return item.definition.owner == "factorytech";
 }));
 
+recipes.replaceAllOccurences(<ore:string>, <ore:plankWood>, <ore:artisansHammer>);
+
 recipes.replaceAllOccurences(<factorytech:ore_dust:14>, <ore:dustGold>);
 
 recipes.replaceAllOccurences(<minecraft:furnace>, <pyrotech:brick_oven>, <*>.only(function(item) {
