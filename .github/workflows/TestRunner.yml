@@ -1,0 +1,73 @@
+name: TestRunner
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  TestRunner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+
+      - name: Download Modpack Downloader CLI
+        run: |
+          mkdir ${GITHUB_WORKSPACE}/downloader
+          wget https://github.com/Nincraft/ModPackDownloader/releases/download/0.6.1/ModpackDownloader-cli-0.6.1.jar -O ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar
+
+      - name: Download GML
+        run: |
+          mkdir ${GITHUB_WORKSPACE}/gml
+          wget https://github.com/xmdhs/gomclauncher/releases/download/v1.3.9/gml-linux.gz -O ${GITHUB_WORKSPACE}/gml/gml-linux.gz
+
+      - name: Unzip GML
+        run: gzip -d ${GITHUB_WORKSPACE}/gml/gml-linux.gz
+
+      - name: Grant Permission for GML
+        run: |
+          sudo chmod +x ${GITHUB_WORKSPACE}/gml/gml-linux
+
+      - name: Download Minecraft 1.12.2
+        run: |
+          cd gml
+          sudo ./gml-linux -downver 1.12.2 -type "vanilla" -independent=f
+
+      - name: Enable Hard fail Script
+        run: sudo mv ${GITHUB_WORKSPACE}/.minecraft/scripts/hardfail.zs.disabled ${GITHUB_WORKSPACE}/.minecraft/scripts/hardfail.zs
+
+      - name: Load Modpack Stuff
+        run: sudo mv ${GITHUB_WORKSPACE}/.minecraft/* ${GITHUB_WORKSPACE}/gml/.minecraft/
+
+      - name: Set launcher_profiles.json
+        run: sudo bash ${GITHUB_WORKSPACE}/runners/set_launcher_profiles.sh
+
+      - name: Download Forge 14.23.5.2854 Installer
+        run: sudo wget https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-installer.jar -O ${GITHUB_WORKSPACE}/gml/forge-1.12.2-14.23.5.2854-installer.jar
+
+      - name: Download Forge Install Bootstrapper
+        run: |
+          wget https://github.com/bangbang93/forge-install-bootstrapper/releases/download/0.0.0/forge-install-bootstrapper.jar -O ${GITHUB_WORKSPACE}/gml/forge-install-bootstrapper.jar
+
+      - name: Install Forge 14.23.5.2854
+        run: |
+          cd gml
+          sudo java -cp "forge-install-bootstrapper.jar:forge-1.12.2-14.23.5.2854-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
+
+      - name: Download Mods
+        run: sudo ${JAVA_HOME_11_X64}/bin/java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
+
+      - name: Install Autostop
+        run: sudo mv ${GITHUB_WORKSPACE}/runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
+
+      - name: Tweak ThaumicJEI config
+        run: sudo mv -f ${GITHUB_WORKSPACE}/runners/thaumicjei.cfg ${GITHUB_WORKSPACE}/gml/.minecraft/config
+
+      - name: Run modpack
+        run: |
+          cd ./gml
+          sudo xvfb-run ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144 -log -independent=f -javapath ${JAVA_HOME_8_X64}/bin/java
