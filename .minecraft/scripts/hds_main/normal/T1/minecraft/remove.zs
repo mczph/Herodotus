@@ -58,7 +58,6 @@ val removeByOutput as IItemStack[] = [
     <mekanismtools:steelsword>,
     <mekanismtools:steelpaxel>,
     <mekanismtools:bronzepaxel>,
-    <pyrotech:crate>,
     <pyrotech:crate_stone>
 ];
 

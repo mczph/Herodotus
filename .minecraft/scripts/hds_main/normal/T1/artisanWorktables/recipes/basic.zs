@@ -88,15 +88,6 @@ RecipeBuilder.get("basic")
 
 RecipeBuilder.get("basic")
   .setShaped([
-    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-    [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>],
-    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]])
-  .addTool(<ore:artisansFramingHammer>, 15)
-  .addOutput(<pyrotech:crate> * 2)
-  .create();
-
-RecipeBuilder.get("basic")
-  .setShaped([
     [<pyrotech:material:16>, <pyrotech:material:20>, <ore:plankWood>],
     [<pyrotech:material:20>, <pyrotech:crate>, <pyrotech:material:20>],
     [<ore:plankWood>, <pyrotech:material:20>, <pyrotech:material:16>]])

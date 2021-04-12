@@ -81,6 +81,8 @@ RecipeUtils.recipeTweak(true, <bibliocraft:framedchest:6>, [
     [<bibliocraft:framingsheet>, <minecraft:chest>, <bibliocraft:framingsheet>]
 ]);
 
+RecipeUtils.recipeTweak(true, <pyrotech:crate> * 2, RecipeUtils.createSurround(<ore:slabWood>, <ore:plankWood>));
+
 val vPlankDef as IItemDefinition = <minecraft:planks>.definition;
 val bbChestDef as IItemDefinition = <bibliocraft:framedchest>.definition;
 val bbLableDef as IItemDefinition = <bibliocraft:label>.definition;
