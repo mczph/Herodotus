@@ -97,7 +97,7 @@ RecipeBuilder.get("mason")
   .setShaped([
     [ptm, <ore:slabStone>, ptm],
     [ptm, <pyrotech:worktable>, ptm],
-    [ptm, ptm. ptm]])
+    [ptm, ptm, ptm]])
   .addTool(<ore:artisansTrowel>, 20)
   .setFluid(<liquid:limewater> * 500)
   .addOutput(<pyrotech:worktable_stone>)
