@@ -8,6 +8,7 @@ import scripts.hds_main.normal.T1.artisanWorktables.awFunctions.MRLTOreProcessor
 
 if(!isInvalid){
 
+val ptm as IItemStack = <pyrotech:material>;
 val ptm5 as IItemStack = <pyrotech:material:5>;
 
 MRLTOreProcessor("copper", <ore:clumpCopper>.materialPart*4, <ore:crushedOreCopper>);
@@ -73,7 +74,37 @@ RecipeBuilder.get("mason")
   .addOutput(<tconstruct:casting:1>)
   .create();
 
-  RecipeBuilder.get("mason")
+val pyrotechDevices as IItemStack[IItemStack] = {
+    <pyrotech:brick_kiln> : <pyrotech:stone_kiln>,
+    <pyrotech:brick_oven> : <pyrotech:stone_oven>,
+    <pyrotech:brick_sawmill> : <pyrotech:stone_sawmill>,
+    <pyrotech:brick_crucible> : <pyrotech:stone_crucible>
+};
+
+for brick, stone in pyrotechDevices {
+    RecipeBuilder.get("mason")
+      .setShaped([
+        [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>],
+        [<pyrotech:material:5>, stone, <pyrotech:material:5>],
+        [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>]])
+      .addTool(<ore:artisansTrowel>, 20)
+      .setFluid(<liquid:limewater> * 500)
+      .addOutput(brick)
+      .create();
+}
+
+RecipeBuilder.get("mason")
+  .setShaped([
+    [ptm, <ore:slabStone>, ptm],
+    [ptm, <pyrotech:worktable>, ptm],
+    [ptm, ptm. ptm]])
+  .addTool(<ore:artisansTrowel>, 20)
+  .setFluid(<liquid:limewater> * 500)
+  .addOutput(<pyrotech:worktable_stone>)
+  .create();
+//TODO move pyrotech stone devices recipes into mason worktable
+
+RecipeBuilder.get("mason")
   .setShapeless([<contenttweaker:rhombus>])
   .addTool(<contenttweaker:sandpaper>, 1)
   .addOutput(<contenttweaker:polished_rhombus>)
@@ -123,12 +154,12 @@ RecipeBuilder.get("mason")
   .create();
 
 RecipeBuilder.get("mason")
-    .setShaped([
+  .setShaped([
         [<ore:sphericalYellow>, <ore:sphericalYellow>],
         [<ore:sphericalYellow>, <ore:sphericalYellow>]])
-    .addTool(<ore:artisansTrowel>, 10)
-    .addOutput(<contenttweaker:yellow_spherical_block>)
-    .create();
+  .addTool(<ore:artisansTrowel>, 10)
+  .addOutput(<contenttweaker:yellow_spherical_block>)
+  .create();
 
 RecipeBuilder.get("mason")
   .setShaped([

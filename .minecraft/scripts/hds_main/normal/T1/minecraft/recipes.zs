@@ -54,20 +54,10 @@ RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
     [null, <ore:ingotBronze>, null]
 ]);
 
-val pyrotechDevices as IItemStack[IItemStack] = {
-    <pyrotech:brick_kiln> : <pyrotech:stone_kiln>,
-    <pyrotech:brick_oven> : <pyrotech:stone_oven>,
-    <pyrotech:brick_sawmill> : <pyrotech:stone_sawmill>,
-    <pyrotech:brick_crucible> : <pyrotech:stone_crucible>
-};
-
-for brick, stone in pyrotechDevices {
-    RecipeUtils.recipeTweak(true, brick, [
-        [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>],
-        [<pyrotech:material:5>, stone, <pyrotech:material:5>],
-        [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>]
-    ]);
-}
+RecipeUtils.recipeTweak(true, <cookingforblockheads:spice_rack>*2, [
+    [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+    [<ore:ingotIron>, <ore:rodLongIron>, <ore:ingotIron>]
+]);
 
 RecipeUtils.recipeTweak(true, <pyrotech:anvil_iron_plated>, [
     [<ore:stoneMarble>, <ore:stoneMarble>, <ore:stoneMarble>],

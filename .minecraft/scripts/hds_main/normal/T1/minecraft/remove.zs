@@ -58,7 +58,16 @@ val removeByOutput as IItemStack[] = [
     <mekanismtools:steelsword>,
     <mekanismtools:steelpaxel>,
     <mekanismtools:bronzepaxel>,
-    <pyrotech:crate_stone>
+    <pyrotech:crate_stone>,
+    <pyrotech:brick_kiln>,
+    <pyrotech:brick_oven>,
+    <pyrotech:brick_sawmill>,
+    <pyrotech:brick_crucible>,
+    /*<pyrotech:stone_kiln>,
+    <pyrotech:stone_oven>,
+    <pyrotech:stone_sawmill>,
+    <pyrotech:stone_crucible>*/
+    //TODO move pyrotech stone devices recipes into mason worktable
 ];
 
 val removeByRecipeName as string[] = [
