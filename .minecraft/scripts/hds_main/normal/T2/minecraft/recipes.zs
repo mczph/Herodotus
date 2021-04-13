@@ -65,4 +65,10 @@ recipes.replaceAllOccurences(<minecraft:furnace>, <pyrotech:brick_oven>, <*>.onl
     return item.definition.owner == "factorytech";
 }));
 
+recipes.addShaped("iron_pickaxe_from_iron_allay", <minecraft:iron_pickaxe>, [
+	[<ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>],
+	[null, <ore:stickWood>, null],
+	[null, <ore:stickWood>, null]
+]);
+
 }

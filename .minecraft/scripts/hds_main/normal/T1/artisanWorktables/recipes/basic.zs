@@ -40,9 +40,9 @@ RecipeBuilder.get("basic")
 
 RecipeBuilder.get("basic")
     .setShaped([
-	    [<ore:plateIron>, <ore:blockIron>, <ore:plateIron>],
-	    [<ore:barsIron>, <pyrotech:worktable>, <ore:barsIron>],
-	    [<ore:barsIron>, <pyrotech:stash>, <ore:barsIron>]])
+	    [<ore:ingotIron>, <ore:blockIron>, <ore:ingotIron>],
+	    [<ore:nuggetIron>, <pyrotech:worktable>, <ore:nuggetIron>],
+	    [<ore:nuggetIron>, <pyrotech:stash>, <ore:nuggetIron>]])
     .setFluid(<liquid:water>*1000)
     .addTool(<ore:artisansHammer>, 75)
     .addOutput(<artisanworkstumps:workstump_blacksmith>)

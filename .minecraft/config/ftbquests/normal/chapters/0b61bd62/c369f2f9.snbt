@@ -1,0 +1,18 @@
+{
+	x: 22.5d,
+	y: -0.75d,
+	text: [
+		"红色方形可以直接烧成铁合金锭，来制作铁质工具，耐久更高。（Tip：也可以做原版铁镐，虽然原版铁镐不能挖方块，但依旧能用于砧）"
+	],
+	dependencies: [
+		"e87dbfbf"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d167ac8d",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 9"
+		}]
+	}]
+}

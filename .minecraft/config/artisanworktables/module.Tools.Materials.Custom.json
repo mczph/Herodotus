@@ -29,7 +29,7 @@
     {
       "name": "iron",
       "harvestLevel": 2,
-      "maxUses": 250,
+      "maxUses": 300,
       "efficiency": 6.0,
       "damage": 2.0,
       "enchantability": 14,
@@ -315,7 +315,7 @@
     {
       "name": "obsidian",
       "harvestLevel": 3,
-      "maxUses": 375,
+      "maxUses": 450,
       "efficiency": 4.0,
       "damage": 3.5,
       "enchantability": 10,
@@ -324,6 +324,19 @@
       "ingredient": "pyrotech:material:33",
       "langKey": "tile.obsidian.name",
       "oreDictKey": "artisansToolObsidian"
+    },
+    {
+      "name": "construction_allay",
+      "harvestLevel": 2,
+      "maxUses": 300,
+      "efficiency": 1.5,
+      "damage": 2.0,
+      "enchantability": 4,
+      "color": "646464",
+      "shiny": false,
+      "ingredient": "ore:ingotConstructionAlloy",
+      "langKey": "material.construction_alloy.name",
+      "oreDictKey": "artisansToolConstructionAllay"
     }
   ]
 }
