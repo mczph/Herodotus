@@ -59,4 +59,12 @@ RecipeBuilder.get("blacksmith")
   .addTool(<contenttweaker:hot_air_solderer>, 200)
   .addOutput(<prodigytech:atomic_reshaper>)
   .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:ingotBronze>, <ore:obsidian>, <ore:ingotBronze>],
+    [<ore:ingotBronze>, <ore:enderpearl>, <ore:ingotBronze>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 180)
+  .addOutput(<prodigytech:wormhole_funnel> * 2)
+  .create();
 }

@@ -13,12 +13,13 @@ import mods.pyrotech.IroncladAnvil;
 import mods.pyrotech.BrickCrucible;
 import mods.pyrotech.BrickKiln;
 import mods.tconstruct.Casting;
-import mods.prodigytech.rotarygrinder;
 import mods.pneumaticcraft.pressurechamber;
+import mods.factorytech.Grindstone;
 import scripts.grassUtils.StringHelper;
 import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
 import scripts.hds_lib.crtlib;
 import scripts.hds_main.utils.modloader.isInvalid;
+import scripts.hds_main.utils.globalGrinder.addGrinderRecipe;
 
 
 function getColorEssences(color as string, tier as int) as ILiquidStack {
@@ -67,10 +68,14 @@ for color in crtlib.colors {
 
     SoakingPot.addRecipe("dye_t2_" ~ color, clump.materialPart, fluidTier1*500, crushedOre, true, 20*20);
     BrickCrucible.addRecipe("dye_t2_melt_" ~ color, fluidTier2*500, clump, 60*20);
-    rotarygrinder.addRecipe(crushedOre, dust.materialPart);
+    addGrinderRecipe(poorOre, crushedOre);
+    addGrinderRecipe(ore, crushedOre * 2);
+    addGrinderRecipe(denseOre, crushedOre * 4);
+    addGrinderRecipe(crushedOre, dust);
 
     // remove other dust crafting
     mods.astralsorcery.Grindstone.removeRecipe(dust.materialPart);
+    Grindstone.removeRecipe(dust.materialPart);
     
     for shape in crtlib.shapes {
         var output as IItemStack = oreDict.get(shape ~ od).materialPart;

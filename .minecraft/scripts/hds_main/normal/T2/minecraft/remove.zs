@@ -35,6 +35,7 @@ val removeByOutput as IItemStack[] = [
     <magneticraft:conveyor_belt>,
     <magneticraft:inserter>,
     <magneticraft:relay>
+    
 ];
 
 val removeByRecipeName as string[] = [
