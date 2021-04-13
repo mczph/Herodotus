@@ -2,7 +2,7 @@
 	x: 22.5d,
 	y: -0.75d,
 	text: [
-		"红色方形可以直接烧成铁合金锭，来制作铁质工具，耐久更高。（Tip：也可以做原版铁镐，虽然原版铁镐不能挖方块，但依旧能用于砧）"
+		"{herodotus.quests.c369f2f9.text.1}"
 	],
 	dependencies: [
 		"e87dbfbf"
