@@ -2,7 +2,7 @@
 	x: 31.5d,
 	y: 10.5d,
 	text: [
-		"将星辉矿粉碎后获取星尘。"
+		"{herodotus.quests.f924aa46.text.1}"
 	],
 	dependencies: [
 		"3bac949f"

@@ -9,8 +9,7 @@ modularmachinery.hot_air_boiler=热空气蒸汽锅炉
 herodotus.quests.66ec53e2.text.1=只要不断地捡木棍，道路就会不断延伸。
 herodotus.quests.66ec53e2.text.2=不要停下来啊！
 
-herodotus.quests.f924aa46.text.1=破坏星辉矿有概率获得星尘
-herodotus.quests.42c05de6.text.1=boom!!!!!!!
+herodotus.quests.f924aa46.text.1=将星辉矿粉碎后获取星尘。herodotus.quests.42c05de6.text.1=boom!!!!!!!
 herodotus.quests.25f2b62f.text.1=各个等级的星光晶体均可以转化为星能液
 herodotus.quests.25f2b62f.text.2=
 
@@ -50,3 +49,4 @@ herodotus.quests.c30b3607.text.1=Tip: 你可以副手拿原版木板，主手拿
 herodotus.quests.0eeb63d3.title=铁锭
 
 herodotus.quests.c369f2f9.text.1=红色方形可以直接烧成铁合金锭，来制作铁质工具，耐久更高。（Tip：也可以做原版铁镐，虽然原版铁镐不能挖方块，但依旧能用于砧）
+
