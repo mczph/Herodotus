@@ -123,4 +123,14 @@ RecipeBuilder.get("mage")
     })
   .addOutput(<contenttweaker:altar>)
   .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <ore:gemChippedGlimmerite>, <ore:gemFlawedGlimmerite>],
+    [null, <ore:stoneMarble>, <ore:gemChippedGlimmerite>],
+    [<ore:stoneMarble>, null, null]])
+  .addTool(<ore:artisansAthame>, 80)
+  .setFluid(<liquid:mercury> * 1000)
+  .addOutput(<astralsorcery:itemwand>)
+  .create();
 }
