@@ -11,7 +11,7 @@ if(!isInvalid){
 
 FluidToFluid.transform(<liquid:limewater>, <liquid:water>, [<pyrotech:material:22>*3]);
 FluidToItem.transform(<astralsorcery:blockcustomflower>, <liquid:astralsorcery.liquidstarlight>, [<minecraft:tallgrass:1>], false);
-FluidToItem.transform(<prodigytech:energion_dust>, <liquid:astralsorcery.liquidstarlight>, [<ore:dustQuartz> * 12, <ore:gemChippedGlimmerite> * 4, <ore:dustGold> * 2], true);
+FluidToItem.transform(<prodigytech:energion_dust> * 2, <liquid:astralsorcery.liquidstarlight>, [<ore:dustQuartz> * 8, <ore:gemChippedGlimmerite> * 4, <ore:dustGold> * 1], true);
 FluidToItem.transform(<contenttweaker:black_dye> * 3, colorize.getColorEssences("red", 2), [<ore:clumpYellow>, <ore:clumpBlue>], true);
 FluidToItem.transform(<contenttweaker:black_dye> * 3, colorize.getColorEssences("yellow", 2), [<ore:clumpRed>, <ore:clumpBlue>], true);
 FluidToItem.transform(<contenttweaker:black_dye> * 3, colorize.getColorEssences("blue", 2), [<ore:clumpRed>, <ore:clumpYellow>], true);
