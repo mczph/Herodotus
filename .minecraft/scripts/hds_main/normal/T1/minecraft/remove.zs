@@ -44,6 +44,7 @@ val removeByOutput as IItemStack[] = [
     <bibliocraft:printplate>,
     <prodigytech:food_enricher>,
     <prodigytech:food_purifier>,
+    <prodigytech:capacitor_aeroheater>,
     <mekanismtools:bronzepaxel>,
     <mekanismtools:bronzepickaxe>,
     <mekanismtools:bronzeaxe>,
@@ -63,7 +64,8 @@ val removeByOutput as IItemStack[] = [
     <pyrotech:brick_oven>,
     <pyrotech:brick_sawmill>,
     <pyrotech:brick_crucible>,
-    <prodigytech:wormhole_funnel>
+    <prodigytech:wormhole_funnel>,
+    <factorytech:crate>
     /*<pyrotech:stone_kiln>,
     <pyrotech:stone_oven>,
     <pyrotech:stone_sawmill>,

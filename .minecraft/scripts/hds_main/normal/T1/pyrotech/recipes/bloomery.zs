@@ -20,7 +20,7 @@ if (!isInvalid) {
     Bloomery.createBloomeryBuilder("iron", <ore:nuggetIron>.materialPart, <pyrotech:generated_pile_slag_iron>)
         .setBurnTimeTicks(4 * 60 * 20)
         .setLangKey("material.iron.name")
-        .setBloomYield(8, 12)
+        .setBloomYield(10, 15)
         .setSlagItem(<pyrotech:generated_slag_iron>, 2)
         .setAnvilTiers(["ironclad"])
         .register();
