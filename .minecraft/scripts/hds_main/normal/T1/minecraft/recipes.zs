@@ -95,6 +95,12 @@ recipes.addShapeless("bronze_dust_from_small", <ore:dustBronze>.materialPart, [
     <ore:dustSmallCopper>, <ore:dustSmallCopper>, <ore:dustSmallCopper>, <ore:dustSmallTin>
 ]);
 
+recipes.addShaped("iron_hammer_from_alloy", <pyrotech:iron_hammer>, [
+    [null, <ore:ingotConstructionAlloy>, <ore:string>],
+    [null, <ore:stickWood>, <ore:ingotConstructionAlloy>],
+    [<ore:stickWood>, null, null]
+]);
+
 recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(function(item) {
     return item.definition.owner == "prodigytech" && (item.ores.length == 0 || !item.ores[0].name.contains("Ferramic"));
 }));
