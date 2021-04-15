@@ -146,9 +146,9 @@ RecipeBuilder.get("mason")
 
 RecipeBuilder.get("mason")
   .setShaped([
-    [<astralsorcery:blockmarbleslab>, <ore:ingotIron>, <astralsorcery:blockmarbleslab>],
-    [<ore:ingotIron>, <ore:dustGlimmerite>, <ore:ingotIron>],
-    [<astralsorcery:blockmarbleslab>, <ore:ingotIron>, <astralsorcery:blockmarbleslab>]])
+    [<astralsorcery:blockmarbleslab>, <pyrotech:material:5>, <astralsorcery:blockmarbleslab>],
+    [<pyrotech:material:5>, <ore:dustGlimmerite>, <pyrotech:material:5>],
+    [<astralsorcery:blockmarbleslab>, <pyrotech:material:5>, <astralsorcery:blockmarbleslab>]])
   .addTool(<ore:artisansTrowel>, 10)
   .addOutput(<contenttweaker:starlight_frame>)
   .create();

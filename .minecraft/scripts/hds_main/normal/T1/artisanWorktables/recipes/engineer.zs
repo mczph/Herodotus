@@ -98,4 +98,13 @@ RecipeBuilder.get("engineer")
   .addOutput(<tconstruct:tooltables:3>)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotBronze>, <ore:blockQuartz>, <ore:ingotBronze>],
+    [<ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>],
+    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 750)
+  .addOutput(<prodigytech:capacitor_aeroheater>)
+  .create();
+
 }

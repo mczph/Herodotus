@@ -13,4 +13,5 @@ rotarygrinder.addRecipe(<ore:rockIron>, <ore:crushedOreIron>.materialPart);
 rotarygrinder.addRecipe(<pyrotech:rock:8>, <ore:dustLimestone>.firstItem);
 rotarygrinder.addRecipe(<ore:shardCopper>, <ore:dustSmallCopper>.materialPart * 2);
 rotarygrinder.addRecipe(<ore:shardTin>, <ore:dustSmallTin>.materialPart * 2);
+rotarygrinder.addRecipe(<astralsorcery:blockcustomore:1>, <astralsorcery:itemcraftingcomponent:2>);
 }

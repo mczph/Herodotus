@@ -19,7 +19,7 @@ RecipeUtils.recipeTweak(true, <artisanworktables:toolbox>, [
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
 
-RecipeUtils.recipeTweak(true, <contenttweaker:primordium_shard> * 48, [[<prodigytech:primordium>]]);
+RecipeUtils.recipeTweak(true, <contenttweaker:primordium_shard> * 32, [[<prodigytech:primordium>]]);
 
 RecipeUtils.recipeTweak(true, <factorytech:sluice>, [
 	[<pyrotech:material:23>, null, <pyrotech:material:23>],
@@ -55,6 +55,8 @@ recipes.replaceAllOccurences(<factorytech:ore_dust:12>, <ore:dustLapis>, <*>.onl
 
 recipes.replaceAllOccurences(<ore:string>, <ore:plankWood>, <ore:artisansHammer>);
 
+recipes.replaceAllOccurences(<magneticraft:crafting:4>, <factorytech:machinepart:130>);
+
 recipes.replaceAllOccurences(<factorytech:ore_dust:14>, <ore:dustGold>);
 
 recipes.replaceAllOccurences(<minecraft:furnace>, <pyrotech:brick_oven>, <*>.only(function(item) {
@@ -70,5 +72,7 @@ recipes.addShaped("iron_pickaxe_from_iron_allay", <minecraft:iron_pickaxe>, [
 	[null, <ore:stickWood>, null],
 	[null, <ore:stickWood>, null]
 ]);
+
+recipes.addShaped("tic_crafting_table", <tconstruct:tooltables>, [[<artisanworktables:worktable:5>]]);
 
 }

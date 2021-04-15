@@ -71,6 +71,18 @@ RecipeUtils.recipeTweak(true, <bibliocraft:framedchest:6>, [
     [<bibliocraft:framingsheet>, <minecraft:chest>, <bibliocraft:framingsheet>]
 ]);
 
+RecipeUtils.recipeTweak(true, <prodigytech:heat_capacitor_1:12000>, [
+    [null, <prodigytech:heat_capacitor_0:12000>, null],
+    [<ore:dustAstralStarmetal>, <ore:dustGold>, <ore:dustAstralStarmetal>],
+    [null, <prodigytech:heat_capacitor_0:12000>, null]
+]);
+
+RecipeUtils.recipeTweak(true, <jecalculation:item_calculator>, [
+    [<pyrotech:material:16>, <ore:blockGlassColorless>, <pyrotech:material:16>],
+    [<pyrotech:material:16>, <minecraft:stone_button>, <pyrotech:material:16>],
+    [<pyrotech:material:16>, <minecraft:stone_button>, <pyrotech:material:16>]
+]);
+
 RecipeUtils.recipeTweak(true, <pyrotech:crate> * 2, RecipeUtils.createSurround(<ore:slabWood>, <ore:plankWood>));
 
 val vPlankDef as IItemDefinition = <minecraft:planks>.definition;
@@ -93,6 +105,12 @@ recipes.addShapeless("tiny_bronze_dust", <ore:dustTinyBronze>.materialPart * 4, 
 
 recipes.addShapeless("bronze_dust_from_small", <ore:dustBronze>.materialPart, [
     <ore:dustSmallCopper>, <ore:dustSmallCopper>, <ore:dustSmallCopper>, <ore:dustSmallTin>
+]);
+
+recipes.addShaped("iron_hammer_from_alloy", <pyrotech:iron_hammer>, [
+    [null, <ore:ingotConstructionAlloy>, <ore:string>],
+    [null, <ore:stickWood>, <ore:ingotConstructionAlloy>],
+    [<ore:stickWood>, null, null]
 ]);
 
 recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(function(item) {

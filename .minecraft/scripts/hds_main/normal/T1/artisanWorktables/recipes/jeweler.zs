@@ -28,9 +28,9 @@ RecipeBuilder.get("jeweler")
 RecipeBuilder.get("jeweler")
   .setShapeless([<ore:clusterGlimmerite>])
   .addTool(<contenttweaker:sandpaper>, 5)
-  .addOutput(<ore:gemChippedGlimmerite>.materialPart, 2)
-  .addOutput(<ore:gemFlawedGlimmerite>.materialPart, 2)
-  .addOutput(<ore:gemFlawlessGlimmerite>.materialPart, 1)
+  .addOutput(<ore:gemChippedGlimmerite>.materialPart, 3)
+  .addOutput(<ore:gemFlawedGlimmerite>.materialPart, 3)
+  .addOutput(<ore:gemFlawlessGlimmerite>.materialPart, 2)
   .create();
 
 }

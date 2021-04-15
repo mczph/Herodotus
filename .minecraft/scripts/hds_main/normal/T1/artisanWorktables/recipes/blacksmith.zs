@@ -19,7 +19,7 @@ RecipeBuilder.get("blacksmith")
   .setShaped([
     [<ore:plateIron>, null, <ore:plateIron>],
     [<ore:plateIron>, null, <ore:plateIron>],
-    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]])
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]])
   .addTool(<ore:artisansHammer>, 24)
   .addOutput(<minecraft:cauldron>)
   .create();

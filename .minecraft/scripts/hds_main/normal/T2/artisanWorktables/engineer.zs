@@ -146,7 +146,7 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:lightPlateIron>, <ore:lightPlateIron>, <ore:lightPlateIron>],
     [<ore:lightPlateIron>, <factorytech:intermediate:4>, <ore:lightPlateIron>],
-    [<ore:lightPlateIron>, <magneticraft:crafting:4>, <ore:lightPlateIron>]])
+    [<ore:lightPlateIron>, <factorytech:machinepart:130>, <ore:lightPlateIron>]])
   .addTool(<contenttweaker:hot_air_solderer>, 150)
   .addOutput(<magneticraft:conveyor_belt> * 16)
   .create();
@@ -155,14 +155,14 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:lightPlateCopper>, null, null],
     [<ore:lightPlateLead>, <factorytech:intermediate:4>, <ore:lightPlateLead>],
-    [<ore:lightPlateIron>, <magneticraft:crafting:4>, <ore:lightPlateIron>]])
+    [<ore:lightPlateIron>, <factorytech:machinepart:130>, <ore:lightPlateIron>]])
   .addTool(<contenttweaker:hot_air_solderer>, 200)
   .addOutput(<magneticraft:inserter>)
   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<magneticraft:crafting:4>, <magneticraft:crafting:4>, <magneticraft:crafting:4>],
+    [<factorytech:machinepart:130>, <factorytech:machinepart:130>, <factorytech:machinepart:130>],
     [<ore:plankWood>, <ore:craftingPiston>, <ore:plankWood>],
     [<ore:lightPlateIron>, <ore:lightPlateIron>, <ore:lightPlateIron>]])
   .addTool(<contenttweaker:hot_air_solderer>, 200)

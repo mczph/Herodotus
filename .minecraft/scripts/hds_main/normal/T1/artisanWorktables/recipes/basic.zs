@@ -80,7 +80,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
   .setShaped([
     [<pyrotech:material:20>, <pyrotech:material:20>, <pyrotech:material:20>],
-    [<pyrotech:material:20>, <ore:ingotIron>, <pyrotech:material:20>],
+    [<pyrotech:material:20>, <ore:nuggetIron>, <pyrotech:material:20>],
     [<pyrotech:material:20>, <pyrotech:material:20>, <pyrotech:material:20>]])
   .addTool(<ore:artisansFramingHammer>, 30)
   .addOutput(<minecraft:chest>)

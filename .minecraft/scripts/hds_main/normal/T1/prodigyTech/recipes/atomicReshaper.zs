@@ -9,5 +9,5 @@ if (!isInvalid){
 atomicreshaper.removeAll();
 
 atomicreshaper.addRecipe(<minecraft:cauldron>, <botania:altar>, 200);
-atomicreshaper.addRecipe(<pyrotech:generated_pile_slag_iron>, <ore:nuggetIron>.materialPart * 10, 5);
+atomicreshaper.addRecipe(<pyrotech:generated_pile_slag_iron>, <ore:nuggetIron>.materialPart * 20, 5);
 }
