@@ -12,7 +12,7 @@ if(!isInvalid){
 
     heatsawmill.removeAll();
     heatsawmill.addRecipe(<astralsorcery:blockmarble:1>, <astralsorcery:blockmarbleslab>*2);
-    heatsawmill.addRecipe(<ore:logWood>, <minecraft:stick> * 4);
+    heatsawmill.addRecipe(<ore:plankWood>, <minecraft:stick> * 4);
 
     for log, plank in log2PlankMap {
         heatsawmill.addRecipe(log, plank * 4);

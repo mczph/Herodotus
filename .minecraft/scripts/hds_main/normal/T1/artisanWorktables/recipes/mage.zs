@@ -21,13 +21,13 @@ RecipeBuilder.get("mage")
         if (isNull(player)) {
 	        return out;
 	    } else {
-            return (XPUtil.getPlayerXP(player) >= 1000 && !player.world.dayTime && player.health > 16.0f) ? out : null;
+            return (XPUtil.getPlayerXP(player) >= 100 && !player.world.dayTime && player.health > 12.0f) ? out : null;
         }
     })
     .setRecipeAction(function(out, info, player) {
         if (isNull(player) || player.world.remote) return;
-        XPUtil.removePlayerXP(player, 1000);
-        player.attackEntityFrom(<damageSource:MAGIC>, 16.0f);
+        XPUtil.removePlayerXP(player, 100);
+        player.attackEntityFrom(<damageSource:MAGIC>, 12.0f);
     })
     .addOutput(<astralsorcery:itemjournal>)
     .create();
@@ -53,8 +53,10 @@ val temp = RecipeBuilder.get("mage")
         if (isNull(player) || player.world.remote) return;
         XPUtil.removePlayerXP(player, 10);
     });
-for i in 2 .. 10 {
-    temp.addOutput(<ore:dustTinyGlimmerite>.materialPart * i, pow(1.5, (10 - i)));
+
+val array as int[] = [1, 2, 4, 8, 4, 2, 1];
+for i in array {
+    temp.addOutput(<ore:dustTinyGlimmerite>.materialPart * (i + 1), i);
 }
 temp.create();
 
@@ -113,12 +115,12 @@ RecipeBuilder.get("mage")
         if (isNull(player)) {
 	        return out;
 	    } else {
-            return (XPUtil.getPlayerXP(player) >= 1000 && player.health > 12.0f) ? out : null;
+            return (XPUtil.getPlayerXP(player) >= 800 && player.health > 12.0f) ? out : null;
         }
     })
     .setRecipeAction(function(out, info, player) {
         if (isNull(player) || player.world.remote) return;
-        XPUtil.removePlayerXP(player, 1000);
+        XPUtil.removePlayerXP(player, 800);
         player.attackEntityFrom(<damageSource:MAGIC>, 12.0f);
     })
   .addOutput(<contenttweaker:altar>)
