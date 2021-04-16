@@ -36,7 +36,10 @@ val removeByOutput as IItemStack[] = [
     <magneticraft:crafting:4>,
     <magneticraft:conveyor_belt>,
     <magneticraft:inserter>,
-    <magneticraft:relay>
+    <magneticraft:relay>,
+    <magneticraft:water_generator>,
+    <actuallyadditions:item_misc:4>,
+    <thermalexpansion:tank>
     
 ];
 
@@ -50,7 +53,8 @@ val removeByRecipeName as string[] = [
 ];
 
 val removeByModid as string[] = [
-    "modularmachinery"
+    "modularmachinery",
+    "teslathingies"
 ];
 
 val removeByRegex as string[] = [
