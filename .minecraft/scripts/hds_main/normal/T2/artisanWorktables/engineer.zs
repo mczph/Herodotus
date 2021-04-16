@@ -50,14 +50,14 @@ RecipeBuilder.get("engineer")
     [<ore:ingotIronCompressed>, <ore:heavyPlateIron>, <ore:ingotIronCompressed>],
     [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
   .addTool(<ore:artisansSpanner>, 25)
-  .setFluid(<liquid:light_oil> * 500)
+  .setFluid(<liquid:heavy_oil> * 500)
   .addOutput(<pneumaticcraft:pressure_chamber_wall> * 16)
   .create();
 
 RecipeBuilder.get("engineer")
   .setShapeless([<pneumaticcraft:pressure_chamber_wall>, <minecraft:hopper>, <factorytech:intermediate:4>, <factorytech:intermediate:4>])
   .addTool(<ore:artisansSpanner>, 45)
-  .setFluid(<liquid:light_oil> * 500)
+  .setFluid(<liquid:heavy_oil> * 500)
   .addOutput(<pneumaticcraft:pressure_chamber_interface>)
   .create();
 
