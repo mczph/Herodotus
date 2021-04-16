@@ -108,7 +108,7 @@ for thing, device in pyrotechStoneDeviceThings {
       [ptb, thing, ptb],
       [ptb, ptb, ptb]])
     .addTool(<ore:artisansTrowel>, 20)
-    .addFluid(<liquid:limewater> * 500)
+    .setFluid(<liquid:limewater> * 500)
     .addOutput(device)
     .create();
 }
