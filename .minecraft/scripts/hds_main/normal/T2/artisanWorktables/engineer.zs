@@ -102,7 +102,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotBronze>, <ore:gemQuartz>, <ore:ingotBronze>],
     [<ore:gemQuartz>, null, <ore:gemQuartz>],
     [<ore:ingotBronze>, <ore:gemQuartz>, <ore:ingotBronze>]])
-  .addTool(<artisanworktables:artisans_driver_stone>, 25)
+  .addTool(<ore:artisansDriver>, 25)
   .addOutput(<modulardiversity:blockhotairinputhatch>)
   .create();
 
@@ -111,7 +111,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotBronze>, <minecraft:hopper>, <ore:ingotBronze>],
     [null, <ore:clumpYellow>, null],
     [<ore:ingotBronze>, <minecraft:bucket>, <ore:ingotBronze>]])
-  .addTool(<artisanworktables:artisans_driver_stone>, 25)
+  .addTool(<ore:artisansDriver>, 25)
   .addOutput(<modularmachinery:blockfluidoutputhatch>)
   .create();
 
@@ -120,7 +120,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotBronze>, <minecraft:hopper>, <ore:ingotBronze>],
     [null, <ore:clumpBlue>, null],
     [<ore:ingotBronze>, <minecraft:bucket>, <ore:ingotBronze>]])
-  .addTool(<artisanworktables:artisans_driver_stone>, 25)
+  .addTool(<ore:artisansDriver>, 25)
   .addOutput(<modularmachinery:blockfluidinputhatch>)
   .create();
 
