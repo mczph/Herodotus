@@ -45,6 +45,7 @@ val removeByOutput as IItemStack[] = [
     <prodigytech:food_enricher>,
     <prodigytech:food_purifier>,
     <prodigytech:capacitor_aeroheater>,
+    <prodigytech:capacitor_charger>,
     <mekanismtools:bronzepaxel>,
     <mekanismtools:bronzepickaxe>,
     <mekanismtools:bronzeaxe>,

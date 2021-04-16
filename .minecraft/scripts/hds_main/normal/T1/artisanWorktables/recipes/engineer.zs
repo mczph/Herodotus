@@ -73,6 +73,15 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
+    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
+    [<pyrotech:refractory_brick_block>, null, <pyrotech:refractory_brick_block>],
+    [<pyrotech:refractory_brick_block>, <ore:ingotIron>, <pyrotech:refractory_brick_block>]])
+  .addTool(<ore:artisansSpanner>, 60)
+  .addOutput(<prodigytech:capacitor_charger>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
     [<tconstruct:pattern>],
     [<pyrotech:crate_stone>]])
   .addTool(<ore:artisansDriver>, 30)
