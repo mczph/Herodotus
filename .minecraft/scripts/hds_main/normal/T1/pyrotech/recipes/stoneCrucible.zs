@@ -21,4 +21,7 @@ allPyroCrucible("molten_brass", <fluid:alubrass> * 144, <contenttweaker:brass_du
 allPyroCrucible("molten_glass", <fluid:glass> * 1000, <ore:blockGlass>, 3 * 60 * 20);
 allPyroCrucible("molten_glass_fromsand", <fluid:glass> * 1000, <ore:sand>, 3 * 60 * 20);
 allPyroCrucible("molten_glim", <fluid:glimmerite> * 125, <ore:dustGlimmerite>, 1.5 * 60 * 20);
+
+allPyroCrucible("molten_iron", <fluid:iron>*144, <ore:dustIron>, 20*20);
+allPyroCrucible("molten_iron_ingot", <fluid:iron>*144, <ore:ingotIron>, 30*20);
 }
