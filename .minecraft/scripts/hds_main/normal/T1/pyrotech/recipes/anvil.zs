@@ -15,6 +15,7 @@ rAllPyroAnvil(<minecraft:coal>);
 rAllPyroAnvil(<minecraft:stone_slab:*>);
 rAllPyroAnvil(<minecraft:iron_ingot>);
 rAllPyroAnvil(<minecraft:gold_ingot>);
+rAllPyroAnvil(<minecraft:iron_nugget>);
 
 //Add
 allPyroAnvil("blue_square", <ore:rockLead>.materialPart, <ore:squareBlue>, 6, "hammer");

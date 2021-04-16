@@ -65,7 +65,8 @@ val removeByOutput as IItemStack[] = [
     <pyrotech:brick_sawmill>,
     <pyrotech:brick_crucible>,
     <prodigytech:wormhole_funnel>,
-    <factorytech:crate>
+    <factorytech:crate>,
+    <magneticraft:box>
     /*<pyrotech:stone_kiln>,
     <pyrotech:stone_oven>,
     <pyrotech:stone_sawmill>,

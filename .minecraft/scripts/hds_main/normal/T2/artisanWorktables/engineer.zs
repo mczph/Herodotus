@@ -156,7 +156,7 @@ RecipeBuilder.get("engineer")
     [<ore:lightPlateCopper>, null, null],
     [<ore:lightPlateLead>, <factorytech:intermediate:4>, <ore:lightPlateLead>],
     [<ore:lightPlateIron>, <factorytech:machinepart:130>, <ore:lightPlateIron>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 200)
+  .addTool(<contenttweaker:hot_air_solderer>, 400)
   .addOutput(<magneticraft:inserter>)
   .create();
 
@@ -165,8 +165,26 @@ RecipeBuilder.get("engineer")
     [<factorytech:machinepart:130>, <factorytech:machinepart:130>, <factorytech:machinepart:130>],
     [<ore:plankWood>, <ore:craftingPiston>, <ore:plankWood>],
     [<ore:lightPlateIron>, <ore:lightPlateIron>, <ore:lightPlateIron>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 200)
+  .addTool(<contenttweaker:hot_air_solderer>, 400)
   .addOutput(<magneticraft:relay>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotBronze>, null, <ore:ingotBronze>],
+    [<ore:ingotBronze>, <factorytech:machinepart:90>, <ore:gearBronze>],
+    [<ore:ingotBronze>, null, <ore:ingotBronze>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 400)
+  .addOutput(<prodigytech:automatic_crystal_cutter>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<pneumaticcraft:turbine_rotor>, <pneumaticcraft:pressure_gauge>, <pneumaticcraft:turbine_rotor>],
+    [<pneumaticcraft:pressure_tube>, <factorytech:intermediate:4>, <pneumaticcraft:pressure_tube>],
+    [<astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 1000)
+  .addOutput(<pneumaticcraft:vacuum_pump>)
   .create();
 
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
