@@ -10,6 +10,7 @@ if(!isInvalid){
 
 val ptm as IItemStack = <pyrotech:material>;
 val ptm5 as IItemStack = <pyrotech:material:5>;
+val ptb as IItemStack = <pyrotech:stone_bricks>;
 
 MRLTOreProcessor("copper", <ore:clumpCopper>.materialPart*4, <ore:crushedOreCopper>);
 MRLTOreProcessor("tin", <ore:clumpTin>.materialPart*4, <ore:crushedOreTin>);
@@ -93,6 +94,25 @@ for brick, stone in pyrotechDevices {
       .create();
 }
 
+val pyrotechStoneDeviceThings as IItemStack[IItemStack] = {
+    <pyrotech:kiln_pit> : <pyrotech:stone_kiln>,
+    <pyrotech:tinder> : <pyrotech:stone_oven>,
+    <pyrotech:chopping_block> : <pyrotech:stone_sawmill>,
+    <pyrotech:stone_tank> : <pyrotech:stone_crucible>
+};
+
+for thing, device in pyrotechStoneDeviceThings {
+  RecipeBuilder.get("mason")
+    .setShaped([
+      [ptm, ptm, ptm],
+      [ptb, thing, ptb],
+      [ptb, ptb, ptb]])
+    .addTool(<ore:artisansTrowel>, 20)
+    .addFluid(<liquid:limewater> * 500)
+    .addOutput(device)
+    .create();
+}
+
 RecipeBuilder.get("mason")
   .setShaped([
     [ptm, <ore:slabStone>, ptm],
@@ -102,7 +122,6 @@ RecipeBuilder.get("mason")
   .setFluid(<liquid:limewater> * 500)
   .addOutput(<pyrotech:worktable_stone>)
   .create();
-//TODO move pyrotech stone devices recipes into mason worktable
 
 RecipeBuilder.get("mason")
   .setShapeless([<contenttweaker:rhombus>])

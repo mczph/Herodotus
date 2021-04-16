@@ -66,12 +66,12 @@ val removeByOutput as IItemStack[] = [
     <pyrotech:brick_crucible>,
     <prodigytech:wormhole_funnel>,
     <factorytech:crate>,
-    <magneticraft:box>
-    /*<pyrotech:stone_kiln>,
+    <magneticraft:box>,
+    <pyrotech:worktable_stone>,
+    <pyrotech:stone_kiln>,
     <pyrotech:stone_oven>,
     <pyrotech:stone_sawmill>,
-    <pyrotech:stone_crucible>*/
-    //TODO move pyrotech stone devices recipes into mason worktable
+    <pyrotech:stone_crucible>
 ];
 
 val removeByRecipeName as string[] = [
