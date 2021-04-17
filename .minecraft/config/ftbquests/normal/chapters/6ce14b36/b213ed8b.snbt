@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		"好的 现在我应该用我手里的锤子。斧子。。锤。。斧",
+		"斧子！ 将砧板的上端砸平砸实",
+		"等等？砸平?"
+	],
+	dependencies: [
+		"9da8963a"
+	],
+	tasks: [{
+		uid: "b08080dc",
+		type: "item",
+		items: [{
+			item: "pyrotech:chopping_block"
+		}]
+	}]
+}

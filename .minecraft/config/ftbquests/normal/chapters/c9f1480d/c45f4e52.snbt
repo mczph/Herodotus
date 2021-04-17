@@ -1,0 +1,13 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	hide_dependency_lines: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "09e3973d",
+		type: "observation",
+		match_type: "block_id",
+		match: "minecraft:clay",
+		timer: 0L
+	}]
+}

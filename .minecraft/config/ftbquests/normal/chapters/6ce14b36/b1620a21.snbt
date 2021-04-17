@@ -1,0 +1,18 @@
+{
+	x: 12.0d,
+	y: 2.0d,
+	text: [
+		"我有个绝佳的想法 我要做一个更好的合成台",
+		"然后用它来做点更好的东西"
+	],
+	dependencies: [
+		"6e9534cd"
+	],
+	tasks: [{
+		uid: "6b4bc299",
+		type: "item",
+		items: [{
+			item: "artisanworkstumps:workstump_basic"
+		}]
+	}]
+}

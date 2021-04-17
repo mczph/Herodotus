@@ -1,0 +1,7 @@
+{
+	title: "《论不同材质对砖块性能的影响》",
+	icon: "pyrotech:material 1 5",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

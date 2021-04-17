@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"我敢保证 谁都不可能用这堆还能滴出水的草来点火",
+		"就算是火神来也不行"
+	],
+	dependencies: [
+		"00ada03a"
+	],
+	tasks: [{
+		uid: "801a2709",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 13"
+		}]
+	}]
+}

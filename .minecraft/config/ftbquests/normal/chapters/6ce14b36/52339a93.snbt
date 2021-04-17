@@ -1,0 +1,21 @@
+{
+	x: 32.0d,
+	y: 0.0d,
+	shape: "hexagon3",
+	text: [
+		"混入了青铜粉末加热的石砖 耐火性能非常好",
+		"但是掉入火中还是会被烧坏。"
+	],
+	dependencies: [
+		"2bf2a19a",
+		"d2e3da38"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c4bbe332",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 5"
+		}]
+	}]
+}

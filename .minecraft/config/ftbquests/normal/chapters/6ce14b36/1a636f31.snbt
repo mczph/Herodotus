@@ -1,0 +1,18 @@
+{
+	x: 14.0d,
+	y: 0.0d,
+	text: [
+		"但是说真的 ",
+		"这个桌子 本质上和我刚刚做的那个有区别吗。。。"
+	],
+	dependencies: [
+		"b1620a21"
+	],
+	tasks: [{
+		uid: "0ee4ede1",
+		type: "item",
+		items: [{
+			item: "artisanworkstumps:workstump_mason"
+		}]
+	}]
+}

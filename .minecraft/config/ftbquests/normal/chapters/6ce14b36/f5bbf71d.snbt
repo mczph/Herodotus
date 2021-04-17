@@ -1,0 +1,18 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	text: [
+		"两只手已经完全不够我拿着需要合成的东西往里凑了",
+		"或许我应该再给自己安两只手?"
+	],
+	dependencies: [
+		"78b91f90"
+	],
+	tasks: [{
+		uid: "8776a8d2",
+		type: "item",
+		items: [{
+			item: "pyrotech:worktable"
+		}]
+	}]
+}
