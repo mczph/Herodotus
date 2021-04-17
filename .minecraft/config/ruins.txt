@@ -40,7 +40,7 @@ allowedDimensions=0,1,-1
 enableFixedWidthRuleIds=false
 #
 # tileentity blocks, those (nonvanilla)blocks which cannot function without storing their nbt data, full name as stick dictates, seperated by commata
-teblocks=
+teblocks=astralsorcery:blockcollectorcrystal,astralsorcery:blockcelestialcollectorcrystal
 
 specific_dead_forest=75
 specific_frozen_ocean=75
