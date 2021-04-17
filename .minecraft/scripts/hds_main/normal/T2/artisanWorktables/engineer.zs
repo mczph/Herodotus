@@ -204,7 +204,7 @@ RecipeBuilder.get("engineer")
     [<ore:lightPlateIron>, <ore:barsIron>, <ore:lightPlateIron>],
     [<ore:lightPlateIron>, null, <ore:lightPlateIron>],
     [<ore:lightPlateIron>, <magneticraft:multiblock_parts>, <ore:lightPlateIron>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 1)
+  .addTool(<contenttweaker:hot_air_solderer>, 650)
   .addOutput(<hdsutils:steamer_controller>)
   .create();
 
