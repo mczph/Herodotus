@@ -2,10 +2,10 @@
 	x: 12.0d,
 	y: 0.0d,
 	text: [
-		"现在我至少拿到了第一个象征着现代社会的物品",
-		"不 不是砌砖 而是标准",
-		"这意味着我之后做东西不能再像之前那样随便做就行。。。",
-		"淦"
+		"{herodotus.quests.6e9534cd.text.1}",
+		"{herodotus.quests.6e9534cd.text.2}",
+		"{herodotus.quests.6e9534cd.text.3}",
+		"{herodotus.quests.6e9534cd.text.4}"
 	],
 	dependencies: [
 		"991202af",

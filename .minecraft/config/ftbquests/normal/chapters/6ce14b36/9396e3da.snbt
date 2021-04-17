@@ -2,7 +2,7 @@
 	x: 2.0d,
 	y: 0.0d,
 	text: [
-		"实际上这两把工具本质区别只是石头的位置"
+		"{herodotus.quests.9396e3da.text.1}"
 	],
 	dependencies: [
 		"11a72b92",

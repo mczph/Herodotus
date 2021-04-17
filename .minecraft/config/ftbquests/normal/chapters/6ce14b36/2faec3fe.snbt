@@ -2,8 +2,8 @@
 	x: 2.0d,
 	y: -2.0d,
 	text: [
-		"我敢保证 谁都不可能用这堆还能滴出水的草来点火",
-		"就算是火神来也不行"
+		"{herodotus.quests.2faec3fe.text.1}",
+		"{herodotus.quests.2faec3fe.text.2}"
 	],
 	dependencies: [
 		"00ada03a"

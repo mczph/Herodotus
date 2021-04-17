@@ -2,9 +2,9 @@
 	x: 0.0d,
 	y: 0.0d,
 	text: [
-		"选择一些形状合适的树枝掰断分支",
-		"就能当一个非常粗糙的手柄使用了",
-		"虽然握持的手感很差 但总比用手直接抓着石块用强"
+		"{herodotus.quests.0602a478.text.1}",
+		"{herodotus.quests.0602a478.text.2}",
+		"{herodotus.quests.0602a478.text.3}"
 	],
 	tasks: [{
 		uid: "44f219a7",

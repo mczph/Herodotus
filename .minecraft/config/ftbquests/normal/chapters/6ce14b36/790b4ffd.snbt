@@ -2,11 +2,11 @@
 	x: 8.0d,
 	y: 0.0d,
 	text: [
-		"运气很好 我获得了一块相对完整的原石",
-		"虽然它上面有很多裂缝",
-		"而且还有一些被人为粘合的痕迹",
-		"我错了 这个镐子才是最难用的工具",
-		"我现在就给那块叫斧头的石头道歉"
+		"{herodotus.quests.790b4ffd.text.1}",
+		"{herodotus.quests.790b4ffd.text.2}",
+		"{herodotus.quests.790b4ffd.text.3}",
+		"{herodotus.quests.790b4ffd.text.4}",
+		"{herodotus.quests.790b4ffd.text.5}"
 	],
 	dependencies: [
 		"a93635f3"

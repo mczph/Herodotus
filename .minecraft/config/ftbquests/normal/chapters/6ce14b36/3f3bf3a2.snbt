@@ -2,9 +2,9 @@
 	x: 6.0d,
 	y: 6.0d,
 	text: [
-		"或许我应该在做一把双刃斧",
-		"该死。这玩意怎么像一把锤子",
-		"好吧 至少我应该能用它来合成点什么"
+		"{herodotus.quests.3f3bf3a2.text.1}",
+		"{herodotus.quests.3f3bf3a2.text.2}",
+		"{herodotus.quests.3f3bf3a2.text.3}"
 	],
 	dependencies: [
 		"f5bbf71d"

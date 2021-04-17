@@ -3,8 +3,8 @@
 	y: 0.0d,
 	shape: "hexagon3",
 	text: [
-		"混入了青铜粉末加热的石砖 耐火性能非常好",
-		"但是掉入火中还是会被烧坏。"
+		"{herodotus.quests.52339a93.text.1}",
+		"{herodotus.quests.52339a93.text.2}"
 	],
 	dependencies: [
 		"2bf2a19a",

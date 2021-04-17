@@ -2,8 +2,8 @@
 	x: 16.0d,
 	y: -2.0d,
 	text: [
-		"利用这种结构 烧制物品的受热更加均匀了",
-		"但是我还是会失败这么多次一定不是因为我脸黑!"
+		"{herodotus.quests.e3c09120.text.1}",
+		"{herodotus.quests.e3c09120.text.2}"
 	],
 	dependencies: [
 		"1a636f31"
