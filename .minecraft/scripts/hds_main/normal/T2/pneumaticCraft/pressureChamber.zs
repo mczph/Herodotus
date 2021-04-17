@@ -13,6 +13,7 @@ for shape in crtlib.shapes {
 }
 
 pressurechamber.removeRecipe([<pneumaticcraft:ingot_iron_compressed>]);
+pressurechamber.removeRecipe([<pneumaticcraft:compressed_iron_block>]);
 pressurechamber.removeRecipe([<minecraft:diamond>]);
 
 val livelyWaterBucket as IItemStack = <forge:bucketfilled>.withTag({FluidName: "lively_water", Amount: 1000});

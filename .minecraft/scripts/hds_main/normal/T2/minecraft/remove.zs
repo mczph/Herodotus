@@ -39,7 +39,8 @@ val removeByOutput as IItemStack[] = [
     <magneticraft:relay>,
     <magneticraft:water_generator>,
     <actuallyadditions:item_misc:4>,
-    <thermalexpansion:tank>
+    <thermalexpansion:tank>,
+    <mekanism:machineblock2:11>
     
 ];
 
