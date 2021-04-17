@@ -2,9 +2,9 @@
 	x: 12.0d,
 	y: -2.0d,
 	text: [
-		"如果我想烧制木炭 我应该创造一个空气更加稀薄的环境",
-		"这样产出率会更高",
-		"同时收集烧制过程中流下来的油脂"
+		"{herodotus.quests.a0288b62.text.1}",
+		"{herodotus.quests.a0288b62.text.2}",
+		"{herodotus.quests.a0288b62.text.3}"
 	],
 	dependencies: [
 		"6e9534cd"
@@ -33,7 +33,7 @@
 	rewards: [{
 		uid: "b4158375",
 		type: "item",
-		title: "为什么我会在挖地窑的时候挖出一个这样的东西。。",
+		title: "{herodotus.quests.a0288b62.title}",
 		item: "pyrotech:igniter"
 	}]
 }

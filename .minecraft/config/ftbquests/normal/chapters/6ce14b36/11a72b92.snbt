@@ -2,9 +2,9 @@
 	x: 0.0d,
 	y: 2.0d,
 	text: [
-		"用石块敲击岩石表面的时候",
-		"石块崩裂开来",
-		"如果想获得一些完整的石头我需要更好的材料"
+		"{herodotus.quests.11a72b92.text.1}",
+		"{herodotus.quests.11a72b92.text.2}",
+		"{herodotus.quests.11a72b92.text.3}"
 	],
 	tasks: [{
 		uid: "bba4bf62",

@@ -2,9 +2,9 @@
 	x: 16.0d,
 	y: 2.0d,
 	text: [
-		"要我说啊，这种东西切割出来的木板",
-		"根本没有灵魂 没有人手触摸过是缺少一种人文气息的",
-		"等等 这两堆那一堆是我自己劈出来的？"
+		"{herodotus.quests.82612819.text.1}",
+		"{herodotus.quests.82612819.text.2}",
+		"{herodotus.quests.82612819.text.3}"
 	],
 	dependencies: [
 		"1a636f31"

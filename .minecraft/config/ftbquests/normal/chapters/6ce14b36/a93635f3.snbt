@@ -2,10 +2,10 @@
 	x: 6.0d,
 	y: 2.0d,
 	text: [
-		"不 我错了",
-		"这玩意根本不能叫镐子",
-		"只能说我没有见过比这更像镐子的锤子",
-		"与其说在开采 倒不如说我在把石头打碎"
+		"{herodotus.quests.a93635f3.text.1}",
+		"{herodotus.quests.a93635f3.text.2}",
+		"{herodotus.quests.a93635f3.text.3}",
+		"{herodotus.quests.a93635f3.text.4}"
 	],
 	dependencies: [
 		"2e0bc67f",

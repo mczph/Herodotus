@@ -2,7 +2,7 @@
 	x: 16.0d,
 	y: 0.0d,
 	text: [
-		"大概 也许 我不用再吃糊了的食物了吧。"
+		"{herodotus.quests.93080716.text.1}"
 	],
 	dependencies: [
 		"1a636f31"

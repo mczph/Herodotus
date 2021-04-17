@@ -2,9 +2,9 @@
 	x: 14.0d,
 	y: 2.0d,
 	text: [
-		"作为一名 有理想 有梦想 的少年",
-		"用手把液体导出泼洒这种事情我肯定是干不出来的！",
-		"等等 我真的是少年吗"
+		"{herodotus.quests.4d034df1.text.1}",
+		"{herodotus.quests.4d034df1.text.2}",
+		"{herodotus.quests.4d034df1.text.3}"
 	],
 	dependencies: [
 		"b1620a21"

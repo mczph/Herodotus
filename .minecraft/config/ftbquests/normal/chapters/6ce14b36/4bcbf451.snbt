@@ -2,8 +2,8 @@
 	x: 14.0d,
 	y: -2.0d,
 	text: [
-		"一个用来熔化流体却不能承装高温流体的设施？",
-		"存在主义"
+		"{herodotus.quests.4bcbf451.text.1}",
+		"{herodotus.quests.4bcbf451.text.2}"
 	],
 	dependencies: [
 		"1a636f31"

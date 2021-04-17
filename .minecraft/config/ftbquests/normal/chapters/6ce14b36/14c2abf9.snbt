@@ -2,10 +2,10 @@
 	x: 4.0d,
 	y: 0.0d,
 	text: [
-		"“用燧石击打其他石头 如果里面材质合适 ”",
-		"“会蹦出火花点燃你准备好的火绒”",
-		"说的很好 但是我还是不知道怎么做",
-		"希望我不会成为第一个因为不会打火冻死的人"
+		"{herodotus.quests.14c2abf9.text.1}",
+		"{herodotus.quests.14c2abf9.text.2}",
+		"{herodotus.quests.14c2abf9.text.3}",
+		"{herodotus.quests.14c2abf9.text.4}"
 	],
 	dependencies: [
 		"2faec3fe",

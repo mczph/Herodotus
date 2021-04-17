@@ -2,8 +2,8 @@
 	x: 0.0d,
 	y: -2.0d,
 	text: [
-		"为了获得一把堪称能用的工具收集资源",
-		"我需要一些东西把石块固定在一个合适的手柄上"
+		"{herodotus.quests.00ada03a.text.1}",
+		"{herodotus.quests.00ada03a.text.2}"
 	],
 	tasks: [{
 		uid: "3da06a61",

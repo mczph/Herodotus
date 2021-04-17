@@ -2,9 +2,9 @@
 	x: 10.0d,
 	y: 0.0d,
 	text: [
-		"虽然看起来 这和我直接在花岗岩上面敲击没有区别",
-		"确实没有",
-		"这就是所谓的仪式感吧"
+		"{herodotus.quests.991202af.text.1}",
+		"{herodotus.quests.991202af.text.2}",
+		"{herodotus.quests.991202af.text.3}"
 	],
 	dependencies: [
 		"19393200",

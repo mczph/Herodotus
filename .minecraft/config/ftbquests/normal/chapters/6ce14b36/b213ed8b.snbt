@@ -2,9 +2,9 @@
 	x: 2.0d,
 	y: 4.0d,
 	text: [
-		"好的 现在我应该用我手里的锤子。斧子。。锤。。斧",
-		"斧子！ 将砧板的上端砸平砸实",
-		"等等？砸平?"
+		"{herodotus.quests.b213ed8b.text.1}",
+		"{herodotus.quests.b213ed8b.text.2}",
+		"{herodotus.quests.b213ed8b.text.3}"
 	],
 	dependencies: [
 		"9da8963a"

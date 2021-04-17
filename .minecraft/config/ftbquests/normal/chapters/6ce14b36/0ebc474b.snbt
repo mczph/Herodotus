@@ -2,11 +2,11 @@
 	x: 6.0d,
 	y: -2.0d,
 	text: [
-		"在周遭环境提供的热量中",
-		"石头吸收了热量略微熔化 将自己粘合起来",
-		"如果我的窑不是那么的垃圾 能让它受热更均匀",
-		"成功率一定会更高",
-		"所以我连续炸了五锅石头这种事情一定不是因为我的脸黑"
+		"{herodotus.quests.0ebc474b.text.1}",
+		"{herodotus.quests.0ebc474b.text.2}",
+		"{herodotus.quests.0ebc474b.text.3}",
+		"{herodotus.quests.0ebc474b.text.4}",
+		"{herodotus.quests.0ebc474b.text.5}"
 	],
 	dependencies: [
 		"752fcfc3",
