@@ -1,0 +1,18 @@
+{
+	x: 6.0d,
+	y: -4.0d,
+	text: [
+		"虽然不是很清楚 但是为什么我连自己都喂不饱",
+		"还要分出一些口粮来喂我地里这些菜"
+	],
+	dependencies: [
+		"cb1c45db"
+	],
+	tasks: [{
+		uid: "96e204c7",
+		type: "item",
+		items: [{
+			item: "pyrotech:compost_bin"
+		}]
+	}]
+}

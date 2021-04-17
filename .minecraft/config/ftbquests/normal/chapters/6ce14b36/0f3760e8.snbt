@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	dependencies: [
+		"19393200"
+	],
+	tasks: [{
+		uid: "d3b92e19",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_slab 1 5"
+		}]
+	}]
+}

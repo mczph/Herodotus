@@ -1,0 +1,47 @@
+{
+	x: 8.0d,
+	y: 4.0d,
+	dependencies: [
+		"f5bbf71d"
+	],
+	tasks: [{
+		uid: "55b4eaf3",
+		type: "item",
+		items: [{
+			item: "pyrotech:crate"
+		}]
+	},
+	{
+		uid: "8ba22b3a",
+		type: "item",
+		items: [{
+			item: "pyrotech:stash"
+		}]
+	},
+	{
+		uid: "5b5a04e6",
+		type: "item",
+		items: [{
+			item: "pyrotech:shelf"
+		}]
+	},
+	{
+		uid: "a6c16052",
+		type: "item",
+		items: [{
+			item: "pyrotech:wood_rack"
+		}]
+	},
+	{
+		uid: "8de03dd2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:bag_simple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

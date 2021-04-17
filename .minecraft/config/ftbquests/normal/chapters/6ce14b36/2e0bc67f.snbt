@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"14c2abf9"
+	],
+	tasks: [{
+		uid: "12e41451",
+		type: "item",
+		items: [{
+			item: "pyrotech:tinder"
+		}]
+	}]
+}

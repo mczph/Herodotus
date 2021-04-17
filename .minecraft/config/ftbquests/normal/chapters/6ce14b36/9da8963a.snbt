@@ -1,0 +1,30 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"如果有得选 我宁可用叉子喝汤 也不愿意用这个东西伐木",
+		"说是伐木 实际上是用一根绑在木棍上面的石块把一棵完整的树砸出缺口然后推倒",
+		"这个世界上应该不会有比这个更难用的工具了。。。也许吧"
+	],
+	dependencies: [
+		"9396e3da"
+	],
+	tasks: [{
+		uid: "408fd114",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"用石块敲击岩石表面的时候",
+		"石块崩裂开来",
+		"如果想获得一些完整的石头我需要更好的材料"
+	],
+	tasks: [{
+		uid: "bba4bf62",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rock",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rock"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

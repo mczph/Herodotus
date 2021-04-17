@@ -18,11 +18,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "bcdd5a5f",
-		type: "item",
-		item: "contenttweaker:material_part 1 24",
-		count: 20
 	}]
 }

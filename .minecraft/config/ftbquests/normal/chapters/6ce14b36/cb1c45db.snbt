@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -4.0d,
+	text: [
+		"还是很慢",
+		"我需要一个更好的结构 把纤维彼此分开",
+		"希望这样能快上不少"
+	],
+	dependencies: [
+		"7afd8fde"
+	],
+	tasks: [{
+		uid: "3d911be0",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack 1 1"
+		}]
+	}]
+}
