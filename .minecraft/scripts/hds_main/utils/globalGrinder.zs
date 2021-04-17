@@ -15,4 +15,17 @@ function addGrinderRecipe(input as IIngredient, output as IIngredient) as void {
     mods.factorytech.Grindstone.addRecipe(outputItem, input, true);
 }
 
-addGrinderRecipe(<pneumaticcraft:plastic:8>, <emergingtechnology:shreddedplastic>);
+val map as IIngredient[IIngredient] = {
+    <pneumaticcraft:plastic:8> : <emergingtechnology:shreddedplastic>,
+    <pyrotech:cobblestone> : <pyrotech:rock:3>,
+    <minecraft:stone:5> : <pyrotech:rock:3>,
+    <pyrotech:limestone> : <pyrotech:rock:8>,
+    <pyrotech:cobblestone:3> : <pyrotech:rock:8>
+
+};
+
+for input, output in map {
+    addGrinderRecipe(input, output);
+}
+
+

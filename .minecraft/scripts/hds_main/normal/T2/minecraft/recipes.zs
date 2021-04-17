@@ -33,6 +33,12 @@ RecipeUtils.recipeTweak(true, <magneticraft:crushing_table>, [
 	[<ore:logWood>, <ore:logWood>, <ore:logWood>]
 ]);
 
+RecipeUtils.recipeTweak(true, <pneumaticcraft:gps_tool>, [
+	[null, <minecraft:redstone_torch>, null],
+	[<pneumaticcraft:plastic:1>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],
+	[<pneumaticcraft:plastic:1>, <ore:gemFlawlessGlimmerite>,<pneumaticcraft:plastic:1>]
+]);
+
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <factorytech:ingot:5>, <*>.only(function(item) {
     return item.definition.owner == "factorytech" && !<factorytech:machinepart:51>.matches(item);
 }));

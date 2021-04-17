@@ -187,6 +187,27 @@ RecipeBuilder.get("engineer")
   .addOutput(<pneumaticcraft:vacuum_pump>)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShapeless([<magneticraft:multiblock_parts:5>, <ore:hopper>, <ore:clumpBlue>])
+  .addTool(<contenttweaker:hot_air_solderer>, 400)
+  .addOutput(<modularmachinery:blockinputbus>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShapeless([<magneticraft:multiblock_parts:5>, <ore:hopper>, <ore:clumpRed>])
+  .addTool(<contenttweaker:hot_air_solderer>, 400)
+  .addOutput(<modularmachinery:blockoutputbus>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:lightPlateIron>, <ore:barsIron>, <ore:lightPlateIron>],
+    [<ore:lightPlateIron>, null, <ore:lightPlateIron>],
+    [<ore:lightPlateIron>, <magneticraft:multiblock_parts>, <ore:lightPlateIron>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 1)
+  .addOutput(<hdsutils:steamer_controller>)
+  .create();
+
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
 for i in 0 .. 15 {
     val worktable as IItemStack = worktableDef.makeStack(i);
