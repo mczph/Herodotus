@@ -1,0 +1,15 @@
+{
+	x: 14.0d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"1a636f31"
+	],
+	tasks: [{
+		uid: "58697160",
+		type: "item",
+		items: [{
+			item: "pyrotech:worktable_stone"
+		}]
+	}]
+}

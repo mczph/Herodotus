@@ -1,0 +1,36 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"实际上这两把工具本质区别只是石头的位置"
+	],
+	dependencies: [
+		"11a72b92",
+		"0602a478",
+		"00ada03a"
+	],
+	tasks: [{
+		uid: "ac66bf0f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "09812b62",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: 6.0d,
+	y: 6.0d,
+	text: [
+		"或许我应该在做一把双刃斧",
+		"该死。这玩意怎么像一把锤子",
+		"好吧 至少我应该能用它来合成点什么"
+	],
+	dependencies: [
+		"f5bbf71d"
+	],
+	tasks: [{
+		uid: "bdf65516",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_hammer"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:stone_hammer"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:flint_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

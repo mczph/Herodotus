@@ -69,11 +69,5 @@
 		items: [{
 			item: "modularmachinery:blockfluidoutputhatch"
 		}]
-	}],
-	rewards: [{
-		uid: "87c385c1",
-		type: "item",
-		item: "contenttweaker:material_part 1 151",
-		count: 4
 	}]
 }

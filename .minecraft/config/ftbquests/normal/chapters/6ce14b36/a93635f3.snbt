@@ -1,0 +1,36 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"不 我错了",
+		"这玩意根本不能叫镐子",
+		"只能说我没有见过比这更像镐子的锤子",
+		"与其说在开采 倒不如说我在把石头打碎"
+	],
+	dependencies: [
+		"2e0bc67f",
+		"d2137321"
+	],
+	tasks: [{
+		uid: "c4faf924",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "ec0fb495",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

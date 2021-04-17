@@ -1,0 +1,19 @@
+{
+	x: 14.0d,
+	y: 2.0d,
+	text: [
+		"作为一名 有理想 有梦想 的少年",
+		"用手把液体导出泼洒这种事情我肯定是干不出来的！",
+		"等等 我真的是少年吗"
+	],
+	dependencies: [
+		"b1620a21"
+	],
+	tasks: [{
+		uid: "5a40c53e",
+		type: "item",
+		items: [{
+			item: "artisanworkstumps:log_basin"
+		}]
+	}]
+}

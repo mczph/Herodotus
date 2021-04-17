@@ -1,0 +1,17 @@
+{
+	x: 16.0d,
+	y: 0.0d,
+	text: [
+		"大概 也许 我不用再吃糊了的食物了吧。"
+	],
+	dependencies: [
+		"1a636f31"
+	],
+	tasks: [{
+		uid: "0857489c",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_oven"
+		}]
+	}]
+}

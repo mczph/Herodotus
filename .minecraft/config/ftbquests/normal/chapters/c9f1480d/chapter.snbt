@@ -1,0 +1,9 @@
+{
+	title: "隐藏任务 用于触发其他任务 如果你看到这个页面说明出现了什么问题",
+	description: [
+		"你他喵是不是想作弊"
+	],
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: ""
+}

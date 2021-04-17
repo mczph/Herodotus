@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: -6.0d,
+	text: [
+		"不管是从食用角度",
+		"还是实用角度",
+		"种植一点小麦对我都没有什么坏处",
+		"除了开垦荒地会把手上磨出一堆水泡以外"
+	],
+	dependencies: [
+		"cb1c45db"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f67c1841",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}]
+	}]
+}
