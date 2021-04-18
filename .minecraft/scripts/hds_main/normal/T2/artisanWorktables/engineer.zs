@@ -239,8 +239,8 @@ RecipeBuilder.get("engineer")
     [<ore:nuggetIron>, <ore:crystalLithium>, <ore:nuggetIron>],
     [<ore:nuggetIron>, <factorytech:machinepart:21>, <ore:nuggetIron>],
     [<ore:nuggetIron>, <ore:dustCopper>, <ore:nuggetIron>]])
-  .addTool(<ore:artisansSpanner>, 1)
-  .addOutput(<factorytech:intermediate:2>)
+  .addTool(<ore:artisansSpanner>, 50)
+  .addOutput(<factorytech:intermediate:2> * 2)
   .create();
 
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
