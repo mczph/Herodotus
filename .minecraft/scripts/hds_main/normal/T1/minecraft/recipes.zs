@@ -158,4 +158,7 @@ recipes.addShapeless("hot_air_solderer_trans_3", <contenttweaker:hot_air_soldere
         return out.withDamage(max(0, 32000 - (12000 - ins.c.damage) * 12));
     }, null
 );
+
+furnace.addRecipe(<biomesoplenty:blue_dye>, <ore:dustBlue>);
+furnace.addRecipe(<minecraft:dye:2>, <minecraft:cactus>);
 }

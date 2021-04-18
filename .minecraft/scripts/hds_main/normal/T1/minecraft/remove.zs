@@ -26,6 +26,7 @@ val removeByOutput as IItemStack[] = [
     <prodigytech:primordialis_reactor>,
     <prodigytech:solderer>,
     <prodigytech:ferramic_gear>,
+    <prodigytech:wormhole_linker>,
     <astralsorcery:itemjournal>,
     <advancedrocketry:platepress>,
     <prodigytech:energion_dust>,

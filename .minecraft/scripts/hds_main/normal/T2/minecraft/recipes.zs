@@ -35,7 +35,7 @@ RecipeUtils.recipeTweak(true, <magneticraft:crushing_table>, [
 
 RecipeUtils.recipeTweak(true, <pneumaticcraft:gps_tool>, [
 	[null, <minecraft:redstone_torch>, null],
-	[<pneumaticcraft:plastic:1>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],
+	[<pneumaticcraft:plastic:1>, <ore:blockGlassColorless>, <pneumaticcraft:plastic:1>],
 	[<pneumaticcraft:plastic:1>, <ore:gemFlawlessGlimmerite>,<pneumaticcraft:plastic:1>]
 ]);
 
@@ -71,6 +71,11 @@ recipes.replaceAllOccurences(<minecraft:furnace>, <pyrotech:brick_oven>, <*>.onl
 
 recipes.replaceAllOccurences(<minecraft:furnace>, <pyrotech:brick_oven>, <*>.only(function(item) {
     return item.definition.owner == "factorytech";
+}));
+
+// TODO: this is only a temporary fix for upgrade modules for pneumatic craft
+recipes.replaceAllOccurences(<minecraft:dye:4>, <ore:lightPlateLead>, <*>.only(function(item) {
+	return item.definition.id.matches("pneumaticcraft:.*upgrade");
 }));
 
 recipes.addShaped("iron_pickaxe_from_iron_allay", <minecraft:iron_pickaxe>, [

@@ -106,4 +106,13 @@ RecipeBuilder.get("engineer")
   .addOutput(<prodigytech:capacitor_aeroheater>)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<minecraft:ender_pearl>],
+    [<prodigytech:primordium>],
+    [<ore:rodLongBronze>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 200)
+  .addOutput(<prodigytech:wormhole_linker>)
+  .create();
+
 }
