@@ -13,8 +13,10 @@ import mods.pyrotech.IroncladAnvil;
 import mods.pyrotech.BrickCrucible;
 import mods.pyrotech.BrickKiln;
 import mods.tconstruct.Casting;
+import mods.tconstruct.Melting;
 import mods.pneumaticcraft.pressurechamber;
 import mods.factorytech.Grindstone;
+import mods.modularmachinery.RecipeBuilder as MMRecipeBuilder;
 import scripts.grassUtils.StringHelper;
 import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
 import scripts.hds_lib.crtlib;
@@ -68,6 +70,7 @@ for color in crtlib.colors {
 
     SoakingPot.addRecipe("dye_t2_" ~ color, clump.materialPart, fluidTier1*500, crushedOre, true, 20*20);
     BrickCrucible.addRecipe("dye_t2_melt_" ~ color, fluidTier2*500, clump, 60*20);
+    Melting.addRecipe(fluidTier2 * 500, clump, 150);
     addGrinderRecipe(poorOre, crushedOre);
     addGrinderRecipe(ore, crushedOre * 2);
     addGrinderRecipe(denseOre, crushedOre * 4);
@@ -76,6 +79,12 @@ for color in crtlib.colors {
     // remove other dust crafting
     mods.astralsorcery.Grindstone.removeRecipe(dust.materialPart);
     Grindstone.removeRecipe(dust.materialPart);
+
+    MMRecipeBuilder.newBuilder("steamer_" ~ color, "steamer", 100)
+        .addItemInput(dust, 2)
+        .addFluidInput(<liquid:steam> * 500)
+        .addItemOutput(clump.materialPart)
+        .build();
     
     for shape in crtlib.shapes {
         var output as IItemStack = oreDict.get(shape ~ od).materialPart;

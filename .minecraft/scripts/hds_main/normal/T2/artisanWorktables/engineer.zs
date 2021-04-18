@@ -194,9 +194,27 @@ RecipeBuilder.get("engineer")
   .create();
 
 RecipeBuilder.get("engineer")
-  .setShapeless([<magneticraft:multiblock_parts:5>, <ore:hopper>, <ore:clumpRed>])
+  .setShapeless([<magneticraft:multiblock_parts:5>, <ore:hopper>, <ore:clumpYellow>])
   .addTool(<contenttweaker:hot_air_solderer>, 400)
   .addOutput(<modularmachinery:blockoutputbus>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIronCompressed>, null, <ore:ingotIronCompressed>],
+    [null, <ore:clumpBlue>, null],
+    [<ore:ingotIronCompressed>, <pneumaticcraft:liquid_hopper>, <ore:ingotIronCompressed>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 150)
+  .addOutput(<modularmachinery:blockfluidinputhatch:1>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIronCompressed>, null, <ore:ingotIronCompressed>],
+    [null, <ore:clumpYellow>, null],
+    [<ore:ingotIronCompressed>, <pneumaticcraft:liquid_hopper>, <ore:ingotIronCompressed>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 150)
+  .addOutput(<modularmachinery:blockfluidoutputhatch:1>)
   .create();
 
 RecipeBuilder.get("engineer")
