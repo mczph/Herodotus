@@ -70,7 +70,7 @@ for color in crtlib.colors {
 
     SoakingPot.addRecipe("dye_t2_" ~ color, clump.materialPart, fluidTier1*500, crushedOre, true, 20*20);
     BrickCrucible.addRecipe("dye_t2_melt_" ~ color, fluidTier2*500, clump, 60*20);
-    Melting.addRecipe(fluidTier2 * 500, clump, 150);
+    Melting.addRecipe(fluidTier2 * 500, clump, 420);
     addGrinderRecipe(poorOre, crushedOre);
     addGrinderRecipe(ore, crushedOre * 2);
     addGrinderRecipe(denseOre, crushedOre * 4);
