@@ -19,4 +19,5 @@ if (!isInvalid) {
     Melting.addRecipe(<liquid:lead> * 144, <ore:lightPlateLead>);
     Melting.addRecipe(<liquid:tungsten> * 144, <ore:lightPlateTungsten>);
     Melting.addRecipe(<liquid:steel> * 144, <ore:lightPlateSteel>);
+    Melting.addRecipe(<liquid:mercury> * 250, <ore:sphericalTierTwoYellow>, 400);
 }

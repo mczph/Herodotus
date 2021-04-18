@@ -226,6 +226,23 @@ RecipeBuilder.get("engineer")
   .addOutput(<hdsutils:steamer_controller>)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:sphericalTierTwoRed>]])
+  .addTool(<ore:artisansBeaker>, 30)
+  .setFluid(<fluid:mercury> * 250)
+  .addOutput(<hdsutils:lithium_amalgam> * 3)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:nuggetIron>, <ore:crystalLithium>, <ore:nuggetIron>],
+    [<ore:nuggetIron>, <factorytech:machinepart:21>, <ore:nuggetIron>],
+    [<ore:nuggetIron>, <ore:dustCopper>, <ore:nuggetIron>]])
+  .addTool(<ore:artisansSpanner>, 1)
+  .addOutput(<factorytech:intermediate:2>)
+  .create();
+
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
 for i in 0 .. 15 {
     val worktable as IItemStack = worktableDef.makeStack(i);

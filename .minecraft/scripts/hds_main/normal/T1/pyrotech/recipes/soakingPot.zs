@@ -11,4 +11,5 @@ SoakingPot.addRecipe("glimmerite_gem", <ore:clusterGlimmerite>.materialPart, <fl
 SoakingPot.addRecipe("starlight_to_gl", <ore:dustGlimmerite>.materialPart, <fluid:astralsorcery.liquidstarlight> * 50, <pyrotech:material:25>, true, 45 * 20);
 SoakingPot.addRecipe("quartz_dirty_wash", <ore:dustQuartz>.materialPart, <fluid:water> * 250, <ore:dirtyDustQuartz>, 20 * 60);
 SoakingPot.addRecipe("redstone_dirty_wash", <ore:dustRedstone>.materialPart, <fluid:water> * 250, <ore:dirtyDustRedstone>, 20 * 60);
+SoakingPot.addRecipe("lithium", <hdsutils:lithium_amalgam>, <fluid:mercury> * 250, <ore:sphericalRed>, 20 * 60);
 }
