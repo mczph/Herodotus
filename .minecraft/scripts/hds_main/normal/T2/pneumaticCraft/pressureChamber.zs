@@ -9,7 +9,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 for shape in crtlib.shapes {
-    pressurechamber.addRecipe([colorize.getShapeVariant(shape, "recrystallized") * 2, <contenttweaker:black_dye>], 1.5, [colorize.getShapeVariant(shape, "polluted") * 2]);
+    pressurechamber.addRecipe([colorize.getShapeVariant(shape, "recrystallized") * 2, <contenttweaker:black_dye>], 1.2, [colorize.getShapeVariant(shape, "polluted") * 2]);
 }
 
 pressurechamber.removeRecipe([<pneumaticcraft:ingot_iron_compressed>]);
