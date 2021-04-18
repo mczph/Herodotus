@@ -34,7 +34,14 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<magneticraft:multiblock_parts>)
   .create();
 
-// TODO: <magneticraft:multiblock_parts:1> recipes (electric)
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:plasticWhite>, <ore:crystalLithium>, <ore:plasticWhite>],
+    [<ore:plasticWhite>, <ore:crystalLithium>, <ore:plasticWhite>],
+    [<ore:plasticWhite>, <ore:crystalLithium>, <ore:plasticWhite>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 200)
+  .addOutput(<magneticraft:multiblock_parts:1>)
+  .create();
 
 RecipeBuilder.get("blacksmith")
   .setShaped([

@@ -39,6 +39,12 @@ RecipeUtils.recipeTweak(true, <pneumaticcraft:gps_tool>, [
 	[<pneumaticcraft:plastic:1>, <ore:gemFlawlessGlimmerite>,<pneumaticcraft:plastic:1>]
 ]);
 
+RecipeUtils.recipeTweak(true, <magneticraft:battery_item_low>, [
+	[<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>],
+	[<ore:lightPlateIron>, <ore:crystalLithium>, <ore:lightPlateIron>],
+	[<ore:lightPlateIron>, <ore:crystalLithium>, <ore:lightPlateIron>]
+]);
+
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <factorytech:ingot:5>, <*>.only(function(item) {
     return item.definition.owner == "factorytech" && !<factorytech:machinepart:51>.matches(item);
 }));

@@ -236,6 +236,15 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
+    [<ore:lightPlateBronze>, <ore:blockIronCompressed>, <ore:lightPlateBronze>],
+    [<prodigytech:primordium>, <prodigytech:primordium>, <prodigytech:primordium>],
+    [<ore:lightPlateBronze>, <ore:dustEnergion>, <ore:lightPlateBronze>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 800)
+  .addOutput(<prodigytech:fuel_processor>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
     [<ore:nuggetIron>, <ore:crystalLithium>, <ore:nuggetIron>],
     [<ore:nuggetIron>, <factorytech:machinepart:21>, <ore:nuggetIron>],
     [<ore:nuggetIron>, <ore:dustCopper>, <ore:nuggetIron>]])

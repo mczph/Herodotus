@@ -41,7 +41,8 @@ val removeByOutput as IItemStack[] = [
     <actuallyadditions:item_misc:4>,
     <thermalexpansion:tank>,
     <mekanism:machineblock2:11>,
-    <factorytech:autominer>
+    <factorytech:autominer>,
+    <prodigytech:fuel_processor>
     
 ];
 
