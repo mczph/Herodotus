@@ -252,6 +252,15 @@ RecipeBuilder.get("engineer")
   .addOutput(<factorytech:intermediate:2> * 2)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>],
+    [<ore:ingotIronCompressed>, <pneumaticcraft:pcb_blueprint>, <pneumaticcraft:pressure_tube>],
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 650)
+  .addOutput(<pneumaticcraft:uv_light_box>)
+  .create();
+
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
 for i in 0 .. 15 {
     val worktable as IItemStack = worktableDef.makeStack(i);

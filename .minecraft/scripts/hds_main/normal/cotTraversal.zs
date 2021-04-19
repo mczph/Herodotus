@@ -89,7 +89,7 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         if (!block.empty && !plate.empty && nameSnake != "coal") {
             allPyroAnvil("block_to_plate_ptanvil_" ~ nameSnake, plate.materialPart * 4, block, 6, "hammer");
             HydraulicPress.addRecipe(ingot, plate.materialPart, 60, 1, true);
-            recipes.addShaped(block.materialPart, createFull3(plate));
+            recipes.addShaped("plate_to_block_" ~ nameSnake, block.materialPart, createFull3(plate));
         }
         if (!lightPlate.empty && !rod.empty && !rodLong.empty && !block.empty) {
             HydraulicPress.addRecipe(ingot, lightPlate.materialPart, 60, 0, true);
