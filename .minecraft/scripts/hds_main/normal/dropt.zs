@@ -20,6 +20,7 @@ Dropt.list("remove_from_grass")
   );
 
 //Add
+// TODO: remove these, since we have our own ores in hdsutils
 geometryOreDropt("rhombus",
     [StringHelper.getItemName(<ore:poorOreRhombus>.materialPart),
      StringHelper.getItemName(<ore:oreRhombus>.materialPart),
