@@ -45,6 +45,12 @@ RecipeUtils.recipeTweak(true, <magneticraft:battery_item_low>, [
 	[<ore:lightPlateIron>, <ore:crystalLithium>, <ore:lightPlateIron>]
 ]);
 
+RecipeUtils.recipeTweak(true, <storagedrawers:controller>, [
+	[<ore:stone>, <ore:stone>, <ore:stone>],
+	[<minecraft:comparator>, <ore:drawerBasic>, <minecraft:comparator>],
+	[<ore:lightPlateIron>, <ore:gemEmerald>, <ore:lightPlateIron>]
+]);
+
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <factorytech:ingot:5>, <*>.only(function(item) {
     return item.definition.owner == "factorytech" && !<factorytech:machinepart:51>.matches(item);
 }));
