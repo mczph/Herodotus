@@ -51,6 +51,12 @@ RecipeUtils.recipeTweak(true, <storagedrawers:controller>, [
 	[<ore:lightPlateIron>, <ore:gemEmerald>, <ore:lightPlateIron>]
 ]);
 
+RecipeUtils.recipeTweak(true, <factorytech:upgrade:3>, [
+	[<ore:plankWood>, <ore:dustLead>, <ore:plankWood>],
+	[<ore:dustLead>, <factorytech:machinepart:90>, <ore:dustLead>],
+	[<ore:plankWood>, <ore:dustLead>, <ore:plankWood>]
+]);
+
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <factorytech:ingot:5>, <*>.only(function(item) {
     return item.definition.owner == "factorytech" && !<factorytech:machinepart:51>.matches(item);
 }));
