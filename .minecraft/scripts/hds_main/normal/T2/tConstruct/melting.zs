@@ -13,6 +13,7 @@ if (!isInvalid) {
     Melting.removeRecipe(<liquid:lead>, <magneticraft:light_plates:3>);
     Melting.removeRecipe(<liquid:tungsten>, <magneticraft:light_plates:5>);
     Melting.removeRecipe(<liquid:steel>, <magneticraft:light_plates:6>);
+    Melting.addRecipe(<liquid:lead> * 144, <ore:orePurifiedLead>);
     Melting.addRecipe(<liquid:iron> * 144, <ore:lightPlateIron>);
     Melting.addRecipe(<liquid:gold> * 144, <ore:lightPlateGold>);
     Melting.addRecipe(<liquid:copper> * 144, <ore:lightPlateCopper>);

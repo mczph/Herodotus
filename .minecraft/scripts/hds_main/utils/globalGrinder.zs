@@ -20,8 +20,9 @@ val map as IIngredient[IIngredient] = {
     <pyrotech:cobblestone> : <pyrotech:rock:3> * 8,
     <minecraft:stone:5> : <pyrotech:rock:3> * 8,
     <pyrotech:limestone> : <pyrotech:rock:8> * 8,
-    <pyrotech:cobblestone:3> : <pyrotech:rock:8> * 8
-
+    <pyrotech:cobblestone:3> : <pyrotech:rock:8> * 8,
+    <minecraft:stone:3> : <pyrotech:rock:2> * 8,
+    <pyrotech:cobblestone:1> : <pyrotech:rock:2> * 8
 };
 
 for input, output in map {
