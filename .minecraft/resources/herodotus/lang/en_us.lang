@@ -9,12 +9,12 @@ modularmachinery.steamer=Steamer
 
 herodotus.quests.66ec53e2.text.1=只要不断地捡木棍，道路就会不断延伸。
 herodotus.quests.66ec53e2.text.2=不要停下来啊！
-
-herodotus.quests.f924aa46.text.1=将星辉矿粉碎后获取星尘。herodotus.quests.42c05de6.text.1=boom!!!!!!!
+herodotus.quests.f924aa46.text.1=将星辉矿粉碎后获取星尘。
+herodotus.quests.42c05de6.text.1=boom!!!!!!!
 herodotus.quests.25f2b62f.text.1=各个等级的星光晶体均可以转化为星能液
 herodotus.quests.25f2b62f.text.2=
-
 herodotus.quests.e9c318a9.text.1=法师工作台能够给物品注入魔法，获得新的物品。这期间需要我的或多或少的经验，否则这个注入魔法的过程就会失败。
+herodotus.quests.09b2af08.text.1=制作锂汞齐，将其喂给生物，生物中毒死亡后会额外掉落锂水晶。
 herodotus.quests.f1649c9d.title=铜碎块
 herodotus.quests.b5454f47.title=锡矿石
 herodotus.quests.094d455e.title=铜矿石
@@ -28,29 +28,20 @@ herodotus.quests.7d24fd49.title=青铜粉
 herodotus.quests.31c48478.title=锡碎块
 herodotus.quests.4ee56b99.title=黄色方形
 herodotus.quests.8d25ec34.title=粉碎铜矿
-
 herodotus.quests.ec377e5a.text.1=强化玻璃瓶可以存储小于一桶的任意数量的流体，并且有安全的存储汞的能力。
 herodotus.quests.7bee5b72.title=匠魂工具
-
 herodotus.quests.a0340ebe.text.1=在正午手持铜锭或在午夜手持铁锭右键祭坛获取随机数量的金粒。
-
 herodotus.quests.8b34342e.title=二阶
-
 herodotus.quests.30108d5f.text.1=生长所需光照等级0~3，其余条件见JEI
 herodotus.quests.9ddf828b.title=二阶
-
 herodotus.quests.c5dddc4b.text.1=将其放入河底，消耗木质筛网工作。
 herodotus.quests.b8d34de9.text.1=破坏静态熔融塑料块即可获得灰色塑料片。
-
 herodotus.quests.37ed0f0a.text.1=将黑色油性染料丢在空的含油地层上，地层将在一定时间后可以变成满的。这可以大大提高原油的产量。
-
 herodotus.quests.47e6a4ff.text.1=你可以用 TNT 炸掉黑曜石，并将其冶炼成黑曜石碎片来制作耐久更高的工具
 herodotus.quests.4ae80206.text.1=铜桶可以无限制地转移常温流体，但是当转移热的流体时有几率会损坏。
 herodotus.quests.c30b3607.text.1=Tip: 你可以副手拿原版木板，主手拿木匠斧右键以修复工匠工作桌。
 herodotus.quests.0eeb63d3.title=铁锭
-
 herodotus.quests.c369f2f9.text.1=红色方形可以直接烧成铁合金锭，来制作铁质工具，耐久更高。（Tip：也可以做原版铁镐，虽然原版铁镐不能挖方块，但依旧能用于砧）
-
 herodotus.quests.773d33ca.title=《简述含能植物的育种与培植中热空气发挥的作用》
 herodotus.quests.2faec3fe.text.1=我敢保证 谁都不可能用这堆还能滴出水的草来点火
 herodotus.quests.2faec3fe.text.2=就算是火神来也不行
@@ -140,5 +131,3 @@ herodotus.quests.790b4ffd.text.4=我错了 这个镐子才是最难用的工具
 herodotus.quests.790b4ffd.text.5=我现在就给那块叫斧头的石头道歉
 herodotus.quests.c9f1480d.title=隐藏任务 用于触发其他任务 如果你看到这个页面说明出现了什么问题
 herodotus.quests.c9f1480d.description=你他喵是不是想作弊
-
-herodotus.quests.09b2af08.text.1=制作锂汞齐，将其喂给生物，生物中毒死亡后会额外掉落锂水晶。

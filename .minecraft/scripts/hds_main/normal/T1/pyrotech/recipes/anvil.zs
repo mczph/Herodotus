@@ -33,6 +33,4 @@ allPyroAnvil("tin", <ore:dustSmallTin>.materialPart, <ore:shardTin>, 6, "hammer"
 allPyroAnvil("coal_block", <ore:pieceCoal>.materialPart*16, <ore:blockCoal>, 8, "hammer");
 
 allPyroAnvil("iron_shard_from_alloy", <pyrotech:material:19> * 8, <ore:ingotConstructionAlloy>, 8, "pickaxe");
-
-IroncladAnvil.addRecipe("i_break_red_square", <ore:rockIron>.materialPart, <ore:squareRed>, 8, "hammer");
 }

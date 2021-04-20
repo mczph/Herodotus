@@ -10,4 +10,13 @@ Burn.createBuilder("mercury_burn", <pyrotech:material> * 2, "contenttweaker:yell
     .setTotalBurnTimeTicks(6 * 60 * 20)
     .setFluidProduced(<liquid:mercury> * 500)
     .register();
+
+Burn.createBuilder("raw_iron_burn", <pyrotech:generated_slag_iron>, "pyrotech:generated_pile_slag_iron")
+    .setTotalBurnTimeTicks(10 * 60 * 20)
+    .setFluidProduced(<liquid:molten_raw_iron> * 500)
+    .setFailureChance(0.05f)
+    .addFailureItem(<pyrotech:material> * 3)
+    .addFailureItem(<pyrotech:material> * 5)
+    .setRequiresRefractoryBlocks(true)
+    .register();
 }

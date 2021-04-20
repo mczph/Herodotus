@@ -20,3 +20,4 @@ CotUtils.addFluid("rhombus_plastic", 0xdddddd, 1000, 1000, 1000, 15, true);
 CotUtils.addFluid("spherical_plastic", 0xdddddd, 1000, 1000, 1000, 15, true);
 CotUtils.addFluid("square_plastic", 0xdddddd, 1000, 1000, 1000, 15, true);
 CotUtils.addFluid("lively_water", 0x66ccff, 300, 1000, 1000, 0, false);
+CotUtils.addFluid("molten_raw_iron", 0xfcb89d, 1000, 1000, 1000, 14, true);
