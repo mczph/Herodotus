@@ -20,12 +20,12 @@ item.contenttweaker.primordium_shard.name=原基碎片
 item.contenttweaker.sticky_gel.name=黏性凝胶质
 item.contenttweaker.impure_gel.name=含杂凝胶质
 item.contenttweaker.wood_feature_crystal.name=有机晶体
-item.contenttweaker.raw_iron.name=粗铁
 
 tile.contenttweaker.altar.name=日月祭坛
 tile.contenttweaker.starlight_frame.name=星光框架
 tile.contenttweaker.yellow_spherical_block.name=黄色球形晶体块
 tile.contenttweaker.static_molten_plastic.name=静态熔融塑料块
+tile.contenttweaker.raw_iron_block.name=粗铁块
 
 fluid.molten_gel=熔融凝胶质
 fluid.limewater=石灰水

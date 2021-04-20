@@ -17,12 +17,12 @@ item.contenttweaker.primordium_shard.name=Primordium Shard
 item.contenttweaker.sticky_gel.name=Sticky Gel
 item.contenttweaker.impure_gel.name=Impure Gel
 item.contenttweaker.wood_feature_crystal.name=Organic Crystal
-item.contenttweaker.raw_iron.name=Raw Iron
 
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame
 tile.contenttweaker.yellow_spherical_block.name=Block of Yellow Spherical Crystal
 tile.contenttweaker.static_molten_plastic.name=Static Molten Plastic Block
+tile.contenttweaker.raw_iron_block.name=Block of Raw Iron
 
 fluid.molten_gel=Molten Gel
 fluid.limewater=Lime Water

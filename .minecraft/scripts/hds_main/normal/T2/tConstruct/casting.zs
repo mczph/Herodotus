@@ -19,7 +19,6 @@ for liquid, item in map {
 }
 Casting.addBasinRecipe(<contenttweaker:static_molten_plastic>, <contenttweaker:sticky_gel>, <liquid:light_oil>, 360, true, 45 * 20);
 Casting.addTableRecipe(<tconstruct:cast_custom>, <pyrotech:material:16>, <liquid:alubrass>, 144, true, 4 * 20);
-Casting.addTableRecipe(<contenttweaker:raw_iron>, null, <liquid:molten_raw_iron>, 1000, false, 30 * 20);
 Casting.removeTableRecipe(<tconstruct:materials>);
 Casting.removeBasinRecipe(<tconstruct:seared_glass>);
 Casting.removeBasinRecipe(<tconstruct:seared_furnace_controller>);
