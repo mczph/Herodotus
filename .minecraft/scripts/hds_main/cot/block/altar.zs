@@ -5,8 +5,8 @@ import mods.zenutils.cotx.Block;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.player.IFoodStats;
 import crafttweaker.item.IItemStack;
-import crafttweaker.block.IBlockState;
 import mods.contenttweaker.VanillaFactory;
+import crafttweaker.block.IBlockState;
 import mods.contenttweaker.MutableItemStack;
 
 val altar as Block = VanillaFactory.createExpandBlock("altar", <blockmaterial:iron>);
@@ -37,15 +37,12 @@ altar.onBlockActivated = function(world, pos, state, player, hand, facing, block
                 player.give(<ore:nuggetGold>.materialPart * amount);
                 return true;
             }
-            // convert some blocks via starlight storage
-            // FIXME: could not work properly
             if (<item:hdsutils:tiny_starlight_storage:1>.matches(item)) {
-                val state as IBlockState = world.getBlockState(pos.getOffset("up", 1));
+                val state as IBlockState = world.getBlockState(pos.getOffset("up", 1)) as IBlockState;
                 val blockItem as IItemStack = state.block.getItem(world, pos, state);
-                print(blockItem.commandString);
                 var blockToConvert as IBlockState = null;
                 if (<item:contenttweaker:starlight_frame>.matches(blockItem)) {
-                    blockToConvert = <item:contenttweaker:starlight_frame>.asBlock().definition.defaultState;
+                    blockToConvert = <item:astralsorcery:blockwell>.asBlock().definition.defaultState;
                 } else if (<ore:oreGlass>.matches(blockItem)) {
                     blockToConvert = <item:astralsorcery:blockcustomore>.asBlock().definition.getStateFromMeta(1);
                 }
