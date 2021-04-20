@@ -32,6 +32,8 @@ val removeByOutput as IItemStack[] = [
     <magneticraft:steam_boiler>,
     <pneumaticcraft:air_compressor>,
     <pneumaticcraft:advanced_air_compressor>,
+    <pneumaticcraft:liquid_compressor>,
+    <pneumaticcraft:advanced_liquid_compressor>,
     <pneumaticcraft:vacuum_pump>,
     <magneticraft:crafting:4>,
     <magneticraft:conveyor_belt>,

@@ -85,6 +85,12 @@ RecipeUtils.recipeTweak(true, <jecalculation:item_calculator>, [
 
 RecipeUtils.recipeTweak(true, <pyrotech:crate> * 2, RecipeUtils.createSurround(<ore:slabWood>, <ore:plankWood>));
 
+recipes.addShaped("hopper_from_iron", <minecraft:hopper>, [
+    [<ore:lightPlateIron>, null, <ore:lightPlateIron>],
+    [<ore:lightPlateIron>, <minecraft:chest>, <ore:lightPlateIron>],
+    [null, <ore:lightPlateIron>, null]
+]);
+
 val vPlankDef as IItemDefinition = <minecraft:planks>.definition;
 val bbChestDef as IItemDefinition = <bibliocraft:framedchest>.definition;
 val bbLableDef as IItemDefinition = <bibliocraft:label>.definition;

@@ -29,7 +29,7 @@ RecipeBuilder.get("engineer")
 RecipeBuilder.get("engineer")
   .setShaped([
     [null, <ore:ingotCupronickel>, null],
-    [<ore:ingotCupronickel>, <factorytech:machinepart:140>, <ore:ingotCupronickel>],
+    [<ore:ingotCupronickel>, <ore:crystalLithium>, <ore:ingotCupronickel>],
     [<ore:dustRedstone>, null, <ore:dustRedstone>]])
   .addTool(<ore:artisansDriver>, 10)
   .addOutput(<factorytech:machinepart:80>)
@@ -38,7 +38,7 @@ RecipeBuilder.get("engineer")
 RecipeBuilder.get("engineer")
   .setShaped([
     [null, <ore:ingotCupronickel>, null],
-    [<ore:ingotCupronickel>, <factorytech:machinepart:140>, <ore:ingotCupronickel>],
+    [<ore:ingotCupronickel>, <ore:crystalLithium>, <ore:ingotCupronickel>],
     [<minecraft:blaze_rod>, null, <minecraft:blaze_rod>]])
   .addTool(<ore:artisansDriver>, 15)
   .addOutput(<factorytech:machinepart:81>)
@@ -259,6 +259,24 @@ RecipeBuilder.get("engineer")
     [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
   .addTool(<contenttweaker:hot_air_solderer>, 650)
   .addOutput(<pneumaticcraft:uv_light_box>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plasticRed>, <ore:plasticRed>, <ore:plasticRed>],
+    [<ore:plasticRed>, <pneumaticcraft:air_compressor>, <ore:gearIron>],
+    [<ore:plasticRed>, <thermalfoundation:material:512>, <modularmachinery:blockfluidinputhatch:1>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 750)
+  .addOutput(<pneumaticcraft:liquid_compressor>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plasticBlue>, <ore:plasticBlue>, <ore:plasticBlue>],
+    [<ore:plasticBlue>, <pneumaticcraft:advanced_air_compressor>, <ore:gearInvar>],
+    [<ore:plasticBlue>, <thermalfoundation:material:512>, <modularmachinery:blockfluidinputhatch:1>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 750)
+  .addOutput(<pneumaticcraft:advanced_liquid_compressor>)
   .create();
 
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
