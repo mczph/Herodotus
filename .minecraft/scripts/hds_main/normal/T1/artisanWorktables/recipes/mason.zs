@@ -196,4 +196,25 @@ RecipeBuilder.get("mason")
   .addTool(<ore:artisansBurner>, 90)
   .addOutput(<hdsutils:copper_bucket>)
   .create();
+
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<pyrotech:material:16>, <pyrotech:material:16>, <pyrotech:material:16>],
+    [<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:flint>],
+    [<pyrotech:material:16>, <pyrotech:material:16>, <pyrotech:material:16>]])
+  .addTool(<ore:artisansTrowel>, 20)
+  .setFluid(<liquid:limewater> * 1000)
+  .addOutput(<pyrotech:igniter>)
+  .create();
+
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>],
+    [<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:flint>],
+    [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>]])
+  .addTool(<ore:artisansTrowel>, 20)
+  .setFluid(<liquid:limewater> * 1000)
+  .addOutput(<pyrotech:igniter:1>)
+  .create();
+
 }
