@@ -42,7 +42,6 @@ val removeByOutput as IItemStack[] = [
     <magneticraft:water_generator>,
     <pneumaticcraft:uv_light_box>,
     <actuallyadditions:item_misc:4>,
-    <thermalexpansion:tank>,
     <mekanism:machineblock2:11>,
     <factorytech:autominer>,
     <prodigytech:fuel_processor>
