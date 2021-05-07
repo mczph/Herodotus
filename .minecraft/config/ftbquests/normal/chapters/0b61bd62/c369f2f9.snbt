@@ -1,0 +1,18 @@
+{
+	x: 22.5d,
+	y: -0.75d,
+	text: [
+		"{herodotus.quests.c369f2f9.text.1}"
+	],
+	dependencies: [
+		"e87dbfbf"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d167ac8d",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 9"
+		}]
+	}]
+}

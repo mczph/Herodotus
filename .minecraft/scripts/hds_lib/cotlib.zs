@@ -47,6 +47,7 @@ static allPartsMap as string[][int] = {
     ],
     1 : [//geometryOre
         // "rhombus", "spherical", "square",
+        // TODO: remove these, since we have our own ores in hdsutils
         "ore", "dense_ore", "poor_ore", "molten"
     ],
     2 : [//metal1

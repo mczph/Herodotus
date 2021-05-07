@@ -16,15 +16,21 @@ item.contenttweaker.black_dye.name=Black Oily Dye
 item.contenttweaker.primordium_shard.name=Primordium Shard
 item.contenttweaker.sticky_gel.name=Sticky Gel
 item.contenttweaker.impure_gel.name=Impure Gel
+item.contenttweaker.wood_feature_crystal.name=Organic Crystal
 
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame
 tile.contenttweaker.yellow_spherical_block.name=Block of Yellow Spherical Crystal
 tile.contenttweaker.static_molten_plastic.name=Static Molten Plastic Block
+tile.contenttweaker.raw_iron_block.name=Block of Raw Iron
 
 fluid.molten_gel=Molten Gel
 fluid.limewater=Lime Water
 fluid.lively_water=Lively Water
+fluid.raw_iron_fluid=Molten Raw Iron
+fluid.square_plastic=Plastic Mixed Molten Square
+fluid.rhombus_plastic=Plastic Mixed Molten Rhombus
+fluid.spherical_plastic=Plastic Mixed Molten Spherical
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus

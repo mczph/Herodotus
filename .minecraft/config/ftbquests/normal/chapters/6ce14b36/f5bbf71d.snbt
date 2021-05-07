@@ -1,0 +1,18 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	text: [
+		"{herodotus.quests.f5bbf71d.text.1}",
+		"{herodotus.quests.f5bbf71d.text.2}"
+	],
+	dependencies: [
+		"78b91f90"
+	],
+	tasks: [{
+		uid: "8776a8d2",
+		type: "item",
+		items: [{
+			item: "pyrotech:worktable"
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"{herodotus.quests.9da8963a.text.1}",
+		"{herodotus.quests.9da8963a.text.2}",
+		"{herodotus.quests.9da8963a.text.3}"
+	],
+	dependencies: [
+		"9396e3da"
+	],
+	tasks: [{
+		uid: "408fd114",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}]
+	}]
+}

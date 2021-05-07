@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"{herodotus.quests.00ada03a.text.1}",
+		"{herodotus.quests.00ada03a.text.2}"
+	],
+	tasks: [{
+		uid: "3da06a61",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 12"
+		},
+		{
+			item: "pyrotech:material 1 13"
+		}]
+	}]
+}

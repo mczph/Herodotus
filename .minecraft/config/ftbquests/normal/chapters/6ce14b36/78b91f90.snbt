@@ -1,0 +1,43 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	dependencies: [
+		"b213ed8b"
+	],
+	tasks: [{
+		uid: "29de1c1b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}]
+	},
+	{
+		uid: "cb8f2852",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "slabWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any slabWood"
+				}
+			}
+		}]
+	}]
+}

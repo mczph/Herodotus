@@ -5,6 +5,7 @@ import mods.dropt.Dropt;
 import crafttweaker.item.IItemStack;
 
 //the FOH functions
+// TODO: remove these, since we have our own ores in hdsutils
 function fortunePoorOreHelper(name as string, matchBlocksList as string[], dropItemsList as IItemStack[]){
 Dropt.list(name)
   .add(Dropt.rule()

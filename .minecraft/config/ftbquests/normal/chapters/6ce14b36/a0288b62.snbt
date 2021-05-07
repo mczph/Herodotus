@@ -1,0 +1,39 @@
+{
+	x: 12.0d,
+	y: -2.0d,
+	text: [
+		"{herodotus.quests.a0288b62.text.1}",
+		"{herodotus.quests.a0288b62.text.2}",
+		"{herodotus.quests.a0288b62.text.3}"
+	],
+	dependencies: [
+		"6e9534cd"
+	],
+	tasks: [{
+		uid: "dc4fa50a",
+		type: "item",
+		items: [{
+			item: "pyrotech:tar_collector"
+		}]
+	},
+	{
+		uid: "ce3c3106",
+		type: "item",
+		items: [{
+			item: "pyrotech:tar_drain"
+		}]
+	},
+	{
+		uid: "ac0af445",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_bricks"
+		}]
+	}],
+	rewards: [{
+		uid: "b4158375",
+		type: "item",
+		title: "{herodotus.quests.a0288b62.title}",
+		item: "pyrotech:igniter"
+	}]
+}

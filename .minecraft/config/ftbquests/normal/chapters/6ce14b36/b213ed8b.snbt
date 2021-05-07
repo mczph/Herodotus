@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		"{herodotus.quests.b213ed8b.text.1}",
+		"{herodotus.quests.b213ed8b.text.2}",
+		"{herodotus.quests.b213ed8b.text.3}"
+	],
+	dependencies: [
+		"9da8963a"
+	],
+	tasks: [{
+		uid: "b08080dc",
+		type: "item",
+		items: [{
+			item: "pyrotech:chopping_block"
+		}]
+	}]
+}

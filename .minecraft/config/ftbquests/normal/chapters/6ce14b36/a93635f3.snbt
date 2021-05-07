@@ -1,0 +1,36 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"{herodotus.quests.a93635f3.text.1}",
+		"{herodotus.quests.a93635f3.text.2}",
+		"{herodotus.quests.a93635f3.text.3}",
+		"{herodotus.quests.a93635f3.text.4}"
+	],
+	dependencies: [
+		"2e0bc67f",
+		"d2137321"
+	],
+	tasks: [{
+		uid: "c4faf924",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "ec0fb495",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

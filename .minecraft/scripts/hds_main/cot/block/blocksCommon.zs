@@ -14,6 +14,12 @@ val ysb as Block = VanillaFactory.createBlock("yellow_spherical_block", <blockma
 ysb.blockHardness = 1.0f;
 ysb.register();
 
+val rawIronBlock as Block = VanillaFactory.createBlock("raw_iron_block", <blockmaterial:rock>);
+rawIronBlock.blockHardness = 1.0f;
+rawIronBlock.toolClass = "pickaxe";
+rawIronBlock.toolLevel = 1;
+rawIronBlock.register();
+
 val smp as Block = VanillaFactory.createBlock("static_molten_plastic", <blockmaterial:rock>);
 smp.toolClass = "pickaxe";
 smp.toolLevel = 2;

@@ -12,8 +12,8 @@ if(!isInvalid){
 rAllPyroDr(<pyrotech:material:13>);
 allDryingRack("dry_that_fiber", <pyrotech:material:13>, <pyrotech:material:12>, 20*20);
 
-rAllPyroDr(<minecraft:wheat>);
+rAllPyroDr(<pyrotech:material:2>);
 allDryingRack("dry_that_straw", <pyrotech:material:2>, <minecraft:wheat>, 20*20);
 
-allDryingRack("dry_that_leather", <improvedbackpacks:tanned_leather>, <improvedbackpacks:bound_leather>, 30*20);
+allDryingRack("dry_that_leather", <improvedbackpacks:tanned_leather>, <improvedbackpacks:bound_leather>, 60*20);
 }

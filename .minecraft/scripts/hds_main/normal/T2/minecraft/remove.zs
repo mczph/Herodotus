@@ -15,6 +15,7 @@ val removeByOutput as IItemStack[] = [
     <embers:pipe>,
     <embers:pump>,
     <embers:item_pump>,
+    <prodigytech:automatic_crystal_cutter>,
     <magneticraft:multiblock_parts:*>,
     <magneticraft:multiblock_column>,
     <magneticraft:crafting:3>,
@@ -31,10 +32,20 @@ val removeByOutput as IItemStack[] = [
     <magneticraft:steam_boiler>,
     <pneumaticcraft:air_compressor>,
     <pneumaticcraft:advanced_air_compressor>,
+    <pneumaticcraft:liquid_compressor>,
+    <pneumaticcraft:advanced_liquid_compressor>,
+    <pneumaticcraft:vacuum_pump>,
     <magneticraft:crafting:4>,
     <magneticraft:conveyor_belt>,
     <magneticraft:inserter>,
-    <magneticraft:relay>
+    <magneticraft:relay>,
+    <magneticraft:water_generator>,
+    <pneumaticcraft:uv_light_box>,
+    <actuallyadditions:item_misc:4>,
+    <mekanism:machineblock2:11>,
+    <factorytech:autominer>,
+    <prodigytech:fuel_processor>
+    
 ];
 
 val removeByRecipeName as string[] = [
@@ -43,11 +54,13 @@ val removeByRecipeName as string[] = [
     "pneumaticcraft:pressure_chamber_interface",
     "pneumaticcraft:pressure_chamber_wall",
     "factorytech:parts/motor",
-    "factorytech:parts/motorgold"
+    "factorytech:parts/motorgold",
+    "factorytech:parts/battery_shell"
 ];
 
 val removeByModid as string[] = [
-    "modularmachinery"
+    "modularmachinery",
+    "teslathingies"
 ];
 
 val removeByRegex as string[] = [

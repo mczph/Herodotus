@@ -54,20 +54,10 @@ RecipeUtils.recipeTweak(true, <minecraft:hopper>,[
     [null, <ore:ingotBronze>, null]
 ]);
 
-val pyrotechDevices as IItemStack[IItemStack] = {
-    <pyrotech:brick_kiln> : <pyrotech:stone_kiln>,
-    <pyrotech:brick_oven> : <pyrotech:stone_oven>,
-    <pyrotech:brick_sawmill> : <pyrotech:stone_sawmill>,
-    <pyrotech:brick_crucible> : <pyrotech:stone_crucible>
-};
-
-for brick, stone in pyrotechDevices {
-    RecipeUtils.recipeTweak(true, brick, [
-        [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>],
-        [<pyrotech:material:5>, stone, <pyrotech:material:5>],
-        [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>]
-    ]);
-}
+RecipeUtils.recipeTweak(true, <cookingforblockheads:spice_rack>*2, [
+    [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+    [<ore:ingotIron>, <ore:rodLongIron>, <ore:ingotIron>]
+]);
 
 RecipeUtils.recipeTweak(true, <pyrotech:anvil_iron_plated>, [
     [<ore:stoneMarble>, <ore:stoneMarble>, <ore:stoneMarble>],
@@ -79,6 +69,26 @@ RecipeUtils.recipeTweak(true, <bibliocraft:framedchest:6>, [
     [<bibliocraft:framingsheet>, <bibliocraft:framingsheet>, <bibliocraft:framingsheet>],
     [<bibliocraft:framingsheet>, <bibliocraft:label:6>, <bibliocraft:framingsheet>],
     [<bibliocraft:framingsheet>, <minecraft:chest>, <bibliocraft:framingsheet>]
+]);
+
+RecipeUtils.recipeTweak(true, <prodigytech:heat_capacitor_1:12000>, [
+    [null, <prodigytech:heat_capacitor_0:12000>, null],
+    [<ore:dustAstralStarmetal>, <ore:dustGold>, <ore:dustAstralStarmetal>],
+    [null, <prodigytech:heat_capacitor_0:12000>, null]
+]);
+
+RecipeUtils.recipeTweak(true, <jecalculation:item_calculator>, [
+    [<pyrotech:material:16>, <ore:blockGlassColorless>, <pyrotech:material:16>],
+    [<pyrotech:material:16>, <minecraft:stone_button>, <pyrotech:material:16>],
+    [<pyrotech:material:16>, <minecraft:stone_button>, <pyrotech:material:16>]
+]);
+
+RecipeUtils.recipeTweak(true, <pyrotech:crate> * 2, RecipeUtils.createSurround(<ore:slabWood>, <ore:plankWood>));
+
+recipes.addShaped("hopper_from_iron", <minecraft:hopper>, [
+    [<ore:lightPlateIron>, null, <ore:lightPlateIron>],
+    [<ore:lightPlateIron>, <minecraft:chest>, <ore:lightPlateIron>],
+    [null, <ore:lightPlateIron>, null]
 ]);
 
 val vPlankDef as IItemDefinition = <minecraft:planks>.definition;
@@ -101,6 +111,12 @@ recipes.addShapeless("tiny_bronze_dust", <ore:dustTinyBronze>.materialPart * 4, 
 
 recipes.addShapeless("bronze_dust_from_small", <ore:dustBronze>.materialPart, [
     <ore:dustSmallCopper>, <ore:dustSmallCopper>, <ore:dustSmallCopper>, <ore:dustSmallTin>
+]);
+
+recipes.addShaped("iron_hammer_from_alloy", <pyrotech:iron_hammer>, [
+    [null, <ore:ingotConstructionAlloy>, <ore:string>],
+    [null, <ore:stickWood>, <ore:ingotConstructionAlloy>],
+    [<ore:stickWood>, null, null]
 ]);
 
 recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(function(item) {
@@ -148,4 +164,7 @@ recipes.addShapeless("hot_air_solderer_trans_3", <contenttweaker:hot_air_soldere
         return out.withDamage(max(0, 32000 - (12000 - ins.c.damage) * 12));
     }, null
 );
+
+furnace.addRecipe(<biomesoplenty:blue_dye>, <ore:dustBlue>);
+furnace.addRecipe(<minecraft:dye:2>, <minecraft:cactus>);
 }

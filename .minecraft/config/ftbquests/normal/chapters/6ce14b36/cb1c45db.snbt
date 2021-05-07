@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -4.0d,
+	text: [
+		"{herodotus.quests.cb1c45db.text.1}",
+		"{herodotus.quests.cb1c45db.text.2}",
+		"{herodotus.quests.cb1c45db.text.3}"
+	],
+	dependencies: [
+		"7afd8fde"
+	],
+	tasks: [{
+		uid: "3d911be0",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack 1 1"
+		}]
+	}]
+}

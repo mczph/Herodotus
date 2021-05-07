@@ -1,0 +1,36 @@
+{
+	x: 6.0d,
+	y: 6.0d,
+	text: [
+		"{herodotus.quests.3f3bf3a2.text.1}",
+		"{herodotus.quests.3f3bf3a2.text.2}",
+		"{herodotus.quests.3f3bf3a2.text.3}"
+	],
+	dependencies: [
+		"f5bbf71d"
+	],
+	tasks: [{
+		uid: "bdf65516",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_hammer"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:stone_hammer"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:flint_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -28,15 +28,10 @@
 		}]
 	},
 	{
-		uid: "c547dd13",
+		uid: "ad4cf8fa",
 		type: "item",
 		items: [{
-			item: "contenttweaker:rhombus"
+			item: "contenttweaker:spherical"
 		}]
-	}],
-	rewards: [{
-		uid: "51363aea",
-		type: "item",
-		item: "contenttweaker:material_part 1 50"
 	}]
 }

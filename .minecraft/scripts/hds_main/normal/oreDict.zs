@@ -11,7 +11,9 @@ if(!isInvalid){
 val oreDictAddMap as IItemStack[][IOreDictEntry] = {
     <ore:pieceCoal> : [<pyrotech:material:21>, <actuallyadditions:item_misc:10>, <pyrotech:material:15>],
     <ore:logWood> : [<growthcraft_cellar:cork_log>],
-    <ore:string> : [<pyrotech:material:14>]
+    <ore:string> : [<pyrotech:material:14>],
+    <ore:dustWood> : [<pyrotech:rock:7>],
+    <ore:dustAsh> : [<pyrotech:material>]
 };
 
 val oreDictRemoveMap as IItemStack[][IOreDictEntry] = {

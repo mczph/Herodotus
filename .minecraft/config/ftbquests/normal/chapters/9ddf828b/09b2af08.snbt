@@ -1,0 +1,17 @@
+{
+	x: 21.0d,
+	y: 1.0d,
+	text: [
+		"{herodotus.quests.09b2af08.text.1}"
+	],
+	dependencies: [
+		"1572fce1"
+	],
+	tasks: [{
+		uid: "6773f4e7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 219"
+		}]
+	}]
+}

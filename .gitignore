@@ -6,7 +6,6 @@
 #repo stuff
 !/.github
 !/docs
-!/artifacts
 !/runners
 !/LICENSE
 !/README.md

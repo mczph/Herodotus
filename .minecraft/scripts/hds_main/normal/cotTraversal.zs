@@ -17,6 +17,8 @@ import mods.pyrotech.IroncladAnvil;
 import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.factorytech.DrillGrinder;
+import mods.magneticraft.HydraulicPress;
+import mods.magneticraft.CrushingTable;
 
 import scripts.hds_main.utils.modloader.isInvalid;
 
@@ -53,7 +55,7 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
 
         //oredict translate
         if(!densePlate.empty){
-        oreDict.get("heavyPlate"~nameSnake).add(densePlate.materialPart);
+            oreDict.get("heavyPlate"~nameSnake).add(densePlate.materialPart);
         }
         
         //basic recipes
@@ -86,8 +88,13 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         //pyrotech
         if (!block.empty && !plate.empty && nameSnake != "coal") {
             allPyroAnvil("block_to_plate_ptanvil_" ~ nameSnake, plate.materialPart * 4, block, 6, "hammer");
+            HydraulicPress.addRecipe(ingot, plate.materialPart, 60, 1, true);
+            recipes.addShaped("plate_to_block_" ~ nameSnake, block.materialPart, createFull3(plate));
         }
-        if (!lightPlate.empty && !rod.empty && !rodLong.empty){
+        if (!lightPlate.empty && !rod.empty && !rodLong.empty && !block.empty) {
+            HydraulicPress.addRecipe(ingot, lightPlate.materialPart, 60, 0, true);
+            CrushingTable.addRecipe(block.materialPart, lightPlate.materialPart * 5, true);
+            recipes.addShaped(block.materialPart, createFull3(lightPlate));
             allPyroAnvil("lightplate_to_rod_ptanvil_" ~ nameSnake, rod.materialPart*3, lightPlate, 6, "pickaxe");
             RecipeBuilder.get("blacksmith")
                 .setName("rod_to_longrod" ~ nameSnake)

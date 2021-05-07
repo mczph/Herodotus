@@ -26,6 +26,7 @@ val removeByOutput as IItemStack[] = [
     <prodigytech:primordialis_reactor>,
     <prodigytech:solderer>,
     <prodigytech:ferramic_gear>,
+    <prodigytech:wormhole_linker>,
     <astralsorcery:itemjournal>,
     <advancedrocketry:platepress>,
     <prodigytech:energion_dust>,
@@ -44,6 +45,8 @@ val removeByOutput as IItemStack[] = [
     <bibliocraft:printplate>,
     <prodigytech:food_enricher>,
     <prodigytech:food_purifier>,
+    <prodigytech:capacitor_aeroheater>,
+    <prodigytech:capacitor_charger>,
     <mekanismtools:bronzepaxel>,
     <mekanismtools:bronzepickaxe>,
     <mekanismtools:bronzeaxe>,
@@ -58,8 +61,21 @@ val removeByOutput as IItemStack[] = [
     <mekanismtools:steelsword>,
     <mekanismtools:steelpaxel>,
     <mekanismtools:bronzepaxel>,
-    <pyrotech:crate>,
-    <pyrotech:crate_stone>
+    <pyrotech:crate_stone>,
+    <pyrotech:brick_kiln>,
+    <pyrotech:brick_oven>,
+    <pyrotech:brick_sawmill>,
+    <pyrotech:brick_crucible>,
+    <prodigytech:wormhole_funnel>,
+    <factorytech:crate>,
+    <magneticraft:box>,
+    <pyrotech:worktable_stone>,
+    <pyrotech:stone_kiln>,
+    <pyrotech:stone_oven>,
+    <pyrotech:stone_sawmill>,
+    <pyrotech:stone_crucible>,
+    <pyrotech:igniter:1>,
+    <pyrotech:igniter>
 ];
 
 val removeByRecipeName as string[] = [

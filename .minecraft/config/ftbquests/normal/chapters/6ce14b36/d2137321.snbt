@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"{herodotus.quests.d2137321.text.1}",
+		"{herodotus.quests.d2137321.text.2}",
+		"{herodotus.quests.d2137321.text.3}",
+		"{herodotus.quests.d2137321.text.4}"
+	],
+	dependencies: [
+		"9396e3da"
+	],
+	tasks: [{
+		uid: "433277a3",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 10"
+		},
+		{
+			item: "minecraft:flint"
+		}]
+	}]
+}

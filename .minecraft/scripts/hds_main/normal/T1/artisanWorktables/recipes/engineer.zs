@@ -37,16 +37,6 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<contenttweaker:astral_lens>, <contenttweaker:astral_lens>, <contenttweaker:astral_lens>],
-    [<ore:plateIron>, <contenttweaker:starlight_frame>, <ore:plateIron>],
-    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]])
-  .setFluid(<liquid:lava> * 1000)
-  .addTool(<ore:artisansSpanner>, 80)
-  .addOutput(<prodigytech:solderer>)
-  .create();
-
-RecipeBuilder.get("engineer")
-  .setShaped([
     [<ore:plateIron>, <hdsutils:tiny_starlight_storage:1>, <ore:plateIron>],
     [<astralsorcery:blockcustomflower>, <contenttweaker:starlight_frame>, <astralsorcery:blockcustomflower>],
     [<ore:plateIron>, <astralsorcery:blockcustomflower>, <ore:plateIron>]])
@@ -83,6 +73,15 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
+    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
+    [<pyrotech:refractory_brick_block>, null, <pyrotech:refractory_brick_block>],
+    [<pyrotech:refractory_brick_block>, <ore:ingotIron>, <pyrotech:refractory_brick_block>]])
+  .addTool(<ore:artisansSpanner>, 60)
+  .addOutput(<prodigytech:capacitor_charger>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
     [<tconstruct:pattern>],
     [<pyrotech:crate_stone>]])
   .addTool(<ore:artisansDriver>, 30)
@@ -96,6 +95,24 @@ RecipeBuilder.get("engineer")
     [<pyrotech:material:5>, null, <pyrotech:material:5>]])
   .addTool(<ore:artisansDriver>, 30)
   .addOutput(<tconstruct:tooltables:3>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotBronze>, <ore:blockQuartz>, <ore:ingotBronze>],
+    [<ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>],
+    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 750)
+  .addOutput(<prodigytech:capacitor_aeroheater>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<minecraft:ender_pearl>],
+    [<prodigytech:primordium>],
+    [<ore:rodLongBronze>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 200)
+  .addOutput(<prodigytech:wormhole_linker>)
   .create();
 
 }

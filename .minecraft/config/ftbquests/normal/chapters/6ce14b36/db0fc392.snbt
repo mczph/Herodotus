@@ -1,0 +1,20 @@
+{
+	x: 10.0d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"991202af"
+	],
+	tasks: [{
+		uid: "6ae692e5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:bow_drill"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

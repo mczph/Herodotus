@@ -19,7 +19,7 @@ RecipeBuilder.get("blacksmith")
   .setShaped([
     [<ore:plateIron>, null, <ore:plateIron>],
     [<ore:plateIron>, null, <ore:plateIron>],
-    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]])
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]])
   .addTool(<ore:artisansHammer>, 24)
   .addOutput(<minecraft:cauldron>)
   .create();
@@ -58,5 +58,13 @@ RecipeBuilder.get("blacksmith")
   .setShapeless([<prodigytech:primordialis_reactor>, <astralsorcery:itemcraftingcomponent:3>, <prodigytech:primordium>])
   .addTool(<contenttweaker:hot_air_solderer>, 200)
   .addOutput(<prodigytech:atomic_reshaper>)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:ingotBronze>, <ore:obsidian>, <ore:ingotBronze>],
+    [<ore:ingotBronze>, <ore:enderpearl>, <ore:ingotBronze>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 180)
+  .addOutput(<prodigytech:wormhole_funnel> * 2)
   .create();
 }

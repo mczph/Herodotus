@@ -29,7 +29,7 @@ RecipeBuilder.get("engineer")
 RecipeBuilder.get("engineer")
   .setShaped([
     [null, <ore:ingotCupronickel>, null],
-    [<ore:ingotCupronickel>, <factorytech:machinepart:140>, <ore:ingotCupronickel>],
+    [<ore:ingotCupronickel>, <ore:crystalLithium>, <ore:ingotCupronickel>],
     [<ore:dustRedstone>, null, <ore:dustRedstone>]])
   .addTool(<ore:artisansDriver>, 10)
   .addOutput(<factorytech:machinepart:80>)
@@ -38,7 +38,7 @@ RecipeBuilder.get("engineer")
 RecipeBuilder.get("engineer")
   .setShaped([
     [null, <ore:ingotCupronickel>, null],
-    [<ore:ingotCupronickel>, <factorytech:machinepart:140>, <ore:ingotCupronickel>],
+    [<ore:ingotCupronickel>, <ore:crystalLithium>, <ore:ingotCupronickel>],
     [<minecraft:blaze_rod>, null, <minecraft:blaze_rod>]])
   .addTool(<ore:artisansDriver>, 15)
   .addOutput(<factorytech:machinepart:81>)
@@ -50,14 +50,14 @@ RecipeBuilder.get("engineer")
     [<ore:ingotIronCompressed>, <ore:heavyPlateIron>, <ore:ingotIronCompressed>],
     [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
   .addTool(<ore:artisansSpanner>, 25)
-  .setFluid(<liquid:light_oil> * 500)
+  .setFluid(<liquid:heavy_oil> * 500)
   .addOutput(<pneumaticcraft:pressure_chamber_wall> * 16)
   .create();
 
 RecipeBuilder.get("engineer")
   .setShapeless([<pneumaticcraft:pressure_chamber_wall>, <minecraft:hopper>, <factorytech:intermediate:4>, <factorytech:intermediate:4>])
   .addTool(<ore:artisansSpanner>, 45)
-  .setFluid(<liquid:light_oil> * 500)
+  .setFluid(<liquid:heavy_oil> * 500)
   .addOutput(<pneumaticcraft:pressure_chamber_interface>)
   .create();
 
@@ -102,7 +102,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotBronze>, <ore:gemQuartz>, <ore:ingotBronze>],
     [<ore:gemQuartz>, null, <ore:gemQuartz>],
     [<ore:ingotBronze>, <ore:gemQuartz>, <ore:ingotBronze>]])
-  .addTool(<artisanworktables:artisans_driver_stone>, 25)
+  .addTool(<ore:artisansDriver>, 25)
   .addOutput(<modulardiversity:blockhotairinputhatch>)
   .create();
 
@@ -111,7 +111,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotBronze>, <minecraft:hopper>, <ore:ingotBronze>],
     [null, <ore:clumpYellow>, null],
     [<ore:ingotBronze>, <minecraft:bucket>, <ore:ingotBronze>]])
-  .addTool(<artisanworktables:artisans_driver_stone>, 25)
+  .addTool(<ore:artisansDriver>, 25)
   .addOutput(<modularmachinery:blockfluidoutputhatch>)
   .create();
 
@@ -120,7 +120,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotBronze>, <minecraft:hopper>, <ore:ingotBronze>],
     [null, <ore:clumpBlue>, null],
     [<ore:ingotBronze>, <minecraft:bucket>, <ore:ingotBronze>]])
-  .addTool(<artisanworktables:artisans_driver_stone>, 25)
+  .addTool(<ore:artisansDriver>, 25)
   .addOutput(<modularmachinery:blockfluidinputhatch>)
   .create();
 
@@ -146,7 +146,7 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:lightPlateIron>, <ore:lightPlateIron>, <ore:lightPlateIron>],
     [<ore:lightPlateIron>, <factorytech:intermediate:4>, <ore:lightPlateIron>],
-    [<ore:lightPlateIron>, <magneticraft:crafting:4>, <ore:lightPlateIron>]])
+    [<ore:lightPlateIron>, <factorytech:machinepart:130>, <ore:lightPlateIron>]])
   .addTool(<contenttweaker:hot_air_solderer>, 150)
   .addOutput(<magneticraft:conveyor_belt> * 16)
   .create();
@@ -155,18 +155,128 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:lightPlateCopper>, null, null],
     [<ore:lightPlateLead>, <factorytech:intermediate:4>, <ore:lightPlateLead>],
-    [<ore:lightPlateIron>, <magneticraft:crafting:4>, <ore:lightPlateIron>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 200)
+    [<ore:lightPlateIron>, <factorytech:machinepart:130>, <ore:lightPlateIron>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 400)
   .addOutput(<magneticraft:inserter>)
   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<magneticraft:crafting:4>, <magneticraft:crafting:4>, <magneticraft:crafting:4>],
+    [<factorytech:machinepart:130>, <factorytech:machinepart:130>, <factorytech:machinepart:130>],
     [<ore:plankWood>, <ore:craftingPiston>, <ore:plankWood>],
     [<ore:lightPlateIron>, <ore:lightPlateIron>, <ore:lightPlateIron>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 200)
+  .addTool(<contenttweaker:hot_air_solderer>, 400)
   .addOutput(<magneticraft:relay>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotBronze>, null, <ore:ingotBronze>],
+    [<ore:ingotBronze>, <factorytech:machinepart:90>, <ore:gearBronze>],
+    [<ore:ingotBronze>, null, <ore:ingotBronze>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 400)
+  .addOutput(<prodigytech:automatic_crystal_cutter>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<pneumaticcraft:turbine_rotor>, <pneumaticcraft:pressure_gauge>, <pneumaticcraft:turbine_rotor>],
+    [<pneumaticcraft:pressure_tube>, <factorytech:intermediate:4>, <pneumaticcraft:pressure_tube>],
+    [<astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 1000)
+  .addOutput(<pneumaticcraft:vacuum_pump>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShapeless([<magneticraft:multiblock_parts:5>, <ore:hopper>, <ore:clumpBlue>])
+  .addTool(<contenttweaker:hot_air_solderer>, 400)
+  .addOutput(<modularmachinery:blockinputbus>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShapeless([<magneticraft:multiblock_parts:5>, <ore:hopper>, <ore:clumpYellow>])
+  .addTool(<contenttweaker:hot_air_solderer>, 400)
+  .addOutput(<modularmachinery:blockoutputbus>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIronCompressed>, null, <ore:ingotIronCompressed>],
+    [null, <ore:clumpBlue>, null],
+    [<ore:ingotIronCompressed>, <pneumaticcraft:liquid_hopper>, <ore:ingotIronCompressed>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 150)
+  .addOutput(<modularmachinery:blockfluidinputhatch:1>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIronCompressed>, null, <ore:ingotIronCompressed>],
+    [null, <ore:clumpYellow>, null],
+    [<ore:ingotIronCompressed>, <pneumaticcraft:liquid_hopper>, <ore:ingotIronCompressed>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 150)
+  .addOutput(<modularmachinery:blockfluidoutputhatch:1>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:lightPlateIron>, <ore:barsIron>, <ore:lightPlateIron>],
+    [<ore:lightPlateIron>, null, <ore:lightPlateIron>],
+    [<ore:lightPlateIron>, <magneticraft:multiblock_parts>, <ore:lightPlateIron>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 650)
+  .addOutput(<hdsutils:steamer_controller>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:sphericalTierTwoRed>]])
+  .addTool(<ore:artisansBeaker>, 30)
+  .setFluid(<fluid:mercury> * 250)
+  .addOutput(<hdsutils:lithium_amalgam> * 3)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:lightPlateBronze>, <ore:blockIronCompressed>, <ore:lightPlateBronze>],
+    [<prodigytech:primordium>, <prodigytech:primordium>, <prodigytech:primordium>],
+    [<ore:lightPlateBronze>, <ore:dustEnergion>, <ore:lightPlateBronze>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 800)
+  .addOutput(<prodigytech:fuel_processor>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:nuggetIron>, <ore:crystalLithium>, <ore:nuggetIron>],
+    [<ore:nuggetIron>, <factorytech:machinepart:21>, <ore:nuggetIron>],
+    [<ore:nuggetIron>, <ore:dustCopper>, <ore:nuggetIron>]])
+  .addTool(<ore:artisansSpanner>, 50)
+  .addOutput(<factorytech:intermediate:2> * 2)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>],
+    [<ore:ingotIronCompressed>, <pneumaticcraft:pcb_blueprint>, <pneumaticcraft:pressure_tube>],
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 650)
+  .addOutput(<pneumaticcraft:uv_light_box>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plasticRed>, <ore:plasticRed>, <ore:plasticRed>],
+    [<ore:plasticRed>, <pneumaticcraft:air_compressor>, <ore:gearIron>],
+    [<ore:plasticRed>, <thermalfoundation:material:512>, <modularmachinery:blockfluidinputhatch:1>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 750)
+  .addOutput(<pneumaticcraft:liquid_compressor>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plasticBlue>, <ore:plasticBlue>, <ore:plasticBlue>],
+    [<ore:plasticBlue>, <pneumaticcraft:advanced_air_compressor>, <ore:gearInvar>],
+    [<ore:plasticBlue>, <thermalfoundation:material:512>, <modularmachinery:blockfluidinputhatch:1>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 750)
+  .addOutput(<pneumaticcraft:advanced_liquid_compressor>)
   .create();
 
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;

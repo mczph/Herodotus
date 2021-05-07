@@ -30,9 +30,9 @@ RecipeBuilder.get("basic")
 
 RecipeBuilder.get("basic")
     .setShaped([
-	    [<ore:ingotBronze>, <ore:gearBronze>, <ore:ingotBronze>],
+	    [<pyrotech:material:5>, <ore:gearBronze>, <pyrotech:material:5>],
 	    [<ore:plankWood>, <pyrotech:worktable>, <ore:plankWood>],
-	    [<ore:ingotBronze>, <pyrotech:stash>, <ore:ingotBronze>]])
+	    [<pyrotech:material:5>, <pyrotech:stash>, <pyrotech:material:5>]])
     .setFluid(<liquid:red_t2> * 1000)
     .addTool(<ore:artisansHammer>, 75)
     .addOutput(<artisanworkstumps:workstump_engineer>)
@@ -40,9 +40,9 @@ RecipeBuilder.get("basic")
 
 RecipeBuilder.get("basic")
     .setShaped([
-	    [<ore:plateIron>, <ore:blockIron>, <ore:plateIron>],
-	    [<ore:barsIron>, <pyrotech:worktable>, <ore:barsIron>],
-	    [<ore:barsIron>, <pyrotech:stash>, <ore:barsIron>]])
+	    [<ore:ingotIron>, <ore:blockIron>, <ore:ingotIron>],
+	    [<ore:nuggetIron>, <pyrotech:worktable>, <ore:nuggetIron>],
+	    [<ore:nuggetIron>, <pyrotech:stash>, <ore:nuggetIron>]])
     .setFluid(<liquid:water>*1000)
     .addTool(<ore:artisansHammer>, 75)
     .addOutput(<artisanworkstumps:workstump_blacksmith>)
@@ -80,19 +80,10 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
   .setShaped([
     [<pyrotech:material:20>, <pyrotech:material:20>, <pyrotech:material:20>],
-    [<pyrotech:material:20>, <ore:ingotIron>, <pyrotech:material:20>],
+    [<pyrotech:material:20>, <ore:nuggetIron>, <pyrotech:material:20>],
     [<pyrotech:material:20>, <pyrotech:material:20>, <pyrotech:material:20>]])
-  .addTool(<ore:artisansFramingHammer>, 30)
+  .addTool(<ore:artisansFramingHammer>, 20)
   .addOutput(<minecraft:chest>)
-  .create();
-
-RecipeBuilder.get("basic")
-  .setShaped([
-    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-    [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>],
-    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]])
-  .addTool(<ore:artisansFramingHammer>, 15)
-  .addOutput(<pyrotech:crate> * 2)
   .create();
 
 RecipeBuilder.get("basic")

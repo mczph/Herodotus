@@ -13,6 +13,9 @@ if(!isInvalid){
 rAllPyroAnvil(<ore:pieceCoal>.materialPart);
 rAllPyroAnvil(<minecraft:coal>);
 rAllPyroAnvil(<minecraft:stone_slab:*>);
+rAllPyroAnvil(<minecraft:iron_ingot>);
+rAllPyroAnvil(<minecraft:gold_ingot>);
+rAllPyroAnvil(<minecraft:iron_nugget>);
 
 //Add
 allPyroAnvil("blue_square", <ore:rockLead>.materialPart, <ore:squareBlue>, 6, "hammer");
@@ -29,5 +32,5 @@ allPyroAnvil("tin", <ore:dustSmallTin>.materialPart, <ore:shardTin>, 6, "hammer"
 
 allPyroAnvil("coal_block", <ore:pieceCoal>.materialPart*16, <ore:blockCoal>, 8, "hammer");
 
-IroncladAnvil.addRecipe("i_break_red_square", <ore:rockIron>.materialPart, <ore:squareRed>, 8, "hammer");
+allPyroAnvil("iron_shard_from_alloy", <pyrotech:material:19> * 8, <ore:ingotConstructionAlloy>, 8, "pickaxe");
 }

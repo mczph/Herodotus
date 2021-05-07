@@ -1,0 +1,6 @@
+{
+	title: "{herodotus.quests.c9f1480d.title}",
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: ""
+}

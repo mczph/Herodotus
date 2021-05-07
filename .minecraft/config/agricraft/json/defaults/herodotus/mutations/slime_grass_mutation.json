@@ -1,7 +1,7 @@
 {
   "path": "herodotus/mutations/slime_grass_mutation.json",
   "enabled": true,
-  "chance": 0.6,
+  "chance": 0.8,
   "child": "herodotus_slime_grass",
   "parent1": "vanilla:carrot_plant",
   "parent2": "vanilla:potato_plant"

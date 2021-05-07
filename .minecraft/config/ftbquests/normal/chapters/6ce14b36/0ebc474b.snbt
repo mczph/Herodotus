@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	text: [
+		"{herodotus.quests.0ebc474b.text.1}",
+		"{herodotus.quests.0ebc474b.text.2}",
+		"{herodotus.quests.0ebc474b.text.3}",
+		"{herodotus.quests.0ebc474b.text.4}",
+		"{herodotus.quests.0ebc474b.text.5}"
+	],
+	dependencies: [
+		"752fcfc3",
+		"790b4ffd"
+	],
+	tasks: [{
+		uid: "dc5870a6",
+		type: "item",
+		items: [{
+			item: "minecraft:stone"
+		}]
+	}]
+}

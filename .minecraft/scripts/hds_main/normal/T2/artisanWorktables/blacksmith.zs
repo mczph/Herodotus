@@ -34,7 +34,14 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<magneticraft:multiblock_parts>)
   .create();
 
-// TODO: <magneticraft:multiblock_parts:1> recipes (electric)
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:plasticWhite>, <ore:crystalLithium>, <ore:plasticWhite>],
+    [<ore:plasticWhite>, <ore:crystalLithium>, <ore:plasticWhite>],
+    [<ore:plasticWhite>, <ore:crystalLithium>, <ore:plasticWhite>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 200)
+  .addOutput(<magneticraft:multiblock_parts:1>)
+  .create();
 
 RecipeBuilder.get("blacksmith")
   .setShaped([
@@ -42,7 +49,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:ingotIron>, null, <ore:ingotIron>],
     [<ore:lightPlateIron>, <ore:ingotIron>, <ore:lightPlateIron>]])
   .addTool(<contenttweaker:hot_air_solderer>, 60)
-  .addOutput(<magneticraft:multiblock_parts:5> * 8)
+  .addOutput(<magneticraft:multiblock_parts:5> * 12)
   .create();
 
 RecipeBuilder.get("blacksmith")
@@ -51,7 +58,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:lightPlateIron>, <pyrotech:refractory_brick_block>, <ore:lightPlateIron>],
     [<ore:ingotLead>, <ore:plateLead>, <ore:ingotLead>]])
   .addTool(<contenttweaker:hot_air_solderer>, 60)
-  .addOutput(<magneticraft:multiblock_column> * 4)
+  .addOutput(<magneticraft:multiblock_column> * 6)
   .create();
 
 RecipeBuilder.get("blacksmith")

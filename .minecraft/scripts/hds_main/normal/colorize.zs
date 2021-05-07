@@ -13,12 +13,15 @@ import mods.pyrotech.IroncladAnvil;
 import mods.pyrotech.BrickCrucible;
 import mods.pyrotech.BrickKiln;
 import mods.tconstruct.Casting;
-import mods.prodigytech.rotarygrinder;
+import mods.tconstruct.Melting;
 import mods.pneumaticcraft.pressurechamber;
+import mods.factorytech.Grindstone;
+import mods.modularmachinery.RecipeBuilder as MMRecipeBuilder;
 import scripts.grassUtils.StringHelper;
 import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
 import scripts.hds_lib.crtlib;
 import scripts.hds_main.utils.modloader.isInvalid;
+import scripts.hds_main.utils.globalGrinder.addGrinderRecipe;
 
 
 function getColorEssences(color as string, tier as int) as ILiquidStack {
@@ -67,10 +70,21 @@ for color in crtlib.colors {
 
     SoakingPot.addRecipe("dye_t2_" ~ color, clump.materialPart, fluidTier1*500, crushedOre, true, 20*20);
     BrickCrucible.addRecipe("dye_t2_melt_" ~ color, fluidTier2*500, clump, 60*20);
-    rotarygrinder.addRecipe(crushedOre, dust.materialPart);
+    Melting.addRecipe(fluidTier2 * 500, clump, 420);
+    addGrinderRecipe(poorOre, crushedOre);
+    addGrinderRecipe(ore, crushedOre * 2);
+    addGrinderRecipe(denseOre, crushedOre * 4);
+    addGrinderRecipe(crushedOre, dust);
 
     // remove other dust crafting
     mods.astralsorcery.Grindstone.removeRecipe(dust.materialPart);
+    Grindstone.removeRecipe(dust.materialPart);
+
+    MMRecipeBuilder.newBuilder("steamer_" ~ color, "steamer", 100)
+        .addItemInput(dust, 2)
+        .addFluidInput(<liquid:steam> * 500)
+        .addItemOutput(clump.materialPart)
+        .build();
     
     for shape in crtlib.shapes {
         var output as IItemStack = oreDict.get(shape ~ od).materialPart;
@@ -87,8 +101,8 @@ for color in crtlib.colors {
             .addOutput(input3.materialPart)
             .create();
         BrickKiln.addRecipe(shape ~ "_kiln_" ~ color, output, input3, 2.5 * 60 * 20);
-        pressurechamber.addRecipe([input4, dust, <contenttweaker:primordium_shard>], 0.0 - 0.5, [output2, <thermalfoundation:material:833>]);
-        pressurechamber.addRecipe([input4 * 48, dust.materialPart * 48, <prodigytech:primordium>], 0.0 - 0.5, [output2 * 48, <thermalfoundation:material:833> * 48]);
+        pressurechamber.addRecipe([input4, dust, <contenttweaker:primordium_shard>], 0.0 - 0.15, [output2, <thermalfoundation:material:833>]);
+        pressurechamber.addRecipe([input4 * 32, dust.materialPart * 32, <prodigytech:primordium>], 0.0 - 0.2, [output2 * 32, <thermalfoundation:material:833> * 32]);
     }
 }
 }
