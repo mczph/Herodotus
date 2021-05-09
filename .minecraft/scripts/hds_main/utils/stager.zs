@@ -17,12 +17,13 @@ val stagedModList = [
 ] as string[];
 
 for mdfk in stagedModList{
-    if(loadedMods.contains(mdfk)){
+    //if(loadedMods.contains(mdfk)){
         recipes.removeByMod(mdfk);
         for mdfks in loadedMods[mdfk].items{
+            print(mdfks);
             mdfks.addTooltip(game.localize("herodotus.utils.currentlybanned"));
             JEI.removeAndHide(mdfks, false);
             JEI.addDescription(mdfks, game.localize("herodotus.utils.currentlybanned"));
         }
-    }
+    //}
 }
