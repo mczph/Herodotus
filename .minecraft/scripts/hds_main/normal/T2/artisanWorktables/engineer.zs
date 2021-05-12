@@ -284,7 +284,7 @@ RecipeBuilder.get("engineer")
     [null, <ore:plasticWhite>, null],
     [<ore:plasticWhite>, <ore:ingotIronCompressed>, <ore:plasticWhite>],
     [null, <ore:plasticWhite>, null]])
-  .addTool(<ore:artisansSpanner>, 1)
+  .addTool(<ore:artisansSpanner>, 80)
   .addOutput(<pneumaticcraft:pressure_gauge>)
   .create();
 
@@ -300,7 +300,7 @@ RecipeBuilder.get("engineer")
     [<factorytech:ingot:5>, <factorytech:machinepart:30>, <factorytech:ingot:5>],
     [<factorytech:ingot:5>, <factorytech:intermediate:4>, <factorytech:ingot:5>],
     [<pyrotech:stone_bricks>, null, <pyrotech:stone_bricks>]])
-  .addTool(<ore:artisansSpanner>, 1)
+  .addTool(<ore:artisansSpanner>, 80)
   .addOutput(<factorytech:metalcutter>)
   .create();
 
