@@ -45,7 +45,11 @@ val removeByOutput as IItemStack[] = [
     <pneumaticcraft:uv_light_box>,
     <actuallyadditions:item_misc:4>,
     <factorytech:autominer>,
-    <prodigytech:fuel_processor>
+    <prodigytech:fuel_processor>,
+    <pneumaticcraft:printed_circuit_board>,
+    <pneumaticcraft:pressure_gauge>,
+    <factorytech:metalcutter>,
+    <factorytech:magnetizer>
     
 ];
 

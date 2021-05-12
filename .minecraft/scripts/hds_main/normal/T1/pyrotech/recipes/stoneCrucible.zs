@@ -15,6 +15,8 @@ allPyroCrucible("molten_copper", <fluid:copper>*144, <ore:dustCopper>, 20*20);
 allPyroCrucible("molten_tin", <fluid:tin>*144, <ore:dustTin>, 20*20);
 allPyroCrucible("molten_copper_ingot", <fluid:copper>*144, <ore:ingotCopper>, 30*20);
 allPyroCrucible("molten_tin_ingot", <fluid:tin>*144, <ore:ingotTin>, 30*20);
+allPyroCrucible("molten_copper_plate", <fluid:copper>*144, <ore:plateCopper>, 30*20);
+allPyroCrucible("molten_tin_plate", <fluid:tin>*144, <ore:plateTin>, 30*20);
 
 allPyroCrucible("molten_clay", <fluid:clay>*144, <pyrotech:material:4>, 10*20);
 allPyroCrucible("molten_brass", <fluid:alubrass> * 144, <contenttweaker:brass_dust>, 20 * 20);
@@ -24,4 +26,5 @@ allPyroCrucible("molten_glim", <fluid:glimmerite> * 125, <ore:dustGlimmerite>, 1
 
 allPyroCrucible("molten_iron", <fluid:iron>*144, <ore:dustIron>, 20*20);
 allPyroCrucible("molten_iron_ingot", <fluid:iron>*144, <ore:ingotIron>, 30*20);
+allPyroCrucible("molten_iron_plate", <fluid:iron>*144, <ore:plateIron>, 30*20);
 }

@@ -17,6 +17,7 @@ import mods.pyrotech.IroncladAnvil;
 import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.factorytech.DrillGrinder;
+import mods.factorytech.Crucible;
 import mods.magneticraft.HydraulicPress;
 import mods.magneticraft.CrushingTable;
 
@@ -109,7 +110,10 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
 
         // factory tech
         DrillGrinder.addRecipe(dust.materialPart, ingot, false);
-
+        if (!isNull(molten)) {
+            Crucible.addRecipe(molten * 144, ingot, false);
+            Crucible.addRecipe(molten * 144, plate, false);
+        }
 
     } else if (item.ores[0].name.startsWith("cluster")) {
         val name as string = item.ores[0].name.substring("cluster".length);

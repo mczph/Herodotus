@@ -23,6 +23,7 @@ tile.contenttweaker.starlight_frame.name=Starlight Frame
 tile.contenttweaker.yellow_spherical_block.name=Block of Yellow Spherical Crystal
 tile.contenttweaker.static_molten_plastic.name=Static Molten Plastic Block
 tile.contenttweaker.raw_iron_block.name=Block of Raw Iron
+tile.contenttweaker.infinite_water_upgrade_module.name=Infinite Water Upgrade Module
 
 fluid.molten_gel=Molten Gel
 fluid.limewater=Lime Water
@@ -31,6 +32,9 @@ fluid.raw_iron_fluid=Molten Raw Iron
 fluid.square_plastic=Plastic Mixed Molten Square
 fluid.rhombus_plastic=Plastic Mixed Molten Rhombus
 fluid.spherical_plastic=Plastic Mixed Molten Spherical
+fluid.molten_river_copper=Molten River Copper
+fluid.molten_river_iron=Molten River Iron
+fluid.molten_river_nickel=Molten River Nickel
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus

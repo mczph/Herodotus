@@ -167,5 +167,6 @@ static plainItemIDs as string[] = [
 
 static plainBlockIDs as string[] = [
     "starlight_frame",
-    "punched_stone"
+    "punched_stone",
+    "infinite_water_upgrade_module"
 ];

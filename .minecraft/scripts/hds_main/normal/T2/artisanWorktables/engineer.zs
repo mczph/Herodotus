@@ -180,7 +180,7 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<pneumaticcraft:turbine_rotor>, <pneumaticcraft:pressure_gauge>, <pneumaticcraft:turbine_rotor>],
+    [<pneumaticcraft:pressure_gauge>, <ore:gearIron>, <pneumaticcraft:pressure_gauge>],
     [<pneumaticcraft:pressure_tube>, <factorytech:intermediate:4>, <pneumaticcraft:pressure_tube>],
     [<astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>]])
   .addTool(<contenttweaker:hot_air_solderer>, 1000)
@@ -278,6 +278,33 @@ RecipeBuilder.get("engineer")
   .addTool(<contenttweaker:hot_air_solderer>, 750)
   .addOutput(<pneumaticcraft:advanced_liquid_compressor>)
   .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <ore:plasticWhite>, null],
+    [<ore:plasticWhite>, <ore:ingotIronCompressed>, <ore:plasticWhite>],
+    [null, <ore:plasticWhite>, null]])
+  .addTool(<ore:artisansSpanner>, 1)
+  .addOutput(<pneumaticcraft:pressure_gauge>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShapeless([<pneumaticcraft:unassembled_pcb>, <pneumaticcraft:capacitor>, <pneumaticcraft:capacitor>, <pneumaticcraft:transistor>, <pneumaticcraft:transistor>])
+  .addTool(<contenttweaker:hot_air_solderer>, 50)
+  .addOutput(<pneumaticcraft:printed_circuit_board>)
+  .setFluid(<liquid:tin> * 144)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<factorytech:ingot:5>, <factorytech:machinepart:30>, <factorytech:ingot:5>],
+    [<factorytech:ingot:5>, <factorytech:intermediate:4>, <factorytech:ingot:5>],
+    [<pyrotech:stone_bricks>, null, <pyrotech:stone_bricks>]])
+  .addTool(<ore:artisansSpanner>, 1)
+  .addOutput(<factorytech:metalcutter>)
+  .create();
+
+
 
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
 for i in 0 .. 15 {

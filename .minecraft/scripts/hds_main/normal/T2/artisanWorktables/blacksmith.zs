@@ -69,4 +69,15 @@ RecipeBuilder.get("blacksmith")
   .addTool(<ore:artisansFile>, 20)
   .addOutput(<factorytech:machinepart:51> * 3)
   .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>],
+    [<ore:heavyPlateLead>, <factorytech:intermediate:4>, <ore:heavyPlateLead>],
+    [null, <magneticraft:multiblock_parts:4>, null]])
+  .addTool(<ore:artisansHammer>, 120)
+  .setFluid(<liquid:light_oil> * 1000)
+  .addOutput(<hdsutils:oil_aiot:800>)
+  .create();
+
 }

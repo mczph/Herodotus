@@ -21,3 +21,6 @@ CotUtils.addFluid("spherical_plastic", 0xdddddd, 1000, 1000, 1000, 15, true);
 CotUtils.addFluid("square_plastic", 0xdddddd, 1000, 1000, 1000, 15, true);
 CotUtils.addFluid("lively_water", 0x66ccff, 300, 1000, 1000, 0, false);
 CotUtils.addFluid("molten_raw_iron", 0xfcb89d, 1000, 1000, 1000, 14, true);
+CotUtils.addFluid("molten_river_nickel", 0x7d7d7d, 1000, 1000, 1000, 14, true);
+CotUtils.addFluid("molten_river_iron", 0xc0c0c0, 1000, 1000, 1000, 14, true);
+CotUtils.addFluid("molten_river_copper", 0x845200, 1000, 1000, 1000, 14, true);
