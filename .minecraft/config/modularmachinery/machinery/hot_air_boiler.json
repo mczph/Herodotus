@@ -2,6 +2,22 @@
     "registryname": "hot_air_boiler",
     "localizedname":"placeholder",
     "color": "535353",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:infinite_water_upgrade_module",
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "description": "modularmachinery.modifier.infinite_water",
+            "modifier": {
+                "io": "input",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 0,
+                "affectChance": true
+            }
+        }
+    ],
     "parts": [
         {
             "x": -1,
