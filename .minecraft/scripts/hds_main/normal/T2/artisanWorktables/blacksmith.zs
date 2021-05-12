@@ -80,4 +80,13 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<hdsutils:oil_aiot:800>)
   .create();
 
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:obsidian>, null, <ore:obsidian>],
+    [<ore:obsidian>, <minecraft:cauldron>, <ore:obsidian>],
+    [<ore:obsidian>, <ore:blockNickel>, <ore:obsidian>]])
+  .addTool(<ore:artisansHammer>, 80)
+  .addOutput(<factorytech:crucible>)
+  .create();
+
 }
