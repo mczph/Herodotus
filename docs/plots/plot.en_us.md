@@ -14,7 +14,7 @@
 
 Voices, countless voices were whispering in my head.
 
-I pretended I didn't hear them, then open opened my eyes.
+I pretended I didn't hear them, then opened my eyes.
 
 It was like I was woken up from a giant dream, I pinched myself hard on my left arm.
 
@@ -22,7 +22,7 @@ But then the pain that came, was so real.
 
 It was real, I was not dreaming.
 
-But the voice in my head, was still springing in my mind.
+But those voices, was still springing in my head.
 
 The world was born from the hands of God. Nüwa made humans out of clay.
 
@@ -30,9 +30,9 @@ Herodotus recounts the wonderfully obscure story of the world. Shakespeare portr
 
 Franklin caught lightning with a kite. Maxwell captured light waves with equations.
 
-ENIAC tubes whisper. The super-dimensional computer's air-cooled system rumbles and roars -
+ENIAC tubes whispering. The super-dimensional computer's air-cooled system rumbles and roars ---
 
-These people, events, or rather, concepts, their connotations and extrapolations
+These characters, events, or rather concepts, and their connotations and extrapolations.
 
 They were once so real to me, but now I only feel their strangeness and absurdity.
 
@@ -42,23 +42,22 @@ Beneath the deep black dome covered with stars, there was a field of light and c
 
 A straight river flowed past me, softly emitting the sound of water.
 
-I walked towards the riverbank and picked up a stone.
+I walked towards the riverbank, picked up a stone.
 
-I found that it had a perfect symmetrical geometric form, shining with a dazzling and attractive light.
+I found that it had a perfect symmetrical geometric body, shining with a dazzling, attractive light.
 
-I casually tossed the stone into the river, only to see it change its color and shape to a geometric form of another color.
+I casually tossed the stone into the river, then saw it changed itself to a geometric object of another color
+
 
 It was crazy reality, so real it was crazy. I said to myself.
 
-I suddenly wondered about the world around me.
+I suddenly wondered about the world around me, and once again pinched myself hard on the left arm.
 
-I once again pinched myself hard on my left arm.
-
-The pain that came from my left arm was sore and real.
+The pain came from the left arm, makes me feel distinctly real.
 
 It was real, I wasn't dreaming.
 
-The rumbles coming from my stomach seemed to emphasize this indisputable fact, once again.
+The rumbles that coming from my stomach, seemed to emphasize this indisputable fact once again.
 
 I was reminded of the philosopher's three ultimate questions.
 
