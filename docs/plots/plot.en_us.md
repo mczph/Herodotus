@@ -14,11 +14,11 @@
 
 Voices, countless voices were whispering in my head.
 
-I pretended I didn't hear them, then opened my eyes.
+I pretended not to hear them, then opened my eyes.
 
-It was like I was woken up from a giant dream, I pinched myself hard on my left arm.
+It felt like woken away from a deep illusion,  I pinched myself hard on my left arm.
 
-But then the pain that came, was so real.
+So real was the pain came after it.
 
 It was real, I was not dreaming.
 
@@ -46,12 +46,11 @@ I walked towards the riverbank, picked up a stone.
 
 I found that it had a perfect symmetrical geometric body, shining with a dazzling, attractive light.
 
-I casually tossed the stone into the river, then saw it changed itself to a geometric object of another color
+I casually tossed the stone into the river, then saw it changed itself to a geometric object of another color.
 
+Insane reality, insanely real. I said to myself.
 
-It was crazy reality, so real it was crazy. I said to myself.
-
-I suddenly wondered about the world around me, and once again pinched myself hard on the left arm.
+With an abrupt incredulity to the world around, I once again pinched.
 
 The pain came from the left arm, makes me feel distinctly real.
 
@@ -67,4 +66,4 @@ I was reminded of the philosopher's three ultimate questions.
 
 "What's for lunch today?"
 
-Perhaps after dinning, I'll give a little think about where I am going next.
+It's sure to give it a little think about where am I going, perhaps, but not until the lunch is consumed.
