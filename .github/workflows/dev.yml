@@ -41,6 +41,9 @@ jobs:
 
       - uses: actions/checkout@v2
 
+      - name: Close Debug Mode
+        run: python runners/close_debug.py
+
       - name: Run version.py
         run: python runners/version.py
 
