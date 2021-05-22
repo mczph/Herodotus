@@ -1,5 +1,5 @@
 {
-	title: "铁锭",
+	title: "{herodotus.quests.e6605079.title}",
 	x: 8.0d,
 	y: -2.0d,
 	dependencies: [
