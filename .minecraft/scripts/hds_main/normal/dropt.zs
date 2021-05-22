@@ -6,7 +6,6 @@ import scripts.grassUtils.StringHelper;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import scripts.hds_main.utils.modloader.isInvalid;
-import scripts.hds_lib.droptlib.geometryOreDropt;
 
 if(!isInvalid){
 
