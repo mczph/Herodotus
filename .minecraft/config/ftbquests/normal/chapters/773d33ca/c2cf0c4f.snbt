@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: 10.0d,
+	dependencies: [
+		"82f27700"
+	],
+	tasks: [{
+		uid: "1ed2a9d8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:starlight_frame"
+		}]
+	}]
+}

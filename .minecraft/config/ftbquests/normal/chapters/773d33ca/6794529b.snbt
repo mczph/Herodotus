@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 8.0d,
+	dependencies: [
+		"a5123ee1"
+	],
+	tasks: [{
+		uid: "a4ca3a0a",
+		type: "item",
+		items: [{
+			item: "hdsutils:refined_bottle"
+		}]
+	}]
+}

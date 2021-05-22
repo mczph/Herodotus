@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"0a4b2176"
+	],
+	tasks: [{
+		uid: "b62e31ab",
+		type: "item",
+		items: [{
+			item: "contenttweaker:brass_dust"
+		}]
+	}]
+}

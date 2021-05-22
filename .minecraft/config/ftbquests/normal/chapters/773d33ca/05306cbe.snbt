@@ -1,0 +1,14 @@
+{
+	x: 18.0d,
+	y: 6.0d,
+	dependencies: [
+		"ebd2ed4e"
+	],
+	tasks: [{
+		uid: "322840cb",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_crystal_seed"
+		}]
+	}]
+}

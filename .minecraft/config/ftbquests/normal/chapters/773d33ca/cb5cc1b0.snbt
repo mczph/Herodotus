@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"d63c6bcd"
+	],
+	tasks: [{
+		uid: "d8de9bfd",
+		type: "item",
+		items: [{
+			item: "pyrotech:wither_forge"
+		}]
+	}]
+}

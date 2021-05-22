@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"67e4a837"
+	],
+	tasks: [{
+		uid: "6eebe29d",
+		type: "item",
+		items: [{
+			item: "artisanworkstumps:stone_basin"
+		}]
+	}]
+}
