@@ -20,24 +20,6 @@ Dropt.list("remove_from_grass")
   );
 
 //Add
-// TODO: remove these, since we have our own ores in hdsutils
-geometryOreDropt("rhombus",
-    [StringHelper.getItemName(<ore:poorOreRhombus>.materialPart),
-     StringHelper.getItemName(<ore:oreRhombus>.materialPart),
-     StringHelper.getItemName(<ore:denseOreRhombus>.materialPart)],
-    <contenttweaker:rhombus>);
-geometryOreDropt("square",
-    [StringHelper.getItemName(<ore:poorOreSquare>.materialPart),
-     StringHelper.getItemName(<ore:oreSquare>.materialPart),
-     StringHelper.getItemName(<ore:denseOreSquare>.materialPart)],
-    <contenttweaker:square>);
-geometryOreDropt("spherical",
-    [StringHelper.getItemName(<ore:poorOreSpherical>.materialPart),
-     StringHelper.getItemName(<ore:oreSpherical>.materialPart),
-     StringHelper.getItemName(<ore:denseOreSpherical>.materialPart)],
-    <contenttweaker:spherical>);
-}
-
 Dropt.list("glass")
     .add(Dropt.rule()
         .matchBlocks(["minecraft:glass", "minecraft:stained_glass"])
@@ -47,3 +29,4 @@ Dropt.list("glass")
             .items([<pyrotech:material:32>], Dropt.range(1, 4))
         )
     );
+}
