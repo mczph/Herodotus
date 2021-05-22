@@ -1,15 +1,28 @@
 {
-	x: 6.0d,
-	y: 0.0d,
+	title: "铁锭",
+	x: 8.0d,
+	y: -2.0d,
 	dependencies: [
-		"cb5cc1b0",
-		"92e6911f"
+		"92e6911f",
+		"d63c6bcd",
+		"68247582"
 	],
 	tasks: [{
 		uid: "564bcfbb",
 		type: "item",
 		items: [{
-			item: "minecraft:iron_ingot"
+			ForgeCaps: {
+				Parent: {
+					data: "ingotIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotIron"
+				}
+			}
 		}]
 	}]
 }

@@ -1,14 +1,14 @@
 {
-	x: 2.0d,
-	y: 8.0d,
+	x: 4.0d,
+	y: -4.0d,
 	dependencies: [
-		"4e6291d1"
+		"613393ba"
 	],
 	tasks: [{
-		uid: "da037423",
+		uid: "0562c274",
 		type: "item",
 		items: [{
-			item: "contenttweaker:material_part 1 22"
+			item: "minecraft:redstone"
 		}]
 	}]
 }

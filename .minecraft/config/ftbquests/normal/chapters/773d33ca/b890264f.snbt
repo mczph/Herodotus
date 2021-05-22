@@ -1,6 +1,6 @@
 {
-	x: 6.0d,
-	y: 6.0d,
+	x: 10.0d,
+	y: -6.0d,
 	dependencies: [
 		"6efeae9d"
 	],
@@ -9,13 +9,6 @@
 		type: "item",
 		items: [{
 			item: "contenttweaker:material_part 1 135"
-		}]
-	},
-	{
-		uid: "81f20287",
-		type: "item",
-		items: [{
-			item: "contenttweaker:material_part 1 408"
 		}]
 	}]
 }

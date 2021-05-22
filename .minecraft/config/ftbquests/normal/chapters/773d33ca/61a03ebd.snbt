@@ -1,8 +1,10 @@
 {
-	x: 4.0d,
-	y: 4.0d,
+	title: "铸模",
+	x: 6.0d,
+	y: 2.0d,
 	dependencies: [
-		"756661d2"
+		"756661d2",
+		"0bf8a535"
 	],
 	tasks: [{
 		uid: "e3e705c0",

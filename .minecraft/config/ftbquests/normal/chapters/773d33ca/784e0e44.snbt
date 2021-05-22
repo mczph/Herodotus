@@ -1,0 +1,14 @@
+{
+	x: 18.0d,
+	y: -4.0d,
+	dependencies: [
+		"34bb5b61"
+	],
+	tasks: [{
+		uid: "f32cae09",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_aeroheater"
+		}]
+	}]
+}

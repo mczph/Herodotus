@@ -1,6 +1,6 @@
 {
-	x: 8.0d,
-	y: 6.0d,
+	x: 10.0d,
+	y: -4.0d,
 	dependencies: [
 		"b890264f"
 	],
@@ -11,7 +11,8 @@
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "hdsutils:tiny_starlight_storage"
+			id: "hdsutils:tiny_starlight_storage",
+			Damage: 1s
 		}],
 		ignore_nbt: 1b
 	}]

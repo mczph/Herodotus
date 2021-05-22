@@ -7,7 +7,6 @@
 		"{herodotus.quests.52339a93.text.2}"
 	],
 	dependencies: [
-		"2bf2a19a",
 		"d2e3da38"
 	],
 	size: 2.0d,

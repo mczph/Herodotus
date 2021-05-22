@@ -1,14 +1,14 @@
 {
 	x: 22.0d,
-	y: -6.0d,
+	y: -4.0d,
 	dependencies: [
-		"a2125ea4"
+		"796438e7"
 	],
 	tasks: [{
-		uid: "e80f7f44",
+		uid: "e835f822",
 		type: "item",
 		items: [{
-			item: "botania:altar"
+			item: "minecraft:quartz"
 		}]
 	}]
 }

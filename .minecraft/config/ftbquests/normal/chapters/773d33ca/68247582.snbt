@@ -1,14 +1,14 @@
 {
 	x: 6.0d,
-	y: -6.0d,
+	y: -4.0d,
 	dependencies: [
-		"e5f270ad"
+		"82f27700"
 	],
 	tasks: [{
-		uid: "54cb424a",
+		uid: "cc6d8b9a",
 		type: "item",
 		items: [{
-			item: "astralsorcery:blockmarble"
+			item: "pyrotech:anvil_iron_plated"
 		}]
 	}]
 }

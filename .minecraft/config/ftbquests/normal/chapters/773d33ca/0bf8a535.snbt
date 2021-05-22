@@ -2,13 +2,13 @@
 	x: 4.0d,
 	y: 0.0d,
 	dependencies: [
-		"d63c6bcd"
+		"50535306"
 	],
 	tasks: [{
-		uid: "d8de9bfd",
+		uid: "74e8b00e",
 		type: "item",
 		items: [{
-			item: "pyrotech:wither_forge"
+			item: "tconstruct:casting"
 		}]
 	}]
 }

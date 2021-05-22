@@ -1,14 +1,14 @@
 {
-	x: 18.0d,
+	x: 14.0d,
 	y: -8.0d,
 	dependencies: [
-		"94b8a883"
+		"4ae1e02b"
 	],
 	tasks: [{
-		uid: "9d0989d1",
+		uid: "3babfaf5",
 		type: "item",
 		items: [{
-			item: "prodigytech:food_purifier"
+			item: "minecraft:glowstone_dust"
 		}]
 	}]
 }
