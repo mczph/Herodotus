@@ -27,10 +27,8 @@ RecipeUtils.recipeTweak(true, <pyrotech:compacting_bin>,[
     [<pyrotech:material:12>, <ore:slabWood>, <pyrotech:material:12>]
 ]);
 
-RecipeUtils.recipeTweak(true, <pyrotech:crude_pickaxe>,[
-    [<tconstruct:pick_head>.withTag({Material: "flint"})], 
-    [<pyrotech:material:12>], 
-    [<ore:stickWood>]
+RecipeUtils.recipeTweak(false, <pyrotech:crude_pickaxe>,[
+    [<tconstruct:pick_head>.withTag({Material: "flint"}), <pyrotech:material:12>, <ore:stickWood>]
 ]);
 
 RecipeUtils.recipeTweak(true, <artisanworkstumps:workstump_basic>,[

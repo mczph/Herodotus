@@ -24,7 +24,7 @@ RecipeBuilder.get("basic")
 	    [<ore:blockWool>, <ore:blockGlass>, <ore:blockWool>],
 	    [<ore:plankWood>, <pyrotech:worktable>, <ore:plankWood>],
 	    [<ore:logWood>, <pyrotech:stash>, <ore:logWood>]])
-    .addTool(<ore:artisansLens>, 150)
+    .addTool(<ore:artisansLens>, 60)
     .addOutput(<artisanworkstumps:workstump_jeweler>)
     .create();
 

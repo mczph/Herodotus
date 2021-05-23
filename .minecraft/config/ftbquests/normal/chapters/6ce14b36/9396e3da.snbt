@@ -10,18 +10,6 @@
 		"00ada03a"
 	],
 	tasks: [{
-		uid: "ac66bf0f",
-		type: "item",
-		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "pyrotech:crude_axe"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
 		uid: "09812b62",
 		type: "item",
 		items: [{

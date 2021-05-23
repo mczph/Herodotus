@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	dependencies: [
+		"e6605079"
+	],
+	tasks: [{
+		uid: "650cfb45",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}]
+}
