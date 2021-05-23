@@ -1,0 +1,14 @@
+{
+	x: 7.25d,
+	y: -0.75d,
+	dependencies: [
+		"b90c7cf3"
+	],
+	tasks: [{
+		uid: "eb664155",
+		type: "item",
+		items: [{
+			item: "contenttweaker:infinite_water_upgrade_module"
+		}]
+	}]
+}

@@ -1,21 +1,17 @@
 {
-	x: 14.75d,
-	y: -0.75d,
+	x: 16.25d,
+	y: 3.5d,
 	dependencies: [
-		"e6e5a9bb"
+		"e4961889"
 	],
 	tasks: [{
-		uid: "a27afd26",
+		uid: "1b3dc891",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "forge:bucketfilled",
-			tag: {
-				FluidName: "lively_water",
-				Amount: 1000
-			}
+			id: "hdsutils:oil_aiot"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
