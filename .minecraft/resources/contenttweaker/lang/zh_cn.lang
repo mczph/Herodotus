@@ -27,6 +27,7 @@ tile.contenttweaker.yellow_spherical_block.name=黄色球形晶体块
 tile.contenttweaker.static_molten_plastic.name=静态熔融塑料块
 tile.contenttweaker.raw_iron_block.name=粗铁块
 tile.contenttweaker.infinite_water_upgrade_module.name=无限水升级组件
+tile.contenttweaker.punched_stone.name=打孔石材
 
 fluid.molten_gel=熔融凝胶质
 fluid.limewater=石灰水
