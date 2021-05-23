@@ -265,7 +265,7 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plasticRed>, <ore:plasticRed>, <ore:plasticRed>],
     [<ore:plasticRed>, <pneumaticcraft:air_compressor>, <ore:gearIron>],
-    [<ore:plasticRed>, <thermalfoundation:material:512>, <modularmachinery:blockfluidinputhatch:1>]])
+    [<ore:plasticRed>, <ore:blockRedstone>, <modularmachinery:blockfluidinputhatch:1>]])
   .addTool(<contenttweaker:hot_air_solderer>, 750)
   .addOutput(<pneumaticcraft:liquid_compressor>)
   .create();
@@ -274,7 +274,7 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plasticBlue>, <ore:plasticBlue>, <ore:plasticBlue>],
     [<ore:plasticBlue>, <pneumaticcraft:advanced_air_compressor>, <ore:gearInvar>],
-    [<ore:plasticBlue>, <thermalfoundation:material:512>, <modularmachinery:blockfluidinputhatch:1>]])
+    [<ore:plasticBlue>, <ore:blockRedstone>, <modularmachinery:blockfluidinputhatch:1>]])
   .addTool(<contenttweaker:hot_air_solderer>, 750)
   .addOutput(<pneumaticcraft:advanced_liquid_compressor>)
   .create();
