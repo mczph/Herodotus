@@ -304,6 +304,14 @@ RecipeBuilder.get("engineer")
   .addOutput(<factorytech:metalcutter>)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<pyrotech:material:20>, null, <pyrotech:material:20>],
+    [<factorytech:intermediate:4>, <factorytech:machinepart:51>, <factorytech:machinepart:51>],
+    [<pyrotech:material:20>, <magneticraft:multiblock_parts:4>, <pyrotech:material:20>]])
+  .addTool(<ore:artisansSpanner>, 75)
+  .addOutput(<factorytech:magnetizer>)
+  .create();
 
 
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
