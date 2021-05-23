@@ -4,9 +4,9 @@
 import scripts.grassUtils.CotUtils;
 
 //register
-CotUtils.addFluid("limewater", 0x858585, 1000, 1000, 1000, 0, false);
-CotUtils.addFluid("distilledwater", 0x43ECFB, 1000, 1000, 1000, 0, false);
-CotUtils.addFluid("molten_gel", 0xcdcdcd, 1000, 1000, 1000, 15, true);
+CotUtils.addFluid("limewater", 0x858585, 300, 1000, 1000, 0, false);
+CotUtils.addFluid("distilledwater", 0x43ECFB, 300, 1000, 1000, 0, false);
+CotUtils.addFluid("molten_gel", 0xcdcdcd, 350, 1000, 1000, 15, true);
 CotUtils.addFluid("rhombus_plastic", 0xdddddd, 1000, 1000, 1000, 15, true);
 CotUtils.addFluid("spherical_plastic", 0xdddddd, 1000, 1000, 1000, 15, true);
 CotUtils.addFluid("square_plastic", 0xdddddd, 1000, 1000, 1000, 15, true);
