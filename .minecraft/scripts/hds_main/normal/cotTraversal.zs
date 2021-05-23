@@ -20,6 +20,7 @@ import mods.factorytech.DrillGrinder;
 import mods.factorytech.Crucible;
 import mods.magneticraft.HydraulicPress;
 import mods.magneticraft.CrushingTable;
+import scripts.hds_main.utils.globalGrinder;
 
 import scripts.hds_main.utils.modloader.isInvalid;
 
@@ -68,6 +69,12 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         recipes.addShaped("tiny_dust_" ~ nameSnake, dustTiny.materialPart * 9, [[dust]]);
         recipes.addShaped("dust_from_small_" ~ nameSnake, dust.materialPart, createFull2(dustSmall));
         recipes.addShaped("dust_from_tiny_" ~ nameSnake, dust.materialPart, createFull3(dustTiny));
+
+        globalGrinder.addGrinderRecipe(ingot, dust.materialPart);
+        
+        if (!plate.empty) {
+            globalGrinder.addGrinderRecipe(plate, dust.materialPart);
+        }
 
         //tcon
         // comment these due to cast issue
