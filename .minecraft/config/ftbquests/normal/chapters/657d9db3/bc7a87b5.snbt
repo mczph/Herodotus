@@ -3,35 +3,73 @@
 	x: 5.25d,
 	y: 0.75d,
 	dependencies: [
-		"403cd748"
+		"1b1f72eb"
 	],
 	size: 1.5d,
 	tasks: [{
 		uid: "6c8afeee",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_6 1 10"
+			ForgeCaps: {
+				Parent: {
+					data: "oreBlue",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBlue"
+				}
+			}
 		}]
 	},
 	{
 		uid: "f0aef5cb",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_7 1 2"
+			ForgeCaps: {
+				Parent: {
+					data: "poorOreBlue",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any poorOreBlue"
+				}
+			}
 		}]
 	},
 	{
 		uid: "267cc120",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_2 1 4"
+			ForgeCaps: {
+				Parent: {
+					data: "denseOreBlue",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any denseOreBlue"
+				}
+			}
 		}]
 	},
 	{
-		uid: "ad4cf8fa",
+		uid: "201ae0db",
 		type: "item",
 		items: [{
-			item: "contenttweaker:spherical"
+			item: "contenttweaker:rhombus"
 		}]
+	}],
+	rewards: [{
+		uid: "5a573906",
+		type: "item",
+		item: "contenttweaker:material_part 1 50"
 	}]
 }

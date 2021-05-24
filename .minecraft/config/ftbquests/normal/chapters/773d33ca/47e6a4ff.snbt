@@ -1,11 +1,12 @@
 {
-	x: 30.0d,
-	y: 4.25d,
+	x: 4.0d,
+	y: -4.0d,
 	text: [
 		"{herodotus.quests.47e6a4ff.text.1}"
 	],
 	dependencies: [
-		"d4effb11"
+		"d63c6bcd",
+		"68247582"
 	],
 	optional: true,
 	tasks: [{

@@ -3,28 +3,61 @@
 	x: 3.0d,
 	y: 0.75d,
 	dependencies: [
-		"403cd748"
+		"1b1f72eb"
 	],
 	size: 1.5d,
 	tasks: [{
 		uid: "14c53a7d",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_8"
+			ForgeCaps: {
+				Parent: {
+					data: "oreYellow",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreYellow"
+				}
+			}
 		}]
 	},
 	{
 		uid: "e2bd485a",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_3 1 13"
+			ForgeCaps: {
+				Parent: {
+					data: "poorOreYellow",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any poorOreYellow"
+				}
+			}
 		}]
 	},
 	{
 		uid: "1c745b6e",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_7 1 9"
+			ForgeCaps: {
+				Parent: {
+					data: "denseOreYellow",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any denseOreYellow"
+				}
+			}
 		}]
 	},
 	{

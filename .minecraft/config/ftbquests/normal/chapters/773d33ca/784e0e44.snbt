@@ -1,4 +1,5 @@
 {
+	icon: "prodigytech:energion_aeroheater",
 	x: 18.0d,
 	y: -4.0d,
 	dependencies: [
@@ -9,6 +10,13 @@
 		type: "item",
 		items: [{
 			item: "prodigytech:energion_aeroheater"
+		}]
+	},
+	{
+		uid: "5a49f56b",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_dust"
 		}]
 	}]
 }

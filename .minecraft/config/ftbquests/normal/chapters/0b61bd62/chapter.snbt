@@ -1,7 +1,0 @@
-{
-	title: "{herodotus.quests.0b61bd62.title}",
-	icon: "prodigytech:energion_crystal_seed",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: "hexagon1"
-}

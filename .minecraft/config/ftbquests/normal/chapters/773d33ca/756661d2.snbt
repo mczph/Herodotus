@@ -10,5 +10,15 @@
 		items: [{
 			item: "contenttweaker:brass_dust"
 		}]
+	}],
+	rewards: [{
+		uid: "fac8142b",
+		type: "item",
+		item: "minecraft:brick"
+	},
+	{
+		uid: "7503911d",
+		type: "item",
+		item: "enderio:item_material 1 10"
 	}]
 }
