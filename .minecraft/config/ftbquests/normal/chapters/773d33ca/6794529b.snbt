@@ -2,7 +2,7 @@
 	x: 2.0d,
 	y: -6.0d,
 	text: [
-		"强化玻璃瓶可以存储小于一桶的任意数量的流体，并且有安全的存储汞的能力。"
+		"{herodotus.quests.6794529b.text.1}"
 	],
 	dependencies: [
 		"12158d61"

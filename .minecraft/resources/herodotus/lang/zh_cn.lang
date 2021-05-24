@@ -138,3 +138,13 @@ herodotus.quests.80e75d83.title=耐火焚烧
 herodotus.quests.58414346.title=青铜
 herodotus.quests.e6605079.title=铁锭
 herodotus.quests.61a03ebd.title=铸模
+
+herodotus.quests.8cd59de7.text.1=全能工具，将其丢入轻油中可以恢复耐久。
+herodotus.quests.db0fc392.text.1=用燧石和火绒打火过于原始了，得益于我日益熟练的打火经验，一个便宜好用的打火工具诞生了。
+herodotus.quests.2c30a542.text.1=铜桶可以无限制地转移常温流体，但是当转移热的流体时有几率会损坏。
+herodotus.quests.1a636f31.text.3=似乎我可以用木板和木匠锤来修复它。
+herodotus.quests.857ad989.text.1=收集满星能的存储器，除了用于合成材料之外，手持其右键祭坛还能往祭坛之上的方块注入星能。
+herodotus.quests.857ad989.text.2=已知的转换规则：玻璃矿石 -> 星辉矿石，星光框架 -> 聚星缸
+herodotus.quests.2b235818.text.1=法师工作台能够给物品注入魔法，获得新的物品。这期间需要我的或多或少的经验，否则这个注入魔法的过程就会失败。
+herodotus.quests.6efeae9d.text.1=在正午手持铜锭或在午夜手持铁锭右键祭坛获取随机数量的金粒。
+herodotus.quests.6794529b.text.1=强化玻璃瓶可以存储小于一桶的任意数量的流体，并且有安全的存储汞的能力。

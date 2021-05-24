@@ -2,7 +2,7 @@
 	x: 10.0d,
 	y: 2.0d,
 	text: [
-		"用燧石和火绒打火过于原始了，得益于我日益熟练的打火经验，一个便宜好用的打火工具诞生了。"
+		"{herodotus.quests.db0fc392.text.1}"
 	],
 	dependencies: [
 		"991202af"
