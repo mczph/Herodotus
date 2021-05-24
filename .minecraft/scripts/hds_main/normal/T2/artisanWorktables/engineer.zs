@@ -17,14 +17,14 @@ RecipeBuilder.get("engineer")
   .addOutput(<magneticraft:multiblock_parts:4>)
   .create();
 
-RecipeBuilder.get("engineer")
+/* RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>],
     [<ore:ingotBrickSeared>, <ore:gemEnergion>, <ore:ingotBrickSeared>],
     [<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>]])
   .addTool(<ore:artisansDriver>, 50)
   .addOutput(<tconstruct:smeltery_controller>)
-  .create();
+  .create(); */
 
 RecipeBuilder.get("engineer")
   .setShaped([
