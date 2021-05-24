@@ -42,8 +42,8 @@ RecipeUtils.recipeTweak(false, <ore:dustBronze>.materialPart*4,[
 ]);
 
 RecipeUtils.recipeTweak(true, <tconstruct:pattern> * 4, [
-    [<pyrotech:material:20>, <pyrotech:material:13>],
-    [<pyrotech:material:13>, <pyrotech:material:20>]
+    [<pyrotech:material:20>, <pyrotech:material:20>],
+    [<pyrotech:material:20>, <pyrotech:material:20>]
 ]);
 
 RecipeUtils.recipeTweak(true, <minecraft:hopper>,[

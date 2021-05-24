@@ -7,4 +7,6 @@ if (!isInvalid) {
     <minecraft:iron_pickaxe>.maxDamage = 300;
     <prodigytech:crystal_cutter>.maxDamage = 300;
     <astralsorcery:blockcustomore>.asBlock().definition.setHarvestLevel("pickaxe", 1);
+    <entity:minecraft:zombie>.removeDrop(<minecraft:iron_ingot>);
+    <entity:minecraft:zombie>.removeDrop(<minecraft:iron_ore>);
 }

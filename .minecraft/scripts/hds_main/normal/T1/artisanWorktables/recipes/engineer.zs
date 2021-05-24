@@ -55,46 +55,11 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<pyrotech:material:23>, <pyrotech:material:23>, <pyrotech:material:23>],
-    [<pyrotech:material:5>, null, <pyrotech:material:5>],
-    [<pyrotech:material:5>, null, <pyrotech:material:5>]])
-  .addTool(<ore:artisansDriver>, 30)
-  .addOutput(<tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}))
-  .create();
-
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>],
-    [<pyrotech:material:23>, null, <pyrotech:material:23>],
-    [<pyrotech:material:23>, null, <pyrotech:material:23>]])
-  .addTool(<ore:artisansDriver>, 30)
-  .addOutput(<tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}))
-  .create();
-
-RecipeBuilder.get("engineer")
-  .setShaped([
     [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
     [<pyrotech:refractory_brick_block>, null, <pyrotech:refractory_brick_block>],
     [<pyrotech:refractory_brick_block>, <ore:ingotIron>, <pyrotech:refractory_brick_block>]])
   .addTool(<ore:artisansSpanner>, 60)
   .addOutput(<prodigytech:capacitor_charger>)
-  .create();
-
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<tconstruct:pattern>],
-    [<pyrotech:crate_stone>]])
-  .addTool(<ore:artisansDriver>, 30)
-  .addOutput(<tconstruct:tooltables:4>)
-  .create();
-  
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<pyrotech:material:23>, <pyrotech:material:23>, <pyrotech:material:23>],
-    [<pyrotech:material:5>, <artisanworkstumps:workstump_basic>, <pyrotech:material:5>],
-    [<pyrotech:material:5>, null, <pyrotech:material:5>]])
-  .addTool(<ore:artisansDriver>, 30)
-  .addOutput(<tconstruct:tooltables:3>)
   .create();
 
 RecipeBuilder.get("engineer")
