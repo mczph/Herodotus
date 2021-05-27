@@ -57,6 +57,12 @@ RecipeUtils.recipeTweak(true, <factorytech:upgrade:3>, [
 	[<ore:plankWood>, <ore:dustLead>, <ore:plankWood>]
 ]);
 
+RecipeUtils.recipeTweak(true, <pyrotech:shelf>, [
+	[<ore:plankWood>, <ore:slabWood>, <ore:plankWood>],
+	[<ore:plankWood>, null, <ore:plankWood>],
+	[<ore:plankWood>, <ore:slabWood>, <ore:plankWood>]
+]);
+
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <factorytech:ingot:5>, <*>.only(function(item) {
     return item.definition.owner == "factorytech" && !<factorytech:machinepart:51>.matches(item);
 }));
@@ -101,7 +107,5 @@ recipes.addShaped("iron_pickaxe_from_iron_allay", <minecraft:iron_pickaxe>, [
 	[null, <ore:stickWood>, null],
 	[null, <ore:stickWood>, null]
 ]);
-
-recipes.addShaped("tic_crafting_table", <tconstruct:tooltables>, [[<artisanworktables:worktable:5>]]);
 
 }
