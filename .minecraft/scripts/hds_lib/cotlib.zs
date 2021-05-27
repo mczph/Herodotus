@@ -72,7 +72,7 @@ static allPartsMap as string[][int] = {
         "block", "shard", "flawed_gem", "chipped_gem", "flawless_gem",
         "crushed_ore", "small_dust", "clump",
         "purified_ore", "ore_sample", 
-        "ingot", "tiny_dust", "lightPlate"
+        "ingot", "tiny_dust", "lightPlate", "plate"
     ],
     5 : [ // only ore
         "ore"
