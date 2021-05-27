@@ -49,16 +49,13 @@
       "9": "bronze_block",
       "10": "sodium_block",
       "11": "iron_ore_sample",
-      "12": "quartz_poor_ore",
       "13": "bronze_ore_sample",
-      "14": "quartz_dense_ore",
       "15": "lapis_ore_sample"
     },
     "3": {
       "0": "square_ore",
       "1": "iron_dense_ore",
       "2": "titanium_ore",
-      "3": "quartz_ore",
       "4": "tin_poor_ore",
       "5": "tungsten_block",
       "6": "nickel_poor_ore",
