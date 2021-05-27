@@ -135,6 +135,8 @@ recipes.replaceAllOccurences(<minecraft:iron_nugget>, <ore:nuggetIron>, <*>.only
 
 recipes.replaceAllOccurences(<minecraft:dye:4>, <ore:gemFlawedQuartz>, <ore:artisansAthame>);
 
+recipes.replaceAllOccurences(<ore:string>, <pyrotech:material:32>, <ore:artisansGemCutter>);
+
 recipes.addShapeless("hot_air_solderer_trans_0", <contenttweaker:hot_air_solderer>,
     [<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_0:*>.marked("c")], 
     function(out, ins, info) {

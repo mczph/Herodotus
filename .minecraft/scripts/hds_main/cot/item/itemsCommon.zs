@@ -8,11 +8,6 @@ import mods.contenttweaker.Color;
 import scripts.hds_lib.cotlib.plainItemIDs;
 import scripts.grassUtils.CotUtils;
 
-var sandpaper = VanillaFactory.createItem("sandpaper");
-sandpaper.maxStackSize = 1;
-sandpaper.maxDamage = 144;
-sandpaper.register();
-
 var solderer = VanillaFactory.createItem("hot_air_solderer");
 solderer.maxStackSize = 1;
 solderer.maxDamage = 32000;

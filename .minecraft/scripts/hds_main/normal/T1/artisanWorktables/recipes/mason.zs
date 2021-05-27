@@ -124,36 +124,6 @@ RecipeBuilder.get("mason")
   .create();
 
 RecipeBuilder.get("mason")
-  .setShapeless([<contenttweaker:rhombus>])
-  .addTool(<contenttweaker:sandpaper>, 1)
-  .addOutput(<contenttweaker:polished_rhombus>)
-  .create();
-
-RecipeBuilder.get("mason")
-  .setShapeless([<contenttweaker:square>])
-  .addTool(<contenttweaker:sandpaper>, 1)
-  .addOutput(<contenttweaker:polished_square>)
-  .create();
-
-RecipeBuilder.get("mason")
-  .setShapeless([<contenttweaker:spherical>])
-  .addTool(<contenttweaker:sandpaper>, 1)
-  .addOutput(<contenttweaker:polished_spherical>)
-  .create();
-
-RecipeBuilder.get("mason")
-  .setShapeless([<ore:gemFlawlessGlimmerite>])
-  .addTool(<contenttweaker:sandpaper>, 5)
-  .addOutput(<contenttweaker:astral_lens>)
-  .create();
-
-RecipeBuilder.get("mason")
-  .setShapeless([<contenttweaker:square>])
-  .addTool(<contenttweaker:sandpaper>, 1)
-  .addOutput(<contenttweaker:polished_square>)
-  .create();
-
-RecipeBuilder.get("mason")
   .setShaped([
     [<pyrotech:material:12>, <pyrotech:material:12>, <pyrotech:material:12>],
     [<pyrotech:stone_bricks>, <pyrotech:material:5>, <pyrotech:stone_bricks>],
