@@ -45,12 +45,7 @@ static allPartsMap as string[][int] = {
         "rhombusCover", "sphericalCover", "squareCover",
         "rhombusTierTwo", "sphericalTierTwo", "squareTierTwo"
     ],
-    1 : [//geometryOre
-        // "rhombus", "spherical", "square",
-        // TODO: remove these, since we have our own ores in hdsutils
-        "ore", "dense_ore", "poor_ore", "molten"
-    ],
-    2 : [//metal1
+    1 : [//metal1
         "nugget", "beam", "dirty_dust", "cluster", "ring",
         "rod", "crystal", "plate", "chipped_gem", "casing",
         "missing", "dense_plate", "block", "shard", "molten",
@@ -60,13 +55,13 @@ static allPartsMap as string[][int] = {
         "ingot", "tiny_dust", "gear", "centrifuged_ore", "dense_ore",
         "crushed_ore", "ore_rock", "fourNuggets", "lightPlate"
     ],
-    3 : [//gems
+    2 : [//gems
         "nugget", "dirty_dust", "cluster",
         "chipped_gem", "casing", "missing",
         "block", "molten", "flawless_gem",
         "small_dust", "flawed_gem", "tiny_dust", "dust"
     ],
-    4 : [//redstone, quartz
+    3 : [//redstone, quartz
         "nugget", "dirty_dust", "cluster", "crystal",
         "centrifuged_ore", "ore_rock", "missing",
         "block", "shard", "flawed_gem", "chipped_gem", "flawless_gem",
@@ -74,7 +69,7 @@ static allPartsMap as string[][int] = {
         "purified_ore", "ore_sample", 
         "ingot", "tiny_dust", "lightPlate", "plate"
     ],
-    5 : [ // only ore
+    4 : [ // only ore
         "ore"
     ]
 };
