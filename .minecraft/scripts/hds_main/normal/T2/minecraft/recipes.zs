@@ -97,7 +97,6 @@ recipes.replaceAllOccurences(<minecraft:furnace>, <pyrotech:brick_oven>, <*>.onl
     return item.definition.owner == "factorytech";
 }));
 
-// TODO: this is only a temporary fix for upgrade modules for pneumatic craft
 recipes.replaceAllOccurences(<minecraft:dye:4>, <ore:lightPlateLead>, <*>.only(function(item) {
 	return item.definition.id.matches("pneumaticcraft:.*upgrade");
 }));
