@@ -81,12 +81,7 @@ static allMaterialMap as int[string][int] = {
         "yellow" : 0xffd701,
         "blue" : 0x00a2dd
     },
-    1 : {//geometryOre
-        "rhombus" : 0xffffff,
-        "spherical" : 0xffffff,
-        "square" : 0xffffff
-    },
-    2 : {//metal1
+    1 : {//metal1
         "bronze" : 0xe9a230,
         "iron" : 0xd8af93,
         "lithium" : 0xd2d2d2,
@@ -116,16 +111,16 @@ static allMaterialMap as int[string][int] = {
         "osmium" : 0x1ea2f6,
 
     },
-    3 : {//gems
+    2 : {//gems
         //TODO colored gems
         "diamond" : 0x2fc7e4,
         "glimmerite" : 0xff9500
     },
-    4 : {//redstone, quartz
+    3 : {//redstone, quartz
         "redstone" : 0x720000,
         "quartz" : 0xffffff
     },
-    5 : { // only ore
+    4 : { // only ore
         "glass": 0xeeeeee
     }
 };
