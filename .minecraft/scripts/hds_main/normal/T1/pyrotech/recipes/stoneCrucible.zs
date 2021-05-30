@@ -7,6 +7,9 @@ import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroCrucible;
 if(!isInvalid){
 
 allPyroCrucible("molten_lead", <fluid:lead>*144, <ore:orePurifiedLead>, 20*20);
+allPyroCrucible("molten_lead_plate", <fluid:lead>*144, <ore:plateLead>, 30*20);
+allPyroCrucible("molten_lead_plate", <fluid:lead>*144, <ore:dustLead>, 30*20);
+
 allPyroCrucible("molten_bronze", <fluid:bronze>*144, <ore:dustBronze>, 20*20);
 allPyroCrucible("molten_lead_ingot", <fluid:lead>*144, <ore:ingotLead>, 30*20);
 allPyroCrucible("molten_bronze_ingot", <fluid:bronze>*144, <ore:ingotBronze>, 30*20);
