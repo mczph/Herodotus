@@ -11,8 +11,7 @@ LootTable.removeGlobalItem("botania:lexicon");
 
 LootTable.removeModItem("actuallyadditions");
 LootTable.removeModItem("growthcraft");
-LootTable.removeModItem("tconevo");
-
+LootTable.removeModTable("tconevo");
 LootTable.removeModTable("biomesoplenty");
 LootTable.removeModTable("pneumaticcraft");
 LootTable.removeModTable("enderio");
