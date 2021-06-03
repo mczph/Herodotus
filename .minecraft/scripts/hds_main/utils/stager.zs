@@ -14,7 +14,7 @@ if (!debug) {
         "bloodmagic", "ae2fc", "tg", "compactmachines3", "draconicevolution", "efab", "embers",
         "emergingtechnology", "xnet", "thermalinnovation", "requious", "rftoolspower", "rftoolscontrol",
         "rftools", "qmd", "packagedexcrafting", "aenetvistool", "bloodarsenal", "teslathingies", "soot",
-        "packagedauto"
+        "packagedauto", "actuallyadditions"
     ];
 
     for mdfk in stagedModList{
