@@ -51,7 +51,8 @@ val removeByOutput as IItemStack[] = [
     <pneumaticcraft:pressure_gauge>,
     <factorytech:metalcutter>,
     <factorytech:magnetizer>,
-    <factorytech:crucible>
+    <factorytech:crucible>,
+    <pneumaticcraft:amadron_tablet:30000>
     
 ];
 

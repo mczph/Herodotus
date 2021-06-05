@@ -63,6 +63,12 @@ RecipeUtils.recipeTweak(true, <pyrotech:shelf>, [
 	[<ore:plankWood>, <ore:slabWood>, <ore:plankWood>]
 ]);
 
+RecipeUtils.recipeTweak(true, <advancedrocketry:iquartzcrucible>, [
+	[null, <ore:gemQuartz>, null],
+	[<ore:gemQuartz>, <minecraft:cauldron>, <ore:gemQuartz>],
+	[null, <ore:gemQuartz>, null]
+]);
+
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <factorytech:ingot:5>, <*>.only(function(item) {
     return item.definition.owner == "factorytech" && !<factorytech:machinepart:51>.matches(item);
 }));
