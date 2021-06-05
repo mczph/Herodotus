@@ -25,5 +25,5 @@ pressurechamber.addRecipe([<factorytech:intermediate:4>, <factorytech:machinepar
 pressurechamber.addRecipe([<factorytech:intermediate:4>, <factorytech:machinepart:22>], 1.2, [<factorytech:machinepart:61>]);
 pressurechamber.addRecipe([<ore:plateCopper>, <ore:plasticGreen>, <contenttweaker:impure_gel>], 1.6, [<pneumaticcraft:empty_pcb:100>]);
 pressurechamber.addRecipe([<ore:plateCopper>, <ore:plasticGreen>, <contenttweaker:sticky_gel>, <pneumaticcraft:empty_pcb>], 1.6, [<pneumaticcraft:empty_pcb> * 2]);
-
+pressurechamber.addRecipe([<ore:dustQuartz> * 2], 2.0, [<ore:gemFlawedQuartz>.firstItem]);
 }
