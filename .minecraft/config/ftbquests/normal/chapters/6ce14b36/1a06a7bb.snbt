@@ -1,0 +1,15 @@
+{
+	x: 16.0d,
+	y: -3.5d,
+	dependencies: [
+		"e3c09120"
+	],
+	optional: true,
+	tasks: [{
+		uid: "abda2b61",
+		type: "item",
+		items: [{
+			item: "pyrotech:bellows"
+		}]
+	}]
+}

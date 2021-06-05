@@ -1,0 +1,15 @@
+{
+	x: 17.0d,
+	y: -2.25d,
+	dependencies: [
+		"784e0e44"
+	],
+	optional: true,
+	tasks: [{
+		uid: "da694482",
+		type: "item",
+		items: [{
+			item: "prodigytech:linear_extractor"
+		}]
+	}]
+}

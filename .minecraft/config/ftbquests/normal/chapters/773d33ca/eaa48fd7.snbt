@@ -1,0 +1,15 @@
+{
+	x: 19.0d,
+	y: -2.25d,
+	dependencies: [
+		"784e0e44"
+	],
+	optional: true,
+	tasks: [{
+		uid: "80a6a5fa",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:omnidirectional_hopper"
+		}]
+	}]
+}
