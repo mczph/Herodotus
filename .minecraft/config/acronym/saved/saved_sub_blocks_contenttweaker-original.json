@@ -10,7 +10,6 @@
       "6": "potassium_ore_sample",
       "7": "nickel_ore",
       "8": "iridium_dense_ore",
-      "9": "rhombus_ore",
       "10": "silver_poor_ore",
       "11": "chromium_poor_ore",
       "12": "osmium_block",
@@ -28,7 +27,6 @@
       "6": "silver_dense_ore",
       "7": "lead_ore_sample",
       "8": "copper_poor_ore",
-      "9": "square_poor_ore",
       "10": "gold_block",
       "11": "bronze_poor_ore",
       "12": "sodium_ore",
@@ -42,7 +40,6 @@
       "2": "cobalt_ore",
       "3": "potassium_block",
       "4": "blue_dense_ore",
-      "5": "square_dense_ore",
       "6": "iridium_ore_sample",
       "7": "radioactive_residue_ore",
       "8": "quartz_block",
@@ -53,7 +50,6 @@
       "15": "lapis_ore_sample"
     },
     "3": {
-      "0": "square_ore",
       "1": "iron_dense_ore",
       "2": "titanium_ore",
       "4": "tin_poor_ore",
@@ -84,8 +80,7 @@
       "11": "iron_block",
       "12": "copper_ore_sample",
       "13": "nickel_dense_ore",
-      "14": "silicon_dense_ore",
-      "15": "rhombus_poor_ore"
+      "14": "silicon_dense_ore"
     },
     "5": {
       "0": "copper_dense_ore",
@@ -102,7 +97,6 @@
       "11": "chromium_dense_ore",
       "12": "tin_dense_ore",
       "13": "chromium_ore",
-      "14": "spherical_dense_ore",
       "15": "titanium_block"
     },
     "6": {
@@ -144,7 +138,6 @@
     "8": {
       "0": "yellow_poor_ore",
       "1": "gold_ore",
-      "2": "rhombus_dense_ore",
       "3": "silver_block",
       "4": "red_dense_ore",
       "5": "diamond_block",
@@ -153,8 +146,6 @@
       "8": "iridium_poor_ore",
       "9": "iron_poor_ore",
       "10": "lithium_ore_sample",
-      "11": "spherical_ore",
-      "12": "spherical_poor_ore",
       "13": "nickel_ore_sample",
       "14": "bronze_dense_ore",
       "15": "glass_ore"
