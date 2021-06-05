@@ -14,7 +14,10 @@ val oreDictAddMap as IItemStack[][IOreDictEntry] = {
     <ore:string> : [<pyrotech:material:14>],
     <ore:dustWood> : [<pyrotech:rock:7>],
     <ore:dustAsh> : [<pyrotech:material>],
-    <ore:gearStone> : [<pyrotech:cog_stone>]
+    <ore:gearStone> : [<pyrotech:cog_stone>],
+    <ore:dyeBlue> : [<ore:dustBlue>.firstItem],
+    <ore:dyeRed> : [<ore:dustRed>.firstItem],
+    <ore:dyeYellow> : [<ore:dustYellow>.firstItem]
 };
 
 val oreDictRemoveMap as IItemStack[][IOreDictEntry] = {
