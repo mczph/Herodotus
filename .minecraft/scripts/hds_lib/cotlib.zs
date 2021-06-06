@@ -72,7 +72,7 @@ static allPartsMap as string[][int] = {
         "ore"
     ],
     5 : [ // patches for quartz
-        "dust", "plate", "lightPlate", "dense_ore"
+        "dust", "plate", "lightPlate", "dense_plate"
     ]
 };
 
