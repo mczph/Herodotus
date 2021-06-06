@@ -34,5 +34,5 @@ allPyroAnvil("coal_block", <ore:pieceCoal>.materialPart*16, <ore:blockCoal>, 8, 
 
 allPyroAnvil("iron_shard_from_alloy", <pyrotech:material:19> * 8, <ore:ingotConstructionAlloy>, 8, "pickaxe");
 
-allPyroAnvil("quartz_plate", <ore:platePlate>.materialPart * 4, <minecraft:quartz_block>, 6, "hammer");
+allPyroAnvil("quartz_plate", <ore:plateQuartz>.materialPart * 4, <minecraft:quartz_block>, 6, "hammer");
 }
