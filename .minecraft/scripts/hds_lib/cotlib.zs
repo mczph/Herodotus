@@ -71,6 +71,9 @@ static allPartsMap as string[][int] = {
     ],
     4 : [ // only ore
         "ore"
+    ],
+    5 : [ // only dust
+        "dust"
     ]
 };
 
@@ -122,6 +125,9 @@ static allMaterialMap as int[string][int] = {
     },
     4 : { // only ore
         "glass": 0xeeeeee
+    },
+    5 : { // only dust
+        "quartz": 0xffffff
     }
 };
 
