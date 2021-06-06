@@ -62,18 +62,17 @@ static allPartsMap as string[][int] = {
         "small_dust", "flawed_gem", "tiny_dust", "dust"
     ],
     3 : [//redstone, quartz
-        "nugget", "dirty_dust", "cluster", "crystal",
+        "dirty_dust", "cluster", "crystal",
         "centrifuged_ore", "ore_rock", "missing",
-        "block", "shard", "flawed_gem", "chipped_gem", "flawless_gem",
+        "shard", "flawed_gem", "chipped_gem", "flawless_gem",
         "crushed_ore", "small_dust", "clump",
-        "purified_ore", "ore_sample", 
-        "ingot", "tiny_dust", "lightPlate", "plate"
+        "purified_ore", "ore_sample", "tiny_dust"
     ],
     4 : [ // only ore
         "ore"
     ],
-    5 : [ // only dust
-        "dust"
+    5 : [ // patches for quartz
+        "dust", "plate", "lightPlate", "dense_ore"
     ]
 };
 
@@ -126,7 +125,7 @@ static allMaterialMap as int[string][int] = {
     4 : { // only ore
         "glass": 0xeeeeee
     },
-    5 : { // only dust
+    5 : { // quartz
         "quartz": 0xffffff
     }
 };
