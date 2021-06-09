@@ -63,7 +63,8 @@ val removeByRecipeName as string[] = [
     "pneumaticcraft:pressure_chamber_wall",
     "factorytech:parts/motor",
     "factorytech:parts/motorgold",
-    "factorytech:parts/battery_shell"
+    "factorytech:parts/battery_shell",
+    "agricraft:combine_nugget_iron"
 ];
 
 val removeByModid as string[] = [

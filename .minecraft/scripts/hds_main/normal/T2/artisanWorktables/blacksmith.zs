@@ -18,9 +18,9 @@ RecipeBuilder.get("blacksmith")
 
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:cobblestoneCharred>, <ore:lightPlateGold>, <ore:cobblestoneCharred>],
-    [<ore:lightPlateGold>, <pyrotech:refractory_brick_block>, <ore:lightPlateGold>],
-    [<ore:cobblestoneCharred>, <ore:lightPlateGold>, <ore:cobblestoneCharred>]])
+    [<ore:cobblestoneCharred>, <ore:clumpYellow>, <ore:cobblestoneCharred>],
+    [<ore:clumpYellow>, <pyrotech:refractory_brick_block>, <ore:clumpYellow>],
+    [<ore:cobblestoneCharred>, <ore:clumpYellow>, <ore:cobblestoneCharred>]])
   .addTool(<contenttweaker:hot_air_solderer>, 60)
   .addOutput(<magneticraft:multiblock_parts:3> * 4)
   .create();
