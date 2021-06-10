@@ -81,6 +81,15 @@ RecipeBuilder.get("blacksmith")
   .create();
 
 RecipeBuilder.get("blacksmith")
+  .setShapeless([<hdsutils:oil_aiot:*>.marked("t")])
+  .addOutput(<hdsutils:oil_aiot>)
+  .setFluid(<liquid:light_oil> * 1000)
+  .setRecipeFunction(function(out, ins, info) {
+    return ins.t.withDamage(min(0, ins.t.damage - 200));
+  })
+  .create();
+
+RecipeBuilder.get("blacksmith")
   .setShaped([
     [<ore:obsidian>, null, <ore:obsidian>],
     [<ore:obsidian>, <minecraft:cauldron>, <ore:obsidian>],
