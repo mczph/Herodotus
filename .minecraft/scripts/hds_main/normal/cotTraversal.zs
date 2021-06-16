@@ -120,6 +120,7 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         if (!isNull(molten)) {
             Crucible.addRecipe(molten * 144, ingot, false);
             Crucible.addRecipe(molten * 144, plate, false);
+            Crucible.addRecipe(molten * 144, dust, false);
         }
 
     } else if (item.ores[0].name.startsWith("cluster")) {
