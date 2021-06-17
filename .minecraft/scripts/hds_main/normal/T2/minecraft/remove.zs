@@ -52,7 +52,13 @@ val removeByOutput as IItemStack[] = [
     <factorytech:metalcutter>,
     <factorytech:magnetizer>,
     <factorytech:crucible>,
-    <pneumaticcraft:amadron_tablet:30000>
+    <pneumaticcraft:amadron_tablet:30000>,
+    <pneumaticcraft:vortex_tube>,
+    <factorytech:batterygen>,
+    <factorytech:coregen>,
+    <pneumaticcraft:pneumatic_dynamo>,
+    <pneumaticcraft:plastic_mixer>,
+    <pneumaticcraft:thermopneumatic_processing_plant>
     
 ];
 
@@ -64,7 +70,8 @@ val removeByRecipeName as string[] = [
     "factorytech:parts/motor",
     "factorytech:parts/motorgold",
     "factorytech:parts/battery_shell",
-    "agricraft:combine_nugget_iron"
+    "agricraft:combine_nugget_iron",
+    "pneumaticcraft:amadron_tablet"
 ];
 
 val removeByModid as string[] = [

@@ -98,4 +98,13 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<factorytech:crucible>)
   .create();
 
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [null, <ore:lightPlateCopper>, null],
+    [<ore:lightPlateCopper>, <ore:lightPlateIron>, <ore:lightPlateCopper>],
+    [null, <ore:lightPlateCopper>, null]])
+  .addTool(<ore:artisansHammer>, 20)
+  .addOutput(<factorytech:pipe> * 6)
+  .create();
+
 }

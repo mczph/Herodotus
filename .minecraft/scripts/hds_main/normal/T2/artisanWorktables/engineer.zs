@@ -255,7 +255,7 @@ RecipeBuilder.get("engineer")
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>],
-    [<ore:ingotIronCompressed>, <pneumaticcraft:pcb_blueprint>, <pneumaticcraft:pressure_tube>],
+    [<ore:ingotIronCompressed>, <ore:plasticLime>, <pneumaticcraft:pressure_tube>],
     [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
   .addTool(<contenttweaker:hot_air_solderer>, 650)
   .addOutput(<pneumaticcraft:uv_light_box>)
@@ -313,6 +313,32 @@ RecipeBuilder.get("engineer")
   .addOutput(<factorytech:magnetizer>)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIronCompressed>, <ore:wool>, <ore:ingotIronCompressed>],
+    [<ore:lightPlateGold>, <minecraft:piston>, <ore:lightPlateGold>],
+    [<ore:ingotIronCompressed>, <pneumaticcraft:pressure_tube>, <ore:ingotIronCompressed>]])
+  .addTool(<ore:artisansSpanner>, 75)
+  .addOutput(<pneumaticcraft:vortex_tube>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:blockGlass>, <ore:heavyPlateLead>, <ore:blockGlass>],
+    [<ore:blockGlass>, <pyrotech:brick_tank>, <ore:blockGlass>],
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
+  .addTool(<ore:artisansSpanner>, 50)
+  .addOutput(<pneumaticcraft:plastic_mixer>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIronCompressed>, <ore:dustRedstone>, <ore:ingotIronCompressed>],
+    [<magneticraft:small_tank>, <ore:dustRedstone>, <magneticraft:small_tank>],
+    [<ore:ingotIronCompressed>, <pneumaticcraft:pressure_tube>, <ore:ingotIronCompressed>]])
+  .addTool(<ore:artisansSpanner>, 50)
+  .addOutput(<pneumaticcraft:thermopneumatic_processing_plant>)
+  .create();
 
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
 for i in 0 .. 15 {

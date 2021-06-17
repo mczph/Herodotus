@@ -13,7 +13,7 @@ if (!isInvalid){
         [<contenttweaker:wood_feature_crystal>, <magneticraft:multiblock_parts:3>, <contenttweaker:wood_feature_crystal>],
         [<ore:gemFlawedGlimmerite>, <contenttweaker:wood_feature_crystal>, <ore:gemFlawedGlimmerite>]])
     .addTool(<ore:artisansAthame>, 40)
-    .setFluid(<liquid:mercury> * 500)
+    .setFluid(<liquid:mercury> * 1000)
     .addOutput(<contenttweaker:infinite_water_upgrade_module>)
     .create();
 }
