@@ -1,4 +1,5 @@
 {
+	title: "含油地层（满）",
 	x: 24.0d,
 	y: -2.25d,
 	text: [
@@ -8,10 +9,8 @@
 		"8621cb22"
 	],
 	tasks: [{
-		uid: "996b0d94",
-		type: "item",
-		items: [{
-			item: "magneticraft:oil_source"
-		}]
+		uid: "583d56be",
+		type: "checkmark",
+		icon: "magneticraft:oil_source"
 	}]
 }
