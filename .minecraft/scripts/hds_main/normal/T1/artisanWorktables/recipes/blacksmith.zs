@@ -25,12 +25,6 @@ RecipeBuilder.get("blacksmith")
   .create();
 
 RecipeBuilder.get("blacksmith")
-  .setShapeless([<hdsutils:tiny_starlight_storage:1>, <prodigytech:rotary_grinder>])
-  .addTool(<contenttweaker:hot_air_solderer>, 400)
-  .addOutput(<prodigytech:magnetic_reassembler>)
-  .create();
-
-RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:gemFlawedQuartz>, <ore:ingotIron>],
     [<ore:gemFlawedQuartz>, <ore:ingotIron>, <ore:gemFlawedQuartz>],

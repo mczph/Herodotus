@@ -73,6 +73,15 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
+    [<ore:ingotBronze>, <ore:blockRedstone>, <ore:ingotBronze>],
+    [<ore:ingotIron>, <minecraft:iron_trapdoor>, <ore:ingotIron>],
+    [<ore:ingotBronze>, <hdsutils:tiny_starlight_storage:1>, <ore:ingotBronze>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 400)
+  .addOutput(<prodigytech:magnetic_reassembler>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
     [<minecraft:ender_pearl>],
     [<prodigytech:primordium>],
     [<ore:rodLongBronze>]])
