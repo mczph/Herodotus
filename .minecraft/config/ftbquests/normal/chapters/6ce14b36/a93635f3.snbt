@@ -8,21 +8,10 @@
 		"{herodotus.quests.a93635f3.text.4}"
 	],
 	dependencies: [
-		"2e0bc67f",
 		"d2137321"
 	],
 	tasks: [{
-		uid: "c4faf924",
-		type: "item",
-		items: [{
-			id: "tconstruct:pick_head",
-			tag: {
-				Material: "flint"
-			}
-		}]
-	},
-	{
-		uid: "ec0fb495",
+		uid: "2d25dae4",
 		type: "item",
 		items: [{
 			ForgeCaps: {

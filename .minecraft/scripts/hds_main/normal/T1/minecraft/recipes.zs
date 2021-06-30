@@ -27,8 +27,9 @@ RecipeUtils.recipeTweak(true, <pyrotech:compacting_bin>,[
     [<pyrotech:material:12>, <ore:slabWood>, <pyrotech:material:12>]
 ]);
 
-RecipeUtils.recipeTweak(false, <pyrotech:crude_pickaxe>,[
-    [<tconstruct:pick_head>.withTag({Material: "flint"}), <pyrotech:material:12>, <ore:stickWood>]
+RecipeUtils.recipeTweak(true, <pyrotech:flint_pickaxe>,[
+    [<tconstruct:pick_head>.withTag({Material: "flint"}), <pyrotech:material:12>],
+    [null, <ore:stickWood>]
 ]);
 
 RecipeUtils.recipeTweak(true, <artisanworkstumps:workstump_basic>,[
@@ -102,6 +103,8 @@ for i in 0 .. 6{
         [plank, <ore:chestWood>, plank]
     ]);
 }
+
+recipes.addShapeless("recycle_racks", <minecraft:stick> * 4, [<pyrotech:drying_rack>]);
 
 recipes.addShapeless("tiny_bronze_dust", <ore:dustTinyBronze>.materialPart * 4, [
     <ore:dustTinyCopper>, <ore:dustTinyCopper>, <ore:dustTinyCopper>, <ore:dustTinyTin>
