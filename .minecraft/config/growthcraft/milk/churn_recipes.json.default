@@ -4,18 +4,18 @@
     {
       "comment": "",
       "input_fluid": {
-        "comment": "??",
+        "comment": "ƒÃ”Õ",
         "name": "fluid_cream",
         "amount": 1000
       },
       "output_fluid": {
-        "comment": "??",
+        "comment": "¿“»È",
         "name": "fluid_butter_milk",
         "amount": 500
       },
       "output_item": {
         "ore": null,
-        "comment": "??",
+        "comment": "ª∆”Õ",
         "mod_id": "growthcraft_milk",
         "name": "butter",
         "amount": 2,
