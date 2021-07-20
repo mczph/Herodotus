@@ -2,6 +2,7 @@ herodotus.placeholder=PlaceHolder
 herodotus.utils.currentlybanned=Currently Banned
 modularmachinery.hot_air_boiler=Hot Air Steam Boiler
 modularmachinery.steamer=Steamer
+modularmachinery.basic_thermal_melting_machine=Basic Thermal Melting Machine
 modularmachinery.modifier.infinite_water=Replace the Corrugate Iron Machine Block upon Fluid Input Hatch to make the machine not consume water.
 
 herodotus.quests.09b2af08.text.1=制作锂汞齐，将其喂给生物，生物中毒死亡后会额外掉落锂水晶。
