@@ -10,7 +10,7 @@ if (!isInvalid){
     RecipeBuilder.get("mage")
     .setShaped([
         [<ore:gemFlawedGlimmerite>, <contenttweaker:wood_feature_crystal>, <ore:gemFlawedGlimmerite>],
-        [<contenttweaker:wood_feature_crystal>, <magneticraft:multiblock_parts:3>, <contenttweaker:wood_feature_crystal>],
+        [<contenttweaker:wood_feature_crystal>, <magneticraft:small_tank>, <contenttweaker:wood_feature_crystal>],
         [<ore:gemFlawedGlimmerite>, <contenttweaker:wood_feature_crystal>, <ore:gemFlawedGlimmerite>]])
     .addTool(<ore:artisansAthame>, 40)
     .setFluid(<liquid:mercury> * 1000)

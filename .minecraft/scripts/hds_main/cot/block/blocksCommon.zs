@@ -30,3 +30,8 @@ smp.setDropHandler(function(drops, world, position, state, fortune) {
 	drops.add(plastic % 50);
 });
 smp.register();
+
+val iwu = VanillaFactory.createBlock("infinite_water_upgrade_module", <blockmaterial:glass>);
+iwu.fullBlock = false;
+iwu.blockLayer = "CUTOUT";
+iwu.register();
