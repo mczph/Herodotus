@@ -11,7 +11,7 @@ var seed as Item = VanillaFactory.createExpandItem("rhythmic_seed");
 seed.onEntityItemUpdate = function(entityItem) {
 	var world as IWorld = entityItem.world;
 	var toT as long = world.getWorldTime() + 10;
-	var amount as int = entity.item.amount;
+	var amount as int = entityItem.item.amount;
 
 	if (!world.remote) {
 		if (isNull(entityItem.nbt.ForgeData) || isNull(entityItem.nbt.ForgeData.toTime)) {
