@@ -5,6 +5,7 @@ import crafttweaker.game.IGame;
 import crafttweaker.mods.ILoadedMods;
 
 if (!debug) {
+    //TODO use gamestages to restage everything
     val stagedModList as string[] = [
         "tinker_io", "bloodtinker", "thaumicenergistics", "thaumicaugmentation", "thaumicwonders",
         "thermaldynamics", "tconevo", "libvulpes", "thermalfoundation", "artisanautomation",
