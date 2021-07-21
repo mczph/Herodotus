@@ -152,6 +152,7 @@
   "enderioconduitsopencomputers": "5.3.70",
   "recipehandler": "0.14",
   "tweakersconstruct": "1.12.2-1.6.1",
+  "inworldcrafting": "1.12.2-1.2.0",
   "ocxnetdriver": "1.0.3",
   "xlfoodmod": "1.12.2-1.9.2",
   "astral-level-nerf": "1.0.0",
@@ -186,6 +187,7 @@
   "auracontrol": "1.12.2-1.0.2",
   "ae2stuff": "0.7.0.4",
   "bookshelf": "2.3.590",
+  "improvedbackpacks": "1.12.2-1.5.0.0",
   "buildinggadgets": "2.8.4",
   "wct": "3.12.97",
   "cofhworld": "1.4.0",
@@ -209,6 +211,7 @@
   "artisanworkstumps": "1.12.2-1.1.4",
   "advancedrocketry": "1.7.0.-232",
   "libnine": "1.2.0",
+  "incorporeal_core": "1.1.0",
   "teslacorelib_registries": "1.0.17",
   "actuallyadditions": "1.12.2-r152",
   "patchouli": "1.0-23.6",
@@ -296,6 +299,7 @@
   "tinkersjei": "1.2",
   "opencomputers|core": "1.7.5.192",
   "thaumicterminal": "1.0.12",
+  "incorporeal": "1.2.5",
   "packmode": "1.2.0",
   "modelloader": "1.1.7"
 }
