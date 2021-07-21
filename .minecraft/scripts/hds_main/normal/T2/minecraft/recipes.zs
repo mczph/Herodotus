@@ -69,6 +69,12 @@ RecipeUtils.recipeTweak(true, <advancedrocketry:iquartzcrucible>, [
 	[null, <ore:gemQuartz>, null]
 ]);
 
+RecipeUtils.recipeTweak(true, <pneumaticcraft:liquid_hopper>, [
+	[<ore:blockGlass>, null, <ore:blockGlass>],
+	[<ore:blockGlass>, <pneumaticcraft:omnidirectional_hopper>, <ore:blockGlass>],
+	[null, <ore:blockGlass>, null]
+]);
+
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <factorytech:ingot:5>, <*>.only(function(item) {
     return item.definition.owner == "factorytech" && !<factorytech:machinepart:51>.matches(item);
 }));
