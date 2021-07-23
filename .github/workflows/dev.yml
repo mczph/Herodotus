@@ -5,7 +5,8 @@ on:
   workflow_dispatch:
 env:
   BUILD: Herodotus
-  VERSION: 0.3.0-alpha
+  VERSION: 0.3.0
+
 
 jobs:
   FTBQuestsProcessor:
