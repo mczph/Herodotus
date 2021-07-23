@@ -30,7 +30,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
 		if (offItem.amount > 1) {
 			offItem.mutable().shrink(1);
 			player.give(getRandomAmountWithPhial(level, player));
-		}else 
+		} else 
 			player.setItemToSlot(IEntityEquipmentSlot.offhand(), getRandomAmountWithPhial(level, player));
 			
 	}

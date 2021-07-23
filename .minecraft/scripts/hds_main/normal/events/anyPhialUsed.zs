@@ -1,6 +1,5 @@
 #packmode normal
 #priority -1
-#loader crafttweaker
 
 import crafttweaker.data.IData;
 import crafttweaker.world.IWorld;
@@ -10,11 +9,13 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.block.IBlockState;
 
-import scripts.hds_main.utils.modloader.isInvalid;
+import mods.zenutils.DelayManager;
 
+import scripts.hds_main.utils.modloader.isInvalid;
 import crafttweaker.event.PlayerInteractBlockEvent;
 
-if (!isInvalid){
+if(!isInvalid){
+
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent){
 	val world as IWorld = event.world;
 	var item as IItemStack = event.item;
@@ -27,18 +28,32 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent){
 
 	var itemTag as IData = item.tag;
 	var blockData as IData = block.data;
-
+	
 	if (<thaumcraft:phial:1> has item) {
 		var aspectItem as string = itemTag.Aspects[0].key.asString();
 		var amountItem as short = itemTag.Aspects[0].amount.asShort();
-		
-		if (isNull(blockData.Amount) || isNull(blockData.Aspect)) return;
+		var aspectBlock as string = "";
+
+		if (isNull(blockData.Amount) || amountItem == 10) return;
 
 		var amountBlock as short = blockData.Amount.asShort();
-		var aspectBlock as string = blockData.Aspect.asString();
 
-		if (aspectBlock != aspectItem || amountItem == 10) return;
-		world.setBlockState(blockState, {Amount : amountBlock + (amountItem - 10)}, position);
+		if (!isNull(blockData.Aspect)) {
+			aspectBlock = blockData.Aspect.asString();
+			if (aspectBlock != aspectItem) return;
+			delayModifyAmount(player, blockState, position, item, aspectItem, amountItem);
+		} else {
+			delayModifyAmount(player, blockState, position, item, aspectItem, amountItem);
+		}
 	}
 });
+
+}
+function delayModifyAmount(player as IPlayer, blockState as IBlockState, position as IBlockPos, item as IItemStack, aspect as string, amountItem as int) {
+	DelayManager.addDelayWork(function() {
+		if (item.amount != player.currentItem.amount){
+			var amountModify = player.world.getBlock(position).data.Amount + (amountItem - 10);
+        	player.world.setBlockState(blockState, {Amount : amountModify, Aspect : aspect}, position);
+		}
+    }, 1);
 }
