@@ -1,6 +1,5 @@
 #packmode normal
 #priority -1
-#loader crafttweaker reloadableevents
 
 import crafttweaker.event.EntityLivingUpdateEvent;
 import crafttweaker.event.EntityLivingDeathEvent;
@@ -10,8 +9,11 @@ import crafttweaker.data.IData;
 import crafttweaker.world.IWorld;
 import crafttweaker.world.IBlockPos;
 
-static result as string = <entity:thaumcraft:inhabitedzombie>.name;
+import scripts.hds_main.utils.modloader.isInvalid;
 
+static result as string = <entity:thaumcraft:inhabitedzombie>.name;
+if(!isInvalid){
+	
 events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
     val entity as IEntityLivingBase = event.entityLivingBase;
     if (!isNull(entity)) {
@@ -37,3 +39,4 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
         }
     }
 });
+}
