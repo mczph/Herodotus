@@ -80,7 +80,6 @@ zenClass MaterialSystemHelper {
     }
 
     function registerSpecialPart(name as string, hasOverlay as bool, fx as RegisterMaterialPart) as Part {
-        // TODO
         Logger.sendWarning(this.getLogID() ~ "Registering special part is NOT supported.");
         return null;
     }
