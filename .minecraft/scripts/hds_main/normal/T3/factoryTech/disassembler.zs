@@ -7,7 +7,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
-for name in game.entities{
-    Disassembler.addRecipe(name, <contenttweaker:rhythmic_seed>);
+for entity in game.entities{
+    Disassembler.addRecipe(entity, [<contenttweaker:rhythmic_seed>]);
 }
 }
