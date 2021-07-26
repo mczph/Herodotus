@@ -2,7 +2,7 @@
 	x: 1.25d,
 	y: 1.75d,
 	text: [
-		"通过替换蒸汽锅炉结构中的特定方块，可以给蒸汽锅炉提供无限水"
+		"{herodotus.quests.cbf24504.text.1}"
 	],
 	dependencies: [
 		"cdbe6fe0"
