@@ -8,6 +8,6 @@ import scripts.hds_lib.crtlib.allVanillaMobClassNames;
 if(!isInvalid){
 
 for names in allVanillaMobClassNames{
-    Disassembler.addRecipe(names, <contenttweaker:rhythmic_seed>);
+    Disassembler.addRecipe("net.minecraft.entity." ~ names, <contenttweaker:rhythmic_seed>);
 }
 }
