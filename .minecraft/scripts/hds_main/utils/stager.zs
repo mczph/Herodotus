@@ -4,6 +4,7 @@ import mods.jei.JEI;
 import crafttweaker.game.IGame;
 import crafttweaker.mods.ILoadedMods;
 import mods.ItemStages;
+import mods.MobStages;
 
 if (!debug) {
     //TODO mobstages
@@ -28,4 +29,10 @@ if (!debug) {
                 JEI.addDescription(mdfks, game.localize("herodotus.utils.currentlybanned"));
             }
     }
+}
+
+val stagedMobs as string[] = [];
+
+for id in stagedMobs {
+    //MobStages.addStage("locked", id);
 }
