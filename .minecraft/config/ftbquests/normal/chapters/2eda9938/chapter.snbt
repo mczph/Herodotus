@@ -1,0 +1,18 @@
+{
+	title: "三阶",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				augment: {},
+				energy: {
+					energy: 300L
+				}
+			},
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumicaugmentation:augment_caster_rift_energy_storage"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

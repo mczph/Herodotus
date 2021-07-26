@@ -1,0 +1,105 @@
+{
+	title: "基础热力热熔机",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:basic_thermal_melting_machine"
+		}
+	},
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"75dea0ce"
+	],
+	tasks: [{
+		uid: "f04e4091",
+		type: "item",
+		items: [{
+			item: "hdsutils:basic_thermal_melting_machine_controller"
+		}]
+	},
+	{
+		uid: "f1b2b70d",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts"
+		}],
+		count: 6L
+	},
+	{
+		uid: "213bb606",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "20c19b59",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 4L
+	},
+	{
+		uid: "8d778e55",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_glass"
+		}],
+		count: 12L
+	},
+	{
+		uid: "0f024115",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "bf6f1dae",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "1e632500",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "5569d101",
+		type: "item",
+		items: [{
+			item: "modularmagic:blockaspectprovideroutput"
+		}]
+	},
+	{
+		uid: "5a5c0785",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	},
+	{
+		uid: "71e41f86",
+		type: "item",
+		items: [{
+			item: "modulardiversity:blockhotairinputhatch"
+		}]
+	},
+	{
+		uid: "e521b6f0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	}]
+}

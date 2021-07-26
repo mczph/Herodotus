@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"0e069dad"
+	],
+	tasks: [{
+		uid: "0dcc7815",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rhythmic_seed"
+		}]
+	}]
+}
