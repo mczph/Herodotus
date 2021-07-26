@@ -1,4 +1,5 @@
 #packmode normal
+#suppress warnings
 #priority -1
 
 import mods.factorytech.Disassembler;
