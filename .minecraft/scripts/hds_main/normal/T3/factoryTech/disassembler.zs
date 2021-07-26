@@ -8,8 +8,6 @@ import scripts.hds_lib.crtlib.allVanillaMobClassNames;
 if(!isInvalid){
 
 for names in allVanillaMobClassNames{
-    //TODO after rhyseed
-    // Disassembler.addRecipe(names, <contenttweaker:rhythmic_seed>);
+    Disassembler.addRecipe(names, <contenttweaker:rhythmic_seed>);
 }
-
 }
