@@ -31,4 +31,11 @@ RecipeBuilder.newBuilder("btmm_yellow", "basic_thermal_melting_machine", 10)
     .addFluidInput(<liquid:yellow_t2> * 200)
     .addAspectOutput("aer", 200)
     .build();
+
+RecipeBuilder.newBuilder("btmm_perdotio", "basic_thermal_melting_machine", 10)
+    .addItemInput(<contenttweaker:rhythmic_seed>)
+    .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]}))
+    .addHotAirInput(250, maxInt, 250)
+    .addAspectOutput("perditio", 200)
+    .build();
 }
