@@ -26,4 +26,12 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworkstumps:workstump_designer>)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+      [<ore:plateQuartz>, <ore:plateQuartz>, <ore:plateQuartz>],
+      [<ore:lightPlateLead>, <artisanworkstumps:workstump_engineer>, <ore:lightPlateLead>],
+      [<pyrotech:refractory_brick_block>, <ore:lightPlateLead>, <pyrotech:refractory_brick_block>]])
+  .addOutput(<artisanworktables:worktable:6>)
+  .addTool(<ore:artisansSpanner>, 50)
+  .create();
 }
