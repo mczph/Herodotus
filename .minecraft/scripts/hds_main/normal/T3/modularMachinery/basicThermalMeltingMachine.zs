@@ -38,4 +38,12 @@ RecipeBuilder.newBuilder("btmm_perdotio", "basic_thermal_melting_machine", 10)
     .addHotAirInput(250, maxInt, 250)
     .addAspectOutput("perditio", 200)
     .build();
+
+RecipeBuilder.newBuilder("btmm_fluid_aspect", "basic_thermal_melting_machine", 10)
+    .addItemInput(<contenttweaker:rhythmic_seed>)
+    .addFluidInput(<liquid:flux_goo> * 200)
+    .addHotAirInput(250, maxInt, 250)
+    .addAspectOutput("vitium", 200)
+    .addFluidOutput(<liquid:unstable_aura>, 200)
+    .build();
 }

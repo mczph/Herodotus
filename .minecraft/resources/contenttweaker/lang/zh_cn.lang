@@ -40,6 +40,7 @@ fluid.spherical_plastic=塑料混合熔融球形
 fluid.molten_river_copper=熔融河铜
 fluid.molten_river_iron=熔融河铁
 fluid.molten_river_nickel=熔融河镍
+fluid.unstable_aura=不稳定灵气
 
 #MSH
 contenttweaker.part.rhombus=%s菱形

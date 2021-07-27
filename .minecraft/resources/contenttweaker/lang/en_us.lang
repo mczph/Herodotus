@@ -37,6 +37,7 @@ fluid.spherical_plastic=Plastic Mixed Molten Spherical
 fluid.molten_river_copper=Molten River Copper
 fluid.molten_river_iron=Molten River Iron
 fluid.molten_river_nickel=Molten River Nickel
+fluid.unstable_aura=Unstable Aura
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus
