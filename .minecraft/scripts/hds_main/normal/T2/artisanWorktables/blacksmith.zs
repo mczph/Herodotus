@@ -54,9 +54,9 @@ RecipeBuilder.get("blacksmith")
 
 RecipeBuilder.get("blacksmith")
   .setShaped([
-    [<ore:ingotLead>, <ore:plateLead>, <ore:ingotLead>],
+    [<ore:ingotLead>, <ore:lightPlateLead>, <ore:ingotLead>],
     [<ore:lightPlateIron>, <pyrotech:refractory_brick_block>, <ore:lightPlateIron>],
-    [<ore:ingotLead>, <ore:plateLead>, <ore:ingotLead>]])
+    [<ore:ingotLead>, <ore:lightPlateLead>, <ore:ingotLead>]])
   .addTool(<contenttweaker:hot_air_solderer>, 60)
   .addOutput(<magneticraft:multiblock_column> * 6)
   .create();
