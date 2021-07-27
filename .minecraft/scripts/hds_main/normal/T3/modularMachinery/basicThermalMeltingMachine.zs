@@ -5,11 +5,10 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
+import scripts.hds_lib.crtlib.maxInt;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
-
-val maxInt as int = 2147483647;
 
 RecipeBuilder.newBuilder("btmm_red", "basic_thermal_melting_machine", 10)
     .addItemInput(<contenttweaker:rhythmic_seed>)
@@ -45,5 +44,13 @@ RecipeBuilder.newBuilder("btmm_fluid_aspect", "basic_thermal_melting_machine", 1
     .addHotAirInput(250, maxInt, 250)
     .addAspectOutput("vitium", 200)
     .addFluidOutput(<liquid:unstable_aura>, 200)
+    .build();
+
+RecipeBuilder.newBuilder("btmm_fluid_aspect", "basic_thermal_melting_machine", 10)
+    .addItemInput(<contenttweaker:rhythmic_seed>)
+    .addItemInput(<ore:dirt>, 128)
+    .addFluidInput(<liquid:unstable_aura> * 200)
+    .addHotAirInput(250, maxInt, 250)
+    .addAspectOutput("terra", 200)
     .build();
 }

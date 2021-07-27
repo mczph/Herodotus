@@ -11,7 +11,7 @@ val toRemove as IItemStack[] = [
     <thaumcraft:tube_restrict>,
     <thaumcraft:tube_oneway>,
     <thaumcraft:tube_filter>,
-    <thaumcraft:filter>,
+    <thaumcraft:filter>*2,
     <thaumcraft:condenser_lattice>
 ];
 

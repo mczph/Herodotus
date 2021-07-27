@@ -5,11 +5,11 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
+import scripts.hds_lib.crtlib.maxInt;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
-val maxInt as int = 2147483647;
 
 RecipeBuilder.newBuilder("brass", "aspect_blast_furnace", 240)
     .addItemInput(<ore:ingotCopper>)

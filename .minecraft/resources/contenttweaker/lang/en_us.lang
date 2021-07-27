@@ -18,6 +18,7 @@ item.contenttweaker.sticky_gel.name=Sticky Gel
 item.contenttweaker.impure_gel.name=Impure Gel
 item.contenttweaker.wood_feature_crystal.name=Organic Crystal
 item.contenttweaker.rhythmic_seed.name=Rhythmic Seed
+item.contenttweaker.bottled_aura.name=Bottled Aura
 
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame
