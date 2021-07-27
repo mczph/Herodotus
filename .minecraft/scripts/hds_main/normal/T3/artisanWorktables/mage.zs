@@ -61,4 +61,11 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansGrimoire>, 50)
   .addOutput(<thaumcraft:condenser_lattice>)
   .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<ore:sphericalTierTwoBlue>])
+  .setFluid(<liquid:water> * 500)
+  .addTool(<ore:artisansGemCutter>, 50)
+  .addOutput(<ore:clumpSilver>.materialPart)
+  .create();
 }
