@@ -26,7 +26,7 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworkstumps:workstump_designer>)
   .create();
 
-RecipeBuilder.get("engineer")
+RecipeBuilder.get("basic")
   .setShaped([
       [<ore:plateQuartz>, <ore:plateQuartz>, <ore:plateQuartz>],
       [<ore:lightPlateLead>, <artisanworkstumps:workstump_engineer>, <ore:lightPlateLead>],

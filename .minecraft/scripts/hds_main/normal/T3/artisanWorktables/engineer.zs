@@ -22,7 +22,7 @@ RecipeBuilder.get("engineer")
     [<ore:lightPlateBronze>, null, <ore:lightPlateBronze>],
     [<ore:lightPlateBronze>, <pyrotech:brick_oven>, <ore:lightPlateBronze>]])
   .addTool(<contenttweaker:hot_air_solderer>, 800)
-  .addOutput(<hdsutils:brass_blast_furnace_controller>)
+  .addOutput(<hdsutils:aspect_blast_furnace_controller>)
   .create();
 
 RecipeBuilder.get("engineer")
