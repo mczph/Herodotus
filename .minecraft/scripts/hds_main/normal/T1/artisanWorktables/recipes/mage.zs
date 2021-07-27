@@ -56,7 +56,7 @@ val temp = RecipeBuilder.get("mage")
 
 val array as int[] = [1, 2, 4, 8, 4, 2, 1];
 for i, n in array {
-    temp.addOutput(<ore:dustTinyGlimmerite>.materialPart * (i + 1), n);
+    temp.addOutput(<ore:dustTinyGlimmerite>.materialPart * (i + 4), n);
 }
 temp.create();
 
