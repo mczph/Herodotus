@@ -9,4 +9,13 @@ if(!isInvalid){
     RecipeUtils.recipeTweak(false, <thaumicaugmentation:glass_tube>, [
         [<thaumcraft:tube>, <thaumcraft:tube>, <thaumcraft:tube>, <thaumcraft:tube>, <ore:blockGlass>]
     ]);
+    RecipeUtils.recipeTweak(false, <thaumcraft:tube_restrict>, [
+        [<thaumcraft:tube>, <ore:string>]
+    ]);
+    RecipeUtils.recipeTweak(false, <thaumcraft:tube_oneway>, [
+        [<thaumcraft:tube>, <ore:dustBlue>]
+    ]);
+    RecipeUtils.recipeTweak(false, <thaumcraft:tube_filter>, [
+        [<thaumcraft:tube>, <thaumcraft:filter>]
+    ]);
 }

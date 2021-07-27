@@ -43,4 +43,22 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansAthame>, 30)
   .addOutput(<modularmagic:blockaspectprovideroutput>)
   .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:ingotGold>, <thaumadditions:brass_plated_silverwood>, <ore:ingotGold>]])
+  .setFluid(<liquid:mercury> * 1000)
+  .addTool(<ore:artisansGrimoire>, 30)
+  .addOutput(<thaumcraft:filter> * 2)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:gemQuartz>, <ore:lightPlateLead>, <ore:gemQuartz>],
+    [<ore:gemQuartz>, <thaumcraft:filter>, <ore:gemQuartz>],
+    [<ore:gemQuartz>, <ore:lightPlateLead>, <ore:gemQuartz>]])
+  .setFluid(<liquid:mercury> * 2000)
+  .addTool(<ore:artisansGrimoire>, 50)
+  .addOutput(<thaumcraft:condenser_lattice>)
+  .create();
 }

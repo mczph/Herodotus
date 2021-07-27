@@ -7,7 +7,12 @@ import crafttweaker.item.IItemStack;
 
 val toRemove as IItemStack[] = [
     <thaumcraft:tube>,
-    <thaumicaugmentation:glass_tube>
+    <thaumicaugmentation:glass_tube>,
+    <thaumcraft:tube_restrict>,
+    <thaumcraft:tube_oneway>,
+    <thaumcraft:tube_filter>,
+    <thaumcraft:filter>,
+    <thaumcraft:condenser_lattice>
 ];
 
 

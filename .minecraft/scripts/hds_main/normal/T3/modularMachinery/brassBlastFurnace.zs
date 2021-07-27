@@ -11,12 +11,20 @@ if(!isInvalid){
 
 val maxInt as int = 2147483647;
 
-RecipeBuilder.newBuilder("brass", "brass_blast_furnace", 360)
+RecipeBuilder.newBuilder("brass", "brass_blast_furnace", 240)
     .addItemInput(<ore:ingotCopper>)
     .addHotAirInput(250, maxInt, 250)
     .addFluidInput(<liquid:yellow_t2> * 500)
     .addAspectInput("aer", 25)
     .addAspectInput("ignis", 25)
     .addItemOutput(<thaumcraft:ingot:2>)
+    .build();
+
+RecipeBuilder.newBuilder("brass_plank", "brass_blast_furnace", 200)
+    .addItemInput(<thaumcraft:plank_silverwood>)
+    .addHotAirInput(250, maxInt, 250)
+    .addFluidInput(<liquid:brass> * 36)
+    .addAspectInput("ignis", 10)
+    .addItemOutput(<thaumadditions:brass_plated_silverwood>)
     .build();
 }
