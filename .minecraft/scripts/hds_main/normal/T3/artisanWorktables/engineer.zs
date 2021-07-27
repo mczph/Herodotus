@@ -24,4 +24,22 @@ RecipeBuilder.get("engineer")
   .addTool(<contenttweaker:hot_air_solderer>, 800)
   .addOutput(<hdsutils:brass_blast_furnace_controller>)
   .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIronCompressed>, null, <ore:ingotIronCompressed>],
+    [null, <ore:clumpBlue>, null],
+    [<ore:ingotIronCompressed>, <pneumaticcraft:omnidirectional_hopper>, <ore:ingotIronCompressed>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 300)
+  .addOutput(<modularmachinery:blockinputbus:1>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIronCompressed>, null, <ore:ingotIronCompressed>],
+    [null, <ore:clumpYellow>, null],
+    [<ore:ingotIronCompressed>, <pneumaticcraft:omnidirectional_hopper>, <ore:ingotIronCompressed>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 300)
+  .addOutput(<modularmachinery:blockoutputbus:1>)
+  .create();
 }
