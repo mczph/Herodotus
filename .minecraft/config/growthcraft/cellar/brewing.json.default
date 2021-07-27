@@ -69,12 +69,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Apple Cider",
+        "comment": "Æ»¹û¾Æ",
         "name": "fluid_booze_apple_cider_fermented",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Apple Cider",
+        "comment": "Æ»¹û¾Æ",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
@@ -86,12 +86,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Apple Cider",
+        "comment": "Æ»¹û¾Æ",
         "name": "fluid_booze_apple_cider_potent",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Apple Cider",
+        "comment": "Æ»¹û¾Æ",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
@@ -103,12 +103,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Apple Cider",
+        "comment": "Æ»¹û¾Æ",
         "name": "fluid_booze_apple_cider_extended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Apple Cider",
+        "comment": "Æ»¹û¾Æ",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
@@ -120,12 +120,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Silken Nectar",
+        "comment": "ÏÉâÍÃÜ¾Æ",
         "name": "fluid_booze_apple_cider_ethereal",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Apple Cider",
+        "comment": "Æ»¹û¾Æ",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
@@ -137,12 +137,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Apple Cider",
+        "comment": "Æ»¹û¾Æ",
         "name": "fluid_booze_apple_cider_intoxicated",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Apple Cider",
+        "comment": "Æ»¹û¾Æ",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
@@ -154,12 +154,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Apple Cider",
+        "comment": "Æ»¹û¾Æ",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Apple Cider",
+        "comment": "Æ»¹û¾Æ",
         "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
@@ -624,12 +624,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Mead",
+        "comment": "·äÃÛ¾Æ",
         "name": "fluid_booze_mead_fermented",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Mead",
+        "comment": "·äÃÛ¾Æ",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
@@ -641,12 +641,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Extended Mead",
+        "comment": "³¤Ð§·äÃÛ¾Æ",
         "name": "fluid_booze_mead_extended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Mead",
+        "comment": "·äÃÛ¾Æ",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
@@ -658,12 +658,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Potent Mead",
+        "comment": "Å¨·äÃÛ¾Æ",
         "name": "fluid_booze_mead_potent",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Mead",
+        "comment": "·äÃÛ¾Æ",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
@@ -675,12 +675,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Magical Mead",
+        "comment": "ÔÌÄ§·äÃÛ¾Æ",
         "name": "fluid_booze_mead_ethereal",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Mead",
+        "comment": "·äÃÛ¾Æ",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
@@ -692,12 +692,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Intoxicated Mead",
+        "comment": "×íÈËµÄ·äÃÛ¾Æ",
         "name": "fluid_booze_mead_intoxicated",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Mead",
+        "comment": "·äÃÛ¾Æ",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
@@ -709,12 +709,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Mead",
+        "comment": "·äÃÛ¾Æ",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Mead",
+        "comment": "·äÃÛ¾Æ",
         "name": "fluid_booze_mead_poisoned",
         "amount": 40
       },
@@ -726,7 +726,7 @@
       "comment": "",
       "item": {
         "ore": null,
-        "comment": "Rice",
+        "comment": "µ¾Ã×",
         "mod_id": "growthcraft_rice",
         "name": "rice",
         "amount": 1,
@@ -738,14 +738,14 @@
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Rice Water",
+        "comment": "Çå¾Æ·¢½Í»ù",
         "name": "fluid_booze_sake_water",
         "amount": 200
       },
       "residue": {
         "pomace": 1.0,
         "ore": null,
-        "comment": "Cooked Rice",
+        "comment": "³´·¹",
         "mod_id": "growthcraft_rice",
         "name": "rice_cooked",
         "amount": 1,
@@ -765,12 +765,12 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Rice Water",
+        "comment": "Çå¾Æ·¢½Í»ù",
         "name": "fluid_booze_sake_water",
         "amount": 250
       },
       "output_fluid": {
-        "comment": "Sake Mash",
+        "comment": "Î´·¢½ÍµÄÇå¾Æ",
         "name": "fluid_booze_sake_mash",
         "amount": 250
       },
@@ -797,12 +797,12 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Rice Water",
+        "comment": "Çå¾Æ·¢½Í»ù",
         "name": "fluid_booze_sake_water",
         "amount": 250
       },
       "output_fluid": {
-        "comment": "Sake Mash",
+        "comment": "Î´·¢½ÍµÄÇå¾Æ",
         "name": "fluid_booze_sake_mash",
         "amount": 250
       },
@@ -822,12 +822,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_fermented",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
@@ -839,12 +839,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_potent",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
@@ -856,12 +856,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_extended",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
@@ -873,12 +873,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_hyperextended",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
@@ -890,12 +890,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_potent_extended",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
@@ -907,12 +907,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_potent_hyperextended",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
@@ -924,12 +924,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
       "output_fluid": {
-        "comment": "Sake",
+        "comment": "Çå¾Æ",
         "name": "fluid_booze_sake_poisoned",
         "amount": 200
       },
