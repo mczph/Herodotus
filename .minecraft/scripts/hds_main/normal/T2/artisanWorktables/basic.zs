@@ -17,4 +17,13 @@ RecipeBuilder.get("basic")
   .addOutput(<factorytech:crate>)
   .create();
 
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:plasticLightBlue>, <ore:plasticLightBlue>, <ore:plasticLightBlue>],
+    [<ore:paper>, <pyrotech:worktable>, <ore:paper>],
+    [<ore:logWood>, <pyrotech:stash>, <ore:logWood>]])
+  .addTool(<ore:artisansFramingHammer>, 40)
+  .addOutput(<artisanworkstumps:workstump_designer>)
+  .create();
+
 }
