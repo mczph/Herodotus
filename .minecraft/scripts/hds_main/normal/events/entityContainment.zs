@@ -11,7 +11,7 @@ import crafttweaker.world.IBlockPos;
 
 import scripts.hds_main.utils.modloader.isInvalid;
 
-static result as string = <entity:thaumcraft:inhabitedzombie>.name;
+static result as string = <entity:srparasites:movingflesh>.name;
 if(!isInvalid){
 	
 events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
