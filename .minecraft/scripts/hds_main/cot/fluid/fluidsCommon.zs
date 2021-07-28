@@ -17,3 +17,4 @@ CotUtils.addFluid("molten_river_nickel", 0x7d7d7d, 1000, 1000, 1000, 14, true);
 CotUtils.addFluid("molten_river_iron", 0xc0c0c0, 1000, 1000, 1000, 14, true);
 CotUtils.addFluid("molten_river_copper", 0x845200, 1000, 1000, 1000, 14, true);
 CotUtils.addFluid("unstable_aura", 0xbecbf3, 1000, 1000, 1000, 2000, false);
+CotUtils.addFluid("unstable_mutation_agent", 0xaf1ad2, 1000, 1000, 1000, 2000, false);

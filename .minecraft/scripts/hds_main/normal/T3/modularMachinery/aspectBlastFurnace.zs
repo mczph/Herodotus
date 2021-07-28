@@ -27,4 +27,10 @@ RecipeBuilder.newBuilder("brass_plank", "aspect_blast_furnace", 200)
     .addAspectInput("ignis", 10)
     .addItemOutput(<thaumadditions:brass_plated_silverwood>)
     .build();
+RecipeBuilder.newBuilder("brass_plank", "aspect_blast_furnace", 200)
+    .addHotAirInput(250, maxInt, 250)
+    .addFluidInput(<liquid:unstable_aura> * 300)
+    .addAspectInput("vitium", 200)
+    .addFluidOutput(<liquid:unstable_mutation_agent> * 500)
+    .build();
 }
