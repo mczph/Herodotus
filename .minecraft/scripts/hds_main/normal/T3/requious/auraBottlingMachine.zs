@@ -1,11 +1,15 @@
 #packmode normal
 #priority -1
 
+import crafttweaker.world.IWorld;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
-import mods.requious.ComponentFace;
+
 import mods.requious.SlotVisual;
+import mods.requious.ComponentFace;
 import mods.requious.AssemblyRecipe;
+import mods.requious.MachineContainer;
+
 import scripts.hds_lib.crtlib.maxInt;
 import scripts.hds_main.utils.modloader.isInvalid;
 
@@ -26,12 +30,15 @@ abm.setItemSlot(7,3, ComponentFace.back(), 64)
     .pushItem(1)
     .setGroup("output");
 
-if(!isInvalid){
+if(!isInvalid) {
 
 var bottledAura = AssemblyRecipe.create(function(container) {
-    container.addItemOutput("output", <contenttweaker:bottled_aura>);})
-        .requireItem("input", <thaumcraft:phial>)
-        .requireFluid("input", <liquid:unstable_aura> * 1000);
+    var machine as MachineContainer = container.machine;
+    var world as IWorld = machine.world;
+    container.addItemOutput("output", <contenttweaker:bottled_aura>);
+    world.addFlux(machine.pos, world.random.nextInt(3, 5));
+    }).requireItem("input", <thaumcraft:phial>)
+    .requireFluid("input", <liquid:unstable_aura> * 1000);
 
 
 abm.addRecipe(bottledAura);
