@@ -121,6 +121,7 @@ molten_river_nickel                               (contenttweaker:molten_river_n
 molten_river_iron                                 (contenttweaker:molten_river_iron)                                               = ÈÛÈÚºÓÌú
 molten_river_copper                               (contenttweaker:molten_river_copper)                                             = ÈÛÈÚºÓÍ­
 unstable_aura                                     (contenttweaker:unstable_aura)                                                   = ²»ÎÈ¶¨ÁéÆø
+unstable_mutation_agent                           (contenttweaker:unstable_mutation_agent)                                         = fluid.unstable_mutation_agent
 red                                               (contenttweaker:red_molten)                                                      = ÈÛÈÚºìÉ«
 blue                                              (contenttweaker:blue_molten)                                                     = ÈÛÈÚÀ¶É«
 yellow                                            (contenttweaker:yellow_molten)                                                   = ÈÛÈÚ»ÆÉ«
