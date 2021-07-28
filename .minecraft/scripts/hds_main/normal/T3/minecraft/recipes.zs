@@ -6,7 +6,7 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
-    RecipeUtils.recipeTweak(false, <thaumicaugmentation:glass_tube>, [
+    RecipeUtils.recipeTweak(false, <thaumicaugmentation:glass_tube> * 4, [
         [<thaumcraft:tube>, <thaumcraft:tube>, <thaumcraft:tube>, <thaumcraft:tube>, <ore:blockGlass>]
     ]);
     RecipeUtils.recipeTweak(false, <thaumcraft:tube_restrict>, [

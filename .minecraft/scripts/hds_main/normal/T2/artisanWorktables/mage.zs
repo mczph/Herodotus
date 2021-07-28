@@ -16,4 +16,11 @@ if (!isInvalid){
     .setFluid(<liquid:mercury> * 1000)
     .addOutput(<contenttweaker:infinite_water_upgrade_module>)
     .create();
+
+    RecipeBuilder.get("mage")
+    .setShapeless([<ore:sphericalTierTwoBlue>])
+    .setFluid(<liquid:water> * 500)
+    .addTool(<ore:artisansGrimoire>, 15)
+    .addOutput(<ore:gemChippedSilver>.materialPart)
+    .create();
 }

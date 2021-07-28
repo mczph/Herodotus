@@ -10,4 +10,6 @@ Crucible.addRecipe(<liquid:yellow_t2> * 500, <ore:clumpYellow>, false);
 Crucible.addRecipe(<liquid:red_t2> * 500, <ore:clumpRed>, false);
 Crucible.addRecipe(<liquid:blue_t2> * 500, <ore:clumpBlue>, false);
 Crucible.addRecipe(<liquid:brass> * 144, <ore:ingotBrass>, false);
+Crucible.addRecipe(<liquid:silver> * 144, <ore:gemChippedSilver>, false);
+Crucible.addRecipe(<liquid:mercury> * 250, <ore:sphericalTierTwoYellow>, false);
 }
