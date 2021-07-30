@@ -50,7 +50,7 @@ fleshBolus.onItemUpdate = function(itemStack, world, owner, slot, isSelected) {
     }
 };
 fleshBolus.onItemUse = function(player, world, pos, hand, facing, blockHit) {
-    if(!world.remote && world.getBlockState(pos) == <block:thaumcraft:crucible>) {
+    if(!world.remote && world.getBlockState(pos) == <block:minecraft:cauldron>) {
         world.setBlockState(<block:bloodmagic:altar>, pos);
         return ActionResult.success();
     }
