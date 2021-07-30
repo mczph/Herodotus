@@ -19,7 +19,7 @@ item.contenttweaker.impure_gel.name=Impure Gel
 item.contenttweaker.wood_feature_crystal.name=Organic Crystal
 item.contenttweaker.rhythmic_seed.name=Rhythmic Seed
 item.contenttweaker.bottled_aura.name=Bottled Aura
-item.contenttweaker.flesh_bolus=Flesh Bolus
+item.contenttweaker.flesh_bolus.name=Flesh Bolus
 
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame

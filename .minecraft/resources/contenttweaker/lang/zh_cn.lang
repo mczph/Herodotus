@@ -22,7 +22,7 @@ item.contenttweaker.impure_gel.name=含杂凝胶质
 item.contenttweaker.wood_feature_crystal.name=有机晶体
 item.contenttweaker.rhythmic_seed.name=律动种子
 item.contenttweaker.bottled_aura.name=瓶装灵气
-item.contenttweaker.flesh_bolus=血肉块
+item.contenttweaker.flesh_bolus.name=血肉块
 
 tile.contenttweaker.altar.name=日月祭坛
 tile.contenttweaker.starlight_frame.name=星光框架
