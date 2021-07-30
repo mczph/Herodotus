@@ -131,3 +131,5 @@ herodotus.quests.2eda9938.title=三阶
 herodotus.quests.cbf24504.text.1=通过替换蒸汽锅炉结构中的特定方块，可以给蒸汽锅炉提供无限水
 
 tile.aura_bottling_machine.name=Aura Bottling Machine
+
+requious.jei.recipe.aura_bottling_machine=Aura Bottling
