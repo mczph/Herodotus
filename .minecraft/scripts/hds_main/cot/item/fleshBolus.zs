@@ -9,11 +9,12 @@ import crafttweaker.entity.IEntityXp;
 import crafttweaker.entity.IEntityItem;
 
 import mods.contenttweaker.VanillaFactory;
-import mods.contenttweaker.Item;
+import mods.contenttweaker.ActionResult;
+import mods.zenutils.cotx.Item;
 import mods.ctutils.utils.Math;
 import mods.hdsutils.HDSUtils;
 
-var fleshBolus as Item = VanillaFactory.createItem("flesh_bolus");
+var fleshBolus as Item = VanillaFactory.createExpandItem("flesh_bolus");
 fleshBolus.onItemUpdate = function(itemStack, world, owner, slot, isSelected) {
     if(!world.remote && world.random.nextInt(100000) <= 1 && owner instanceof IPlayer) {
         itemStack.shrink(1);
@@ -47,5 +48,12 @@ fleshBolus.onItemUpdate = function(itemStack, world, owner, slot, isSelected) {
             );
 
     }
+};
+fleshBolus.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    if(!world.remote && world.getBlockState(pos) == <block:thaumcraft:crucible>) {
+        world.setBlockState(<block:bloodmagic:altar>, pos);
+        return ActionResult.success();
+    }
+    return ActionResult.pass();
 };
 fleshBolus.register();
