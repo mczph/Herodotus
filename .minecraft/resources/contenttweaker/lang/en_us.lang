@@ -20,6 +20,7 @@ item.contenttweaker.wood_feature_crystal.name=Organic Crystal
 item.contenttweaker.rhythmic_seed.name=Rhythmic Seed
 item.contenttweaker.bottled_aura.name=Bottled Aura
 item.contenttweaker.flesh_bolus.name=Flesh Bolus
+item.contenttweaker.biological_resources.name=Biological Resources
 
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame
