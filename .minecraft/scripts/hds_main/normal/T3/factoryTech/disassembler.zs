@@ -10,4 +10,5 @@ if(!isInvalid){
 for entity in game.entities{
     Disassembler.add(entity, [<contenttweaker:rhythmic_seed>]);
 }
+Disassembler.add(<entity:srparasites:movingflesh>, [<contenttweaker:biological_resources>]);
 }

@@ -15,9 +15,10 @@ val thaums as string[] = [
     "tg", "thaumictinkerer", "thaumicwonders"
 ];
 
-for mod in thaums{
+for mod in thaums {
     for item in loadedMods[mod].items {
-        Worktable.removeRecipes(item);
+        var temp as IIngredient = item;
+        Worktable.removeRecipes(temp);
     }
 }
 }
