@@ -2,7 +2,7 @@
   {
     "resourceName": "aura_bottling_machine",
     "model": "herodotus:aura_bottling_machine",
-    "placeType": "Any",
+    "placeType": "Up",
     "hasGUI": true,
     "colorA": {
       "r": 255,

@@ -3,13 +3,14 @@
     "defaults": {
       "model": "herodotus:machine",
       "textures": {
-        "0": "placeholder",
-        "up": "placeholder",
-        "north": "placeholder",
-        "east": "placeholder",
-        "south": "placeholder",
-        "west": "placeholder",
-        "particle": "placeholder"
+        "0": "herodotus:blocks/aura_bottling_machine-front",
+        "up": "herodotus:blocks/aura_bottling_machine-top",
+        "down": "herodotus:blocks/aura_bottling_machine-bottom",
+        "north": "herodotus:blocks/aura_bottling_machine-front",
+        "east": "herodotus:blocks/aura_bottling_machine-side",
+        "south": "herodotus:blocks/aura_bottling_machine-side",
+        "west": "herodotus:blocks/aura_bottling_machine-side",
+        "particle": "herodotus:blocks/aura_bottling_machine-side"
       },
       "transform": "forge:default-block"
     },
