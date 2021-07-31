@@ -1,0 +1,3 @@
+identifier = hdsinfo
+title = 
+allowesc = true

@@ -1,0 +1,181 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/mainmenu/bg.png
+  action = texturizebackground
+}
+
+customization {
+  orientation = top-right
+  buttonaction = opengui
+  x = -192
+  width = 177
+  actionid = 26b559a0-13fa-42c2-a05e-b7bd49e7b9161627728231959
+  action = addbutton
+  y = 39
+  backgroundhovered = resources/mainmenu/singleplayer_hover.png
+  label = 
+  backgroundnormal = resources/mainmenu/singleplayer.png
+  value = net.minecraft.client.gui.GuiWorldSelection
+  height = 47
+}
+
+customization {
+  orientation = top-right
+  buttonaction = opengui
+  x = -174
+  width = 91
+  actionid = 167b3398-eb5e-4bb2-9a81-db57d4daf6ea1627728231959
+  action = addbutton
+  y = 92
+  backgroundhovered = resources/mainmenu/multiplayer_hover.png
+  label = 
+  backgroundnormal = resources/mainmenu/multiplayer.png
+  value = net.minecraft.client.gui.GuiMultiplayer
+  height = 38
+}
+
+customization {
+  orientation = top-right
+  buttonaction = opengui
+  x = -78
+  width = 57
+  actionid = c7af7317-5af3-419c-a6e9-fc797310b1fb1627728231959
+  action = addbutton
+  y = 92
+  backgroundhovered = resources/mainmenu/realms_hover.png
+  label = 
+  backgroundnormal = resources/mainmenu/realms.png
+  value = net.minecraft.client.gui.GuiScreenRealmsProxy
+  height = 38
+}
+
+customization {
+  orientation = top-right
+  buttonaction = opengui
+  x = -165
+  width = 58
+  actionid = 339c3471-09ad-49bd-a8e3-5fdfd381541a1627728231960
+  action = addbutton
+  y = 134
+  backgroundhovered = resources/mainmenu/settings_hover.png
+  label = 
+  backgroundnormal = resources/mainmenu/settings.png
+  value = net.minecraft.client.gui.GuiOptions
+  height = 38
+}
+
+customization {
+  orientation = top-right
+  buttonaction = opengui
+  x = -104
+  width = 53
+  actionid = a19a7a57-bac3-41e8-a9e9-1625c2f0a9cf1627728231960
+  action = addbutton
+  y = 134
+  backgroundhovered = resources/mainmenu/mods_hover.png
+  label = 
+  backgroundnormal = resources/mainmenu/mods.png
+  value =  net.minecraftforge.fml.client.GuiModList
+  height = 38
+}
+
+customization {
+  orientation = top-right
+  buttonaction = opencustomgui
+  x = -51
+  width = 36
+  actionid = bfe4e3d6-a25a-4267-a43c-a7378f84b2331627728231960
+  action = addbutton
+  y = 134
+  backgroundhovered = resources/mainmenu/about_hover.png
+  label = 
+  backgroundnormal = resources/mainmenu/about.png
+  value = hdsinfo
+  height = 38
+}
+
+customization {
+  orientation = top-right
+  buttonaction = opengui
+  x = -173
+  width = 38
+  actionid = 3b75d93f-282f-4ea3-985a-5763e4cd09331627728231960
+  action = addbutton
+  y = 175
+  backgroundhovered = resources/mainmenu/lang_hover.png
+  label = 
+  backgroundnormal = resources/mainmenu/lang.png
+  value = net.minecraft.client.gui.GuiLanguage
+  height = 38
+}
+
+customization {
+  orientation = top-right
+  buttonaction = quitgame
+  x = -131
+  width = 98
+  actionid = 647a79d4-75f2-4c8f-8703-4cb028893e221627728231960
+  action = addbutton
+  y = 175
+  backgroundhovered = resources/mainmenu/quit_hover.png
+  label = 
+  backgroundnormal = resources/mainmenu/quit.png
+  value = 
+  height = 38
+}
+
+customization {
+  path = resources/mainmenu/title.png
+  orientation = top-left
+  x = 10
+  width = 215
+  actionid = 513b1cf7-b2e7-4e60-a696-c96c636fb83c1627722341969
+  action = addtexture
+  y = 18
+  height = 55
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
