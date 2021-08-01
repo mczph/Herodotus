@@ -1,0 +1,3 @@
+[
+    {"key": "placeholder", "ops": [{ "op": "remove", "path": "key" }]}
+]
