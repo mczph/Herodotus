@@ -8,8 +8,8 @@ if(!isInvalid){
 
 //Remove
 LootTable.removeGlobalItem("botania:lexicon");
-LootTable.removeGlobalItem("minecraft:iron_ore");
 
+LootTable.removeModItem("minecraft");
 LootTable.removeModItem("actuallyadditions");
 LootTable.removeModItem("growthcraft");
 LootTable.removeModTable("tconevo");
