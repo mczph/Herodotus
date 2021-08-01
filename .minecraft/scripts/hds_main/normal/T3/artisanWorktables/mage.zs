@@ -61,4 +61,16 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansGrimoire>, 50)
   .addOutput(<thaumcraft:condenser_lattice>)
   .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([
+    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}),
+    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),
+    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}),
+    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),
+    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}),
+    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})])
+  .addTool(<ore:artisansMortar>, 50)
+  .addOutput(<thaumcraft:salis_mundus> * 7)
+  .create();
 }

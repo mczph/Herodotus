@@ -75,6 +75,12 @@ RecipeUtils.recipeTweak(true, <pneumaticcraft:liquid_hopper>, [
 	[null, <ore:blockGlass>, null]
 ]);
 
+RecipeUtils.recipeTweak(true, <waystones:warp_stone>, [
+	[<ore:dyePurple>, <ore:enderpearl>, <ore:dyePurple>],
+	[<ore:enderpearl>, <ore:crystalLithium>, <ore:enderpearl>],
+	[<ore:dyePurple>, <ore:enderpearl>, <ore:dyePurple>]
+]);
+
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <factorytech:ingot:5>, <*>.only(function(item) {
     return item.definition.owner == "factorytech" && !<factorytech:machinepart:51>.matches(item);
 }));
