@@ -48,7 +48,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>],
     [<ore:ingotIronCompressed>, <modularmachinery:blockinputbus>, <ore:ingotIronCompressed>],
     [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 1)
+  .addTool(<contenttweaker:hot_air_solderer>, 300)
   .addOutput(<modularmachinery:blockinputbus:1>)
   .create();
 
@@ -57,7 +57,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>],
     [<ore:ingotIronCompressed>, <modularmachinery:blockoutputbus>, <ore:ingotIronCompressed>],
     [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 1)
+  .addTool(<contenttweaker:hot_air_solderer>, 300)
   .addOutput(<modularmachinery:blockoutputbus:1>)
   .create();
 
