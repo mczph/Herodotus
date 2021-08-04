@@ -16,9 +16,9 @@ RecipeBuilder.get("mage")
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<thaumcraft:log_silverwood>, <thaumcraft:log_silverwood>, <thaumcraft:log_silverwood>],
+    [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>],
     [<magneticraft:iron_pipe>, <magneticraft:iron_pipe>, <magneticraft:iron_pipe>],
-    [<thaumcraft:log_silverwood>, <thaumcraft:log_silverwood>, <thaumcraft:log_silverwood>]])
+    [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>]])
   .setFluid(<liquid:mercury> * 1000)
   .addTool(<ore:artisansGrimoire>, 30)
   .addOutput(<thaumcraft:tube> * 8)

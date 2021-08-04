@@ -144,7 +144,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "magneticraft:multiblock_parts@3"
+                "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {

@@ -14,4 +14,5 @@ HydraulicPress.addRecipe(<ore:gemChippedNickel>.materialPart, <ore:plateNickel>.
 HydraulicPress.addRecipe(<ore:ingotNickel>.materialPart * 4, <ore:densePlateNickel>.materialPart, 120, 2, true);
 HydraulicPress.addRecipe(<minecraft:quartz>, <ore:plateQuartz>.materialPart, 60, 1, true);
 HydraulicPress.addRecipe(<minecraft:quartz>, <ore:lightPlateQuartz>.materialPart, 60, 0, true);
+HydraulicPress.addRecipe(<ore:ingotBrass>.materialPart, <ore:plateBrass>.materialPart, 60, 1, true);
 }

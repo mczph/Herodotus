@@ -42,4 +42,32 @@ RecipeBuilder.get("engineer")
   .addTool(<contenttweaker:hot_air_solderer>, 300)
   .addOutput(<modularmachinery:blockoutputbus:1>)
   .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>],
+    [<ore:ingotIronCompressed>, <modularmachinery:blockinputbus>, <ore:ingotIronCompressed>],
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 1)
+  .addOutput(<modularmachinery:blockinputbus:1>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>],
+    [<ore:ingotIronCompressed>, <modularmachinery:blockoutputbus>, <ore:ingotIronCompressed>],
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 1)
+  .addOutput(<modularmachinery:blockoutputbus:1>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBrass>, <minecraft:iron_bars>, <ore:plateBrass>],
+    [<thaumadditions:brass_plated_silverwood>, <magneticraft:small_tank>, <thaumadditions:brass_plated_silverwood>],
+    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 450)
+  .addOutput(<requious:aura_bottling_machine>)
+  .create();
+
 }
