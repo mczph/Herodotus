@@ -22,6 +22,16 @@ RecipeBuilder.get("mason")
   .create();
 
 RecipeBuilder.get("mason")
+  .setShaped([
+    [<pyrotech:material:16>, <ore:blockGlass>, <pyrotech:material:16>],
+    [<ore:blockGlass>, null, <ore:blockGlass>],
+    [<pyrotech:material:16>, <ore:blockGlass>, <pyrotech:material:16>],])
+  .addTool(<ore:artisansTrowel>, 20)
+  .setFluid(<liquid:limewater> * 500)
+ .addOutput(<pyrotech:stone_tank>)
+ .create();
+
+RecipeBuilder.get("mason")
   .setShapeless([<ore:crushedOreLead>])
   .addTool(<ore:artisansSifter>, 8)
   .addOutput(<ore:orePurifiedLead>.materialPart)

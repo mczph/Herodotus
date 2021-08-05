@@ -9,4 +9,5 @@ ElectricFurnace.addRecipe(<ore:gemChippedCopper>.materialPart, <ore:squareTierTw
 ElectricFurnace.addRecipe(<ore:gemChippedTin>.materialPart, <ore:sphericalTierTwoBlue>, false);
 ElectricFurnace.addRecipe(<minecraft:coal> * 3, <ore:rhombusTierTwoYellow>, false);
 ElectricFurnace.removeRecipe(<ore:ingotNickel>);
+ElectricFurnace.removeRecipe(<pyrotech:material:5>);
 }

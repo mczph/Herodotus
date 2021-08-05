@@ -8,6 +8,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 //something that recipeutils can't do or just remove
 val removeByOutput as IItemStack[] = [
+    <pyrotech:refractory_glass>,
     <tinker_io:ore_crusher>,
     <tconstruct:smeltery_controller>,
     <mekanism:transmitter>,
@@ -65,6 +66,7 @@ val removeByOutput as IItemStack[] = [
 ];
 
 val removeByRecipeName as string[] = [
+    "pyrotech:storage/brick_tank",
     "pneumaticcraft:pressure_chamber_valve",
     "pneumaticcraft:pressure_chamber_glass",
     "pneumaticcraft:pressure_chamber_interface",
