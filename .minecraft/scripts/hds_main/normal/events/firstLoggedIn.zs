@@ -18,9 +18,9 @@ events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
         player.update({PlayerPersisted : {loggedIn : true as bool}});
         runCommand("tc research " + playerName + " all");
         DelayManager.addDelayWork(function() {
-            runCommand("tc warp" + playerName + " set 0 PERM");
-            runCommand("tc warp" + playerName + " set 0 TEMP");
-            runCommand("clear " + playerName);
+            runCommand("tc warp " + playerName + " set 0 PERM");
+            runCommand("tc warp " + playerName + " set 0 TEMP");
+            // runCommand("clear " + playerName);
         }, 5);
     }
 });
