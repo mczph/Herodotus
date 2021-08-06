@@ -4,6 +4,7 @@
 import crafttweaker.data.IData;
 import crafttweaker.player.IPlayer;
 import crafttweaker.server.IServer;
+import mods.zenutils.DelayManager;
 
 import crafttweaker.event.PlayerLoggedInEvent;
 
@@ -16,9 +17,11 @@ events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
         player.sendChat("1");
         player.update({PlayerPersisted : {loggedIn : true as bool}});
         runCommand("tc research " + playerName + " all");
-        runCommand("tc warp" + playerName + " set 0 PERM");
-        runCommand("tc warp" + playerName + " set 0 TEMP");
-        runCommand("clear " + playerName);
+        DelayManager.addDelayWork(function() {
+            runCommand("tc warp" + playerName + " set 0 PERM");
+            runCommand("tc warp" + playerName + " set 0 TEMP");
+            runCommand("clear " + playerName);
+        }, 5);
     }
 });
 
