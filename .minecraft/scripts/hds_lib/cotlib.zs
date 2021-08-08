@@ -159,7 +159,10 @@ static plainItemIDs as string[] = [
     "impure_gel",
     "wood_feature_crystal",
     "rhythmic_seed",
-    "bottled_aura"
+    "bottled_aura",
+    "broken_ootheca",
+    "resurrected_meat",
+    "active_rune"
 ];
 
 static plainBlockIDs as string[] = [

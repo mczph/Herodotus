@@ -21,6 +21,9 @@ item.contenttweaker.rhythmic_seed.name=Rhythmic Seed
 item.contenttweaker.bottled_aura.name=Bottled Aura
 item.contenttweaker.flesh_bolus.name=Flesh Bolus
 item.contenttweaker.biological_resources.name=Biological Resources
+tile.contenttweaker.broken_ootheca.name=Broken Ootheca
+tile.contenttweaker.resurrected_meat.name=Resurrected Meat
+tile.contenttweaker.active_rune.name=Active Rune
 
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame
@@ -41,6 +44,7 @@ fluid.molten_river_copper=Molten River Copper
 fluid.molten_river_iron=Molten River Iron
 fluid.molten_river_nickel=Molten River Nickel
 fluid.unstable_aura=Unstable Aura
+fluid.taint_nutrition=Taint Nutrition
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus
