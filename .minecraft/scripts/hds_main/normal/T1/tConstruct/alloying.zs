@@ -9,5 +9,5 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
-mods.tconstruct.Alloy.removeRecipe(<liquid:alubrass>);
+Alloy.removeRecipe(<liquid:alubrass>);
 }
