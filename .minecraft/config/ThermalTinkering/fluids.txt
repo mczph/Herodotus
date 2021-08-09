@@ -122,6 +122,7 @@ molten_river_iron                                 (contenttweaker:molten_river_i
 molten_river_copper                               (contenttweaker:molten_river_copper)                                             = 熔融河铜
 unstable_aura                                     (contenttweaker:unstable_aura)                                                   = 不稳定灵气
 unstable_mutation_agent                           (contenttweaker:unstable_mutation_agent)                                         = fluid.unstable_mutation_agent
+taint_nutrition                                   (contenttweaker:taint_nutrition)                                                 = 腐化营养质
 red                                               (contenttweaker:red_molten)                                                      = 熔融红色
 blue                                              (contenttweaker:blue_molten)                                                     = 熔融蓝色
 yellow                                            (contenttweaker:yellow_molten)                                                   = 熔融黄色

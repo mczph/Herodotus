@@ -286,7 +286,6 @@
   "enderio": "5.3.70",
   "thaumcomp": "0.5.1",
   "fastbench": "1.7.3",
-  "loadedmodsexporter": "1.12.2-1.0",
   "storagedrawers": "5.2.2",
   "fluxnetworks": "4.1.0",
   "tinker_io": "rw2.8.3",
