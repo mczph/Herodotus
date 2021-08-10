@@ -53,4 +53,12 @@ RecipeBuilder.newBuilder("btmm_terra", "basic_thermal_melting_machine", 10)
     .addHotAirInput(250, maxInt, 250)
     .addAspectOutput("terra", 40)
     .build();
+
+RecipeBuilder.newBuilder("btmm_victus", "basic_thermal_melting_machine", 10)
+    .addItemInput(<contenttweaker:flesh_bolus>)
+    .addFluidInput(<liquid:taint_nutrition> * 200)
+    .addHotAirInput(250, maxInt, 250)
+    .addAspectOutput("victus", 20)
+    .addAspectOutput("vitium", 40)
+    .build();
 }
