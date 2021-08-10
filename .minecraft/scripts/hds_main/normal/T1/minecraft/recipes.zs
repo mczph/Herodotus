@@ -54,7 +54,7 @@ RecipeUtils.recipeTweak(true, <cookingforblockheads:spice_rack>*2, [
 ]);
 
 RecipeUtils.recipeTweak(true, <pyrotech:anvil_iron_plated>, [
-    [<ore:stoneMarble>, <ore:stoneMarble>, <ore:stoneMarble>],
+    [<enderio:item_alloy_ingot:9>, <enderio:item_alloy_ingot:9>, <enderio:item_alloy_ingot:9>],
     [<minecraft:stone:2>, <minecraft:stone:2>, <minecraft:stone:2>],
     [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
 ]);
@@ -99,13 +99,13 @@ for i in 0 .. 6{
     ]);
 }
 
-recipes.addShaped("flint_pickaxe_2",  <pyrotech:flint_pickaxe>, [
+recipes.addShaped("flint_pickaxe_2", <pyrotech:flint_pickaxe>, [
     [<ore:itemFlint>, <ore:itemFlint>, <ore:itemFlint>],
     [null, <ore:stickWood>],
     [null, <ore:stickWood>]
 ]);
 
-recipes.addShaped("make_gravel", <minecraft:gravel>, [RecipeUtils.createSurround(null, <ore:rock>)]);
+recipes.addShaped("make_gravel", <minecraft:gravel>, RecipeUtils.createSurround(null, <ore:rock>));
 
 recipes.addShapeless("recycle_racks", <minecraft:stick> * 4, [<pyrotech:drying_rack>]);
 
