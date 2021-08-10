@@ -18,7 +18,7 @@ if (!debug) {
         "bloodmagic", "ae2fc", "compactmachines3", "draconicevolution", "efab", "embers",
         "emergingtechnology", "xnet", "thermalinnovation", "requious", "rftoolspower", "rftoolscontrol",
         "rftools", "qmd", "packagedexcrafting", "aenetvistool", "bloodarsenal", "teslathingies", "soot",
-        "packagedauto", "actuallyadditions"
+        "packagedauto", "actuallyadditions", "thaumicenergistics"
     ];
 
     val expect as IItemStack[] = [

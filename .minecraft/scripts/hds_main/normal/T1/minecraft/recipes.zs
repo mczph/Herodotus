@@ -22,7 +22,7 @@ RecipeUtils.recipeTweak(true, <pyrotech:compacting_bin>,[
     [<pyrotech:material:12>, <ore:slabWood>, <pyrotech:material:12>]
 ]);
 
-recipes.addShaped("easy_flint_pickaxe", <pyrotech:flint_pickaxe>, [
+RecipeUtils.recipeTweak(true, <pyrotech:flint_pickaxe>, [
     [<tconstruct:pick_head>.withTag({Material: "flint"}), <pyrotech:material:12>],
     [null, <ore:stickWood>]
 ]);
