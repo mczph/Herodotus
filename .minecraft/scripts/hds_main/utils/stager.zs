@@ -22,8 +22,8 @@ if (!debug) {
     ];
 
     val expect as IItemStack[] = [
-        <emergingtechnology:shreddedplastic>, <advancedrocketry:iquartzcrucible>, <enderio:item_alloy_ingot:9>,
-        <enderio:block_alloy:9>, <enderio:item_alloy_nugget:9>
+        <emergingtechnology:shreddedplastic>, <advancedrocketry:iquartzcrucible>, <ore:ingotConstructionAlloy>.firstItem,
+        <ore:blockConstructionAlloy>.firstItem, <ore:nuggetConstructionAlloy>.firstItem
     ];
 
     for mdfk in stagedModList{

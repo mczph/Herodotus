@@ -22,11 +22,6 @@ RecipeUtils.recipeTweak(true, <pyrotech:compacting_bin>,[
     [<pyrotech:material:12>, <ore:slabWood>, <pyrotech:material:12>]
 ]);
 
-RecipeUtils.recipeTweak(true, <pyrotech:flint_pickaxe>, [
-    [<tconstruct:pick_head>.withTag({Material: "flint"}), <pyrotech:material:12>],
-    [null, <ore:stickWood>]
-]);
-
 RecipeUtils.recipeTweak(true, <artisanworkstumps:workstump_basic>,[
     [<pyrotech:material:16>, <ore:plankWood>, <pyrotech:material:16>],
     [<ore:plankWood>, <pyrotech:worktable>, <ore:plankWood>],
@@ -54,7 +49,7 @@ RecipeUtils.recipeTweak(true, <cookingforblockheads:spice_rack>*2, [
 ]);
 
 RecipeUtils.recipeTweak(true, <pyrotech:anvil_iron_plated>, [
-    [<enderio:item_alloy_ingot:9>, <enderio:item_alloy_ingot:9>, <enderio:item_alloy_ingot:9>],
+    [<ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>],
     [<minecraft:stone:2>, <minecraft:stone:2>, <minecraft:stone:2>],
     [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
 ]);
@@ -99,9 +94,8 @@ for i in 0 .. 6{
     ]);
 }
 
-recipes.addShaped("flint_pickaxe_2", <pyrotech:flint_pickaxe>, [
-    [<ore:itemFlint>, <ore:itemFlint>, <ore:itemFlint>],
-    [null, <ore:stickWood>],
+recipes.addShaped("flint_pickaxe_2",  <pyrotech:flint_pickaxe>, [
+    [<tconstruct:pick_head>.withTag({Material: "flint"}), <pyrotech:material:12>],
     [null, <ore:stickWood>]
 ]);
 
