@@ -24,7 +24,9 @@ herodotus.quests.11a72b92.text.2=从地上物色散落的石块作为工具还�
 herodotus.quests.11a72b92.text.3=不过利用这些石块，慢慢敲碎岩石也不是不可行。
 herodotus.quests.11a72b92.text.4=如果想开采更完整的石材，我需要更好的材料去制作十字镐。
 herodotus.quests.41e72f89.title=滥伐
-herodotus.quests.41e72f89.text.1={herodotus.quests.41e72f89.text.1} herodotus.quests.41e72f89.text.2={herodotus.quests.41e72f89.text.2} herodotus.quests.790b4ffd.text.1=运气很好 我获得了一块相对完整的圆石。
+herodotus.quests.41e72f89.text.1=啊，一块扁平的石块，将其磨利。
+herodotus.quests.41e72f89.text.2=虽然粗糙，但它将是我对树木发起猛攻的第一步。
+herodotus.quests.790b4ffd.text.1=运气很好 我获得了一块相对完整的圆石。
 herodotus.quests.790b4ffd.text.2=虽然它上面有很多裂缝。
 herodotus.quests.790b4ffd.text.3=甚至还有一些被人为粘合的痕迹。
 herodotus.quests.790b4ffd.text.4=我错了，这把镐子才是最难用的工具
@@ -159,4 +161,3 @@ herodotus.quests.cbf24504.text.1=通过替换蒸汽锅炉结构中的特定方�
 
 tile.aura_bottling_machine.name=灵气压瓶机
 requious.jei.recipe.aura_bottling_machine=灵气压瓶
-
