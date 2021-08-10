@@ -1,5 +1,6 @@
 #priority 50000
 
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 import crafttweaker.game.IGame;
 import crafttweaker.mods.ILoadedMods;
@@ -20,6 +21,11 @@ if (!debug) {
         "packagedauto", "actuallyadditions"
     ];
 
+    val expect as IItemStack[] = [
+        <emergingtechnology:shreddedplastic>, <advancedrocketry:iquartzcrucible>, <enderio:item_alloy_ingot:9>,
+        <enderio:block_alloy:9>, <enderio:item_alloy_nugget:9>
+    ];
+
     for mdfk in stagedModList{
             recipes.removeByMod(mdfk);
             ItemStages.stageModItems("locked", mdfk);
@@ -29,10 +35,16 @@ if (!debug) {
                 JEI.addDescription(mdfks, game.localize("herodotus.utils.currentlybanned"));
             }
     }
+    for item in expect {
+        ItemStages.removeItemStage(item);
+    }
+
+    val stagedMobs as string[] = [];
+
+    for id in stagedMobs {
+        //MobStages.addStage("locked", id);
+    }
+
 }
 
-val stagedMobs as string[] = [];
 
-for id in stagedMobs {
-    //MobStages.addStage("locked", id);
-}
