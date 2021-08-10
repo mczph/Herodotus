@@ -1,6 +1,6 @@
 {
-	x: 32.0d,
-	y: 0.0d,
+	x: 22.0d,
+	y: 2.0d,
 	shape: "hexagon3",
 	text: [
 		"{herodotus.quests.52339a93.text.1}",
