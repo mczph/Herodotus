@@ -21,9 +21,10 @@ item.contenttweaker.rhythmic_seed.name=Rhythmic Seed
 item.contenttweaker.bottled_aura.name=Bottled Aura
 item.contenttweaker.flesh_bolus.name=Flesh Bolus
 item.contenttweaker.biological_resources.name=Biological Resources
-tile.contenttweaker.broken_ootheca.name=Broken Ootheca
-tile.contenttweaker.resurrected_meat.name=Resurrected Meat
-tile.contenttweaker.active_rune.name=Active Rune
+item.contenttweaker.broken_ootheca.name=Broken Ootheca
+item.contenttweaker.resurrected_meat.name=Resurrected Meat
+item.contenttweaker.active_rune.name=Active Rune
+item.contenttweaker.culture_medium.name=Culture Medium
 
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame
