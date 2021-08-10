@@ -22,7 +22,8 @@ val removeItems as IItemStack[] = [
     <minecraft:iron_sword>,
     <minecraft:iron_hoe>,
     <ore:gemQuartzBlack>.firstItem,
-    <botania:blacklotus>
+    <botania:blacklotus>,
+    <tconevo:tool_sceptre>
 ];
 
 val removeNames as string[] = [
