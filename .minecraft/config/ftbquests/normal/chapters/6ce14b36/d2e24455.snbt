@@ -1,5 +1,5 @@
 {
-	x: 4.0d,
+	x: 3.0d,
 	y: -6.0d,
 	text: [
 		"{herodotus.quests.d2e24455.text.1}",
@@ -8,6 +8,7 @@
 		"{herodotus.quests.d2e24455.text.4}"
 	],
 	dependencies: [
+		"2d037bb7",
 		"cb1c45db"
 	],
 	optional: true,

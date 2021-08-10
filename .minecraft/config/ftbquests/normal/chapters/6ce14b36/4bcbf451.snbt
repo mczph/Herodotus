@@ -1,6 +1,6 @@
 {
-	x: 14.0d,
-	y: -2.0d,
+	x: 16.0d,
+	y: 1.25d,
 	text: [
 		"{herodotus.quests.4bcbf451.text.1}",
 		"{herodotus.quests.4bcbf451.text.2}"
