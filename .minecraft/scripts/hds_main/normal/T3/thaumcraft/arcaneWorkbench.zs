@@ -19,7 +19,8 @@ val toRemove as IItemStack[] = [
     <thaumcraft:condenser>,
     <thaumcraft:morphic_resonator>,
     <thaumcraft:metal_alchemical>,
-    <thaumcraft:centrifuge>
+    <thaumcraft:centrifuge>,
+    <thaumcraft:mechanism_simple>
 ];
 
 

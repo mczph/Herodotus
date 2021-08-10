@@ -121,4 +121,14 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansGrimoire>, 120)
   .addOutput(<thaumadditions:aspect_combiner>)
   .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <ore:plateBrass>, null],
+    [<contenttweaker:culture_medium>, <ore:stickWood>, <ore:plateBrass>],
+    [<ore:plateIron>, <contenttweaker:resurrected_meat>, null]])
+  .setFluid(<liquid:mercury> * 250)
+  .addTool(<ore:artisansGrimoire>, 10)
+  .addOutput(<thaumcraft:mechanism_simple>)
+  .create();
 }

@@ -54,5 +54,6 @@ RecipeBuilder.newBuilder("metal_alchemical", "aspect_blast_furnace", 240)
     .addItemInput(<thaumcraft:filter>)
     .addAspectInput("ordo", 40)
     .addAspectInput("perditio", 40)
-    .addItemOutput(<thaumcraft:metal_alchemical>);
+    .addItemOutput(<thaumcraft:metal_alchemical>)
+    .build();
 }
