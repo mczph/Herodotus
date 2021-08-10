@@ -57,7 +57,7 @@ RecipeBuilder.get("mage")
     [<ore:gemQuartz>, <ore:lightPlateLead>, <ore:gemQuartz>],
     [<ore:gemQuartz>, <thaumcraft:filter>, <ore:gemQuartz>],
     [<ore:gemQuartz>, <ore:lightPlateLead>, <ore:gemQuartz>]])
-  .setFluid(<liquid:mercury> * 2000)
+  .setFluid(<liquid:mercury> * 1000)
   .addTool(<ore:artisansGrimoire>, 50)
   .addOutput(<thaumcraft:condenser_lattice>)
   .create();
@@ -70,7 +70,55 @@ RecipeBuilder.get("mage")
     <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),
     <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}),
     <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})])
-  .addTool(<ore:artisansMortar>, 50)
+  .addTool(<ore:artisansMortar>, 20)
   .addOutput(<thaumcraft:salis_mundus> * 7)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <ore:ingotGold>, null],
+    [<ore:ingotGold>, <minecraft:glass_pane>, <ore:ingotGold>],
+    [null, <ore:ingotGold>, null]])
+  .addTool(<ore:artisansGrimoire>, 40)
+  .addOutput(<thaumcraft:thaumometer>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:lightPlateIron>, null, <ore:lightPlateIron>],
+    [<ore:lightPlateIron>, <ore:gemFlawedQuartz>, <ore:lightPlateIron>],
+    [null, <ore:stickWood>, null]])
+  .addTool(<ore:artisansGrimoire>, 40)
+  .addOutput(<thaumcraft:resonator>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:plateBrass>, <thaumcraft:morphic_resonator>, <ore:plateBrass>],
+    [<ore:gearIron>, <minecraft:piston>, <ore:gearIron>],
+    [<ore:plateBrass>, <thaumcraft:tube>, <ore:plateBrass>]])
+  .addTool(<ore:artisansGrimoire>, 120)
+  .setFluid(<liquid:mercury> * 4000)
+  .addOutput(<thaumcraft:condenser>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <ore:plateBrass>, null],
+    [<thaumcraft:morphic_resonator>, <thaumcraft:metal_alchemical>, <thaumcraft:mechanism_simple>],
+    [null, <ore:plateBrass>, null]])
+  .setFluid(<liquid:mercury> * 2000)
+  .addTool(<ore:artisansGrimoire>, 60)
+  .addOutput(<thaumcraft:centrifuge>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:plateBrass>, <thaumcraft:mechanism_simple>, <ore:plateBrass>],
+    [<ore:plateThaumium>, <thaumcraft:centrifuge>, <ore:plateThaumium>],
+    [<ore:plateBrass>, <ore:blockSilver>, <ore:plateBrass>]])
+  .setFluid(<liquid:mercury> * 2000)
+  .addTool(<ore:artisansGrimoire>, 120)
+  .addOutput(<thaumadditions:aspect_combiner>)
   .create();
 }

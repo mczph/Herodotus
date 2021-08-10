@@ -18,4 +18,7 @@ if(!isInvalid){
     RecipeUtils.recipeTweak(false, <thaumcraft:tube_filter>, [
         [<thaumcraft:tube>, <thaumcraft:filter>]
     ]);
+    RecipeUtils.recipeTweak(false, <thaumcraft:tube_valve>, [
+        [<thaumcraft:tube>, <ore:plateBrass>]
+    ]);
 }
