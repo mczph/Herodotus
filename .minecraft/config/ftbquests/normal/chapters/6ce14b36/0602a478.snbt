@@ -4,7 +4,8 @@
 	text: [
 		"{herodotus.quests.0602a478.text.1}",
 		"{herodotus.quests.0602a478.text.2}",
-		"{herodotus.quests.0602a478.text.3}"
+		"{herodotus.quests.0602a478.text.3}",
+		"{herodotus.quests.0602a478.text.4}"
 	],
 	tasks: [{
 		uid: "44f219a7",

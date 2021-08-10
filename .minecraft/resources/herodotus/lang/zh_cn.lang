@@ -6,6 +6,38 @@ modularmachinery.basic_thermal_melting_machine=基础热力热熔机
 modularmachinery.aspect_blast_furnace=源质高炉
 modularmachinery.modifier.infinite_water=用其替换流体输入仓上面的波纹铁质机械方块让机器不消耗水
 
+#一阶
+herodotus.quests.00ada03a.text.1=人类与动物最大的区别在于使用工具，而如果需要制造工具...
+herodotus.quests.00ada03a.text.2=那么我将需要一些用于将石块与手柄绑在一起的新鲜纤维。
+herodotus.quests.2faec3fe.text.1=我敢保证，谁都不可能用这堆还在滴水的草来点火。
+herodotus.quests.2faec3fe.text.2=就算是赫菲斯托斯来也不行。
+herodotus.quests.0602a478.text.1=握住一根合适的树杈，连枝带叶一块拽下
+herodotus.quests.0602a478.text.2=再清理掉多余的碎叶和枝杈，
+herodotus.quests.0602a478.text.3=就能当一个非常粗糙的手柄使用了。
+herodotus.quests.0602a478.text.4=手感很差，但还是比直接握持石刃的触感更好。
+herodotus.quests.9396e3da.title=掘地三尺
+herodotus.quests.9396e3da.text.1=用手挖开结块的沙砾似乎对我的皮肤不太友善，
+herodotus.quests.9396e3da.text.2=利用石块挖开硬砂才是取出其中燧石的上策。
+herodotus.quests.11a72b92.title=以卵击石
+herodotus.quests.11a72b92.text.1=徒手是无法击碎完整的岩石的，
+herodotus.quests.11a72b92.text.2=从地上物色散落的石块作为工具还是太麻烦了。
+herodotus.quests.11a72b92.text.3=不过利用这些石块，慢慢敲碎岩石也不是不可行。
+herodotus.quests.11a72b92.text.4=如果想开采更完整的石材，我需要更好的材料去制作十字镐。
+herodotus.quests.41e72f89.title=滥伐
+herodotus.quests.41e72f89.text.1=啊，一块扁平的石块，将其磨利。
+herodotus.quests.41e72f89.text.2=虽然粗糙，但它将是我对树木发起猛攻的第一步。
+herodotus.quests.790b4ffd.text.1=运气很好 我获得了一块相对完整的圆石。
+herodotus.quests.790b4ffd.text.2=虽然它上面有很多裂缝；
+herodotus.quests.790b4ffd.text.3=甚至还有一些被人为粘合的痕迹。
+herodotus.quests.790b4ffd.text.4=我错了，这把镐子才是最难用的工具
+herodotus.quests.790b4ffd.text.5=我现在就给那块叫作斧的石头道歉。
+herodotus.quests.0ebc474b.text.1=把热量密闭在小空间中，
+herodotus.quests.0ebc474b.text.2=圆石吸收了热量后略微熔化，粘合得更加平整。
+herodotus.quests.0ebc474b.text.3=如果我的窑不是那么的原始，能让它受热更均匀的话、
+herodotus.quests.0ebc474b.text.4=成功率一定会更高。
+herodotus.quests.0ebc474b.text.5=所以连续烧裂了五块石头这种事肯定不是我的问题。
+
+
 herodotus.quests.e9c318a9.text.1=法师工作台能够给物品注入魔法，获得新的物品。这期间需要我的或多或少的经验，否则这个注入魔法的过程就会失败。
 herodotus.quests.09b2af08.text.1=制作锂汞齐，将其喂给生物，生物中毒死亡后会额外掉落锂水晶。
 herodotus.quests.ec377e5a.text.1=强化玻璃瓶可以存储小于一桶的任意数量的流体，并且有安全的存储汞的能力。
@@ -20,9 +52,8 @@ herodotus.quests.c30b3607.text.1=Tip: 你可以副手拿原版木板，主手拿
 herodotus.quests.0eeb63d3.title=铁锭
 herodotus.quests.c369f2f9.text.1=红色方形可以直接烧成铁合金锭，来制作铁质工具，耐久更高。（Tip：也可以做原版铁镐，虽然原版铁镐不能挖方块，但依旧能用于砧）
 herodotus.quests.773d33ca.title=《简述含能植物的育种与培植中热空气发挥的作用》
-herodotus.quests.2faec3fe.text.1=我敢保证 谁都不可能用这堆还能滴出水的草来点火
-herodotus.quests.2faec3fe.text.2=就算是火神来也不行
-herodotus.quests.9396e3da.text.1=实际上这两把工具本质区别只是石头的位置
+
+
 herodotus.quests.7afd8fde.text.1=一般来说 我们可以也用日照来给纤维脱水
 herodotus.quests.7afd8fde.text.2=但是好像有一点慢
 herodotus.quests.7afd8fde.text.3=或者说如果只用晒的 我还不如祈祷里面的水自己有意识
@@ -66,20 +97,14 @@ herodotus.quests.a93635f3.text.4=与其说在开采 倒不如说我在把石头�
 herodotus.quests.9da8963a.text.1=如果有得选 我宁可用叉子喝汤 也不愿意用这个东西伐木
 herodotus.quests.9da8963a.text.2=说是伐木 实际上是用一根绑在木棍上面的石块把一棵完整的树砸出缺口然后推倒
 herodotus.quests.9da8963a.text.3=这个世界上应该不会有比这个更难用的工具了。。。也许吧
-herodotus.quests.0ebc474b.text.1=在周遭环境提供的热量中
-herodotus.quests.0ebc474b.text.2=石头吸收了热量略微熔化 将自己粘合起来
-herodotus.quests.0ebc474b.text.3=如果我的窑不是那么的垃圾 能让它受热更均匀
-herodotus.quests.0ebc474b.text.4=成功率一定会更高
-herodotus.quests.0ebc474b.text.5=所以我连续炸了五锅石头这种事情一定不是因为我的脸黑
+
 herodotus.quests.6ce14b36.title=《论不同材质对砖块性能的影响》
 herodotus.quests.b1620a21.text.1=我有个绝佳的想法 我要做一个更好的合成台
 herodotus.quests.b1620a21.text.2=然后用它来做点更好的东西
 herodotus.quests.4d034df1.text.1=作为一名 有理想 有梦想 的少年
 herodotus.quests.4d034df1.text.2=用手把液体导出泼洒这种事情我肯定是干不出来的！
 herodotus.quests.4d034df1.text.3=等等 我真的是少年吗
-herodotus.quests.0602a478.text.1=选择一些形状合适的树枝掰断分支
-herodotus.quests.0602a478.text.2=就能当一个非常粗糙的手柄使用了
-herodotus.quests.0602a478.text.3=虽然握持的手感很差 但总比用手直接抓着石块用强
+
 herodotus.quests.e3c09120.text.1=利用这种结构 烧制物品的受热更加均匀了
 herodotus.quests.e3c09120.text.2=但是我还是会失败这么多次一定不是因为我脸黑!
 herodotus.quests.3f3bf3a2.text.1=或许我应该在做一把双刃斧
@@ -94,18 +119,11 @@ herodotus.quests.52339a93.text.2=但是掉入火中还是会被烧坏。
 herodotus.quests.82612819.text.1=要我说啊，这种东西切割出来的木板
 herodotus.quests.82612819.text.2=根本没有灵魂 没有人手触摸过是缺少一种人文气息的
 herodotus.quests.82612819.text.3=等等 这两堆那一堆是我自己劈出来的？
-herodotus.quests.00ada03a.text.1=为了获得一把堪称能用的工具收集资源
-herodotus.quests.00ada03a.text.2=我需要一些东西把石块固定在一个合适的手柄上
-herodotus.quests.11a72b92.text.1=用石块敲击岩石表面的时候
-herodotus.quests.11a72b92.text.2=石块崩裂开来
-herodotus.quests.11a72b92.text.3=如果想获得一些完整的石头我需要更好的材料
+
+
 herodotus.quests.1a636f31.text.1=但是说真的 
 herodotus.quests.1a636f31.text.2=这个桌子 本质上和我刚刚做的那个有区别吗。。。
-herodotus.quests.790b4ffd.text.1=运气很好 我获得了一块相对完整的原石
-herodotus.quests.790b4ffd.text.2=虽然它上面有很多裂缝
-herodotus.quests.790b4ffd.text.3=而且还有一些被人为粘合的痕迹
-herodotus.quests.790b4ffd.text.4=我错了 这个镐子才是最难用的工具
-herodotus.quests.790b4ffd.text.5=我现在就给那块叫斧头的石头道歉
+
 herodotus.quests.c9f1480d.title=隐藏任务 用于触发其他任务 如果你看到这个页面说明出现了什么问题
 herodotus.quests.c9f1480d.description=你他喵是不是想作弊
 herodotus.quests.80e75d83.title=耐火焚烧

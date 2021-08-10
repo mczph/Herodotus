@@ -1,0 +1,24 @@
+{
+	title: "{herodotus.quests.41e72f89.title}",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"{herodotus.quests.41e72f89.text.1} ",
+		"{herodotus.quests.41e72f89.text.2} "
+	],
+	dependencies: [
+		"9396e3da"
+	],
+	tasks: [{
+		uid: "5d01f3a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
