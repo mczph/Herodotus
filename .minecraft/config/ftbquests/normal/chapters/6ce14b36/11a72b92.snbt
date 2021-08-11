@@ -8,6 +8,7 @@
 		"{herodotus.quests.11a72b92.text.3}",
 		"{herodotus.quests.11a72b92.text.4}"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "bba4bf62",
 		type: "item",

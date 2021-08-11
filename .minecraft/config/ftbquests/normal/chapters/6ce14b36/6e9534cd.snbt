@@ -1,7 +1,7 @@
 {
 	x: 10.0d,
 	y: 2.0d,
-	shape: "circle",
+	shape: "hexagon5",
 	text: [
 		"{herodotus.quests.6e9534cd.text.1}",
 		"{herodotus.quests.6e9534cd.text.2}",
@@ -12,6 +12,7 @@
 		"991202af",
 		"0f3760e8"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "26b8ddfa",
 		type: "item",

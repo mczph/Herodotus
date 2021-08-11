@@ -1,8 +1,12 @@
 {
-	x: 18.0d,
-	y: 0.0d,
+	x: 21.25d,
+	y: 0.4d,
+	text: [
+		"为什么蓝色的球是锡？"
+	],
 	dependencies: [
-		"1b1f72eb"
+		"1b1f72eb",
+		"5630d029"
 	],
 	tasks: [{
 		uid: "d8ee72a7",

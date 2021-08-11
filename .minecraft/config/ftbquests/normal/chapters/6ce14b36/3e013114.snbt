@@ -1,0 +1,17 @@
+{
+	x: 13.0d,
+	y: 6.0d,
+	text: [
+		"将石块雕刻成桶的样子实在费劲，但是作为回报、它的耐用程度令人满意。"
+	],
+	dependencies: [
+		"4d034df1"
+	],
+	tasks: [{
+		uid: "a1b6d0bc",
+		type: "item",
+		items: [{
+			item: "pyrotech:bucket_stone"
+		}]
+	}]
+}

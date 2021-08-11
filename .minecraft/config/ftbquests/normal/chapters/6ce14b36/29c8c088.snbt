@@ -1,8 +1,12 @@
 {
-	x: 18.0d,
-	y: 4.0d,
+	x: 21.25d,
+	y: 3.5d,
+	text: [
+		"为什么黄色的方是铜？"
+	],
 	dependencies: [
-		"1b1f72eb"
+		"1b1f72eb",
+		"df6d9a43"
 	],
 	tasks: [{
 		uid: "a2bf81c2",

@@ -2,9 +2,9 @@
 	x: 12.0d,
 	y: 0.0d,
 	text: [
-		"{herodotus.quests.a0288b62.text.1}",
-		"{herodotus.quests.a0288b62.text.2}",
-		"{herodotus.quests.a0288b62.text.3}"
+		"如果我想烧制木炭，我应该创造一个空气更加稀薄的环境，这样产出率会更高。",
+		"比如点火后，用泥土将原木堆封实。",
+		"我还得做个锅来收集烧制过程中流下来的木焦油。"
 	],
 	dependencies: [
 		"6e9534cd"

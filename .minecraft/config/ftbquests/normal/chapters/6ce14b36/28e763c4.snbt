@@ -1,0 +1,56 @@
+{
+	title: "齿轮",
+	x: 14.0d,
+	y: -2.0d,
+	text: [
+		"制作一些驱动简易机械设备的齿轮毫无坏处。",
+		"木头是最简单的材料，但是不耐用。",
+		"石头加工太过困难，万不得已不会使用。",
+		"燧石可能是我最喜欢的材料了，就它了。",
+		"也许我还可以用磨制过的骨头制作齿轮。"
+	],
+	dependencies: [
+		"5cdb0890"
+	],
+	tasks: [{
+		uid: "fbf76092",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:cog_flint"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:cog_wood"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:cog_stone"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:cog_bone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b66cf133",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:cog_flint"
+		},
+		count: 3
+	}]
+}

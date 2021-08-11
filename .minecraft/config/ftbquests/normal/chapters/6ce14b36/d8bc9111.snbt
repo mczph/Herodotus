@@ -1,33 +1,33 @@
 {
-	title: "产能升级",
-	x: 6.0d,
-	y: 6.0d,
+	title: "木匠锤",
+	x: 12.0d,
+	y: 2.0d,
 	text: [
-		"比起在地上随手制作的工具，在工作桌上加工过的燧石制品明显更加耐用。"
+		"我可以用这个来修缮我破破烂烂的工作桌。"
 	],
 	dependencies: [
-		"f5bbf71d"
+		"1a636f31"
 	],
 	tasks: [{
-		uid: "1d45f683",
+		uid: "b92a7179",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "pyrotech:flint_axe"
+			id: "artisanworktables:artisans_framing_hammer_flint"
 		},
 		{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "pyrotech:flint_pickaxe"
+			id: "artisanworktables:artisans_framing_hammer_stone"
 		},
 		{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "pyrotech:flint_shovel"
+			id: "artisanworktables:artisans_framing_hammer_bone"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
