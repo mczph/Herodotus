@@ -8,12 +8,28 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.pyrotech.PitKiln;
 import mods.pyrotech.StoneKiln;
 import mods.pyrotech.BrickKiln;
+import mods.pyrotech.StoneOven;
+import mods.pyrotech.BrickOven;
 import mods.pyrotech.GraniteAnvil;
 import mods.pyrotech.IroncladAnvil;
 import mods.pyrotech.StoneCrucible;
 import mods.pyrotech.BrickCrucible;
 import mods.pyrotech.DryingRack;
 import mods.pyrotech.CrudeDryingRack;
+
+//universal pyrotech ovens recipes tweaker
+function uPyroOvens(name as string, output as IItemStack, input as IIngredient){
+    StoneOven.removeRecipes(output);
+    BrickOven.emoveRecipes(output);
+    StoneOven.addRecipe(name~"_bo", output, input);
+    BrickOven.addRecipe(name~"_bo", output, input);
+}
+
+//add universal oven recipes
+function allPyroOvens(name as string, output as IItemStack, input as IIngredient){
+    StoneOven.addRecipe(name~"_bo", output, input);
+    BrickOven.addRecipe(name~"_bo", output, input);
+}
 
 //add universal drying rack recipes
 function allDryingRack(name as string, output as IItemStack, input as IIngredient, time as int){
