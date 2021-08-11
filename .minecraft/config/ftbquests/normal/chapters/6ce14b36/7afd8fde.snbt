@@ -2,11 +2,11 @@
 	x: 0.0d,
 	y: -4.0d,
 	text: [
-		"一般来说，我们可以也用日照来给纤维脱水",
-		"但是这一过程的速度慢的不尽人意。",
-		"更何况天气可不会考虑到有人还在晾晒纤维。",
-		"如果说只用晒的，我还不如祈祷一下里面的水拥有了自我意识、",
-		"想离开自己的舒适区，去外面的大千世界看看。"
+		"{herodotus.quests.7afd8fde.text.1}",
+		"{herodotus.quests.7afd8fde.text.2}",
+		"{herodotus.quests.7afd8fde.text.3}",
+		"{herodotus.quests.7afd8fde.text.4}",
+		"{herodotus.quests.7afd8fde.text.5}"
 	],
 	dependencies: [
 		"00ada03a"

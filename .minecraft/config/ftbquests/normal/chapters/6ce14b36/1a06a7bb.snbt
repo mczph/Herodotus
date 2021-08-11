@@ -1,10 +1,10 @@
 {
-	title: "等待戈多",
+	title: "{herodotus.quests.1a06a7bb.title}",
 	x: 16.0d,
 	y: -2.0d,
 	text: [
-		"我在等烧制，你在等什么？",
-		"当时间管理大师，不如让我为这些机器鼓鼓风，好让我更快地拿到我需要的产物。"
+		"{herodotus.quests.1a06a7bb.text.1}",
+		"{herodotus.quests.1a06a7bb.text.2}"
 	],
 	dependencies: [
 		"e3c09120"

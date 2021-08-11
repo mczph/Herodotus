@@ -2,9 +2,9 @@
 	x: 16.0d,
 	y: 1.25d,
 	text: [
-		"一个用来熔化流体却不能承装高温流体的设备？",
-		"真是存在主义。",
-		"如果我需要熔化矿物，得用一些更耐火的材料。"
+		"{herodotus.quests.4bcbf451.text.1}",
+		"{herodotus.quests.4bcbf451.text.2}",
+		"{herodotus.quests.4bcbf451.text.3}"
 	],
 	dependencies: [
 		"1a636f31"

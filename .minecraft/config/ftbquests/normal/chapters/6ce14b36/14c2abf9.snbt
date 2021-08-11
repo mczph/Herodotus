@@ -2,11 +2,11 @@
 	x: 4.0d,
 	y: -2.0d,
 	text: [
-		"「用燧石敲击其他石块,如果前者品质没有那么不堪」",
-		"「火花就会蹦出，点燃你准备好的火绒」",
-		"说的好听，实际操作起来并不会很顺利。",
-		"希望我不会成为第一个因为不会打火冻死的人。",
-		"额，也许不一定是第一个？"
+		"{herodotus.quests.14c2abf9.text.1}",
+		"{herodotus.quests.14c2abf9.text.2}",
+		"{herodotus.quests.14c2abf9.text.3}",
+		"{herodotus.quests.14c2abf9.text.4}",
+		"{herodotus.quests.14c2abf9.text.5}"
 	],
 	dependencies: [
 		"2faec3fe",

@@ -1,9 +1,9 @@
 {
-	title: "木匠锤",
+	title: "{herodotus.quests.d8bc9111.title}",
 	x: 12.0d,
 	y: 2.0d,
 	text: [
-		"我可以用这个来修缮我破破烂烂的工作桌。"
+		"{herodotus.quests.d8bc9111.text.1}"
 	],
 	dependencies: [
 		"1a636f31"

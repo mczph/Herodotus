@@ -2,8 +2,8 @@
 	x: 10.0d,
 	y: -2.0d,
 	text: [
-		"把两撮生石灰丢进地上的水中，我就获得了1B的石灰水。",
-		"真不错，得找个东西把它装起来。"
+		"{herodotus.quests.b413188b.text.1}",
+		"{herodotus.quests.b413188b.text.2}"
 	],
 	dependencies: [
 		"b20b4595"
@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "71193b0b",
 		type: "checkmark",
-		title: "石灰水",
+		title: "{herodotus.quests.b413188b.title}",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

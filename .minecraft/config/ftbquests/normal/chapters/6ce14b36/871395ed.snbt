@@ -1,9 +1,9 @@
 {
-	title: "产能升级",
+	title: "{herodotus.quests.871395ed.title}",
 	x: 6.0d,
 	y: 6.0d,
 	text: [
-		"比起在地上随手制作的工具，在工作桌上加工过的燧石制品明显更加耐用。"
+		"{herodotus.quests.871395ed.text.1}"
 	],
 	dependencies: [
 		"f5bbf71d"

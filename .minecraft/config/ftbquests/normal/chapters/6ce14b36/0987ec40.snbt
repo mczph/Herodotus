@@ -2,8 +2,8 @@
 	x: 12.0d,
 	y: -2.0d,
 	text: [
-		"原木经过烧制后，我得到了一些品相优良的木炭。",
-		"还有一些细小的木炭碎，这些木炭碎应该大有用途。"
+		"{herodotus.quests.0987ec40.text.1}",
+		"{herodotus.quests.0987ec40.text.2}"
 	],
 	dependencies: [
 		"a0288b62"
