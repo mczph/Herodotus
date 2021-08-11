@@ -1,9 +1,9 @@
 {
-	title: "矿石",
+	title: "{herodotus.quests.4bc1e394.title}",
 	x: 24.0d,
 	y: 2.0d,
 	text: [
-		"锤打色彩几何体以获取矿石。"
+		"{herodotus.quests.4bc1e394.text.1}"
 	],
 	dependencies: [
 		"29c8c088",

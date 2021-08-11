@@ -1,10 +1,10 @@
 {
-	title: "切割二三事",
+	title: "{herodotus.quests.da4a8ede.title}",
 	x: 15.0d,
 	y: 4.0d,
 	text: [
-		"用手上的材料制作简易的刀片来切割木材。",
-		"效率不高但可靠。"
+		"{herodotus.quests.da4a8ede.text.1}",
+		"{herodotus.quests.da4a8ede.text.2}"
 	],
 	dependencies: [
 		"82612819"

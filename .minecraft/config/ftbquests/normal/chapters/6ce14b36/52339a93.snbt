@@ -3,9 +3,9 @@
 	y: 2.0d,
 	shape: "hexagon3",
 	text: [
-		"用砌砖混入了青铜粉末制作成的耐火砖。",
-		"耐火性能十分优良。",
-		"等之后拥有了青铜锭，也可以直接制作。"
+		"{herodotus.quests.52339a93.text.1}",
+		"{herodotus.quests.52339a93.text.2}",
+		"{herodotus.quests.52339a93.text.3}"
 	],
 	dependencies: [
 		"d2e3da38"

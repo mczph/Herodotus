@@ -1,11 +1,11 @@
 {
-	title: "\"重力势能自动化\"",
+	title: "{herodotus.quests.5cdb0890.title}",
 	x: 14.0d,
 	y: 0.0d,
 	text: [
-		"简单的利用砌砖来制作料斗。",
-		"我需要用些什么东西来驱动它。",
-		"这种原始的设备需要经常维护保养，记得给它留出一条维护用的通道。"
+		"{herodotus.quests.5cdb0890.text.1}",
+		"{herodotus.quests.5cdb0890.text.2}",
+		"{herodotus.quests.5cdb0890.text.3}"
 	],
 	dependencies: [
 		"6e9534cd"

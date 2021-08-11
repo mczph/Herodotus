@@ -1,9 +1,9 @@
 {
-	title: "更多矿石",
+	title: "{herodotus.quests.f4fe75a4.title}",
 	x: 24.0d,
 	y: 4.0d,
 	text: [
-		"想了解几何体与彩色流体能够制作出什么矿种的话，请点开矿物处理任务来查看。"
+		"{herodotus.quests.f4fe75a4.text.1}"
 	],
 	dependencies: [
 		"4bc1e394"

@@ -2,8 +2,8 @@
 	x: 2.0d,
 	y: 6.0d,
 	text: [
-		"在地上简易搭起的小盒子，比起直接把东西扔在地上，可以让漏斗交互是他唯一的优点。",
-		"之后的一些合成会用到它。"
+		"{herodotus.quests.79c9d2fe.text.1}",
+		"{herodotus.quests.79c9d2fe.text.2}"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

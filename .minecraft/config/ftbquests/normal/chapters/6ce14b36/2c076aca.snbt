@@ -1,12 +1,12 @@
 {
-	title: "锹之坍缩",
+	title: "{herodotus.quests.2c076aca.title}",
 	x: 10.0d,
 	y: 6.0d,
 	text: [
-		"将石块填入压实，我便得到了沙砾。",
-		"将沙堆填入压实，我便得到了沙子。",
-		"将土块填入压实，我便得到了土壤。",
-		"除了废手，这个桶大有可为。"
+		"{herodotus.quests.2c076aca.text.1}",
+		"{herodotus.quests.2c076aca.text.2}",
+		"{herodotus.quests.2c076aca.text.3}",
+		"{herodotus.quests.2c076aca.text.4}"
 	],
 	dependencies: [
 		"f5bbf71d"

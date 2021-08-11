@@ -1,10 +1,10 @@
 {
-	title: "劣质木炭",
+	title: "{herodotus.quests.f18c5781.title}",
 	x: 12.0d,
 	y: -4.0d,
 	text: [
-		"将我收集的稻草捆在木焦油中浸泡过后，也可以烧制一些木炭。",
-		"但是相比使用原木柴堆的成功率就大大降低了。"
+		"{herodotus.quests.f18c5781.text.1}",
+		"{herodotus.quests.f18c5781.text.2}"
 	],
 	dependencies: [
 		"0987ec40"

@@ -1,11 +1,11 @@
 {
-	title: "木匠锤",
+	title: "{herodotus.quests.d8bc9111.title}",
 	x: 12.0d,
 	y: 2.0d,
 	text: [
-		"我可以用这个来修缮我破破烂烂的工作桌。",
-		"左手拿着木板，对着桌子捶打，让它哭喊着自己修复自己。",
-		"嗯，真不错。"
+		"{herodotus.quests.d8bc9111.text.1}",
+		"{herodotus.quests.d8bc9111.text.2}",
+		"{herodotus.quests.d8bc9111.text.3}"
 	],
 	dependencies: [
 		"1a636f31"

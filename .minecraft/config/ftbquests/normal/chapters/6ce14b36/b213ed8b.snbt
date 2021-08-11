@@ -2,11 +2,11 @@
 	x: 4.0d,
 	y: 4.0d,
 	text: [
-		"在自然界中找到一块足够平整的岩石来处理木材",
-		"凭我这倒霉劲，还是有些困难。",
-		"我需要用我的\"斧头\"把刚刚获得的原木",
-		"砸实，砸平。",
-		"想到接下来还有一大堆原木等着我就头疼。"
+		"{herodotus.quests.b213ed8b.text.1}",
+		"{herodotus.quests.b213ed8b.text.2}",
+		"{herodotus.quests.b213ed8b.text.3}",
+		"{herodotus.quests.b213ed8b.text.4}",
+		"{herodotus.quests.b213ed8b.text.5}"
 	],
 	dependencies: [
 		"9da8963a"

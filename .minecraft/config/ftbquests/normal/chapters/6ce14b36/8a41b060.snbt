@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: 6.0d,
 	text: [
-		"立起来的分区盒子。"
+		"{herodotus.quests.8a41b060.text.1}"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
