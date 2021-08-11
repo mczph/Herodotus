@@ -7,7 +7,7 @@ import crafttweaker.mods.ILoadedMods;
 import mods.ItemStages;
 import mods.MobStages;
 
-if (!debug) {
+if (!debug) {/*
     //TODO mobstages
     val stagedModList as string[] = [
         "tinker_io", "bloodtinker",
@@ -44,7 +44,7 @@ if (!debug) {
     for id in stagedMobs {
         //MobStages.addStage("locked", id);
     }
-
+*/
 }
 
 
