@@ -1,10 +1,12 @@
 {
-	x: -2.0d,
+	title: "敲打",
+	x: 8.0d,
 	y: 6.0d,
 	text: [
-		"{herodotus.quests.3f3bf3a2.text.1}",
-		"{herodotus.quests.3f3bf3a2.text.2}",
-		"{herodotus.quests.3f3bf3a2.text.3}"
+		"或许我应该再做一把双刃斧",
+		"该死，这玩意被我磨成了锤子。",
+		"至少我能用它来敲打点什么东西。",
+		"比如...用榫卯结构来制作更好的工具？"
 	],
 	dependencies: [
 		"f5bbf71d"

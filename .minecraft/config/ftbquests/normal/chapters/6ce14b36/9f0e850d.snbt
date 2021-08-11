@@ -1,22 +1,21 @@
 {
-	x: 30.0d,
-	y: 2.0d,
+	x: 11.0d,
+	y: 6.0d,
 	text: [
-		"{herodotus.quests.2c30a542.text.1}"
+		"这个漏水的桶用的我想死。"
 	],
 	dependencies: [
-		"a80d7df8"
+		"4d034df1"
 	],
 	tasks: [{
-		uid: "2dd229b6",
+		uid: "13925d86",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "hdsutils:copper_bucket"
+			id: "pyrotech:bucket_wood"
 		}],
-		ignore_damage: true,
 		ignore_nbt: 1b
 	}]
 }

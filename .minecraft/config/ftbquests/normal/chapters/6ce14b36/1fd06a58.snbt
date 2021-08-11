@@ -1,0 +1,20 @@
+{
+	x: 5.0d,
+	y: -1.0d,
+	text: [
+		"这块燧石经过烧制后，看起来很不错。"
+	],
+	dependencies: [
+		"d2137321"
+	],
+	tasks: [{
+		uid: "dcc340f7",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	}]
+}

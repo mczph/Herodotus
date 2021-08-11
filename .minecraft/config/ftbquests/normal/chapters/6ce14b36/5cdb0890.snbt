@@ -1,0 +1,26 @@
+{
+	title: "\"重力势能自动化\"",
+	x: 14.0d,
+	y: 0.0d,
+	text: [
+		"简单的利用砌砖来制作料斗。",
+		"我需要用些什么东西来驱动它。",
+		"这种原始的设备需要经常维护保养，记得给它留出一条维护用的通道。"
+	],
+	dependencies: [
+		"6e9534cd"
+	],
+	tasks: [{
+		uid: "52ef224c",
+		type: "item",
+		items: [{
+			item: "pyrotech:mechanical_hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "9d6fb177",
+		type: "item",
+		item: "pyrotech:mechanical_hopper",
+		count: 3
+	}]
+}
