@@ -45,13 +45,17 @@ def read_snbt(full_path, file_name):
     f.close()
 
 def replace_with_lang_key(line, key, f_list, index, file_name):
-    head, context, tail = line.split("\"")
-    if not(context.startswith("{") and context.endswith("}")):
+    first_quote_index = line.find("\"")
+    last_quote_index = line.rfind("\"")
+    head = line[0:first_quote_index]
+    content = line[first_quote_index + 1:last_quote_index]
+    tail = line[last_quote_index + 1:len(line)]
+    if not(content.startswith("{") and content.endswith("}")):
         lang_key = "herodotus.quests.%s.%s" % (file_name, key)
-        print("get lang key %s, value = %s" % (lang_key, context))
-        new_context = head + "\"{" + lang_key + "}\"" + tail
-        f_list[index] = new_context
-        context_dict[lang_key] = context
+        print("get lang key %s, value = %s" % (lang_key, content))
+        new_content = head + "\"{" + lang_key + "}\"" + tail
+        f_list[index] = new_content
+        context_dict[lang_key] = content.replace("\\", "")
 
 def write_lang(path):
     copy = context_dict.copy()
