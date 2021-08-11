@@ -80,6 +80,12 @@ recipes.addShaped("hopper_from_iron", <minecraft:hopper>, [
     [null, <ore:lightPlateIron>, null]
 ]);
 
+recipes.addShaped("piston_from_alloy", <minecraft:piston>, [
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<ore:cobblestone>, <ore:ingotConstructionAlloy>, <ore:cobblestone>],
+    [<ore:cobblestone>, <ore:dustRedstone>, <ore:cobblestone>]
+]);
+
 val vPlankDef as IItemDefinition = <minecraft:planks>.definition;
 val bbChestDef as IItemDefinition = <bibliocraft:framedchest>.definition;
 val bbLableDef as IItemDefinition = <bibliocraft:label>.definition;
@@ -93,6 +99,36 @@ for i in 0 .. 6{
         [plank, <ore:chestWood>, plank]
     ]);
 }
+
+recipes.addShaped(<minecraft:iron_shovel>, [
+    [<ore:ingotConstructionAlloy>],
+    [<ore:stickWood>],
+    [<ore:stickWood>]
+]);
+
+recipes.addShaped(<minecraft:iron_sword>, [
+    [<ore:ingotConstructionAlloy>],
+    [<ore:ingotConstructionAlloy>],
+    [<ore:stickWood>]
+]);
+
+recipes.addShaped(<miencraft:iron_axe>, [
+    [<ore:ingotConstructionAlloy>,<ore:ingotConstructionAlloy>],
+    [<ore:ingotConstructionAlloy>, <ore:stickWood>],
+    [null, <ore:stickWood>]
+]);
+
+recipes.addShaped(<miencraft:iron_hoe>, [
+    [<ore:ingotConstructionAlloy>,<ore:ingotConstructionAlloy>],
+    [null, <ore:stickWood>],
+    [null, <ore:stickWood>]
+]);
+
+recipes.addShaped(<pyrotech:anvil_iron_plated>, [
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+    [<minecraft:stone:2>, <minecraft:stone:2>, <minecraft:stone:2>],
+    [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
+]);
 
 recipes.addShaped("flint_pickaxe_2",  <pyrotech:flint_pickaxe>, [
     [<tconstruct:pick_head>.withTag({Material: "flint"}), <pyrotech:material:12>],
