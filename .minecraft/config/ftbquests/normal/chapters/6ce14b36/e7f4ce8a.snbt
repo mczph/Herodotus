@@ -2,9 +2,9 @@
 	x: 2.0d,
 	y: 7.75d,
 	text: [
-		"采石包，顾名思义，用来放石块的。",
-		"持有时，石块会自动进入包内。",
-		"这东西真难用。"
+		"{herodotus.quests.e7f4ce8a.text.1}",
+		"{herodotus.quests.e7f4ce8a.text.2}",
+		"{herodotus.quests.e7f4ce8a.text.3}"
 	],
 	dependencies: [
 		"79c9d2fe"

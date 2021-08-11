@@ -2,7 +2,7 @@
 	x: 4.025d,
 	y: 0.0d,
 	text: [
-		"可以使用红色方形直接烧制铁合金锭。一般来说，铁合金与铁锭是等价的。"
+		"{herodotus.quests.c369f2f9.text.1}"
 	],
 	dependencies: [
 		"61a03ebd"

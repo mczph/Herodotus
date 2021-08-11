@@ -1,9 +1,9 @@
 {
-	title: "耐火木炭窑",
+	title: "{herodotus.quests.80e75d83.title}",
 	x: 2.0d,
 	y: -2.0d,
 	text: [
-		"用这个烧木炭可带劲了。"
+		"{herodotus.quests.80e75d83.text.1}"
 	],
 	dependencies: [
 		"e4277245",
