@@ -1,6 +1,7 @@
 #packmode normal
 #priority -1
 
+import crafttweaker.item.IItemStack;
 import mods.pyrotech.CompostBin;
 import scripts.hds_main.utils.modloader.isInvalid;
 
