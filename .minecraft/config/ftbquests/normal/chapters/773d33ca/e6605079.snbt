@@ -1,7 +1,7 @@
 {
 	title: "{herodotus.quests.e6605079.title}",
-	x: 8.0d,
-	y: -2.0d,
+	x: 6.0d,
+	y: -3.0d,
 	dependencies: [
 		"92e6911f",
 		"d63c6bcd",

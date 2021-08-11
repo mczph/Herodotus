@@ -1,0 +1,37 @@
+{
+	x: -2.25d,
+	y: -2.0d,
+	dependencies: [
+		"ca76d677"
+	],
+	tasks: [{
+		uid: "dc430a35",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_lens_wood"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_lens_stone"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_lens_flint"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_lens_bone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

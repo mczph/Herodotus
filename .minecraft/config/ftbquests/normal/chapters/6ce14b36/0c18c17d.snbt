@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	text: [
+		"我需要黏黏的土来粘上一些东西。"
+	],
+	dependencies: [
+		"9396e3da"
+	],
+	tasks: [{
+		uid: "c467e708",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 17"
+		}]
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "石灰膏面霜",
+	x: 9.0d,
+	y: 3.0d,
+	text: [
+		"为了将砌砖粘结，我需要一个趁手的抹子。"
+	],
+	dependencies: [
+		"6e9534cd",
+		"f5bbf71d"
+	],
+	tasks: [{
+		uid: "8d1810c4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_trowel_wood"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_trowel_stone"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_trowel_flint"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_trowel_bone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
