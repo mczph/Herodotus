@@ -2,8 +2,8 @@
 	x: 16.0d,
 	y: 0.0d,
 	text: [
-		"{herodotus.quests.e3c09120.text.1}",
-		"{herodotus.quests.e3c09120.text.2}"
+		"经过砌砖与石灰膏的堆砌，这个石制窑体已经能让热量均匀地保留在腔室中。",
+		"希望我下一次烧制物品不会因为工艺的粗糙而失败。"
 	],
 	dependencies: [
 		"1a636f31"

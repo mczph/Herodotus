@@ -2,7 +2,7 @@
 	x: 5.0d,
 	y: -1.0d,
 	text: [
-		"{herodotus.quests.1fd06a58.text.1}"
+		"这块燧石经过烧制后，看起来很不错。"
 	],
 	dependencies: [
 		"d2137321"

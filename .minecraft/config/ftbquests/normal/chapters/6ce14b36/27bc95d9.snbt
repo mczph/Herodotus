@@ -1,6 +1,10 @@
 {
+	title: "碎片",
 	x: 28.0d,
 	y: 0.0d,
+	text: [
+		"烧制过的矿块。"
+	],
 	dependencies: [
 		"d8e95e24"
 	],

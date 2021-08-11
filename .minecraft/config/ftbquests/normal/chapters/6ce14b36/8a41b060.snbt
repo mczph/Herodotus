@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 6.0d,
+	text: [
+		"立起来的分区盒子。"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f5bbf71d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "10ac5778",
+		type: "item",
+		items: [{
+			item: "pyrotech:shelf"
+		}]
+	}]
+}

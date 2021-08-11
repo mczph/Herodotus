@@ -1,13 +1,13 @@
 {
-	title: "{herodotus.quests.9da8963a.title}",
+	title: "樵夫",
 	x: 2.0d,
 	y: 4.0d,
 	text: [
-		"{herodotus.quests.9da8963a.text.1}",
-		"{herodotus.quests.9da8963a.text.2}",
-		"{herodotus.quests.9da8963a.text.3}",
-		"{herodotus.quests.9da8963a.text.4}",
-		"{herodotus.quests.9da8963a.text.5}"
+		"如果有得选，我宁可用叉子喝汤，也不愿意用这个东西伐木。",
+		"说是伐木，实际上是用一根绑在木棍上面的石块",
+		"把一棵完整的树砸出一块缺口，再推倒。",
+		"这个世界上应该不会有比这个更难用的工具了......",
+		"也许吧。"
 	],
 	dependencies: [
 		"41e72f89"

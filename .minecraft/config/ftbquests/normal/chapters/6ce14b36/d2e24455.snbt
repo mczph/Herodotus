@@ -18,5 +18,11 @@
 		items: [{
 			item: "minecraft:wheat"
 		}]
+	}],
+	rewards: [{
+		uid: "451c04e5",
+		type: "item",
+		item: "minecraft:wheat_seeds",
+		count: 16
 	}]
 }

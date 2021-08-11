@@ -1,9 +1,9 @@
 {
-	title: "{herodotus.quests.df6d9a43.title}",
+	title: "黄色流体",
 	x: 19.0d,
 	y: 4.75d,
 	text: [
-		"{herodotus.quests.df6d9a43.text.1}"
+		"将黄色矿石丢入石灰水制作而成。"
 	],
 	dependencies: [
 		"1b1f72eb"
@@ -21,5 +21,10 @@
 				Amount: 1000
 			}
 		}
+	}],
+	rewards: [{
+		uid: "e2c7e082",
+		type: "item",
+		item: "pyrotech:tar_collector"
 	}]
 }

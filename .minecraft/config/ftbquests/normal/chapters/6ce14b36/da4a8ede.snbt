@@ -1,33 +1,34 @@
 {
-	title: "产能升级",
-	x: 6.0d,
-	y: 6.0d,
+	title: "切割二三事",
+	x: 15.0d,
+	y: 4.0d,
 	text: [
-		"比起在地上随手制作的工具，在工作桌上加工过的燧石制品明显更加耐用。"
+		"用手上的材料制作简易的刀片来切割木材。",
+		"效率不高但可靠。"
 	],
 	dependencies: [
-		"f5bbf71d"
+		"82612819"
 	],
 	tasks: [{
-		uid: "1d45f683",
+		uid: "94077cb6",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "pyrotech:flint_axe"
+			id: "pyrotech:sawmill_blade_stone"
 		},
 		{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "pyrotech:flint_pickaxe"
+			id: "pyrotech:sawmill_blade_flint"
 		},
 		{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "pyrotech:flint_shovel"
+			id: "pyrotech:sawmill_blade_bone"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

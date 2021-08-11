@@ -1,0 +1,19 @@
+{
+	title: "劣质木炭",
+	x: 12.0d,
+	y: -4.0d,
+	text: [
+		"将我收集的稻草捆在木焦油中浸泡过后，也可以烧制一些木炭。",
+		"但是相比使用原木柴堆的成功率就大大降低了。"
+	],
+	dependencies: [
+		"0987ec40"
+	],
+	tasks: [{
+		uid: "c80d9293",
+		type: "item",
+		items: [{
+			item: "pyrotech:wood_tar_block"
+		}]
+	}]
+}

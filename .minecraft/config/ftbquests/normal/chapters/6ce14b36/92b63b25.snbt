@@ -1,0 +1,42 @@
+{
+	title: "熔化它。",
+	x: 14.0d,
+	y: 4.0d,
+	text: [
+		"随手制作的简易加热器可以让我将粉末粘合到其他介质表面。",
+		"还可以使用这个制作更好的砖块。"
+	],
+	dependencies: [
+		"1a636f31"
+	],
+	tasks: [{
+		uid: "ea64f424",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_burner_wood"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_burner_stone"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_burner_flint"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_burner_bone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

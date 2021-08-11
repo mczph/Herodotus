@@ -2,7 +2,7 @@
 	x: 13.0d,
 	y: 6.0d,
 	text: [
-		"{herodotus.quests.3e013114.text.1}"
+		"将石块雕刻成桶的样子实在费劲，但是作为回报、它的耐用程度令人满意。"
 	],
 	dependencies: [
 		"4d034df1"

@@ -18,5 +18,18 @@
 		items: [{
 			item: "minecraft:stone"
 		}]
+	},
+	{
+		uid: "e13fdf87",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick"
+		}]
+	}],
+	rewards: [{
+		uid: "e13766ed",
+		type: "item",
+		item: "minecraft:stone",
+		count: 4
 	}]
 }

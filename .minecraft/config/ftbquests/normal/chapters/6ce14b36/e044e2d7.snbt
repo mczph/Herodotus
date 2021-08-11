@@ -1,6 +1,10 @@
 {
+	title: "粉碎",
 	x: 24.0d,
 	y: 0.0d,
+	text: [
+		"使用镐将矿石粉碎。"
+	],
 	dependencies: [
 		"4bc1e394"
 	],

@@ -1,0 +1,21 @@
+{
+	title: "锹之坍缩",
+	x: 10.0d,
+	y: 6.0d,
+	text: [
+		"将石块填入压实，我便得到了沙砾。",
+		"将沙堆填入压实，我便得到了沙子。",
+		"将土块填入压实，我便得到了土壤。",
+		"除了废手，这个桶大有可为。"
+	],
+	dependencies: [
+		"f5bbf71d"
+	],
+	tasks: [{
+		uid: "a13e8b5f",
+		type: "item",
+		items: [{
+			item: "pyrotech:compacting_bin"
+		}]
+	}]
+}

@@ -2,7 +2,7 @@
 	x: 12.0d,
 	y: 6.0d,
 	text: [
-		"{herodotus.quests.498fc28c.text.1}"
+		"经过烧制过后的粘土桶较为耐用，但是还是没法承受高温流体。"
 	],
 	dependencies: [
 		"4d034df1"

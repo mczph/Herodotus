@@ -1,11 +1,11 @@
 {
-	title: "{herodotus.quests.b20b4595.title}",
+	title: "CaO",
 	icon: "pyrotech:material 1 22",
 	x: 8.0d,
 	y: -2.0d,
 	text: [
-		"{herodotus.quests.b20b4595.text.1}",
-		"{herodotus.quests.b20b4595.text.2}"
+		"把我开采岩石过程中得到的石灰石敲碎。",
+		"再放入窑中加热，抹墙用的石灰就有了。"
 	],
 	dependencies: [
 		"752fcfc3"

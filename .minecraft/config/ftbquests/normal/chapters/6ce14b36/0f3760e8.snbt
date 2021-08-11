@@ -1,6 +1,9 @@
 {
 	x: 10.0d,
 	y: 0.0d,
+	text: [
+		" 再多敲几下。"
+	],
 	dependencies: [
 		"0ebc474b"
 	],

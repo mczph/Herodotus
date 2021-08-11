@@ -2,8 +2,8 @@
 	x: 12.0d,
 	y: -2.0d,
 	text: [
-		"{herodotus.quests.0987ec40.text.1}",
-		"{herodotus.quests.0987ec40.text.2}"
+		"原木经过烧制后，我得到了一些品相优良的木炭。",
+		"还有一些细小的木炭碎，这些木炭碎应该大有用途。"
 	],
 	dependencies: [
 		"a0288b62"
@@ -14,5 +14,11 @@
 		items: [{
 			item: "minecraft:coal 1 1"
 		}]
+	}],
+	rewards: [{
+		uid: "24e5f05b",
+		type: "item",
+		item: "pyrotech:log_pile",
+		count: 9
 	}]
 }

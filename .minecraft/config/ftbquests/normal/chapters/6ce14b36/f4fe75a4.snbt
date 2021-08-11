@@ -1,0 +1,16 @@
+{
+	title: "更多矿石",
+	x: 24.0d,
+	y: 4.0d,
+	text: [
+		"想了解几何体与彩色流体能够制作出什么矿种的话，请点开矿物处理任务来查看。"
+	],
+	dependencies: [
+		"4bc1e394"
+	],
+	tasks: [{
+		uid: "7dc4e9d5",
+		type: "checkmark",
+		icon: "contenttweaker:square"
+	}]
+}

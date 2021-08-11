@@ -1,21 +1,20 @@
 {
-	x: 11.0d,
-	y: 6.0d,
-	text: [
-		"这个漏水的桶用的我想死。"
-	],
+	x: 2.0d,
+	y: 7.75d,
 	dependencies: [
-		"4d034df1"
+		"79c9d2fe"
 	],
+	optional: true,
 	tasks: [{
-		uid: "13925d86",
+		uid: "5d70e74e",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "pyrotech:bucket_wood"
+			id: "pyrotech:bag_simple"
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}]
 }

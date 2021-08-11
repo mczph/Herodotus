@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 6.0d,
+	text: [
+		"盒子与箱子相比~♪",
+		"那我还是觉得我们箱子牛逼~♪",
+		"除了要跳高高才能放入物品之外没有什么坏处。",
+		"我想念大箱子。",
+		"漏斗可以从侧面输入。"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f5bbf71d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "6da1a6b3",
+		type: "item",
+		items: [{
+			item: "pyrotech:crate"
+		}]
+	}]
+}

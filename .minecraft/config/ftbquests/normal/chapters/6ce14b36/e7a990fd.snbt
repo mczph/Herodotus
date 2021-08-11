@@ -1,9 +1,9 @@
 {
-	x: -2.0d,
-	y: -6.0d,
+	x: 1.0d,
+	y: -5.0d,
 	text: [
-		"{herodotus.quests.e7a990fd.text.1}",
-		"{herodotus.quests.e7a990fd.text.2}"
+		"虽然不太懂，为什么我连自己都喂不饱，还要分出口粮来喂地里这些菜。",
+		"等等，又不是口粮才能发酵，为什么我一定要扔口粮进去？"
 	],
 	dependencies: [
 		"cb1c45db"
@@ -14,5 +14,11 @@
 		items: [{
 			item: "pyrotech:compost_bin"
 		}]
+	}],
+	rewards: [{
+		uid: "08b5153e",
+		type: "item",
+		item: "pyrotech:mulch",
+		count: 4
 	}]
 }

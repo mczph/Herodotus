@@ -2,7 +2,7 @@
 	x: 21.25d,
 	y: 3.5d,
 	text: [
-		"{herodotus.quests.29c8c088.text.1}"
+		"为什么黄色的方是铜？"
 	],
 	dependencies: [
 		"1b1f72eb",

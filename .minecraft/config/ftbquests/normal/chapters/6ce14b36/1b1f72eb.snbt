@@ -2,8 +2,8 @@
 	x: 19.0d,
 	y: 2.0d,
 	text: [
-		"{herodotus.quests.1b1f72eb.text.1}",
-		"{herodotus.quests.1b1f72eb.text.2}"
+		"简单的液体容器，将固定放入其中加热浸泡就可以制作我需要的物品了。",
+		"得把它架在篝火上。"
 	],
 	dependencies: [
 		"e3c09120",
@@ -16,5 +16,10 @@
 		items: [{
 			item: "pyrotech:soaking_pot"
 		}]
+	}],
+	rewards: [{
+		uid: "d29299fa",
+		type: "item",
+		item: "pyrotech:tar_collector"
 	}]
 }
