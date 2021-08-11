@@ -112,13 +112,13 @@ recipes.addShaped(<minecraft:iron_sword>, [
     [<ore:stickWood>]
 ]);
 
-recipes.addShaped(<miencraft:iron_axe>, [
+recipes.addShaped(<minecraft:iron_axe>, [
     [<ore:ingotConstructionAlloy>,<ore:ingotConstructionAlloy>],
     [<ore:ingotConstructionAlloy>, <ore:stickWood>],
     [null, <ore:stickWood>]
 ]);
 
-recipes.addShaped(<miencraft:iron_hoe>, [
+recipes.addShaped(<minecraft:iron_hoe>, [
     [<ore:ingotConstructionAlloy>,<ore:ingotConstructionAlloy>],
     [null, <ore:stickWood>],
     [null, <ore:stickWood>]
