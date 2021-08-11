@@ -1,12 +1,13 @@
 {
 	title: "{herodotus.quests.e6605079.title}",
-	x: 6.0d,
+	x: 7.0d,
 	y: -3.0d,
 	dependencies: [
 		"92e6911f",
 		"d63c6bcd",
 		"68247582"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "564bcfbb",
 		type: "item",
