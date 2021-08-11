@@ -3,8 +3,8 @@
 
 import scripts.hds_main.utils.modloader.isInvalid;
 import loottweaker.LootTweaker;
-import loottweaker.vanilla.loot.LootTable;
-import loottweaker.vanilla.loot.LootPool;
+//import loottweaker.vanilla.loot.LootTable;
+//import loottweaker.vanilla.loot.LootPool;
 import crafttweaker.item.IItemStack;
 import mods.ltt.LootTable;
 if(!isInvalid){
