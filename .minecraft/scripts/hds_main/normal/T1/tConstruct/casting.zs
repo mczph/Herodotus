@@ -14,5 +14,7 @@ Casting.addBasinRecipe(<ore:oreGlass>.materialPart, <minecraft:stone>, <liquid:g
 Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
 Casting.removeTableRecipe(<tconstruct:cast_custom:3>);
 Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearStone>, <liquid:alubrass>, 144, true, 200);
+Casting.addTableRecipe(<tconstruct:cast_custom:4>, <pyrotech:cog_bone>, <liquid:alubrass>, 144, true, 200);
+Casting.addTableRecipe(<tconstruct:cast_custom:4>, <pyrotech:cog_flint>, <liquid:alubrass>, 144, true, 200);
 Casting.addBasinRecipe(<contenttweaker:raw_iron_block>, null, <liquid:molten_raw_iron>, 1000, false, 30 * 20);
 }
