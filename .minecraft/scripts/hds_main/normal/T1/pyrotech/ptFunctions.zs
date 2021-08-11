@@ -20,7 +20,7 @@ import mods.pyrotech.CrudeDryingRack;
 //universal pyrotech ovens recipes tweaker
 function uPyroOvens(name as string, output as IItemStack, input as IIngredient){
     StoneOven.removeRecipes(output);
-    BrickOven.emoveRecipes(output);
+    BrickOven.removeRecipes(output);
     StoneOven.addRecipe(name~"_bo", output, input);
     BrickOven.addRecipe(name~"_bo", output, input);
 }
