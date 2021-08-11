@@ -50,6 +50,12 @@ fluid.molten_river_nickel=熔融河镍
 fluid.unstable_aura=不稳定灵气
 fluid.taint_nutrition=腐化营养质
 fluid.unstable_mutation_agent=不稳定的异变剂
+fluid.yellow_t1=黄色流体
+fluid.red_t1=红色流体
+fluid.blue_t1=蓝色流体
+fluid.yellow_t2=相变临界黄色流体
+fluid.red_t2=相变临界红色流体
+fluid.blue_t2=相变临界蓝色流体
 
 #MSH
 contenttweaker.part.rhombus=%s菱形

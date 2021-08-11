@@ -47,6 +47,12 @@ fluid.molten_river_nickel=Molten River Nickel
 fluid.unstable_aura=Unstable Aura
 fluid.taint_nutrition=Taint Nutrition
 fluid.unstable_mutation_agent=Unstable Mutation Agent
+fluid.yellow_t1=Yellow Fluid
+fluid.red_t1=Red Fluid
+fluid.blue_t1=Blue Fluid
+fluid.yellow_t2=Phase Transition Critical Yellow Fluid
+fluid.red_t2=Phase Transition Critical Red Fluid
+fluid.blue_t2=Phase Transition Critical Blue Fluid
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus
