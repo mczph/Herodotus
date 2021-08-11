@@ -58,7 +58,7 @@ RecipeBuilder.newBuilder("btmm_victus", "basic_thermal_melting_machine", 10)
     .addItemInput(<contenttweaker:flesh_bolus>)
     .addFluidInput(<liquid:taint_nutrition> * 200)
     .addHotAirInput(250, maxInt, 250)
-    .addAspectOutput("victus", 20)
+    .addFluidOutput(<liquid:lifeessence> * 500)
     .addAspectOutput("vitium", 40)
     .build();
 }

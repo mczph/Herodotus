@@ -26,7 +26,6 @@ item.contenttweaker.flesh_bolus.name=血肉块
 item.contenttweaker.biological_resources.name=生物资源
 item.contenttweaker.broken_ootheca.name=破碎卵鞘
 item.contenttweaker.resurrected_meat.name=复苏肉块
-item.contenttweaker.active_rune.name=活跃符文
 item.contenttweaker.culture_medium.name=培养基
 
 tile.contenttweaker.altar.name=日月祭坛
@@ -36,6 +35,7 @@ tile.contenttweaker.static_molten_plastic.name=静态熔融塑料块
 tile.contenttweaker.raw_iron_block.name=粗铁块
 tile.contenttweaker.infinite_water_upgrade_module.name=无限水升级组件
 tile.contenttweaker.punched_stone.name=打孔石材
+tile.contenttweaker.active_rune.name=活跃符文
 
 fluid.molten_gel=熔融凝胶质
 fluid.limewater=石灰水
@@ -49,6 +49,7 @@ fluid.molten_river_iron=熔融河铁
 fluid.molten_river_nickel=熔融河镍
 fluid.unstable_aura=不稳定灵气
 fluid.taint_nutrition=腐化营养质
+fluid.unstable_mutation_agent=不稳定的异变剂
 
 #MSH
 contenttweaker.part.rhombus=%s菱形

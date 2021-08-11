@@ -131,4 +131,14 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansGrimoire>, 10)
   .addOutput(<thaumcraft:mechanism_simple>)
   .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:stone>, <bloodmagic:slate>, <ore:stone>],
+    [<bloodmagic:slate>, <contenttweaker:resurrected_meat>, <bloodmagic:slate>],
+    [<ore:stone>, <bloodmagic:slate>, <ore:stone>]])
+  .setFluid(<liquid:lifeessence> * 500)
+  .addTool(<ore:artisansGrimoire>, 30)
+  .addOutput(<contenttweaker:active_rune>)
+  .create();
 }
