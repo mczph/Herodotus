@@ -24,6 +24,13 @@ events.onCommand(function(event as CommandEvent){//disable the "/give" command b
        sender.sendMessage("呐呐, 不可以使用这个指令的哦（；´д｀）ゞ");
    }
 });
+events.onCommand(function(event as CommandEvent){//disable the "/ct" command by cancelling the command event
+   val sender as ICommandSender = event.commandSender;
+   if (!event.commandSender.world.remote && event.command.name == "ct" ) {
+       event.cancel();
+       sender.sendMessage("呐呐, 不可以使用这个指令的哦（；´д｀）ゞ");
+   }
+});
 events.onPlayerTick(function(event as PlayerTickEvent) {//send the tips
     val player as IPlayer = event.player;
     val world as IWorld = player.world;
