@@ -71,7 +71,7 @@ def write_lang(path):
             continue
         key = line.split("=")[0]
         if (key in copy):
-            f_list_copy[i] = key + "=" + copy.pop(key)
+            f_list_copy[i] = key + "=" + copy.pop(key) + "\n"
     for key, value in copy.items():
         to_append_entries.append(key + "=" + value)
     f = open(path, "w+", encoding="utf-8")
