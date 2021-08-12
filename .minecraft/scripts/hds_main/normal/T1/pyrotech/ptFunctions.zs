@@ -21,13 +21,13 @@ import mods.pyrotech.CrudeDryingRack;
 function uPyroOvens(name as string, output as IItemStack, input as IIngredient){
     StoneOven.removeRecipes(output);
     BrickOven.removeRecipes(output);
-    StoneOven.addRecipe(name~"_bo", output, input);
+    StoneOven.addRecipe(name~"_so", output, input);
     BrickOven.addRecipe(name~"_bo", output, input);
 }
 
 //add universal oven recipes
 function allPyroOvens(name as string, output as IItemStack, input as IIngredient){
-    StoneOven.addRecipe(name~"_bo", output, input);
+    StoneOven.addRecipe(name~"_so", output, input);
     BrickOven.addRecipe(name~"_bo", output, input);
 }
 
