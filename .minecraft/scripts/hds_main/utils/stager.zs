@@ -7,7 +7,7 @@ import crafttweaker.mods.ILoadedMods;
 import mods.ItemStages;
 import mods.MobStages;
 
-if (!debug) {/*
+if (!debug) {
     //TODO mobstages
     val stagedModList as string[] = [
         "tinker_io", "bloodtinker",
@@ -28,7 +28,7 @@ if (!debug) {/*
 
     for mdfk in stagedModList{
             recipes.removeByMod(mdfk);
-            ItemStages.stageModItems("locked", mdfk);
+            //ItemStages.stageModItems("locked", mdfk);
             for mdfks in loadedMods[mdfk].items{
                 mdfks.addTooltip(game.localize("herodotus.utils.currentlybanned"));
                 JEI.removeAndHide(mdfks, false);
@@ -36,7 +36,7 @@ if (!debug) {/*
             }
     }
     for item in expect {
-        ItemStages.removeItemStage(item);
+        //ItemStages.removeItemStage(item);
     }
 
     val stagedMobs as string[] = [];
@@ -44,7 +44,6 @@ if (!debug) {/*
     for id in stagedMobs {
         //MobStages.addStage("locked", id);
     }
-*/
 }
 
 

@@ -71,7 +71,7 @@ RecipeBuilder.get("mage")
     <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}),
     <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})])
   .addTool(<ore:artisansMortar>, 20)
-  .addOutput(<thaumcraft:salis_mundus> * 7)
+  .addOutput(<thaumcraft:salis_mundus> * 6)
   .create();
 
 RecipeBuilder.get("mage")
