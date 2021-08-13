@@ -2,19 +2,34 @@
 #priority -1
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
 import scripts.hds_main.utils.modloader.isInvalid;
-import scripts.hds_main.normal.T1.artisanWorktables.awFunctions.MRLTOreProcessor;
 
 if(!isInvalid){
 
 val ptm as IItemStack = <pyrotech:material>;
 val ptm5 as IItemStack = <pyrotech:material:5>;
 val ptb as IItemStack = <pyrotech:stone_bricks>;
+val ptm16 as IItemStack = <pyrotech:material:16>;
+val coal as IIngredient = <ore:pieceCoal>;
 
-MRLTOreProcessor("copper", <ore:clumpCopper>.materialPart*4, <ore:crushedOreCopper>);
-MRLTOreProcessor("tin", <ore:clumpTin>.materialPart*4, <ore:crushedOreTin>);
-//ore processing
+RecipeBuilder.get("mason")
+  .setShapeless([<ore:crushedOreCopper>, <ore:crushedOreCopper>, <ore:crushedOreCopper>, 
+    <ore:crushedOreCopper>, <ore:crushedOreCopper>, coal, coal, coal, coal])
+  .setFluid(<liquid:limewater> * 250)
+  .addTool(<ore:artisansTrowel>, 5)
+  .addOutput(<ore:clumpCopper>.materialPart*4)
+  .create();
+
+RecipeBuilder.get("mason")
+  .setShapeless([<ore:crushedOreTin>, <ore:crushedOreTin>, <ore:crushedOreTin>,
+    <ore:crushedOreTin>, <ore:crushedOreTin>, coal, coal, coal, coal])
+  .setFluid(<liquid:limewater> * 250)
+  .addTool(<ore:artisansTrowel>, 5)
+  .addOutput(<ore:clumpTin>.materialPart*4)
+  .create();
+
 RecipeBuilder.get("mason")
   .setShapeless([<ore:rhombusYellow>])
   .addTool(<ore:artisansBurner>, 5)
@@ -23,13 +38,13 @@ RecipeBuilder.get("mason")
 
 RecipeBuilder.get("mason")
   .setShaped([
-    [<pyrotech:material:16>, <ore:blockGlass>, <pyrotech:material:16>],
+    [ptm16, <ore:blockGlass>, ptm16],
     [<ore:blockGlass>, null, <ore:blockGlass>],
-    [<pyrotech:material:16>, <ore:blockGlass>, <pyrotech:material:16>],])
+    [ptm16, <ore:blockGlass>, ptm16],])
   .addTool(<ore:artisansTrowel>, 20)
   .setFluid(<liquid:limewater> * 500)
- .addOutput(<pyrotech:stone_tank>)
- .create();
+  .addOutput(<pyrotech:stone_tank>)
+  .create();
 
 RecipeBuilder.get("mason")
   .setShapeless([<ore:crushedOreLead>])
@@ -52,9 +67,9 @@ RecipeBuilder.get("mason")
 //stuff
 RecipeBuilder.get("mason")
   .setShaped([
-    [<pyrotech:material:16>, <ore:dustSmallBronze>, <pyrotech:material:16>],
-    [<ore:dustSmallBronze>, <pyrotech:material:16>, <ore:dustSmallBronze>],
-    [<pyrotech:material:16>, <ore:dustSmallBronze>, <pyrotech:material:16>]])
+    [ptm16, <ore:dustSmallBronze>, ptm16],
+    [<ore:dustSmallBronze>, ptm16, <ore:dustSmallBronze>],
+    [ptm16, <ore:dustSmallBronze>, ptm16]])
   .addTool(<ore:artisansBurner>, 30)
   .addOutput(ptm5 * 3)
   .create();
@@ -95,8 +110,8 @@ val pyrotechDevices as IItemStack[IItemStack] = {
 for brick, stone in pyrotechDevices {
     RecipeBuilder.get("mason")
       .setShaped([
-        [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>],
-        [<pyrotech:material:5>, stone, <pyrotech:material:5>],
+        [ptm5, ptm5, ptm5],
+        [ptm5, stone, ptm5],
         [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>]])
       .addTool(<ore:artisansTrowel>, 20)
       .setFluid(<liquid:limewater> * 500)
@@ -136,8 +151,8 @@ RecipeBuilder.get("mason")
 RecipeBuilder.get("mason")
   .setShaped([
     [<pyrotech:material:12>, <pyrotech:material:12>, <pyrotech:material:12>],
-    [<pyrotech:stone_bricks>, <pyrotech:material:5>, <pyrotech:stone_bricks>],
-    [<pyrotech:material:5>, <pyrotech:stone_bricks>, <pyrotech:material:5>]])
+    [<pyrotech:stone_bricks>, ptm5, <pyrotech:stone_bricks>],
+    [ptm5, <pyrotech:stone_bricks>, ptm5]])
   .addTool(<ore:artisansTrowel>, 10)
   .setFluid(<liquid:limewater>*1000)
   .addOutput(<artisanworkstumps:stone_basin>)
@@ -179,9 +194,9 @@ RecipeBuilder.get("mason")
 
 RecipeBuilder.get("mason")
   .setShaped([
-    [<pyrotech:material:16>, <pyrotech:material:16>, <pyrotech:material:16>],
+    [ptm16, ptm16, ptm16],
     [<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:flint>],
-    [<pyrotech:material:16>, <pyrotech:material:16>, <pyrotech:material:16>]])
+    [ptm16, ptm16, ptm16]])
   .addTool(<ore:artisansTrowel>, 20)
   .setFluid(<liquid:limewater> * 1000)
   .addOutput(<pyrotech:igniter>)
@@ -189,9 +204,9 @@ RecipeBuilder.get("mason")
 
 RecipeBuilder.get("mason")
   .setShaped([
-    [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>],
+    [ptm5, ptm5, ptm5],
     [<minecraft:redstone>, <minecraft:redstone_block>, <minecraft:flint>],
-    [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>]])
+    [ptm5, ptm5, ptm5]])
   .addTool(<ore:artisansTrowel>, 20)
   .setFluid(<liquid:limewater> * 1000)
   .addOutput(<pyrotech:igniter:1>)
