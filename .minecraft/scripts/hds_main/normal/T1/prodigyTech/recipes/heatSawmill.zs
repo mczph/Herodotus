@@ -18,24 +18,24 @@ for log, plank in log2PlankMap {
     heatsawmill.addRecipe(log, plank * 4);
 }
 
-headsawmill.addRecipe(<minecraft:sandstone>, <minecraft:stone_slab:1>*2);
-headsawmill.addRecipe(<minecraft:sandstone:1>, <minecraft:stone_slab:1>*2);
-headsawmill.addRecipe(<minecraft:sandstone:2>, <minecraft:stone_slab:1>*2);
+heatsawmill.addRecipe(<minecraft:sandstone>, <minecraft:stone_slab:1>*2);
+heatsawmill.addRecipe(<minecraft:sandstone:1>, <minecraft:stone_slab:1>*2);
+heatsawmill.addRecipe(<minecraft:sandstone:2>, <minecraft:stone_slab:1>*2);
 
-headsawmill.addRecipe(<minecraft:red_sandstone>, <minecraft:stone_slab2>*2);
-headsawmill.addRecipe(<minecraft:red_sandstone:1>, <minecraft:stone_slab2>*2);
-headsawmill.addRecipe(<minecraft:red_sandstone:2>, <minecraft:stone_slab2>*2);
+heatsawmill.addRecipe(<minecraft:red_sandstone>, <minecraft:stone_slab2>*2);
+heatsawmill.addRecipe(<minecraft:red_sandstone:1>, <minecraft:stone_slab2>*2);
+heatsawmill.addRecipe(<minecraft:red_sandstone:2>, <minecraft:stone_slab2>*2);
 
-headsawmill.addRecipe(<minecraft:brick_block>, <minecraft:stone_slab:4>*2);
+heatsawmill.addRecipe(<minecraft:brick_block>, <minecraft:stone_slab:4>*2);
 
-headsawmill.addRecipe(<minecraft:stonebrick>, <minecraft:stone_slab:5>*2);
-headsawmill.addRecipe(<minecraft:stonebrick:3>, <minecraft:stone_slab:5>*2);
-headsawmill.addRecipe(<minecraft:nether_brick>, <minecraft:stone_slab:6>*2);
-headsawmill.addRecipe(<minecraft:quartz_block>, <minecraft:stone_slab:7>*2);
-headsawmill.addRecipe(<minecraft:quartz_block:1>, <minecraft:stone_slab:7>*2);
-headsawmill.addRecipe(<minecraft:quartz_block:2>, <minecraft:stone_slab:7>*2);
-headsawmill.addRecipe(<minecraft:cobblestone>, <minecraft:stone_slab:3>*2);
-headsawmill.addRecipe(<minecraft:stone>, <minecraft:stone_slab>*2);
-headsawmill.addRecipe(<minecraft:stone_slab>, <pyrotech:material:16>*2);
-headsawmill.addRecipe(<minecraft:purpur_block>, <minecraft:purpur_slab>*2);
+heatsawmill.addRecipe(<minecraft:stonebrick>, <minecraft:stone_slab:5>*2);
+heatsawmill.addRecipe(<minecraft:stonebrick:3>, <minecraft:stone_slab:5>*2);
+heatsawmill.addRecipe(<minecraft:nether_brick>, <minecraft:stone_slab:6>*2);
+heatsawmill.addRecipe(<minecraft:quartz_block>, <minecraft:stone_slab:7>*2);
+heatsawmill.addRecipe(<minecraft:quartz_block:1>, <minecraft:stone_slab:7>*2);
+heatsawmill.addRecipe(<minecraft:quartz_block:2>, <minecraft:stone_slab:7>*2);
+heatsawmill.addRecipe(<minecraft:cobblestone>, <minecraft:stone_slab:3>*2);
+heatsawmill.addRecipe(<minecraft:stone>, <minecraft:stone_slab>*2);
+heatsawmill.addRecipe(<minecraft:stone_slab>, <pyrotech:material:16>*2);
+heatsawmill.addRecipe(<minecraft:purpur_block>, <minecraft:purpur_slab>*2);
 }
