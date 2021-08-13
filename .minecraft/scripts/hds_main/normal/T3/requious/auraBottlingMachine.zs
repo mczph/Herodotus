@@ -41,19 +41,21 @@ abm.setJEIItemSlot(6,2,"output");
 if(!isInvalid) {
 
 var bottledAura = AssemblyRecipe.create(function(container) {
-    var machine as MachineContainer = container.machine;
-    var world as IWorld = machine.world;
-    container.addItemOutput("output", <contenttweaker:bottled_aura>);
-    world.addFlux(machine.pos, world.random.nextInt(3, 5));})
-    .requireItem("input", <thaumcraft:phial>)
-    .requireFluid("input", <liquid:unstable_aura> * 1000)
-    .requireDuration("input", 20 * 3);
+        var machine as MachineContainer = container.machine;
+        var world as IWorld = machine.world;
+        container.addItemOutput("output", <contenttweaker:bottled_aura>);
+        world.addFlux(machine.pos, world.random.nextInt(3, 5));
+    })
+.requireItem("input", <thaumcraft:phial>)
+.requireFluid("input", <liquid:unstable_aura> * 1000)
+.requireDuration("input", 20 * 3);
 
 var bottledAuraJEI = AssemblyRecipe.create(function(container) {
-    container.addItemOutput("output", <contenttweaker:bottled_aura>);})
-    .requireItem("input", <thaumcraft:phial>)
-    .requireFluid("input", <liquid:unstable_aura> * 1000)
-    .requireDuration("input", 20 * 3);
+        container.addItemOutput("output", <contenttweaker:bottled_aura>);
+    })
+.requireItem("input", <thaumcraft:phial>)
+.requireFluid("input", <liquid:unstable_aura> * 1000)
+.requireDuration("input", 20 * 3);
 
 abm.addRecipe(bottledAura);
 abm.addJEIRecipe(bottledAuraJEI);
