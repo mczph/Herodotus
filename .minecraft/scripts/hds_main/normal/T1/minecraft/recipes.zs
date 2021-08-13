@@ -72,6 +72,18 @@ RecipeUtils.recipeTweak(true, <jecalculation:item_calculator>, [
     [<pyrotech:material:16>, <minecraft:stone_button>, <pyrotech:material:16>]
 ]);
 
+RecipeUtils.recipeTweak(true, <mekanismtools:ironpaxel>, [
+    [<minecraft:iron_axe>, <minecraft:iron_shovel>, <minecraft:iron_pickaxe>],
+    [<ore:itemClay>, <ore:stickWood>, <ore:itemClay>],
+    [null, <ore:stickWood>, null]
+]);
+
+RecipeUtils.recipeTweak(true, <mekanismtools:obsidianpaxel>, [
+    [<pyrotech:obsidian_axe>, <pyrotech:obsidian_shovel>, <pyrotech:obsidian_pickaxe>],
+    [<ore:itemClay>, <ore:stickWood>, <ore:itemClay>],
+    [null, <ore:stickWood>, null]
+]);
+
 RecipeUtils.recipeTweak(true, <pyrotech:crate> * 2, RecipeUtils.createSurround(<ore:slabWood>, <ore:plankWood>));
 
 recipes.addShaped("hopper_from_iron", <minecraft:hopper>, [
