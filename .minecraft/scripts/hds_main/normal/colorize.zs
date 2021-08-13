@@ -97,7 +97,7 @@ for color in crtlib.colors {
         Casting.addTableRecipe(output, input2, fluidTier2, 250, true, 20 * 20);
         RecipeBuilder.get("mason")
             .setShapeless([input2, dust])
-            .addTool(<ore:artisansTrowel>, 4)
+            .addTool(<ore:artisansTrowel>, 2)
             .addOutput(input3.materialPart)
             .create();
         BrickKiln.addRecipe(shape ~ "_kiln_" ~ color, output, input3, 2.5 * 60 * 20);

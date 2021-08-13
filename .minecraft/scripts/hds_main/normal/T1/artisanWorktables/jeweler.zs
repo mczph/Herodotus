@@ -35,19 +35,19 @@ RecipeBuilder.get("jeweler")
 
 RecipeBuilder.get("jeweler")
   .setShapeless([<contenttweaker:rhombus>])
-  .addTool(<ore:artisansGemCutter>, 4)
+  .addTool(<ore:artisansGemCutter>, 2)
   .addOutput(<contenttweaker:polished_rhombus>)
   .create();
 
 RecipeBuilder.get("jeweler")
   .setShapeless([<contenttweaker:square>])
-  .addTool(<ore:artisansGemCutter>, 4)
+  .addTool(<ore:artisansGemCutter>, 2)
   .addOutput(<contenttweaker:polished_square>)
   .create();
 
 RecipeBuilder.get("jeweler")
   .setShapeless([<contenttweaker:spherical>])
-  .addTool(<ore:artisansGemCutter>, 4)
+  .addTool(<ore:artisansGemCutter>, 2)
   .addOutput(<contenttweaker:polished_spherical>)
   .create();
 
