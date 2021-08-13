@@ -134,6 +134,7 @@ tile.prodigytech.heat_sawmill.tooltip=比用手切割材料更加高效
 
 tile.aura_bottling_machine.name=灵气压瓶机
 requious.jei.recipe.aura_bottling_machine=灵气压瓶
+requious.jei.recipe.sluice=河篦
 
 herodotus.quests.871395ed.title=产能升级
 herodotus.quests.871395ed.text.1=比起在地上随手制作的工具，在工作桌上加工过的燧石制品明显更加耐用。

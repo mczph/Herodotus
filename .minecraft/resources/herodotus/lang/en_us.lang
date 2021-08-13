@@ -99,9 +99,12 @@ herodotus.quests.2d90bfa2.title=基础热力热熔机
 herodotus.quests.2eda9938.title=三阶
 herodotus.quests.cbf24504.text.1=通过替换蒸汽锅炉结构中的特定方块，可以给蒸汽锅炉提供无限水
 
-tile.aura_bottling_machine.name=Aura Bottling Machine
+tile.prodigytech.heat_sawmill.name=Heat Cutter
+tile.prodigytech.heat_sawmill.tooltip=More efficiency than cutting with hand.
 
+tile.aura_bottling_machine.name=Aura Bottling Machine
 requious.jei.recipe.aura_bottling_machine=Aura Bottling
+requious.jei.recipe.sluice=Sluice
 
 herodotus.quests.871395ed.title=产能升级
 herodotus.quests.871395ed.text.1=比起在地上随手制作的工具，在工作桌上加工过的燧石制品明显更加耐用。
