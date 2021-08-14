@@ -19,7 +19,6 @@
 	rewards: [{
 		uid: "b4158375",
 		type: "item",
-		title: "{herodotus.quests.a0288b62.title}",
 		item: "pyrotech:igniter"
 	}]
 }
