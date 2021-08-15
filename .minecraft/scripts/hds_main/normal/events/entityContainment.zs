@@ -21,7 +21,7 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
         val world as IWorld = entity.world;
         val definition as IEntityDefinition = entity.definition;
         if (world.remote || isNull(definition) || entity.definition.name == result) return;
-        if (world.getBlockState(entity.position).getBlock().definition.id == "thaumcraft:flux_goo") {
+        if (world.getBlockState(entity.position).getBlock().definition.id == "contenttweaker:unstable_mutation_agent") {
             entity.attackEntityFrom(<damageSource:FLUX_GOO>, 2);
         }
     }
