@@ -13,6 +13,7 @@ import crafttweaker.event.EntityLivingDeathDropsEvent;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 static result as string = <entity:srparasites:movingflesh>.name;
+static damageSource as IDamageSource = <damageSource:UNSTABLE_MUTATION_AGENT>;
 if(!isInvalid) {
 
 events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
@@ -22,7 +23,7 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
         val definition as IEntityDefinition = entity.definition;
         if (world.remote || isNull(definition) || entity.definition.name == result) return;
         if (world.getBlockState(entity.position).getBlock().definition.id == "contenttweaker:unstable_mutation_agent") {
-            entity.attackEntityFrom(<damageSource:FLUX_GOO>, 2);
+            entity.attackEntityFrom(damageSource , 2);
         }
     }
 });
@@ -32,14 +33,14 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
     val damageSource as IDamageSource = event.damageSource;
     val world as IWorld = entity.world;
     if (world.remote) return;
-    if(!isNull(damageSource) && damageSource.damageType == "FLUX_GOO") {
+    if(!isNull(damageSource) && damageSource.damageType == "UNSTABLE_MUTATION_AGENT") {
         game.getEntity(result).spawnEntity(world, entity.position);
     }
 });
 
 events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent) {
     val damageSource as IDamageSource = event.damageSource;
-    if(!isNull(damageSource) && damageSource.damageType == "FLUX_GOO") {
+    if(!isNull(damageSource) && damageSource.damageType == "UNSTABLE_MUTATION_AGENT") {
         event.cancel();
     }
 });
