@@ -5,6 +5,7 @@
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 import scripts.hds_main.utils.modloader.isInvalid;
 import scripts.grassUtils.RecipeUtils.createCrossWithCore;
 
@@ -212,6 +213,36 @@ recipes.addShapeless("hot_air_solderer_trans_3", <contenttweaker:hot_air_soldere
         return out.withDamage(max(0, 32000 - (12000 - ins.c.damage) * 12));
     }, null
 );
+
+val ironAlloy as IIngredient = <ore:ingotConstructionAlloy>;
+
+recipes.addShaped("iron_helmet_2", <minecraft:iron_helmet>, [
+    [ironAlloy, ironAlloy, ironAlloy],
+    [ironAlloy, null, ironAlloy]
+]);
+
+recipes.addShaped("iron_chestplate_2", <minecraft:iron_chestplate>, [
+    [ironAlloy, null, ironAlloy],
+    [ironAlloy, ironAlloy, ironAlloy],
+    [ironAlloy, ironAlloy, ironAlloy]
+]);
+
+recipes.addShaped("iron_leggings_2", <minecraft:iron_leggings>, [
+    [ironAlloy, ironAlloy, ironAlloy],
+    [ironAlloy, null, ironAlloy],
+    [ironAlloy, null, ironAlloy]
+]);
+
+recipes.addShaped("iron_boots_2", <minecraft:iron_boots>, [
+    [ironAlloy, null, ironAlloy],
+    [ironAlloy, null, ironAlloy]
+]);
+
+recipes.addShaped("shield_2", <minecraft:shield>, [
+    [<ore:plankWood>, ironAlloy, <ore:plankWood>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [null, <ore:plankWood>, null]
+]);
 
 furnace.addRecipe(<minecraft:dye:2>, <minecraft:cactus>);
 }
