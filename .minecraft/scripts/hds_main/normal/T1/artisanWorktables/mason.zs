@@ -212,4 +212,14 @@ RecipeBuilder.get("mason")
   .addOutput(<pyrotech:igniter:1>)
   .create();
 
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<pyrotech:material:5>, <pyrotech:refractory_glass>, <pyrotech:material:5>],
+    [<pyrotech:refractory_glass>, null, <pyrotech:refractory_glass>],
+    [<pyrotech:material:5>, <pyrotech:refractory_glass>, <pyrotech:material:5>]])
+  .setFluid(<liquid:limewater> * 500)
+  .addTool(<ore:artisansTrowel>, 20)
+  .addOutput(<pyrotech:brick_tank>)
+  .create();
+
 }
