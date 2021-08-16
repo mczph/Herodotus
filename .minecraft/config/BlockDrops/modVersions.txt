@@ -155,7 +155,6 @@
   "ocxnetdriver": "1.0.3",
   "xlfoodmod": "1.12.2-1.9.2",
   "astral-level-nerf": "1.0.0",
-  "tooltweaks": "1.0.7",
   "artisanautomation": "1.12.2-1.0.6",
   "base": "3.13.0",
   "defaultoptions": "9.2.8",
