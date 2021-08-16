@@ -7,9 +7,11 @@ import crafttweaker.world.IBlockPos;
 import crafttweaker.world.IFacing;
 import crafttweaker.player.IPlayer;
 import crafttweaker.event.EntityLivingDamageEvent;
+import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.PlayerCloneEvent;
 import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.AttributeInstance;
 import crafttweaker.entity.AttributeModifier;
 import crafttweaker.util.IRandom;
@@ -27,6 +29,29 @@ static priEntities as IEntityDefinition[] = [
     <entity:srparasites:pri_bolster>,
     <entity:srparasites:pri_arachnida>
 ];
+
+static parasites as IEntityDefinition[][int] = {
+    0 : priEntities,
+    1 : [
+        <entity:srparasites:ada_longarms>,
+        <entity:srparasites:ada_manducater>,
+        <entity:srparasites:ada_reeker>,
+        <entity:srparasites:ada_yelloweye>,
+        <entity:srparasites:ada_summoner>,
+        <entity:srparasites:ada_bolster>,
+        <entity:srparasites:ada_arachnida>
+    ],
+    2 : [
+        <entity:srparasites:carrier_flying>,
+        <entity:srparasites:carrier_heavy>,
+        <entity:srparasites:kyphosis>,
+        <entity:srparasites:sentry>
+    ],
+    3 : [
+        <entity:srparasites:beckon_siii>,
+        <entity:srparasites:beckon_siv>
+    ]
+};
 
 static taintUUID1 as string = "a6a68061-8cc9-48d0-8b69-54e7ee383ed8";
 static taintUUID2 as string = "bdb6f5a0-c20a-4d70-96d7-0b2a74331b04";
@@ -100,6 +125,28 @@ if (!isInvalid) {
         if (!isNull(originalModifier)) {
             val amount as double = originalModifier.amount;
             event.player.getAttribute("generic.maxHealth").applyModifier(AttributeModifier.createModifier("Taint50", amount, 0, taintUUID1));
+        }
+    });
+
+    events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
+        val entity as IEntityLivingBase = event.entityLivingBase;
+        val world as IWorld = entity.world;
+        if (world.remote)
+            return;
+        val player as IPlayer = world.getClosestPlayerToEntity(entity, 50.0, false);
+        val random as IRandom = world.random;
+        if (!isNull(player) && player.taint.moreThanScale(0.85f) && random.nextInt(10) >= 7) {
+            val i as int = random.nextInt(20);
+            var index as int = 0;
+            if (i == 0) {
+                index = 3;
+            } else if (i < 5) {
+                index = 2;
+            } else if (i < 11) {
+                index = 1;
+            }
+            val list as IEntityDefinition[] = parasites[index];
+            spawnEntityNearby(list[random.nextInt(list.length)], world, entity.position, random);
         }
     });
 }
