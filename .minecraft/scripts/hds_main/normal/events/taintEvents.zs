@@ -10,6 +10,7 @@ import crafttweaker.event.EntityLivingDamageEvent;
 import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.PlayerCloneEvent;
+import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.AttributeInstance;
@@ -53,12 +54,26 @@ static parasites as IEntityDefinition[][int] = {
     ]
 };
 
+static parasitesMap as IEntityDefinition[IEntityDefinition] = {
+    <entity:minecraft:cow>: <entity:srparasites:sim_cow>,
+    <entity:minecraft:sheep>: <entity:srparasites:sim_sheep>,
+    <entity:minecraft:wolf>: <entity:srparasites:sim_wolf>,
+    <entity:minecraft:pig>: <entity:srparasites:sim_pig>,
+    <entity:minecraft:villager>: <entity:srparasites:sim_villager>
+};
+
 static taintUUID1 as string = "a6a68061-8cc9-48d0-8b69-54e7ee383ed8";
 static taintUUID2 as string = "bdb6f5a0-c20a-4d70-96d7-0b2a74331b04";
 
 function spawnEntityNearby(entity as IEntityDefinition, world as IWorld, pos as IBlockPos, random as IRandom) {
-    val xOffset as int = random.nextInt(11) - 5;
-    val zOffset as int = random.nextInt(11) - 5;
+    var xOffset as int = random.nextInt(24, 48);
+    var zOffset as int = random.nextInt(24, 48);
+    if (random.nextBoolean()) {
+        xOffset = 0 - xOffset;
+    }
+    if (random.nextBoolean()) {
+        zOffset = 0 - zOffset;
+    }
     var pos1 as IBlockPos = EventUtils.getOffset(pos, xOffset, 0, zOffset);
     while (pos1.y < 256 && world.getBlockState(pos1) != <blockstate:minecraft:air>) {
         pos1 = pos1.getOffset(IFacing.up(), 1);
@@ -68,10 +83,11 @@ function spawnEntityNearby(entity as IEntityDefinition, world as IWorld, pos as 
 
 if (!isInvalid) {
     events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
-        if (event.entityLivingBase instanceof IPlayer) {
-            val player as IPlayer = event.entityLivingBase;
+        val entity as IEntityLivingBase = event.entityLivingBase;
+        val world as IWorld = entity.world;
+        if (entity instanceof IPlayer) {
+            val player as IPlayer = entity;
             val pos as IBlockPos = player.position;
-            val world as IWorld = player.world;
             val taint as ITaint = player.taint;
             if (taint.moreThanScale(0.95f)) {
                 player.attackEntityFrom(<damageSource:GENERIC>, 1145141919810.0f);
@@ -90,6 +106,30 @@ if (!isInvalid) {
             if (taint.moreThanScale(0.4f) && !world.remote) {
                 world.addFlux(pos, taint.scale / 50);
             }
+        } else {
+            if (event.amount >= entity.health)
+                return;
+            val convert as IEntityDefinition = parasitesMap[entity.definition];
+            if (!isNull(convert)) {
+                val source as IEntity = event.damageSource.trueSource;
+                if (source instanceof IPlayer) {
+                    val sourcePlayer as IPlayer = source;
+                    if (sourcePlayer.taint.moreThanScale(0.8f)) {
+                        event.cancel();
+                        entity.removeFromWorld();
+                        val parasite as IEntity = convert.createEntity(world);
+                        parasite.motionX = entity.motionX;
+                        parasite.motionY = entity.motionY;
+                        parasite.motionZ = entity.motionZ;
+                        parasite.posX = entity.posX;
+                        parasite.posY = entity.posY;
+                        parasite.posZ = entity.posZ;
+                        parasite.rotationYaw = entity.rotationYaw;
+                        parasite.rotationPitch = entity.rotationPitch;
+                        world.spawnEntity(parasite);
+                    }
+                }
+            }
         }
     });
 
@@ -100,7 +140,7 @@ if (!isInvalid) {
         val random as IRandom = player.world.random;
         val maxHealth as AttributeInstance = player.getAttribute("generic.maxHealth");
         val taint as ITaint = player.taint;
-        if (taint.moreThanScale(0.5f)) {
+        if (taint.moreThanScale(0.5f) && isNull(maxHealth.getModifier(taintUUID1))) {
             maxHealth.applyModifier(AttributeModifier.createModifier("Taint50", player.maxHealth, 0, taintUUID1));
         }
         if (taint.moreThanScale(0.4f)) {
@@ -115,8 +155,11 @@ if (!isInvalid) {
                 maxHealth.applyModifier(AttributeModifier.createModifier("TaintDynamic", maxHealth.baseValue * taint.scale, 0, taintUUID2));
             }
         }
-        if (taint.moreThanScale(0.65f) && random.nextInt(500000) == 233333) {
+        if (taint.moreThanScale(0.65f) && random.nextInt(300000) == 233333) {
             player.addPotionEffect(<potion:hdsutils:starvation>.makePotionEffect(1200, 1));
+        }
+        if (taint.moreThanScale(0.75f) && random.nextInt(650000) == 114514) {
+            spawnEntityNearby(priEntities[random.nextInt(priEntities.length)], player.world, player.position, random);
         }
     });
 
