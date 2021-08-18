@@ -74,18 +74,6 @@ jobs:
       - name: Tweak ThaumicJEI config
         run: sudo mv -f ${GITHUB_WORKSPACE}/runners/thaumicjei.cfg ${GITHUB_WORKSPACE}/gml/.minecraft/config
 
-      - name: export fm config for debug
-        run: |
-          cd ./gml/.minecraft/config/fancymenu
-          mkdir artifacts
-          mv config.txt artifacts
-      
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}
-          path: /home/runner/work/Herodotus/Herodotus/gml/.minecraft/config/fancymenu/artifacts
-
       - name: Run modpack
         run: |
           cd ./gml
