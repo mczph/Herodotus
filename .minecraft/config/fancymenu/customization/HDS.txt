@@ -84,7 +84,7 @@ customization {
   backgroundhovered = resources/mainmenu/mods_hover.png
   label = 
   backgroundnormal = resources/mainmenu/mods.png
-  value =  net.minecraftforge.fml.client.GuiModList
+  value = net.minecraftforge.fml.client.GuiModList
   height = 38
 }
 
