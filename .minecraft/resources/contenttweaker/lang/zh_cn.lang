@@ -27,6 +27,7 @@ item.contenttweaker.biological_resources.name=生物资源
 item.contenttweaker.broken_ootheca.name=破碎卵鞘
 item.contenttweaker.resurrected_meat.name=复苏肉块
 item.contenttweaker.culture_medium.name=培养基
+item.contenttweaker.zorra_fruit.name=佐拉果
 
 tile.contenttweaker.altar.name=日月祭坛
 tile.contenttweaker.starlight_frame.name=星光框架
