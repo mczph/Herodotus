@@ -141,4 +141,14 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansGrimoire>, 30)
   .addOutput(<contenttweaker:active_rune>)
   .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <ore:plasticPurple>],
+    [null, <ore:plasticPurple>, <ore:gemFlawedQuartz>],
+    [<ore:lightPlateIron>, null, null]])
+  .addTool(<ore:artisansAthame>, 50)
+  .setFluid(<liquid:mercury> * 1000)
+  .addOutput(<hdsutils:taint_checker>)
+  .create();
 }
