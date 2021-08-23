@@ -28,4 +28,12 @@ Dropt.list("glass")
             .items([<pyrotech:material:32>], Dropt.range(1, 4))
         )
     );
+
+Dropt.list("zorra_fruit")
+    .add(Dropt.rule()
+        .matchBlocks(["prodigytech:zorra_leaves:*"])
+        .addDrop(Dropt.drop()
+            .items([<contenttweaker:zorra_fruit>])
+        )  
+    );
 }

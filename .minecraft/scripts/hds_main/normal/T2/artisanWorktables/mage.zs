@@ -23,4 +23,14 @@ if (!isInvalid){
     .addTool(<ore:artisansGrimoire>, 15)
     .addOutput(<ore:gemChippedSilver>.materialPart)
     .create();
+
+    RecipeBuilder.get("mage")
+    .setShaped([
+        [null, <minecraft:book>, null],
+        [<ore:plasticLightBlue>, <ore:obsidian>, <ore:plasticLightBlue>],
+        [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]])
+    .addTool(<ore:artisansAthame>, 40)
+    .setFluid(<liquid:mercury> * 1000)
+    .addOutput(<minecraft:enchanting_table>)
+    .create();
 }

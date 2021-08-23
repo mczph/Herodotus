@@ -10,4 +10,5 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if(!isInvalid){
 
 magneticreassembler.addRecipe(<ore:shardIron>, <ore:gemChippedIron>.materialPart);
+magneticreassembler.addRecipe(<prodigytech:fuel_pellet_64>, <prodigytech:carbon_plate>);
 }

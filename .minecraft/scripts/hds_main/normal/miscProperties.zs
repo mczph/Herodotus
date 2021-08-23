@@ -18,4 +18,5 @@ if (!isInvalid) {
     <astralsorcery:blockcustomore>.asBlock().definition.setHarvestLevel("pickaxe", 1);
     <entity:minecraft:zombie>.removeDrop(<minecraft:iron_ingot>);
     <entity:minecraft:zombie>.removeDrop(<minecraft:iron_ore>);
+    <entity:srparasites:pri_bolster>.addDrop(<contenttweaker:broken_ootheca> % 35);
 }

@@ -8,6 +8,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 //something that recipeutils can't do or just remove
 val removeByOutput as IItemStack[] = [
+    <minecraft:enchanting_table>,
     <pyrotech:refractory_glass>,
     <tinker_io:ore_crusher>,
     <tconstruct:smeltery_controller>,
