@@ -19,6 +19,7 @@ if (!isInvalid) {
     <mekanismtools:ironpaxel>.maxDamage = 1000;
     <mekanismtools:obsidianpaxel>.maxDamage = 1500;
     <astralsorcery:blockcustomore>.asBlock().definition.setHarvestLevel("pickaxe", 1);
+    <entity:minecraft:zombie_pigman>.removeDrop(<minecraft:gold_nugget>);
     <entity:minecraft:zombie>.removeDrop(<minecraft:iron_ingot>);
     <entity:minecraft:zombie>.removeDrop(<minecraft:iron_ore>);
     <entity:srparasites:pri_bolster>.addDrop(<contenttweaker:broken_ootheca> % 35);
