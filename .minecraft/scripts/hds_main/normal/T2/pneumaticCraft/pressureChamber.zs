@@ -13,6 +13,8 @@ for shape in crtlib.shapes {
     pc.addRecipe([colorize.getShapeVariant(shape, "recrystallized"), <thermalfoundation:material:833> * 2], 1.2, [colorize.getShapeVariant(shape, "polluted")]);
 }
 
+pc.removeRecipe([<pneumaticcraft:capacitor>]);
+pc.removeRecipe([<pneumaticcraft:transistor>]);
 pc.removeRecipe([<pneumaticcraft:ingot_iron_compressed>]);
 pc.removeRecipe([<pneumaticcraft:compressed_iron_block>]);
 pc.removeRecipe([<minecraft:diamond>]);
@@ -28,4 +30,6 @@ pc.addRecipe([<ore:plateCopper>, <ore:plasticGreen>, <contenttweaker:impure_gel>
 pc.addRecipe([<ore:plateCopper>, <ore:plasticGreen>, <contenttweaker:sticky_gel>, <pneumaticcraft:empty_pcb>], 1.6, [<pneumaticcraft:empty_pcb> * 2]);
 pc.addRecipe([<ore:plateQuartz>.materialPart * 2], 2.0, [<ore:gemFlawedQuartz>.firstItem]);
 
+pc.addRecipe([<ore:plasticCyan>, <ore:ingotIronCompressed>, <ore:dustRedstone>], 1.2, [<pneumaticcraft:capacitor> * 3]);
+pc.addRecipe([<ore:plasticBlack>, <ore:ingotIronCompressed>, <ore:dustRedstone>], 1.2, [<pneumaticcraft:transistor> * 3]);
 }

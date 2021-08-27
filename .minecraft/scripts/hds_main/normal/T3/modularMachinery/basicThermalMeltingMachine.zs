@@ -48,7 +48,7 @@ RecipeBuilder.newBuilder("btmm_fluid_aspect", "basic_thermal_melting_machine", 1
 
 RecipeBuilder.newBuilder("btmm_terra", "basic_thermal_melting_machine", 10)
     .addItemInput(<contenttweaker:rhythmic_seed>)
-    .addItemInput(<ore:dirt>, 64)
+    .addItemInput(<ore:dirt>, 16)
     .addFluidInput(<liquid:unstable_aura> * 200)
     .addHotAirInput(250, maxInt, 250)
     .addAspectOutput("terra", 40)

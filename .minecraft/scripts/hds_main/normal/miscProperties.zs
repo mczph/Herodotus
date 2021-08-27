@@ -1,8 +1,11 @@
 #packmode normal
 #priority 2
+
 import scripts.hds_main.utils.modloader.isInvalid;
+import mods.jei.JEI;
 
 if (!isInvalid) {
+    JEI.hideCategory("pneumaticcraft.amadron_trade");
     <minecraft:obsidian>.asBlock().definition.resistance = 8.0f;
     <minecraft:iron_pickaxe>.maxDamage = 300;
     <minecraft:iron_shovel>.maxDamage = 300;
