@@ -40,11 +40,13 @@ RecipeUtils.recipeTweak(true, <storagenetwork:kabel> * 8, [
 ]);
 
 RecipeUtils.recipeTweak(true, <pneumaticcraft:speed_upgrade>, 
-	createCrossWithCore(<liquid:lubricant>*1000, <ore:listAllsugar>, <ore:lightPlateLead>)
+	createCrossWithCore(<liquid:lubricant> * 1000, <ore:listAllsugar>, <ore:listAllsugar>)
 );
 
-RecipeUtils.recipeTweak(true, <magneticraft:iron_pipe>*6,
-	createCrossWithCore(<ore:blockGlass>, <ore:lightPlateIron>, null)
+RecipeUtils.recipeTweak(true, <magneticraft:iron_pipe> * 8,
+	[null, <ore:ingotIron>, null],
+	[<ore:lightPlateIron>, <ore:blockGlass>, <ore:lightPlateIron>],
+	[null, <ore:ingotIron>, null]
 );
 
 RecipeUtils.recipeTweak(true, <artisanworktables:toolbox>, [
@@ -106,7 +108,7 @@ RecipeUtils.recipeTweak(true, <pneumaticcraft:liquid_hopper>, [
 ]);
 
 RecipeUtils.recipeTweak(true, <waystones:warp_stone>,
-	createCrossWithCore(<ore:crystalLithium>, <ore:enderpearl>, <ore:dyePurple>)
+	createCrossWithCore(<ore:crystalLithium>, <ore:dyePurple>, <ore:enderpearl>)
 );
 
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <factorytech:ingot:5>, <*>.only(function(item) {
