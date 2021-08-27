@@ -11,5 +11,20 @@
 		items: [{
 			item: "factorytech:disassembler"
 		}]
+	}],
+	rewards: [{
+		uid: "cfba1aec",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyShowsTooltip: 0b,
+				TrophyItem: {
+					id: "factorytech:disassembler",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}
 	}]
 }

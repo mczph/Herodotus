@@ -17,5 +17,20 @@
 		items: [{
 			item: "pyrotech:material 1 5"
 		}]
+	}],
+	rewards: [{
+		uid: "c2e81dc9",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyShowsTooltip: 0b,
+				TrophyItem: {
+					id: "pyrotech:material",
+					Count: 1b,
+					Damage: 5s
+				}
+			}
+		}
 	}]
 }
