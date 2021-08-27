@@ -40,7 +40,7 @@ RecipeUtils.recipeTweak(true, <storagenetwork:kabel> * 8, [
 ]);
 
 RecipeUtils.recipeTweak(true, <pneumaticcraft:speed_upgrade>, 
-	createCrossWithCore(<liquid:lubricant> * 1000, <ore:listAllsugar>, <ore:listAllsugar>)
+	createCrossWithCore(<liquid:lubricant> * 1000, <ore:lightPlateLead>, <ore:listAllsugar>)
 );
 
 RecipeUtils.recipeTweak(true, <magneticraft:iron_pipe> * 8, [
