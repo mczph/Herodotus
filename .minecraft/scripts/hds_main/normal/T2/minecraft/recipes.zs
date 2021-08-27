@@ -43,11 +43,11 @@ RecipeUtils.recipeTweak(true, <pneumaticcraft:speed_upgrade>,
 	createCrossWithCore(<liquid:lubricant> * 1000, <ore:listAllsugar>, <ore:listAllsugar>)
 );
 
-RecipeUtils.recipeTweak(true, <magneticraft:iron_pipe> * 8,
+RecipeUtils.recipeTweak(true, <magneticraft:iron_pipe> * 8, [
 	[null, <ore:ingotIron>, null],
 	[<ore:lightPlateIron>, <ore:blockGlass>, <ore:lightPlateIron>],
 	[null, <ore:ingotIron>, null]
-);
+]);
 
 RecipeUtils.recipeTweak(true, <artisanworktables:toolbox>, [
 	[<ore:plankWood>, <ore:plateBronze>, <ore:plankWood>],
