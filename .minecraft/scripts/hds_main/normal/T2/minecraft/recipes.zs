@@ -8,6 +8,10 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
+RecipeUtils.recipeTweak(true, <pneumaticcraft:armor_upgrade>, 
+	createCrossWithCore(<ore:ingotIronCompressed>, <ore:rhombusTierTwoBlue>, <ore:lightPlateLead>)
+);
+
 RecipeUtils.recipeTweak(true, <storagenetwork:controller>, 
 	createCrossWithCore(<ore:obsidian>, <storagenetwork:process_kabel>, <ore:rhombusTierTwoBlue>)
 );
@@ -31,7 +35,7 @@ RecipeUtils.recipeTweak(true, <storagenetwork:master>,
 
 RecipeUtils.recipeTweak(true, <storagenetwork:kabel> * 8, [
 	[<ore:plasticGray>, <ore:plasticGray>, <ore:plasticGray>],
-	[<ore:lightPlateTin>, null,<ore:lightPlateTin>],
+	[<ore:plateTin>, null,<ore:plateTin>],
 	[<ore:plasticGray>, <ore:plasticGray>, <ore:plasticGray>]
 ]);
 

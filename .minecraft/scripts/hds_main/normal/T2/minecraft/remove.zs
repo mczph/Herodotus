@@ -68,7 +68,8 @@ val removeByOutput as IItemStack[] = [
     <storagenetwork:remote:2>,
     <storagenetwork:remote:3>,
     <storagenetwork:picker_remote>,
-    <storagenetwork:collector_remote>
+    <storagenetwork:collector_remote>,
+    <industrialforegoing:mob_imprisonment_tool>
 ];
 
 val removeByRecipeName as string[] = [

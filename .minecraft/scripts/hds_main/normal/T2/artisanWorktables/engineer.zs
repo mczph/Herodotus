@@ -10,6 +10,14 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if(!isInvalid){
 RecipeBuilder.get("engineer")
   .setShaped([
+    [null, <ore:plasticGray>, null],
+    [<ore:plasticGray>, <ore:itemGhastTear>, <ore:plasticGray>],
+    [null, <ore:plasticGray>, null]])
+  .addTool(<ore:artisansSpanner>, 20)
+  .addOutput(<industrialforegoing:mob_imprisonment_tool>)
+  .create();
+RecipeBuilder.get("engineer")
+  .setShaped([
     [<ore:ingotIron>, <magneticraft:crafting:3>, <ore:ingotIron>],
     [<ore:lightPlateLead>, <magneticraft:crafting:3>, <ore:lightPlateLead>],
     [<ore:ingotIron>, <magneticraft:crafting:3>, <ore:ingotIron>]])
