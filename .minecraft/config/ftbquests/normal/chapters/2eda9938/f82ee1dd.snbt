@@ -1,0 +1,18 @@
+{
+	x: 22.0d,
+	y: 2.5d,
+	text: [
+		"血肉团右键坩埚可以得到血魔法祭坛"
+	],
+	dependencies: [
+		"f3cee682"
+	],
+	tasks: [{
+		uid: "f82053b5",
+		type: "observation",
+		icon: "bloodmagic:altar",
+		match_type: "block_id",
+		match: "bloodmagic:altar",
+		timer: 0L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 10.75d,
+	y: 1.75d,
+	dependencies: [
+		"a29ae9b6"
+	],
+	tasks: [{
+		uid: "ca04990e",
+		type: "item",
+		items: [{
+			item: "requious:aura_bottling_machine"
+		}]
+	},
+	{
+		uid: "79941004",
+		type: "item",
+		items: [{
+			item: "contenttweaker:bottled_aura"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 19.5d,
+	y: 4.75d,
+	dependencies: [
+		"914b5a4b"
+	],
+	tasks: [{
+		uid: "376d6bb7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "taint_nutrition",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

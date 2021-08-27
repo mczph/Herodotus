@@ -1,0 +1,14 @@
+{
+	x: 4.25d,
+	y: 0.0d,
+	dependencies: [
+		"2d90bfa2"
+	],
+	tasks: [{
+		uid: "fe3b7008",
+		type: "item",
+		items: [{
+			item: "thaumcraft:log_silverwood"
+		}]
+	}]
+}

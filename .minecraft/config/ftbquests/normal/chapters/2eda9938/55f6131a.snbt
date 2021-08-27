@@ -1,0 +1,92 @@
+{
+	title: "源质高炉",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:aspect_blast_furnace"
+		}
+	},
+	x: 6.25d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f8989a37"
+	],
+	tasks: [{
+		uid: "274c27c7",
+		type: "item",
+		items: [{
+			item: "hdsutils:aspect_blast_furnace_controller"
+		}]
+	},
+	{
+		uid: "b6c81bd3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:plank_silverwood"
+		}],
+		count: 11L
+	},
+	{
+		uid: "412a7766",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "3597ba82",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "5bfa5426",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	},
+	{
+		uid: "e51c4d4b",
+		type: "item",
+		items: [{
+			item: "libvulpes:coil0 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "4d03c178",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage_alloy 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "57897655",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 12L
+	},
+	{
+		uid: "ffd1401e",
+		type: "item",
+		items: [{
+			item: "modulardiversity:blockhotairinputhatch"
+		}]
+	},
+	{
+		uid: "9d2ebfe5",
+		type: "item",
+		items: [{
+			item: "modularmagic:blockaspectproviderinput"
+		}],
+		count: 2L
+	}]
+}

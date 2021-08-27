@@ -1,0 +1,24 @@
+{
+	x: 19.25d,
+	y: -1.75d,
+	text: [
+		"世界盐可以转化橡木变为宏伟之木"
+	],
+	dependencies: [
+		"ede45a70"
+	],
+	tasks: [{
+		uid: "8157c4b7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	},
+	{
+		uid: "ad4b8829",
+		type: "item",
+		items: [{
+			item: "thaumcraft:log_greatwood"
+		}]
+	}]
+}

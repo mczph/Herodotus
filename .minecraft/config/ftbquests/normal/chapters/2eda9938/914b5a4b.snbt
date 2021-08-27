@@ -1,0 +1,14 @@
+{
+	x: 16.5d,
+	y: 4.75d,
+	text: [
+		"培养原始协增兽 击杀有小概率获得破碎卵鞘"
+	],
+	tasks: [{
+		uid: "555bf384",
+		type: "item",
+		items: [{
+			item: "contenttweaker:broken_ootheca"
+		}]
+	}]
+}

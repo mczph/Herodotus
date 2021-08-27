@@ -1,0 +1,14 @@
+{
+	x: 22.0d,
+	y: 4.75d,
+	dependencies: [
+		"f934a408"
+	],
+	tasks: [{
+		uid: "7288e56f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:culture_medium"
+		}]
+	}]
+}

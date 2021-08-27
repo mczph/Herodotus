@@ -1,0 +1,17 @@
+{
+	x: 16.5d,
+	y: -3.75d,
+	text: [
+		"移动肉块用生物拆解机可以获得生物资源"
+	],
+	dependencies: [
+		"ede45a70"
+	],
+	tasks: [{
+		uid: "9564eb63",
+		type: "item",
+		items: [{
+			item: "contenttweaker:biological_resources"
+		}]
+	}]
+}
