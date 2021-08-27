@@ -31,7 +31,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:ingotIron>, <magneticraft:crafting:2>, <ore:ingotIron>],
     [<ore:ingotLead>, <ore:lightPlateLead>, <ore:ingotLead>]])
   .addTool(<contenttweaker:hot_air_solderer>, 200)
-  .addOutput(<magneticraft:multiblock_parts>)
+  .addOutput(<magneticraft:multiblock_parts> * 4)
   .create();
 
 RecipeBuilder.get("blacksmith")

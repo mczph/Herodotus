@@ -231,7 +231,7 @@ RecipeBuilder.get("engineer")
     [<ore:sphericalTierTwoRed>]])
   .addTool(<ore:artisansBeaker>, 30)
   .setFluid(<fluid:mercury> * 250)
-  .addOutput(<hdsutils:lithium_amalgam> * 3)
+  .addOutput(<hdsutils:lithium_amalgam> * 2)
   .create();
 
 RecipeBuilder.get("engineer")
