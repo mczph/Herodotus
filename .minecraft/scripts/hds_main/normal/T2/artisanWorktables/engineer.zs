@@ -10,6 +10,14 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if(!isInvalid){
 RecipeBuilder.get("engineer")
   .setShaped([
+    [<ore:plasticBlue>],
+    [<pneumaticcraft:pressure_tube>],
+    [<pneumaticcraft:pressure_chamber_valve>]])
+  .addTool(<ore:artisansCompass>, 10)
+  .addOutput(<pneumaticcraft:advanced_pressure_tube>)
+  .create();
+RecipeBuilder.get("engineer")
+  .setShaped([
     [null, <ore:plasticGray>, null],
     [<ore:plasticGray>, <ore:itemGhastTear>, <ore:plasticGray>],
     [null, <ore:plasticGray>, null]])
