@@ -3,15 +3,45 @@
 
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
+import scripts.grassUtils.RecipeUtils.createCrossWithCore;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
-RecipeUtils.recipeTweak(true, <magneticraft:iron_pipe>*6,[
-	[null, <ore:ingotIron>, null],
-	[<ore:lightPlateIron>, <ore:blockGlass>, <ore:lightPlateIron>],
-	[null, <ore:ingotIron>, null]
+RecipeUtils.recipeTweak(true, <storagenetwork:controller>, 
+	createCrossWithCore(<ore:obsidian>, <storagenetwork:process_kabel>, <ore:rhombusTierTwoBlue>)
+);
+
+RecipeUtils.recipeTweak(true, <storagenetwork:process_kabel> * 4, 
+	createCrossWithCore(<minecraft:observer>, <ore:nuggetGold>, <storagenetwork:kabel>)
+);
+
+
+RecipeUtils.recipeTweak(true, <storagenetwork:inventory>, 
+	createCrossWithCore(<ore:chest>, <ore:nuggetIron>, <storagenetwork:kabel>)
+);
+
+RecipeUtils.recipeTweak(true, <storagenetwork:request>, 
+	createCrossWithCore(<storagenetwork:inventory>, <ore:ingotGold>, <storagenetwork:kabel>)
+);
+
+RecipeUtils.recipeTweak(true, <storagenetwork:master>, 
+	createCrossWithCore(<ore:gemFlawlessGlimmerite>, <ore:blockQuartz>, <storagenetwork:kabel>)
+);
+
+RecipeUtils.recipeTweak(true, <storagenetwork:kabel> * 8, [
+	[<ore:plasticGray>, <ore:plasticGray>, <ore:plasticGray>],
+	[<ore:lightPlateTin>, null,<ore:lightPlateTin>],
+	[<ore:plasticGray>, <ore:plasticGray>, <ore:plasticGray>]
 ]);
+
+RecipeUtils.recipeTweak(true, <pneumaticcraft:speed_upgrade>, 
+	createCrossWithCore(<liquid:lubricant>*1000, <ore:listAllsugar>, <ore:lightPlateLead>)
+);
+
+RecipeUtils.recipeTweak(true, <magneticraft:iron_pipe>*6,
+	createCrossWithCore(<ore:blockGlass>, <ore:lightPlateIron>, null)
+);
 
 RecipeUtils.recipeTweak(true, <artisanworktables:toolbox>, [
 	[<ore:plankWood>, <ore:plateBronze>, <ore:plankWood>],
@@ -51,11 +81,9 @@ RecipeUtils.recipeTweak(true, <storagedrawers:controller>, [
 	[<ore:lightPlateIron>, <ore:gemEmerald>, <ore:lightPlateIron>]
 ]);
 
-RecipeUtils.recipeTweak(true, <factorytech:upgrade:3>, [
-	[<ore:plankWood>, <ore:dustLead>, <ore:plankWood>],
-	[<ore:dustLead>, <factorytech:machinepart:90>, <ore:dustLead>],
-	[<ore:plankWood>, <ore:dustLead>, <ore:plankWood>]
-]);
+RecipeUtils.recipeTweak(true, <factorytech:upgrade:3>,
+	createCrossWithCore(<factorytech:machinepart:90>, <ore:dustLead>, <ore:plankWood>)
+);
 
 RecipeUtils.recipeTweak(true, <pyrotech:shelf>, [
 	[<ore:plankWood>, <ore:slabWood>, <ore:plankWood>],
@@ -63,11 +91,9 @@ RecipeUtils.recipeTweak(true, <pyrotech:shelf>, [
 	[<ore:plankWood>, <ore:slabWood>, <ore:plankWood>]
 ]);
 
-RecipeUtils.recipeTweak(true, <advancedrocketry:iquartzcrucible>, [
-	[null, <ore:gemQuartz>, null],
-	[<ore:gemQuartz>, <minecraft:cauldron>, <ore:gemQuartz>],
-	[null, <ore:gemQuartz>, null]
-]);
+RecipeUtils.recipeTweak(true, <advancedrocketry:iquartzcrucible>,
+	createCrossWithCore(<minecraft:cauldron>, <ore:gemQuartz>, null)
+);
 
 RecipeUtils.recipeTweak(true, <pneumaticcraft:liquid_hopper>, [
 	[<ore:blockGlass>, null, <ore:blockGlass>],
@@ -75,11 +101,9 @@ RecipeUtils.recipeTweak(true, <pneumaticcraft:liquid_hopper>, [
 	[null, <ore:blockGlass>, null]
 ]);
 
-RecipeUtils.recipeTweak(true, <waystones:warp_stone>, [
-	[<ore:dyePurple>, <ore:enderpearl>, <ore:dyePurple>],
-	[<ore:enderpearl>, <ore:crystalLithium>, <ore:enderpearl>],
-	[<ore:dyePurple>, <ore:enderpearl>, <ore:dyePurple>]
-]);
+RecipeUtils.recipeTweak(true, <waystones:warp_stone>,
+	createCrossWithCore(<ore:crystalLithium>, <ore:enderpearl>, <ore:dyePurple>)
+);
 
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <factorytech:ingot:5>, <*>.only(function(item) {
     return item.definition.owner == "factorytech" && !<factorytech:machinepart:51>.matches(item);

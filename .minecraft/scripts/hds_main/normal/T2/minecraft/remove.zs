@@ -62,8 +62,13 @@ val removeByOutput as IItemStack[] = [
     <factorytech:coregen>,
     <pneumaticcraft:pneumatic_dynamo>,
     <pneumaticcraft:plastic_mixer>,
-    <pneumaticcraft:thermopneumatic_processing_plant>
-    
+    <pneumaticcraft:thermopneumatic_processing_plant>,
+    <storagenetwork:remote>,
+    <storagenetwork:remote:1>,
+    <storagenetwork:remote:2>,
+    <storagenetwork:remote:3>,
+    <storagenetwork:picker_remote>,
+    <storagenetwork:collector_remote>
 ];
 
 val removeByRecipeName as string[] = [
