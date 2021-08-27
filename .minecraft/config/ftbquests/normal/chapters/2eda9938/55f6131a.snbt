@@ -1,5 +1,5 @@
 {
-	title: "源质高炉",
+	title: "{herodotus.quests.55f6131a.title}",
 	icon: {
 		id: "modularmachinery:itemblueprint",
 		tag: {
@@ -9,7 +9,7 @@
 	x: 6.25d,
 	y: 0.0d,
 	text: [
-		""
+		"{herodotus.quests.55f6131a.text.1}"
 	],
 	dependencies: [
 		"f8989a37"

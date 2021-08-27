@@ -2,7 +2,7 @@
 	x: 16.5d,
 	y: 4.75d,
 	text: [
-		"培养原始协增兽 击杀有小概率获得破碎卵鞘"
+		"{herodotus.quests.914b5a4b.text.1}"
 	],
 	tasks: [{
 		uid: "555bf384",

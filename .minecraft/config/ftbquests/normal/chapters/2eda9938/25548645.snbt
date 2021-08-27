@@ -2,8 +2,8 @@
 	x: 10.75d,
 	y: -1.75d,
 	text: [
-		"右键更换堵塞的咒波凝结格栅可获得水晶碎片",
-		"堵塞的咒波凝结格栅可以放在主手，右手持一空桶右键将里面的咒波黏浆盛出来"
+		"{herodotus.quests.25548645.text.1}",
+		"{herodotus.quests.25548645.text.2}"
 	],
 	dependencies: [
 		"a29ae9b6"

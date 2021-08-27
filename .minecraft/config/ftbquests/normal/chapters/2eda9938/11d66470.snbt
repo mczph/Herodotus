@@ -2,7 +2,7 @@
 	x: 19.25d,
 	y: -1.75d,
 	text: [
-		"世界盐可以转化橡木变为宏伟之木"
+		"{herodotus.quests.11d66470.text.1}"
 	],
 	dependencies: [
 		"ede45a70"

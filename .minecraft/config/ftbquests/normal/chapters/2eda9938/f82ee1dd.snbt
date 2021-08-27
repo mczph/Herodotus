@@ -2,7 +2,7 @@
 	x: 22.0d,
 	y: 2.5d,
 	text: [
-		"血肉团右键坩埚可以得到血魔法祭坛"
+		"{herodotus.quests.f82ee1dd.text.1}"
 	],
 	dependencies: [
 		"f3cee682"

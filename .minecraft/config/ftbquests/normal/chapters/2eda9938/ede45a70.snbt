@@ -2,7 +2,7 @@
 	x: 16.5d,
 	y: -1.75d,
 	text: [
-		"击杀移动肉块可以获得秩序源质"
+		"{herodotus.quests.ede45a70.text.1}"
 	],
 	dependencies: [
 		"310c522c"
