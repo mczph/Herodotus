@@ -1,0 +1,36 @@
+{
+	x: 10.25d,
+	y: 2.25d,
+	dependencies: [
+		"9aab085f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "bac06394",
+		type: "item",
+		items: [{
+			item: "storagenetwork:upgrade"
+		}]
+	},
+	{
+		uid: "77a1cbb3",
+		type: "item",
+		items: [{
+			item: "storagenetwork:upgrade 1 1"
+		}]
+	},
+	{
+		uid: "2439bce7",
+		type: "item",
+		items: [{
+			item: "storagenetwork:upgrade 1 2"
+		}]
+	},
+	{
+		uid: "50b93f83",
+		type: "item",
+		items: [{
+			item: "storagenetwork:upgrade 1 3"
+		}]
+	}]
+}

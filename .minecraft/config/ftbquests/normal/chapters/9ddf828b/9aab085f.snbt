@@ -1,0 +1,15 @@
+{
+	x: 8.75d,
+	y: 2.25d,
+	dependencies: [
+		"b8d34de9"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d1b8e39b",
+		type: "item",
+		items: [{
+			item: "storagenetwork:master"
+		}]
+	}]
+}

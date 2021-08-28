@@ -1,0 +1,30 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		"有一个碗状的容器, 应该可以在现有条件下最大程度减少不必要的消耗",
+		"但漏斗似乎总是没法把东西放到我想让它放的地方, 所以想要自动进料还是只能用砧"
+	],
+	dependencies: [
+		"cc91f797",
+		"0ebc474b"
+	],
+	tasks: [{
+		uid: "36e1dace",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedmortars:mortar",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedmortars:mortar"
+		}],
+		ignore_nbt: 1b
+	}]
+}
