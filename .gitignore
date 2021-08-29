@@ -56,6 +56,8 @@
 !/.minecraft/scripts
 /.minecraft/scripts/nc_script_addons/*
 !/.minecraft/structures
+.minecraft/scripts/.zsrc
+.minecraft/config/Probe.cfg
 
 #pack stuff
 /instance.cfg
@@ -68,5 +70,3 @@
 !/.minecraft/mods
 /.minecraft/mods/*
 !/.minecraft/mods/herodotusutils*.jar
-.minecraft/scripts/.zsrc
-.minecraft/config/Probe.cfg
