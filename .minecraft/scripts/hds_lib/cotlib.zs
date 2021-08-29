@@ -77,6 +77,7 @@ static allPartsMap as string[][int] = {
 };
 
 //materialArrays
+// REMEMBER TO UPDATE CRTLIB AFTER MAKING CHANGES TO THIS MAP!!!
 static allMaterialMap as int[string][int] = {
     0 : {//coloredOre
         "red" : 0xfc0d20,
@@ -157,7 +158,7 @@ static plainItemIDs as string[] = [
     "primordium_shard",
     "sticky_gel",
     "impure_gel",
-    "wood_feature_crystal",
+    "wood_feather_crystal",
     "rhythmic_seed",
     "bottled_aura",
     "broken_ootheca",

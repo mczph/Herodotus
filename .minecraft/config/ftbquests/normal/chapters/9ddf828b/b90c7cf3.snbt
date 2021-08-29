@@ -8,7 +8,7 @@
 		uid: "5db8306b",
 		type: "item",
 		items: [{
-			item: "contenttweaker:wood_feature_crystal"
+			item: "contenttweaker:wood_feather_crystal"
 		}]
 	}]
 }

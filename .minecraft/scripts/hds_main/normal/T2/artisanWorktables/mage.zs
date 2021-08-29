@@ -9,9 +9,9 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if (!isInvalid){
     RecipeBuilder.get("mage")
     .setShaped([
-        [<ore:gemFlawedGlimmerite>, <contenttweaker:wood_feature_crystal>, <ore:gemFlawedGlimmerite>],
-        [<contenttweaker:wood_feature_crystal>, <magneticraft:small_tank>, <contenttweaker:wood_feature_crystal>],
-        [<ore:gemFlawedGlimmerite>, <contenttweaker:wood_feature_crystal>, <ore:gemFlawedGlimmerite>]])
+        [<ore:gemFlawedGlimmerite>, <contenttweaker:wood_feather_crystal>, <ore:gemFlawedGlimmerite>],
+        [<contenttweaker:wood_feather_crystal>, <magneticraft:small_tank>, <contenttweaker:wood_feather_crystal>],
+        [<ore:gemFlawedGlimmerite>, <contenttweaker:wood_feather_crystal>, <ore:gemFlawedGlimmerite>]])
     .addTool(<ore:artisansAthame>, 40)
     .setFluid(<liquid:mercury> * 1000)
     .addOutput(<contenttweaker:infinite_water_upgrade_module>)

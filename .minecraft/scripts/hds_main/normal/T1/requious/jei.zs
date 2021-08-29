@@ -21,7 +21,7 @@ var sluiceRecipeFish = AssemblyRecipe.create(function(container) {
 });
 
 var sluiceRecipeCrystal = AssemblyRecipe.create(function(container) {
-    container.addItemOutput("output", <contenttweaker:wood_feature_crystal>);
+    container.addItemOutput("output", <contenttweaker:wood_feather_crystal>);
 });
 
 sluice.addJEIRecipe(sluiceRecipeFish);
