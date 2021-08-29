@@ -18,5 +18,5 @@ function getAllBasicAspects(amount as int) as CTAspectStack[] {
 
 if (!isInvalid) {
     Crucible.removeRecipe(<thaumcraft:ingot>);
-    Crucible.registerRecipe("thaumium_ingot_0", "", <thaumcraft:ingot>, <ore:ingotIron>, getAllBasicAspects(80));
+    Crucible.registerRecipe("thaumium_ingot_0", "", <thaumcraft:ingot>, <ore:ingotIron>, getAllBasicAspects(200));
 }
