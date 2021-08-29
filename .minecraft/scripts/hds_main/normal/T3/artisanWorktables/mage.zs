@@ -151,4 +151,20 @@ RecipeBuilder.get("mage")
   .setFluid(<liquid:mercury> * 1000)
   .addOutput(<hdsutils:taint_checker>)
   .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:plateBrass>, <ore:blockGlowstone>, <ore:plateBrass>],
+    [<ore:ingotIronCompressed>, <thaumcraft:metal_alchemical>, <ore:ingotIronCompressed>]])
+  .addTool(<ore:artisansGrimoire>, 30)
+  .addOutput(<thaumcraft:essentia_output>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:plateBrass>, <ore:blockQuartz>, <ore:plateBrass>],
+    [<ore:ingotIronCompressed>, <thaumcraft:metal_alchemical>, <ore:ingotIronCompressed>]])
+  .addTool(<ore:artisansGrimoire>, 30)
+  .addOutput(<thaumcraft:essentia_input>)
+  .create();
 }

@@ -6,10 +6,10 @@
 			dynamicmachine: "modularmachinery:basic_thermal_melting_machine"
 		}
 	},
-	x: 2.0d,
+	x: 4.0d,
 	y: 0.0d,
 	dependencies: [
-		"75dea0ce"
+		"f8989a37"
 	],
 	tasks: [{
 		uid: "f04e4091",
