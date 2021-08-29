@@ -4,6 +4,7 @@ modularmachinery.hot_air_boiler=热空气蒸汽锅炉
 modularmachinery.steamer=蒸汽蒸煮机
 modularmachinery.basic_thermal_melting_machine=基础热力热熔机
 modularmachinery.aspect_blast_furnace=源质高炉
+modularmachinery.aura_assembler=灵气装配机
 modularmachinery.modifier.infinite_water=用其替换流体输入仓上面的波纹铁质机械方块让机器不消耗水
 
 #一阶

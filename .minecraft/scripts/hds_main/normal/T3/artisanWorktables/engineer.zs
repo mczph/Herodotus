@@ -4,9 +4,25 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import scripts.hds_lib.crtlib.allMetals;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid) {
+
+for name in allMetals{
+    val anyGear as IOreDictEntry = oreDict.get("gear"~name);
+    RecipeBuilder.get("engineer")
+    .setShaped([
+      [<magneticraft:multiblock_parts:5>, anyGear, <magneticraft:multiblock_parts:5>],
+      [anyGear, null, anyGear],
+      [<magneticraft:multiblock_parts:5>, anyGear, <magneticraft:multiblock_parts:5>]])
+    .addTool(<contenttweaker:hot_air_solderer>, 300)
+    .addOutput(<modularmachinery:blockcasing:3>*4)
+    .create();
+}
+
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:blockQuartz>, <ore:plasticPurple>, <ore:blockQuartz>],
