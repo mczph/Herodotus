@@ -5,6 +5,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 import mods.jei.JEI;
 
 if (!isInvalid) {
+    JEI.hideCategory("THAUMCRAFT_ARCANE_WORKBENCH");
     JEI.hideCategory("pneumaticcraft.amadron_trade");
     <minecraft:obsidian>.asBlock().definition.resistance = 8.0f;
     <minecraft:iron_pickaxe>.maxDamage = 300;
@@ -23,4 +24,5 @@ if (!isInvalid) {
     <entity:minecraft:zombie>.removeDrop(<minecraft:iron_ingot>);
     <entity:minecraft:zombie>.removeDrop(<minecraft:iron_ore>);
     <entity:srparasites:pri_bolster>.addDrop(<contenttweaker:broken_ootheca> % 35);
+    vanilla.seeds.removeSeed(<item.teslathingies.tesla_plant_seeds:0>);
 }
