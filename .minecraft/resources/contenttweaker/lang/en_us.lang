@@ -25,6 +25,9 @@ item.contenttweaker.broken_ootheca.name=Broken Ootheca
 item.contenttweaker.resurrected_meat.name=Resurrected Meat
 item.contenttweaker.culture_medium.name=Culture Medium
 item.contenttweaker.zorra_fruit.name=Zorra Fruit
+item.contenttweaker.square_recrystallized.name=Recrystallized Square
+item.contenttweaker.spherical_recrystallized.name=Recrystallized Spherical
+item.contenttweaker.rhombus_recrystallized.name=Recrystallized Rhombus
 
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame
