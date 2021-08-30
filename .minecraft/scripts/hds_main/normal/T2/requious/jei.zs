@@ -18,14 +18,14 @@ altar.setJEIItemSlot(4, 3 ,"output");
 if(!isInvalid) {
 
 var altarRecipeIron = AssemblyRecipe.create(function(container) {
-    container.addItemOutput("output", <ore:nuggetCopper>.firstItem);
+    container.addItemOutput("output", <ore:nuggetCopper>.materialPart);
 })
-.requireItem("input", <ore:ingotIron>.firstItem);
+.requireItem("input", <ore:ingotIron>.materialPart);
 
 var altarRecipeCopper = AssemblyRecipe.create(function(container) {
-    container.addItemOutput("output", <ore:nuggetCopper>.firstItem);
+    container.addItemOutput("output", <ore:nuggetCopper>.materialPart);
 })
-.requireItem("input", <ore:ingotCopper>.firstItem);
+.requireItem("input", <ore:ingotCopper>.materialPart);
 
 altar.addJEIRecipe(altarRecipeIron);
 altar.addJEIRecipe(altarRecipeCopper);
