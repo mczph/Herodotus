@@ -23,19 +23,11 @@ RecipeBuilder.newBuilder("essentia_output", "aura_assembler", 240)
 
 RecipeBuilder.newBuilder("essentia_input", "aura_assembler", 240)
     .addItemInput(<ore:plateBrass>, 2)
-    .addItemInput(<ore:blockGlowstone>)
+    .addItemInput(<ore:blockQuartz>)
     .addItemInput(<ore:ingotIronCompressed>, 3)
     .addItemInput(<contenttweaker:bottled_aura>*2)
     .addHotAirInput(250, maxInt, 250)
     .addItemOutput(<thaumcraft:essentia_input>)
-    .build();
-
-RecipeBuilder.newBuilder("jar_normal", "aura_assembler", 120)
-    .addItemInput(<ore:slabWood>)
-    .addItemInput(<ore:paneGlass>, 7)
-    .addItemInput(<contenttweaker:bottled_aura>)
-    .addHotAirInput(250, maxInt, 250)
-    .addItemOutput(<thaumcraft:jar_normal>)
     .build();
 
 }

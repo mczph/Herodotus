@@ -11,17 +11,24 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid) {
 
+var anyGear as IIngredient = null;
 for name in allMetals{
-    val anyGear as IOreDictEntry = oreDict.get("gear"~name);
-    RecipeBuilder.get("engineer")
+    val gear as IOreDictEntry = oreDict.get("gear"~name);
+    if (isNull(anyGear)) {
+      anyGear = gear;
+    } else {
+      anyGear |= gear;
+    }
+}
+
+RecipeBuilder.get("engineer")
     .setShaped([
       [<magneticraft:multiblock_parts:5>, anyGear, <magneticraft:multiblock_parts:5>],
       [anyGear, null, anyGear],
       [<magneticraft:multiblock_parts:5>, anyGear, <magneticraft:multiblock_parts:5>]])
     .addTool(<contenttweaker:hot_air_solderer>, 300)
-    .addOutput(<modularmachinery:blockcasing:3>*4)
+    .addOutput(<modularmachinery:blockcasing:3> * 4)
     .create();
-}
 
 RecipeBuilder.get("engineer")
   .setShaped([
@@ -84,6 +91,15 @@ RecipeBuilder.get("engineer")
     [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
   .addTool(<contenttweaker:hot_air_solderer>, 450)
   .addOutput(<requious:aura_bottling_machine>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateBrass>, <thaumcraft:plank_greatwood>, <ore:plateBrass>],
+    [<thaumcraft:plank_greatwood>, null, <thaumcraft:plank_greatwood>],
+    [<ore:plateBrass>, <contenttweaker:bottled_aura>, <ore:plateBrass>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 500)
+  .addOutput(<hdsutils:aura_assembler_controller>)
   .create();
 
 }

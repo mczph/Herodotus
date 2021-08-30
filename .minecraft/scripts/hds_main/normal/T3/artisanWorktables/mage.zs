@@ -151,4 +151,13 @@ RecipeBuilder.get("mage")
   .setFluid(<liquid:mercury> * 1000)
   .addOutput(<hdsutils:taint_checker>)
   .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:paneGlass>, <ore:slabWood>, <ore:paneGlass>],
+    [<ore:paneGlass>, null, <ore:paneGlass>],
+    [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]])
+  .addTool(<ore:artisansAthame>, 20)
+  .addOutput(<thaumcraft:jar_normal>)
+  .create();
 }

@@ -15,7 +15,7 @@ val map as IItemStack[ILiquidStack] = {
 };
 
 for liquid, item in map {
-    Casting.addTableRecipe(item, null, liquid, 250, false, 80);
+    Casting.addTableRecipe(item, null, liquid, 250, false, 60);
 }
 Casting.addBasinRecipe(<contenttweaker:static_molten_plastic>, <contenttweaker:sticky_gel>, <liquid:light_oil>, 360, true, 45 * 20);
 Casting.addTableRecipe(<factorytech:ingot:6>, <tconstruct:cast_custom>, <liquid:molten_river_copper>, 144, false, 2 * 20);

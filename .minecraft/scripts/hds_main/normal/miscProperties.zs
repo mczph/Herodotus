@@ -5,7 +5,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 import mods.jei.JEI;
 
 if (!isInvalid) {
-    JEI.hideCategory("THAUMCRAFT_ARCANE_WORKBENCH");
+    // JEI.hideCategory("THAUMCRAFT_ARCANE_WORKBENCH");
     JEI.hideCategory("pneumaticcraft.amadron_trade");
     <minecraft:obsidian>.asBlock().definition.resistance = 8.0f;
     <minecraft:iron_pickaxe>.maxDamage = 300;
@@ -14,9 +14,9 @@ if (!isInvalid) {
     <minecraft:iron_sword>.maxDamage = 300;
     <minecraft:iron_hoe>.maxDamage = 300;
     <prodigytech:crystal_cutter>.maxDamage = 300;
-    <pyrotech:obsidian_pickaxe>.maxDamage = 350;
-    <pyrotech:obsidian_shovel>.maxDamage = 350;
-    <pyrotech:obsidian_axe>.maxDamage = 350;
+    <pyrotech:obsidian_pickaxe>.maxDamage = 450;
+    <pyrotech:obsidian_shovel>.maxDamage = 450;
+    <pyrotech:obsidian_axe>.maxDamage = 450;
     <mekanismtools:ironpaxel>.maxDamage = 1000;
     <mekanismtools:obsidianpaxel>.maxDamage = 1500;
     <astralsorcery:blockcustomore>.asBlock().definition.setHarvestLevel("pickaxe", 1);
