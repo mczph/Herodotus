@@ -14,7 +14,7 @@ herodotus.quests.2e0bc67f.text.2=Put it on the ground, add a few logs, and you c
 herodotus.quests.2e0bc67f.text.3=Maybe I can throw the collected pages into the fire and see if I can make the fire burn brighter.
 herodotus.quests.09b2af08.text.1=Make lithium amalgam, then feed it to animals, then they will extra drop lithium crystals after they poison to death.
 herodotus.quests.30108d5f.text.1=It requires a light level of 0~3 to grow, see JEI for the rest of conditions.
-herodotus.quests.9ddf828b.title=«A Brief Analysis Of The Exploitation, Processing And Utilization Of Petroleum Under Steam Power Conditions»
+herodotus.quests.9ddf828b.title=«A Brief Analysis of the Exploitation, Processing & Utilization of Petroleum under Steam Power Conditions»
 herodotus.quests.c5dddc4b.text.1=Put it into the bottom of a river, cost wooden sieves to work.
 herodotus.quests.b8d34de9.text.1=Break Static Molten Plastic Blocks to get gray plastics.
 herodotus.quests.37ed0f0a.text.1=Drop the Black Oily Dyes on a empty oil source, the oil source will got filled in a minute. This could really increase the yield of oil.
@@ -23,7 +23,7 @@ herodotus.quests.4ae80206.text.1=Copper buckets could transfer fluids with norma
 herodotus.quests.c30b3607.text.1=Tip: you could hold some vanilla planks in left hand, and a carpenter's hammer in main hand in order to repair the Artisan Worktables with right clicks.
 herodotus.quests.0eeb63d3.title=Iron Ingot
 herodotus.quests.c369f2f9.text.1=You could make iron alloy ingots by smelting the red squares directly. Under many contexts, iron and iron alloy could be used mixedly.
-herodotus.quests.773d33ca.title=«Briefly Describe The Role Of Hot Air In The Breeding And Cultivation Of Energetic Plants»
+herodotus.quests.773d33ca.title=«Briefly Describe the Role of Hot Air In The Breeding And Cultivation of Energetic Plants»
 herodotus.quests.2faec3fe.text.1=I swear to god, no one, could ever make a fire with those grass, which I could still squeeze out water from.
 herodotus.quests.2faec3fe.text.2=Even Hephaestus's coming won't make any difference.
 herodotus.quests.9396e3da.title=Digging three feet
@@ -119,7 +119,7 @@ herodotus.quests.657d9db3.title=Ore Processing
 herodotus.quests.37ed0f0a.title=Oil Source (Full)
 
 herodotus.quests.2d90bfa2.title=Basic Thermal Melting Machine
-herodotus.quests.2eda9938.title=«An Introduction To Energy Extraction From Living Entities, And The Feasibility And Harm Of Artificial Organisms»
+herodotus.quests.2eda9938.title=«An Introduction to Energy Extraction from Creatures, And the Feasibility & Harm of Artificial Organisms»
 herodotus.quests.cbf24504.text.1=By replacing a specific block in the boiler structure, to provide the boiler with infinity water.
 
 tile.prodigytech.heat_sawmill.name=Heat Cutter
