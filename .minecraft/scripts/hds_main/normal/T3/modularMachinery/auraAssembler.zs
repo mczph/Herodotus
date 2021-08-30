@@ -58,9 +58,10 @@ for recipe in ArcaneWorkbench.getAll() {
     val vis as int = recipe.vis;
     var flag as bool = false;
     for item in toRemove {
-        if (out.matches(item))
+        if (item.matches(out)) {
             flag = true;
             break;
+        }
     }
     if (flag) {
         continue;
