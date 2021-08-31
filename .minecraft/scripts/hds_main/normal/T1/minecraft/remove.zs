@@ -78,7 +78,8 @@ val removeByOutput as IItemStack[] = [
     <pyrotech:igniter:1>,
     <pyrotech:igniter>,
     <tconstruct:wooden_hopper>,
-    <prodigytech:ferramic_handbow>
+    <prodigytech:ferramic_handbow>,
+    <pyrotech:material:4>
 ];
 
 val removeByRecipeName as string[] = [
