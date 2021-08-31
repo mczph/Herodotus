@@ -17,6 +17,16 @@ import mods.pyrotech.BrickCrucible;
 import mods.pyrotech.DryingRack;
 import mods.pyrotech.CrudeDryingRack;
 
+//universal pyrotech kilns terra recipe
+function uPyroTerra(name as string, output as IItemStack, input as IIngredient){
+    PitKiln.removeRecipes(output);
+    StoneKiln.removeRecipes(output);
+    BrickKiln.removeRecipes(output);
+    PitKiln.addRecipe(name~"_upt_pk", output, input, 35*20, 0.15, [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
+    StoneKiln.addRecipe(name~"_upt_sk", output, input, 30*20, 0.1, [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
+    BrickKiln.addRecipe(name~"_upt_bk", output, input, 25*20, 0.05, [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
+}
+
 //universal pyrotech ovens recipes tweaker
 function uPyroOvens(name as string, output as IItemStack, input as IIngredient){
     StoneOven.removeRecipes(output);
