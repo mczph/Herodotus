@@ -19,12 +19,12 @@ altar.setJEIItemSlot(4, 3 ,"output");
 if(!isInvalid) {
 
 var altarRecipeIron = AssemblyRecipe.create(function(container) {
-    container.addItemOutput("output", goldNugget * i);
+    container.addItemOutput("output", goldNugget);
 })
 .requireItem("input", <ore:ingotIron>.materialPart);
 
 var altarRecipeCopper = AssemblyRecipe.create(function(container) {
-    container.addItemOutput("output", goldNugget * i);
+    container.addItemOutput("output", goldNugget);
 })
 .requireItem("input", <ore:ingotCopper>.materialPart);
 
