@@ -23,7 +23,8 @@ static toRemove as [IItemStack] = [
     <thaumcraft:mechanism_simple>,
     <thaumcraft:essentia_output>,
     <thaumcraft:essentia_input>,
-    <thaumcraft:jar_normal>
+    <thaumcraft:jar_normal>,
+    <thaumcraft:sanity_checker>
 ];
 
 

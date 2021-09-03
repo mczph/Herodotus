@@ -19,9 +19,9 @@ RecipeBuilder.get("mage")
     [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>],
     [<magneticraft:iron_pipe>, <magneticraft:iron_pipe>, <magneticraft:iron_pipe>],
     [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>]])
-  .setFluid(<liquid:mercury> * 1000)
+  .setFluid(<liquid:mercury> * 500)
   .addTool(<ore:artisansGrimoire>, 30)
-  .addOutput(<thaumcraft:tube> * 8)
+  .addOutput(<thaumcraft:tube> * 6)
   .create();
 
 RecipeBuilder.get("mage")
@@ -159,5 +159,15 @@ RecipeBuilder.get("mage")
     [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]])
   .addTool(<ore:artisansAthame>, 20)
   .addOutput(<thaumcraft:jar_normal>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <ore:plateBrass>, null],
+    [<tconstruct:clear_glass>, <thaumcraft:brain>, <ore:plateBrass>],
+    [null, <ore:plateBrass>, null]])
+  .addTool(<ore:artisansAthame>, 50)
+  .setFluid(<liquid:mercury> * 2000)
+  .addOutput(<thaumcraft:sanity_checker>)
   .create();
 }

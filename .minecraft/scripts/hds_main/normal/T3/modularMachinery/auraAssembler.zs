@@ -39,7 +39,7 @@ RecipeBuilder.newBuilder("essentia_output", "aura_assembler", 240)
     .addItemInput(<ore:plateBrass>, 2)
     .addItemInput(<ore:blockGlowstone>)
     .addItemInput(<ore:ingotIronCompressed>, 3)
-    .addItemInput(<contenttweaker:bottled_aura>*2)
+    .addItemInput(<contenttweaker:bottled_aura> * 2)
     .addHotAirInput(250, maxInt, 250)
     .addItemOutput(<thaumcraft:essentia_output>)
     .build();
@@ -48,9 +48,27 @@ RecipeBuilder.newBuilder("essentia_input", "aura_assembler", 240)
     .addItemInput(<ore:plateBrass>, 2)
     .addItemInput(<ore:blockQuartz>)
     .addItemInput(<ore:ingotIronCompressed>, 3)
-    .addItemInput(<contenttweaker:bottled_aura>*2)
+    .addItemInput(<contenttweaker:bottled_aura> * 2)
     .addHotAirInput(250, maxInt, 250)
     .addItemOutput(<thaumcraft:essentia_input>)
+    .build();
+
+RecipeBuilder.newBuilder("refined_input_bus", "aura_assembler", 240)
+    .addItemInput(<ore:plateThaumium>, 2)
+    .addItemInput(<ore:clumpBlue>)
+    .addItemInput(<ore:plateInvar>, 6)
+    .addItemInput(<contenttweaker:bottled_aura> * 2)
+    .addHotAirInput(250, maxInt, 250)
+    .addItemOutput(<modularmachinery:blockinputbus:3>)
+    .build();
+
+RecipeBuilder.newBuilder("refined_output_bus", "aura_assembler", 240)
+    .addItemInput(<ore:plateThaumium>, 2)
+    .addItemInput(<ore:clumpYellow>)
+    .addItemInput(<ore:plateInvar>, 6)
+    .addItemInput(<contenttweaker:bottled_aura> * 2)
+    .addHotAirInput(250, maxInt, 250)
+    .addItemOutput(<modularmachinery:blockoutputbus:3>)
     .build();
 
 for recipe in ArcaneWorkbench.getAll() {
