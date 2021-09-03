@@ -8,25 +8,24 @@ import mods.requious.MachineContainer;
 
 import scripts.hds_main.utils.modloader.isInvalid;
 
-var altar = <assembly:altar>;
+var sluice = <assembly:sluice>;
 
-altar.addJEICatalyst(<contenttweaker:altar>);
-altar.setJEIItemSlot(4, 1, "input");
-altar.setJEIDurationSlot(4, 2, "duration", SlotVisual.arrowDown());
-altar.setJEIItemSlot(4, 3 ,"output");
+sluice.addJEICatalyst(<factorytech:sluice>);
+sluice.setJEIDurationSlot(4, 2, "duration", SlotVisual.arrowDown());
+sluice.setJEIItemSlot(4, 3 ,"output");
 
 if(!isInvalid) {
 
-var altarRecipeIron = AssemblyRecipe.create(function(container) {
-    container.addItemOutput("output", <ore:nuggetCopper>.materialPart);
+var sluiceRecipeFish = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output", <minecraft:fish>);
 })
-.requireItem("input", <ore:ingotIron>.materialPart);
+.requireDuration("duration", 120);
 
-var altarRecipeCopper = AssemblyRecipe.create(function(container) {
-    container.addItemOutput("output", <ore:nuggetCopper>.materialPart);
+var sluiceRecipeCrystal = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output", <contenttweaker:wood_feather_crystal>);
 })
-.requireItem("input", <ore:ingotCopper>.materialPart);
+.requireDuration("duration", 120);
 
-altar.addJEIRecipe(altarRecipeIron);
-altar.addJEIRecipe(altarRecipeCopper);
+sluice.addJEIRecipe(sluiceRecipeFish);
+sluice.addJEIRecipe(sluiceRecipeCrystal);
 }
