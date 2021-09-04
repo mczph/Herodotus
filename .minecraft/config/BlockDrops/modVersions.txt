@@ -138,6 +138,7 @@
   "mantle": "1.12-1.3.3.55",
   "loottweaker": "0.3.0",
   "ftbbackups": "1.1.0.1",
+  "gravestone": "1.10.3",
   "advancedrocketrycore": "1",
   "autoreglib": "1.3-32",
   "growthcraft_bees": "4.2.2",
