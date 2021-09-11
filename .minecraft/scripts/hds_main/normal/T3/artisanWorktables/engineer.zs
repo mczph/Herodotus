@@ -36,7 +36,7 @@ RecipeBuilder.get("engineer")
     [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>],
     [<ore:blockQuartz>, <ore:plasticPurple>, <ore:blockQuartz>]])
   .addTool(<contenttweaker:hot_air_solderer>, 800)
-  .addOutput(<hdsutils:basic_thermal_melting_machine_controller>)
+  .addOutput(<modularcontroller:basic_thermal_melting_machine_controller>)
   .create();
 
 RecipeBuilder.get("engineer")
@@ -45,7 +45,7 @@ RecipeBuilder.get("engineer")
     [<ore:lightPlateBronze>, null, <ore:lightPlateBronze>],
     [<ore:lightPlateBronze>, <pyrotech:brick_oven>, <ore:lightPlateBronze>]])
   .addTool(<contenttweaker:hot_air_solderer>, 800)
-  .addOutput(<hdsutils:aspect_blast_furnace_controller>)
+  .addOutput(<modularcontroller:aspect_blast_furnace_controller>)
   .create();
 
 RecipeBuilder.get("engineer")
@@ -99,7 +99,7 @@ RecipeBuilder.get("engineer")
     [<thaumcraft:plank_greatwood>, null, <thaumcraft:plank_greatwood>],
     [<ore:plateBrass>, <contenttweaker:bottled_aura>, <ore:plateBrass>]])
   .addTool(<contenttweaker:hot_air_solderer>, 500)
-  .addOutput(<hdsutils:aura_assembler_controller>)
+  .addOutput(<modularcontroller:aura_assembler_controller>)
   .create();
 
 }

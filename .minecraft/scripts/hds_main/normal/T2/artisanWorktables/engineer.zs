@@ -110,7 +110,7 @@ RecipeBuilder.get("engineer")
     [<ore:gemEnergion>, <ore:gemEnergion>, <ore:gemEnergion>],
     [<ore:ingotIron>, <ore:gemFlawlessGlimmerite>, <ore:ingotIron>]])
   .addTool(<ore:artisansSpanner>, 75)
-  .addOutput(<hdsutils:hot_air_boiler_controller>)
+  .addOutput(<modularcontroller:hot_air_boiler_controller>)
   .create();
 
 RecipeBuilder.get("engineer")
@@ -239,7 +239,7 @@ RecipeBuilder.get("engineer")
     [<ore:lightPlateIron>, null, <ore:lightPlateIron>],
     [<ore:lightPlateIron>, <magneticraft:multiblock_parts>, <ore:lightPlateIron>]])
   .addTool(<contenttweaker:hot_air_solderer>, 650)
-  .addOutput(<hdsutils:steamer_controller>)
+  .addOutput(<modularcontroller:steamer_controller>)
   .create();
 
 RecipeBuilder.get("engineer")
