@@ -4,6 +4,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
+import scripts.hds_lib.crtlib.tcSaltGetter;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid) {
@@ -64,12 +65,12 @@ RecipeBuilder.get("mage")
 
 RecipeBuilder.get("mage")
   .setShapeless([
-    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}),
-    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),
-    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}),
-    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),
-    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}),
-    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})])
+    tcSaltGetter("aer"),
+    tcSaltGetter("terra"),
+    tcSaltGetter("ignis"),
+    tcSaltGetter("aqua"),
+    tcSaltGetter("ordo"),
+    tcSaltGetter("perditio")])
   .addTool(<ore:artisansMortar>, 20)
   .addOutput(<thaumcraft:salis_mundus> * 6)
   .create();

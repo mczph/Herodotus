@@ -22,3 +22,38 @@ static allMetals as [string] = [
 static allGems as [string] = [
     "Diamond", "Glimmerite"
 ];
+
+function tcSaltGetter(aspect as string) as IItemStack {
+    val temp as IItemStack = <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: aspect}]});
+    return temp;
+}
+
+function tcPhialGetter(aspect as string) as IItemStack {
+    val temp as IItemStack = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: aspect}]});
+    return temp;
+}
+
+function tcCrystalGetter(aspect as string) as IItemStack {
+    val temp as IItemStack = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: aspect}]});
+    return temp;
+}
+
+function tcSSGetter(aspect as string) as IItemStack {
+    val temp as IItemStack = <thaumadditions:seal_symbol>.withTag({Aspect: aspect});
+    return temp;
+}
+
+function tcPodGetter(aspect as string) as IItemStack {
+    val temp as IItemStack = <thaumadditions:vis_pod>.withTag({Aspect: aspect});
+    return temp;
+}
+
+function tcSeedGetter(aspect as string) as IItemStack {
+    val temp as IItemStack = <thaumadditions:vis_seeds>.withTag({Aspect: aspect});
+    return temp;
+}
+
+function tcVisBlockGetter(aspect as string) as IItemStack {
+    val temp as IItemStack = <thaumadditions:crystal_block>.withTag({Aspect: aspect});
+    return temp;
+}
