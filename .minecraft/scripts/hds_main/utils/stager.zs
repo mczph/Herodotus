@@ -5,10 +5,8 @@ import mods.jei.JEI;
 import crafttweaker.game.IGame;
 import crafttweaker.mods.ILoadedMods;
 import mods.ItemStages;
-import mods.MobStages;
 
 if (!debug) {
-    //TODO mobstages
     val stagedModList as string[] = [
         "tinker_io", "bloodtinker",
         "thermaldynamics", "tconevo", "libvulpes", "thermalfoundation", "artisanautomation",
@@ -36,14 +34,6 @@ if (!debug) {
             }
     }
     for item in expect {
-        //ItemStages.removeItemStage(item);
-    }
-
-    val stagedMobs as string[] = [];
-
-    for id in stagedMobs {
-        //MobStages.addStage("locked", id);
+        ItemStages.removeItemStage(item);
     }
 }
-
-
