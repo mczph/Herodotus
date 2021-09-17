@@ -5,6 +5,7 @@
 
 import crafttweaker.world.IWorld;
 import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.player.IPlayer;
 import crafttweaker.events.IEventManager;
 
@@ -15,15 +16,17 @@ import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.event.EntityLivingDeathEvent;
 //import scripts.hds_main.utils.modloader.isInvalid;
 
-static nonVanilla as IEntity[] = entity.definition.id.split[0] != "minecraft";
+function isNotVanillaEntity(entity as IEntity) as bool {
+    return entity.definition.id.split()[0] != "minecraft";
+}
 
-static srparasites as IEntity[] = [];
+static srparasites as IEntityDefinition[] = [];
 
-static neutralVanilla as IEntity[] = [];
+static neutralVanilla as IEntityDefinition[] = [];
 
-static flyingChampions as IEntity[] = [];
+static flyingChampions as IEntityDefinition[] = [];
 
-static walkingChampions as IEntity[] = [];
+static walkingChampions as IEntityDefinition[] = [];
 
 //if(!isInvalid){
 /*events.onGameStageAdded(function(event as GameStageAddedEvent) {
@@ -34,42 +37,22 @@ static walkingChampions as IEntity[] = [];
     }else return;
 });*/
 
-for nonv in nonVanilla {
-    events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
-        var entityBase as IEntityLivingBase = event.entityLivingBase; 
-        var trueSource as IEntity = event.damageSource.trueSource;
+events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
+    var entity as IEntityLivingBase = event.entityLivingBase; 
+    var trueSource as IEntity = event.damageSource.trueSource;
+    val entityDef as IEntityDefinition = entity.definition;
 
-        if (!(trueSource instanceof IPlayer) || entityBase.world.remote) return;
-        
-        var player as IPlayer = trueSource;
-        if (entityBase.definition.id != nonv.definition.id) return;
-        DifficultyManager.addDifficulty(player, 0.04, true);
-    });
-}
-
-for srp in srparasites {
-    events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
-        var entityBase as IEntityLivingBase = event.entityLivingBase; 
-        var trueSource as IEntity = event.damageSource.trueSource;
-
-        if (!(trueSource instanceof IPlayer) || entityBase.world.remote) return;
-        
-        var player as IPlayer = trueSource;
-        if (entityBase.definition.id != srp.definition.id) return;
-        DifficultyManager.addDifficulty(player, 0.04, true);
-    });
-}
-
-for nv in neutralVanilla {
-    events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
-        var entityBase as IEntityLivingBase = event.entityLivingBase; 
-        var trueSource as IEntity = event.damageSource.trueSource;
-
-        if (!(trueSource instanceof IPlayer) || entityBase.world.remote) return;
-        
-        var player as IPlayer = trueSource;
-        if (entityBase.definition.id != nv.definition.id) return;
+    if (!(trueSource instanceof IPlayer) || entityBase.world.remote) return;
+    if (neutralVanilla has entityDef) {
         DifficultyManager.addDifficulty(player, -0.01, true);
-    });
-}
-//}
+        return;
+    }
+    if (srparasites has entityDef) {
+        DifficultyManager.addDifficulty(player, 0.04, true); // 0.12?
+        return;
+    }
+    if (isNotVanillaEntity(entity)) {
+        DifficultyManager.addDifficulty(player, 0.04, true);
+    }
+});
+
