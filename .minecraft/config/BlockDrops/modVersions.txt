@@ -29,6 +29,7 @@
   "enderioconduitsrefinedstorage": "5.3.70",
   "guideapi": "1.12-2.1.8-63",
   "enderiofluxified": "1.0.3",
+  "modularcontroller": "1.1.0",
   "enderioconduits": "5.3.70",
   "storagedrawersextra": "@VERSION@",
   "growthcraft_hops": "4.2.2",
