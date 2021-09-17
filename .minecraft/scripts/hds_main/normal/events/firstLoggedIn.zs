@@ -1,4 +1,4 @@
-##packmode normal
+#packmode normal
 #priority -1
 #loader crafttweaker reloadableevents
 
