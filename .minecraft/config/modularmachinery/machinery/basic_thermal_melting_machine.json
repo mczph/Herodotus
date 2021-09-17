@@ -1,6 +1,7 @@
 {
     "registryname": "basic_thermal_melting_machine",
     "localizedname":"placeholder",
+    "activated_sound": "modularcontroller:machine_activated_science_fiction",
     "color": "535353",
     "parts": [
         {

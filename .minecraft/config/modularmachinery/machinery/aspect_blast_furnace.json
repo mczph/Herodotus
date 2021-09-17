@@ -1,6 +1,7 @@
 {
     "registryname": "aspect_blast_furnace",
     "localizedname":"placeholder",
+    "activated_sound": "modularcontroller:machine_activated_industry",
     "color": "535353",
     "parts": [
         {

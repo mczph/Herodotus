@@ -1,6 +1,7 @@
 {
     "registryname": "aura_assembler",
     "localizedname":"placeholder",
+    "activated_sound": "modularcontroller:machine_activated_industry",
     "color": "535353",
     "parts": [
         {

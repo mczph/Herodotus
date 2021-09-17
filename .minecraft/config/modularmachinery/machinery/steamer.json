@@ -1,6 +1,7 @@
 {
     "registryname": "steamer",
     "localizedname":"placeholder",
+    "activated_sound": "modularcontroller:machine_activated_steam",
     "color": "535353",
     "parts": [
         {
