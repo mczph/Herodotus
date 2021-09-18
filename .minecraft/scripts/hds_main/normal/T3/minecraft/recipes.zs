@@ -21,4 +21,10 @@ if(!isInvalid){
     RecipeUtils.recipeTweak(false, <thaumcraft:tube_valve>, [
         [<thaumcraft:tube>, <ore:plateBrass>]
     ]);
+
+    RecipeUtils.recipeTweak(true, <thaumadditions:thaumic_lectern>, [
+        [<ore:ingotThaumium>, <ore:artisansGrimoire>, <ore:ingotThaumium>],
+        [<thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>],
+        [null, <thaumcraft:slab_greatwood>, null]
+    ]);
 }

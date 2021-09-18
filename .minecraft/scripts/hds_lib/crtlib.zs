@@ -5,6 +5,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
+import thaumcraft.aspect.CTAspectStack;
+
 //parts and colors
 static colors as string[] = ["red", "yellow", "blue"];
 static shapes as string[] = ["rhombus", "spherical", "square"];
@@ -21,6 +23,11 @@ static allMetals as [string] = [
 
 static allGems as [string] = [
     "Diamond", "Glimmerite"
+];
+
+static basicAspects as CTAspectStack[] = [
+    <aspect:aer>, <aspect:terra>, <aspect:ignis>, <aspect:aqua>,
+    <aspect:ordo>, <aspect:perditio>, <aspect:vitium>
 ];
 
 function tcSaltGetter(aspect as string) as IItemStack {
