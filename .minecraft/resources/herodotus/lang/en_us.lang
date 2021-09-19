@@ -7,6 +7,8 @@ modularmachinery.aspect_blast_furnace=Aspect Blast Furnace
 modularmachinery.aura_assembler=Aura Assembler
 modularmachinery.modifier.infinite_water=Replace the Corrugate Iron Machine Block upon Fluid Input Hatch to make the machine not consume water.
 
+herodotus.artisan_worktables.material.thaumium=Thaumium
+
 herodotus.quests.2d037bb7.text.1=The straw blocks are made by bundling the fibers into a bundle and stacking them into a bale.
 herodotus.quests.2d037bb7.text.2=Don't expect to build anything with this, I'm not going to be that first little piggy.
 herodotus.quests.2e0bc67f.text.1=A little spark can ignite this bundle of dry wood.

@@ -78,7 +78,7 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <ore:ingotGold>, null],
-    [<ore:ingotGold>, <minecraft:glass_pane>, <ore:ingotGold>],
+    [<ore:ingotGold>, <ore:paneGlassColorless>, <ore:ingotGold>],
     [null, <ore:ingotGold>, null]])
   .addTool(<ore:artisansGrimoire>, 40)
   .addOutput(<thaumcraft:thaumometer>)

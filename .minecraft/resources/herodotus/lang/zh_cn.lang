@@ -7,6 +7,8 @@ modularmachinery.aspect_blast_furnace=源质高炉
 modularmachinery.aura_assembler=灵气装配机
 modularmachinery.modifier.infinite_water=用其替换流体输入仓上面的波纹铁质机械方块让机器不消耗水
 
+herodotus.artisan_worktables.material.thaumium=神秘
+
 #一阶
 herodotus.quests.00ada03a.text.1=人类与动物最大的区别在于使用工具，而如果需要制造工具...
 herodotus.quests.00ada03a.text.2=那么我将需要一些用于将石块与手柄绑在一起的新鲜纤维。

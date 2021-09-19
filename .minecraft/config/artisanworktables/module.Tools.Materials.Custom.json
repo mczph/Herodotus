@@ -222,6 +222,19 @@
       "oreDictKey": "artisansToolSilver"
     },
     {
+      "name": "thaumium",
+      "harvestLevel": 2,
+      "maxUses": 200,
+      "efficiency": 6.0,
+      "damage": 1.5,
+      "enchantability": 20,
+      "color": "8606e8",
+      "shiny": false,
+      "ingredient": "ore:ingotThaumium",
+      "langKey": "herodotus.artisan_worktables.material.thaumium",
+      "oreDictKey": "artisansToolThaumium"
+    },
+    {
       "name": "steel",
       "harvestLevel": 2,
       "maxUses": 500,
