@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"all": "placeholder",
+		"all": "herodotus:blocks/aura_bottling_machine-top",
 		"north": "#all",
 		"east": "#all",
 		"south": "#all",
