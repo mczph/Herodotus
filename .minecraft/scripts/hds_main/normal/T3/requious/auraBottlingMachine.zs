@@ -2,15 +2,11 @@
 #priority -1
 
 import crafttweaker.world.IWorld;
-import crafttweaker.item.IItemStack;
-import crafttweaker.liquid.ILiquidStack;
 
 import mods.requious.SlotVisual;
 import mods.requious.ComponentFace;
 import mods.requious.AssemblyRecipe;
-import mods.requious.MachineContainer;
 
-import scripts.hds_lib.crtlib.maxInt;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 var abm = <assembly:aura_bottling_machine>;
@@ -34,29 +30,27 @@ abm.setItemSlot(6, 2, ComponentFace.back(), 64)
 
 abm.setJEIItemSlot(2,2,"input");
 abm.setJEIFluidSlot(4,2,"input");
-abm.setJEIDurationSlot(5,2, "duration", SlotVisual.arrowRight());
 abm.setJEIItemSlot(6,2,"output");
+abm.setJEIDurationSlot(5,2, "duration", SlotVisual.arrowRight());
 
 
 if(!isInvalid) {
 
 var bottledAura = AssemblyRecipe.create(function(container) {
-        var machine as MachineContainer = container.machine;
-        var world as IWorld = machine.world;
-        container.addItemOutput("output", <contenttweaker:bottled_aura>);
-        world.addFlux(machine.pos, world.random.nextInt(3, 5));
-    })
-.requireItem("input", <thaumcraft:phial>)
-.requireFluid("input", <liquid:unstable_aura> * 1000)
-.requireDuration("input", 20 * 3);
-
-var bottledAuraJEI = AssemblyRecipe.create(function(container) {
-        container.addItemOutput("output", <contenttweaker:bottled_aura>);
-    })
+    container.addItemOutput("output", <contenttweaker:bottled_aura>);
+    
+    if(!container.jei) {
+        container.addWorldOutput(function(machine) {
+            var world as IWorld = machine.world;
+            world.addFlux(machine.pos, world.random.nextInt(3, 5));
+            return true;
+        });
+    }
+})
 .requireItem("input", <thaumcraft:phial>)
 .requireFluid("input", <liquid:unstable_aura> * 1000)
 .requireDuration("input", 20 * 3);
 
 abm.addRecipe(bottledAura);
-abm.addJEIRecipe(bottledAuraJEI);
+abm.addJEIRecipe(bottledAura);
 }
