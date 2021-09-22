@@ -223,10 +223,10 @@
     },
     {
       "name": "thaumium",
-      "harvestLevel": 2,
-      "maxUses": 200,
+      "harvestLevel": 3,
+      "maxUses": 750,
       "efficiency": 6.0,
-      "damage": 1.5,
+      "damage": 4.0,
       "enchantability": 20,
       "color": "8606e8",
       "shiny": false,
