@@ -24,6 +24,6 @@ for i, line in enumerate(f_list):
         f_list[i] = "        S:versionName=" + version_name + "\n"
 f.close()
 
-f = open(".minecraft/config/fancymenu/config.txt", "w", encoding="utf-8")
+f = open(".minecraft/config/versioner.cfg", "w", encoding="utf-8")
 f.writelines(f_list)
 f.close()
