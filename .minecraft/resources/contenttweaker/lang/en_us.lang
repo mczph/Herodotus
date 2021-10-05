@@ -28,7 +28,7 @@ item.contenttweaker.zorra_fruit.name=Zorra Fruit
 item.contenttweaker.square_recrystallized.name=Recrystallized Square
 item.contenttweaker.spherical_recrystallized.name=Recrystallized Spherical
 item.contenttweaker.rhombus_recrystallized.name=Recrystallized Rhombus
-item.contenttweaker.void_traveler_amulet=Void Travel Amulet
+item.contenttweaker.void_traveler_amulet.name=Void Travel Amulet
 
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame
