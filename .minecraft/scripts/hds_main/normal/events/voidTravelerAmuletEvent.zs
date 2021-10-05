@@ -7,7 +7,7 @@ import crafttweaker.entity.IEntityEquipmentSlot;
 import crafttweaker.player.IPlayer;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IMutableItemStack;
-import crafttweaker.event.EntityLivingDamageEvent;
+import crafttweaker.event.EntityLivingAttackedEvent;
 import mods.ctintegration.baubles.IBaubleInventory;
 
 import scripts.hds_main.utils.modloader.isInvalid;
@@ -20,7 +20,7 @@ static allArmorSlots as IEntityEquipmentSlot[] = [
 ];
 
 if(!isInvalid) {
-    events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
+    events.onEntityLivingAttacked(function(event as EntityLivingAttackedEvent) {
         val entity as IEntityLivingBase = event.entityLivingBase;
         val world as IWorld = entity.world;
         if (world.remote) return;
