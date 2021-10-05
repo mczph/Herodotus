@@ -90,8 +90,7 @@ if (!isInvalid) {
             val pos as IBlockPos = player.position;
             val taint as ITaint = player.taint;
             if (taint.moreThanScale(0.95f)) {
-                player.attackEntityFrom(<damageSource:GENERIC>, 1145141919810.0f);
-                event.cancel();
+                event.amount = 1145141919810.0f;
             } else if (taint.moreThanScale(0.85f)) {
                 event.amount *= 3.45f;
             } else if (taint.moreThanScale(0.55f)) {
