@@ -16,6 +16,21 @@
   "authors": "GBLodb, friendlyhj, Lubang-SF, RisingInIris2017, ikexing, yaoyaoDream, vfyjxf, yuesha-yc, bakahdt, Skye Taylor, MangoHi",
   "files": [
     {
+      "projectID": 297878,
+      "fileID": 3065647,
+      "required": true
+    },
+    {
+      "projectID": 228895,
+      "fileID": 3112142,
+      "required": true
+    },
+    {
+      "projectID": 270116,
+      "fileID": 2527645,
+      "required": true
+    },
+    {
       "projectID": 238551,
       "fileID": 2744766,
       "required": true
