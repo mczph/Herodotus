@@ -14,7 +14,7 @@
 		uid: "220fddeb",
 		type: "item",
 		items: [{
-			item: "hdsutils:hot_air_boiler_controller"
+			item: "modularcontroller:hot_air_boiler_controller"
 		}]
 	},
 	{
