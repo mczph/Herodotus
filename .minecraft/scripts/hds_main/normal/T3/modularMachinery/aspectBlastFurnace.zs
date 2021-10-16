@@ -59,7 +59,7 @@ RecipeBuilder.newBuilder("metal_alchemical", "aspect_blast_furnace", 240)
     .build();
 
 for aspect in basicAspects {
-    val name as string = aspect.internal.name;
+    val name as string = aspect.internal.name.toLowerCase();
     RecipeBuilder.newBuilder("salt_essence_" ~ name, "aspect_blast_furnace", 30)
         .addHotAirInput(120, maxInt, 120)
         .addItemInput(<ore:foodSalt>)
