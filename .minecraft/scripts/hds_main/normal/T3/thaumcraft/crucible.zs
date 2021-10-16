@@ -19,4 +19,9 @@ function getAllBasicAspects(amount as int) as CTAspectStack[] {
 if (!isInvalid) {
     Crucible.removeRecipe(<thaumcraft:ingot>);
     Crucible.registerRecipe("thaumium_ingot_0", "", <thaumcraft:ingot>, <ore:ingotIron>, getAllBasicAspects(200));
+    Crucible.registerRecipe("rift_feed", "", <hdsutils:rift_feed>, <thaumcraft:stone_ancient_rock>, [
+        <aspect:victus> * 15,
+        <aspect:desiderium> * 15,
+        <aspect:vitium> * 80
+    ]);
 }
