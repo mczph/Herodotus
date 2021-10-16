@@ -6,6 +6,7 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
 import scripts.hds_lib.crtlib.maxInt;
+import scripts.hds_lib.crtlib.basicAspects;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
@@ -56,4 +57,14 @@ RecipeBuilder.newBuilder("metal_alchemical", "aspect_blast_furnace", 240)
     .addAspectInput("perditio", 40)
     .addItemOutput(<thaumcraft:metal_alchemical>)
     .build();
+
+for aspect in basicAspects {
+    val name as string = aspect.internal.name;
+    RecipeBuilder.newBuilder("salt_essence_" ~ name, "aspect_blast_furnace", 30)
+        .addHotAirInput(120, maxInt, 120)
+        .addItemInput(<ore:foodSalt>)
+        .addAspectInput(name, 1)
+        .addItemOutput(<thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: name}]}))
+        .build();
+}
 }
