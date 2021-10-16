@@ -20,7 +20,7 @@
 		uid: "274c27c7",
 		type: "item",
 		items: [{
-			item: "hdsutils:aspect_blast_furnace_controller"
+			item: "modularcontroller:aspect_blast_furnace_controller"
 		}]
 	},
 	{

@@ -15,7 +15,7 @@
 		uid: "f04e4091",
 		type: "item",
 		items: [{
-			item: "hdsutils:basic_thermal_melting_machine_controller"
+			item: "modularcontroller:basic_thermal_melting_machine_controller"
 		}]
 	},
 	{
