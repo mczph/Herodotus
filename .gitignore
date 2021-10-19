@@ -49,6 +49,10 @@
 /.minecraft/config/InvTweaks/
 /.minecraft/config/InvTweaks/InvTweaks.cfg
 .minecraft/config/InvTweaks.cfg
+/.minecraft/config/biometweaker/output
+/.minecraft/config/topography/documentation
+/.minecraft/config/topography/examples
+/.minecraft/config/topography/images
 
 #other stuff
 !/.minecraft/patchouli_books

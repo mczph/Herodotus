@@ -1,0 +1,4 @@
+printDocumentation(false)
+
+ancientIslands = registerPreset("ancient bricks islands", "images/Overworld", "testing dim")
+ancientIslands.registerDimension(9, "ancient_void")

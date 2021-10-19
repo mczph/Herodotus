@@ -1,0 +1,20 @@
+setSingleBiome("minecraft:void")
+
+ancient = new SkyIslandType("biometweaker:ancient_void")
+
+skyIslands = new SkyIslandGenerator()
+skyIslands.setRegionSize(29)
+
+addGenerator(skyIslands)
+
+large = skyIslands.addSkyIslands(100, 1, true)
+large.addType(ancient)
+
+medium = skyIslands.addSkyIslands(50, 32, true)
+medium.addType(ancient)
+
+small = skyIslands.addSkyIslands(25, 64, true)
+small.addType(ancient)
+
+tiny = skyIslands.addSkyIslands(10, 128, true)
+tiny.addType(ancient)
