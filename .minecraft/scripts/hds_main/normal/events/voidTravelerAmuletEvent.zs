@@ -44,6 +44,9 @@ if(!isInvalid) {
                 }
                 amulet.damageItem(1, player);
                 event.cancel();
+                if (world.dimension == 0) {
+                    player.teleportToRift();
+                }
             }
         }
     });
