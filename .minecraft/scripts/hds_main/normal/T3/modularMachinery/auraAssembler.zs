@@ -71,6 +71,25 @@ RecipeBuilder.newBuilder("refined_output_bus", "aura_assembler", 240)
     .addItemOutput(<modularmachinery:blockoutputbus:3>)
     .build();
 
+RecipeBuilder.newBuilder("void_traveller_amulet", "aura_assembler", 400)
+    .addItemInput(<ore:ingotElectrum>, 2)
+    .addItemInput(<ore:dustGlowstone>, 4)
+    .addItemInput(<thaumcraft:fabric>, 1)
+    .addItemInput(<contenttweaker:bottled_aura> * 2)
+    .addHotAirInput(250, maxInt, 250)
+    .addItemOutput(<contenttweaker:void_traveler_amulet>)
+    .build();
+
+RecipeBuilder.newBuilder("penumbra_ring", "aura_assembler", 400)
+    .addItemInput(<ore:plateSilver>, 12)
+    .addItemInput(<ore:ingotAstralStarmetal>, 8)
+    .addItemInput(<prodigytech:primordium>, 4)
+    .addItemInput(<ore:nitor>, 4)
+    .addItemInput(<contenttweaker:bottled_aura> * 8)
+    .addHotAirInput(250, maxInt, 250)
+    .addItemOutput(<hdsutils:penumbra_ring>)
+    .build();
+
 for recipe in ArcaneWorkbench.getAll() {
     val out as IItemStack = recipe.output;
     val vis as int = recipe.vis;
