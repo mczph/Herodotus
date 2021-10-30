@@ -53,17 +53,17 @@ jobs:
       - name: Set launcher_profiles.json
         run: sudo bash ${GITHUB_WORKSPACE}/runners/set_launcher_profiles.sh
 
-      - name: Download Forge 14.23.5.2854 Installer
-        run: sudo wget https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-installer.jar -O ${GITHUB_WORKSPACE}/gml/forge-1.12.2-14.23.5.2854-installer.jar
+      - name: Download Forge 14.23.5.2855 Installer
+        run: sudo wget https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-installer.jar -O ${GITHUB_WORKSPACE}/gml/forge-1.12.2-14.23.5.2855-installer.jar
 
       - name: Download Forge Install Bootstrapper
         run: |
           wget https://github.com/bangbang93/forge-install-bootstrapper/releases/download/0.0.0/forge-install-bootstrapper.jar -O ${GITHUB_WORKSPACE}/gml/forge-install-bootstrapper.jar
 
-      - name: Install Forge 14.23.5.2854
+      - name: Install Forge 14.23.5.2855
         run: |
           cd gml
-          sudo java -cp "forge-install-bootstrapper.jar:forge-1.12.2-14.23.5.2854-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
+          sudo java -cp "forge-install-bootstrapper.jar:forge-1.12.2-14.23.5.2855-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
 
       - name: Download Mods
         run: sudo ${JAVA_HOME_11_X64}/bin/java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
@@ -77,4 +77,4 @@ jobs:
       - name: Run modpack
         run: |
           cd ./gml
-          sudo xvfb-run ./gml-linux -run 1.12.2-forge-14.23.5.2854 -username tester -ram 6144 -log -independent=f -javapath ${JAVA_HOME_8_X64}/bin/java
+          sudo xvfb-run ./gml-linux -run 1.12.2-forge-14.23.5.2855 -username tester -ram 6144 -log -independent=f -javapath ${JAVA_HOME_8_X64}/bin/java
