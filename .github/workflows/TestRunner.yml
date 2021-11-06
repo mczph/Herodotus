@@ -58,7 +58,7 @@ jobs:
 
       - name: Download Forge Install Bootstrapper
         run: |
-          wget https://github.com/bangbang93/forge-install-bootstrapper/releases/download/0.0.0/forge-install-bootstrapper.jar -O ${GITHUB_WORKSPACE}/gml/forge-install-bootstrapper.jar
+          wget https://github.com/bangbang93/forge-install-bootstrapper/releases/download/v0.1.0/forge-install-bootstrapper.jar -O ${GITHUB_WORKSPACE}/gml/forge-install-bootstrapper.jar
 
       - name: Install Forge 14.23.5.2855
         run: |
