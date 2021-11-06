@@ -13,7 +13,7 @@ val altar as Block = VanillaFactory.createExpandBlock("altar", <blockmaterial:ir
 altar.onBlockActivated = function(world, pos, state, player, hand, facing, blockHit) {
     if (!world.remote) {
         var ore as IOreDictEntry = null;
-        var time as long = world.time % 24000;
+        var time as long = world.provider.worldTime % 24000;
         if (time > 5500 && time < 6500) {
             ore = <ore:ingotCopper>;
         }
