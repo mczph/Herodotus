@@ -74,7 +74,7 @@ jobs:
       - name: Tweak configs
         run: | 
           sudo mv -f ${GITHUB_WORKSPACE}/runners/thaumicjei.cfg ${GITHUB_WORKSPACE}/gml/.minecraft/config
-          sudo mv -f ${GITHUB_WORKSPACE}/runners/tinkeroredictcache.cfg ${GITHUB_WORKSPACE}/gml/.minecraft/config
+          sudo mv -f ${GITHUB_WORKSPACE}/runners/tinkersoredictcache.cfg ${GITHUB_WORKSPACE}/gml/.minecraft/config
 
       - name: Run modpack
         run: |
