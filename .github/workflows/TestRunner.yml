@@ -71,8 +71,10 @@ jobs:
       - name: Install Autostop
         run: sudo mv ${GITHUB_WORKSPACE}/runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
 
-      - name: Tweak ThaumicJEI config
-        run: sudo mv -f ${GITHUB_WORKSPACE}/runners/thaumicjei.cfg ${GITHUB_WORKSPACE}/gml/.minecraft/config
+      - name: Tweak configs
+        run: | 
+          sudo mv -f ${GITHUB_WORKSPACE}/runners/thaumicjei.cfg ${GITHUB_WORKSPACE}/gml/.minecraft/config
+          sudo mv -f ${GITHUB_WORKSPACE}/runners/tinkeroredictcache.cfg ${GITHUB_WORKSPACE}/gml/.minecraft/config
 
       - name: Run modpack
         run: |

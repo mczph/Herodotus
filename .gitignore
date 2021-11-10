@@ -54,6 +54,8 @@
 /.minecraft/config/topography/examples
 /.minecraft/config/topography/images
 /.minecraft/config/*.default
+/.minecraft/config/tinker_ore_dict_melting_cache.dat
+/.minecraft/config/thaumicspeedup/cache.lock
 
 #other stuff
 !/.minecraft/patchouli_books
