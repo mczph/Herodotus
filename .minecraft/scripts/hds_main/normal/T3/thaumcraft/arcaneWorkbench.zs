@@ -24,7 +24,23 @@ static toRemove as [IItemStack] = [
     <thaumcraft:essentia_output>,
     <thaumcraft:essentia_input>,
     <thaumcraft:jar_normal>,
-    <thaumcraft:sanity_checker>
+    <thaumcraft:sanity_checker>,
+    <thaumcraft:smelter_void>,
+    <thaumicaugmentation:void_recharge_pedestal>,
+    <thaumicaugmentation:impetus_diffuser>,
+    <thaumicaugmentation:impetus_drainer>,
+    <thaumicaugmentation:impetus_gate>,
+    <thaumicaugmentation:impetus_linker>,
+    <thaumicaugmentation:impetus_relay>,
+    <thaumicaugmentation:impulse_cannon_augment:1>,
+    <thaumicaugmentation:impulse_cannon_augment>,
+    <thaumcraft:metal_alchemical_advanced>,
+    <thaumicwonders:dimensional_ripper>,
+    <thaumicwonders:portal_anchor>,
+    <thaumicwonders:flux_distiller>,
+    <thaumicwonders:primordial_accelerator_tunnel>,
+    <thaumicwonders:primordial_accelerator_terminus>,
+    <thaumadditions:jar_eldritch>
 ];
 
 
