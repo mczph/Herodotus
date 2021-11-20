@@ -164,7 +164,11 @@ static plainItemIDs as string[] = [
     "broken_ootheca",
     "resurrected_meat",
     "culture_medium",
-    "void_specimen"
+    "void_specimen",
+    "mystical_insulator",
+    "allotrevorer",
+    "interlegere_embryo",
+    "metatile"
 ];
 
 static plainBlockIDs as string[] = [
