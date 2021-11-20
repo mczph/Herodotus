@@ -30,6 +30,10 @@ item.contenttweaker.culture_medium.name=培养基
 item.contenttweaker.zorra_fruit.name=佐拉果
 item.contenttweaker.void_traveler_amulet.name=虚空旅者护符
 item.contenttweaker.void_specimen.name=虚空生物标本
+item.contenttweaker.mystical_insulator.name=秘能绝缘体
+item.contenttweaker.allotrevorer.name=同构吞纳者
+item.contenttweaker.interlegere_embryo.name=同调精神
+item.contenttweaker.metatile.name=形而上之壁
 
 tile.contenttweaker.altar.name=日月祭坛
 tile.contenttweaker.starlight_frame.name=星光框架
