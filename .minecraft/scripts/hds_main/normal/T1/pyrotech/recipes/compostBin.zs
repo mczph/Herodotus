@@ -24,7 +24,9 @@ val toMulch as IItemStack[] = [
     <xlfoodmod:tomato_seeds>,
     <xlfoodmod:lettuce_seeds>,
     <xlfoodmod:rice_seeds>,
-    <xlfoodmod:cucumber_seeds>
+    <xlfoodmod:cucumber_seeds>,
+    <xlfoodmod:strawberry_seeds>,
+    <xlfoodmod:corn_seeds>
 ];
 
 for seed in toMulch {

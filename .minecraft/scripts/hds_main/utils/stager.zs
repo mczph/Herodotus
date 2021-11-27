@@ -1,3 +1,4 @@
+#norun
 #priority 50000
 
 import crafttweaker.item.IItemStack;
