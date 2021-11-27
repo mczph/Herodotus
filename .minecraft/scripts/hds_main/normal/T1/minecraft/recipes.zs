@@ -6,6 +6,7 @@ import crafttweaker.item.IItemStack;
 import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
+import scripts.hds_lib.crtlib.tconPartGetter;
 import scripts.hds_main.utils.modloader.isInvalid;
 import scripts.grassUtils.RecipeUtils.createCrossWithCore;
 
@@ -156,11 +157,47 @@ recipes.addShaped(<pyrotech:anvil_iron_plated>, [
 ]);
 
 recipes.addShaped("flint_pickaxe_2",  <pyrotech:flint_pickaxe>, [
-    [<tconstruct:pick_head>.withTag({Material: "flint"}), <pyrotech:material:12>],
+    [tconPartGetter(<tconstruct:pick_head>, "flint"), <pyrotech:material:12>],
+    [null, <ore:stickWood>]
+]);
+
+recipes.addShaped("flint_sword_2",  <pyrotech:flint_sword>, [
+    [tconPartGetter(<tconstruct:sword_blade>, "flint"), <pyrotech:material:12>],
+    [null, <ore:stickWood>]
+]);
+
+recipes.addShaped("flint_axe_2",  <pyrotech:flint_axe>, [
+    [tconPartGetter(<tconstruct:axe_head>, "flint"), <pyrotech:material:12>],
+    [null, <ore:stickWood>]
+]);
+
+recipes.addShaped("flint_shovel_2",  <pyrotech:flint_shovel>, [
+    [tconPartGetter(<tconstruct:shovel_head>, "flint"), <pyrotech:material:12>],
+    [null, <ore:stickWood>]
+]);
+
+recipes.addShaped("flint_hammer_2",  <pyrotech:flint_hammer>, [
+    [tconPartGetter(<tconstruct:hammer_head>, "flint"), <pyrotech:material:12>],
     [null, <ore:stickWood>]
 ]);
 
 recipes.addShaped("make_gravel", <minecraft:gravel>, RecipeUtils.createSurround(null, <ore:rock>));
+
+recipes.addShapeless("flint_pick_head", tconPartGetter(<tconstruct:pick_head>, "flint"), [
+    <ore:itemFlint>, tconPartGetter(<tconstruct:hammer_head>, "flint")
+]);
+
+recipes.addShapeless("flint_shovel_head", tconPartGetter(<tconstruct:shovel_head>, "flint"), [
+    <ore:itemFlint>, tconPartGetter(<tconstruct:pick_head>, "flint")
+]);
+
+recipes.addShapeless("flint_blade", tconPartGetter(<tconstruct:sword_blade>, "flint"), [
+    <ore:itemFlint>, tconPartGetter(<tconstruct:axe_head>, "flint")
+]);
+
+recipes.addShapeless("flint_axe_head", tconPartGetter(<tconstruct:axe_head>, "flint"), [
+    <ore:itemFlint>, <ore:itemFlint>, tconPartGetter(<tconstruct:hammer_head>, "flint")
+]);
 
 recipes.addShapeless("recycle_racks", <minecraft:stick> * 4, [<pyrotech:drying_rack>]);
 

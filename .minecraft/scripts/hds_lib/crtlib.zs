@@ -64,3 +64,8 @@ function tcVisBlockGetter(aspect as string) as IItemStack {
     val temp as IItemStack = <thaumadditions:crystal_block>.withTag({Aspect: aspect});
     return temp;
 }
+
+function tconPartGetter(basic as IItemStack, material as string) as IItemStack {
+    val temp as IItemStack = basic.withTag({Material: material});
+    return temp;
+}
