@@ -17,5 +17,12 @@
 		items: [{
 			item: "pyrotech:drying_rack"
 		}]
+	},
+	{
+		uid: "98edbaf4",
+		type: "observation",
+		match_type: "block_id",
+		match: "",
+		timer: 0L
 	}]
 }

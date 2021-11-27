@@ -9,10 +9,34 @@
 		"78b91f90"
 	],
 	tasks: [{
-		uid: "8776a8d2",
+		uid: "4843bf5c",
 		type: "item",
 		items: [{
-			item: "pyrotech:worktable"
-		}]
+			id: "pyrotech:worktable",
+			tag: {
+				BlockEntityTag: {
+					shelfStackHandler: {
+						Size: 3,
+						Items: []
+					},
+					inputStackHandler: {
+						Size: 9,
+						Items: []
+					},
+					remainingDurability: 64,
+					x: 663,
+					y: 4,
+					ForgeCaps: {
+						"nuclearcraft:capability_default_radiation_resistance": {
+							shieldingRadResistance: 0.0d,
+							radiationResistance: 0.0d
+						}
+					},
+					z: 79,
+					id: "pyrotech:tile.tileworktable"
+				}
+			}
+		}],
+		ignore_nbt: 1b
 	}]
 }

@@ -11,5 +11,10 @@
 		items: [{
 			item: "pyrotech:brick_crucible"
 		}]
+	}],
+	rewards: [{
+		uid: "a57b1535",
+		type: "random",
+		table: 0
 	}]
 }

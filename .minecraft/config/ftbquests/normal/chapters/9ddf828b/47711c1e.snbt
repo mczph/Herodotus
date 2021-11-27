@@ -46,5 +46,10 @@
 		items: [{
 			item: "storagenetwork:simple_kabel"
 		}]
+	}],
+	rewards: [{
+		uid: "578fee85",
+		type: "random",
+		table: 0
 	}]
 }

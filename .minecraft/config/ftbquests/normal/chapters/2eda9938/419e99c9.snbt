@@ -10,5 +10,10 @@
 		items: [{
 			item: "thaumcraft:mechanism_simple"
 		}]
+	}],
+	rewards: [{
+		uid: "e7ddaff1",
+		type: "random",
+		table: 0
 	}]
 }

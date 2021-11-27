@@ -13,5 +13,10 @@
 		items: [{
 			item: "contenttweaker:biological_resources"
 		}]
+	}],
+	rewards: [{
+		uid: "2440a807",
+		type: "random",
+		table: 0
 	}]
 }

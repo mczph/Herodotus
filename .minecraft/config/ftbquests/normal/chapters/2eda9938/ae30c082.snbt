@@ -10,5 +10,10 @@
 		items: [{
 			item: "contenttweaker:culture_medium"
 		}]
+	}],
+	rewards: [{
+		uid: "ab0a7311",
+		type: "random",
+		table: 0
 	}]
 }

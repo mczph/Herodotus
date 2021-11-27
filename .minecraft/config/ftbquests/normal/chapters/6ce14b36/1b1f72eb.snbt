@@ -21,5 +21,10 @@
 		uid: "d29299fa",
 		type: "item",
 		item: "pyrotech:tar_collector"
+	},
+	{
+		uid: "e69794d2",
+		type: "random",
+		table: 0
 	}]
 }

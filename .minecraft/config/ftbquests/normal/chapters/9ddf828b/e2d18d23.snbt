@@ -10,5 +10,10 @@
 		items: [{
 			item: "factorytech:htfurnace"
 		}]
+	}],
+	rewards: [{
+		uid: "3b2ef8a7",
+		type: "random",
+		table: 0
 	}]
 }

@@ -10,5 +10,10 @@
 		items: [{
 			item: "contenttweaker:impure_gel"
 		}]
+	}],
+	rewards: [{
+		uid: "a0e9922c",
+		type: "random",
+		table: 0
 	}]
 }

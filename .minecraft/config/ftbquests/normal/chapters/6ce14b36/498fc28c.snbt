@@ -7,11 +7,13 @@
 	dependencies: [
 		"4d034df1"
 	],
+	optional: true,
 	tasks: [{
 		uid: "8872ca5d",
 		type: "item",
 		items: [{
 			item: "pyrotech:bucket_clay"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

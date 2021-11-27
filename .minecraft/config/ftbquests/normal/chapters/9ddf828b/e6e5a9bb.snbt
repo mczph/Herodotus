@@ -10,5 +10,10 @@
 		items: [{
 			item: "contenttweaker:infinite_water_upgrade_module"
 		}]
+	}],
+	rewards: [{
+		uid: "1edf875f",
+		type: "random",
+		table: 0
 	}]
 }

@@ -26,5 +26,10 @@
 				}
 			}
 		}
+	},
+	{
+		uid: "9bb4bf11",
+		type: "random",
+		table: 0
 	}]
 }

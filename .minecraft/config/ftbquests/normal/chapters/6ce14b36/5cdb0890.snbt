@@ -22,5 +22,10 @@
 		type: "item",
 		item: "pyrotech:mechanical_hopper",
 		count: 3
+	},
+	{
+		uid: "2b9e721c",
+		type: "random",
+		table: 0
 	}]
 }

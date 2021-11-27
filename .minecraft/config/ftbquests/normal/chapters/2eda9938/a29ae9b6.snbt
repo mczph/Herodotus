@@ -10,5 +10,10 @@
 		items: [{
 			item: "thaumcraft:ingot 1 2"
 		}]
+	}],
+	rewards: [{
+		uid: "feb246d0",
+		type: "random",
+		table: 0
 	}]
 }

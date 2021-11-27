@@ -14,5 +14,10 @@
 		match_type: "block_id",
 		match: "bloodmagic:altar",
 		timer: 0L
+	}],
+	rewards: [{
+		uid: "27061212",
+		type: "random",
+		table: 0
 	}]
 }

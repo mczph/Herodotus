@@ -10,5 +10,10 @@
 		items: [{
 			item: "factorytech:oredrill"
 		}]
+	}],
+	rewards: [{
+		uid: "2036c840",
+		type: "random",
+		table: 0
 	}]
 }

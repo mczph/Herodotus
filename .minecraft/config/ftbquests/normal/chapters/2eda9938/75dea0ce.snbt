@@ -14,5 +14,10 @@
 		items: [{
 			item: "contenttweaker:rhythmic_seed"
 		}]
+	}],
+	rewards: [{
+		uid: "0c4ffefe",
+		type: "random",
+		table: 0
 	}]
 }

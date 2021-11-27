@@ -1,0 +1,665 @@
+{
+	title: "food",
+	loot_size: 8,
+	hide_tooltip: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:cake"
+		}
+	},
+	{
+		item: "xlfoodmod:chocolate_cake",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:spicy_chips",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:onion_rings",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:cheesy_bread",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:potato_bread",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:corn_bread",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:strawberry",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:chips",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:cheese_puff",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:cheese",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:butter_rice",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:fried_rice",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:pizza",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:strawberry_cake",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:pumpkin_cake",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:cheese_cake",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:baguette",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:lasagne",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:jambon_beurre",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:flesh",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:ham",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:macaroni_and_cheese",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:butter",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:crouton",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:rice_bread",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:enchilada",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:spaghetti",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:tomato",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:onion",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:lettuce",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:cucumber",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:corn",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:rice",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:raw_corn",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:cooked_dough",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:salty_chips",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:breakfast_sandwich",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:tortilla",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:grilled_cheese_sandwich",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:taco_salad",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:oreo_cake",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:pancake",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:waffle",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:nether_cake",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:sausage",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:beef_stew",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:chicken_soup",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:vegetable_soup",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:tomato_soup",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:icecream_sandwich",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:apple_pie",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:golden_apple_pie",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:cheese_pie",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:chicken_pot_pie",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:sugar_donut",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:vanilla_cupcake",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:strawberry_icecream",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:pumpkin_stew",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:caramel_apple",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:chicken_sandwich",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:kebab",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:cheeseburger",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:hamburger",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:taco",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:chickenburger",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:onion_salad",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:chicken_salad",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:bacon",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:caesar_salad",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:fried_egg",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:blt_sandwich",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:slice_of_pizza",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:beer"
+		}
+	},
+	{
+		item: "xlfoodmod:chocolate",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:brownie",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:twinkie",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:oreo_cookie",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:roasted_marshmallow",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:marshmallow",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:super_energy_drink"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:deadly_energy_drink"
+		}
+	},
+	{
+		item: "xlfoodmod:chocolate_donut",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:sausage_roll",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:stealthy_energy_drink"
+		}
+	},
+	{
+		item: "xlfoodmod:cooked_chicken_wing",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:spicy_chicken_wing",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:top_bun",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:chocolate_pie",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:cucumber_soup",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:beef_jerky",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:bottom_bun",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:hot_dog",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:crescent_roll",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:donut",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:garden_salad",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:burrito",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:oreo_cupcake",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:strawberry_cupcake",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:fish_pie",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:bacon_pie",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:vanilla_donut",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:strawberry_pie",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:cappuccino"
+		}
+	},
+	{
+		item: "xlfoodmod:bourbon_biscuit",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:coffee"
+		}
+	},
+	{
+		item: "xlfoodmod:vanilla_icecream",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:chocolate_icecream",
+		count: 8
+	},
+	{
+		item: "xlfoodmod:icecream_cone",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_ender_food"
+		}
+	},
+	{
+		item: "growthcraft_milk:bottlefluid_whey",
+		count: 8
+	},
+	{
+		item: "biomesoplenty:shroompowder",
+		count: 8
+	},
+	{
+		item: "growthcraft_grapes:grapewine",
+		count: 8
+	},
+	{
+		item: "pyrotech:strange_tuber",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:marshmallow_stick",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:beetroot_soup"
+		}
+	},
+	{
+		item: "minecraft:cooked_mutton",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:rabbit_stew"
+		}
+	},
+	{
+		item: "minecraft:cooked_chicken",
+		count: 8
+	},
+	{
+		item: "minecraft:carrot",
+		count: 8
+	},
+	{
+		item: "minecraft:baked_potato",
+		count: 8
+	},
+	{
+		item: "minecraft:pumpkin_pie",
+		count: 8
+	},
+	{
+		item: "minecraft:cooked_beef",
+		count: 8
+	},
+	{
+		item: "minecraft:cookie",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_food",
+		count: 8
+	},
+	{
+		item: "minecraft:cooked_fish",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:mushroom_stew"
+		}
+	},
+	{
+		item: "minecraft:cooked_porkchop",
+		count: 8
+	},
+	{
+		item: "biomesoplenty:filled_honeycomb",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:strong_energy_drink"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:speedy_energy_drink"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:healthy_energy_drink"
+		}
+	},
+	{
+		item: "minecraft:cooked_rabbit",
+		count: 8
+	},
+	{
+		item: "minecraft:melon",
+		count: 8
+	},
+	{
+		item: "growthcraft_milk:butter",
+		count: 8
+	},
+	{
+		item: "growthcraft_milk:ice_cream",
+		count: 8
+	},
+	{
+		item: "growthcraft_milk:yogurt",
+		count: 8
+	},
+	{
+		item: "minecraft:chorus_fruit",
+		count: 8
+	},
+	{
+		item: "growthcraft_milk:cheese_waxed_slice",
+		count: 8
+	},
+	{
+		item: "growthcraft_apples:applecider",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "biomesoplenty:ricebowl"
+		}
+	},
+	{
+		item: "growthcraft_rice:rice_cooked",
+		count: 8
+	},
+	{
+		item: "growthcraft_rice:rice_ball",
+		count: 8
+	},
+	{
+		item: "growthcraft_milk:cheese_simple_slice",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:cake"
+		}
+	},
+	{
+		item: "nuclearcraft:milk_chocolate",
+		count: 8
+	},
+	{
+		item: "growthcraft_milk:cheese_aged_slice",
+		count: 8
+	},
+	{
+		item: "minecraft:apple"
+	}]
+}

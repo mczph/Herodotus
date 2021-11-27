@@ -9,6 +9,7 @@
 		type: "item",
 		items: [{
 			item: "artisanworkstumps:workstump_jeweler"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

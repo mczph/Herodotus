@@ -18,5 +18,10 @@
 		items: [{
 			item: "magneticraft:inserter"
 		}]
+	}],
+	rewards: [{
+		uid: "146ac2ee",
+		type: "random",
+		table: 0
 	}]
 }

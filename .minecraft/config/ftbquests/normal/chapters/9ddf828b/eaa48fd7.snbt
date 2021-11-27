@@ -11,5 +11,10 @@
 		items: [{
 			item: "pneumaticcraft:omnidirectional_hopper"
 		}]
+	}],
+	rewards: [{
+		uid: "37489229",
+		type: "random",
+		table: 0
 	}]
 }

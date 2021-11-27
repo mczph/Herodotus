@@ -11,5 +11,10 @@
 		items: [{
 			item: "prodigytech:food_enricher"
 		}]
+	}],
+	rewards: [{
+		uid: "76a13866",
+		type: "random",
+		table: 0
 	}]
 }

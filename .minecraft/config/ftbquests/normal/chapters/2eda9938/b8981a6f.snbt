@@ -17,5 +17,10 @@
 		items: [{
 			item: "contenttweaker:bottled_aura"
 		}]
+	}],
+	rewards: [{
+		uid: "01d9ee79",
+		type: "random",
+		table: 0
 	}]
 }

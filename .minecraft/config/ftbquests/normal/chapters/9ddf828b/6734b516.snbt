@@ -4,11 +4,17 @@
 	dependencies: [
 		"2bfd6bb4"
 	],
+	optional: true,
 	tasks: [{
 		uid: "156dfef6",
 		type: "item",
 		items: [{
 			item: "artisanworktables:toolbox"
 		}]
+	}],
+	rewards: [{
+		uid: "d2fededc",
+		type: "random",
+		table: 0
 	}]
 }

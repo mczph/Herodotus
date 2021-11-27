@@ -15,6 +15,12 @@
 		type: "item",
 		items: [{
 			item: "artisanworkstumps:workstump_mason"
-		}]
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "141c1037",
+		type: "random",
+		table: 0
 	}]
 }

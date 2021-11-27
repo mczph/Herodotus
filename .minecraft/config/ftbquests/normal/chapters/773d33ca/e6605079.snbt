@@ -25,5 +25,10 @@
 				}
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "4338c42f",
+		type: "random",
+		table: 0
 	}]
 }

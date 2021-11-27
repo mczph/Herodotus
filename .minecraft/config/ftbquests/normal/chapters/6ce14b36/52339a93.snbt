@@ -32,5 +32,10 @@
 				}
 			}
 		}
+	},
+	{
+		uid: "6169f8fc",
+		type: "random",
+		table: 0
 	}]
 }

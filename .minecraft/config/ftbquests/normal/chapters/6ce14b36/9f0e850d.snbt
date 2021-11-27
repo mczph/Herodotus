@@ -7,6 +7,7 @@
 	dependencies: [
 		"4d034df1"
 	],
+	optional: true,
 	tasks: [{
 		uid: "13925d86",
 		type: "item",
@@ -16,6 +17,6 @@
 			},
 			id: "pyrotech:bucket_wood"
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	}]
 }

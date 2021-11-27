@@ -10,5 +10,10 @@
 		items: [{
 			item: "contenttweaker:punched_stone"
 		}]
+	}],
+	rewards: [{
+		uid: "0c5111ae",
+		type: "random",
+		table: 0
 	}]
 }

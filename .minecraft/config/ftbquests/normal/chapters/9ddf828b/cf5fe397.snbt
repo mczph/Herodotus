@@ -10,5 +10,10 @@
 		items: [{
 			item: "magneticraft:pumpjack"
 		}]
+	}],
+	rewards: [{
+		uid: "9a356ec6",
+		type: "random",
+		table: 0
 	}]
 }

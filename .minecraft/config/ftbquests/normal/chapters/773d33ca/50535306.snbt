@@ -11,5 +11,10 @@
 		items: [{
 			item: "pyrotech:faucet_brick"
 		}]
+	}],
+	rewards: [{
+		uid: "a854fbf4",
+		type: "random",
+		table: 0
 	}]
 }

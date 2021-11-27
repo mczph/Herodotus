@@ -12,5 +12,10 @@
 		items: [{
 			item: "pyrotech:brick_kiln"
 		}]
+	}],
+	rewards: [{
+		uid: "02f4f35f",
+		type: "random",
+		table: 0
 	}]
 }

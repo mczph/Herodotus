@@ -11,5 +11,10 @@
 		items: [{
 			item: "magneticraft:big_combustion_chamber"
 		}]
+	}],
+	rewards: [{
+		uid: "653b6439",
+		type: "random",
+		table: 0
 	}]
 }

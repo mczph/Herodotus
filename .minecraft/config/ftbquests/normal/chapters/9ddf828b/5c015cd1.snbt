@@ -12,5 +12,10 @@
 			item: "pneumaticcraft:pressure_chamber_interface"
 		}],
 		count: 2L
+	}],
+	rewards: [{
+		uid: "90eee7d4",
+		type: "random",
+		table: 0
 	}]
 }

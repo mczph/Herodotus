@@ -10,5 +10,10 @@
 		items: [{
 			item: "prodigytech:magnetic_reassembler"
 		}]
+	}],
+	rewards: [{
+		uid: "a2d9b28f",
+		type: "random",
+		table: 0
 	}]
 }

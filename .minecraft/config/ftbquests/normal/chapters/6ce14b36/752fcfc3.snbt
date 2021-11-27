@@ -15,5 +15,10 @@
 		items: [{
 			item: "pyrotech:kiln_pit"
 		}]
+	}],
+	rewards: [{
+		uid: "4c1ed464",
+		type: "random",
+		table: 0
 	}]
 }

@@ -15,5 +15,10 @@
 		items: [{
 			item: "pyrotech:wood_tar_block"
 		}]
+	}],
+	rewards: [{
+		uid: "5429c313",
+		type: "random",
+		table: 0
 	}]
 }

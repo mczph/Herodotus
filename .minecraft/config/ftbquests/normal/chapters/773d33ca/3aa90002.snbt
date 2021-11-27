@@ -4,11 +4,17 @@
 	dependencies: [
 		"e6605079"
 	],
+	optional: true,
 	tasks: [{
 		uid: "650cfb45",
 		type: "item",
 		items: [{
 			item: "minecraft:chest"
 		}]
+	}],
+	rewards: [{
+		uid: "43495373",
+		type: "random",
+		table: 0
 	}]
 }

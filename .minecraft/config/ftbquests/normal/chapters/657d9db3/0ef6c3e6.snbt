@@ -76,5 +76,10 @@
 		uid: "855120cf",
 		type: "item",
 		item: "contenttweaker:material_part 1 79"
+	},
+	{
+		uid: "608b9762",
+		type: "random",
+		table: 0
 	}]
 }

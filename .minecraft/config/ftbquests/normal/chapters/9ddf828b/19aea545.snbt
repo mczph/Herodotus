@@ -10,5 +10,10 @@
 		items: [{
 			item: "pneumaticcraft:vacuum_pump"
 		}]
+	}],
+	rewards: [{
+		uid: "d61abb41",
+		type: "random",
+		table: 0
 	}]
 }

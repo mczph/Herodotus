@@ -14,5 +14,10 @@
 		items: [{
 			item: "contenttweaker:altar"
 		}]
+	}],
+	rewards: [{
+		uid: "5b009991",
+		type: "random",
+		table: 0
 	}]
 }

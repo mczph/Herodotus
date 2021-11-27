@@ -13,5 +13,10 @@
 		items: [{
 			item: "pneumaticcraft:plastic 1 8"
 		}]
+	}],
+	rewards: [{
+		uid: "c9a9b985",
+		type: "random",
+		table: 0
 	}]
 }

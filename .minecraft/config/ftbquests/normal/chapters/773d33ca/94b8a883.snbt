@@ -11,5 +11,10 @@
 		items: [{
 			item: "prodigytech:primordialis_reactor"
 		}]
+	}],
+	rewards: [{
+		uid: "320d2122",
+		type: "random",
+		table: 0
 	}]
 }

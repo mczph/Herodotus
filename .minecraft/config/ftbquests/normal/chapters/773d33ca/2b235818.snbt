@@ -12,6 +12,7 @@
 		type: "item",
 		items: [{
 			item: "artisanworkstumps:workstump_mage"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

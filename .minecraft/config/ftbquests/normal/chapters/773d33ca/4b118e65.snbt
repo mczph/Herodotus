@@ -11,5 +11,10 @@
 		items: [{
 			item: "prodigytech:linear_extractor"
 		}]
+	}],
+	rewards: [{
+		uid: "1c712013",
+		type: "random",
+		table: 0
 	}]
 }

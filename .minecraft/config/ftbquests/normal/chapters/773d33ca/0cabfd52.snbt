@@ -10,5 +10,10 @@
 		items: [{
 			item: "botania:altar"
 		}]
+	}],
+	rewards: [{
+		uid: "9538ad40",
+		type: "random",
+		table: 0
 	}]
 }
