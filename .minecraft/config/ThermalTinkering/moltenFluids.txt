@@ -4,16 +4,16 @@
 
 #ANY AND ALL CHANGES TO THIS FILE WILL BE REPLACED WHEN THIS FILE IS REGENERATED NEXT TIME THE GAME IS RUN. THIS IS FOR INFORMATIONAL PURPOSES ONLY AND IS NOT A CONFIG FILE!
 
-electrical_steel                                  (enderio:block_fluid_electrical_steel)                                           = Molten Electrical Steel
-energetic_alloy                                   (enderio:block_fluid_energetic_alloy)                                            = Molten Energetic Alloy
-vibrant_alloy                                     (enderio:block_fluid_vibrant_alloy)                                              = Molten Vibrant Alloy
-redstone_alloy                                    (enderio:block_fluid_redstone_alloy)                                             = Molten Redstone Alloy
-conductive_iron                                   (enderio:block_fluid_conductive_iron)                                            = Molten Conductive Iron
-pulsating_iron                                    (enderio:block_fluid_pulsating_iron)                                             = Molten Pulsating Iron
-dark_steel                                        (enderio:block_fluid_dark_steel)                                                 = Molten Dark Steel
-soularium                                         (enderio:block_fluid_soularium)                                                  = Molten Soularium
-end_steel                                         (enderio:block_fluid_end_steel)                                                  = Molten End Steel
-construction_alloy                                (enderio:block_fluid_construction_alloy)                                         = Molten Iron Alloy
+electrical_steel                                  (enderio:block_fluid_electrical_steel)                                           = ÈÛÈÚ´Å¸Ö
+energetic_alloy                                   (enderio:block_fluid_energetic_alloy)                                            = ÈÛÈÚ³äÄÜºÏ½ğ
+vibrant_alloy                                     (enderio:block_fluid_vibrant_alloy)                                              = ÈÛÈÚÂö³åºÏ½ğ
+redstone_alloy                                    (enderio:block_fluid_redstone_alloy)                                             = ÈÛÈÚºìÊ¯ºÏ½ğ
+conductive_iron                                   (enderio:block_fluid_conductive_iron)                                            = ÈÛÈÚµ¼µçÌú
+pulsating_iron                                    (enderio:block_fluid_pulsating_iron)                                             = ÈÛÈÚ³äÄÜÌú
+dark_steel                                        (enderio:block_fluid_dark_steel)                                                 = ÈÛÈÚĞş¸Ö
+soularium                                         (enderio:block_fluid_soularium)                                                  = ÈÛÈÚ»ê½ğ
+end_steel                                         (enderio:block_fluid_end_steel)                                                  = ÈÛÈÚÄ©Ó°¸Ö
+construction_alloy                                (enderio:block_fluid_construction_alloy)                                         = ÈÛÈÚÌúºÏ½ğ
 obsidian                                          (tconstruct:molten_obsidian)                                                     = ÈÛÈÚºÚê×Ê¯
 iron                                              (tconstruct:molten_iron)                                                         = ÈÛÈÚÌú
 pigiron                                           (tconstruct:molten_pigiron)                                                      = ÈÛÈÚÉúÌú
@@ -27,7 +27,7 @@ lead                                              (tconstruct:molten_lead)      
 silver                                            (tconstruct:molten_silver)                                                       = ÈÛÈÚÒø
 electrum                                          (tconstruct:molten_electrum)                                                     = ÈÛÈÚçúçê½ğ
 steel                                             (tconstruct:molten_steel)                                                        = ÈÛÈÚ¸Ö
-molten_blood_infused_iron                         (bloodarsenal:bloodarsenal.molten_blood_infused_iron)                            = Molten Blood Infused Iron
+molten_blood_infused_iron                         (bloodarsenal:bloodarsenal.molten_blood_infused_iron)                            = ÈÛÈÚ×¢ÑªÌú
 sky_stone                                         ([no block])                                                                     = ÈÛÈÚÔÉÊ¯
 starmetal                                         ([no block])                                                                     = ÈÛÈÚĞÇ»Ô
 bound_metal                                       ([no block])                                                                     = ÈÛÈÚÊø¸¿½ğÊô
@@ -47,7 +47,6 @@ osmium                                            (contenttweaker:osmium_molten)
 refined_obsidian                                  ([no block])                                                                     = ÈÛÈÚÇ¿»¯ºÚê×Ê¯
 refined_glowstone                                 ([no block])                                                                     = ÈÛÈÚÇ¿»¯Ó«Ê¯
 thaumium                                          ([no block])                                                                     = ÈÛÈÚÉñÃØ
-void_metal                                        ([no block])                                                                     = ÈÛÈÚĞé¿Õ½ğÊô
 primal_metal                                      ([no block])                                                                     = ÈÛÈÚÔª½ğ
 tin                                               (tconstruct:molten_tin)                                                          = ÈÛÈÚÎı
 aluminum                                          (tconstruct:molten_aluminum)                                                     = ÈÛÈÚÂÁ
@@ -57,7 +56,7 @@ invar                                             ([no block])                  
 constantan                                        ([no block])                                                                     = ÈÛÈÚ¿µÍ­
 signalum                                          ([no block])                                                                     = ÈÛÈÚĞÅËØ
 lumium                                            ([no block])                                                                     = ÈÛÈÚÁ÷Ã÷
-enderium                                          ([no block])                                                                     = ÈÛÈÚÄ©Ó°¶§
+enderium                                          ([no block])                                                                     = ÈÛÈÚÄ©Ó°
 boron                                             (tconstruct:molten_boron)                                                        = ÈÛÈÚÅğ
 tough                                             (nuclearcraft:fluid_tough)                                                       = ÈÛÈÚ¸ßÇ¿ºÏ½ğ
 hard_carbon                                       (nuclearcraft:fluid_hard_carbon)                                                 = ÈÛÈÚÓ²Ì¼ºÏ½ğ
