@@ -11,6 +11,12 @@ import scripts.grassUtils.RecipeUtils.createCrossWithCore;
 
 if(!isInvalid){
 
+RecipeUtils.recipeTweak(true, <tconstruct:slimesling>,[
+    [<ore:string>, <ore:blockSlime>, <ore:string>],
+    [<ore:slimeball>, null, <ore:slimeball>],
+    [null, <ore:slimeball>],
+]);
+
 RecipeUtils.recipeTweak(true, <pyrotech:mechanical_hopper>,[
     [<pyrotech:material:16>, null, <pyrotech:material:16>],
     [<ore:plankWood>, <ore:stickStone>, <ore:plankWood>],
@@ -117,6 +123,12 @@ recipes.addShaped(<minecraft:iron_shovel>, [
     [<ore:ingotConstructionAlloy>],
     [<ore:stickWood>],
     [<ore:stickWood>]
+]);
+
+recipes.addShaped(<improvedbackpacks:backpack>, [
+    [<ore:string>, <improvedbackpacks:tanned_leather>, <ore:string>],
+    [<improvedbackpacks:tanned_leather>, <pyrotech:crate>, <improvedbackpacks:tanned_leather>],
+    [<ore:string>, <improvedbackpacks:tanned_leather>, <ore:string>]
 ]);
 
 recipes.addShaped(<minecraft:iron_sword>, [
