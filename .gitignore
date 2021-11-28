@@ -48,14 +48,20 @@
 /.minecraft/config/splash.properties
 /.minecraft/config/InvTweaks/
 /.minecraft/config/InvTweaks/InvTweaks.cfg
-.minecraft/config/InvTweaks.cfg
+/.minecraft/config/InvTweaks.cfg
 /.minecraft/config/biometweaker/output
 /.minecraft/config/topography/documentation
 /.minecraft/config/topography/examples
 /.minecraft/config/topography/images
-/.minecraft/config/*.default
+/.minecraft/config/growthcraft/
+/.minecraft/config/growthcraft/bees/*.json.default
+/.minecraft/config/growthcraft/cellar/*.json.default
+/.minecraft/config/growthcraft/milk/*.json.default
 /.minecraft/config/tinker_ore_dict_melting_cache.dat
 /.minecraft/config/thaumicspeedup/cache.lock
+/.minecraft/config/ThermalTinkering/
+/.minecraft/config/ThermalTinkering/*.txt
+/.minecraft/config/jei/jei.cfg
 
 #other stuff
 !/.minecraft/patchouli_books
