@@ -40,7 +40,7 @@ RecipeBuilder.newBuilder("essentia_output", "aura_assembler", 240)
     .addItemInput(<ore:blockGlowstone>)
     .addItemInput(<ore:ingotIronCompressed>, 3)
     .addItemInput(<contenttweaker:bottled_aura> * 2)
-    .addHotAirInput(250, maxInt, 250)
+    .addHotAirInput(250, 250, maxInt)
     .addItemOutput(<thaumcraft:essentia_output>)
     .build();
 
@@ -49,7 +49,7 @@ RecipeBuilder.newBuilder("essentia_input", "aura_assembler", 240)
     .addItemInput(<ore:blockQuartz>)
     .addItemInput(<ore:ingotIronCompressed>, 3)
     .addItemInput(<contenttweaker:bottled_aura> * 2)
-    .addHotAirInput(250, maxInt, 250)
+    .addHotAirInput(250, 250, maxInt)
     .addItemOutput(<thaumcraft:essentia_input>)
     .build();
 
@@ -58,7 +58,7 @@ RecipeBuilder.newBuilder("refined_input_bus", "aura_assembler", 240)
     .addItemInput(<ore:clumpBlue>)
     .addItemInput(<ore:plateInvar>, 6)
     .addItemInput(<contenttweaker:bottled_aura> * 2)
-    .addHotAirInput(250, maxInt, 250)
+    .addHotAirInput(250, 250, maxInt)
     .addItemOutput(<modularmachinery:blockinputbus:3>)
     .build();
 
@@ -67,7 +67,7 @@ RecipeBuilder.newBuilder("refined_output_bus", "aura_assembler", 240)
     .addItemInput(<ore:clumpYellow>)
     .addItemInput(<ore:plateInvar>, 6)
     .addItemInput(<contenttweaker:bottled_aura> * 2)
-    .addHotAirInput(250, maxInt, 250)
+    .addHotAirInput(250, 250, maxInt)
     .addItemOutput(<modularmachinery:blockoutputbus:3>)
     .build();
 
@@ -76,7 +76,7 @@ RecipeBuilder.newBuilder("void_traveller_amulet", "aura_assembler", 400)
     .addItemInput(<ore:dustGlowstone>, 4)
     .addItemInput(<thaumcraft:fabric> * 1)
     .addItemInput(<contenttweaker:bottled_aura> * 2)
-    .addHotAirInput(250, maxInt, 250)
+    .addHotAirInput(250, 250, maxInt)
     .addItemOutput(<contenttweaker:void_traveler_amulet>)
     .build();
 
@@ -86,7 +86,7 @@ RecipeBuilder.newBuilder("penumbra_ring", "aura_assembler", 400)
     .addItemInput(<prodigytech:primordium> * 4)
     .addItemInput(<ore:nitor>, 4)
     .addItemInput(<contenttweaker:bottled_aura> * 8)
-    .addHotAirInput(250, maxInt, 250)
+    .addHotAirInput(250, 250, maxInt)
     .addItemOutput(<hdsutils:penumbra_ring>)
     .build();
 
@@ -114,7 +114,7 @@ for recipe in ArcaneWorkbench.getAll() {
         }
     }
     builder.addItemInput(<contenttweaker:bottled_aura> * (vis / 20 + 1))
-        .addHotAirInput(250, maxInt, 250)
+        .addHotAirInput(250, 250, maxInt)
         .addItemOutput(out)
         .build();
 }
