@@ -45,7 +45,7 @@
 		uid: "8620a200",
 		type: "item",
 		items: [{
-			item: "modulardiversity:blockhotairinputhatch"
+			item: "gugu-utils:hotairinputhatch"
 		}]
 	},
 	{

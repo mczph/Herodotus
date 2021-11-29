@@ -119,7 +119,7 @@ RecipeBuilder.get("engineer")
     [<ore:gemQuartz>, null, <ore:gemQuartz>],
     [<ore:ingotBronze>, <ore:gemQuartz>, <ore:ingotBronze>]])
   .addTool(<ore:artisansDriver>, 25)
-  .addOutput(<modulardiversity:blockhotairinputhatch>)
+  .addOutput(<gugu-utils:hotairinputhatch>)
   .create();
 
 RecipeBuilder.get("engineer")

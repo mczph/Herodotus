@@ -80,7 +80,7 @@
 		uid: "ffd1401e",
 		type: "item",
 		items: [{
-			item: "modulardiversity:blockhotairinputhatch"
+			item: "gugu-utils:hotairinputhatch"
 		}]
 	},
 	{

@@ -92,7 +92,7 @@
 		uid: "71e41f86",
 		type: "item",
 		items: [{
-			item: "modulardiversity:blockhotairinputhatch"
+			item: "gugu-utils:hotairinputhatch"
 		}]
 	},
 	{
