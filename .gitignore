@@ -62,6 +62,7 @@
 /.minecraft/config/ThermalTinkering/
 /.minecraft/config/ThermalTinkering/*.txt
 /.minecraft/config/jei/jei.cfg
+*.local
 
 #other stuff
 !/.minecraft/patchouli_books
