@@ -63,6 +63,7 @@
 /.minecraft/config/ThermalTinkering/*.txt
 /.minecraft/config/jei/jei.cfg
 *.local
+/.minecraft/config/loliasm.cfg
 
 #other stuff
 !/.minecraft/patchouli_books
