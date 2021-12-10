@@ -356,6 +356,14 @@ RecipeBuilder.get("engineer")
   .addOutput(<pneumaticcraft:thermopneumatic_processing_plant>)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <ore:lightPlateIron>, <minecraft:redstone_lamp>],
+    [null, <ore:lightPlateIron>, <ore:lightPlateIron>],
+    [<minecraft:stick>, null, null]])
+  .addOutput(<modularcontroller:machine_projector>)
+  .create();
+
 val worktableDef as IItemDefinition = <artisanworktables:worktable>.definition;
 for i in 0 .. 15 {
   if (i != 6) {

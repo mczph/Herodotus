@@ -1,0 +1,16 @@
+{
+	x: 1.25d,
+	y: 1.75d,
+	dependencies: [
+		"cdbe6fe0"
+	],
+	tasks: [{
+		uid: "f6221e58",
+		type: "item",
+		items: [{
+			item: "modularcontroller:machine_projector"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
