@@ -9,7 +9,7 @@ You would need the following softwares:
 ### Deploying
 1. Get the latest dev build in Actions, install it with MultiMC
 2. In your MultiMC, add a new `1.12.2` instance called `Herodotus`.
-3. Edit the instance, install `Forge 14.23.5.2856`.
+3. Edit the instance, install `Forge 14.23.5.2857`.
 4. Open the `Herodotus` folder inside the MultiMC instance folder, move all the folders and files inside to another unrelated temp folder(do this after you shut down MultiMC).
 5. Clone the repository to the `Herodotus` folder.
 6. Move the files you moved in Step4 back to the `Herodotus` folder, so the MultiMC could detect the instance and launch it.
@@ -38,7 +38,7 @@ Now you're ready to go, thank you for your contributing to the Herodotus Modpack
 ### 部署
 1. 在 Actions 的 dev 工作流中获取最新的构建文件, 使用 MultiMC 安装.
 2. 在 MultiMC 中, 新建一个游戏版本为 `1.12.2`, 名为 `Herodotus` 的实例.
-3. 编辑该实例, 安装 `Forge 14.23.5.2856`.
+3. 编辑该实例, 安装 `Forge 14.23.5.2857`.
 4. 打开 MultiMC 实例文件夹中的 `Herodotus` 文件夹, 将其中所有文件移动到一个与工程文件毫无关联的临时文件夹中 (请在关闭 MultiMC 后执行此步骤).
 5. 将仓库克隆到 `Herodotus` 文件夹.
 6. 将所有在第四步中转移走的文件转移回 `Herodotus` 文件夹, 这样 MultiMC 就可以检测到并启动此实例了.
