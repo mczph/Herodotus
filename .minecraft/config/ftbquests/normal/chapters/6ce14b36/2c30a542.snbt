@@ -11,10 +11,7 @@
 		uid: "2dd229b6",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "hdsutils:copper_bucket"
+			item: "hdsutils:copper_bucket"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -13,10 +13,7 @@
 		uid: "5d01f3a5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "pyrotech:crude_axe"
+			item: "pyrotech:crude_axe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -9,10 +9,7 @@
 		uid: "01ec7418",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "astralsorcery:itemjournal"
+			item: "astralsorcery:itemjournal"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

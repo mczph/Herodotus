@@ -13,17 +13,10 @@
 		uid: "36e1dace",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "advancedmortars:mortar",
-			Damage: 1s
+			item: "advancedmortars:mortar 1 1"
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "advancedmortars:mortar"
+			item: "advancedmortars:mortar"
 		}],
 		ignore_nbt: 1b
 	}]
