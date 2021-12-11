@@ -7,6 +7,8 @@ import mods.jei.JEI;
 if (!isInvalid) {
     // JEI.hideCategory("THAUMCRAFT_ARCANE_WORKBENCH");
     JEI.hideCategory("pneumaticcraft.amadron_trade");
+    JEI.addDescription(<artisanworkstumps:log_basin>, "herodotus.jei.desc.log_basin");
+    JEI.addDescription(<artisanworkstumps:stone_basin>, "herodotus.jei.desc.stone_basin");
     <minecraft:obsidian>.asBlock().definition.resistance = 8.0f;
     <minecraft:iron_pickaxe>.maxDamage = 300;
     <minecraft:iron_shovel>.maxDamage = 300;

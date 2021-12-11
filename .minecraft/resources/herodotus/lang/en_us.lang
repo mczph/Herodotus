@@ -9,6 +9,9 @@ modularmachinery.modifier.infinite_water=Replace the Corrugate Iron Machine Bloc
 
 herodotus.artisan_worktables.material.thaumium=Thaumium
 
+herodotus.jei.desc.log_basin=Right-click on any side of the Artisan's Workstump with the Log Basin in hand to suspend it next to the workstump. Any recipe requiring liquid on the Artisan's Workstump requires the liquid in the Log Basin to be consumed.
+herodotus.jei.desc.stone_basin=Right-click on any side of the Artisan's Workstump with the Stone Basin in hand to suspend it next to the workstump. Any recipe requiring liquid on the Artisan's Workstump requires the liquid in the Stone Basin to be consumed.
+
 herodotus.quests.2d037bb7.text.1=The straw blocks are made by bundling the fibers into a bundle and stacking them into a bale.
 herodotus.quests.2d037bb7.text.2=Don't expect to build anything with this, I'm not going to be that first little piggy.
 herodotus.quests.2e0bc67f.text.1=A little spark can ignite this bundle of dry wood.
