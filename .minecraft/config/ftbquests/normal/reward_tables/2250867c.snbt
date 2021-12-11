@@ -3,7 +3,8 @@
 	loot_size: 8,
 	hide_tooltip: true,
 	rewards: [{
-		item: "minecraft:cake"
+		item: "minecraft:cake",
+		count: 8
 	},
 	{
 		item: "xlfoodmod:chocolate_cake",

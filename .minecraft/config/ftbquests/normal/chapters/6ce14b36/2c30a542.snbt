@@ -19,6 +19,6 @@
 	rewards: [{
 		uid: "adcfd90e",
 		type: "random",
-		table: 0
+		table: 1
 	}]
 }
