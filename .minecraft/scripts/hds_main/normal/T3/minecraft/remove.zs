@@ -17,4 +17,8 @@ if(!isInvalid) {
     for item in removeByOutput {
         recipes.remove(item);
     }
+
+    // remove quicksilver fluid of thaumic wonders
+    recipes.removeByRecipeName("thaumicwonders:quicksilver_bucket");
+    recipes.removeByRecipeName("thaumicwonders:quicksilver_bucket_deconstruct");
 }

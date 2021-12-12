@@ -221,6 +221,14 @@ recipes.addShaped("iron_hammer_from_alloy", <pyrotech:iron_hammer>, [
     [<ore:stickWood>, null, null]
 ]);
 
+recipes.addShaped("chisel_2", <chisel:chisel_iron>, [
+    [null, <ore:ingotConstructionAlloy>],
+    [<ore:stickWood>, null]
+]);
+
+recipes.addShaped("mercury_block", <contenttweaker:mercury_block>, RecipeUtils.createFull3(<ore:ingotMercury>));
+recipes.addShaped("mercury_block_deconstruct", <thaumcraft:quicksilver> * 9, [[<contenttweaker:mercury_block>]]);
+
 recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(function(item) {
     return item.definition.owner == "prodigytech" && (item.ores.length == 0 || !item.ores[0].name.contains("Ferramic"));
 }));

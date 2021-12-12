@@ -18,4 +18,5 @@ Casting.addTableRecipe(<tconstruct:cast_custom:4>, <pyrotech:cog_bone>, <liquid:
 Casting.addTableRecipe(<tconstruct:cast_custom:4>, <pyrotech:cog_flint>, <liquid:alubrass>, 144, true, 200);
 Casting.addBasinRecipe(<ore:oreGlass>.materialPart, <minecraft:stone>, <liquid:glass>, 4000, true, 15 * 20);
 Casting.addBasinRecipe(<contenttweaker:raw_iron_block>, null, <liquid:molten_raw_iron>, 1000, false, 30 * 20);
+Casting.addTableRecipe(<thaumcraft:quicksilver>, null, <liquid:mercury>, 500, false, 20);
 }

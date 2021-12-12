@@ -33,4 +33,6 @@ allPyroCrucible("molten_iron_plate", <fluid:iron>*144, <ore:plateIron>, 30*20);
 allPyroCrucible("molten_nickel", <fluid:nickel>*144, <ore:dustNickel>, 20*20);
 allPyroCrucible("molten_nickel_ingot", <fluid:nickel>*144, <ore:ingotNickel>, 30*20);
 allPyroCrucible("molten_nickel_plate", <fluid:nickel>*144, <ore:plateNickel>, 30*20);
+
+allPyroCrucible("mercury", <fluid:mercury> * 500, <ore:ingotMercury>, 5*20);
 }

@@ -100,7 +100,7 @@ for color in crtlib.colors {
             .addTool(<ore:artisansTrowel>, 2)
             .addOutput(input3.materialPart)
             .create();
-        BrickKiln.addRecipe(shape ~ "_kiln_" ~ color, output, input3, 2.5 * 60 * 20);
+        BrickKiln.addRecipe(shape ~ "_kiln_" ~ color, output, input3, 2 * 60 * 20);
         pressurechamber.addRecipe([input4, dust, <contenttweaker:primordium_shard>], 0.0 - 0.15, [output2, <thermalfoundation:material:833>]);
         pressurechamber.addRecipe([input4 * 32, dust.materialPart * 32, <prodigytech:primordium>], 0.0 - 0.2, [output2 * 32, <thermalfoundation:material:833> * 32]);
     }
