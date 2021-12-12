@@ -34,6 +34,7 @@ item.contenttweaker.mystical_insulator.name=秘能绝缘体
 item.contenttweaker.allotrevorer.name=同构吞纳者
 item.contenttweaker.interlegere_embryo.name=同调精神
 item.contenttweaker.metatile.name=形而上之壁
+item.contenttweaker.omni_essential.name=万能源质
 
 tile.contenttweaker.altar.name=日月祭坛
 tile.contenttweaker.starlight_frame.name=星光框架
@@ -43,6 +44,7 @@ tile.contenttweaker.raw_iron_block.name=粗铁块
 tile.contenttweaker.infinite_water_upgrade_module.name=无限水升级组件
 tile.contenttweaker.punched_stone.name=打孔石材
 tile.contenttweaker.active_rune.name=活跃符文
+tile.contenttweaker.mercury_block.name=汞块
 
 fluid.molten_gel=熔融凝胶质
 fluid.limewater=石灰水
@@ -76,6 +78,7 @@ contenttweaker.part.light_plate=轻薄%s板
 contenttweaker.part.rhombus_tier_two=二级%s菱形
 contenttweaker.part.spherical_tier_two=二级%s球形
 contenttweaker.part.square_tier_two=二级%s方形
+contenttweaker.part.bioactive=%s活性材料
 
 base.material.bronze=青铜
 base.material.red=红色
@@ -116,3 +119,8 @@ base.material.potassium=钾
 base.material.iridium=铱
 base.material.osmium=锇
 base.material.glass=玻璃
+
+base.material.ferrousMetal=黑色金属
+base.material.nonFerrousMetal=有色金属
+base.material.preciousMetal=贵金属
+base.material.fractalMetal=分型金属

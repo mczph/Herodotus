@@ -9,7 +9,8 @@ import scripts.grassUtils.classes.MaterialSystemHelper.MaterialSystemHelper;
 val registerPartsArray as string[] = [
     "rhombus", "spherical", "square", "fourNuggets", "lightPlate",
     "rhombusCover", "sphericalCover", "squareCover",
-    "rhombusTierTwo", "sphericalTierTwo", "squareTierTwo"
+    "rhombusTierTwo", "sphericalTierTwo", "squareTierTwo",
+    "bioactive"
 ];
 val register as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("registerPart");
 for name in registerPartsArray{
@@ -53,26 +54,28 @@ static allPartsMap as string[][int] = {
         "clump", "flawed_gem", "large_spring", "minecart", "round",
         "ore", "purified_ore", "poor_ore", "ore_sample", "bolt",
         "ingot", "tiny_dust", "gear", "centrifuged_ore", "dense_ore",
-        "crushed_ore", "ore_rock", "fourNuggets", "lightPlate"
+        "crushed_ore", "ore_rock", "fourNuggets", "lightPlate", "bioactive"
     ],
     2 : [//gems
-        "nugget", "dirty_dust", "cluster",
-        "chipped_gem", "casing", "missing",
-        "block", "molten", "flawless_gem",
-        "small_dust", "flawed_gem", "tiny_dust", "dust"
+        "nugget", "dirty_dust", "cluster", "chipped_gem",
+        "casing", "missing", "block", "molten", "flawless_gem",
+        "small_dust", "flawed_gem", "tiny_dust", "dust", "bioactive"
     ],
     3 : [//redstone, quartz
-        "dirty_dust", "cluster", "crystal",
-        "centrifuged_ore", "ore_rock", "missing",
-        "shard", "flawed_gem", "chipped_gem", "flawless_gem",
-        "crushed_ore", "small_dust", "clump",
-        "purified_ore", "ore_sample", "tiny_dust"
+        "dirty_dust", "cluster", "crystal", "centrifuged_ore",
+        "ore_rock", "missing", "shard", "flawed_gem", "chipped_gem",
+        "flawless_gem", "crushed_ore", "small_dust", "clump",
+        "purified_ore", "ore_sample", "tiny_dust", "bioactive"
     ],
     4 : [ // only ore
         "ore"
     ],
     5 : [ // patches for quartz
         "dust", "plate", "lightPlate", "dense_plate"
+    ],
+    6 : [ // impure
+        "nugget", "block", "shard", "molten", "dust", "clump",
+        "ingot", "tiny_dust", "bioactive"
     ]
 };
 
@@ -128,6 +131,12 @@ static allMaterialMap as int[string][int] = {
     },
     5 : { // quartz
         "quartz": 0xffffff
+    },
+    6 : { // impure
+        "ferrousMetal" : 0x3399cc,
+        "nonFerrousMetal" : 0xbc936b,
+        "preciousMetal" : 0xf3ee71,
+        "fractalMetal" : 0x646a70
     }
 };
 

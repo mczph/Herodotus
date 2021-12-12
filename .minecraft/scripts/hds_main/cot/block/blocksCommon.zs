@@ -3,6 +3,9 @@
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
+import mods.contenttweaker.Color;
+import mods.contenttweaker.ResourceLocation;
+import mods.contenttweaker.IBlockColorSupplier;
 import crafttweaker.item.IItemStack;
 import scripts.hds_lib.cotlib;
 
@@ -35,3 +38,13 @@ val iwu = VanillaFactory.createBlock("infinite_water_upgrade_module", <blockmate
 iwu.fullBlock = false;
 iwu.blockLayer = "CUTOUT";
 iwu.register();
+
+var mb = VanillaFactory.createBlock("mercury_block");
+mb.textureLocation = ResourceLocation.create("base:blocks/block");
+mb.itemColorSupplier = function(item, tintIndex) {
+    return Color.fromInt(0xB7B7B7);
+};
+mb.blockColorSupplier = function(state, access, pos, tintIndex) {
+    return Color.fromInt(0xB7B7B7);
+};
+mb.register();

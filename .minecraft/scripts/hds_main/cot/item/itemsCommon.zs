@@ -20,6 +20,13 @@ brass.itemColorSupplier = function(item, tintIndex) {
 };
 brass.register();
 
+var oe = VanillaFactory.createItem("omni_essential");
+oe.textureLocation = ResourceLocation.create("base:items/dust");
+oe.itemColorSupplier = function(item, tintIndex) {
+    return Color.fromInt(0x7F2CA6);
+};
+oe.register();
+
 var arl = VanillaFactory.createItem("astral_lens");
 arl.maxStackSize = 16;
 arl.register();
