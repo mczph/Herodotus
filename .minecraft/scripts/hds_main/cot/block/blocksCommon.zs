@@ -39,7 +39,7 @@ iwu.fullBlock = false;
 iwu.blockLayer = "CUTOUT";
 iwu.register();
 
-var mb = VanillaFactory.createBlock("mercury_block");
+var mb = VanillaFactory.createBlock("mercury_block", <blockmaterial:rock>);
 mb.textureLocation = ResourceLocation.create("base:blocks/block");
 mb.itemColorSupplier = function(item, tintIndex) {
     return Color.fromInt(0xB7B7B7);

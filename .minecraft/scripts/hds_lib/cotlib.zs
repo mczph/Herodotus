@@ -73,9 +73,9 @@ static allPartsMap as string[][int] = {
     5 : [ // patches for quartz
         "dust", "plate", "lightPlate", "dense_plate"
     ],
-    6 : [ // impure
+    6 : [ // metal mixture
         "nugget", "block", "shard", "molten", "dust", "clump",
-        "ingot", "tiny_dust", "bioactive"
+        "ingot", "tiny_dust", "bioactive", "small_dust"
     ]
 };
 

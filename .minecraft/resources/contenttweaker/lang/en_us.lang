@@ -44,7 +44,7 @@ tile.contenttweaker.raw_iron_block.name=Block of Raw Iron
 tile.contenttweaker.infinite_water_upgrade_module.name=Infinite Water Upgrade Module
 tile.contenttweaker.punched_stone.name=Punched Stone
 tile.contenttweaker.active_rune.name=Active Rune
-tile.contenttweaker.mercury_block.name=Mercury Block
+tile.contenttweaker.mercury_block.name=Block of Mercury
 
 fluid.molten_gel=Molten Gel
 fluid.limewater=Lime Water
@@ -78,6 +78,7 @@ contenttweaker.part.light_plate=Light %s Plate
 contenttweaker.part.rhombus_tier_two=%s Rhombus (Tier Two)
 contenttweaker.part.spherical_tier_two=%s Spherical (Tier Two)
 contenttweaker.part.square_tier_two=%s Square (Tier Two)
+contenttweaker.part.bioactive=Bioactive %s
 
 base.material.bronze=Bronze
 base.material.red=Red
@@ -119,7 +120,7 @@ base.material.iridium=Iridium
 base.material.osmium=Osmium
 base.material.glass=Glass
 
-base.material.ferrousMetal=Ferrous Metal
-base.material.nonFerrousMetal=Non-Ferrous Metal
-base.material.preciousMetal=Precious Metal
-base.material.fractalMetal=Fractal Metal
+base.material.ferrous_metal=Ferrous Metal
+base.material.non_ferrous_metal=Non-Ferrous Metal
+base.material.precious_metal=Precious Metal
+base.material.fractal_metal=Fractal Metal
