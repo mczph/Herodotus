@@ -133,10 +133,10 @@ static allMaterialMap as int[string][int] = {
         "quartz": 0xffffff
     },
     6 : { // impure
-        "ferrousMetal" : 0x3399cc,
+        "ferrousMetal" : 0x646a70,
         "nonFerrousMetal" : 0xbc936b,
         "preciousMetal" : 0xf3ee71,
-        "fractalMetal" : 0x646a70
+        "fractalMetal" : 0x3399ff
     }
 };
 
