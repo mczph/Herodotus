@@ -110,7 +110,7 @@
   "thermaltinkering": "1.0",
   "crafttweaker": "4.1.20",
   "rftoolspower": "1.2.0",
-  "forge": "14.23.5.2858",
+  "forge": "14.23.5.2860",
   "ruins": "17.2",
   "growthcraft_fishtrap": "4.2.2",
   "phosphor-lighting": "1.12.2-0.2.7",
