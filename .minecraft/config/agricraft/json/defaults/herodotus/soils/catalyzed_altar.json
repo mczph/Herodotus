@@ -1,0 +1,18 @@
+{
+    "path": "herodotus/soils/catalyzed_altar.json",
+    "enabled": true,
+    "id": "catalyzed_altar",
+    "name": "Catalyzed Altar",
+    "varients": [
+      {
+        "item": "hdsutils:catalyzed_altar",
+        "meta": 1,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [
+          "*"
+        ],
+        "useOreDict": false
+      }
+    ]
+  }

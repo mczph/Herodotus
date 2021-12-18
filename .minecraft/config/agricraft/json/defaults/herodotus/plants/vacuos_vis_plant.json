@@ -1,0 +1,54 @@
+{
+  "path": "herodotus/plants/vacuos_vis_plant.json",
+  "enabled": true,
+  "id": "vacuos_vis_plant",
+  "plant_name": "placeholder",
+  "seed_name": "placeholder",
+  "seed_items": [
+    {
+      "item": "thaumadditions:vis_seeds",
+      "meta": 0,
+      "tags": "{Aspect: \"vacuos\"}",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "Vacuos Vis Plant"
+  },
+  "growth_chance": 0.0,
+  "growth_bonus": 0.000,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "requirement": {
+    "min_light": 7,
+    "max_light": 15,
+    "soils": [
+      "catalyzed_altar"
+    ]
+  },
+  "texture": {
+    "render_type": "hashtag",
+    "plant_textures": [
+      "thaumadditions:blocks/vis_crop/10",
+      "thaumadditions:blocks/vis_crop/20",
+      "thaumadditions:blocks/vis_crop/20",
+      "herodotus:blocks/crops/vacuos_vis_crop_3",
+      "herodotus:blocks/crops/vacuos_vis_crop_3",
+      "herodotus:blocks/crops/vacuos_vis_crop_4",
+      "herodotus:blocks/crops/vacuos_vis_crop_4",
+      "herodotus:blocks/crops/vacuos_vis_crop_5"
+    ]
+  }
+}
