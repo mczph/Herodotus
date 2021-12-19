@@ -10,9 +10,7 @@
       "meta": 0,
       "tags": "{Aspect: \"machina\"}",
       "ignoreMeta": false,
-      "ignoreTags": [
-        "*"
-      ],
+      "ignoreTags": [],
       "useOreDict": false
     }
   ],
@@ -21,7 +19,7 @@
     "default": "Machina Vis Plant"
   },
   "growth_chance": 0.0,
-  "growth_bonus": 0.000,
+  "growth_bonus": 0.0,
   "bonemeal": false,
   "tier": 1,
   "weedable": false,
@@ -31,15 +29,20 @@
   "grass_drop_chance": 0.0,
   "seed_drop_chance": 1.0,
   "seed_drop_bonus": 0.0,
+  "products": {
+    "products": []
+  },
   "requirement": {
     "min_light": 7,
     "max_light": 15,
     "soils": [
       "catalyzed_altar"
-    ]
+    ],
+    "conditions": []
   },
   "texture": {
-    "render_type": "hashtag",
+    "render_type": "hash",
+    "seed_texture": "minecraft:items/seeds_wheat",
     "plant_textures": [
       "thaumadditions:blocks/vis_crop/10",
       "thaumadditions:blocks/vis_crop/20",
