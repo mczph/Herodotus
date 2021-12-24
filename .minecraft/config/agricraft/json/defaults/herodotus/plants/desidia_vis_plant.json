@@ -1,14 +1,14 @@
 {
-  "path": "herodotus/plants/ignis_vis_plant.json",
+  "path": "herodotus/plants/desidia_vis_plant.json",
   "enabled": true,
-  "id": "ignis_vis_plant",
+  "id": "desidia_vis_plant",
   "plant_name": "placeholder",
   "seed_name": "placeholder",
   "seed_items": [
     {
       "item": "thaumadditions:vis_seeds",
       "meta": 0,
-      "tags": "{Aspect: \"ignis\"}",
+      "tags": "{Aspect: \"desidia\"}",
       "ignoreMeta": false,
       "ignoreTags": [],
       "useOreDict": false
@@ -16,10 +16,10 @@
   ],
   "description": {
     "translations": {},
-    "default": "Ignis Vis Plant"
+    "default": "Desidia Vis Plant"
   },
-  "growth_chance": 0.625,
-  "growth_bonus": 0.025,
+  "growth_chance": 0.0,
+  "growth_bonus": 0.0,
   "bonemeal": false,
   "tier": 1,
   "weedable": false,
@@ -36,7 +36,7 @@
     "min_light": 7,
     "max_light": 15,
     "soils": [
-      "farmland_soil"
+      "catalyzed_altar"
     ],
     "conditions": []
   },
@@ -47,11 +47,11 @@
       "thaumadditions:blocks/vis_crop/10",
       "thaumadditions:blocks/vis_crop/20",
       "thaumadditions:blocks/vis_crop/20",
-      "herodotus:blocks/crops/ignis_vis_crop_3",
-      "herodotus:blocks/crops/ignis_vis_crop_3",
-      "herodotus:blocks/crops/ignis_vis_crop_4",
-      "herodotus:blocks/crops/ignis_vis_crop_4",
-      "herodotus:blocks/crops/ignis_vis_crop_5"
+      "herodotus:blocks/crops/desidia_vis_crop_3",
+      "herodotus:blocks/crops/desidia_vis_crop_3",
+      "herodotus:blocks/crops/desidia_vis_crop_4",
+      "herodotus:blocks/crops/desidia_vis_crop_4",
+      "herodotus:blocks/crops/desidia_vis_crop_5"
     ]
   }
 }
