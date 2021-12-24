@@ -47,11 +47,11 @@
       "thaumadditions:blocks/vis_crop/10",
       "thaumadditions:blocks/vis_crop/20",
       "thaumadditions:blocks/vis_crop/20",
-      "herodotus:blocks/crops/potentia_vis_crop_3",
-      "herodotus:blocks/crops/potentia_vis_crop_3",
-      "herodotus:blocks/crops/potentia_vis_crop_4",
-      "herodotus:blocks/crops/potentia_vis_crop_4",
-      "herodotus:blocks/crops/potentia_vis_crop_5"
+      "herodotus:blocks/crops/potentia_crop_3",
+      "herodotus:blocks/crops/potentia_crop_3",
+      "herodotus:blocks/crops/potentia_crop_4",
+      "herodotus:blocks/crops/potentia_crop_4",
+      "herodotus:blocks/crops/potentia_crop_5"
     ]
   }
 }
