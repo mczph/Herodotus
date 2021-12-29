@@ -27,7 +27,7 @@ basicMotarRecipe(<ore:crushedOreCopper>.materialPart, <ore:crushedOreCopper>.mat
 basicMotarRecipe(<ore:dustSmallCopper>.materialPart, <ore:dustSmallCopper>.materialPart, <ore:shardCopper>);
 
 advMotarRecipe(<ore:rockLead>.materialPart, <ore:rockLead>.materialPart, <ore:squareBlue>);
-basicMotarRecipe(<ore:crushedOreLead>.materialPart, <ore:crushedOreLead>.materialPart, <ore:rockCopper>.materialPart);
+basicMotarRecipe(<ore:crushedOreLead>.materialPart, <ore:crushedOreLead>.materialPart, <ore:rockLead>.materialPart);
 
 Mortar.addRecipe(["stone", "iron", "gold", "diamond", "obsidian", "emerald"], <ore:dustLimestone>.firstItem, 2, [<pyrotech:rock:8>]);
 Mortar.addRecipe(["wood", "stone", "iron", "gold", "diamond", "obsidian", "emerald"], <prodigytech:flour>, 2, [<ore:cropWheat>]);
