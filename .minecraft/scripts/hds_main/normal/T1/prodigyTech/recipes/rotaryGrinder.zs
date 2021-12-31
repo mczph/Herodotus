@@ -7,7 +7,15 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.prodigytech.rotarygrinder;
 import scripts.hds_main.utils.modloader.isInvalid;
 
-if(!isInvalid){
+if(!isInvalid){ 
+
+rotarygrinder.removeRecipe(<ore:cobblestone>);
+
+rotarygrinder.addRecipe(<minecraft:cobblestone>, <pyrotech:rock>*8);
+rotarygrinder.addRecipe(<ore:cobblestoneGranite>, <pyrotech:rock:1>*8);
+rotarygrinder.addRecipe(<ore:cobblestoneDiorite>, <pyrotech:rock:2>*8);
+rotarygrinder.addRecipe(<ore:cobblestoneAndesite>, <pyrotech:rock:3>*8);
+rotarygrinder.addRecipe(<ore:cobblestoneLimestone>, <pyrotech:rock:8>*8);
 
 rotarygrinder.addRecipe(<ore:rockIron>, <ore:crushedOreIron>.materialPart);
 rotarygrinder.addRecipe(<ore:squareRed>.materialPart, <ore:rockIron>.materialPart);
