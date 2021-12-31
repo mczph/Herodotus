@@ -18,8 +18,8 @@
     "translations": {},
     "default": "Terra Vis Plant"
   },
-  "growth_chance": 0.0,
-  "growth_bonus": 0.0,
+  "growth_chance": 0.625,
+  "growth_bonus": 0.025,
   "bonemeal": false,
   "tier": 1,
   "weedable": false,

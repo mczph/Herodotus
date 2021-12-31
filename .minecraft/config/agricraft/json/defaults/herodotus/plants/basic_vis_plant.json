@@ -1,49 +1,49 @@
 {
-    "path": "herodotus/plants/basic_vis_plant.json",
-    "enabled": true,
-    "id": "basic_vis_plant",
-    "plant_name": "placeholder",
-    "seed_name": "placeholder",
-    "seed_items": [],
-    "description": {
-      "translations": {},
-      "default": "Basic Vis Plant"
-    },
-    "growth_chance": 0.0,
-    "growth_bonus": 0.0,
-    "bonemeal": false,
-    "tier": 1,
-    "weedable": false,
-    "aggressive": false,
-    "spread_chance": 0.1,
-    "spawn_chance": 0.0,
-    "grass_drop_chance": 0.0,
-    "seed_drop_chance": 1.0,
-    "seed_drop_bonus": 0.0,
-    "products": {
-      "products": []
-    },
-    "requirement": {
-      "min_light": 7,
-      "max_light": 15,
-      "soils": [
-        "catalyzed_altar",
-        "farmland_soil"
-      ],
-      "conditions": []
-    },
-    "texture": {
-      "render_type": "hash",
-      "seed_texture": "thaumadditions:items/vis_seeds_0",
-      "plant_textures": [
-        "thaumadditions:blocks/vis_crop/10",
-        "thaumadditions:blocks/vis_crop/20",
-        "thaumadditions:blocks/vis_crop/20",
-        "thaumadditions:blocks/vis_crop/30",
-        "thaumadditions:blocks/vis_crop/30",
-        "thaumadditions:blocks/vis_crop/40",
-        "thaumadditions:blocks/vis_crop/40",
-        "thaumadditions:blocks/vis_crop/50"
-      ]
-    }
+  "path": "herodotus/plants/basic_vis_plant.json",
+  "enabled": true,
+  "id": "herodotus_basic_vis_plant",
+  "plant_name": "placeholder",
+  "seed_name": "placeholder",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": "Basic Vis Plant"
+  },
+  "growth_chance": 0.0,
+  "growth_bonus": 0.0,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": []
+  },
+  "requirement": {
+    "min_light": 7,
+    "max_light": 15,
+    "soils": [
+      "catalyzed_altar",
+      "farmland_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "thaumadditions:items/vis_seeds_0",
+    "plant_textures": [
+      "thaumadditions:blocks/vis_crop/10",
+      "thaumadditions:blocks/vis_crop/20",
+      "thaumadditions:blocks/vis_crop/20",
+      "thaumadditions:blocks/vis_crop/30",
+      "thaumadditions:blocks/vis_crop/30",
+      "thaumadditions:blocks/vis_crop/40",
+      "thaumadditions:blocks/vis_crop/40",
+      "thaumadditions:blocks/vis_crop/50"
+    ]
   }
+}
