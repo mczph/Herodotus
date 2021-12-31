@@ -11,7 +11,7 @@ if(!isInvalid){
 
 RecipeBuilder.newBuilder("hot_air_boiler_steam", "hot_air_boiler", 10)
     .addFluidInput(<liquid:water> * 60)
-    .addHotAirInput(230, maxInt, 230)
+    .addHotAirInput(230, 230, maxInt)
     .addFluidOutput(<liquid:steam> * 600)
     .build();
 }
