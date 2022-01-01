@@ -33,7 +33,7 @@
     "products": []
   },
   "requirement": {
-    "min_light": 7,
+    "min_light": 10,
     "max_light": 15,
     "soils": [
       "catalyzed_altar"
