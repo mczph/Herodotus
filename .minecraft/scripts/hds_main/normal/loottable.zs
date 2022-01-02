@@ -30,7 +30,7 @@ val tempRemoveTables as string[] = [
 for table in tempRemoveTables {
     LootTable.removeTable(table);
 }
-/*
+
 val removeTables as string[] = []; //TODO LTMORE
 
 val removeItems as IItemStack[] = [
@@ -53,9 +53,9 @@ val removeItems as IItemStack[] = [
 
 for table in removeTables {
     for item in removeItems{
-        LootTweaker.getTable(table).getPool("main").removeEntry(temp.name);
+        LootTweaker.getTable(table).getPool("main").removeEntry(item.name);
     }
-}*/
+}
 
 /*
 val removeNames as string[] = [
@@ -74,8 +74,8 @@ for name in removeNames {
 
 for item in removeItems{
     LootTable.removeGlobalItem(item.name);
-}*/
-
+}
+*/
 
 //Add
 }
