@@ -126,4 +126,6 @@ jobs:
           sudo mv -f ${GITHUB_WORKSPACE}/runners/tinkersoredictcache.cfg ${GITHUB_WORKSPACE}/server/config
 
       - name: Run Server
-        run: sudo bash /runners/server/start.sh
+        run: |
+          mv ${GITHUB_WORKSPACE}/runners/server/start.sh ${GITHUB_WORKSPACE}/server/
+          sudo bash start.sh
