@@ -98,6 +98,14 @@ jobs:
         with:
           java-version: 1.8
 
+      - name: Install server
+        run: |
+          mkdir ${GITHUB_WORKSPACE}/server
+          wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar -O ${GITHUB_WORKSPACE}/server/forge-1.12.2-14.23.5.2860-installer.jar
+          cd ./server
+          sudo java -jar forge-1.12.2-14.23.5.2860-installer.jar --installServer
+          sudo rm forge-1.12.2-14.23.5.2860-installer.jar
+
       - name: Download Modpack Downloader CLI
         run: |
           mkdir ${GITHUB_WORKSPACE}/downloader
@@ -117,12 +125,5 @@ jobs:
           sudo mv -f ${GITHUB_WORKSPACE}/runners/thaumicjei.cfg ${GITHUB_WORKSPACE}/server/config
           sudo mv -f ${GITHUB_WORKSPACE}/runners/tinkersoredictcache.cfg ${GITHUB_WORKSPACE}/server/config
 
-      - name: Install server
-        run: |
-          cd ./server
-          wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar -O ${GITHUB_WORKSPACE}/server/forge-1.12.2-14.23.5.2860-installer.jar
-          sudo java -jar forge-1.12.2-14.23.5.2860-installer.jar --installServer
-          sudo rm forge-1.12.2-14.23.5.2860-installer.jar
-      
       - name: Run Server
         run: sudo bash /runners/server/start.sh
