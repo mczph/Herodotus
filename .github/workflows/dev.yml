@@ -91,6 +91,7 @@ jobs:
 
       - name: Setup server files
         run: |
+          mv ${GITHUB_WORKSPACE}/.minecraft/mods ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/.minecraft/config ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/.minecraft/scripts ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/.minecraft/resources ${GITHUB_WORKSPACE}/server/

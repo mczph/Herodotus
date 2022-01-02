@@ -107,6 +107,16 @@ jobs:
           sudo rm forge-1.12.2-14.23.5.2860-installer.jar
           sudo rm forge-1.12.2-14.23.5.2860-installer.jar.log
 
+      - name: Setup server files
+        run: |
+          mv ${GITHUB_WORKSPACE}/.minecraft/mods ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/.minecraft/config ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/.minecraft/scripts ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/.minecraft/resources ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/.minecraft/icon.png ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/runners/server/start.bat ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/runners/server/start.sh ${GITHUB_WORKSPACE}/server/
+
       - name: Download Modpack Downloader CLI
         run: |
           mkdir ${GITHUB_WORKSPACE}/downloader
@@ -129,4 +139,4 @@ jobs:
       - name: Run Server
         run: |
           cd ./server
-          ./${JAVA_HOME_8_X64}/bin/java -server -Xms4000M -Xmx6000M -jar forge-1.12.2-14.23.5.2860.jar nogui
+          sudo .${JAVA_HOME_8_X64}/bin/java/java.exe -server -Xms4000M -Xmx6000M -jar forge-1.12.2-14.23.5.2860.jar nogui
