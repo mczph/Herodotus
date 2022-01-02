@@ -99,5 +99,5 @@ jobs:
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }-" Server"}
+          name: ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server
           path: server
