@@ -128,4 +128,5 @@ jobs:
       - name: Run Server
         run: |
           mv ${GITHUB_WORKSPACE}/runners/server/start.sh ${GITHUB_WORKSPACE}/server/
+          cd ./server
           sudo bash start.sh
