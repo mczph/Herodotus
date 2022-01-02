@@ -80,10 +80,13 @@ jobs:
       - name: Run version.py
         run: python runners/version.py
 
-      - name: Download server installer
+      - uses: actions/checkout@v2
+      - name: Install server
         run: |
           mkdir ${GITHUB_WORKSPACE}/server
           wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar -O ${GITHUB_WORKSPACE}/server/forge-1.12.2-14.23.5.2860-installer.jar
+          java -jar forge-1.12.2-14.23.5.2860-installer.jar --installServer
+          rm forge-1.12.2-14.23.5.2860-installer.jar
 
       - name: Setup server files
         run: |
@@ -91,8 +94,8 @@ jobs:
           mv ${GITHUB_WORKSPACE}/.minecraft/scripts ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/.minecraft/resources ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/.minecraft/icon.png ${GITHUB_WORKSPACE}/server/
-          mv ${GITHUB_WORKSPACE}/runners/server/*.bat ${GITHUB_WORKSPACE}/server/
-          mv ${GITHUB_WORKSPACE}/runners/server/*.sh ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/runners/server/start.bat ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/runners/server/start.sh ${GITHUB_WORKSPACE}/server/
 
       - name: Download Modpack Downloader CLI
         run: |
@@ -107,3 +110,5 @@ jobs:
         with:
           name: ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server
           path: server
+
+ 
