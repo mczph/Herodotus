@@ -27,3 +27,27 @@ f.close()
 f = open(".minecraft/config/versioner.cfg", "w", encoding="utf-8")
 f.writelines(f_list)
 f.close()
+
+f = open("runners/server/start.bat", "r", encoding="utf-8")
+f_list = f.readlines()
+for i, line in enumerate(f_list):
+    if (line.lstrip().startswith("echo Starting Herodotus ")):
+        f_list[i] = "echo Starting Herodotus build " + version + "server..."
+    if (line.lstrip().startswith("title \"Herodotus\"")):
+        f_list[i] = "title \"Herodotus\" build " + version + "Server"
+f.close()
+
+f = open("runners/server/start.bat", "w", encoding="utf-8")
+f.writelines(f_list)
+f.close()
+
+f = open("runners/server/start.sh", "r", encoding="utf-8")
+f_list = f.readlines()
+for i, line in enumerate(f_list):
+    if (line.lstrip().startswith("echo \"Starting Herodotus ")):
+        f_list[i] = "echo \"Starting Herodotus build " + version + "server..."
+f.close()
+
+f = open("runners/server/start.sh", "w", encoding="utf-8")
+f.writelines(f_list)
+f.close()
