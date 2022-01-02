@@ -88,7 +88,6 @@ jobs:
           wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar -O ${GITHUB_WORKSPACE}/server/forge-1.12.2-14.23.5.2860-installer.jar
           cp -rf ${GITHUB_WORKSPACE}/.minecraft/config ${GITHUB_WORKSPACE}/server/
           cp -rf ${GITHUB_WORKSPACE}/.minecraft/scripts ${GITHUB_WORKSPACE}/server/
-          cp -rf ${GITHUB_WORKSPACE}/.minecraft/patchouli_books ${GITHUB_WORKSPACE}/server/
           cp -rf ${GITHUB_WORKSPACE}/.minecraft/resources ${GITHUB_WORKSPACE}/server/
           cp ${GITHUB_WORKSPACE}/.minecraft/icon.png ${GITHUB_WORKSPACE}/server/
           cp ${GITHUB_WORKSPACE}/runners/server{start.bat, start.sh, install.bat, install.sh} ${GITHUB_WORKSPACE}/server/
