@@ -90,7 +90,8 @@ jobs:
           cp -rf ${GITHUB_WORKSPACE}/.minecraft/scripts ${GITHUB_WORKSPACE}/server/
           cp -rf ${GITHUB_WORKSPACE}/.minecraft/resources ${GITHUB_WORKSPACE}/server/
           cp ${GITHUB_WORKSPACE}/.minecraft/icon.png ${GITHUB_WORKSPACE}/server/
-          cp ${GITHUB_WORKSPACE}/runners/server{start.bat, start.sh, install.bat, install.sh} ${GITHUB_WORKSPACE}/server/
+          cp ${GITHUB_WORKSPACE}/runners/server/*.bat ${GITHUB_WORKSPACE}/server/
+          cp ${GITHUB_WORKSPACE}/runners/server/*.sh ${GITHUB_WORKSPACE}/server/
 
       - uses: actions/checkout@v2
       - name: Download Modpack Downloader CLI
