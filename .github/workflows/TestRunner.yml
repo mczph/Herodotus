@@ -127,7 +127,4 @@ jobs:
           sudo mv -f ${GITHUB_WORKSPACE}/runners/tinkersoredictcache.cfg ${GITHUB_WORKSPACE}/server/config
 
       - name: Run Server
-        run: |
-          mv ${GITHUB_WORKSPACE}/runners/server/start.sh ${GITHUB_WORKSPACE}/server/
-          cd ./server
-          sudo bash start.sh
+        run: ./${JAVA_HOME_8_X64}/bin/java -server -Xms4000M -Xmx6000M -jar forge-1.12.2-14.23.5.2860.jar nogui
