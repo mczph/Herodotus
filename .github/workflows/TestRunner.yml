@@ -105,6 +105,7 @@ jobs:
           cd ./server
           sudo java -jar forge-1.12.2-14.23.5.2860-installer.jar --installServer
           sudo rm forge-1.12.2-14.23.5.2860-installer.jar
+          sudo rm forge-1.12.2-14.23.5.2860-installer.jar.log
 
       - name: Download Modpack Downloader CLI
         run: |

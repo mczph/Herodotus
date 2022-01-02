@@ -32,9 +32,9 @@ f = open("runners/server/start.bat", "r", encoding="utf-8")
 f_list = f.readlines()
 for i, line in enumerate(f_list):
     if (line.lstrip().startswith("echo Starting Herodotus ")):
-        f_list[i] = "echo Starting Herodotus build " + version + "server..."
+        f_list[i] = "echo Starting Herodotus build " + version + " server...\n"
     if (line.lstrip().startswith("title \"Herodotus\"")):
-        f_list[i] = "title \"Herodotus\" build " + version + "Server"
+        f_list[i] = "title \"Herodotus build " + version + " Server\"\n"
 f.close()
 
 f = open("runners/server/start.bat", "w", encoding="utf-8")
@@ -45,7 +45,7 @@ f = open("runners/server/start.sh", "r", encoding="utf-8")
 f_list = f.readlines()
 for i, line in enumerate(f_list):
     if (line.lstrip().startswith("echo \"Starting Herodotus ")):
-        f_list[i] = "echo \"Starting Herodotus build " + version + "server..."
+        f_list[i] = "echo \"Starting Herodotus build " + version + " server...\"\n"
 f.close()
 
 f = open("runners/server/start.sh", "w", encoding="utf-8")
