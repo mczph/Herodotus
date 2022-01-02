@@ -135,5 +135,6 @@ jobs:
 
       - name: Run Server
         run: |
+          sudo mv -f ${GITHUB_WORKSPACE}/runners/server/eula.txt ${GITHUB_WORKSPACE}/server/
           cd ./server
           sudo ${JAVA_HOME_8_X64}/bin/java -server -Xms4000M -Xmx6000M -jar forge-1.12.2-14.23.5.2860.jar nogui
