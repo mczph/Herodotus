@@ -119,9 +119,10 @@ jobs:
 
       - name: Install server
         run: |
-          wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar -O ${GITHUB_WORKSPACE}/server/forge-1.12.2-14.23.5.2860-installer.jar
           cd ./server
+          wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar -O ${GITHUB_WORKSPACE}/server/forge-1.12.2-14.23.5.2860-installer.jar
           sudo java -jar forge-1.12.2-14.23.5.2860-installer.jar --installServer
+          sudo rm forge-1.12.2-14.23.5.2860-installer.jar
       
       - name: Run Server
         run: sudo bash /runners/server/start.sh
