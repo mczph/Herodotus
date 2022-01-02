@@ -90,9 +90,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setup server files
         run: |
-          mv ${GITHUB_WORKSPACE}/.minecraft/config ${GITHUB_WORKSPACE}/server/config
-          mv ${GITHUB_WORKSPACE}/.minecraft/scripts ${GITHUB_WORKSPACE}/server/scripts
-          mv ${GITHUB_WORKSPACE}/.minecraft/resources ${GITHUB_WORKSPACE}/server/resources
+          mv ${GITHUB_WORKSPACE}/.minecraft/config ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/.minecraft/scripts ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/.minecraft/resources ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/.minecraft/icon.png ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/runners/server/*.bat ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/runners/server/*.sh ${GITHUB_WORKSPACE}/server/
