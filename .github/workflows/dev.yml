@@ -82,10 +82,14 @@ jobs:
         run: python runners/version.py
 
       - uses: actions/checkout@v2
-      - name: Setup server files
+      - name: Download server installer
         run: |
           mkdir ${GITHUB_WORKSPACE}/server
           wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar -O ${GITHUB_WORKSPACE}/server/forge-1.12.2-14.23.5.2860-installer.jar
+
+      - uses: actions/checkout@v2
+      - name: Setup server files
+        run: |
           mv ${GITHUB_WORKSPACE}/.minecraft/config ${GITHUB_WORKSPACE}/server/config
           mv ${GITHUB_WORKSPACE}/.minecraft/scripts ${GITHUB_WORKSPACE}/server/scripts
           mv ${GITHUB_WORKSPACE}/.minecraft/resources ${GITHUB_WORKSPACE}/server/resources
