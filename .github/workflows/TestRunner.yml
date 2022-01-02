@@ -125,9 +125,6 @@ jobs:
       - name: Download Mods
         run: sudo ${JAVA_HOME_11_X64}/bin/java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/manifest.json -folder ${GITHUB_WORKSPACE}/server/mods
 
-      - name: Enable Hard fail Script
-        run: sudo mv ${GITHUB_WORKSPACE}/.minecraft/scripts/hardfail.zs.disabled ${GITHUB_WORKSPACE}/.minecraft/scripts/hardfail.zs
-
       - name: Install Autostop
         run: sudo mv ${GITHUB_WORKSPACE}/runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/server/mods
 
