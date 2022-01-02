@@ -7,6 +7,7 @@ on:
 
 jobs:
   TestRunner:
+    if: "!endsWith(github.event.head_commit.message, 'NORUNNER')"
     runs-on: ubuntu-latest
     steps:
       - name: Cancel Previous Runs

@@ -32,6 +32,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACTION_TOKEN }}
 
   CreateCursePack:
+    if: "!endsWith(github.event.head_commit.message, 'NOCLIENT')"
     runs-on: ubuntu-latest
     needs: FTBQuestsProcessor
     steps:
@@ -56,8 +57,9 @@ jobs:
         with:
           name: ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}
           path: artifacts
-  
+
   CreateServerPack:
+    if: "!endsWith(github.event.head_commit.message, 'NOSERVER')"
     runs-on: ubuntu-latest
     needs: FTBQuestsProcessor
     steps:
@@ -84,12 +86,12 @@ jobs:
         run: |
           mkdir ${GITHUB_WORKSPACE}/server
           wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar -O ${GITHUB_WORKSPACE}/server/forge-1.12.2-14.23.5.2860-installer.jar
-          cp -rf ~${GITHUB_WORKSPACE}/.minecraft/config ~${GITHUB_WORKSPACE}/server/
-          cp -rf ~${GITHUB_WORKSPACE}/.minecraft/scripts ~${GITHUB_WORKSPACE}/server/
-          cp -rf ~${GITHUB_WORKSPACE}/.minecraft/patchouli_books ~${GITHUB_WORKSPACE}/server/
-          cp -rf ~${GITHUB_WORKSPACE}/.minecraft/resources ~${GITHUB_WORKSPACE}/server/
-          cp ~${GITHUB_WORKSPACE}/.minecraft/icon.png ~${GITHUB_WORKSPACE}/server/
-          cp ~${GITHUB_WORKSPACE}/runners/server{start.bat, start.sh, install.bat, install.sh} ~${GITHUB_WORKSPACE}/server/
+          cp -rf ${GITHUB_WORKSPACE}/.minecraft/config ${GITHUB_WORKSPACE}/server/
+          cp -rf ${GITHUB_WORKSPACE}/.minecraft/scripts ${GITHUB_WORKSPACE}/server/
+          cp -rf ${GITHUB_WORKSPACE}/.minecraft/patchouli_books ${GITHUB_WORKSPACE}/server/
+          cp -rf ${GITHUB_WORKSPACE}/.minecraft/resources ${GITHUB_WORKSPACE}/server/
+          cp ${GITHUB_WORKSPACE}/.minecraft/icon.png ${GITHUB_WORKSPACE}/server/
+          cp ${GITHUB_WORKSPACE}/runners/server{start.bat, start.sh, install.bat, install.sh} ${GITHUB_WORKSPACE}/server/
 
       - uses: actions/checkout@v2
       - name: Download Modpack Downloader CLI
