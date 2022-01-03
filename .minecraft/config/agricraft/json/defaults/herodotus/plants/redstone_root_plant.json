@@ -1,0 +1,62 @@
+{
+    "path": "herodotus/plants/redstone_root_plant.json",
+    "enabled": true,
+    "id": "herodotus_redstone_root",
+    "plant_name": "placeholder",
+    "seed_name": "placeholder",
+    "seed_items": [],
+    "description": {
+      "translations": {},
+      "default": "Redstone Root Plant"
+    },
+    "growth_chance": 0.8,
+    "growth_bonus": 0.025,
+    "bonemeal": false,
+    "tier": 1,
+    "weedable": false,
+    "aggressive": false,
+    "spread_chance": 0.1,
+    "spawn_chance": 0.0,
+    "grass_drop_chance": 0.0,
+    "seed_drop_chance": 0.0,
+    "seed_drop_bonus": 0.0,
+    "products": {
+        "products": [
+          {
+            "min": 1,
+            "max": 1,
+            "chance": 0.4,
+            "required": true,
+            "item": "botania:manaresource",
+            "meta": 6,
+            "tags": "",
+            "ignoreMeta": false,
+            "ignoreTags": [],
+            "useOreDict": false
+          }
+        ]
+      },
+    "requirement": {
+      "min_light": 7,
+      "max_light": 15,
+      "soils": [
+        "redstone_block"
+      ],
+      "conditions": []
+    },
+    "texture": {
+        "render_type": "hash",
+        "seed_texture": "agricraft:items/seed_redstodendron",
+        "plant_textures": [
+          "agricraft:blocks/crop_redstodendron1",
+          "agricraft:blocks/crop_redstodendron1",
+          "agricraft:blocks/crop_redstodendron1",
+          "agricraft:blocks/crop_redstodendron2",
+          "agricraft:blocks/crop_redstodendron2",
+          "agricraft:blocks/crop_redstodendron3",
+          "agricraft:blocks/crop_redstodendron3",
+          "agricraft:blocks/crop_redstodendron4"
+        ]
+      }
+  }
+  
