@@ -171,4 +171,14 @@ RecipeBuilder.get("mage")
   .setFluid(<liquid:mercury> * 2000)
   .addOutput(<thaumcraft:sanity_checker>)
   .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <thaumcraft:mechanism_simple>, null],
+    [<thaumcraft:morphic_resonator>, <thaumcraft:metal_alchemical>, <thaumcraft:morphic_resonator>],
+    [<thaumicaugmentation:fortified_glass>, <thaumicaugmentation:material:5>, <thaumicaugmentation:fortified_glass>]])
+  .setFluid(<liquid:mercury> * 1000)
+  .addTool(<ore:artisansHammer>, 100)
+  .addOutput(<hdsutils:primordial_charger>)
+  .create();
 }

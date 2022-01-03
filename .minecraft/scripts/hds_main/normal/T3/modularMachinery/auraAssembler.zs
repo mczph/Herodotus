@@ -35,6 +35,14 @@ function countIngredients(inputs as IIngredient[]) as int[IIngredient] {
 
 if(!isInvalid){
 
+RecipeBuilder.newBuilder("basic_aspect_seed", "aura_assembler", 240)
+    .addItemInput(<ore:seedWheat>)
+    .addItemInput(<prodigytech:primordium>)
+    .addItemInput(<contenttweaker:bottled_aura> * 3)
+    .addHotAirInput(250, 250, maxInt)
+    .addItemOutput(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "herodotus_basic_vis_plant", agri_growth: 1 as byte}))
+    .build();
+
 RecipeBuilder.newBuilder("essentia_output", "aura_assembler", 240)
     .addItemInput(<ore:plateBrass>, 2)
     .addItemInput(<ore:blockGlowstone>)

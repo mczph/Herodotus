@@ -10,7 +10,8 @@ import scripts.hds_main.utils.modloader.isInvalid;
 val removeByOutput as IItemStack[] = [
     <thaumadditions:brass_plated_silverwood>,
     <bloodmagic:blood_rune>,
-    <bloodmagic:altar>
+    <bloodmagic:altar>,
+    <botania:manaresource:6>
 ];
 
 if(!isInvalid) {

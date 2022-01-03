@@ -10,4 +10,5 @@ atomicreshaper.removeAll();
 
 atomicreshaper.addRecipe(<minecraft:cauldron>, <botania:altar>, 200);
 atomicreshaper.addRecipe(<contenttweaker:raw_iron_block>, <ore:dustTinyIron>.materialPart * 64, 30, 750);
+atomicreshaper.addRecipe(<ore:dirt>, <pyrotech:farmland_mulched>, 20);
 }

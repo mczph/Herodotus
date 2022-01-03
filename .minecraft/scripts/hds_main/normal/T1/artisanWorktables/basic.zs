@@ -10,6 +10,15 @@ if(!isInvalid){
 
 //other workstumps
 RecipeBuilder.get("basic")
+  .setShaped([
+    [<improvedbackpacks:tanned_leather>, null, <improvedbackpacks:tanned_leather>],
+    [<ore:plankWood>, <pyrotech:worktable>, <ore:plankWood>],
+    [<ore:logWood>, <pyrotech:stash>, <ore:logWood>]])
+  .addTool(<ore:artisansFramingHammer>, 75)
+  .addOutput(<artisanworkstumps:workstump_potter>)
+  .create();
+
+RecipeBuilder.get("basic")
     .setShaped([
 	    [<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>],
 	    [<ore:plankWood>, <pyrotech:worktable>, <ore:plankWood>],

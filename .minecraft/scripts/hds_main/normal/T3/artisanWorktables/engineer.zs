@@ -102,4 +102,64 @@ RecipeBuilder.get("engineer")
   .addOutput(<modularcontroller:aura_assembler_controller>)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<thaumcraft:plate>, <thaumcraft:jar_brace>, <thaumcraft:plate>],
+    [<thaumicaugmentation:fortified_glass_pane>, <thaumicaugmentation:glass_tube>, <thaumicaugmentation:fortified_glass_pane>],
+    [<thaumcraft:plate>, <thaumcraft:jar_brace>, <thaumcraft:plate>]])
+  .setFluid(<liquid:unstable_aura> * 250)
+  .addTool(<ore:artisansSpanner>, 50)
+  .addOutput(<hdsutils:right_angle_tunnel>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<bloodmagic:slate>, <thaumcraft:essentia_input>, <bloodmagic:slate>],
+    [<thaumicaugmentation:fortified_glass_pane>, <thaumcraft:mechanism_simple>, <thaumicaugmentation:fortified_glass_pane>],
+    [<thaumicaugmentation:fortified_glass_pane>, <thaumcraft:jar_brace>, <thaumicaugmentation:fortified_glass_pane>]])
+  .setFluid(<liquid:unstable_aura> * 250)
+  .addTool(<ore:artisansSpanner>, 50)
+  .addOutput(<hdsutils:alchemy_output_hatch>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<thaumicaugmentation:fortified_glass_pane>, <thaumcraft:jar_brace>, <thaumicaugmentation:fortified_glass_pane>],
+    [<thaumicaugmentation:fortified_glass_pane>, <thaumcraft:mechanism_simple>, <thaumicaugmentation:fortified_glass_pane>],
+    [<bloodmagic:slate>, <thaumcraft:essentia_output>, <bloodmagic:slate>]])
+  .setFluid(<liquid:unstable_aura> * 250)
+  .addTool(<ore:artisansSpanner>, 50)
+  .addOutput(<hdsutils:alchemy_input_hatch>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <thaumicaugmentation:fortified_glass_pane>, null],
+    [<thaumcraft:mechanism_simple>, <ore:plateSilver>, <thaumcraft:mechanism_simple>],
+    [<thaumcraft:stone_arcane>, <ore:plateThaumium>, <thaumcraft:stone_arcane>]])
+  .setFluid(<liquid:taint_nutrition> * 4000)
+  .addTool(<ore:artisansSpanner>, 100)
+  .addOutput(<hdsutils:alchemy_controller>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<thaumicaugmentation:material:1>, <thaumcraft:jar_brace>, <thaumicaugmentation:material:1>],
+    [<thaumcraft:mechanism_simple>, <thaumadditions:aspect_combiner>, <thaumcraft:mechanism_simple>],
+    [<thaumcraft:stone_arcane>, <factorytech:machinepart:61>, <thaumcraft:stone_arcane>]])
+  .setFluid(<liquid:taint_nutrition> * 4000)
+  .addTool(<ore:artisansSpanner>, 100)
+  .addOutput(<hdsutils:alchemy_crafter>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <thaumcraft:vis_resonator>, null],
+    [<ore:rodGold>, <thaumcraft:seal>, <ore:rodGold>],
+    [null, <ore:plateThaumium>, null]])
+  .addTool(<contenttweaker:hot_air_solderer>, 100)
+  .addOutput(<thaumicaugmentation:material:1> * 3)
+  .create();
+
+
 }
