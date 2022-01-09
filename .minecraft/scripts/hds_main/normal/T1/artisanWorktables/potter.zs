@@ -11,7 +11,7 @@ if(!isInvalid){
 RecipeBuilder.get("potter")
   .setShapeless([<ore:clay>, <ore:ingotMercury>, <ore:dustLead>, <ore:nitor>])
   .setFluid(<liquid:lifeessence> * 1000)
-  .addTool(<ore:artisansToolWood>, 20)
+  .addTool(<ore:artisansCarver>, 20)
   .addOutput(<thaumcraft:seal>)
   .create();
 

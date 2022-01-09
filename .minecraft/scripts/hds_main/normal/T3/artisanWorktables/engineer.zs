@@ -108,8 +108,8 @@ RecipeBuilder.get("engineer")
     [<thaumicaugmentation:fortified_glass_pane>, <thaumicaugmentation:glass_tube>, <thaumicaugmentation:fortified_glass_pane>],
     [<thaumcraft:plate>, <thaumcraft:jar_brace>, <thaumcraft:plate>]])
   .setFluid(<liquid:unstable_aura> * 250)
-  .addTool(<ore:artisansSpanner>, 50)
-  .addOutput(<hdsutils:right_angle_tunnel>)
+  .addTool(<ore:artisansSpanner>, 25)
+  .addOutput(<hdsutils:straight_tunnel> * 6)
   .create();
 
 RecipeBuilder.get("engineer")
