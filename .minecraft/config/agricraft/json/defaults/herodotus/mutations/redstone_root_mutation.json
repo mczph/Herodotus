@@ -1,0 +1,8 @@
+{
+  "path": "herodotus/mutations/redstone_root_mutation.json",
+  "enabled": true,
+  "chance": 0.8,
+  "child": "herodotus_redstone_root_plant",
+  "parent1": "vanilla:wheat_plant",
+  "parent2": "vanilla:wheat_plant"
+}

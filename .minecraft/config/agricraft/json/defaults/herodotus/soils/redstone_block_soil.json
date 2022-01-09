@@ -1,19 +1,18 @@
 {
-    "path": "herodotus/soils/redstone_block_soil.json",
-    "enabled": true,
-    "id": "redstone_block",
-    "name": "Redstone Block",
-    "varients": [
-      {
-        "item": "minecraft:redstone_block",
-        "meta": 1,
-        "tags": "",
-        "ignoreMeta": true,
-        "ignoreTags": [
-          "*"
-        ],
-        "useOreDict": true
-      }
-    ]
-  }
-  
+  "path": "herodotus/soils/redstone_block_soil.json",
+  "enabled": true,
+  "id": "redstone_block",
+  "name": "Redstone Block",
+  "varients": [
+    {
+      "item": "minecraft:redstone_block",
+      "meta": 1,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}
