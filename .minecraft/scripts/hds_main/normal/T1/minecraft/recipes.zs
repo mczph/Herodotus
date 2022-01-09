@@ -1,5 +1,4 @@
 #packmode normal
-#no_fix_recipe_book
 #priority -1
 
 import crafttweaker.item.IItemStack;
