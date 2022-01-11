@@ -19,8 +19,7 @@ if (!isInvalid) {
     for aspect in crtlib.allAspectCTAspectStack {
         var name as string = aspect.internal.name.toLowerCase();
         Crucible.removeRecipe(crtlib.tcSeedGetter(name));
-        // FIXME: It doesn't work! Change basic vis seed to an independent item 
-        Crucible.registerRecipe(name ~ "_vis_seed", "", crtlib.tcSeedGetter(name), <agricraft:agri_seed>.withTag({agri_seed: "herodotus_basic_vis_plant"}), [
+        Crucible.registerRecipe(name ~ "_vis_seed", "", crtlib.tcSeedGetter(name), <contenttweaker:basic_vis_seed>, [
             aspect * 20,
             <aspect:herba> * 10
         ]);

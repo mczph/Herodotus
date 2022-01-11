@@ -31,6 +31,10 @@ var arl = VanillaFactory.createItem("astral_lens");
 arl.maxStackSize = 16;
 arl.register();
 
+var seed = VanillaFactory.createItem("basic_vis_seed");
+seed.textureLocation = ResourceLocation.create("thaumadditions:items/vis_seeds_0");
+seed.register();
+
 for id in plainItemIDs {
     CotUtils.addNormalItem(id);
 }

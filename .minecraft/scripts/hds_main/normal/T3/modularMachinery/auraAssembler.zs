@@ -40,7 +40,7 @@ RecipeBuilder.newBuilder("basic_aspect_seed", "aura_assembler", 240)
     .addItemInput(<prodigytech:primordium>)
     .addItemInput(<contenttweaker:bottled_aura> * 3)
     .addHotAirInput(250, 250, maxInt)
-    .addItemOutput(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "herodotus_basic_vis_plant", agri_growth: 1 as byte}))
+    .addItemOutput(<contenttweaker:basic_vis_seed>)
     .build();
 
 RecipeBuilder.newBuilder("essentia_output", "aura_assembler", 240)
