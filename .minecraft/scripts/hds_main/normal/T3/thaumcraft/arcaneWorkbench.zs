@@ -42,7 +42,13 @@ static toRemove as [IItemStack] = [
     <thaumicwonders:flux_distiller>,
     <thaumicwonders:primordial_accelerator_tunnel>,
     <thaumicwonders:primordial_accelerator_terminus>,
-    <thaumadditions:jar_eldritch>
+    <thaumadditions:jar_eldritch>,
+    <thaumcraft:smelter_basic>,
+    <thaumcraft:smelter_thaumium>,
+    <thaumcraft:smelter_void>,
+    <thaumadditions:mithrillium_smelter>,
+    <thaumadditions:adaminite_smelter>,
+    <thaumadditions:mithminite_smelter>
 ];
 
 
