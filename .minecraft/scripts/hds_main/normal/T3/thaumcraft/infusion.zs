@@ -33,7 +33,8 @@ val removeList as IItemStack[] = [
     <thaumadditions:mithrillium_ingot>,
     <thaumadditions:void_elemental_hoe>,
     <thaumicaugmentation:rift_mover_output>,
-    <thaumadditions:aspect_combiner>
+    <thaumadditions:aspect_combiner>,
+    <thaumcraft:causality_collapser>
 
 ];
 
