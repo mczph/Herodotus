@@ -12,7 +12,7 @@ RecipeBuilder.get("mason")
     [<contenttweaker:resurrected_meat>, <pyrotech:farmland_mulched>, <contenttweaker:resurrected_meat>],
     [<ore:plateThaumium>, <ore:redstoneRoot>, <ore:plateThaumium>],
     [<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>]])
-  .setFluid(<liquid:lifeessence> * 4000)
+  .setFluid(<liquid:lifeessence> * 1000)
   .addTool(<ore:artisansHammer>, 75)
   .addOutput(<hdsutils:catalyzed_altar>)
   .create();
