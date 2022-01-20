@@ -11,7 +11,8 @@ val removeByOutput as IItemStack[] = [
     <thaumadditions:brass_plated_silverwood>,
     <bloodmagic:blood_rune>,
     <bloodmagic:altar>,
-    <botania:manaresource:6>
+    <botania:manaresource:6>,
+    <thaumcraft:stone_arcane>
 ];
 
 if(!isInvalid) {

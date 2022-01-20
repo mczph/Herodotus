@@ -58,9 +58,16 @@ RecipeBuilder.newBuilder("metal_alchemical", "aspect_blast_furnace", 240)
     .addItemOutput(<thaumcraft:metal_alchemical>)
     .build();
 
-for aspect in basicAspects {
+RecipeBuilder.newBuilder("stone_arcane", "aspect_blast_furnace", 120)
+    .addHotAirInput(250, 250, maxInt)
+    .addItemInput(<ore:stone>)
+    .addAspectInput("ordo", 10)
+    .addItemOutput(<thaumcraft:stone_arcane>)
+    .build();
+
+for i, aspect in basicAspects {
     val name as string = aspect.internal.name.toLowerCase();
-    RecipeBuilder.newBuilder("salt_essence_" ~ name, "aspect_blast_furnace", 30)
+    RecipeBuilder.newBuilder("salt_essence_" ~ name, "aspect_blast_furnace", 30, 10 - i)
         .addHotAirInput(120, 120, maxInt)
         .addItemInput(<ore:foodSalt>)
         .addAspectInput(name, 1)

@@ -11,7 +11,7 @@ RecipeBuilder.get("mason")
   .setShaped([
     [<contenttweaker:resurrected_meat>, <pyrotech:farmland_mulched>, <contenttweaker:resurrected_meat>],
     [<ore:plateThaumium>, <ore:redstoneRoot>, <ore:plateThaumium>],
-    [<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>]])
+    [<bloodmagic:slate>, <bloodmagic:blood_rune>, <bloodmagic:slate>]])
   .setFluid(<liquid:lifeessence> * 1000)
   .addTool(<ore:artisansHammer>, 75)
   .addOutput(<hdsutils:catalyzed_altar>)

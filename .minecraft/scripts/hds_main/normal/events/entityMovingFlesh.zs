@@ -11,7 +11,7 @@ import crafttweaker.event.EntityLivingDeathEvent;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 static levelMap as int[][int] = {
-	1 : [1, 5], 2 : [5, 15], 3 : [20, 30], 4 :[50, 70]
+	1 : [1, 5], 2 : [5, 15], 3 : [20, 40], 4 :[50, 70]
 };
 
 if(!isInvalid) {
