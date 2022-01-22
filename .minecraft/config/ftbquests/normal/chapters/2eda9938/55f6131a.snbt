@@ -12,9 +12,7 @@
 		"{herodotus.quests.55f6131a.text.1}"
 	],
 	dependencies: [
-		"75dea0ce",
-		"2d90bfa2",
-		"f8989a37"
+		"2d90bfa2"
 	],
 	tasks: [{
 		uid: "274c27c7",

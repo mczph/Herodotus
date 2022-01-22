@@ -9,16 +9,16 @@
 		uid: "15ba7459",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotNickel",
+					id: "ore"
+				}
+			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotNickel"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "ingotNickel"
 				}
 			}
 		}]

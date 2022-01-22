@@ -45,6 +45,7 @@
   },
   "texture": {
     "render_type": "hash",
+    "seed_texture": "minecraft:items/seeds_wheat",
     "plant_textures": [
       "thaumadditions:blocks/vis_crop/10",
       "thaumadditions:blocks/vis_crop/20",
