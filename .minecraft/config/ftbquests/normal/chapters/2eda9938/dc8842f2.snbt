@@ -12,48 +12,48 @@
 			Damage: 1s,
 			tag: {
 				textureBlock: {
-					id: "{herodotus.quests.dc8842f2.text.1}",
-					Count: 1b,"{herodotus.quests.dc8842f2.text.2}"					Count: 1b,
-					Damage: 0s"{herodotus.quests.dc8842f2.text.3}"					Damage: 0s
-				}"{herodotus.quests.dc8842f2.text.4}"				}
-			}"{herodotus.quests.dc8842f2.text.5}"			}
-		}],"{herodotus.quests.dc8842f2.text.6}"		}],
-		ignore_nbt: 1b"{herodotus.quests.dc8842f2.text.7}"		ignore_nbt: 1b
-	},"{herodotus.quests.dc8842f2.text.8}"	},
-	{"{herodotus.quests.dc8842f2.text.9}"	{
-		uid: "{herodotus.quests.dc8842f2.text.10}",
-		type: "{herodotus.quests.dc8842f2.text.11}",
-		items: [{"{herodotus.quests.dc8842f2.text.12}"		items: [{
-			id: "{herodotus.quests.dc8842f2.text.13}",
-			Damage: 2s,"{herodotus.quests.dc8842f2.text.14}"			Damage: 2s,
-			tag: {"{herodotus.quests.dc8842f2.text.15}"			tag: {
-				textureBlock: {"{herodotus.quests.dc8842f2.text.16}"				textureBlock: {
-					id: "{herodotus.quests.dc8842f2.text.17}",
-					Count: 1b,"{herodotus.quests.dc8842f2.text.18}"					Count: 1b,
-					Damage: 0s"{herodotus.quests.dc8842f2.text.19}"					Damage: 0s
-				}"{herodotus.quests.dc8842f2.text.20}"				}
-			}"{herodotus.quests.dc8842f2.text.21}"			}
-		}],"{herodotus.quests.dc8842f2.text.22}"		}],
-		ignore_nbt: 1b"{herodotus.quests.dc8842f2.text.23}"		ignore_nbt: 1b
-	},"{herodotus.quests.dc8842f2.text.24}"	},
-	{"{herodotus.quests.dc8842f2.text.25}"	{
-		uid: "{herodotus.quests.dc8842f2.text.26}",
-		type: "{herodotus.quests.dc8842f2.text.27}",
-		items: [{"{herodotus.quests.dc8842f2.text.28}"		items: [{
-			item: "{herodotus.quests.dc8842f2.text.29}"
-		}],"{herodotus.quests.dc8842f2.text.30}"		}],
-		ignore_nbt: 1b"{herodotus.quests.dc8842f2.text.31}"		ignore_nbt: 1b
-	},"{herodotus.quests.dc8842f2.text.32}"	},
-	{"{herodotus.quests.dc8842f2.text.33}"	{
-		uid: "{herodotus.quests.dc8842f2.text.34}",
-		type: "{herodotus.quests.dc8842f2.text.35}",
-		items: [{"{herodotus.quests.dc8842f2.text.36}"		items: [{
-			item: "{herodotus.quests.dc8842f2.text.37}"
-		}]"{herodotus.quests.dc8842f2.text.38}"		}]
-	}],"{herodotus.quests.dc8842f2.text.39}"	}],
-	rewards: [{"{herodotus.quests.dc8842f2.text.40}"	rewards: [{
-		uid: "{herodotus.quests.dc8842f2.text.41}",
-		type: "{herodotus.quests.dc8842f2.text.42}",
-		item: "{herodotus.quests.dc8842f2.text.43}"
-	}]"{herodotus.quests.dc8842f2.text.44}"	}]
-}"{herodotus.quests.dc8842f2.text.45}"}
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f5c7641a",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			Damage: 2s,
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "edb87e32",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a2027e2b",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "17cac2d7",
+		type: "item",
+		item: "tconstruct:tooltables"
+	}]
+}
