@@ -9,13 +9,10 @@ import scripts.hds_main.utils.modloader.isInvalid;
 //something that recipeutils can't do or just remove
 val removeByOutput as IItemStack[] = [
     <pyrotech:stone_tank>,
-    <tconstruct:tooltables:1>,
-    <tconstruct:tooltables:2>,
     <tconstruct:tooltables:3>,
-    <tconstruct:tooltables:4>,
-    <tconstruct:tooltables:5>,
     <tconstruct:casting>,
     <tconstruct:casting:1>,
+    <tconstruct:pattern>,
     <pyrotech:faucet_brick>,
     <prodigytech:solid_fuel_aeroheater>,
     <prodigytech:energion_aeroheater>,

@@ -181,4 +181,14 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansHammer>, 100)
   .addOutput(<hdsutils:primordial_charger>)
   .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:pattern>, <ore:pattern>, <ore:pattern>],
+    [<artisanworktables:artisans_framing_hammer_iron>, <thaumadditions:brass_plated_silverwood>, <artisanworktables:artisans_handsaw_iron>],
+    [<contenttweaker:active_rune>, <thaumcraft:table_wood>, <contenttweaker:active_rune>]])
+  .setFluid(<liquid:lifeessence> * 2000)
+  .addTool(<ore:artisansFramingHammer>, 60)
+  .addOutput(<tconstruct:tooltables:3>)
+  .create();
 }
