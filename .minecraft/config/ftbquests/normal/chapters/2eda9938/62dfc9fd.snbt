@@ -1,0 +1,16 @@
+{
+	x: 14.0d,
+	y: 4.0d,
+	dependencies: [
+		"f3cee682"
+	],
+	tasks: [{
+		uid: "8eb743bd",
+		type: "item",
+		items: [{
+			item: "hdsutils:taint_checker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
