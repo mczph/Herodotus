@@ -4,11 +4,11 @@ ftbquests_path = ".minecraft/config/ftbquests"
 zh_cn_path = ".minecraft/resources/herodotus/lang/zh_cn.lang"
 en_us_path = ".minecraft/resources/herodotus/lang/en_us.lang"
 should_replace_key_type_value = [
-    "title:"
+    "title"
 ]
 should_replace_key_type_array = [
-	"description:",
-	"text:"
+	"description",
+	"text"
 ]
 context_dict = {}
 
@@ -42,10 +42,10 @@ def read_snbt(full_path, file_name):
             replace_with_lang_key(line, text_key, f_list, i, file_name)
             continue
         for key in should_replace_key_type_value:
-            if (line.lstrip().startswith(key)):
+            if (line.lstrip().startswith(key + ":")):
                 replace_with_lang_key(line, key, f_list, i, file_name)
         for key in should_replace_key_type_array:
-            if (line.lstrip().startswith(key)):
+            if (line.lstrip().startswith(key + ":")):
                 flag = key
     f = open(full_path, "w+", encoding="utf-8")
     f.writelines(f_list)
