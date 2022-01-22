@@ -1,11 +1,11 @@
 {
-	title: "{herodotus.quests.bd826b1a.title}",
+	title: "{herodotus.quests.bd826b1a.title:}",
 	icon: "contenttweaker:material_part 1 24",
 	x: 7.5d,
 	y: 0.75d,
 	shape: "hexagon1",
 	text: [
-		"{herodotus.quests.bd826b1a.text.1}"
+		"{herodotus.quests.bd826b1a.text:.1}"
 	],
 	dependencies: [
 		"1b1f72eb"

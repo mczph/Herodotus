@@ -1,11 +1,11 @@
 {
-	title: "{herodotus.quests.b20b4595.title}",
+	title: "{herodotus.quests.b20b4595.title:}",
 	icon: "pyrotech:material 1 22",
 	x: 8.0d,
 	y: -2.0d,
 	text: [
-		"{herodotus.quests.b20b4595.text.1}",
-		"{herodotus.quests.b20b4595.text.2}"
+		"{herodotus.quests.b20b4595.text:.1}",
+		"{herodotus.quests.b20b4595.text:.2}"
 	],
 	dependencies: [
 		"752fcfc3"

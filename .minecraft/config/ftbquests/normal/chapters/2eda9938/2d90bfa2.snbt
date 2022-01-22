@@ -1,5 +1,5 @@
 {
-	title: "{herodotus.quests.2d90bfa2.title}",
+	title: "{herodotus.quests.2d90bfa2.title:}",
 	icon: {
 		id: "modularmachinery:itemblueprint",
 		tag: {

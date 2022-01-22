@@ -1,9 +1,9 @@
 {
-	title: "{herodotus.quests.f4fe75a4.title}",
+	title: "{herodotus.quests.f4fe75a4.title:}",
 	x: 24.0d,
 	y: 4.0d,
 	text: [
-		"{herodotus.quests.f4fe75a4.text.1}"
+		"{herodotus.quests.f4fe75a4.text:.1}"
 	],
 	dependencies: [
 		"4bc1e394"

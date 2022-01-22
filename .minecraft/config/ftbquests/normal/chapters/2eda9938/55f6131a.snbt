@@ -1,5 +1,5 @@
 {
-	title: "{herodotus.quests.55f6131a.title}",
+	title: "{herodotus.quests.55f6131a.title:}",
 	icon: {
 		id: "modularmachinery:itemblueprint",
 		tag: {
@@ -9,7 +9,7 @@
 	x: 6.0d,
 	y: 0.0d,
 	text: [
-		"{herodotus.quests.55f6131a.text.1}"
+		"{herodotus.quests.55f6131a.text:.1}"
 	],
 	dependencies: [
 		"2d90bfa2"

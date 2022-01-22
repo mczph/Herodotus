@@ -1,12 +1,12 @@
 {
-	title: "{herodotus.quests.2c076aca.title}",
+	title: "{herodotus.quests.2c076aca.title:}",
 	x: 10.0d,
 	y: 6.0d,
 	text: [
-		"{herodotus.quests.2c076aca.text.1}",
-		"{herodotus.quests.2c076aca.text.2}",
-		"{herodotus.quests.2c076aca.text.3}",
-		"{herodotus.quests.2c076aca.text.4}"
+		"{herodotus.quests.2c076aca.text:.1}",
+		"{herodotus.quests.2c076aca.text:.2}",
+		"{herodotus.quests.2c076aca.text:.3}",
+		"{herodotus.quests.2c076aca.text:.4}"
 	],
 	dependencies: [
 		"f5bbf71d"

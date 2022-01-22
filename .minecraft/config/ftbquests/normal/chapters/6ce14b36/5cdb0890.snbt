@@ -1,11 +1,11 @@
 {
-	title: "{herodotus.quests.5cdb0890.title}",
+	title: "{herodotus.quests.5cdb0890.title:}",
 	x: 14.0d,
 	y: 0.0d,
 	text: [
-		"{herodotus.quests.5cdb0890.text.1}",
-		"{herodotus.quests.5cdb0890.text.2}",
-		"{herodotus.quests.5cdb0890.text.3}"
+		"{herodotus.quests.5cdb0890.text:.1}",
+		"{herodotus.quests.5cdb0890.text:.2}",
+		"{herodotus.quests.5cdb0890.text:.3}"
 	],
 	dependencies: [
 		"6e9534cd"

@@ -1,5 +1,5 @@
 {
-	title: "{herodotus.quests.61a03ebd.title}",
+	title: "{herodotus.quests.61a03ebd.title:}",
 	x: 3.0d,
 	y: 1.0d,
 	dependencies: [

@@ -1,5 +1,5 @@
 {
-	title: "{herodotus.quests.2250867c.title}",
+	title: "{herodotus.quests.2250867c.title:}",
 	loot_size: 8,
 	hide_tooltip: true,
 	rewards: [{

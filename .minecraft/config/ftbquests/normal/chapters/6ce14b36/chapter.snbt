@@ -1,5 +1,5 @@
 {
-	title: "{herodotus.quests.6ce14b36.title}",
+	title: "{herodotus.quests.6ce14b36.title:}",
 	icon: "pyrotech:material 1 5",
 	always_invisible: false,
 	group: 0,
