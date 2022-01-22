@@ -3,9 +3,9 @@
 	y: 2.0d,
 	shape: "hexagon3",
 	text: [
-		"{herodotus.quests.52339a93.text:.1}",
-		"{herodotus.quests.52339a93.text:.2}",
-		"{herodotus.quests.52339a93.text:.3}"
+		"{herodotus.quests.52339a93.text.1}",
+		"{herodotus.quests.52339a93.text.2}",
+		"{herodotus.quests.52339a93.text.3}"
 	],
 	dependencies: [
 		"d2e3da38"

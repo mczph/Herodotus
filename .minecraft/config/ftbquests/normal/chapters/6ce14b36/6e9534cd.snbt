@@ -3,10 +3,10 @@
 	y: 2.0d,
 	shape: "hexagon5",
 	text: [
-		"{herodotus.quests.6e9534cd.text:.1}",
-		"{herodotus.quests.6e9534cd.text:.2}",
-		"{herodotus.quests.6e9534cd.text:.3}",
-		"{herodotus.quests.6e9534cd.text:.4}"
+		"{herodotus.quests.6e9534cd.text.1}",
+		"{herodotus.quests.6e9534cd.text.2}",
+		"{herodotus.quests.6e9534cd.text.3}",
+		"{herodotus.quests.6e9534cd.text.4}"
 	],
 	dependencies: [
 		"991202af",

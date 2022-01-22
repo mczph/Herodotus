@@ -1,12 +1,12 @@
 {
-	title: "{herodotus.quests.11a72b92.title:}",
+	title: "{herodotus.quests.11a72b92.title}",
 	x: 0.0d,
 	y: 2.0d,
 	text: [
-		"{herodotus.quests.11a72b92.text:.1}",
-		"{herodotus.quests.11a72b92.text:.2}",
-		"{herodotus.quests.11a72b92.text:.3}",
-		"{herodotus.quests.11a72b92.text:.4}"
+		"{herodotus.quests.11a72b92.text.1}",
+		"{herodotus.quests.11a72b92.text.2}",
+		"{herodotus.quests.11a72b92.text.3}",
+		"{herodotus.quests.11a72b92.text.4}"
 	],
 	size: 1.5d,
 	tasks: [{

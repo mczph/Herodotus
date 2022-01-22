@@ -2,11 +2,11 @@
 	x: 4.0d,
 	y: -2.0d,
 	text: [
-		"{herodotus.quests.14c2abf9.text:.1}",
-		"{herodotus.quests.14c2abf9.text:.2}",
-		"{herodotus.quests.14c2abf9.text:.3}",
-		"{herodotus.quests.14c2abf9.text:.4}",
-		"{herodotus.quests.14c2abf9.text:.5}"
+		"{herodotus.quests.14c2abf9.text.1}",
+		"{herodotus.quests.14c2abf9.text.2}",
+		"{herodotus.quests.14c2abf9.text.3}",
+		"{herodotus.quests.14c2abf9.text.4}",
+		"{herodotus.quests.14c2abf9.text.5}"
 	],
 	dependencies: [
 		"2faec3fe",

@@ -1,10 +1,10 @@
 {
-	title: "{herodotus.quests.00ada03a.title:}",
+	title: "{herodotus.quests.00ada03a.title}",
 	x: 0.0d,
 	y: -2.0d,
 	text: [
-		"{herodotus.quests.00ada03a.text:.1}",
-		"{herodotus.quests.00ada03a.text:.2}"
+		"{herodotus.quests.00ada03a.text.1}",
+		"{herodotus.quests.00ada03a.text.2}"
 	],
 	size: 1.5d,
 	tasks: [{

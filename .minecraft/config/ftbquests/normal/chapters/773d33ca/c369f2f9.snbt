@@ -2,7 +2,7 @@
 	x: 4.025d,
 	y: 0.0d,
 	text: [
-		"{herodotus.quests.c369f2f9.text:.1}"
+		"{herodotus.quests.c369f2f9.text.1}"
 	],
 	dependencies: [
 		"61a03ebd"
