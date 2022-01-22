@@ -12,7 +12,10 @@
 		uid: "13925d86",
 		type: "item",
 		items: [{
-			item: "pyrotech:bucket_wood"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:bucket_wood"
 		}],
 		ignore_nbt: 2b
 	}]

@@ -1,14 +1,14 @@
 {
 	x: 16.0d,
-	y: 2.0d,
+	y: 5.75d,
 	dependencies: [
-		"6900d815"
+		"f82ee1dd"
 	],
 	tasks: [{
-		uid: "dbde1924",
+		uid: "f9341d54",
 		type: "item",
 		items: [{
-			item: "contenttweaker:flesh_bolus"
+			item: "tconstruct:pattern"
 		}]
 	}]
 }

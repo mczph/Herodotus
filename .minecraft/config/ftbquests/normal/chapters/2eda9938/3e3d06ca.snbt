@@ -1,0 +1,14 @@
+{
+	x: 26.0d,
+	y: -4.0d,
+	dependencies: [
+		"38c43997"
+	],
+	tasks: [{
+		uid: "80cd6da6",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:primordial_grain"
+		}]
+	}]
+}

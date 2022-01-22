@@ -1,21 +1,20 @@
 {
-	x: 16.25d,
-	y: 0.25d,
+	x: 28.0d,
+	y: -2.0d,
 	dependencies: [
-		"69c8cb10"
+		"5b236766",
+		"04d5512b",
+		"3e3d06ca"
 	],
+	size: 1.6d,
 	tasks: [{
-		uid: "113669d9",
+		uid: "6cffced3",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "forge:bucketfilled",
-			tag: {
-				FluidName: "plastic",
-				Amount: 1000
-			}
+			id: "thaumcraft:primordial_pearl"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

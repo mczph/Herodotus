@@ -1,16 +1,19 @@
 {
-	x: 13.75d,
-	y: -1.75d,
+	x: 14.0d,
+	y: -2.0d,
 	text: [
 		"{herodotus.quests.310c522c.text.1}"
 	],
 	dependencies: [
-		"25548645"
+		"780dd5b4"
 	],
 	tasks: [{
 		uid: "a25ba403",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "unstable_mutation_agent",

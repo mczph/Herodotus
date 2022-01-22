@@ -1,11 +1,11 @@
 {
-	x: 4.25d,
-	y: -3.0d,
+	x: 22.0d,
+	y: 2.0d,
 	dependencies: [
-		"482f0222"
+		"f3cee682"
 	],
 	tasks: [{
-		uid: "3cda7d63",
+		uid: "50d6ada9",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -13,16 +13,11 @@
 			},
 			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "oil",
+				FluidName: "lifeessence",
 				Amount: 1000
 			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "151b8932",
-		type: "random",
-		table: 0
 	}]
 }

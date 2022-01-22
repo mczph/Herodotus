@@ -15,7 +15,10 @@
 		uid: "09812b62",
 		type: "item",
 		items: [{
-			item: "pyrotech:crude_shovel"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_shovel"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -28,6 +31,11 @@
 	{
 		uid: "3fdf1944",
 		type: "item",
-		item: "pyrotech:book"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:book"
+		}
 	}]
 }

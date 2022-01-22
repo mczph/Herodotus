@@ -13,7 +13,10 @@
 		uid: "6ae692e5",
 		type: "item",
 		items: [{
-			item: "pyrotech:bow_drill"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:bow_drill"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

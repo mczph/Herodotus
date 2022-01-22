@@ -1,8 +1,9 @@
 {
-	x: 19.25d,
-	y: -5.5d,
+	title: "炼金塔",
+	x: 18.0d,
+	y: 0.0d,
 	dependencies: [
-		"cd6c8f77"
+		"11d66470"
 	],
 	tasks: [{
 		uid: "6c9be09c",

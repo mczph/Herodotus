@@ -12,6 +12,9 @@
 		uid: "7efec7a2",
 		type: "checkmark",
 		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "blue_t1",

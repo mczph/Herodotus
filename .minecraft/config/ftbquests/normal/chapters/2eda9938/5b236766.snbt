@@ -1,0 +1,14 @@
+{
+	x: 28.0d,
+	y: -6.0d,
+	dependencies: [
+		"78efc57f"
+	],
+	tasks: [{
+		uid: "2fe80cf0",
+		type: "item",
+		items: [{
+			item: "hdsutils:primordial_charger"
+		}]
+	}]
+}

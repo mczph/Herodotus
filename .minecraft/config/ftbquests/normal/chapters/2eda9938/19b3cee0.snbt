@@ -1,0 +1,88 @@
+{
+	x: 24.0d,
+	y: -4.0d,
+	dependencies: [
+		"167d511b",
+		"d875571e"
+	],
+	tasks: [{
+		uid: "2b2cfabc",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "aqua"
+			}
+		}]
+	},
+	{
+		uid: "fb58ef8a",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "ignis"
+			}
+		}]
+	},
+	{
+		uid: "028f160e",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "terra"
+			}
+		}]
+	},
+	{
+		uid: "44c9ba05",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "aer"
+			}
+		}]
+	},
+	{
+		uid: "e56bf003",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "ordo"
+			}
+		}]
+	},
+	{
+		uid: "5067f8b0",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "perditio"
+			}
+		}]
+	},
+	{
+		uid: "6b249510",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "alienis"
+			}
+		}]
+	},
+	{
+		uid: "557384dc",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "vitium"
+			}
+		}]
+	}]
+}

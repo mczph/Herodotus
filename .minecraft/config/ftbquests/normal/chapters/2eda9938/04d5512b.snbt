@@ -1,0 +1,16 @@
+{
+	x: 26.0d,
+	y: 0.0d,
+	dependencies: [
+		"64e2c01e",
+		"419e99c9",
+		"19b3cee0"
+	],
+	tasks: [{
+		uid: "e3d4db3b",
+		type: "item",
+		items: [{
+			item: "hdsutils:catalyzed_altar"
+		}]
+	}]
+}

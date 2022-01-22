@@ -1,0 +1,14 @@
+{
+	x: 24.0d,
+	y: -6.0d,
+	dependencies: [
+		"d875571e"
+	],
+	tasks: [{
+		uid: "f9296942",
+		type: "item",
+		items: [{
+			item: "hdsutils:rift_feed"
+		}]
+	}]
+}

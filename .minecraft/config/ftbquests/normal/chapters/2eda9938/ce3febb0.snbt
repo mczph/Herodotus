@@ -1,14 +1,14 @@
 {
-	x: 20.0d,
+	x: 18.0d,
 	y: 4.0d,
 	dependencies: [
-		"ce3febb0"
+		"f82ee1dd"
 	],
 	tasks: [{
-		uid: "482d7568",
+		uid: "e20af606",
 		type: "item",
 		items: [{
-			item: "contenttweaker:active_rune"
+			item: "bloodmagic:slate"
 		}]
 	}]
 }

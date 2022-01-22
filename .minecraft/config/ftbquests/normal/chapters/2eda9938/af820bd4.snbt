@@ -1,0 +1,96 @@
+{
+	title: "灵气装配机",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:aura_assembler"
+		}
+	},
+	x: 18.0d,
+	y: -4.0d,
+	dependencies: [
+		"b8981a6f"
+	],
+	tasks: [{
+		uid: "cad091c9",
+		type: "item",
+		items: [{
+			item: "modularcontroller:aura_assembler_controller"
+		}]
+	},
+	{
+		uid: "28f9ebb6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:plank_silverwood"
+		}],
+		count: 13L
+	},
+	{
+		uid: "579c5db6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
+		}]
+	},
+	{
+		uid: "c3b2b169",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "b33e8f83",
+		type: "item",
+		items: [{
+			item: "thaumadditions:brass_plated_silverwood"
+		}],
+		count: 4L
+	},
+	{
+		uid: "df1aae57",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 3"
+		}],
+		count: 4L
+	},
+	{
+		uid: "2feabf90",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 3"
+		}],
+		count: 7L
+	},
+	{
+		uid: "c2f1dc68",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 1"
+		}]
+	},
+	{
+		uid: "88221681",
+		type: "item",
+		items: [{
+			item: "gugu-utils:hotairinputhatch"
+		}]
+	},
+	{
+		uid: "23e60152",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stairs_greatwood"
+		}],
+		count: 4L
+	},
+	{
+		uid: "edd22340",
+		type: "item",
+		items: [{
+			item: "thaumcraft:slab_greatwood"
+		}]
+	}]
+}

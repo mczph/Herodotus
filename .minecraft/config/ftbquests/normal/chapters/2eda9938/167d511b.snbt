@@ -1,0 +1,14 @@
+{
+	x: 21.0d,
+	y: -4.0d,
+	dependencies: [
+		"af820bd4"
+	],
+	tasks: [{
+		uid: "bea35d7b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:basic_vis_seed"
+		}]
+	}]
+}

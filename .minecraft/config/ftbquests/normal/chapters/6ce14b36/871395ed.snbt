@@ -12,13 +12,22 @@
 		uid: "1d45f683",
 		type: "item",
 		items: [{
-			item: "pyrotech:flint_axe"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:flint_axe"
 		},
 		{
-			item: "pyrotech:flint_pickaxe"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:flint_pickaxe"
 		},
 		{
-			item: "pyrotech:flint_shovel"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:flint_shovel"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

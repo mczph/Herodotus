@@ -12,7 +12,11 @@
 		uid: "e43c43cf",
 		type: "item",
 		items: [{
-			item: "hdsutils:tiny_starlight_storage 1 1"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "hdsutils:tiny_starlight_storage",
+			Damage: 1s
 		}],
 		ignore_nbt: 1b
 	}],
