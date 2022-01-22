@@ -85,7 +85,7 @@
 		uid: "5a5c0785",
 		type: "item",
 		items: [{
-			item: "modularmachinery:blockfluidinputhatch"
+			item: "modularmachinery:blockfluidinputhatch 1 1"
 		}]
 	},
 	{
@@ -106,7 +106,7 @@
 		uid: "45361c01",
 		type: "item",
 		items: [{
-			item: "modularmachinery:blockfluidoutputhatch"
+			item: "modularmachinery:blockfluidoutputhatch 1 1"
 		}]
 	}]
 }

@@ -13,21 +13,21 @@ if(!isInvalid){
 RecipeBuilder.newBuilder("btmm_red", "basic_thermal_melting_machine", 300)
     .addItemInput(<contenttweaker:rhythmic_seed>)
     .addHotAirInput(250, 250, maxInt)
-    .addFluidInput(<liquid:red_t2> * 200)
+    .addFluidInput(<liquid:red_t2> * 1000)
     .addAspectOutput("ignis", 40)
     .build();
 
 RecipeBuilder.newBuilder("btmm_blue", "basic_thermal_melting_machine", 300)
     .addItemInput(<contenttweaker:rhythmic_seed>)
     .addHotAirInput(250, 250, maxInt)
-    .addFluidInput(<liquid:blue_t2> * 200)
+    .addFluidInput(<liquid:blue_t2> * 1000)
     .addAspectOutput("aqua", 40)
     .build();
 
 RecipeBuilder.newBuilder("btmm_yellow", "basic_thermal_melting_machine", 300)
     .addItemInput(<contenttweaker:rhythmic_seed>)
     .addHotAirInput(250, 250, maxInt)
-    .addFluidInput(<liquid:yellow_t2> * 200)
+    .addFluidInput(<liquid:yellow_t2> * 1000)
     .addAspectOutput("aer", 40)
     .build();
 
