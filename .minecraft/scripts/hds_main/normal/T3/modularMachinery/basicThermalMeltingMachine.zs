@@ -54,6 +54,14 @@ RecipeBuilder.newBuilder("btmm_terra", "basic_thermal_melting_machine", 300)
     .addAspectOutput("terra", 40)
     .build();
 
+RecipeBuilder.newBuilder("btmm_alienis", "basic_thermal_melting_machine", 300)
+    .addItemInput(<contenttweaker:rhythmic_seed>)
+    .addItemInput(<thaumcraft:stone_ancient_rock> * 16)
+    .addFluidInput(<liquid:unstable_aura> * 200)
+    .addHotAirInput(250, 250, maxInt)
+    .addAspectOutput("alienis", 40)
+    .build();
+
 RecipeBuilder.newBuilder("btmm_victus", "basic_thermal_melting_machine", 300)
     .addItemInput(<contenttweaker:flesh_bolus>)
     .addFluidInput(<liquid:taint_nutrition> * 100)

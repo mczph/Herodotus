@@ -21,6 +21,8 @@ if (!isInvalid) {
     <pyrotech:obsidian_axe>.maxDamage = 450;
     <mekanismtools:ironpaxel>.maxDamage = 1000;
     <mekanismtools:obsidianpaxel>.maxDamage = 1500;
+    <thaumcraft:stone_ancient_rock>.hardness = 10.0;
+    <thaumcraft:stone_ancient_rock>.asBlock().definition.setHarvestLevel("pickaxe", 2);
     <astralsorcery:blockcustomore>.asBlock().definition.setHarvestLevel("pickaxe", 1);
     <entity:minecraft:zombie_pigman>.removeDrop(<minecraft:gold_nugget>);
     <entity:minecraft:zombie>.removeDrop(<minecraft:iron_ingot>);
