@@ -13,16 +13,28 @@
 		uid: "8d1810c4",
 		type: "item",
 		items: [{
-			item: "artisanworktables:artisans_trowel_wood"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_trowel_wood"
 		},
 		{
-			item: "artisanworktables:artisans_trowel_stone"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_trowel_stone"
 		},
 		{
-			item: "artisanworktables:artisans_trowel_flint"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_trowel_flint"
 		},
 		{
-			item: "artisanworktables:artisans_trowel_bone"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_trowel_bone"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -13,16 +13,16 @@
 		uid: "bba4bf62",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rock",
+					id: "ore"
+				}
+			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any rock"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "rock"
 				}
 			}
 		}],

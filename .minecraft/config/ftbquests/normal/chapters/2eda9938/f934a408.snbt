@@ -1,6 +1,6 @@
 {
-	x: 20.0d,
-	y: -2.0d,
+	x: 19.5d,
+	y: 4.75d,
 	dependencies: [
 		"914b5a4b"
 	],
@@ -8,6 +8,9 @@
 		uid: "376d6bb7",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "taint_nutrition",

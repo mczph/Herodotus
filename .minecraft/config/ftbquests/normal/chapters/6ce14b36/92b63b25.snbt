@@ -13,16 +13,28 @@
 		uid: "ea64f424",
 		type: "item",
 		items: [{
-			item: "artisanworktables:artisans_burner_wood"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_burner_wood"
 		},
 		{
-			item: "artisanworktables:artisans_burner_stone"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_burner_stone"
 		},
 		{
-			item: "artisanworktables:artisans_burner_flint"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_burner_flint"
 		},
 		{
-			item: "artisanworktables:artisans_burner_bone"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_burner_bone"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

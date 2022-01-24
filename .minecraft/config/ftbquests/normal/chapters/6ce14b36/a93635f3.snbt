@@ -14,7 +14,10 @@
 		uid: "2d25dae4",
 		type: "item",
 		items: [{
-			item: "pyrotech:crude_pickaxe"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_pickaxe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 2b

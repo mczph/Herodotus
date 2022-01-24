@@ -13,13 +13,22 @@
 		uid: "94077cb6",
 		type: "item",
 		items: [{
-			item: "pyrotech:sawmill_blade_stone"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:sawmill_blade_stone"
 		},
 		{
-			item: "pyrotech:sawmill_blade_flint"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:sawmill_blade_flint"
 		},
 		{
-			item: "pyrotech:sawmill_blade_bone"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:sawmill_blade_bone"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

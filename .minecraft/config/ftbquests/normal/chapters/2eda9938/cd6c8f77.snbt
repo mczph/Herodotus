@@ -1,14 +1,14 @@
 {
-	x: 22.0d,
+	x: 19.25d,
 	y: -3.75d,
 	dependencies: [
-		"cd6c8f77"
+		"11d66470"
 	],
 	tasks: [{
-		uid: "4bad1fa1",
+		uid: "5c1ae33b",
 		type: "item",
 		items: [{
-			item: "thaumcraft:ingot"
+			item: "thaumcraft:metal_alchemical"
 		}]
 	}]
 }

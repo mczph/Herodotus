@@ -14,13 +14,22 @@
 		uid: "b92a7179",
 		type: "item",
 		items: [{
-			item: "artisanworktables:artisans_framing_hammer_flint"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_framing_hammer_flint"
 		},
 		{
-			item: "artisanworktables:artisans_framing_hammer_stone"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_framing_hammer_stone"
 		},
 		{
-			item: "artisanworktables:artisans_framing_hammer_bone"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_framing_hammer_bone"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

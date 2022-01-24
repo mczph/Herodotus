@@ -3,7 +3,12 @@
 	loot_size: 8,
 	hide_tooltip: true,
 	rewards: [{
-		item: "minecraft:cake",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:cake"
+		},
 		count: 8
 	},
 	{
@@ -295,7 +300,12 @@
 		count: 8
 	},
 	{
-		item: "xlfoodmod:beer"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:beer"
+		}
 	},
 	{
 		item: "xlfoodmod:chocolate",
@@ -322,10 +332,20 @@
 		count: 8
 	},
 	{
-		item: "xlfoodmod:super_energy_drink"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:super_energy_drink"
+		}
 	},
 	{
-		item: "xlfoodmod:deadly_energy_drink"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:deadly_energy_drink"
+		}
 	},
 	{
 		item: "xlfoodmod:chocolate_donut",
@@ -336,7 +356,12 @@
 		count: 8
 	},
 	{
-		item: "xlfoodmod:stealthy_energy_drink"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:stealthy_energy_drink"
+		}
 	},
 	{
 		item: "xlfoodmod:cooked_chicken_wing",
@@ -411,14 +436,24 @@
 		count: 8
 	},
 	{
-		item: "xlfoodmod:cappuccino"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:cappuccino"
+		}
 	},
 	{
 		item: "xlfoodmod:bourbon_biscuit",
 		count: 8
 	},
 	{
-		item: "xlfoodmod:coffee"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:coffee"
+		}
 	},
 	{
 		item: "xlfoodmod:vanilla_icecream",
@@ -433,7 +468,12 @@
 		count: 8
 	},
 	{
-		item: "enderio:item_ender_food"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_ender_food"
+		}
 	},
 	{
 		item: "growthcraft_milk:bottlefluid_whey",
@@ -453,19 +493,32 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "pyrotech:marshmallow_stick",
 			tag: {}
 		}
 	},
 	{
-		item: "minecraft:beetroot_soup"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:beetroot_soup"
+		}
 	},
 	{
 		item: "minecraft:cooked_mutton",
 		count: 8
 	},
 	{
-		item: "minecraft:rabbit_stew"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:rabbit_stew"
+		}
 	},
 	{
 		item: "minecraft:cooked_chicken",
@@ -500,7 +553,12 @@
 		count: 8
 	},
 	{
-		item: "minecraft:mushroom_stew"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:mushroom_stew"
+		}
 	},
 	{
 		item: "minecraft:cooked_porkchop",
@@ -511,13 +569,28 @@
 		count: 8
 	},
 	{
-		item: "xlfoodmod:strong_energy_drink"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:strong_energy_drink"
+		}
 	},
 	{
-		item: "xlfoodmod:speedy_energy_drink"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:speedy_energy_drink"
+		}
 	},
 	{
-		item: "xlfoodmod:healthy_energy_drink"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:healthy_energy_drink"
+		}
 	},
 	{
 		item: "minecraft:cooked_rabbit",
@@ -552,7 +625,12 @@
 		count: 8
 	},
 	{
-		item: "biomesoplenty:ricebowl"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "biomesoplenty:ricebowl"
+		}
 	},
 	{
 		item: "growthcraft_rice:rice_cooked",
@@ -567,7 +645,12 @@
 		count: 8
 	},
 	{
-		item: "minecraft:cake"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:cake"
+		}
 	},
 	{
 		item: "nuclearcraft:milk_chocolate",

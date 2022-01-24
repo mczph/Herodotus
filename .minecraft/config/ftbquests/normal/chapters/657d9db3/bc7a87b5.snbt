@@ -15,16 +15,16 @@
 		uid: "6c8afeee",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreBlue",
+					id: "ore"
+				}
+			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreBlue"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "oreBlue"
 				}
 			}
 		}]
@@ -33,16 +33,16 @@
 		uid: "f0aef5cb",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "poorOreBlue",
+					id: "ore"
+				}
+			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any poorOreBlue"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "poorOreBlue"
 				}
 			}
 		}]
@@ -51,16 +51,16 @@
 		uid: "267cc120",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "denseOreBlue",
+					id: "ore"
+				}
+			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any denseOreBlue"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "denseOreBlue"
 				}
 			}
 		}]
