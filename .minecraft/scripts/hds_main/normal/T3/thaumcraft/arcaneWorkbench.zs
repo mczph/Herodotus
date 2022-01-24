@@ -48,7 +48,9 @@ static toRemove as [IItemStack] = [
     <thaumcraft:smelter_void>,
     <thaumadditions:mithrillium_smelter>,
     <thaumadditions:adaminite_smelter>,
-    <thaumadditions:mithminite_smelter>
+    <thaumadditions:mithminite_smelter>,
+    <thaumadditions:jar_brass>,
+    <thaumadditions:jar_thaumium>
 ];
 
 

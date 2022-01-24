@@ -191,4 +191,24 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansFramingHammer>, 60)
   .addOutput(<tconstruct:tooltables:3>)
   .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:paneGlass>, <ore:plateBrass>, <ore:paneGlass>],
+    [<ore:paneGlass>, <thaumcraft:jar_normal>, <ore:paneGlass>],
+    [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]])
+  .setFluid(<liquid:unstable_aura> * 2000)
+  .addTool(<ore:artisansAthame>, 20)
+  .addOutput(<thaumadditions:jar_brass>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:paneGlass>, <thaumcraft:plate:2>, <ore:paneGlass>],
+    [<ore:paneGlass>, <thaumadditions:jar_brass>, <ore:paneGlass>],
+    [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]])
+  .setFluid(<liquid:unstable_aura> * 2000)
+  .addTool(<ore:artisansAthame>, 20)
+  .addOutput(<thaumadditions:jar_thaumium>)
+  .create();
 }
