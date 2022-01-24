@@ -43,7 +43,7 @@ RecipeBuilder.newBuilder("btmm_fluid_aspect", "basic_thermal_melting_machine", 3
     .addFluidInput(<liquid:flux_goo> * 200)
     .addHotAirInput(250, 250, maxInt)
     .addAspectOutput("vitium", 40)
-    .addFluidOutput(<liquid:unstable_aura> * 200)
+    .addFluidOutput(<liquid:unstable_aura> * 1000)
     .build();
 
 RecipeBuilder.newBuilder("btmm_terra", "basic_thermal_melting_machine", 300)

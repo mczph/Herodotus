@@ -135,9 +135,9 @@ RecipeBuilder.get("mage")
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<ore:stone>, <bloodmagic:slate>, <ore:stone>],
+    [<ore:stone>, <ore:stone>, <ore:stone>],
     [<bloodmagic:slate>, <contenttweaker:resurrected_meat>, <bloodmagic:slate>],
-    [<ore:stone>, <bloodmagic:slate>, <ore:stone>]])
+    [<ore:stone>, <ore:stone>, <ore:stone>]])
   .setFluid(<liquid:lifeessence> * 500)
   .addTool(<ore:artisansGrimoire>, 30)
   .addOutput(<contenttweaker:active_rune>)

@@ -8,28 +8,16 @@
 		uid: "dc430a35",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "artisanworktables:artisans_lens_wood"
+			item: "artisanworktables:artisans_lens_wood"
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "artisanworktables:artisans_lens_stone"
+			item: "artisanworktables:artisans_lens_stone"
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "artisanworktables:artisans_lens_flint"
+			item: "artisanworktables:artisans_lens_flint"
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "artisanworktables:artisans_lens_bone"
+			item: "artisanworktables:artisans_lens_bone"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

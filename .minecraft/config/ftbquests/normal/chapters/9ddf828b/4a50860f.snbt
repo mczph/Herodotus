@@ -8,10 +8,7 @@
 		uid: "f6221e58",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "modularcontroller:machine_projector"
+			item: "modularcontroller:machine_projector"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

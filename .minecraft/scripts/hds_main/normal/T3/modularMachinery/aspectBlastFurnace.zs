@@ -30,9 +30,9 @@ RecipeBuilder.newBuilder("brass_plank", "aspect_blast_furnace", 200)
     .build();
 RecipeBuilder.newBuilder("unstable_mutation_agent", "aspect_blast_furnace", 200)
     .addHotAirInput(250, 250, maxInt)
-    .addFluidInput(<liquid:unstable_aura> * 300)
-    .addAspectInput("vitium", 150)
-    .addFluidOutput(<liquid:unstable_mutation_agent> * 500)
+    .addFluidInput(<liquid:unstable_aura> * 200)
+    .addAspectInput("vitium", 25)
+    .addFluidOutput(<liquid:unstable_mutation_agent> * 50)
     .build();
 
 RecipeBuilder.newBuilder("morphic_resonator", "aspect_blast_furnace", 300)

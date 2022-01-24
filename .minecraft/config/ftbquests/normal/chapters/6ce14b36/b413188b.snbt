@@ -13,9 +13,6 @@
 		type: "checkmark",
 		title: "{herodotus.quests.b413188b.title}",
 		icon: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "limewater",

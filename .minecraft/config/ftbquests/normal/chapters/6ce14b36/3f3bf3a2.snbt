@@ -15,22 +15,13 @@
 		uid: "bdf65516",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "pyrotech:crude_hammer"
+			item: "pyrotech:crude_hammer"
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "pyrotech:stone_hammer"
+			item: "pyrotech:stone_hammer"
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "pyrotech:flint_hammer"
+			item: "pyrotech:flint_hammer"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

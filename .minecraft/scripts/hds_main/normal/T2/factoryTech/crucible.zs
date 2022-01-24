@@ -13,4 +13,5 @@ Crucible.addRecipe(<liquid:brass> * 144, <ore:ingotBrass>, false);
 Crucible.addRecipe(<liquid:silver> * 144, <ore:gemChippedSilver>, false);
 Crucible.addRecipe(<liquid:mercury> * 250, <ore:sphericalTierTwoYellow>, false);
 Crucible.addRecipe(<liquid:mercury> * 500, <ore:ingotMercury>, true);
+Crucible.addRecipe(<liquid:molten_gel>, <contenttweaker:impure_gel>, false);
 }
