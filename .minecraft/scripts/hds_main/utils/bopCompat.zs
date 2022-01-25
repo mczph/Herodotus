@@ -155,6 +155,7 @@ if(!isInvalid){
             .addDrop(Dropt.drop().items([grassClump], Dropt.range(1, 3)).selector(Dropt.weight(1), "EXCLUDED"))
         );
         cbRecipe(block, grassClump * 8);
+        recipes.addShapeless("bop_compat_"~ grassClump.name, grassClump, <pyrotech:material:12>);
     }
     for block, dirtClump in dirtBlocks {
         var matchBlocks as string[] = [StringHelper.getItemName(block)];
