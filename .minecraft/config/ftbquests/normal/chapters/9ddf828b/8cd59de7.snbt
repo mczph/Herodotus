@@ -11,10 +11,7 @@
 		uid: "1b3dc891",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "hdsutils:oil_aiot"
+			item: "hdsutils:oil_aiot"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

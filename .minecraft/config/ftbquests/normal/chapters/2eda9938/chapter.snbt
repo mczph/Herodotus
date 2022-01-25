@@ -1,10 +1,15 @@
 {
 	title: "{herodotus.quests.2eda9938.title}",
 	icon: {
+		id: "thaumicaugmentation:augment_caster_rift_energy_storage",
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
-		id: "hdsutils:taint_checker"
+			Parent: {
+				augment: {},
+				energy: {
+					energy: 300L
+				}
+			}
+		}
 	},
 	always_invisible: false,
 	group: 0,

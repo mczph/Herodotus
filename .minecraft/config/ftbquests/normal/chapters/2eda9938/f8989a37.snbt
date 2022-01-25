@@ -1,17 +1,20 @@
 {
 	title: "{herodotus.quests.f8989a37.title}",
-	x: 1.75d,
+	x: 2.0d,
 	y: 0.0d,
 	text: [
 		"{herodotus.quests.f8989a37.text.1}",
 		"{herodotus.quests.f8989a37.text.2}",
 		"{herodotus.quests.f8989a37.text.3}"
 	],
+	dependencies: [
+		"75dea0ce"
+	],
 	tasks: [{
 		uid: "fe3b7008",
 		type: "item",
 		items: [{
-			item: "thaumcraft:log_silverwood"
+			item: "thaumcraft:sapling_silverwood"
 		}]
 	}]
 }

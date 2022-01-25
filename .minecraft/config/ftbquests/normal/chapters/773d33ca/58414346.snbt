@@ -9,16 +9,16 @@
 		uid: "d3cf6807",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "ingotBronze",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotBronze"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotBronze"
 				}
 			}
 		}]
@@ -27,16 +27,16 @@
 		uid: "4994268d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "gearBronze",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any gearBronze"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gearBronze"
 				}
 			}
 		}]
