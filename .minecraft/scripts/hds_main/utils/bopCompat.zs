@@ -42,6 +42,12 @@ val dirtBlocks as IItemStack[IItemStack] = {
     <biomesoplenty:dried_sand>: <contenttweaker:dried_sand_pile>
 };
 
+val farmlandSupport as IItemStack[][IItemStack] = {
+    <contenttweaker:loamy_dirt_clump> : [<biomesoplenty:farmland_0:0>, <biomesoplenty:farmland_0:14>],
+    <contenttweaker:sandy_dirt_clump> : [<biomesoplenty:farmland_0:1>, <biomesoplenty:farmland_0:15>],
+    <contenttweaker:silty_dirt_clump> : [<biomesoplenty:farmland_1:0>, <biomesoplenty:farmland_0:14>]
+};
+
 val stoneBlocks as IItemStack[IItemStack] = {
     <biomesoplenty:white_sandstone>: <contenttweaker:white_sandstone_rock>
 };
@@ -58,6 +64,39 @@ if(!isInvalid){
     val stonePickaxe as Harvester = Dropt.harvester().type("PLAYER").mainHand("BLACKLIST", [], "pickaxe;2;-1");
     val anyPickaxe as Harvester = Dropt.harvester().type("PLAYER").mainHand("WHITELIST", [], "pickaxe;-1;-1");
     val strangeTuber as IItemStack = <pyrotech:strange_tuber>;
+
+    for dirtClump, blocks in farmlandSupport {
+        for block in blocks {
+            var matchBlocks as string[] = [StringHelper.getItemName(block)];
+            root.add(Dropt.rule()
+                .matchBlocks(matchBlocks)
+                .matchHarvester(explosion)
+                .addDrop(Dropt.drop().selector(Dropt.weight(9)))
+                .addDrop(Dropt.drop().items([dirtClump], Dropt.range(1)))
+            );
+            root.add(Dropt.rule()
+                .matchBlocks(matchBlocks)
+                .matchHarvester(notShovel)
+                .dropCount(Dropt.range(1, 2))
+                .dropStrategy("UNIQUE")
+                .addDrop(Dropt.drop().items([dirtClump], Dropt.range(1, 3)).selector(Dropt.weight(50)))
+            );
+            root.add(Dropt.rule()
+                .matchBlocks(matchBlocks)
+                .matchHarvester(woodenShovel)
+                .dropStrategy("UNIQUE")
+                .dropCount(Dropt.range(1, 2))
+                .addDrop(Dropt.drop().items([dirtClump], Dropt.range(2, 4)).selector(Dropt.weight(400)))
+            );
+            root.add(Dropt.rule()
+                .matchBlocks(matchBlocks)
+                .matchHarvester(stoneShovel)
+                .dropStrategy("UNIQUE")
+                .addDrop(Dropt.drop().items([block]).selector(Dropt.weight(100)))
+                .addDrop(Dropt.drop().items([dirtClump], Dropt.range(3, 6)).selector(Dropt.weight(300)))
+            );
+        }
+    }
 
     for block, entry in grassBlocks {
         val dirtClump as IItemStack = entry[0];
@@ -174,4 +213,14 @@ if(!isInvalid){
         );
         recipes.addShaped(StringHelper.getItemNameWithUnderline(block) + "_from_rock", block, RecipeUtils.createSurround(<pyrotech:material:17>, rock));
     }
+
+    Dropt.list("bop_compact")
+        .add(Dropt.rule()
+            .replaceStrategy("ADD")
+            .matchBlocks(["biomesoplenty:leaves_*:*"])
+            .addDrop(Dropt.drop()
+                .selector(Dropt.weight(85))
+                .items([<minecraft:stick>])
+            )
+        );
 }

@@ -10,7 +10,7 @@ val grassClumpNames as string[] = [
 ];
 
 val dirtClumpNames as string[] = [
-    "sandy", "loamy", "silty", "original", "coarse_silty", "coarse_sandy", "coarse_loamy"
+    "sandy", "loamy", "silty", "coarse_silty", "coarse_sandy", "coarse_loamy"
 ];
 
 val miscNames as string[] = [
