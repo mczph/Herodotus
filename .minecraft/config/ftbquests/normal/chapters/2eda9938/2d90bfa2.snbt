@@ -1,5 +1,5 @@
 {
-	title: "{herodotus.quests.2d90bfa2.title}",
+	title: "点火架锅",
 	icon: {
 		id: "modularmachinery:itemblueprint",
 		tag: {
@@ -9,9 +9,9 @@
 	x: 4.0d,
 	y: 0.0d,
 	text: [
-		"{herodotus.quests.2d90bfa2.text.1}",
-		"{herodotus.quests.2d90bfa2.text.2}",
-		"{herodotus.quests.2d90bfa2.text.3}"
+		"现在我知道这种子能种出银树来，",
+		"可是银树又不能吃，有啥用嘛。",
+		"我印象中可以用这台机器把它煮了吃。"
 	],
 	dependencies: [
 		"f8989a37"

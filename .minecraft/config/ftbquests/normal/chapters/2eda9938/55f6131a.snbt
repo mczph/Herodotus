@@ -1,5 +1,5 @@
 {
-	title: "{herodotus.quests.55f6131a.title}",
+	title: "烈火炼金",
 	icon: {
 		id: "modularmachinery:itemblueprint",
 		tag: {
@@ -9,10 +9,10 @@
 	x: 6.25d,
 	y: 0.0d,
 	text: [
-		"{herodotus.quests.55f6131a.text.1}",
-		"{herodotus.quests.55f6131a.text.2}",
-		"{herodotus.quests.55f6131a.text.3}",
-		"{herodotus.quests.55f6131a.text.4}"
+		"刚才应该是饿了，满脑子都是吃的。",
+		"填饱了肚子以后，我发现，",
+		"刚才随手获得的这些材料和热能，",
+		"可以炼化出一些不得了的东西。"
 	],
 	dependencies: [
 		"2d90bfa2",

@@ -136,7 +136,7 @@ herodotus.quests.6794529b.text.1=强化玻璃瓶可以存储小于一桶的任�
 herodotus.quests.657d9db3.title=矿物处理
 herodotus.quests.37ed0f0a.title=含油地层（满）
 
-herodotus.quests.2d90bfa2.title=点火架锅
+herodotus.quests.2d90bfa2.title=基础热力热熔机
 herodotus.quests.2eda9938.title=《动植物能量提取概论和灵气运用简述及人造生物的可行性分析与危害概述》
 herodotus.quests.cbf24504.text.1=通过替换蒸汽锅炉结构中的特定方块，可以给蒸汽锅炉提供无限水
 
@@ -297,8 +297,8 @@ herodotus.quests.ede45a70.text.1=击杀移动肉块可以获得秩序源质
 herodotus.quests.6900d815.text.1=持一污染源质安瓿右击银树树苗有小概率在原地创造一佐拉树木结构
 herodotus.quests.6900d815.text.2=破坏佐拉树树叶可以获得佐拉果, 食用会增加临时扭曲和粘性腐化, 并获得一个短暂的饥饿效果
 herodotus.quests.6900d815.text.3=在这段时间使用生肉可以增加lp, 当玩家lp达到1k后饮用一瓶水银，获得一系列debuff 获得少量永久腐化并损失一点血量上限 得到一个血肉团
-herodotus.quests.55f6131a.title=烈火炼金
-herodotus.quests.55f6131a.text.1=刚才应该是饿了，满脑子都是吃的。
+herodotus.quests.55f6131a.title=源质高炉
+herodotus.quests.55f6131a.text.1=
 herodotus.quests.11d66470.text.1=世界盐可以转化橡木变为宏伟之木
 
 herodotus.quests.5f5f548f.text.1=有一个碗状的容器, 应该可以在现有条件下最大程度减少不必要的消耗
@@ -307,14 +307,3 @@ herodotus.quests.2250867c.title=food
 herodotus.quests.8d9933a0.title=chiselBlock
 herodotus.quests.af820bd4.title=灵气装配机
 herodotus.quests.176e6145.title=炼金塔
-herodotus.quests.a29ae9b6.title=炼金基材
-herodotus.quests.a29ae9b6.text.1=我相信，这台机器的潜力不止于此。
-herodotus.quests.a29ae9b6.text.2=我想起有一种这样的材料，
-herodotus.quests.a29ae9b6.text.3=它优良的材料特性和对魔法的亲和性，
-herodotus.quests.a29ae9b6.text.4=或许能实现我对神秘力量的野心。
-herodotus.quests.55f6131a.text.2=填饱了肚子以后，我发现，
-herodotus.quests.55f6131a.text.3=刚才随手获得的这些材料和热能，
-herodotus.quests.55f6131a.text.4=可以炼化出一些不得了的东西。
-herodotus.quests.2d90bfa2.text.1=现在我知道这种子能种出银树来，
-herodotus.quests.2d90bfa2.text.2=可是银树又不能吃，有啥用嘛。
-herodotus.quests.2d90bfa2.text.3=我印象中可以用这台机器把它煮了吃。

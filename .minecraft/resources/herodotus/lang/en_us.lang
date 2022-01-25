@@ -123,7 +123,7 @@ herodotus.quests.6794529b.text.1=Hardened glass bottles could storage any fluids
 herodotus.quests.657d9db3.title=Ore Processing
 herodotus.quests.37ed0f0a.title=Oil Source (Full)
 
-herodotus.quests.2d90bfa2.title=点火架锅
+herodotus.quests.2d90bfa2.title=Basic Thermal Melting Machine
 herodotus.quests.2eda9938.title=«An Introduction to Energy Extraction from Creatures, And the Feasibility & Harm of Artificial Organisms»
 herodotus.quests.cbf24504.text.1=By replacing a specific block in the boiler structure, to provide the boiler with infinity water.
 
@@ -288,8 +288,8 @@ herodotus.quests.ede45a70.text.1=Kill the moving flesh to get the order aspect.
 herodotus.quests.6900d815.text.1=Holding a polluted aspect ampoule and right-clicking on the silver tree sapling has a small chance of creating a Zorra tree structure in place.
 herodotus.quests.6900d815.text.2=Destroying the leaves of the Zorra tree can get Zorra fruit, eating it will increase temporary warp and sticky taint, and obtain a short-term hunger effect.
 herodotus.quests.6900d815.text.3=Eating raw meat during this time can increase LP. When LP reaches 1000, drink a bottle of mercury, get a series of debuffs, get a small amount of permanent taint and lose a little HP limit, get a flesh bolus.
-herodotus.quests.55f6131a.title=烈火炼金
-herodotus.quests.55f6131a.text.1=刚才应该是饿了，满脑子都是吃的。
+herodotus.quests.55f6131a.title=Aspect Blast Furnace
+herodotus.quests.55f6131a.text.1=
 herodotus.quests.11d66470.text.1=Salis Mundus could transfer the oak woods into great woods.
 
 herodotus.quests.5f5f548f.text.1=With a bowl shaped container, I should be able to minimize the unnecessary losses in the current situation.
@@ -298,14 +298,3 @@ herodotus.quests.2250867c.title=food
 herodotus.quests.8d9933a0.title=chiselBlock
 herodotus.quests.af820bd4.title=灵气装配机
 herodotus.quests.176e6145.title=炼金塔
-herodotus.quests.a29ae9b6.title=炼金基材
-herodotus.quests.a29ae9b6.text.1=我相信，这台机器的潜力不止于此。
-herodotus.quests.a29ae9b6.text.2=我想起有一种这样的材料，
-herodotus.quests.a29ae9b6.text.3=它优良的材料特性和对魔法的亲和性，
-herodotus.quests.a29ae9b6.text.4=或许能实现我对神秘力量的野心。
-herodotus.quests.55f6131a.text.2=填饱了肚子以后，我发现，
-herodotus.quests.55f6131a.text.3=刚才随手获得的这些材料和热能，
-herodotus.quests.55f6131a.text.4=可以炼化出一些不得了的东西。
-herodotus.quests.2d90bfa2.text.1=现在我知道这种子能种出银树来，
-herodotus.quests.2d90bfa2.text.2=可是银树又不能吃，有啥用嘛。
-herodotus.quests.2d90bfa2.text.3=我印象中可以用这台机器把它煮了吃。
