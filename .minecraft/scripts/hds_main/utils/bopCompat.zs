@@ -5,13 +5,16 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
 import mods.dropt.Dropt;
-import mods.dropt.RuleList;
 import mods.dropt.Range;
+import mods.dropt.RuleList;
 import mods.dropt.Harvester;
+import mods.pyrotech.CompostBin;
 import mods.pyrotech.CompactingBin;
+import mods.inworldcrafting.FluidToItem;
 import scripts.hds_main.utils.modloader.isInvalid;
 import scripts.grassUtils.StringHelper;
 import scripts.grassUtils.RecipeUtils;
+
 
 function cbRecipe(output as IItemStack, input as IIngredient) {
     CompactingBin.addRecipe("bop_compat_"~ output.name, output, input, input.amount, true);
@@ -29,7 +32,6 @@ val grassBlocks as IItemStack[][IItemStack] = {
 };
 
 val dirtBlocks as IItemStack[IItemStack] = {
-    // TODO: support farmland?
     <biomesoplenty:dirt:8>: <contenttweaker:coarse_loamy_dirt_clump>,
     <biomesoplenty:dirt>: <contenttweaker:loamy_dirt_clump>,
     <biomesoplenty:dirt:9>: <contenttweaker:coarse_sandy_dirt_clump>,
@@ -43,14 +45,26 @@ val dirtBlocks as IItemStack[IItemStack] = {
 };
 
 val farmlandSupport as IItemStack[][IItemStack] = {
-    <contenttweaker:loamy_dirt_clump> : [<biomesoplenty:farmland_0:0>, <biomesoplenty:farmland_0:14>],
-    <contenttweaker:sandy_dirt_clump> : [<biomesoplenty:farmland_0:1>, <biomesoplenty:farmland_0:15>],
-    <contenttweaker:silty_dirt_clump> : [<biomesoplenty:farmland_1:0>, <biomesoplenty:farmland_0:14>]
+    <contenttweaker:loamy_dirt_clump> : [<biomesoplenty:farmland_0:0>, <biomesoplenty:farmland_0:14>, <biomesoplenty:farmland_0:12>, <biomesoplenty:farmland_0:10>, <biomesoplenty:farmland_0:8>, <biomesoplenty:farmland_0:6>, <biomesoplenty:farmland_0:4>, <biomesoplenty:farmland_0:2>],
+    <contenttweaker:sandy_dirt_clump> : [<biomesoplenty:farmland_0:1>, <biomesoplenty:farmland_0:15>, <biomesoplenty:farmland_0:13>, <biomesoplenty:farmland_0:11>, <biomesoplenty:farmland_0:9>, <biomesoplenty:farmland_0:7>, <biomesoplenty:farmland_0:5>, <biomesoplenty:farmland_0:3>],
+    <contenttweaker:silty_dirt_clump> : [<biomesoplenty:farmland_1:0>, <biomesoplenty:farmland_0:14>, <biomesoplenty:farmland_1:12>, <biomesoplenty:farmland_1:10>, <biomesoplenty:farmland_1:8>, <biomesoplenty:farmland_1:6>, <biomesoplenty:farmland_1:4>, <biomesoplenty:farmland_1:2>]
 };
 
 val stoneBlocks as IItemStack[IItemStack] = {
     <biomesoplenty:white_sandstone>: <contenttweaker:white_sandstone_rock>
 };
+
+val normalGrasses as IItemStack[] = [
+    <biomesoplenty:plant_0>, <biomesoplenty:plant_0:1>, <biomesoplenty:plant_0:7>, <biomesoplenty:plant_0:10>
+];
+
+val driedGrasses as IItemStack[] = [
+    <biomesoplenty:plant_0:13>, <biomesoplenty:plant_0:14>, <biomesoplenty:plant_1>
+];
+
+val wetGrasses as IItemStack[] = [
+    <biomesoplenty:plant_0:8>, <biomesoplenty:plant_1:7>
+];
 
 if(!isInvalid){
     val explosion as Harvester = Dropt.harvester().type("EXPLOSION");
@@ -64,6 +78,71 @@ if(!isInvalid){
     val stonePickaxe as Harvester = Dropt.harvester().type("PLAYER").mainHand("BLACKLIST", [], "pickaxe;2;-1");
     val anyPickaxe as Harvester = Dropt.harvester().type("PLAYER").mainHand("WHITELIST", [], "pickaxe;-1;-1");
     val strangeTuber as IItemStack = <pyrotech:strange_tuber>;
+    val plantFibers as IItemStack = <pyrotech:material:12>;
+    val plantFibersDried as IItemStack = <pyrotech:material:13>;
+
+    for grass in normalGrasses {
+        var matchBlocks as string[] = [StringHelper.getItemName(grass)];
+        root.add(Dropt.rule()
+            .matchBlocks(matchBlocks)
+            .matchHarvester(emptyHand)
+            .replaceStrategy("ADD")
+            .addDrop(Dropt.drop().items([plantFibers], Dropt.range(1, 2)).selector(Dropt.weight(35)))
+            .addDrop(Dropt.drop().items([plantFibersDried], Dropt.range(1, 2)).selector(Dropt.weight(5)))
+            .addDrop(Dropt.drop().items([strangeTuber], Dropt.range(1, 2)).selector(Dropt.weight(2)))
+        );
+        root.add(Dropt.rule()
+            .matchBlocks(matchBlocks)
+            .matchHarvester(Dropt.harvester().type("PLAYER"))
+            .replaceStrategy("ADD")
+            .addDrop(Dropt.drop().items([plantFibers], Dropt.range(1, 2)).selector(Dropt.weight(35)))
+            .addDrop(Dropt.drop().items([plantFibersDried], Dropt.range(1, 2)).selector(Dropt.weight(5)))
+        );
+        recipes.addShapeless("bop_compat_"~ StringHelper.getItemNameWithUnderline(grass), plantFibers, [grass]);
+        FluidToItem.transform(<astralsorcery:blockcustomflower> * 4, <liquid:astralsorcery.liquidstarlight>, [grass * 4], true);
+        CompostBin.addRecipe(<pyrotech:mulch>, grass);
+    }
+
+    for grass in driedGrasses {
+        var matchBlocks as string[] = [StringHelper.getItemName(grass)];
+        root.add(Dropt.rule()
+            .matchBlocks(matchBlocks)
+            .matchHarvester(emptyHand)
+            .replaceStrategy("ADD")
+            .addDrop(Dropt.drop().selector(Dropt.weight(70)))
+            .addDrop(Dropt.drop().items([plantFibersDried], Dropt.range(1, 2)).selector(Dropt.weight(50)))
+        );
+        root.add(Dropt.rule()
+            .matchBlocks(matchBlocks)
+            .matchHarvester(Dropt.harvester().type("PLAYER"))
+            .replaceStrategy("ADD")
+            .addDrop(Dropt.drop().selector(Dropt.weight(70)))
+            .addDrop(Dropt.drop().items([plantFibersDried], Dropt.range(1, 2)).selector(Dropt.weight(50)))
+        );
+        recipes.addShapeless("bop_compat_"~ StringHelper.getItemNameWithUnderline(grass), plantFibersDried, [grass]);
+    }
+
+    for grass in wetGrasses {
+        var matchBlocks as string[] = [StringHelper.getItemName(grass)];
+        root.add(Dropt.rule()
+            .matchBlocks(matchBlocks)
+            .matchHarvester(emptyHand)
+            .replaceStrategy("ADD")
+            .addDrop(Dropt.drop().selector(Dropt.weight(70)))
+            .addDrop(Dropt.drop().items([plantFibers], Dropt.range(1, 2)).selector(Dropt.weight(50)))
+        );
+        root.add(Dropt.rule()
+            .matchBlocks(matchBlocks)
+            .matchHarvester(Dropt.harvester().type("PLAYER"))
+            .replaceStrategy("ADD")
+            .addDrop(Dropt.drop().selector(Dropt.weight(70)))
+            .addDrop(Dropt.drop().items([plantFibers], Dropt.range(1, 2)).selector(Dropt.weight(50)))
+        );
+        recipes.addShapeless("bop_compat_"~ StringHelper.getItemNameWithUnderline(grass), plantFibers, [grass]);
+        FluidToItem.transform(<astralsorcery:blockcustomflower> * 4, <liquid:astralsorcery.liquidstarlight>, [grass * 4], true);
+        CompostBin.addRecipe(<pyrotech:mulch>, grass);
+    }
+
 
     for dirtClump, blocks in farmlandSupport {
         for block in blocks {
@@ -155,7 +234,7 @@ if(!isInvalid){
             .addDrop(Dropt.drop().items([grassClump], Dropt.range(1, 3)).selector(Dropt.weight(1), "EXCLUDED"))
         );
         cbRecipe(block, grassClump * 8);
-        recipes.addShapeless("bop_compat_"~ grassClump.name, grassClump, <pyrotech:material:12>);
+        recipes.addShapeless("bop_compat_"~ StringHelper.getItemNameWithUnderline(grassClump), <pyrotech:material:12>, [grassClump]);
     }
     for block, dirtClump in dirtBlocks {
         var matchBlocks as string[] = [StringHelper.getItemName(block)];
