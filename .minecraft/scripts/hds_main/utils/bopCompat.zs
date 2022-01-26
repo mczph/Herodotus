@@ -294,13 +294,17 @@ if(!isInvalid){
         recipes.addShaped(StringHelper.getItemNameWithUnderline(block) + "_from_rock", block, RecipeUtils.createSurround(<pyrotech:material:17>, rock));
     }
 
-    Dropt.list("bop_compact")
-        .add(Dropt.rule()
-            .replaceStrategy("ADD")
-            .matchBlocks(["biomesoplenty:leaves_*:*"])
-            .addDrop(Dropt.drop()
-                .selector(Dropt.weight(85))
-                .items([<minecraft:stick>])
-            )
-        );
+    for i in 0 .. 6 {
+        Dropt.list("bop_compact")
+            .add(Dropt.rule()
+                .replaceStrategy("ADD")
+                .matchBlocks(["biomesoplenty:leaves_" ~ i ~ ":*"])
+                .addDrop(Dropt.drop()
+                    .selector(Dropt.weight(85))
+                    .items([<minecraft:stick>])
+                )
+                .addDrop(Dropt.drop().selector(Dropt.weight(50)))
+            );
+    }
+
 }
