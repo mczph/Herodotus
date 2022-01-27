@@ -21,6 +21,7 @@
 !/.minecraft/config/enderio/recipes/user/recipes.xsd
 /.minecraft/config/enderio/painter_paint_sources_core.xml
 /.minecraft/config/enderio/painter_paint_sources_user.xml
+!/.minecraft/config/growthcraft/*.cfg
 
 /.minecraft/config/tellme/*
 /.minecraft/config/jei/worldSettings.cfg
@@ -53,7 +54,6 @@
 /.minecraft/config/topography/documentation
 /.minecraft/config/topography/examples
 /.minecraft/config/topography/images
-/.minecraft/config/growthcraft/
 /.minecraft/config/growthcraft/bees/*.json.default
 /.minecraft/config/growthcraft/cellar/*.json.default
 /.minecraft/config/growthcraft/milk/*.json.default
