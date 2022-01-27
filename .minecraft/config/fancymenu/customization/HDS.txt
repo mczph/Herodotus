@@ -90,8 +90,8 @@ customization {
 customization {
   orientation = top-centered
   restartbackgroundanimations = true
-  buttonaction = opengui
-  backgroundhovered = resources\mainmenu\realms_hover.png
+  buttonaction = openlink
+  backgroundhovered = resources\mainmenu\wiki_hover.png
   label = 
   loopbackgroundanimations = true
   x = 153
@@ -99,8 +99,8 @@ customization {
   actionid = f0308b94-dd7b-4d65-8154-bd8ae9f5906d1628392409544
   action = addbutton
   y = 93
-  backgroundnormal = resources\mainmenu\realms.png
-  value = net.minecraft.client.gui.GuiScreenRealmsProxy
+  backgroundnormal = resources\mainmenu\wiki.png
+  value = https://www.mcmod.cn/modpack/257.html
   height = 38
 }
 
