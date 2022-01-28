@@ -12,23 +12,6 @@ RecipeUtils.recipeTweak(true, <pneumaticcraft:armor_upgrade>,
 	createCrossWithCore(<ore:ingotIronCompressed>, <ore:rhombusTierTwoBlue>, <ore:lightPlateLead>)
 );
 
-RecipeUtils.recipeTweak(true, <storagenetwork:controller>, 
-	createCrossWithCore(<ore:obsidian>, <storagenetwork:process_kabel>, <ore:rhombusTierTwoBlue>)
-);
-
-RecipeUtils.recipeTweak(true, <storagenetwork:process_kabel> * 4, 
-	createCrossWithCore(<minecraft:observer>, <ore:nuggetGold>, <storagenetwork:kabel>)
-);
-
-
-RecipeUtils.recipeTweak(true, <storagenetwork:inventory>, 
-	createCrossWithCore(<ore:chest>, <ore:nuggetIron>, <storagenetwork:kabel>)
-);
-
-RecipeUtils.recipeTweak(true, <storagenetwork:request>, 
-	createCrossWithCore(<storagenetwork:inventory>, <ore:ingotGold>, <storagenetwork:kabel>)
-);
-
 RecipeUtils.recipeTweak(true, <storagenetwork:master>, 
 	createCrossWithCore(<ore:gemFlawlessGlimmerite>, <ore:blockQuartz>, <storagenetwork:kabel>)
 );
@@ -37,6 +20,12 @@ RecipeUtils.recipeTweak(true, <storagenetwork:kabel> * 8, [
 	[<ore:plasticGray>, <ore:plasticGray>, <ore:plasticGray>],
 	[<ore:plateTin>, null,<ore:plateTin>],
 	[<ore:plasticGray>, <ore:plasticGray>, <ore:plasticGray>]
+]);
+
+RecipeUtils.recipeTweak(true, <storagenetwork:remote:3>, [
+	[<ore:plasticGreen>, <ore:dustAstralStarmetal>, <ore:plasticGreen>],
+	[<ore:plasticGray>, <tconstruct:clear_glass>, <ore:plasticGray>],
+	[<ore:plasticGreen>, <ore:plasticGray>, <ore:plasticGreen>]
 ]);
 
 RecipeUtils.recipeTweak(true, <pneumaticcraft:speed_upgrade>, 
