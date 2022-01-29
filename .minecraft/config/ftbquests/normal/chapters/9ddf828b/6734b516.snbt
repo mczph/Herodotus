@@ -2,8 +2,8 @@
 	x: -4.75d,
 	y: -1.5d,
 	text: [
-		"如果在工作台上预设一个接口",
-		"就可以将工具箱连接至工作台上 应该能减少一部分工作量？"
+		"{herodotus.quests.6734b516.text.1}",
+		"{herodotus.quests.6734b516.text.2}"
 	],
 	dependencies: [
 		"2bfd6bb4"

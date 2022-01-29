@@ -2,8 +2,8 @@
 	x: 5.25d,
 	y: -0.5d,
 	text: [
-		"我需要一些比蓝色更具有laguz性质的东西",
-		"希望能在河流里面有所发现"
+		"{herodotus.quests.c5dddc4b.text.1}",
+		"{herodotus.quests.c5dddc4b.text.2}"
 	],
 	dependencies: [
 		"157043cb"

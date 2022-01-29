@@ -2,7 +2,7 @@
 	x: 13.25d,
 	y: -0.5d,
 	text: [
-		"金属拥有了一部分新特质 但同时金属性能也有显著的下降"
+		"{herodotus.quests.8b11f422.text.1}"
 	],
 	dependencies: [
 		"a00ca322"

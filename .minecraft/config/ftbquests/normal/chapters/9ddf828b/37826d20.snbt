@@ -2,8 +2,8 @@
 	x: -0.75d,
 	y: 0.5d,
 	text: [
-		"我需要一个比简单的连根拔起更好的收割方案",
-		"如果能有个工具辅助着将分支割下收集可能会更好？"
+		"{herodotus.quests.37826d20.text.1}",
+		"{herodotus.quests.37826d20.text.2}"
 	],
 	tasks: [{
 		uid: "55bc4921",

@@ -2,8 +2,8 @@
 	x: -0.75d,
 	y: -3.5d,
 	text: [
-		"我们需要一种更具粘性的材料",
-		"希望通过杂交能过获得满意的条件"
+		"{herodotus.quests.30108d5f.text.1}",
+		"{herodotus.quests.30108d5f.text.2}"
 	],
 	tasks: [{
 		uid: "4935b6af",

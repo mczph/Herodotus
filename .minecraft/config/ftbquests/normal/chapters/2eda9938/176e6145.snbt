@@ -3,7 +3,7 @@
 	x: 18.0d,
 	y: 0.0d,
 	text: [
-		"我需要一台有效的机器 为我操控源质提供一定的方便"
+		"{herodotus.quests.176e6145.text.1}"
 	],
 	dependencies: [
 		"11d66470"

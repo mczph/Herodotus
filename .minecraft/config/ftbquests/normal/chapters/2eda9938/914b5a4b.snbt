@@ -2,9 +2,9 @@
 	x: 18.0d,
 	y: -2.0d,
 	text: [
-		"我看着肉块在我眼前交织 增殖 膨胀 ",
-		"随着一声脆响 它变成了各色怪物 其中有一种背上背着囊肿",
-		"希望里面能有培育生物需要的营养物质"
+		"{herodotus.quests.914b5a4b.text.1}",
+		"{herodotus.quests.914b5a4b.text.2}",
+		"{herodotus.quests.914b5a4b.text.3}"
 	],
 	dependencies: [
 		"ede45a70"

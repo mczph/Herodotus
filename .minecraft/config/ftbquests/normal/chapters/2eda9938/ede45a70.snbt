@@ -2,9 +2,9 @@
 	x: 16.0d,
 	y: -2.0d,
 	text: [
-		"我看着前方蠕动扭曲的肉块 心中泛起了一阵恶心",
-		"将其击杀后 却不知从哪里冲出一股清气 让我疲劳的精神为之一震",
-		"如果副手拿着一个安瓿能不能将它装起来呢"
+		"{herodotus.quests.ede45a70.text.1}",
+		"{herodotus.quests.ede45a70.text.2}",
+		"{herodotus.quests.ede45a70.text.3}"
 	],
 	dependencies: [
 		"310c522c"

@@ -2,8 +2,8 @@
 	x: 28.0d,
 	y: 0.0d,
 	text: [
-		"我尝试在其上种植普通作物 似乎没有任何反应 可能只有带有魔力的基础种子才能接受其改造",
-		"而催生而来的种子似乎也只能在其上生长"
+		"{herodotus.quests.04d5512b.text.1}",
+		"{herodotus.quests.04d5512b.text.2}"
 	],
 	dependencies: [
 		"64e2c01e",

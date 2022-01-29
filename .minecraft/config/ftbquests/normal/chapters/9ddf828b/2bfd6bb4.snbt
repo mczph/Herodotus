@@ -2,9 +2,9 @@
 	x: -2.75d,
 	y: -1.5d,
 	text: [
-		"虽然能用的工具没有变化",
-		"但是对台面进行修改之后 可以更方便的放置需要使用的材料",
-		"使用起来可能也会更舒服吧"
+		"{herodotus.quests.2bfd6bb4.text.1}",
+		"{herodotus.quests.2bfd6bb4.text.2}",
+		"{herodotus.quests.2bfd6bb4.text.3}"
 	],
 	dependencies: [
 		"a956c7a8"

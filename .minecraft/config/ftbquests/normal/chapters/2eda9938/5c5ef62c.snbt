@@ -1,10 +1,10 @@
 {
-	title: "无上庇护",
+	title: "{herodotus.quests.5c5ef62c.title}",
 	x: 20.0d,
 	y: -6.0d,
 	text: [
-		"携带这个护身符  我便能无处不至",
-		"可以前往裂缝中撕裂出一条全新的道路"
+		"{herodotus.quests.5c5ef62c.text.1}",
+		"{herodotus.quests.5c5ef62c.text.2}"
 	],
 	dependencies: [
 		"af820bd4"

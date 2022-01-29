@@ -2,9 +2,9 @@
 	x: 3.25d,
 	y: -3.5d,
 	text: [
-		"将三种颜色进行混合就得到了一种新的颜色。。。吗？",
-		"好像不对 这种黑色并不如其他颜色一般带有某种性质",
-		"只剩下混沌改造周围物品的性能"
+		"{herodotus.quests.482f0222.text.1}",
+		"{herodotus.quests.482f0222.text.2}",
+		"{herodotus.quests.482f0222.text.3}"
 	],
 	dependencies: [
 		"a232d0a8"

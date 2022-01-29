@@ -1,10 +1,10 @@
 {
-	title: "丰盈满溢",
+	title: "{herodotus.quests.37ed0f0a.title}",
 	x: 21.25d,
 	y: -2.5d,
 	text: [
-		"黑色染料攀附其上 逐渐被空置的含油页岩吸收",
-		"其中的油料逐渐恢复"
+		"{herodotus.quests.37ed0f0a.text.1}",
+		"{herodotus.quests.37ed0f0a.text.2}"
 	],
 	dependencies: [
 		"8621cb22"

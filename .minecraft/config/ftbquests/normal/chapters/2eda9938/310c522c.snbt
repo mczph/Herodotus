@@ -2,9 +2,9 @@
 	x: 14.0d,
 	y: -2.0d,
 	text: [
-		"我将粘浆分解又重组 得到了一种相对更稳定的流体",
-		"摸起来有严重的刺痛撕裂感 仿佛有什么尝试将我重组",
-		"如果任由它将生物进行吞噬会发生什么呢"
+		"{herodotus.quests.310c522c.text.1}",
+		"{herodotus.quests.310c522c.text.2}",
+		"{herodotus.quests.310c522c.text.3}"
 	],
 	dependencies: [
 		"780dd5b4"

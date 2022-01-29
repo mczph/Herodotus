@@ -2,8 +2,8 @@
 	x: -0.75d,
 	y: -1.5d,
 	text: [
-		"普通的砧已经没法满足我敲制时的需求了",
-		"我需要一个更好的砧"
+		"{herodotus.quests.a956c7a8.text.1}",
+		"{herodotus.quests.a956c7a8.text.2}"
 	],
 	tasks: [{
 		uid: "c10a2d8c",

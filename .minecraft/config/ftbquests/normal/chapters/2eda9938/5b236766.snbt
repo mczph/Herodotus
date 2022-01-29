@@ -2,8 +2,8 @@
 	x: 28.0d,
 	y: -6.0d,
 	text: [
-		"在其周围布置下催化祭坛  使用正确的种子进行聚能仪式",
-		"希望能够提升种子活力"
+		"{herodotus.quests.5b236766.text.1}",
+		"{herodotus.quests.5b236766.text.2}"
 	],
 	dependencies: [
 		"78efc57f"

@@ -2,7 +2,7 @@
 	x: 15.25d,
 	y: -4.5d,
 	text: [
-		"所以为什么这些东西能几乎自动的运转呢。"
+		"{herodotus.quests.e29635fe.text.1}"
 	],
 	dependencies: [
 		"514bb536"

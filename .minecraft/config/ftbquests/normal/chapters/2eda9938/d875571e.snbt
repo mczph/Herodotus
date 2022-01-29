@@ -2,7 +2,7 @@
 	x: 22.0d,
 	y: -6.0d,
 	text: [
-		"这种石头不能说罕见 我能想到最好的形容词是似是而非"
+		"{herodotus.quests.d875571e.text.1}"
 	],
 	dependencies: [
 		"5c5ef62c"

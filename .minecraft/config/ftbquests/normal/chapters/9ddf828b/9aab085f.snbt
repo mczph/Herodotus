@@ -2,9 +2,9 @@
 	x: 11.25d,
 	y: 3.5d,
 	text: [
-		"“用线缆将箱子连接至主机”",
-		"“使用终端右击主机进行标记”",
-		"“简明储存网络使用指北摘要”"
+		"{herodotus.quests.9aab085f.text.1}",
+		"{herodotus.quests.9aab085f.text.2}",
+		"{herodotus.quests.9aab085f.text.3}"
 	],
 	dependencies: [
 		"b8d34de9"
