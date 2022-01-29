@@ -1,6 +1,6 @@
 {
-	x: 14.75d,
-	y: -0.75d,
+	x: 11.25d,
+	y: -0.5d,
 	dependencies: [
 		"e6e5a9bb"
 	],
@@ -8,6 +8,9 @@
 		uid: "a27afd26",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "lively_water",

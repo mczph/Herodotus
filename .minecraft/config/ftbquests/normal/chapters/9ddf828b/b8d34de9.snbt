@@ -1,8 +1,9 @@
 {
-	x: 8.75d,
-	y: 1.0d,
+	x: 11.25d,
+	y: 1.5d,
 	text: [
-		"{herodotus.quests.b8d34de9.text.1}"
+		"我将固态熔融塑料块放在地上",
+		"尝试完整的分离出一个塑料单片"
 	],
 	dependencies: [
 		"378ffe18"

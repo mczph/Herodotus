@@ -1,14 +1,18 @@
 {
-	x: -0.25d,
-	y: 0.25d,
-	dependencies: [
-		"05306cbe"
+	x: -0.75d,
+	y: 0.5d,
+	text: [
+		"我需要一个比简单的连根拔起更好的收割方案",
+		"如果能有个工具辅助着将分支割下收集可能会更好？"
 	],
 	tasks: [{
 		uid: "55bc4921",
 		type: "item",
 		items: [{
-			item: "prodigytech:crystal_cutter"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "prodigytech:crystal_cutter"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

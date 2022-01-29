@@ -1,16 +1,20 @@
 {
-	title: "{herodotus.quests.37ed0f0a.title}",
-	x: 24.0d,
-	y: -2.25d,
+	title: "丰盈满溢",
+	x: 21.25d,
+	y: -2.5d,
 	text: [
-		"{herodotus.quests.37ed0f0a.text.1}"
+		"黑色染料攀附其上 逐渐被空置的含油页岩吸收",
+		"其中的油料逐渐恢复"
 	],
 	dependencies: [
 		"8621cb22"
 	],
 	tasks: [{
-		uid: "583d56be",
-		type: "checkmark",
-		icon: "magneticraft:oil_source"
+		uid: "029fe98a",
+		type: "observation",
+		icon: "magneticraft:oil_source",
+		match_type: "block_id",
+		match: "magneticraft:oil_source",
+		timer: 0L
 	}]
 }

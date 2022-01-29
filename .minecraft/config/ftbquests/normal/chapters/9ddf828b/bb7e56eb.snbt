@@ -1,6 +1,6 @@
 {
-	x: 5.75d,
-	y: 1.0d,
+	x: 7.25d,
+	y: 1.5d,
 	dependencies: [
 		"1af8784e"
 	],
@@ -8,6 +8,9 @@
 		uid: "486c5129",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "light_oil",

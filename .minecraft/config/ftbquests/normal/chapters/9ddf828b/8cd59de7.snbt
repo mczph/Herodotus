@@ -1,8 +1,9 @@
 {
-	x: 16.25d,
-	y: 3.5d,
+	x: 21.25d,
+	y: 4.5d,
 	text: [
-		"{herodotus.quests.8cd59de7.text.1}"
+		"“全能工具！您身边的建筑帮手！”",
+		"“需要在工作台中定期填补油料”"
 	],
 	dependencies: [
 		"e4961889"
@@ -11,7 +12,10 @@
 		uid: "1b3dc891",
 		type: "item",
 		items: [{
-			item: "hdsutils:oil_aiot"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "hdsutils:oil_aiot"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

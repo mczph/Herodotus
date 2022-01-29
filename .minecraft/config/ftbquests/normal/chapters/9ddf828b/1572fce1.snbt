@@ -1,6 +1,6 @@
 {
-	x: 19.5d,
-	y: 1.0d,
+	x: 25.25d,
+	y: 1.5d,
 	dependencies: [
 		"780010b7",
 		"19aea545"
@@ -9,16 +9,16 @@
 		uid: "15ba7459",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotNickel",
+					id: "ore"
+				}
+			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotNickel"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "ingotNickel"
 				}
 			}
 		}]

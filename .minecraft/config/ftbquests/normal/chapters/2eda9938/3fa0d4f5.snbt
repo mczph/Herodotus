@@ -11,24 +11,12 @@
 		uid: "6cffced3",
 		type: "item",
 		items: [{
-			item: "thaumcraft:primordial_pearl"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:primordial_pearl"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "f5710513",
-		type: "item",
-		item: {
-			id: "simple_trophies:trophy",
-			tag: {
-				TrophyItem: {
-					id: "thaumcraft:primordial_pearl",
-					Count: 1b,
-					Damage: 0s
-				},
-				TrophyShowsTooltip: 0b
-			}
-		}
 	}]
 }

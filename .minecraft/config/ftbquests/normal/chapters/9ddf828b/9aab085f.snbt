@@ -1,6 +1,11 @@
 {
-	x: 8.75d,
-	y: 2.25d,
+	x: 11.25d,
+	y: 3.5d,
+	text: [
+		"“用线缆将箱子连接至主机”",
+		"“使用终端右击主机进行标记”",
+		"“简明储存网络使用指北摘要”"
+	],
 	dependencies: [
 		"b8d34de9"
 	],
@@ -10,6 +15,20 @@
 		type: "item",
 		items: [{
 			item: "storagenetwork:master"
+		}]
+	},
+	{
+		uid: "07b1eb52",
+		type: "item",
+		items: [{
+			item: "storagenetwork:simple_kabel"
+		}]
+	},
+	{
+		uid: "b3f17506",
+		type: "item",
+		items: [{
+			item: "storagenetwork:kabel"
 		}]
 	}]
 }

@@ -1,7 +1,7 @@
 {
 	icon: "magneticraft:hydraulic_press",
-	x: 2.75d,
-	y: -0.75d,
+	x: 3.25d,
+	y: -0.5d,
 	dependencies: [
 		"c82d0130",
 		"cdbe6fe0"

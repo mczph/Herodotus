@@ -1,6 +1,11 @@
 {
+	title: "无上庇护",
 	x: 20.0d,
 	y: -6.0d,
+	text: [
+		"携带这个护身符  我便能无处不至",
+		"可以前往裂缝中撕裂出一条全新的道路"
+	],
 	dependencies: [
 		"af820bd4"
 	],
@@ -8,7 +13,10 @@
 		uid: "6eb29d18",
 		type: "item",
 		items: [{
-			item: "contenttweaker:void_traveler_amulet"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:void_traveler_amulet"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

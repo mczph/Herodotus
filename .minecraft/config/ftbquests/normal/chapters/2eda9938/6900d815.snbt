@@ -2,9 +2,9 @@
 	x: 12.0d,
 	y: 2.0d,
 	text: [
-		"{herodotus.quests.6900d815.text.1}",
-		"{herodotus.quests.6900d815.text.2}",
-		"{herodotus.quests.6900d815.text.3}"
+		"如果使用污染源质在银树初生之时加以污染与诱导",
+		"便能将圣洁的银木转化为?",
+		"我得用安瓿往上浇灌一点试试"
 	],
 	dependencies: [
 		"25548645"

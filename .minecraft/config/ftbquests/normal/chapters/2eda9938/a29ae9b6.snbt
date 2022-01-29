@@ -1,15 +1,9 @@
 {
-	title: "{herodotus.quests.a29ae9b6.title}",
-	x: 8.0d,
+	x: 6.0d,
 	y: 0.0d,
-	text: [
-		"{herodotus.quests.a29ae9b6.text.1}",
-		"{herodotus.quests.a29ae9b6.text.2}",
-		"{herodotus.quests.a29ae9b6.text.3}",
-		"{herodotus.quests.a29ae9b6.text.4}"
-	],
 	dependencies: [
-		"55f6131a"
+		"55f6131a",
+		"2d90bfa2"
 	],
 	tasks: [{
 		uid: "24ca7a3e",

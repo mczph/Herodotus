@@ -2,7 +2,8 @@
 	x: 14.0d,
 	y: 0.0d,
 	text: [
-		"{herodotus.quests.c41641bc.text.1}"
+		"使用现代科技能够更好的对肉块进行剥离",
+		"能够获得更完整的血肉块"
 	],
 	dependencies: [
 		"ede45a70"

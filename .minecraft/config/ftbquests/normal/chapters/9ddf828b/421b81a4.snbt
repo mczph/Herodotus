@@ -1,6 +1,6 @@
 {
-	x: 16.25d,
-	y: 0.25d,
+	x: 21.25d,
+	y: 0.5d,
 	dependencies: [
 		"69c8cb10"
 	],
@@ -8,6 +8,9 @@
 		uid: "113669d9",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "plastic",

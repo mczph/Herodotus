@@ -1,9 +1,10 @@
 {
+	title: "收集与过滤",
 	x: 10.0d,
 	y: 0.0d,
 	text: [
-		"{herodotus.quests.25548645.text.1}",
-		"{herodotus.quests.25548645.text.2}"
+		"用完的咒波凝结器不要扔",
+		"拿出来将里面的粘浆洗干净 隔壁奇怪生物都馋哭了"
 	],
 	dependencies: [
 		"a29ae9b6"
@@ -13,6 +14,13 @@
 		type: "item",
 		items: [{
 			item: "thaumcraft:condenser_lattice"
+		}]
+	},
+	{
+		uid: "c0e53ec8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:condenser"
 		}]
 	}]
 }
