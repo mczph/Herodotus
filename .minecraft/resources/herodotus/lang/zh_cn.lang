@@ -11,6 +11,7 @@ herodotus.artisan_worktables.material.thaumium=神秘
 
 herodotus.jei.desc.log_basin=手持木盆右击工匠工作台侧边，即可将木盆悬挂在工作台旁。工匠工作台上需要液体的配方，都需要消耗木盆中的液体来完成。
 herodotus.jei.desc.stone_basin=手持石盆右击工匠工作台侧边，即可将石盆悬挂在工作台旁。工匠工作台上需要液体的配方，都需要消耗石盆中的液体来完成。
+herodotus.jei.desc.slime_grass_seed=这种作物喜阴, 最好在亮度低的环境种植, 大约是正常亮度的 1/7.
 
 #一阶
 herodotus.quests.00ada03a.text.1=人类与动物最大的区别在于使用工具，而如果需要制造工具...
