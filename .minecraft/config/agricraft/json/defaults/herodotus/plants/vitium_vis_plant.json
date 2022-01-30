@@ -18,8 +18,8 @@
     "translations": {},
     "default": "Vitium Vis Plant"
   },
-  "growth_chance": 0.0,
-  "growth_bonus": 0.0,
+  "growth_chance": 0.625,
+  "growth_bonus": 0.025,
   "bonemeal": false,
   "tier": 1,
   "weedable": false,
@@ -36,7 +36,7 @@
     "min_light": 7,
     "max_light": 15,
     "soils": [
-      "catalyzed_altar"
+      "farmland_soil"
     ],
     "conditions": []
   },

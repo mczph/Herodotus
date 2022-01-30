@@ -36,7 +36,7 @@
     "min_light": 7,
     "max_light": 15,
     "soils": [
-      "farmland_soil"
+      "catalyzed_altar"
     ],
     "conditions": []
   },
