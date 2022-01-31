@@ -1,0 +1,22 @@
+{
+	icon: "prodigytech:energion_aeroheater",
+	x: 20.0d,
+	y: -6.0d,
+	dependencies: [
+		"34bb5b61"
+	],
+	tasks: [{
+		uid: "f32cae09",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_aeroheater"
+		}]
+	},
+	{
+		uid: "5a49f56b",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_dust"
+		}]
+	}]
+}

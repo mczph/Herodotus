@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 6.0d,
+	text: [
+		"{herodotus.quests.8a41b060.text.1}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f5bbf71d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "10ac5778",
+		type: "item",
+		items: [{
+			item: "pyrotech:shelf"
+		}]
+	}]
+}

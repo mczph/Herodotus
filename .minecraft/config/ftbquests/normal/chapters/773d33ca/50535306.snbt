@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"52339a93"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "536eceb2",
+		type: "item",
+		items: [{
+			item: "pyrotech:faucet_brick"
+		}]
+	}],
+	rewards: [{
+		uid: "a854fbf4",
+		type: "random",
+		table: 0
+	}]
+}

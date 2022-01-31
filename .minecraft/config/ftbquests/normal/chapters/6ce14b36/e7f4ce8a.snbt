@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: 7.75d,
+	text: [
+		"{herodotus.quests.e7f4ce8a.text.1}",
+		"{herodotus.quests.e7f4ce8a.text.2}",
+		"{herodotus.quests.e7f4ce8a.text.3}"
+	],
+	dependencies: [
+		"79c9d2fe"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5d70e74e",
+		type: "item",
+		items: [{
+			item: "pyrotech:bag_simple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a2a9c1d6",
+		type: "random",
+		table: 1
+	}]
+}

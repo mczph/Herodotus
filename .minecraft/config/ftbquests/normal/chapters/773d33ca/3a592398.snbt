@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: -6.0d,
+	dependencies: [
+		"6794529b"
+	],
+	tasks: [{
+		uid: "2bd4e6f7",
+		type: "item",
+		items: [{
+			id: "hdsutils:refined_bottle",
+			tag: {
+				Fluid: {
+					FluidName: "mercury",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

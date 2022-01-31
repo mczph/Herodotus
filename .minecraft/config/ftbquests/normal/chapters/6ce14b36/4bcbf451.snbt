@@ -1,0 +1,19 @@
+{
+	x: 16.0d,
+	y: 1.25d,
+	text: [
+		"{herodotus.quests.4bcbf451.text.1}",
+		"{herodotus.quests.4bcbf451.text.2}",
+		"{herodotus.quests.4bcbf451.text.3}"
+	],
+	dependencies: [
+		"1a636f31"
+	],
+	tasks: [{
+		uid: "cb5f2027",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_crucible"
+		}]
+	}]
+}

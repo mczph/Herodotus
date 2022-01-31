@@ -1,0 +1,18 @@
+{
+	x: 16.0d,
+	y: 0.0d,
+	text: [
+		"{herodotus.quests.e3c09120.text.1}",
+		"{herodotus.quests.e3c09120.text.2}"
+	],
+	dependencies: [
+		"1a636f31"
+	],
+	tasks: [{
+		uid: "7c6368ca",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_kiln"
+		}]
+	}]
+}

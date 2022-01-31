@@ -1,0 +1,27 @@
+{
+	title: "{herodotus.quests.da4a8ede.title}",
+	x: 15.0d,
+	y: 4.0d,
+	text: [
+		"{herodotus.quests.da4a8ede.text.1}",
+		"{herodotus.quests.da4a8ede.text.2}"
+	],
+	dependencies: [
+		"82612819"
+	],
+	tasks: [{
+		uid: "94077cb6",
+		type: "item",
+		items: [{
+			item: "pyrotech:sawmill_blade_stone"
+		},
+		{
+			item: "pyrotech:sawmill_blade_flint"
+		},
+		{
+			item: "pyrotech:sawmill_blade_bone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

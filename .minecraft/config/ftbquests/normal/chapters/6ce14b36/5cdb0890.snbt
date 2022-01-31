@@ -1,0 +1,31 @@
+{
+	title: "{herodotus.quests.5cdb0890.title}",
+	x: 14.0d,
+	y: 0.0d,
+	text: [
+		"{herodotus.quests.5cdb0890.text.1}",
+		"{herodotus.quests.5cdb0890.text.2}",
+		"{herodotus.quests.5cdb0890.text.3}"
+	],
+	dependencies: [
+		"6e9534cd"
+	],
+	tasks: [{
+		uid: "52ef224c",
+		type: "item",
+		items: [{
+			item: "pyrotech:mechanical_hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "9d6fb177",
+		type: "item",
+		item: "pyrotech:mechanical_hopper",
+		count: 3
+	},
+	{
+		uid: "2b9e721c",
+		type: "random",
+		table: 1
+	}]
+}

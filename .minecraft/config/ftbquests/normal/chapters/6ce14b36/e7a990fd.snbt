@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: -5.0d,
+	text: [
+		"{herodotus.quests.e7a990fd.text.1}",
+		"{herodotus.quests.e7a990fd.text.2}"
+	],
+	dependencies: [
+		"cb1c45db"
+	],
+	tasks: [{
+		uid: "96e204c7",
+		type: "item",
+		items: [{
+			item: "pyrotech:compost_bin"
+		}]
+	}],
+	rewards: [{
+		uid: "08b5153e",
+		type: "item",
+		item: "pyrotech:mulch",
+		count: 4
+	}]
+}

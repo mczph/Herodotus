@@ -1,0 +1,17 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	text: [
+		"{herodotus.quests.0f3760e8.text.1}"
+	],
+	dependencies: [
+		"0ebc474b"
+	],
+	tasks: [{
+		uid: "d3b92e19",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_slab 1 5"
+		}]
+	}]
+}

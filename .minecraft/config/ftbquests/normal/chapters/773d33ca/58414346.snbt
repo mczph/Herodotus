@@ -1,0 +1,44 @@
+{
+	title: "{herodotus.quests.58414346.title}",
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"61a03ebd"
+	],
+	tasks: [{
+		uid: "d3cf6807",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBronze"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotBronze"
+				}
+			}
+		}]
+	},
+	{
+		uid: "4994268d",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gearBronze"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gearBronze"
+				}
+			}
+		}]
+	}]
+}

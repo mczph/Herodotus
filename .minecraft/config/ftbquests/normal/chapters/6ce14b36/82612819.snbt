@@ -1,0 +1,19 @@
+{
+	x: 16.0d,
+	y: 4.0d,
+	text: [
+		"{herodotus.quests.82612819.text.1}",
+		"{herodotus.quests.82612819.text.2}",
+		"{herodotus.quests.82612819.text.3}"
+	],
+	dependencies: [
+		"1a636f31"
+	],
+	tasks: [{
+		uid: "ce20005b",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_sawmill"
+		}]
+	}]
+}

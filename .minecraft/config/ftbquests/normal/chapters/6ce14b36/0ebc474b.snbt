@@ -1,0 +1,35 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	text: [
+		"{herodotus.quests.0ebc474b.text.1}",
+		"{herodotus.quests.0ebc474b.text.2}",
+		"{herodotus.quests.0ebc474b.text.3}",
+		"{herodotus.quests.0ebc474b.text.4}",
+		"{herodotus.quests.0ebc474b.text.5}"
+	],
+	dependencies: [
+		"752fcfc3",
+		"790b4ffd"
+	],
+	tasks: [{
+		uid: "dc5870a6",
+		type: "item",
+		items: [{
+			item: "minecraft:stone"
+		}]
+	},
+	{
+		uid: "e13fdf87",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick"
+		}]
+	}],
+	rewards: [{
+		uid: "e13766ed",
+		type: "item",
+		item: "minecraft:stone",
+		count: 4
+	}]
+}

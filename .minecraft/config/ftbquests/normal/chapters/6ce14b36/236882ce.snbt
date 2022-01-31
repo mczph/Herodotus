@@ -1,0 +1,30 @@
+{
+	title: "{herodotus.quests.236882ce.title}",
+	x: 9.0d,
+	y: 3.0d,
+	text: [
+		"{herodotus.quests.236882ce.text.1}"
+	],
+	dependencies: [
+		"6e9534cd",
+		"f5bbf71d"
+	],
+	tasks: [{
+		uid: "8d1810c4",
+		type: "item",
+		items: [{
+			item: "artisanworktables:artisans_trowel_wood"
+		},
+		{
+			item: "artisanworktables:artisans_trowel_stone"
+		},
+		{
+			item: "artisanworktables:artisans_trowel_flint"
+		},
+		{
+			item: "artisanworktables:artisans_trowel_bone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

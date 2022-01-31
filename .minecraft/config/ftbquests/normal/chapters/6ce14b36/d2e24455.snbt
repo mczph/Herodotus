@@ -1,0 +1,28 @@
+{
+	x: 2.0d,
+	y: -6.0d,
+	text: [
+		"{herodotus.quests.d2e24455.text.1}",
+		"{herodotus.quests.d2e24455.text.2}",
+		"{herodotus.quests.d2e24455.text.3}",
+		"{herodotus.quests.d2e24455.text.4}"
+	],
+	dependencies: [
+		"2d037bb7",
+		"cb1c45db"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f67c1841",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}]
+	}],
+	rewards: [{
+		uid: "451c04e5",
+		type: "item",
+		item: "minecraft:wheat_seeds",
+		count: 16
+	}]
+}

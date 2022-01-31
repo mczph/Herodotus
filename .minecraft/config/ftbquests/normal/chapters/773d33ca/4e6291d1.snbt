@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	dependencies: [
+		"4877c784"
+	],
+	tasks: [{
+		uid: "1f86aafb",
+		type: "item",
+		items: [{
+			item: "artisanworkstumps:workstump_jeweler"
+		}],
+		ignore_nbt: 1b
+	}]
+}

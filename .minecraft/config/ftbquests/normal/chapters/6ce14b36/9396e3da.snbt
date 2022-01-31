@@ -1,0 +1,33 @@
+{
+	title: "{herodotus.quests.9396e3da.title}",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"{herodotus.quests.9396e3da.text.1}",
+		"{herodotus.quests.9396e3da.text.2}"
+	],
+	dependencies: [
+		"11a72b92",
+		"0602a478",
+		"00ada03a"
+	],
+	tasks: [{
+		uid: "09812b62",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fe1ab851",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "3fdf1944",
+		type: "item",
+		item: "pyrotech:book"
+	}]
+}

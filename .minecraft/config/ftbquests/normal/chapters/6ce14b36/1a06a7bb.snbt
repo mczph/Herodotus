@@ -1,0 +1,25 @@
+{
+	title: "{herodotus.quests.1a06a7bb.title}",
+	x: 16.0d,
+	y: -2.0d,
+	text: [
+		"{herodotus.quests.1a06a7bb.text.1}",
+		"{herodotus.quests.1a06a7bb.text.2}"
+	],
+	dependencies: [
+		"e3c09120"
+	],
+	optional: true,
+	tasks: [{
+		uid: "abda2b61",
+		type: "item",
+		items: [{
+			item: "pyrotech:bellows"
+		}]
+	}],
+	rewards: [{
+		uid: "8888c9b3",
+		type: "item",
+		item: "pyrotech:bellows"
+	}]
+}

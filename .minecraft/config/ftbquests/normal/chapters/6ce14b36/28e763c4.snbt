@@ -1,0 +1,39 @@
+{
+	title: "{herodotus.quests.28e763c4.title}",
+	x: 14.0d,
+	y: -2.0d,
+	text: [
+		"{herodotus.quests.28e763c4.text.1}",
+		"{herodotus.quests.28e763c4.text.2}",
+		"{herodotus.quests.28e763c4.text.3}",
+		"{herodotus.quests.28e763c4.text.4}",
+		"{herodotus.quests.28e763c4.text.5}"
+	],
+	dependencies: [
+		"5cdb0890"
+	],
+	tasks: [{
+		uid: "fbf76092",
+		type: "item",
+		items: [{
+			item: "pyrotech:cog_flint"
+		},
+		{
+			item: "pyrotech:cog_wood"
+		},
+		{
+			item: "pyrotech:cog_stone"
+		},
+		{
+			item: "pyrotech:cog_bone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b66cf133",
+		type: "item",
+		item: "pyrotech:cog_flint",
+		count: 3
+	}]
+}

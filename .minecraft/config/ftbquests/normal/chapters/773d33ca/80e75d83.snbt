@@ -1,0 +1,40 @@
+{
+	title: "{herodotus.quests.80e75d83.title}",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"{herodotus.quests.80e75d83.text.1}"
+	],
+	dependencies: [
+		"e4277245",
+		"97cd8d8b"
+	],
+	tasks: [{
+		uid: "9c9d3691",
+		type: "item",
+		items: [{
+			item: "pyrotech:igniter 1 1"
+		}]
+	},
+	{
+		uid: "923fc2c6",
+		type: "item",
+		items: [{
+			item: "pyrotech:refractory_door"
+		}]
+	},
+	{
+		uid: "8ed40bed",
+		type: "item",
+		items: [{
+			item: "pyrotech:tar_collector 1 1"
+		}]
+	},
+	{
+		uid: "81c85a00",
+		type: "item",
+		items: [{
+			item: "pyrotech:tar_drain 1 1"
+		}]
+	}]
+}

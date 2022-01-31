@@ -1,0 +1,19 @@
+{
+	x: 13.0d,
+	y: 4.0d,
+	text: [
+		"{herodotus.quests.a4b84cd7.text.1}",
+		"{herodotus.quests.a4b84cd7.text.2}"
+	],
+	dependencies: [
+		"1a636f31"
+	],
+	tasks: [{
+		uid: "58697160",
+		type: "item",
+		items: [{
+			item: "pyrotech:worktable_stone"
+		}],
+		ignore_nbt: 1b
+	}]
+}

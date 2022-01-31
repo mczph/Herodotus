@@ -1,0 +1,26 @@
+{
+	x: 14.0d,
+	y: 2.0d,
+	text: [
+		"{herodotus.quests.1a636f31.text.1}",
+		"{herodotus.quests.1a636f31.text.2}",
+		"{herodotus.quests.1a636f31.text.3}"
+	],
+	dependencies: [
+		"4d034df1",
+		"b1620a21"
+	],
+	tasks: [{
+		uid: "0ee4ede1",
+		type: "item",
+		items: [{
+			item: "artisanworkstumps:workstump_mason"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "141c1037",
+		type: "random",
+		table: 1
+	}]
+}

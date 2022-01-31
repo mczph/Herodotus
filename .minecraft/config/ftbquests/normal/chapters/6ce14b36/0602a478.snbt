@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"{herodotus.quests.0602a478.text.1}",
+		"{herodotus.quests.0602a478.text.2}",
+		"{herodotus.quests.0602a478.text.3}",
+		"{herodotus.quests.0602a478.text.4}"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "44f219a7",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}]
+}

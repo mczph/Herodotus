@@ -1,0 +1,24 @@
+{
+	x: 28.0d,
+	y: 4.0d,
+	text: [
+		"{herodotus.quests.2c30a542.text.1}"
+	],
+	dependencies: [
+		"a80d7df8"
+	],
+	tasks: [{
+		uid: "2dd229b6",
+		type: "item",
+		items: [{
+			item: "hdsutils:copper_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "adcfd90e",
+		type: "random",
+		table: 1
+	}]
+}

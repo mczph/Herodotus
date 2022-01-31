@@ -1,0 +1,33 @@
+{
+	title: "{herodotus.quests.9da8963a.title}",
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		"{herodotus.quests.9da8963a.text.1}",
+		"{herodotus.quests.9da8963a.text.2}",
+		"{herodotus.quests.9da8963a.text.3}",
+		"{herodotus.quests.9da8963a.text.4}",
+		"{herodotus.quests.9da8963a.text.5}"
+	],
+	dependencies: [
+		"41e72f89"
+	],
+	tasks: [{
+		uid: "408fd114",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 12.0d,
+	y: 0.0d,
+	text: [
+		"{herodotus.quests.a0288b62.text.1}",
+		"{herodotus.quests.a0288b62.text.2}",
+		"{herodotus.quests.a0288b62.text.3}"
+	],
+	dependencies: [
+		"6e9534cd"
+	],
+	tasks: [{
+		uid: "dc4fa50a",
+		type: "item",
+		items: [{
+			item: "pyrotech:tar_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "b4158375",
+		type: "item",
+		item: "pyrotech:igniter"
+	}]
+}

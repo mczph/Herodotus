@@ -1,0 +1,30 @@
+{
+	title: "{herodotus.quests.92b63b25.title}",
+	x: 14.0d,
+	y: 4.0d,
+	text: [
+		"{herodotus.quests.92b63b25.text.1}",
+		"{herodotus.quests.92b63b25.text.2}"
+	],
+	dependencies: [
+		"1a636f31"
+	],
+	tasks: [{
+		uid: "ea64f424",
+		type: "item",
+		items: [{
+			item: "artisanworktables:artisans_burner_wood"
+		},
+		{
+			item: "artisanworktables:artisans_burner_stone"
+		},
+		{
+			item: "artisanworktables:artisans_burner_flint"
+		},
+		{
+			item: "artisanworktables:artisans_burner_bone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
