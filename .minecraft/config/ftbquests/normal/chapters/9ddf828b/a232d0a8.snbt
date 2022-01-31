@@ -2,7 +2,7 @@
 	x: 1.25d,
 	y: -3.5d,
 	text: [
-		"{herodotus.jei.desc.slime_grass_seed}"
+		"{herodotus.quests.a232d0a8.text.1}"
 	],
 	dependencies: [
 		"30108d5f"
