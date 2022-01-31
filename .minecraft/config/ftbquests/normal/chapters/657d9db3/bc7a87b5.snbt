@@ -1,0 +1,85 @@
+{
+	title: "{herodotus.quests.bc7a87b5.title}",
+	icon: "contenttweaker:material_part 1 50",
+	x: 5.25d,
+	y: 0.75d,
+	text: [
+		"{herodotus.quests.bc7a87b5.text.1}"
+	],
+	dependencies: [
+		"1b1f72eb"
+	],
+	size: 1.5d,
+	optional: true,
+	tasks: [{
+		uid: "6c8afeee",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBlue"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreBlue"
+				}
+			}
+		}]
+	},
+	{
+		uid: "f0aef5cb",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any poorOreBlue"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "poorOreBlue"
+				}
+			}
+		}]
+	},
+	{
+		uid: "267cc120",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any denseOreBlue"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "denseOreBlue"
+				}
+			}
+		}]
+	},
+	{
+		uid: "d0f350ec",
+		type: "item",
+		items: [{
+			item: "contenttweaker:square"
+		}]
+	}],
+	rewards: [{
+		uid: "7df4c263",
+		type: "item",
+		item: "contenttweaker:material_part 1 52"
+	},
+	{
+		uid: "bb28d6df",
+		type: "random",
+		table: 1
+	}]
+}
