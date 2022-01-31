@@ -9,7 +9,7 @@ if (!isInvalid) {
     JEI.hideCategory("pneumaticcraft.amadron_trade");
     JEI.addDescription(<artisanworkstumps:log_basin>, "herodotus.jei.desc.log_basin");
     JEI.addDescription(<artisanworkstumps:stone_basin>, "herodotus.jei.desc.stone_basin");
-    JEI.addDescription(<agricraft:agri_seed>.withTag({agri_seed: "herodotus_slime_grass"}), "herodotus.jei.desc.slime_grass_seed");
+    JEI.addDescription(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "herodotus_slime_grass", agri_growth: 1 as byte}), "herodotus.jei.desc.slime_grass_seed");
     <minecraft:obsidian>.asBlock().definition.resistance = 8.0f;
     <minecraft:iron_pickaxe>.maxDamage = 300;
     <minecraft:iron_shovel>.maxDamage = 300;

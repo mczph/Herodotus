@@ -11,10 +11,7 @@
 		uid: "6cffced3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "thaumcraft:primordial_pearl"
+			item: "thaumcraft:primordial_pearl"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

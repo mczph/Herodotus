@@ -9,10 +9,7 @@
 		uid: "55bc4921",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "prodigytech:crystal_cutter"
+			item: "prodigytech:crystal_cutter"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

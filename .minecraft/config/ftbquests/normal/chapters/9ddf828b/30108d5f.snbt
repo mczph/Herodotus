@@ -18,12 +18,5 @@
 				agri_growth: 1b
 			}
 		}]
-	},
-	{
-		uid: "fe997909",
-		type: "item",
-		items: [{
-			item: "contenttweaker:sticky_gel"
-		}]
 	}]
 }

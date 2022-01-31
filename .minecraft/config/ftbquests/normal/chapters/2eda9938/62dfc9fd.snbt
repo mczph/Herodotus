@@ -8,10 +8,7 @@
 		uid: "8eb743bd",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "hdsutils:taint_checker"
+			item: "hdsutils:taint_checker"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

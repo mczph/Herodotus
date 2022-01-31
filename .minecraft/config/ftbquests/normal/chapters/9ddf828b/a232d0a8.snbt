@@ -1,6 +1,9 @@
 {
 	x: 1.25d,
 	y: -3.5d,
+	text: [
+		"{herodotus.jei.desc.slime_grass_seed}"
+	],
 	dependencies: [
 		"30108d5f"
 	],
@@ -8,7 +11,7 @@
 		uid: "8e1373ca",
 		type: "item",
 		items: [{
-			item: "contenttweaker:impure_gel"
+			item: "contenttweaker:sticky_gel"
 		}]
 	}],
 	rewards: [{
