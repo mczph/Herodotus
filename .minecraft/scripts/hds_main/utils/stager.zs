@@ -29,9 +29,11 @@ if (!debug) {
 
     var exceptedItemOwners as string[] = [];
     for item in except {
-        val owner as string = item.definition.owner;
-        if (!(exceptedItemOwners has owner)) {
-            exceptedItemOwners += owner;
+        for member in item.items {
+            val owner as string = member.definition.owner;
+            if (!(exceptedItemOwners has owner)) {
+                exceptedItemOwners += owner;
+            }
         }
         if (isNull(exceptedIngredient)) {
             exceptedIngredient = item;
