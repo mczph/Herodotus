@@ -24,7 +24,8 @@ val oreDictAddMap as IItemStack[][IOreDictEntry] = {
 };
 
 val oreDictRemoveMap as IItemStack[][IOreDictEntry] = {
-    <ore:oreIron> : [<industrialrenewal:chunk_hematite>, <industrialrenewal:orevein_hematite>]
+    <ore:oreIron> : [<industrialrenewal:chunk_hematite>, <industrialrenewal:orevein_hematite>],
+    <ore:blockGlass> : [<pyrotech:refractory_glass>]
 };
 
 //st
