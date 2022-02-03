@@ -21,9 +21,9 @@ if (!debug) {
         "packagedauto", "actuallyadditions", "thaumicenergistics"
     ];
 
-    val except as IItemStack[] = [
-        <emergingtechnology:shreddedplastic>, <advancedrocketry:iquartzcrucible>, <ore:ingotConstructionAlloy>.firstItem,
-        <ore:blockConstructionAlloy>.firstItem, <ore:nuggetConstructionAlloy>.firstItem
+    val except as IIngredient[] = [
+        <emergingtechnology:shreddedplastic>, <advancedrocketry:iquartzcrucible>, <ore:ingotConstructionAlloy>,
+        <ore:blockConstructionAlloy>, <ore:nuggetConstructionAlloy>, <ore:gearStone>
     ];
     var exceptedIngredient as IIngredient = null;
 
@@ -52,7 +52,7 @@ if (!debug) {
             JEI.hide(mdfks);
         }
     }
-    for item in except {
+    for item in exceptedIngredient.items {
         ItemStages.removeItemStage(item);
     }
 }
