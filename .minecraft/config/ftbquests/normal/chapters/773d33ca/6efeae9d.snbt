@@ -2,7 +2,9 @@
 	x: 10.0d,
 	y: -8.0d,
 	text: [
-		"{herodotus.quests.6efeae9d.text.1}"
+		"{herodotus.quests.6efeae9d.text.1}",
+		"",
+		"合成需要消耗 800 点经验和 12 点生命值"
 	],
 	dependencies: [
 		"c2cf0c4f",
