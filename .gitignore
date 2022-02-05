@@ -64,6 +64,7 @@
 /.minecraft/config/jei/jei.cfg
 *.local
 /.minecraft/config/loliasm.cfg
+/.minecraft/config/JustEnoughCalculation/
 
 #other stuff
 !/.minecraft/patchouli_books
