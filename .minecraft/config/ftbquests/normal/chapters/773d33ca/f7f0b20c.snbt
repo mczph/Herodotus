@@ -2,7 +2,7 @@
 	x: 0.0d,
 	y: -10.0d,
 	text: [
-		"合成需要在夜晚消耗 100 点经验和 12 点生命值"
+		"{herodotus.quests.f7f0b20c.text.1}"
 	],
 	dependencies: [
 		"2b235818"

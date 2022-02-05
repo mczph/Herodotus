@@ -4,7 +4,7 @@
 	text: [
 		"{herodotus.quests.857ad989.text.1}",
 		"{herodotus.quests.857ad989.text.2}",
-		"储满后右键日月祭坛即可触发转换, 方块须放在祭坛顶部"
+		"{herodotus.quests.857ad989.text.3}"
 	],
 	dependencies: [
 		"b890264f"

@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: -8.0d,
 	text: [
-		"合成消耗 10 点经验"
+		"{herodotus.quests.de891235.text.1}"
 	],
 	dependencies: [
 		"3a592398",
