@@ -11,6 +11,30 @@ import scripts.grassUtils.RecipeUtils.createCrossWithCore;
 
 if(!isInvalid){
 
+RecipeUtils.recipeTweak(true, <minecraft:clock>, [
+    [null, <ore:nuggetGold>, null],
+    [ <ore:nuggetGold>, <ore:dustRedstone>,  <ore:nuggetGold>],
+    [null, <ore:nuggetGold>, null]
+]);
+
+RecipeUtils.recipeTweak(true, <pyrotech:wither_forge>, [
+    [<pyrotech:cog_obsidian>, null, <pyrotech:cog_obsidian>],
+    [<ore:itemSkull>, <pyrotech:bloomery>, <ore:itemSkull>],
+    [<ore:obsidian>, <ore:itemSkull>, <ore:obsidian>]
+]);
+
+RecipeUtils.recipeTweak(true, <torchmaster:feral_flare_lantern>, [
+    [null, <ore:nuggetGold>, null],
+    [<ore:blockGlass>, <ore:blockGlowstone>, <ore:blockGlass>],
+    [null, <ore:nuggetGold>, null]
+]);
+
+RecipeUtils.recipeTweak(true, <torchmaster:feral_flare_lantern>, [
+    [null, <ore:nuggetGold>, null],
+    [<ore:blockGlass>, <ore:blockGlowstone>, <ore:blockGlass>],
+    [null, <ore:nuggetGold>, null]
+]);
+
 RecipeUtils.recipeTweak(true, <tconstruct:slimesling>,[
     [<ore:string>, <ore:blockSlime>, <ore:string>],
     [<ore:slimeball>, null, <ore:slimeball>],
@@ -87,6 +111,12 @@ RecipeUtils.recipeTweak(true, <mekanismtools:obsidianpaxel>, [
 ]);
 
 RecipeUtils.recipeTweak(true, <pyrotech:crate> * 2, RecipeUtils.createSurround(<ore:slabWood>, <ore:plankWood>));
+
+recipes.addShaped("alloy_compass", <minecraft:compass>, [
+    [null, <ore:ingotConstructionAlloy>, null],
+    [<ore:ingotConstructionAlloy>, <ore:dustRedstone>, <ore:ingotConstructionAlloy>],
+    [null, <ore:ingotConstructionAlloy>, null]
+]);
 
 recipes.addShaped("hopper_from_iron", <minecraft:hopper>, [
     [<ore:lightPlateIron>, null, <ore:lightPlateIron>],

@@ -27,4 +27,9 @@ if(!isInvalid){
         [<thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>],
         [null, <thaumcraft:slab_greatwood>, null]
     ]);
+    RecipeUtils.recipeTweak(true, <torchmaster:mega_torch>, [
+        [<ore:torch>, <ore:torch>, <ore:torch>],
+        [<ore:plasticBlue>, <ore:logWood>, <ore:plasticBlue>],
+        [<ore:ingotGold>, <ore:logWood>, <ore:ingotGold>]
+    ]);
 }

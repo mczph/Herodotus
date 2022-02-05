@@ -52,6 +52,9 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         val rod as IOreDictEntry = oreDict.get("rod" ~ name);
         val rodLong as IOreDictEntry = oreDict.get("rodLong" ~ name);
         val oreSample as IOreDictEntry = oreDict.get("oreSample" ~ name);
+        val gemFlawless as IOreDictEntry = oreDict.get("gemFlawless" ~ name);
+        val gemFlawed as IOreDictEntry = oreDict.get("gemFlawed" ~ name);
+        val gemChipped as IOreDictEntry = oreDict.get("gemChipped" ~ name);
         val molten as ILiquidStack = game.getLiquid(nameSnake);
 
         //oredict translate
@@ -91,6 +94,18 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         } */
 
         //if (!rock.empty && !crushed.empty) {rotarygrinder.addRecipe(rock, crushed.materialPart);}
+
+        RecipeBuilder.get("jeweler")
+          .setShapeless([gemFlawless])
+          .addTool(<ore:artisansPliers>, 25)
+          .addOutput(gemFlawed.materialPart * 2)
+          .create();
+
+        RecipeBuilder.get("jeweler")
+          .setShapeless([gemFlawed])
+          .addTool(<ore:artisansPliers>, 25)
+          .addOutput(gemChipped.materialPart * 2)
+          .create();
 
         //pyrotech
         if (!block.empty && !plate.empty && nameSnake != "coal") {
