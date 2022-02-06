@@ -29,12 +29,6 @@ RecipeUtils.recipeTweak(true, <torchmaster:feral_flare_lantern>, [
     [null, <ore:nuggetGold>, null]
 ]);
 
-RecipeUtils.recipeTweak(true, <torchmaster:feral_flare_lantern>, [
-    [null, <ore:nuggetGold>, null],
-    [<ore:blockGlass>, <ore:blockGlowstone>, <ore:blockGlass>],
-    [null, <ore:nuggetGold>, null]
-]);
-
 RecipeUtils.recipeTweak(true, <tconstruct:slimesling>,[
     [<ore:string>, <ore:blockSlime>, <ore:string>],
     [<ore:slimeball>, null, <ore:slimeball>],

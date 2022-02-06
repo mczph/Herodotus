@@ -95,18 +95,6 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
 
         //if (!rock.empty && !crushed.empty) {rotarygrinder.addRecipe(rock, crushed.materialPart);}
 
-        RecipeBuilder.get("jeweler")
-          .setShapeless([gemFlawless])
-          .addTool(<ore:artisansPliers>, 25)
-          .addOutput(gemFlawed.materialPart * 2)
-          .create();
-
-        RecipeBuilder.get("jeweler")
-          .setShapeless([gemFlawed])
-          .addTool(<ore:artisansPliers>, 25)
-          .addOutput(gemChipped.materialPart * 2)
-          .create();
-
         //pyrotech
         if (!block.empty && !plate.empty && nameSnake != "coal") {
             allPyroAnvil("block_to_plate_ptanvil_" ~ nameSnake, plate.materialPart * 4, block, 6, "hammer");
@@ -145,6 +133,20 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
             val dustTiny as IOreDictEntry = oreDict.get("dustTiny" ~ name);
             val dustSmall as IOreDictEntry = oreDict.get("dustSmall" ~ name);
             val fourNuggets as IOreDictEntry = oreDict.get("fourNuggets" ~ name);
+
+            if (!gemFlawless.empty && !gemFlawed.empty) {
+                RecipeBuilder.get("jeweler")
+                    .setShapeless([gemFlawless])
+                    .addTool(<ore:artisansPliers>, 25)
+                    .addOutput(gemFlawed.materialPart * 2)
+                    .create();
+
+                RecipeBuilder.get("jeweler")
+                    .setShapeless([gemFlawed])
+                    .addTool(<ore:artisansPliers>, 25)
+                    .addOutput(gemChipped.materialPart * 2)
+                    .create();
+            }
 
             recipes.addShaped("small_dust_" ~ nameSnake, dustSmall.materialPart * 4, [[dust]]);
             recipes.addShaped("tiny_dust_" ~ nameSnake, dustTiny.materialPart * 9, [[dust]]);
