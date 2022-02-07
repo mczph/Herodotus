@@ -125,7 +125,7 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.GITEE_SSH_KEY }}
-          known_hosts: ${{ secrets.GITEE_SSH_HOSTS }}
+          known_hosts: ${{ secrets.GITEE_SSH_HOST }}
 
       - name: Update Version Json
         run: |
