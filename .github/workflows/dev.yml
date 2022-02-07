@@ -123,8 +123,9 @@ jobs:
 
       - name: Install SSH Key
         uses: shimataro/ssh-key-action@v2
-        key: ${{ secrets.GITEE_SSH_KEY }}
-        known_hosts: ${{ secrets.GITEE_SSH_HOSTS }}
+        with:
+          key: ${{ secrets.GITEE_SSH_KEY }}
+          known_hosts: ${{ secrets.GITEE_SSH_HOSTS }}
 
       - name: Update Version Json
         run: |
