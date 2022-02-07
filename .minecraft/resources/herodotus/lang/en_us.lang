@@ -7,6 +7,9 @@ modularmachinery.aspect_blast_furnace=Aspect Blast Furnace
 modularmachinery.aura_assembler=Aura Assembler
 modularmachinery.modifier.infinite_water=Replace the Corrugate Iron Machine Block upon Fluid Input Hatch to make the machine not consume water.
 
+herodotus.welcomeMessage.head=Welcome to play
+herodotus.welcomeMessage.name= Herodotus Modpack!
+
 herodotus.artisan_worktables.material.thaumium=Thaumium
 
 herodotus.jei.desc.log_basin=Right-click on any side of the Artisan's Workstump with the Log Basin in hand to suspend it next to the workstump. Any recipe requiring liquid on the Artisan's Workstump requires the liquid in the Log Basin to be consumed.

@@ -7,6 +7,9 @@ modularmachinery.aspect_blast_furnace=源质高炉
 modularmachinery.aura_assembler=灵气装配机
 modularmachinery.modifier.infinite_water=用其替换流体输入仓上面的波纹铁质机械方块让机器不消耗水
 
+herodotus.welcomeMessage.head=欢迎游玩
+herodotus.welcomeMessage.name= 希罗多德 整合包!
+
 herodotus.artisan_worktables.material.thaumium=神秘
 
 herodotus.jei.desc.log_basin=手持木盆右击工匠工作台侧边，即可将木盆悬挂在工作台旁。工匠工作台上需要液体的配方，都需要消耗木盆中的液体来完成。
