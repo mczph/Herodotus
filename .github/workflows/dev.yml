@@ -126,6 +126,16 @@ jobs:
         with:
           key: ${{ secrets.GITEE_SSH_KEY }}
           known_hosts: ${{ secrets.GITEE_SSH_HOST }}
+          config: |
+            Host target
+              HostName gitee.com
+              User GBLodb
+              IdentityFile ~/.ssh/id_rsa-target
+
+      - name: post gitee setup
+        run: |
+          ssh -T git@gitee.com
+          yes
 
       - name: Update Version Json
         run: |
