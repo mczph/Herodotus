@@ -52,9 +52,6 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         val rod as IOreDictEntry = oreDict.get("rod" ~ name);
         val rodLong as IOreDictEntry = oreDict.get("rodLong" ~ name);
         val oreSample as IOreDictEntry = oreDict.get("oreSample" ~ name);
-        val gemFlawless as IOreDictEntry = oreDict.get("gemFlawless" ~ name);
-        val gemFlawed as IOreDictEntry = oreDict.get("gemFlawed" ~ name);
-        val gemChipped as IOreDictEntry = oreDict.get("gemChipped" ~ name);
         val molten as ILiquidStack = game.getLiquid(nameSnake);
 
         //oredict translate
@@ -133,6 +130,9 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
             val dustTiny as IOreDictEntry = oreDict.get("dustTiny" ~ name);
             val dustSmall as IOreDictEntry = oreDict.get("dustSmall" ~ name);
             val fourNuggets as IOreDictEntry = oreDict.get("fourNuggets" ~ name);
+            val gemFlawless as IOreDictEntry = oreDict.get("gemFlawless" ~ name);
+            val gemFlawed as IOreDictEntry = oreDict.get("gemFlawed" ~ name);
+            val gemChipped as IOreDictEntry = oreDict.get("gemChipped" ~ name);
 
             if (!gemFlawless.empty && !gemFlawed.empty) {
                 RecipeBuilder.get("jeweler")
