@@ -126,6 +126,7 @@ jobs:
         with:
           key: ${{ secrets.GITEE_SSH_KEY }}
           known_hosts: ${{ secrets.GITEE_SSH_HOST }}
+          config: ${{ secrets.GITEE_SSH_CONFIG }}
 
       - name: Update Version Json
         run: |
