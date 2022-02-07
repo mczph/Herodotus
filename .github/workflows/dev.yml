@@ -126,14 +126,13 @@ jobs:
         with:
           key: ${{ secrets.GITEE_SSH_KEY }}
           known_hosts: ${{ secrets.GITEE_SSH_HOST }}
-          config: ${{ secrets.GITEE_SSH_CONFIG }}
 
       - name: Update Version Json
         run: |
           git clone git@gitee.com:ProjectHDS/HDSVersioning.git
           cd ./HDSVersioning
-          git config user.name youyihj
-          git config user.email youyi580@qq.com
+          git config user.name GBLodb
+          git config user.email garybluis@outlook.com
           python update_version.py
           git add .
           git commit -m "Update Version ${{ env.VERSION }}.${{ github.run_number }}"
