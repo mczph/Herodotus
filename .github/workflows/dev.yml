@@ -1,7 +1,7 @@
 name: dev
 on:
   push:
-    branches: [release]
+    branches: [release, develop]
   workflow_dispatch:
 env:
   BUILD: Herodotus
@@ -113,3 +113,26 @@ jobs:
           name: ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server
           path: server
 
+  UpdateVersionJson:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        key: ${{ secrets.GITEE_SSH_KEY }}
+        known_hosts: ${{ secrets.GITEE_SSH_HOSTS }}
+
+      - name: Update Version Json
+        run: |
+          git clone git@gitee.com:ProjectHDS/HDSVersioning.git
+          cd ./HDSVersioning
+          git config user.name youyihj
+          git config user.email youyi580@qq.com
+          python update_version.py
+          git add .
+          git commit -m "Update Version ${{ env.VERSION }}.${{ github.run_number }}"
+          git push
