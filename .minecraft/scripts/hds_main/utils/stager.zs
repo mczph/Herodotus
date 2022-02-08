@@ -1,9 +1,10 @@
-#priority 50000
+#priority 29999
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import mods.ItemStages;
+import scripts.grassUtils.RecipeUtils;
 
 if (!debug) {
     addRegexLogFilter("Adding tooltip.*");
@@ -27,7 +28,7 @@ if (!debug) {
         <actuallyadditions:item_rice_seed>, <actuallyadditions:item_canola_seed>, <actuallyadditions:item_flax_seed>,
         <actuallyadditions:item_coffee_seed>, <actuallyadditions:item_water_bowl>, <actuallyadditions:item_solidified_experience>,
         <actuallyadditions:item_food:16>, <actuallyadditions:item_misc:13>, <actuallyadditions:item_coffee_beans>,
-        <actuallyadditions:block_tiny_torch>
+        <actuallyadditions:block_tiny_torch>, <libvulpes:coil0:4>
     ];
     var exceptedIngredient as IIngredient = null;
 
@@ -61,4 +62,6 @@ if (!debug) {
     for item in exceptedIngredient.items {
         ItemStages.removeItemStage(item);
     }
+
+    recipes.addShaped(<libvulpes:coil0:4>, RecipeUtils.createSurround(null, <ore:ingotCopper>));
 }
