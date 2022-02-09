@@ -36,6 +36,6 @@ heatsawmill.addRecipe(<minecraft:quartz_block:1>, <minecraft:stone_slab:7>*2);
 heatsawmill.addRecipe(<minecraft:quartz_block:2>, <minecraft:stone_slab:7>*2);
 heatsawmill.addRecipe(<minecraft:cobblestone>, <minecraft:stone_slab:3>*2);
 heatsawmill.addRecipe(<minecraft:stone>, <minecraft:stone_slab>*2);
-heatsawmill.addRecipe(<minecraft:stone_slab>, <pyrotech:material:16>*2);
+heatsawmill.addRecipe(<minecraft:stone_slab:5>, <pyrotech:material:16>*2);
 heatsawmill.addRecipe(<minecraft:purpur_block>, <minecraft:purpur_slab>*2);
 }

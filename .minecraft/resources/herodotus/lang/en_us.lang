@@ -130,6 +130,8 @@ herodotus.quests.2eda9938.title=«An Introduction to Energy Extraction from Crea
 herodotus.quests.cbf24504.text.1=By replacing a specific block in the boiler structure, to provide the boiler with infinity water.
 
 tile.prodigytech.heat_sawmill.name=Heat Cutter
+container.prodigytech.heat_sawmill=Heat Cutter
+container.prodigytech.jei.ptsawmill=Heat Cutter
 tile.prodigytech.heat_sawmill.tooltip=More efficiency than cutting with hand.
 
 tile.aura_bottling_machine.name=Aura Bottling Machine

@@ -144,6 +144,8 @@ herodotus.quests.2eda9938.title=《动植物能量提取概论和灵气运用简
 herodotus.quests.cbf24504.text.1=通过替换蒸汽锅炉结构中的特定方块，可以给蒸汽锅炉提供无限水
 
 tile.prodigytech.heat_sawmill.name=热力切割机
+container.prodigytech.heat_sawmill=热力切割机
+container.prodigytech.jei.ptsawmill=热力切割机
 tile.prodigytech.heat_sawmill.tooltip=比用手切割材料更加高效
 
 tile.aura_bottling_machine.name=灵气压瓶机
