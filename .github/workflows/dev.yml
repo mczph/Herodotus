@@ -6,8 +6,6 @@ on:
 env:
   BUILD: Herodotus
   VERSION: 0.3.0
-  RELEASE_FILE_NAME: "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip"
-
 
 jobs:
   FTBQuestsProcessor:
@@ -156,10 +154,10 @@ jobs:
         run: |
           cd ${GITHUB_WORKSPACE}
           mv .minecraft overrides
-          zip -r "${{ env.RELEASE_FILE_NAME }}" -xi manifest.json modlist.html overrides
+          zip -r "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip" -xi manifest.json modlist.html overrides
 
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           name: v${{ env.VERSION }}.${{ github.run_number }}
-          files: ${{ env.RELEASE_FILE_NAME }}
+          files: "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip"
