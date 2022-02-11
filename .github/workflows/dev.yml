@@ -151,7 +151,7 @@ jobs:
           tag: v${{ env.VERSION }}.${{ github.run_number }}
 
       - uses: actions/checkout@v2
-      
+
       - name: pack for release asset
         run: |
           cd ${GITHUB_WORKSPACE}
@@ -162,4 +162,5 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           name: v${{ env.VERSION }}.${{ github.run_number }}
+          tag_name: v${{ env.VERSION }}.${{ github.run_number }}
           files: "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip"
