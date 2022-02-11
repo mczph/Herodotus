@@ -68,6 +68,93 @@ RecipeBuilder.get("basic")
     .create();
 
 //stuff
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:dustRedstone>, <ore:enderpearl>, <ore:dustRedstone>],
+    [<minecraft:redstone_torch>, <ore:slabStone>, <minecraft:redstone_torch>],
+    [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]])
+  .addTool(<ore:artisansSpanner>, 20)
+  .addOutput(<rftools:redstone_transmitter_block>)
+  .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:dustRedstone>, <ore:enderpearl>, <ore:dustRedstone>],
+    [<minecraft:comparator>, <ore:slabStone>, <minecraft:comparator>],
+    [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]])
+  .addTool(<ore:artisansSpanner>, 20)
+  .addOutput(<rftools:redstone_receiver_block>)
+  .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:dustRedstone>, <minecraft:redstone_torch>, <ore:dustRedstone>],
+    [<minecraft:redstone_torch>, <ore:slabStone>, <minecraft:redstone_torch>],
+    [<ore:dustRedstone>, <minecraft:redstone_torch>, <ore:dustRedstone>]])
+  .addTool(<ore:artisansSpanner>, 20)
+  .addOutput(<rftools:sequencer_block>)
+  .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:nuggetConstructionAlloy>, <ore:gemChippedRedstone>, <ore:nuggetConstructionAlloy>],
+    [<minecraft:redstone_torch>, <ore:slabStone>, <minecraft:redstone_torch>],
+    [<ore:dustRedstone>, <minecraft:redstone_torch>, <ore:dustRedstone>]])
+  .addTool(<ore:artisansSpanner>, 20)
+  .addOutput(<rftools:counter_block>)
+  .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:nuggetIron>, <ore:gemChippedRedstone>, <ore:nuggetIron>],
+    [<minecraft:redstone_torch>, <ore:slabStone>, <minecraft:redstone_torch>],
+    [<ore:dustRedstone>, <minecraft:redstone_torch>, <ore:dustRedstone>]])
+  .addTool(<ore:artisansSpanner>, 20)
+  .addOutput(<rftools:counter_block>)
+  .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:dustRedstone>, <ore:gemChippedRedstone>, <ore:dustRedstone>],
+    [<minecraft:redstone_torch>, <ore:slabStone>, <minecraft:redstone_torch>],
+    [<ore:dustRedstone>, <minecraft:redstone_torch>, <ore:dustRedstone>]])
+  .addTool(<ore:artisansSpanner>, 20)
+  .addOutput(<rftools:timer_block>)
+  .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:dustRedstone>, <minecraft:comparator>, <ore:dustRedstone>],
+    [<minecraft:comparator>, <ore:slabStone>, <minecraft:comparator>],
+    [<ore:dustRedstone>, <minecraft:comparator>, <ore:dustRedstone>]])
+  .addTool(<ore:artisansSpanner>, 20)
+  .addOutput(<rftools:logic_block>)
+  .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:dustRedstone>, <ore:slabStone>, <ore:dustRedstone>]])
+  .addTool(<ore:artisansSpanner>, 20)
+  .addOutput(<rftools:wire_block>)
+  .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>],
+    [<ore:dustRedstone>, <ore:slabStone>, <ore:dustRedstone>],
+    [<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>]])
+  .addTool(<ore:artisansSpanner>, 20)
+  .addOutput(<rftools:digit_block>)
+  .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:dustRedstone>, <ore:slabStone>, <minecraft:comparator>]])
+  .addTool(<ore:artisansSpanner>, 20)
+  .addOutput(<rftools:analog_block>)
+  .create();
+
 RecipeBuilder.get("basic")
     .setShaped([
 	    [<pyrotech:material:12>, <pyrotech:material:12>, <pyrotech:material:12>],

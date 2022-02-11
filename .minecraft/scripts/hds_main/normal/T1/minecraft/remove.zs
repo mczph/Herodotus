@@ -81,7 +81,16 @@ val removeByOutput as IItemStack[] = [
     <actuallyadditions:block_misc:5>,
     <chisel:block_charcoal2:1>,
     <mekanism:basicblock:3>,
-    <thermalfoundation:storage_resource>
+    <thermalfoundation:storage_resource>,
+    <rftools:redstone_transmitter_block>,
+    <rftools:redstone_receiver_block>,
+    <rftools:sequencer_block>,
+    <rftools:counter_block>,
+    <rftools:timer_block>,
+    <rftools:logic_block>,
+    <rftools:wire_block>,
+    <rftools:digit_block>,
+    <rftools:analog_block>
 ];
 
 val removeByRecipeName as string[] = [
