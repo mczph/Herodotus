@@ -150,6 +150,8 @@ jobs:
           repo-token: "${{ secrets.ACTION_TOKEN }}"
           tag: v${{ env.VERSION }}.${{ github.run_number }}
 
+      - uses: actions/checkout@v2
+      
       - name: pack for release asset
         run: |
           cd ${GITHUB_WORKSPACE}
