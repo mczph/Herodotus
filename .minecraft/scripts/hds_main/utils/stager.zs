@@ -28,7 +28,10 @@ if (!debug) {
         <actuallyadditions:item_rice_seed>, <actuallyadditions:item_canola_seed>, <actuallyadditions:item_flax_seed>,
         <actuallyadditions:item_coffee_seed>, <actuallyadditions:item_water_bowl>, <actuallyadditions:item_solidified_experience>,
         <actuallyadditions:item_food:16>, <actuallyadditions:item_misc:13>, <actuallyadditions:item_coffee_beans>,
-        <actuallyadditions:block_tiny_torch>, <libvulpes:coil0:4>
+        <actuallyadditions:block_tiny_torch>, <libvulpes:coil0:4>, <rftools:redstone_transmitter_block>,
+        <rftools:redstone_receiver_block>, <rftools:sequencer_block>, <rftools:counter_block>, <rftools:logic_block>,
+        <rftools:invchecker_block>, <rftools:sensor_block>, <rftools:analog_block>, <rftools:digit_block>,
+        <rftools:wire_block>, <rftools:timer_block>, <rftools:machine_base>
     ];
     var exceptedIngredient as IIngredient = null;
 
