@@ -6,6 +6,7 @@ on:
 env:
   BUILD: Herodotus
   VERSION: 0.3.0
+  RELEASE_FILE_NAME: "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip"
 
 
 jobs:
@@ -142,8 +143,6 @@ jobs:
   TagAndRelease:
     if: "endsWith(github.ref, 'develop')"
     runs-on: ubuntu-latest
-    env:
-      RELEASE_FILE_NAME: "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip"
     steps:
       - uses: actions/checkout@v2
 
@@ -163,4 +162,4 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           name: v${{ env.VERSION }}.${{ github.run_number }}
-          files: ${GITHUB_WORKSPACE}/${{ env.RELEASE_FILE_NAME }}
+          files: ${{ env.RELEASE_FILE_NAME }}
