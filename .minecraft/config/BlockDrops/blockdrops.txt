@@ -21523,5 +21523,50 @@
     "1pair0": "{\n  \"left\": 9,\n  \"right\": 24\n}",
     "2pair0": "{\n  \"left\": 10,\n  \"right\": 25\n}",
     "3pair0": "{\n  \"left\": 11,\n  \"right\": 26\n}"
+  },
+  {
+    "name": "hdsutils:square_ore",
+    "meta": 0,
+    "length": 1,
+    "name0": "contenttweaker:square",
+    "meta0": 0,
+    "0chance0": 201.475,
+    "1chance0": 264.75,
+    "2chance0": 354.65,
+    "3chance0": 434.25003,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 9\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 12\n}"
+  },
+  {
+    "name": "hdsutils:spherical_ore",
+    "meta": 0,
+    "length": 1,
+    "name0": "contenttweaker:spherical",
+    "meta0": 0,
+    "0chance0": 198.025,
+    "1chance0": 263.8,
+    "2chance0": 349.3,
+    "3chance0": 442.925,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 9\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 12\n}"
+  },
+  {
+    "name": "hdsutils:rhombus_ore",
+    "meta": 0,
+    "length": 1,
+    "name0": "contenttweaker:rhombus",
+    "meta0": 0,
+    "0chance0": 198.95001,
+    "1chance0": 263.2,
+    "2chance0": 353.225,
+    "3chance0": 439.59998,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 9\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 12\n}"
   }
 ]
