@@ -90,7 +90,9 @@ val removeByOutput as IItemStack[] = [
     <rftools:logic_block>,
     <rftools:wire_block>,
     <rftools:digit_block>,
-    <rftools:analog_block>
+    <rftools:analog_block>,
+    <snad:snad>,
+    <snad:snad:1>
 ];
 
 val removeByRecipeName as string[] = [
