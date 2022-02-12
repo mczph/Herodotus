@@ -91,7 +91,8 @@ val removeByRecipeName as string[] = [
 
 val removeByModid as string[] = [
     "modularmachinery",
-    "teslathingies"
+    "teslathingies",
+    "buildinggadgets"
 ];
 
 val removeByRegex as string[] = [

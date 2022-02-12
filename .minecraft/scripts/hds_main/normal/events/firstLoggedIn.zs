@@ -17,6 +17,8 @@ events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
         player.update({PlayerPersisted : {loggedIn : true as bool}});
         runCommand("tc research " + playerName + " all");
         runCommand("clear " + playerName);
+        runCommand("astralsorcery research " + playerName + " all");
+        runCommand("astralsorcery constellations " + playerName + " all");
     }
 });
 

@@ -49,7 +49,7 @@
   "persistency": "1.2.0",
   "bedrockores": "1.2.7.42",
   "modularmagic": "1.6.2",
-  "hdsutils": "1.0",
+  "hdsutils": "1.1",
   "teslathingies": "1.0.15",
   "gamestages": "2.0.123",
   "topaddons": "1.12.2-1.13.0",

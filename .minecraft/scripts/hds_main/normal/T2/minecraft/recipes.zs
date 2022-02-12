@@ -142,4 +142,8 @@ recipes.addShaped("iron_pickaxe_from_iron_allay", <minecraft:iron_pickaxe>, [
 	[null, <ore:stickWood>, null]
 ]);
 
+recipes.addShapeless("building_powder", <buildinggadgets:constructionblockpowder>, [
+	<ore:sand>, <ore:clay>, <ore:crushedOreBlue>
+]);
+
 }
