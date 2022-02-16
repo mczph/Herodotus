@@ -87,7 +87,7 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>],
     [<minecraft:ender_pearl>, <minecraft:redstone>, <minecraft:ender_pearl>],
-    [<ore:ingotIron>, <pneumaticcraft:plastic:4>, <contenttweaker:material_part:282>]])
+    [<ore:ingotIron>, <ore:plasticBlue>, <ore:ingotIron>]])
   .addTool(<contenttweaker:hot_air_solderer>, 50)
   .addOutput(<buildinggadgets:destructiontool>)
   .setMaximumTier(0)
