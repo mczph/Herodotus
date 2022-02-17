@@ -8,6 +8,41 @@ import mods.contenttweaker.Color;
 import scripts.hds_lib.cotlib.plainItemIDs;
 import scripts.grassUtils.CotUtils;
 
+var nuggetCinnabar = VanillaFactory.createItem("cinnabar_nugget");
+nuggetCinnabar.textureLocation = ResourceLocation.create("base:items/nugget");
+nuggetCinnabar.itemColorSupplier = function(item, tintIndex) {
+    return Color.fromInt(0x8D2F26);
+};
+nuggetCinnabar.register();
+
+var bioactiveCinnabar = VanillaFactory.createItem("cinnabar_bioactive");
+bioactiveCinnabar.textureLocation = ResourceLocation.create("contenttweaker:items/bioactive");
+bioactiveCinnabar.itemColorSupplier = function(item, tintIndex) {
+    return Color.fromInt(0x8D2F26);
+};
+bioactiveCinnabar.register();
+
+var rockQuartzite = VanillaFactory.createItem("quartzite"); //TODO double layers
+rockQuartzite.textureLocation = ResourceLocation.create("base:items/rock");
+rockQuartzite.itemColorSupplier = function(item, tintIndex) {
+    return Color.fromInt(0x3C3C3C);
+};
+rockQuartzite.register();
+
+var clusterQuartzite = VanillaFactory.createItem("quartzite_cluster");
+clusterQuartzite.textureLocation = ResourceLocation.create("base:items/cluster");
+clusterQuartzite.itemColorSupplier = function(item, tintIndex) {
+    return Color.fromInt(0x3C3C3C);
+};
+clusterQuartzite.register();
+
+var bioactiveQuartzite = VanillaFactory.createItem("quartzite_bioactive");
+bioactiveQuartzite.textureLocation = ResourceLocation.create("contenttweaker:items/bioactive");
+bioactiveQuartzite.itemColorSupplier = function(item, tintIndex) {
+    return Color.fromInt(0x3C3C3C);
+};
+bioactiveQuartzite.register();
+
 var solderer = VanillaFactory.createItem("hot_air_solderer");
 solderer.maxStackSize = 1;
 solderer.maxDamage = 32000;
@@ -20,12 +55,12 @@ brass.itemColorSupplier = function(item, tintIndex) {
 };
 brass.register();
 
-var oe = VanillaFactory.createItem("omni_essential");
-oe.textureLocation = ResourceLocation.create("base:items/dust");
-oe.itemColorSupplier = function(item, tintIndex) {
+var oetd = VanillaFactory.createItem("omni_essential_tiny_dust");
+oetd.textureLocation = ResourceLocation.create("base:items/tiny_dust");
+oetd.itemColorSupplier = function(item, tintIndex) {
     return Color.fromInt(0x7F2CA6);
 };
-oe.register();
+oetd.register();
 
 var arl = VanillaFactory.createItem("astral_lens");
 arl.maxStackSize = 16;

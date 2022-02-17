@@ -52,6 +52,16 @@ item.contenttweaker.coarse_sandy_dirt_clump.name=Sandy Dirt Clump
 item.contenttweaker.coarse_loamy_dirt_clump.name=Loamy Dirt Clump
 item.contenttweaker.dried_sand_pile.name=Dried Sand Pile
 item.contenttweaker.white_sand_pile.name=White Sand Pile
+item.contenttweaker.cinnabar_nugget.name=Cinnabar Nugget
+item.contenttweaker.cinnabar_bioactive.name=Bioactive Cinnabar
+item.contenttweaker.quartzite.name=Quartzite
+item.contenttweaker.quartzite_bioactive.name=Bioactive Quartzite
+item.contenttweaker.quartzite_cluster.name=Quartzite Cluster
+item.contenttweaker.omni_essential_tiny_dust.name=Omni Essential Tiny Dust
+item.contenttweaker.omni_essential_bioactive.name=Bioactive Omni Essential
+item.contenttweaker.colored_gem.name=Colored Gem
+item.contenttweaker.colored_gem_tiny.name=Tiny Colored Gem
+item.contenttweaker.colored_gem_bioactive.name=Bioactive Colored Gem
 
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame

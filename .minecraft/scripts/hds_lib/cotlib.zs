@@ -118,7 +118,6 @@ static allMaterialMap as int[string][int] = {
 
     },
     2 : {//gems
-        //TODO colored gems
         "diamond" : 0x2fc7e4,
         "glimmerite" : 0xff9500
     },
@@ -177,7 +176,12 @@ static plainItemIDs as string[] = [
     "mystical_insulator",
     "allotrevorer",
     "interlegere_embryo",
-    "metatile"
+    "metatile",
+    "colored_gem",
+    "colored_gem_tiny",
+    "colored_gem_bioactive",
+    "omni_essential",
+    "omni_essential_bioactive"
 ];
 
 static plainBlockIDs as string[] = [

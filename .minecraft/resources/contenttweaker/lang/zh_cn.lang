@@ -51,6 +51,16 @@ item.contenttweaker.coarse_sandy_dirt_clump.name=粗沙土块
 item.contenttweaker.coarse_loamy_dirt_clump.name=粗壤土块
 item.contenttweaker.dried_sand_pile.name=干沙堆
 item.contenttweaker.white_sand_pile.name=白沙堆
+item.contenttweaker.cinnabar_nugget.name=朱砂粒
+item.contenttweaker.cinnabar_bioactive.name=生物活性朱砂
+item.contenttweaker.quartzite.name=石英岩
+item.contenttweaker.quartzite_cluster.name=小块石英岩
+item.contenttweaker.quartzite_bioactive.name=生物活性石英岩
+item.contenttweaker.omni_essential_tiny_dust.name=小撮万用源质
+item.contenttweaker.omni_essential_bioactive.name=生物活性万用源质
+item.contenttweaker.colored_gem.name=有色宝石
+item.contenttweaker.colored_gem_tiny.name=小粒有色宝石
+item.contenttweaker.colored_gem_bioactive.name=生物活性有色宝石
 
 tile.contenttweaker.altar.name=日月祭坛
 tile.contenttweaker.starlight_frame.name=星光框架

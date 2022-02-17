@@ -20,7 +20,15 @@ val oreDictAddMap as IItemStack[][IOreDictEntry] = {
     <ore:dyeYellow> : [<ore:dustYellow>.firstItem],
     <ore:blockMercury>: [<contenttweaker:mercury_block>],
     <ore:ingotMercury> : [<thaumcraft:quicksilver>],
-    <ore:nuggetMercury> : [<thaumcraft:nugget:5>]
+    <ore:nuggetMercury> : [<thaumcraft:nugget:5>],
+    <ore:nuggetCinnabar> : [<contenttweaker:cinnabar_nugget>],
+    <ore:bioactiveCinnabar> : [<contenttweaker:cinnabar_bioactive>],
+    <ore:bioactiveOmniEssence> : [<contenttweaker:omni_essential_bioactive>],
+    <ore:dustTinyOmniEssence> : [<contenttweaker:omni_essential_tiny_dust>],
+    <ore:rockQuartzite> : [<contenttweaker:quartzite>],
+    <ore:clusterQuartzite> : [<contenttweaker:quartzite_cluster>],
+    <ore:bioactiveQuartzite> : [<contenttweaker:quartzite_bioactive>],
+    <ore:bioactiveColoredGem> : [<contenttweaker:colored_gem_bioactive>],
 };
 
 val oreDictRemoveMap as IItemStack[][IOreDictEntry] = {
