@@ -22,17 +22,21 @@ bioactiveCinnabar.itemColorSupplier = function(item, tintIndex) {
 };
 bioactiveCinnabar.register();
 
-var rockQuartzite = VanillaFactory.createItem("quartzite"); //TODO double layers
-rockQuartzite.textureLocation = ResourceLocation.create("base:items/rock");
+var rockQuartzite = VanillaFactory.createItem("quartzite");
+rockQuartzite.textureLocation = ResourceLocation.create("base:items/ore_rock");
 rockQuartzite.itemColorSupplier = function(item, tintIndex) {
-    return Color.fromInt(0x3C3C3C);
+    if (tintIndex == 1) {
+        return Color.fromInt(0x3C3C3C);
+    } else return Color.fromInt(0xFFFFFF);
 };
 rockQuartzite.register();
 
 var clusterQuartzite = VanillaFactory.createItem("quartzite_cluster");
 clusterQuartzite.textureLocation = ResourceLocation.create("base:items/cluster");
 clusterQuartzite.itemColorSupplier = function(item, tintIndex) {
-    return Color.fromInt(0x3C3C3C);
+    if (tintIndex == 1) {
+        return Color.fromInt(0x3C3C3C);
+    } else return Color.fromInt(0xFFFFFF);
 };
 clusterQuartzite.register();
 
