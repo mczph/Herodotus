@@ -313,8 +313,8 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<factorytech:ingot:5>, <factorytech:machinepart:30>, <factorytech:ingot:5>],
-    [<factorytech:ingot:5>, <factorytech:intermediate:4>, <factorytech:ingot:5>],
+    [<ore:ingotRiverIron> , <factorytech:machinepart:30>, <ore:ingotRiverIron> ],
+    [<ore:ingotRiverIron> , <factorytech:intermediate:4>, <ore:ingotRiverIron> ],
     [<pyrotech:stone_bricks>, null, <pyrotech:stone_bricks>]])
   .addTool(<ore:artisansSpanner>, 80)
   .addOutput(<factorytech:metalcutter>)
