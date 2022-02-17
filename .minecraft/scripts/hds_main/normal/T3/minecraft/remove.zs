@@ -12,7 +12,11 @@ val removeByOutput as IItemStack[] = [
     <bloodmagic:blood_rune>,
     <bloodmagic:altar>,
     <botania:manaresource:6>,
-    <thaumcraft:stone_arcane>
+    <thaumcraft:stone_arcane>,
+    <prodigytech:tartaric_aeroheater>,
+    <prodigytech:tartaric_stoker>,
+    <prodigytech:heat_capacitor_2>,
+    <prodigytech:heat_capacitor_3>
 ];
 
 if(!isInvalid) {

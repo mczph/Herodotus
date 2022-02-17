@@ -11,15 +11,13 @@ if (!debug) {
     addRegexLogFilter("Adding to item stage.*");
 
     val stagedModList as string[] = [
-        "tinker_io", "bloodtinker",
-        "thermaldynamics", "tconevo", "libvulpes", "thermalexpansion", "artisanautomation",
+        "tinker_io", "thermaldynamics", "libvulpes", "thermalexpansion", "artisanautomation",
         "appliedenergistics2", "aetherworks", "advancedrocketry", "ae2wtlib", "ae2stuff",
-        "enderio", "extendedcrafting", "incorporeal",
-        "industrialforegoing", "industrialrenewal", "mekanism", "nuclearcraft", "opencomputers",
-        "bloodmagic", "ae2fc", "compactmachines3", "draconicevolution", "efab", "embers",
-        "emergingtechnology", "xnet", "thermalinnovation", "rftoolspower", "rftoolscontrol",
-        "rftools", "qmd", "packagedexcrafting", "aenetvistool", "bloodarsenal", "teslathingies", "soot",
-        "packagedauto", "actuallyadditions", "thaumicenergistics"
+        "enderio", "extendedcrafting", "incorporeal", "industrialforegoing", "industrialrenewal",
+        "mekanism", "nuclearcraft", "opencomputers", "ae2fc", "compactmachines3", "draconicevolution",
+        "efab", "embers", "emergingtechnology", "xnet", "thermalinnovation", "rftoolspower",
+        "rftoolscontrol", "rftools", "qmd", "packagedexcrafting", "aenetvistool", "bloodarsenal",
+        "teslathingies", "soot", "packagedauto", "actuallyadditions", "thaumicenergistics"
     ];
 
     val except as IIngredient[] = [
@@ -31,7 +29,7 @@ if (!debug) {
         <actuallyadditions:block_tiny_torch>, <libvulpes:coil0:4>, <rftools:redstone_transmitter_block>,
         <rftools:redstone_receiver_block>, <rftools:sequencer_block>, <rftools:counter_block>, <rftools:logic_block>,
         <rftools:invchecker_block>, <rftools:sensor_block>, <rftools:analog_block>, <rftools:digit_block>,
-        <rftools:wire_block>, <rftools:timer_block>, <rftools:machine_base>
+        <rftools:wire_block>, <rftools:timer_block>, <rftools:machine_base>, <mekanism:salt>, <mekanism:saltblock>
     ];
     var exceptedIngredient as IIngredient = null;
 

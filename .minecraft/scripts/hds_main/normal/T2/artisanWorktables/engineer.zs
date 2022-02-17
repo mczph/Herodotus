@@ -313,8 +313,8 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<factorytech:ingot:5>, <factorytech:machinepart:30>, <factorytech:ingot:5>],
-    [<factorytech:ingot:5>, <factorytech:intermediate:4>, <factorytech:ingot:5>],
+    [<ore:ingotRiverIron> , <factorytech:machinepart:30>, <ore:ingotRiverIron> ],
+    [<ore:ingotRiverIron> , <factorytech:intermediate:4>, <ore:ingotRiverIron> ],
     [<pyrotech:stone_bricks>, null, <pyrotech:stone_bricks>]])
   .addTool(<ore:artisansSpanner>, 80)
   .addOutput(<factorytech:metalcutter>)
@@ -379,5 +379,104 @@ for i in 0 .. 15 {
         .addTool(<ore:artisansSpanner>, 50)
         .create();
   }
+}
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>],
+    [<ore:plasticLime>, <ore:dustRedstone>, <ore:plasticLime>],
+    [<ore:ingotGold>, <ore:plasticBlue>, <ore:ingotGold>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 20)
+  .addOutput(<buildinggadgets:templatemanager>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<buildinggadgets:constructionpastecontainert2>, <ore:plasticLightBlue>, <buildinggadgets:constructionpastecontainert2>],
+    [<ore:plasticLightBlue>, <ore:plasticLightBlue>, <ore:plasticLightBlue>],
+    [<buildinggadgets:constructionpastecontainert2>, <ore:plasticLightBlue>, <buildinggadgets:constructionpastecontainert2>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 20)
+  .addOutput(<buildinggadgets:constructionpastecontainert3>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:nuggetConstructionAlloy>, <ore:nuggetConstructionAlloy>, <ore:nuggetConstructionAlloy>],
+    [<ore:nuggetConstructionAlloy>, <buildinggadgets:constructionpaste>, <ore:nuggetConstructionAlloy>],
+    [<ore:nuggetConstructionAlloy>, <ore:nuggetConstructionAlloy>, <ore:nuggetConstructionAlloy>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 20)
+  .addOutput(<buildinggadgets:constructionpastecontainer>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
+    [<ore:nuggetIron>, <buildinggadgets:constructionpaste>, <ore:nuggetIron>],
+    [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 20)
+  .addOutput(<buildinggadgets:constructionpastecontainer>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<buildinggadgets:constructionpastecontainer>, <ore:nuggetGold>, <buildinggadgets:constructionpastecontainer>],
+    [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>],
+    [<buildinggadgets:constructionpastecontainer>, <ore:nuggetGold>, <buildinggadgets:constructionpastecontainer>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 20)
+  .addOutput(<buildinggadgets:constructionpastecontainert2>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>],
+    [<ore:plasticLime>, <ore:dustRedstone>, <ore:plasticLime>],
+    [<ore:plasticWhite>, <ore:plasticBlue>, <ore:plasticWhite>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 50)
+  .addOutput(<buildinggadgets:copypastetool>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>],
+    [<ore:plasticLightBlue>, <ore:dustRedstone>, <ore:plasticLightBlue>],
+    [<ore:ingotIron>, <ore:plasticBlue>, <ore:ingotIron>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 50)
+  .addOutput(<buildinggadgets:buildingtool>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>],
+    [<ore:plasticLightBlue>, <ore:plasticBlue>, <ore:plasticLightBlue>],
+    [<ore:ingotIron>, <ore:plasticBlue>, <ore:ingotIron>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 50)
+  .addOutput(<buildinggadgets:exchangertool>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>],
+    [<minecraft:ender_pearl>, <minecraft:redstone>, <minecraft:ender_pearl>],
+    [<ore:ingotIron>, <ore:plasticBlue>, <ore:ingotIron>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 50)
+  .addOutput(<buildinggadgets:destructiontool>)
+  .create();
+
+val gadgets as IItemStack[] = [
+  <buildinggadgets:buildingtool>,
+  <buildinggadgets:exchangertool>,
+  <buildinggadgets:copypastetool>,
+  <buildinggadgets:destructiontool>,
+];
+
+for gadget in gadgets {
+  RecipeBuilder.get("engineer")
+  .setShapeless([gadget.withDamage(32767).marked("t")]) // 32767 -> meta wildcard
+  .setFluid(<liquid:light_oil> * 500)
+  .addOutput(gadget)
+  .setRecipeFunction(function(out, ins, info) {
+    return ins.t.withDamage(min(0, ins.t.damage - 2000));
+  })
+  .create();
 }
 }

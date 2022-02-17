@@ -29,6 +29,12 @@ val oreDictAddMap as IItemStack[][IOreDictEntry] = {
     <ore:clusterQuartzite> : [<contenttweaker:quartzite_cluster>],
     <ore:bioactiveQuartzite> : [<contenttweaker:quartzite_bioactive>],
     <ore:bioactiveColoredGem> : [<contenttweaker:colored_gem_bioactive>],
+    <ore:ingotRiverIron> : [<factorytech:ingot:5>],
+    <ore:nuggetRiverIron> : [<factorytech:ore_dust:15>],
+    <ore:ingotRiverCopper> : [<factorytech:ingot:6>],
+    <ore:nuggetRiverCopper> : [<factorytech:ore_dust:16>],
+    <ore:ingotRiverNickel> : [<factorytech:ingot:7>],
+    <ore:nuggetRiverNickel> : [<factorytech:ore_dust:17>],
 };
 
 val oreDictRemoveMap as IItemStack[][IOreDictEntry] = {
