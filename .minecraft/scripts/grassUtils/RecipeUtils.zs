@@ -9,7 +9,7 @@ import scripts.grassUtils.classes.ConditionedItemStack.ConditionedItemStack;
 
 static tweakedRecipesAmount as int = 0;
 
-//修改合成，先删后加，第一个参数true表有序，false无序，需要二维数组（即使是无序）
+//修改合成, 先删后加, 第一个参数true表有序, false无序, 需要二维数组（即使是无序）
 function recipeTweak(isShaped as bool,out as IItemStack,input as IIngredient[][]) as int{
     var recipeName as string = StringHelper.getItemNameWithUnderline(out);
     if (out.hasTag) {
@@ -53,7 +53,7 @@ function createCrossWithCore(core as IIngredient, a as IIngredient, b as IIngred
     [a, b, a]];
 }
 
-//删除工作台与熔炉合成，并在JEI内隐藏
+//删除工作台与熔炉合成, 并在JEI内隐藏
 function removeAllRecipe(input as IItemStack) as bool {
     recipes.remove(input);
     furnace.remove(input);
@@ -73,7 +73,7 @@ function getConditions(stack as IItemStack) as ConditionedItemStack {
     return ConditionedItemStack(stack);
 }
 
-//从矿辞中提取金属名，但处理金属名为多个单词的如DarkSteel，会出bug，返回Steel
+//从矿辞中提取金属名, 但处理金属名为多个单词的如DarkSteel, 会出bug, 返回Steel
 function getMetalName(arg as IOreDictEntry) as string {
     var input as string = arg.name;
     var temp as string = "";
@@ -88,7 +88,7 @@ function getMetalName(arg as IOreDictEntry) as string {
     return "Invalid";
 }
 
-//从矿辞中提取金属名，需要部件名参数
+//从矿辞中提取金属名, 需要部件名参数
 function getMetalNameNew(ore as IOreDictEntry, partName as string) as string {
     var name as string = ore.name;
     if (name.length > 0 && partName.length > 0) {
