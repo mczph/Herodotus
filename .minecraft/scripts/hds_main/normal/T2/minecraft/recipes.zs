@@ -100,7 +100,7 @@ RecipeUtils.recipeTweak(true, <waystones:warp_stone>,
 	createCrossWithCore(<ore:crystalLithium>, <ore:dyePurple>, <ore:enderpearl>)
 );
 
-recipes.replaceAllOccurences(<minecraft:iron_ingot>, <factorytech:ingot:5>, <*>.only(function(item) {
+recipes.replaceAllOccurences(<minecraft:iron_ingot>, <ore:ingotRiverIron> , <*>.only(function(item) {
     return item.definition.owner == "factorytech" && !<factorytech:machinepart:51>.matches(item);
 }));
 
