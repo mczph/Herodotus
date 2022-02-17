@@ -13,7 +13,7 @@ RecipeBuilder.get("blacksmith")
     [<ore:nuggetRiverIron>, <ore:blockGlass>, <ore:nuggetRiverIron>],
     [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
     [<ore:nuggetRiverIron>, <ore:blockGlass>, <ore:nuggetRiverIron>]])
-  .addTool(<artisanworktables:artisans_hammer_lead>, 10)
+  .addTool(<ore:artisansHammer>, 10)
   .addOutput(<chisel:glass:9> * 5)
   .create();
 
