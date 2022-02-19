@@ -32,7 +32,7 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [null, <prodigytech:heat_capacitor_1>, null],
+    [null, <prodigytech:heat_capacitor_1:12000>, null],
     [<ore:ingotGold>, <ore:plasticLightBlue>, <ore:ingotGold>],
     [null, <prodigytech:heat_capacitor_1>, null]])
   .addTool(<contenttweaker:hot_air_solderer>, 150)
@@ -41,7 +41,7 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [null, <prodigytech:heat_capacitor_2>, null],
+    [null, <prodigytech:heat_capacitor_2:12000>, null],
     [<ore:ingotRiverIron>, <pneumaticcraft:printed_circuit_board>, <ore:ingotRiverIron>],
     [null, <prodigytech:heat_capacitor_2>, null]])
   .addTool(<contenttweaker:hot_air_solderer>, 200)
