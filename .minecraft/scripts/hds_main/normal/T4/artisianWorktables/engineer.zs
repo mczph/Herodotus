@@ -53,8 +53,39 @@ RecipeBuilder.get("engineer")
     [<thaumicaugmentation:material:1>, <thaumcraft:jar_brace>, <thaumicaugmentation:material:1>],
     [<thaumcraft:mechanism_simple>, <thaumadditions:aspect_combiner>, <thaumcraft:mechanism_simple>],
     [<bloodmagic:slate>, <factorytech:machinepart:61>, <bloodmagic:slate>]])
-  .setFluid(<liquid:taint_nutrition> * 4000)
+  .setFluid(<liquid:taint_nutrition> * 1000)
   .addTool(<ore:artisansSpanner>, 100)
   .addOutput(<hdsutils:alchemy_crafter>)
   .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<thaumcraft:jar_brace>, <hdsutils:straight_tunnel>, <thaumcraft:jar_brace>],
+    [<hdsutils:straight_tunnel>, <thaumcraft:centrifuge>, <hdsutils:straight_tunnel>],
+    [<thaumicaugmentation:fortified_glass>, <factorytech:machinepart:61>, <thaumicaugmentation:fortified_glass>]])
+  .setFluid(<liquid:taint_nutrition> * 1000)
+  .addTool(<ore:artisansSpanner>, 100)
+  .addOutput(<hdsutils:alchemy_separator>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<thaumcraft:jar_brace>, <hdsutils:straight_tunnel>, <thaumcraft:jar_brace>],
+    [<hdsutils:straight_tunnel>, <thaumcraft:centrifuge>, <hdsutils:straight_tunnel>],
+    [<ore:plateBrass>, <factorytech:machinepart:61>, <ore:plateBrass>]])
+  .setFluid(<liquid:taint_nutrition> * 1000)
+  .addTool(<ore:artisansSpanner>, 100)
+  .addOutput(<hdsutils:alchemy_separator>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <thaumcraft:jar_brace>, null],
+    [<thaumicaugmentation:fortified_glass_pane>, null, <thaumicaugmentation:fortified_glass_pane>],
+    [<ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>]])
+  .setFluid(<liquid:unstable_aura> * 250)
+  .addTool(<ore:artisansSpanner>, 50)
+  .addOutput(<hdsutils:alchemy_separator_tank>)
+  .create();
+
 }
