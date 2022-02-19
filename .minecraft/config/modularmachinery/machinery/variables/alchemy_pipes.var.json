@@ -1,0 +1,16 @@
+{
+    "pipes_all": [
+        "minecraft:air",
+        "hdsutils:alchemy_controller",
+        "hdsutils:vertical_right_angle",
+        "hdsutils:right_angle_tunnel",
+        "hdsutils:straight_tunnel",
+        "hdsutils:alchemy_input_hatch",
+        "hdsutils:alchemy_output_hatch",
+        "hdsutils:round_robin_tunnel",
+        "hdsutils:lazy_tunnel",
+        "hdsutils:alchemy_separator",
+        "hdsutils:alchemy_separator_tank",
+        "hdsutils:alchemy_crafter"
+    ]
+}

@@ -6,6 +6,7 @@ modularmachinery.basic_thermal_melting_machine=Basic Thermal Melting Machine
 modularmachinery.aspect_blast_furnace=Aspect Blast Furnace
 modularmachinery.aura_assembler=Aura Assembler
 modularmachinery.modifier.infinite_water=Replace the Corrugate Iron Machine Block upon Fluid Input Hatch to make the machine not consume water.
+modularmachinery.alchemical_restructure_chamber=Alchemical Restructure Chamber
 
 herodotus.welcomeMessage.head=Welcome to play
 herodotus.welcomeMessage.name= Herodotus Modpack!
