@@ -10,6 +10,14 @@ if (!isInvalid) {
     Crucible.removeRecipe(<thaumcraft:ingot>);
     Crucible.removeRecipe(<thaumcraft:ingot:1>);
     Crucible.registerRecipe("thaumium_ingot_0", "", <thaumcraft:ingot>, <ore:ingotIron>, crtlib.getAllBasicAspects(200));
+    Crucible.registerRecipe("thaumium_ingot_1", "", <thaumcraft:ingot>, <ore:ingotIron>, [
+        <aspect:permutatio> * 20,
+        <aspect:potentia> * 20,
+        <aspect:praecantatio> * 20,
+        <aspect:mortuus> * 20,
+        <aspect:metallum> * 20,
+        <aspect:infernum> * 20
+    ]);
     Crucible.registerRecipe("rift_feed", "", <hdsutils:rift_feed>, <thaumcraft:stone_ancient_rock>, [
         <aspect:victus> * 15,
         <aspect:desiderium> * 15,
