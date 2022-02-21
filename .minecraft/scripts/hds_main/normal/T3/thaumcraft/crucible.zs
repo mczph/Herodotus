@@ -16,7 +16,7 @@ if (!isInvalid) {
         <aspect:praecantatio> * 20,
         <aspect:mortuus> * 20,
         <aspect:metallum> * 20,
-        <aspect:infernum> * 20
+        <aspect:lux> * 20
     ]);
     Crucible.registerRecipe("rift_feed", "", <hdsutils:rift_feed>, <thaumcraft:stone_ancient_rock>, [
         <aspect:victus> * 15,
