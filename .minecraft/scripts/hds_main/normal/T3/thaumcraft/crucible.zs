@@ -13,7 +13,7 @@ if (!isInvalid) {
     Crucible.registerRecipe("thaumium_ingot_1", "", <thaumcraft:ingot>, <ore:ingotIron>, [
         <aspect:permutatio> * 20,
         <aspect:potentia> * 20,
-        <aspect:praecantatio> * 20,
+        <aspect:vitreus> * 20,
         <aspect:mortuus> * 20,
         <aspect:metallum> * 20,
         <aspect:lux> * 20
