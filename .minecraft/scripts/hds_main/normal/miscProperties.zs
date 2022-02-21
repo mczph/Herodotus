@@ -28,6 +28,12 @@ if (!isInvalid) {
     <entity:minecraft:zombie_pigman>.removeDrop(<minecraft:gold_nugget>);
     <entity:minecraft:zombie>.removeDrop(<minecraft:iron_ingot>);
     <entity:minecraft:zombie>.removeDrop(<minecraft:iron_ore>);
+    <entity:srparasites:pri_longarms>.addDrop(<contenttweaker:broken_ootheca> % 45);
     <entity:srparasites:pri_bolster>.addDrop(<contenttweaker:broken_ootheca> % 35);
+    <entity:srparasites:pri_manducater>.addDrop(<contenttweaker:broken_ootheca> % 25);
+    <entity:srparasites:pri_reeker>.addDrop(<contenttweaker:broken_ootheca> % 65);
+    <entity:srparasites:pri_yelloweye>.addDrop(<contenttweaker:broken_ootheca> % 100);
+    <entity:srparasites:pri_summoner>.addDrop(<contenttweaker:broken_ootheca> % 25);
+    <entity:srparasites:pri_arachnida>.addDrop(<contenttweaker:broken_ootheca> % 45);
     vanilla.seeds.removeSeed(<item.teslathingies.tesla_plant_seeds:0>);
 }
