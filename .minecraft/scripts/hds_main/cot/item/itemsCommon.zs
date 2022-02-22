@@ -8,6 +8,18 @@ import mods.contenttweaker.Color;
 import scripts.hds_lib.cotlib.plainItemIDs;
 import scripts.grassUtils.CotUtils;
 
+static christenerColors as int[string] = {
+    "longarms": 0x8b0000,
+    "bolster": 0xffb5c5,
+    "manducater": 0xf8f8ff,
+    "reeker": 0xff0000,
+    "yelloweye": 0xffff00,
+    "summoner": 0x1c1c1c,
+    "arachnida": 0x27408b,
+    "dead": 0x262626,
+    "empty": 0xffffff
+};
+
 var nuggetCinnabar = VanillaFactory.createItem("cinnabar_nugget");
 nuggetCinnabar.textureLocation = ResourceLocation.create("base:items/nugget");
 nuggetCinnabar.itemColorSupplier = function(item, tintIndex) {
@@ -73,6 +85,16 @@ arl.register();
 var seed = VanillaFactory.createItem("basic_vis_seed");
 seed.textureLocation = ResourceLocation.create("thaumadditions:items/vis_seeds_0");
 seed.register();
+
+for name, color in christenerColors {
+    val item = VanillaFactory.createItem("belial_christener_" ~ name);
+    item.itemColorSupplier = function(item, tintIndex) {
+        if (tintIndex == 1) {
+            return Color.fromInt(color);
+        } else return Color.fromInt(-1);
+    };
+    item.register();
+}
 
 for id in plainItemIDs {
     CotUtils.addNormalItem(id);

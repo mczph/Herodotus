@@ -62,6 +62,15 @@ item.contenttweaker.omni_essential_bioactive.name=Bioactive Omni Essential
 item.contenttweaker.colored_gem.name=Colored Gem
 item.contenttweaker.colored_gem_tiny.name=Tiny Colored Gem
 item.contenttweaker.colored_gem_bioactive.name=Bioactive Colored Gem
+item.contenttweaker.belial_christener_empty.name=Belial Christener (Empty)
+item.contenttweaker.belial_christener_longarms.name=Belial Christener (Longarms)
+item.contenttweaker.belial_christener_bolster.name=Belial Christener (Bolster)
+item.contenttweaker.belial_christener_manducater.name=Belial Christener (Manducater)
+item.contenttweaker.belial_christener_reeker.name=Belial Christener (Reeker)
+item.contenttweaker.belial_christener_yelloweye.name=Belial Christener (Yelloweye)
+item.contenttweaker.belial_christener_summoner.name=Belial Christener (Summoner)
+item.contenttweaker.belial_christener_arachnida.name=Belial Christener (Arachnida)
+item.contenttweaker.belial_christener_dead.name=Belial Christener (Dead)
 
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame

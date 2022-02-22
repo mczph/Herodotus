@@ -61,6 +61,15 @@ item.contenttweaker.omni_essential_bioactive.name=生物活性万用源质
 item.contenttweaker.colored_gem.name=有色宝石
 item.contenttweaker.colored_gem_tiny.name=小粒有色宝石
 item.contenttweaker.colored_gem_bioactive.name=生物活性有色宝石
+item.contenttweaker.belial_christener_empty.name=谵妄母仪 (空)
+item.contenttweaker.belial_christener_longarms.name=谵妄母仪 (长臂兽)
+item.contenttweaker.belial_christener_bolster.name=谵妄母仪 (协增兽)
+item.contenttweaker.belial_christener_manducater.name=谵妄母仪 (咀骨兽)
+item.contenttweaker.belial_christener_reeker.name=谵妄母仪 (毒腥兽)
+item.contenttweaker.belial_christener_yelloweye.name=谵妄母仪 (黄眸兽)
+item.contenttweaker.belial_christener_summoner.name=谵妄母仪 (召唤兽)
+item.contenttweaker.belial_christener_arachnida.name=谵妄母仪 (蛛形兽)
+item.contenttweaker.belial_christener_dead.name=谵妄母仪 (死亡)
 
 tile.contenttweaker.altar.name=日月祭坛
 tile.contenttweaker.starlight_frame.name=星光框架
