@@ -113,6 +113,9 @@ contenttweaker.part.light_plate=轻薄%s板
 contenttweaker.part.rhombus_tier_two=二级%s菱形
 contenttweaker.part.spherical_tier_two=二级%s球形
 contenttweaker.part.square_tier_two=二级%s方形
+contenttweaker.part.rhombus_tier_three=三级%s菱形
+contenttweaker.part.spherical_tier_three=三级%s球形
+contenttweaker.part.square_tier_three=三级%s方形
 contenttweaker.part.bioactive=生物活性%s
 
 base.material.bronze=青铜

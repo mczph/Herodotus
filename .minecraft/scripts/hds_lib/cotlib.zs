@@ -44,7 +44,8 @@ static allPartsMap as string[][int] = {
         "ingot", "tiny_dust", 
         "rhombus", "spherical", "square",
         "rhombusCover", "sphericalCover", "squareCover",
-        "rhombusTierTwo", "sphericalTierTwo", "squareTierTwo"
+        "rhombusTierTwo", "sphericalTierTwo", "squareTierTwo",
+        "rhombusTierThree", "sphericalTierThree", "squareTierThree"
     ],
     1 : [//metal1
         "nugget", "beam", "dirty_dust", "cluster", "ring",

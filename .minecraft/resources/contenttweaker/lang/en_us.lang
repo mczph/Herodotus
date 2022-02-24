@@ -114,6 +114,9 @@ contenttweaker.part.light_plate=Light %s Plate
 contenttweaker.part.rhombus_tier_two=%s Rhombus (Tier Two)
 contenttweaker.part.spherical_tier_two=%s Spherical (Tier Two)
 contenttweaker.part.square_tier_two=%s Square (Tier Two)
+contenttweaker.part.rhombus_tier_three=%s Rhombus (Tier Three)
+contenttweaker.part.spherical_tier_three=%s Spherical (Tier Three)
+contenttweaker.part.square_tier_three=%s Square (Tier Three)
 contenttweaker.part.bioactive=Bioactive %s
 
 base.material.bronze=Bronze
