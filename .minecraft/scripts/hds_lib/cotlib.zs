@@ -10,6 +10,7 @@ val registerPartsArray as string[] = [
     "rhombus", "spherical", "square", "fourNuggets", "lightPlate",
     "rhombusCover", "sphericalCover", "squareCover",
     "rhombusTierTwo", "sphericalTierTwo", "squareTierTwo",
+    "rhombusTierThree", "sphericalTierThree", "squareTierThree",
     "bioactive"
 ];
 val register as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("registerPart");
