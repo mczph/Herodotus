@@ -177,6 +177,9 @@ jobs:
       - name: Run version.py
         run: python runners/version.py
 
+      - name: Build Downloader
+        run: dotnet publish ${GITHUB_WORKSPACE}/runners/CurseforgeDownloader/CurseforgeDownloader/CurseforgeDownloader.csproj -c Release -o ${GITHUB_WORKSPACE}/ -r linux-x64 -p:PublishSingleFile=true
+
       - name: pack for release asset (curse pack)
         run: |
           cd ${GITHUB_WORKSPACE}
@@ -202,9 +205,6 @@ jobs:
           mv ${GITHUB_WORKSPACE}/runners/server/start.bat ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/runners/server/start.sh ${GITHUB_WORKSPACE}/server/
 
-      - name: Build Downloader
-        run: dotnet publish ${GITHUB_WORKSPACE}/runners/CurseforgeDownloader/CurseforgeDownloader/CurseforgeDownloader.csproj -c Release -o ${GITHUB_WORKSPACE}/ -r linux-x64 -p:PublishSingleFile=true
-
       - name: Run Downloader
         run: |
           chmod +x ${GITHUB_WORKSPACE}/CurseforgeDownloader
@@ -213,7 +213,7 @@ jobs:
       - name: pack for release asset (server pack)
         run: |
           cd ${GITHUB_WORKSPACE}
-          zip -r "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server.zip" -xi manifest.json modlist.html ${GITHUB_WORKSPACE}/server
+          zip -r "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server.zip" -xi ${GITHUB_WORKSPACE}/server
 
       - name: Release
         uses: softprops/action-gh-release@v1
