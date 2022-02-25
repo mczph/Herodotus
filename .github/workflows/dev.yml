@@ -161,6 +161,16 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.8
+      
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
 
       - name: Close Debug Mode
         run: python runners/close_debug.py
@@ -168,11 +178,43 @@ jobs:
       - name: Run version.py
         run: python runners/version.py
 
-      - name: pack for release asset
+      - name: pack for release asset (curse pack)
         run: |
           cd ${GITHUB_WORKSPACE}
           mv .minecraft overrides
           zip -r "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip" -xi manifest.json modlist.html overrides
+
+      - name: Install server
+        run: |
+          mkdir ${GITHUB_WORKSPACE}/server
+          wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar -O ${GITHUB_WORKSPACE}/server/forge-1.12.2-14.23.5.2860-installer.jar
+          cd ./server
+          sudo java -jar forge-1.12.2-14.23.5.2860-installer.jar --installServer
+          sudo rm forge-1.12.2-14.23.5.2860-installer.jar
+          sudo rm forge-1.12.2-14.23.5.2860-installer.jar.log
+
+      - name: Setup server files
+        run: |
+          mv ${GITHUB_WORKSPACE}/overrides/mods ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/overrides/config ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/overrides/scripts ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/overrides/resources ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/overrides/icon.png ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/runners/server/start.bat ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/runners/server/start.sh ${GITHUB_WORKSPACE}/server/
+
+      - name: Build Downloader
+        run: dotnet publish ${GITHUB_WORKSPACE}/runners/CurseforgeDownloader/CurseforgeDownloader/CurseforgeDownloader.csproj -c Release -o ${GITHUB_WORKSPACE}/ -r linux-x64 -p:PublishSingleFile=true
+
+      - name: Run Downloader
+        run: |
+          chmod +x ${GITHUB_WORKSPACE}/CurseforgeDownloader
+          ${GITHUB_WORKSPACE}/CurseforgeDownloader --api-key '${{ secrets.OVERWOLF_API_KEY }}' --mod-folder-path './server/mods' --black-list '454215'
+
+      - name: pack for release asset (server pack)
+        run: |
+          cd ${GITHUB_WORKSPACE}
+          zip -r "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server.zip" -xi manifest.json modlist.html ${GITHUB_WORKSPACE}/server
 
       - name: Release
         uses: softprops/action-gh-release@v1
@@ -181,4 +223,7 @@ jobs:
           generate_release_notes: true
           name: v${{ env.VERSION }}.${{ github.run_number }}
           tag_name: v${{ env.VERSION }}.${{ github.run_number }}
-          files: "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip"
+          files: |
+            ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip
+            ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server.zip
+
