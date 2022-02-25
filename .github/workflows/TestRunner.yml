@@ -1,9 +1,9 @@
 name: TestRunner
 on:
   push:
-    branches: [release]
+    branches: [develop]
   pull_request:
-    branches: [release]
+    branches: [develop]
 
 jobs:
   TestRunnerClient:
@@ -23,10 +23,13 @@ jobs:
         with:
           java-version: 1.8
 
-      - name: Download Modpack Downloader CLI
-        run: |
-          mkdir ${GITHUB_WORKSPACE}/downloader
-          wget https://github.com/Nincraft/ModPackDownloader/releases/download/0.6.1/ModpackDownloader-cli-0.6.1.jar -O ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
+
+      - name: Build Downloader
+        run: dotnet publish ${GITHUB_WORKSPACE}/runners/CurseforgeDownloader/CurseforgeDownloader/CurseforgeDownloader.csproj -c Release -o ${GITHUB_WORKSPACE}/ -r linux-x64 -p:PublishSingleFile=true
 
       - name: Download GML
         run: |
@@ -66,8 +69,10 @@ jobs:
           cd gml
           sudo java -cp "forge-install-bootstrapper.jar:forge-1.12.2-14.23.5.2860-installer.jar" com.bangbang93.ForgeInstaller ./.minecraft/
 
-      - name: Download Mods
-        run: sudo ${JAVA_HOME_11_X64}/bin/java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/manifest.json -folder ${GITHUB_WORKSPACE}/gml/.minecraft/mods
+      - name: Run Downloader
+        run: |
+          chmod +x ${GITHUB_WORKSPACE}/CurseforgeDownloader
+          ${GITHUB_WORKSPACE}/CurseforgeDownloader --api-key '${{ secrets.OVERWOLF_API_KEY }}' --mod-folder-path './gml/.minecraft/mods' --black-list ''
 
       - name: Install Autostop
         run: sudo mv ${GITHUB_WORKSPACE}/runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
