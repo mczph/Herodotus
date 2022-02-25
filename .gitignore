@@ -86,3 +86,10 @@
 !/.minecraft/mods
 /.minecraft/mods/*
 !/.minecraft/mods/herodotusutils*.jar
+
+# cs file
+/runners/CurseforgeDownloader/CurseforgeDownloader/bin
+/runners/CurseforgeDownloader/CurseforgeDownloader/obj
+/runners/CurseforgeDownloader/.vs/
+/runners/CurseforgeDownloader/.idea/
+/runners/CurseforgeDownloader/CurseforgeDownloader/obj/project.assets.json
