@@ -72,7 +72,7 @@ jobs:
       - name: Run Downloader
         run: |
           chmod +x ${GITHUB_WORKSPACE}/CurseforgeDownloader
-          ${GITHUB_WORKSPACE}/CurseforgeDownloader --api-key '${{ secrets.OVERWOLF_API_KEY }}' --mod-folder-path './gml/.minecraft/mods' --black-list ''
+          ${GITHUB_WORKSPACE}/CurseforgeDownloader --api-key '${{ secrets.OVERWOLF_API_KEY }}' --mod-folder-path './gml/.minecraft/mods' --black-list '454215'
 
       - name: Install Autostop
         run: sudo mv ${GITHUB_WORKSPACE}/runners/autostop-1.0.jar ${GITHUB_WORKSPACE}/gml/.minecraft/mods
