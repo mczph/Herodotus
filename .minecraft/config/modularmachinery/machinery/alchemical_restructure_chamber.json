@@ -9,7 +9,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -24,8 +24,8 @@
             "z": 0,
             "elements": [
                 "modularmachinery:blockinputbus",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockoutputbus"
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {
@@ -33,7 +33,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -49,7 +49,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -58,8 +58,8 @@
             "z": 0,
             "elements": [
                 "modularmachinery:blockinputbus",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockoutputbus"
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {
@@ -75,7 +75,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -83,7 +83,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@4"
             ]
         },
         {
@@ -99,7 +99,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@4"
             ]
         },
         {
@@ -339,6 +339,24 @@
             ]
         },
         {
+            "x": -4,
+            "y": 18,
+            "z": 8,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -3,
+            "y": 18,
+            "z": 8,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 8,
+            "elements": "pipes_all"
+        },
+        {
             "x": -5,
             "y": 10,
             "z": 4,
@@ -347,9 +365,21 @@
             ]
         },
         {
+            "x": -1,
+            "y": 18,
+            "z": 8,
+            "elements": "pipes_all"
+        },
+        {
             "x": -4,
             "y": 10,
             "z": 4,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 8,
             "elements": "pipes_all"
         },
         {
@@ -359,9 +389,21 @@
             "elements": "pipes_all"
         },
         {
+            "x": 1,
+            "y": 18,
+            "z": 8,
+            "elements": "pipes_all"
+        },
+        {
             "x": -2,
             "y": 10,
             "z": 4,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "z": 8,
             "elements": "pipes_all"
         },
         {
@@ -369,13 +411,19 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
             "x": -1,
             "y": 10,
             "z": 4,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 3,
+            "y": 18,
+            "z": 8,
             "elements": "pipes_all"
         },
         {
@@ -507,7 +555,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -515,57 +563,11 @@
             "y": 19,
             "z": 8,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
             "x": -4,
-            "y": 19,
-            "z": 8,
-            "elements": [
-                "thaumicaugmentation:fortified_glass@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 19,
-            "z": 8,
-            "elements": [
-                "thaumicaugmentation:fortified_glass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 19,
-            "z": 8,
-            "elements": [
-                "thaumicaugmentation:fortified_glass@0"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 11,
-            "z": 4,
-            "elements": [
-                "chisel:glass@9"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 19,
-            "z": 8,
-            "elements": [
-                "thaumicaugmentation:fortified_glass@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 11,
-            "z": 4,
-            "elements": "pipes_all"
-        },
-        {
-            "x": 0,
             "y": 19,
             "z": 8,
             "elements": [
@@ -574,6 +576,52 @@
         },
         {
             "x": -3,
+            "y": 19,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 19,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "chisel:glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 4,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -3,
             "y": 11,
             "z": 4,
             "elements": "pipes_all"
@@ -605,7 +653,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -663,7 +711,7 @@
             "y": 19,
             "z": 8,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -753,7 +801,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -787,7 +835,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -911,7 +959,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -945,7 +993,7 @@
             "y": 5,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -1069,7 +1117,7 @@
             "y": 5,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -1103,7 +1151,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -1227,7 +1275,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -1261,7 +1309,7 @@
             "y": 7,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -1385,7 +1433,7 @@
             "y": 7,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -1419,7 +1467,7 @@
             "y": 8,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -1543,7 +1591,7 @@
             "y": 8,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -1577,7 +1625,7 @@
             "y": 9,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -1701,7 +1749,7 @@
             "y": 9,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -1713,12 +1761,36 @@
             ]
         },
         {
+            "x": -4,
+            "y": 18,
+            "z": 4,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -3,
+            "y": 18,
+            "z": 4,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 4,
+            "elements": "pipes_all"
+        },
+        {
             "x": -5,
             "y": 10,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 4,
+            "elements": "pipes_all"
         },
         {
             "x": -4,
@@ -1729,12 +1801,24 @@
             ]
         },
         {
+            "x": 0,
+            "y": 18,
+            "z": 4,
+            "elements": "pipes_all"
+        },
+        {
             "x": -3,
             "y": 10,
             "z": 0,
             "elements": [
                 "chisel:glass@9"
             ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 4,
+            "elements": "pipes_all"
         },
         {
             "x": -2,
@@ -1745,12 +1829,24 @@
             ]
         },
         {
+            "x": 2,
+            "y": 18,
+            "z": 4,
+            "elements": "pipes_all"
+        },
+        {
             "x": -1,
             "y": 10,
             "z": 0,
             "elements": [
                 "chisel:glass@9"
             ]
+        },
+        {
+            "x": 3,
+            "y": 18,
+            "z": 4,
+            "elements": "pipes_all"
         },
         {
             "x": 0,
@@ -1811,7 +1907,7 @@
             "y": 10,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -1819,7 +1915,7 @@
             "y": 19,
             "z": 4,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -1851,7 +1947,7 @@
             "y": 11,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -1955,7 +2051,7 @@
             "y": 19,
             "z": 4,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -1987,7 +2083,7 @@
             "y": 11,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -1995,7 +2091,7 @@
             "y": 12,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -2075,7 +2171,7 @@
             "y": 12,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -2083,7 +2179,7 @@
             "y": 13,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -2163,7 +2259,7 @@
             "y": 13,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -2171,7 +2267,7 @@
             "y": 14,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -2251,7 +2347,7 @@
             "y": 14,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -2323,7 +2419,7 @@
             "y": 15,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -2427,7 +2523,7 @@
             "y": 15,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -2499,7 +2595,7 @@
             "y": 16,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -2523,7 +2619,7 @@
             "y": 1,
             "z": 9,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "modularmachinery:blockfluidinputhatch@1"
             ]
         },
         {
@@ -2603,7 +2699,7 @@
             "y": 16,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -2661,7 +2757,7 @@
             "y": 17,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -2763,7 +2859,7 @@
             "y": 17,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -2979,7 +3075,7 @@
             "y": 19,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@4"
             ]
         },
         {
@@ -3007,7 +3103,7 @@
             "y": 19,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -3023,7 +3119,7 @@
             "y": 19,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -3031,7 +3127,7 @@
             "y": 19,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -3039,7 +3135,7 @@
             "y": 19,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -3047,7 +3143,7 @@
             "y": 19,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -3055,7 +3151,7 @@
             "y": 19,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -3063,7 +3159,7 @@
             "y": 19,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -3079,7 +3175,7 @@
             "y": 19,
             "z": 0,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@4"
             ]
         },
         {
@@ -3323,7 +3419,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -3447,7 +3543,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -4913,6 +5009,24 @@
             ]
         },
         {
+            "x": -4,
+            "y": 18,
+            "z": 9,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -3,
+            "y": 18,
+            "z": 9,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 9,
+            "elements": "pipes_all"
+        },
+        {
             "x": -5,
             "y": 10,
             "z": 5,
@@ -4921,9 +5035,21 @@
             ]
         },
         {
+            "x": -1,
+            "y": 18,
+            "z": 9,
+            "elements": "pipes_all"
+        },
+        {
             "x": -4,
             "y": 10,
             "z": 5,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 9,
             "elements": "pipes_all"
         },
         {
@@ -4933,9 +5059,21 @@
             "elements": "pipes_all"
         },
         {
+            "x": 1,
+            "y": 18,
+            "z": 9,
+            "elements": "pipes_all"
+        },
+        {
             "x": -2,
             "y": 10,
             "z": 5,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "z": 9,
             "elements": "pipes_all"
         },
         {
@@ -4950,6 +5088,12 @@
             "x": -1,
             "y": 10,
             "z": 5,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 3,
+            "y": 18,
+            "z": 9,
             "elements": "pipes_all"
         },
         {
@@ -6143,6 +6287,24 @@
             ]
         },
         {
+            "x": -4,
+            "y": 18,
+            "z": 5,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -3,
+            "y": 18,
+            "z": 5,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 5,
+            "elements": "pipes_all"
+        },
+        {
             "x": -5,
             "y": 10,
             "z": 1,
@@ -6151,9 +6313,21 @@
             ]
         },
         {
+            "x": -1,
+            "y": 18,
+            "z": 5,
+            "elements": "pipes_all"
+        },
+        {
             "x": -4,
             "y": 10,
             "z": 1,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 5,
             "elements": "pipes_all"
         },
         {
@@ -6163,15 +6337,33 @@
             "elements": "pipes_all"
         },
         {
+            "x": 1,
+            "y": 18,
+            "z": 5,
+            "elements": "pipes_all"
+        },
+        {
             "x": -2,
             "y": 10,
             "z": 1,
             "elements": "pipes_all"
         },
         {
+            "x": 2,
+            "y": 18,
+            "z": 5,
+            "elements": "pipes_all"
+        },
+        {
             "x": -1,
             "y": 10,
             "z": 1,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 3,
+            "y": 18,
+            "z": 5,
             "elements": "pipes_all"
         },
         {
@@ -6231,7 +6423,7 @@
             "y": 19,
             "z": 5,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -6355,7 +6547,7 @@
             "y": 19,
             "z": 5,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -6599,7 +6791,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@4"
             ]
         },
         {
@@ -6615,7 +6807,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -6623,7 +6815,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -6631,6 +6823,8 @@
             "y": 0,
             "z": 10,
             "elements": [
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockoutputbus",
                 "modularmachinery:blockfluidoutputhatch"
             ]
         },
@@ -6639,7 +6833,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -6648,8 +6842,8 @@
             "z": 10,
             "elements": [
                 "modularmachinery:blockinputbus",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockoutputbus"
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {
@@ -6657,7 +6851,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -6673,7 +6867,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -6701,7 +6895,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@4"
             ]
         },
         {
@@ -6917,7 +7111,7 @@
             "y": 2,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7017,7 +7211,7 @@
             "y": 2,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7075,7 +7269,7 @@
             "y": 3,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7151,6 +7345,12 @@
             ]
         },
         {
+            "x": -4,
+            "y": 18,
+            "z": 1,
+            "elements": "pipes_all"
+        },
+        {
             "x": 4,
             "y": 3,
             "z": 10,
@@ -7159,12 +7359,54 @@
             ]
         },
         {
+            "x": -3,
+            "y": 18,
+            "z": 1,
+            "elements": "pipes_all"
+        },
+        {
             "x": 5,
             "y": 3,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 1,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 1,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 1,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 1,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "z": 1,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 3,
+            "y": 18,
+            "z": 1,
+            "elements": "pipes_all"
         },
         {
             "x": 4,
@@ -7185,7 +7427,7 @@
             "y": 4,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7289,7 +7531,7 @@
             "y": 4,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7361,7 +7603,7 @@
             "y": 5,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7441,7 +7683,7 @@
             "y": 5,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7449,7 +7691,7 @@
             "y": 6,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7529,7 +7771,7 @@
             "y": 6,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7537,7 +7779,7 @@
             "y": 7,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7617,7 +7859,7 @@
             "y": 7,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7625,7 +7867,7 @@
             "y": 8,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7657,7 +7899,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -7761,7 +8003,7 @@
             "y": 8,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7793,7 +8035,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -7801,7 +8043,7 @@
             "y": 9,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7897,7 +8139,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "modularmachinery:blockfluidinputhatch@1"
             ]
         },
         {
@@ -7937,7 +8179,7 @@
             "y": 9,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -7977,7 +8219,7 @@
             "y": 10,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -8103,7 +8345,7 @@
             "y": 10,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -8137,7 +8379,7 @@
             "y": 11,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -8261,7 +8503,7 @@
             "y": 11,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -8295,7 +8537,7 @@
             "y": 12,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -8419,7 +8661,7 @@
             "y": 12,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -8453,7 +8695,7 @@
             "y": 13,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -8577,7 +8819,7 @@
             "y": 13,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -8611,7 +8853,7 @@
             "y": 14,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -8735,7 +8977,7 @@
             "y": 14,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -8769,7 +9011,7 @@
             "y": 15,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -8893,7 +9135,7 @@
             "y": 15,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -8927,7 +9169,7 @@
             "y": 16,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -9017,7 +9259,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -9075,7 +9317,7 @@
             "y": 16,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -9165,7 +9407,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -9173,7 +9415,7 @@
             "y": 17,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -9307,7 +9549,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "modularmachinery:blockfluidinputhatch@1"
             ]
         },
         {
@@ -9321,7 +9563,7 @@
             "y": 17,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@2"
             ]
         },
         {
@@ -9649,7 +9891,7 @@
             "y": 19,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@4"
             ]
         },
         {
@@ -9665,7 +9907,7 @@
             "y": 19,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -9673,7 +9915,7 @@
             "y": 19,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -9689,7 +9931,7 @@
             "y": 19,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -9703,7 +9945,7 @@
             "y": 19,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -9717,7 +9959,7 @@
             "y": 19,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -9731,7 +9973,7 @@
             "y": 19,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -9753,7 +9995,7 @@
             "y": 19,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -9793,7 +10035,7 @@
             "y": 19,
             "z": 10,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@4"
             ]
         },
         {
@@ -10721,6 +10963,24 @@
             ]
         },
         {
+            "x": -4,
+            "y": 18,
+            "z": 6,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -3,
+            "y": 18,
+            "z": 6,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 6,
+            "elements": "pipes_all"
+        },
+        {
             "x": -5,
             "y": 10,
             "z": 2,
@@ -10729,9 +10989,21 @@
             ]
         },
         {
+            "x": -1,
+            "y": 18,
+            "z": 6,
+            "elements": "pipes_all"
+        },
+        {
             "x": -4,
             "y": 10,
             "z": 2,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 6,
             "elements": "pipes_all"
         },
         {
@@ -10741,15 +11013,33 @@
             "elements": "pipes_all"
         },
         {
+            "x": 1,
+            "y": 18,
+            "z": 6,
+            "elements": "pipes_all"
+        },
+        {
             "x": -2,
             "y": 10,
             "z": 2,
             "elements": "pipes_all"
         },
         {
+            "x": 2,
+            "y": 18,
+            "z": 6,
+            "elements": "pipes_all"
+        },
+        {
             "x": -1,
             "y": 10,
             "z": 2,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 3,
+            "y": 18,
+            "z": 6,
             "elements": "pipes_all"
         },
         {
@@ -10809,7 +11099,7 @@
             "y": 19,
             "z": 6,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -10933,7 +11223,7 @@
             "y": 19,
             "z": 6,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -11391,6 +11681,54 @@
             ]
         },
         {
+            "x": -4,
+            "y": 18,
+            "z": 2,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -3,
+            "y": 18,
+            "z": 2,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 2,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 2,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 2,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 2,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "z": 2,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 3,
+            "y": 18,
+            "z": 2,
+            "elements": "pipes_all"
+        },
+        {
             "x": 4,
             "y": 18,
             "z": 2,
@@ -11409,7 +11747,7 @@
             "y": 19,
             "z": 2,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -11489,7 +11827,7 @@
             "y": 19,
             "z": 2,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -11497,7 +11835,7 @@
             "y": 0,
             "z": 7,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -11577,7 +11915,7 @@
             "y": 0,
             "z": 7,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -12119,7 +12457,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -12243,7 +12581,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -12377,7 +12715,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "modularmachinery:blockfluidinputhatch@1"
             ]
         },
         {
@@ -13535,6 +13873,24 @@
             ]
         },
         {
+            "x": -4,
+            "y": 18,
+            "z": 7,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -3,
+            "y": 18,
+            "z": 7,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 7,
+            "elements": "pipes_all"
+        },
+        {
             "x": -5,
             "y": 10,
             "z": 3,
@@ -13543,9 +13899,21 @@
             ]
         },
         {
+            "x": -1,
+            "y": 18,
+            "z": 7,
+            "elements": "pipes_all"
+        },
+        {
             "x": -4,
             "y": 10,
             "z": 3,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 7,
             "elements": "pipes_all"
         },
         {
@@ -13555,15 +13923,33 @@
             "elements": "pipes_all"
         },
         {
+            "x": 1,
+            "y": 18,
+            "z": 7,
+            "elements": "pipes_all"
+        },
+        {
             "x": -2,
             "y": 10,
             "z": 3,
             "elements": "pipes_all"
         },
         {
+            "x": 2,
+            "y": 18,
+            "z": 7,
+            "elements": "pipes_all"
+        },
+        {
             "x": -1,
             "y": 10,
             "z": 3,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 3,
+            "y": 18,
+            "z": 7,
             "elements": "pipes_all"
         },
         {
@@ -13623,7 +14009,7 @@
             "y": 19,
             "z": 7,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -13747,7 +14133,7 @@
             "y": 19,
             "z": 7,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -14205,6 +14591,54 @@
             ]
         },
         {
+            "x": -4,
+            "y": 18,
+            "z": 3,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -3,
+            "y": 18,
+            "z": 3,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 3,
+            "elements": "pipes_all"
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 3,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 3,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 3,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "z": 3,
+            "elements": "pipes_all"
+        },
+        {
+            "x": 3,
+            "y": 18,
+            "z": 3,
+            "elements": "pipes_all"
+        },
+        {
             "x": 4,
             "y": 18,
             "z": 3,
@@ -14223,7 +14657,7 @@
             "y": 19,
             "z": 3,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -14303,7 +14737,7 @@
             "y": 19,
             "z": 3,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -14311,7 +14745,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -14391,7 +14825,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -14933,7 +15367,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
@@ -15057,7 +15491,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "contenttweaker:starlight_frame@0"
+                "astralsorcery:blockmarble@3"
             ]
         },
         {
