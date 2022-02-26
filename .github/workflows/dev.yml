@@ -9,7 +9,6 @@ env:
 
 jobs:
   FTBQuestsProcessor:
-    if: "endsWith(github.ref, 'release')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -20,6 +19,7 @@ jobs:
           python-version: 3.8
 
       - name: Run FTB Quests lang processor
+        if: "!endsWith(github.ref, 'release')"
         run: python runners/ftbq_lang_processor.py
 
       - name: Commit processor changes
