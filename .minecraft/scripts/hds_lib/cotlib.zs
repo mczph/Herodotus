@@ -183,7 +183,8 @@ static plainItemIDs as string[] = [
     "colored_gem_tiny",
     "colored_gem_bioactive",
     "omni_essential",
-    "omni_essential_bioactive"
+    "omni_essential_bioactive",
+    "thaum_mechanism"
 ];
 
 static plainBlockIDs as string[] = [
