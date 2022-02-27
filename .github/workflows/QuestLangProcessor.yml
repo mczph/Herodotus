@@ -1,4 +1,4 @@
-name: TestRunner
+name: QuestLangProcessor
 on:
   push:
     branches: [hotfix/quests**]
