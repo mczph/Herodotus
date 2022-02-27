@@ -25,7 +25,7 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent){
     val def as IEntityDefinition = target.definition;
     if (!world.remote && !isNull(def) && <item:contenttweaker:belial_christener_empty>.matches(item)) {
         val entityId as string = def.id;
-        if (entityId.startsWith("srparasites")) {
+        if (entityId.startsWith("srparasites:pri")) {
             for name in parasites {
                 if (entityId.endsWith(name)) {
                     world.removeEntity(target);
