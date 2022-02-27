@@ -17,7 +17,7 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<chisel:glass:9> * 5)
   .create();
 
-RecipeBuilder.get("blocksmith")
+RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, <ore:plateBrass>, null],
     [null, <ore:rodBronze>, <ore:plateBrass>],
