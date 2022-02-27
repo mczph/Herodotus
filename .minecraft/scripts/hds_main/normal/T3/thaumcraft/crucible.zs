@@ -9,6 +9,7 @@ import scripts.hds_lib.crtlib;
 if (!isInvalid) {
     Crucible.removeRecipe(<thaumcraft:ingot>);
     Crucible.removeRecipe(<thaumcraft:ingot:1>);
+    Crucible.removeRecipe(<thaumcraft:ingot:2>);
     Crucible.registerRecipe("thaumium_ingot_0", "", <thaumcraft:ingot>, <ore:ingotIron>, crtlib.getAllBasicAspects(200));
     Crucible.registerRecipe("thaumium_ingot_1", "", <thaumcraft:ingot>, <ore:ingotIron>, [
         <aspect:permutatio> * 20,
