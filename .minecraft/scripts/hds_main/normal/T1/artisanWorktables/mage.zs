@@ -5,7 +5,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.player.IPlayer;
 import mods.artisanworktables.builder.RecipeBuilder;
-import mods.hdsutils.XPUtil;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if (!isInvalid){
@@ -16,17 +15,18 @@ RecipeBuilder.get("mage")
         [<ore:squareBlue>, <minecraft:book>, <ore:sphericalBlue>],
         [null, <ore:rhombusBlue>, null]])
     .addTool(<ore:artisansQuill>, 42)
+    .setExperienceRequired(100)
+    .setConsumeExperience(true)
     .setRecipeFunction(function(out, ins, info) {
         val player as IPlayer = info.player;
         if (isNull(player)) {
 	        return out;
 	    } else {
-            return (XPUtil.getPlayerXP(player) >= 100 && !player.world.dayTime && player.health > 12.0f) ? out : null;
+            return (!player.world.dayTime && player.health > 12.0f) ? out : null;
         }
     })
     .setRecipeAction(function(out, info, player) {
         if (isNull(player) || player.world.remote) return;
-        XPUtil.removePlayerXP(player, 100);
         player.attackEntityFrom(<damageSource:MAGIC>, 12.0f);
     })
     .addOutput(<astralsorcery:itemjournal>)
@@ -40,18 +40,10 @@ val temp = RecipeBuilder.get("mage")
     .addTool(<ore:artisansAthame>, 5)
     .setFluid(<liquid:mercury> * 125)
     // .setExtraOutputOne(<pyrotech:rock> * 12, 1.0)
-    .setRecipeFunction(function(out, ins, info) {
-        if (isNull(info.player)) {
-            print("null");
-	        return out;
-	    } else {
-            print(XPUtil.getPlayerXP(info.player));
-            return (XPUtil.getPlayerXP(info.player) >= 10) ? out : null;
-        }
-    })
+    .setExperienceRequired(10)
+    .setConsumeExperience(true)
     .setRecipeAction(function(out, info, player) {
         if (isNull(player) || player.world.remote) return;
-        XPUtil.removePlayerXP(player, 10);
     });
 
 val array as int[] = [1, 2, 4, 8, 4, 2, 1];
@@ -78,17 +70,18 @@ RecipeBuilder.get("mage")
     .addTool(<ore:artisansAthame>, 100)
     .setFluid(<liquid:mercury> * 1000)
     .addOutput(<astralsorcery:blockaltar>)
+    .setExperienceRequired(700)
+    .setConsumeExperience(true)
     .setRecipeFunction(function(out, ins, info) {
         val player as IPlayer = info.player;
         if (isNull(player)) {
 	        return out;
 	    } else {
-            return (XPUtil.getPlayerXP(player) >= 700 && player.health > 8.0f) ? out : null;
+            return (player.health > 8.0f) ? out : null;
         }
     })
     .setRecipeAction(function(out, info, player) {
         if (isNull(player) || player.world.remote) return;
-        XPUtil.removePlayerXP(player, 700);
         player.attackEntityFrom(<damageSource:MAGIC>, 8.0f);
     })
     .create();
@@ -110,17 +103,18 @@ RecipeBuilder.get("mage")
     [<ore:ingotIron>, <ore:gemFlawedGlimmerite>, <ore:ingotIron>]])
   .addTool(<ore:artisansAthame>, 100)
   .setFluid(<liquid:mercury> * 1000)
+  .setExperienceRequired(800)
+    .setConsumeExperience(true)
   .setRecipeFunction(function(out, ins, info) {
         val player as IPlayer = info.player;
         if (isNull(player)) {
 	        return out;
 	    } else {
-            return (XPUtil.getPlayerXP(player) >= 800 && player.health > 12.0f) ? out : null;
+            return (player.health > 12.0f) ? out : null;
         }
     })
     .setRecipeAction(function(out, info, player) {
         if (isNull(player) || player.world.remote) return;
-        XPUtil.removePlayerXP(player, 800);
         player.attackEntityFrom(<damageSource:MAGIC>, 12.0f);
     })
   .addOutput(<contenttweaker:altar>)
