@@ -17,6 +17,7 @@ jobs:
 
       - name: Run Downloader
         run: |
+          mkdir ${GITHUB_WORKSPACE}/mods
           chmod +x ${GITHUB_WORKSPACE}/CurseforgeDownloader
           ${GITHUB_WORKSPACE}/CurseforgeDownloader --api-key '${{ secrets.OVERWOLF_API_KEY }}' --mod-folder-path './mods' --black-list '454215'
 
