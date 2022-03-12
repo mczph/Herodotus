@@ -106,6 +106,18 @@ RecipeUtils.recipeTweak(true, <mekanismtools:obsidianpaxel>, [
 
 RecipeUtils.recipeTweak(true, <pyrotech:crate> * 2, RecipeUtils.createSurround(<ore:slabWood>, <ore:plankWood>));
 
+RecipeUtils.recipeTweak(true, <storagedrawers:upgrade_storage:1>, [
+    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+    [<ore:ingotIron>, <storagedrawers:upgrade_template>, <ore:ingotIron>],
+    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
+]);
+
+RecipeUtils.recipeTweak(true, <storagedrawers:upgrade_storage:2>, [
+    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+    [<ore:ingotGold>, <storagedrawers:upgrade_template>, <ore:ingotGold>],
+    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
+]);
+
 recipes.addShaped("alloy_compass", <minecraft:compass>, [
     [null, <ore:ingotConstructionAlloy>, null],
     [<ore:ingotConstructionAlloy>, <ore:dustRedstone>, <ore:ingotConstructionAlloy>],
