@@ -16,5 +16,12 @@
 		uid: "feb246d0",
 		type: "random",
 		table: 1
+	},
+	{
+		uid: "98e19d12",
+		type: "item",
+		item: {
+			id: "thaumcraft:thaumonomicon"
+		}
 	}]
 }

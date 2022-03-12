@@ -65,5 +65,12 @@
 		type: "item",
 		item: "magneticraft:iron_pipe",
 		count: 8
+	},
+	{
+		uid: "78f606b5",
+		type: "item",
+		item: {
+			id: "magneticraft:wrench"
+		}
 	}]
 }

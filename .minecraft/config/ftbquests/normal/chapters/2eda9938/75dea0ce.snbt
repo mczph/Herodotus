@@ -5,7 +5,8 @@
 	text: [
 		"{herodotus.quests.75dea0ce.text.1}",
 		"{herodotus.quests.75dea0ce.text.2}",
-		"{herodotus.quests.75dea0ce.text.3}"
+		"{herodotus.quests.75dea0ce.text.3}",
+		"拆解生物的同时还产生了一些令人不安的紫色的灵气..."
 	],
 	dependencies: [
 		"0e069dad"
