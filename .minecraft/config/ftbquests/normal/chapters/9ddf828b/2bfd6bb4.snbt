@@ -5,7 +5,7 @@
 		"{herodotus.quests.2bfd6bb4.text.1}",
 		"{herodotus.quests.2bfd6bb4.text.2}",
 		"{herodotus.quests.2bfd6bb4.text.3}",
-		"(还可以当作原版工作台使用）"
+		"{herodotus.quests.2bfd6bb4.text.4}"
 	],
 	dependencies: [
 		"a956c7a8"
