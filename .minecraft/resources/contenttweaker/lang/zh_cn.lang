@@ -81,6 +81,11 @@ tile.contenttweaker.infinite_water_upgrade_module.name=无限水升级组件
 tile.contenttweaker.punched_stone.name=打孔石材
 tile.contenttweaker.active_rune.name=活跃符文
 tile.contenttweaker.mercury_block.name=汞块
+tile.contenttweaker.thaumic_zorra_plank=镀神秘佐拉木板
+tile.contenttweaker.flesh_block.name=血肉团
+tile.contenttweaker.sieve_tube.name=筛管
+tile.contenttweaker.nerve_bundle.name=神经束
+tile.contenttweaker.bloodbath_bud.name=浴血芽
 
 fluid.molten_gel=熔融凝胶质
 fluid.limewater=石灰水

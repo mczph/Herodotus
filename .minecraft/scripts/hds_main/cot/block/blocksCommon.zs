@@ -48,3 +48,28 @@ mb.blockColorSupplier = function(state, access, pos, tintIndex) {
     return Color.fromInt(0xB7B7B7);
 };
 mb.register();
+
+val block as Block = VanillaFactory.createBlock("flesh_block", <blockmaterial:sponge>);
+block.blockSoundType = <soundtype:field_185859_l>; // slime
+block.register();
+
+val plank as Block = VanillaFactory.createBlock("thaumic_zorra_plank", <blockmaterial:wood>);
+plank.register();
+
+val tube as Block = VanillaFactory.createBlock("sieve_tube", <blockmaterial:sponge>);
+tube.blockSoundType = <soundtype:field_185859_l>;
+tube.register();
+
+val bud as Block = VanillaFactory.createDirectionalBlock("bloodbath_bud", <blockmaterial:plants>, "ALL");
+bud.fullBlock = false;
+bud.translucent = true;
+bud.blockSoundType = <soundtype:field_185859_l>;
+bud.blockLayer = "CUTOUT";
+bud.register();
+
+val bundle as Block = VanillaFactory.createDirectionalBlock("nerve_bundle", <blockmaterial:plants>, "ALL");
+bundle.fullBlock = false;
+bundle.translucent = true;
+bundle.blockLayer = "CUTOUT";
+bundle.blockSoundType = <soundtype:field_185859_l>;
+bundle.register();

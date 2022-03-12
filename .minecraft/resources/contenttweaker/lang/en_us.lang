@@ -82,6 +82,11 @@ tile.contenttweaker.infinite_water_upgrade_module.name=Infinite Water Upgrade Mo
 tile.contenttweaker.punched_stone.name=Punched Stone
 tile.contenttweaker.active_rune.name=Active Rune
 tile.contenttweaker.mercury_block.name=Block of Mercury
+tile.contenttweaker.thaumic_zorra_plank=Thaumium Plated Zorrawood
+tile.contenttweaker.flesh_block.name=Block of Flesh
+tile.contenttweaker.sieve_tube.name=Sieve Tube
+tile.contenttweaker.nerve_bundle.name=Nerve Bundle
+tile.contenttweaker.bloodbath_bud.name=Bloodbath Bud
 
 fluid.molten_gel=Molten Gel
 fluid.limewater=Lime Water
