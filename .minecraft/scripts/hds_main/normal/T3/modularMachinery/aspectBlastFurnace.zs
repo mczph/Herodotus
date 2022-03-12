@@ -65,6 +65,14 @@ RecipeBuilder.newBuilder("stone_arcane", "aspect_blast_furnace", 120)
     .addItemOutput(<thaumcraft:stone_arcane>)
     .build();
 
+RecipeBuilder.newBuilder("thaumic_zorra_plank", "aspect_blast_furnace", 100)
+    .addHotAirInput(250, 250, maxInt)
+    .addItemInput(<prodigytech:zorra_planks>)
+    .addFluidInput(<liquid:thaumium> * 36)
+    .addAspectInput("alienis", 10)
+    .addItemOutput(<contenttweaker:thaumic_zorra_plank>)
+    .build();
+
 for i, aspect in basicAspects {
     val name as string = aspect.internal.name.toLowerCase();
     RecipeBuilder.newBuilder("salt_essence_" ~ name, "aspect_blast_furnace", 30, 10 - i)

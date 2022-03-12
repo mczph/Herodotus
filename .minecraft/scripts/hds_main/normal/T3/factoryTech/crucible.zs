@@ -7,4 +7,5 @@ import scripts.hds_main.utils.modloader.isInvalid;
 if(!isInvalid){
 
 Crucible.addRecipe(<liquid:taint_nutrition> * 250, <contenttweaker:broken_ootheca>, false);
+Crucible.addRecipe(<liquid:thaumium> * 144, <ore:ingotThaumium>, false);
 }
