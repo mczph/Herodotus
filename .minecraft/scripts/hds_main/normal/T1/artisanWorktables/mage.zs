@@ -41,10 +41,7 @@ val temp = RecipeBuilder.get("mage")
     .setFluid(<liquid:mercury> * 125)
     // .setExtraOutputOne(<pyrotech:rock> * 12, 1.0)
     .setExperienceRequired(10)
-    .setConsumeExperience(true)
-    .setRecipeAction(function(out, info, player) {
-        if (isNull(player) || player.world.remote) return;
-    });
+    .setConsumeExperience(true);
 
 val array as int[] = [1, 2, 4, 8, 4, 2, 1];
 for i, n in array {
