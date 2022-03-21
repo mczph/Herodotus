@@ -16,4 +16,15 @@ Herodotus is a deep-tweaked extreme Minecraft modpack that mixed magic and techn
 
 The name "Herodotus" came from a Greek historian. Herodotus recorded half-truths and half-falses in his book "Histories", just like the mix of magic and technology!
 
+
+## Contributing
+
+Feel free to do it! [Open an issue](https://github.com/ProjectHDS/Herodotus/issues/new) or submit PRs.
+
 See [CONTRIBUTING.md](https://github.com/ProjectHDS/Herodotus/blob/master/CONTRIBUTING.md) for dev environment deploy guide.
+
+
+### Contributors
+
+This project exists thanks to all the people who contribute. 
+<a href="https://github.com/ProjectHDS/Herodotus/graphs/contributors"><img src="https://contrib.rocks/image?repo=ProjectHDS/Herodotus" /></a>
