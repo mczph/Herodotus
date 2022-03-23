@@ -7,21 +7,23 @@ should_replace_key_type_value = [
     "title"
 ]
 should_replace_key_type_array = [
-	"text"
+    "text"
 ]
 should_replace_key_type_both = [
     "description"
 ]
 content_dict = {}
 
+
 def check_dir(path):
     for file in os.listdir(path):
         file_path = path + "/" + file
-        if (os.path.isdir(file_path)):
+        if os.path.isdir(file_path):
             check_dir(file_path)
         else:
             read_snbt(file_path, file)
         print(path)
+
 
 def read_snbt(full_path, file_name):
     print("read_snbt file: " + full_path + " name: " + file_name)
@@ -29,13 +31,13 @@ def read_snbt(full_path, file_name):
     f_list = f.readlines()
     file_name = file_name.split(".snbt")[0]
     f.close()
-    if (file_name == "chapter"):
+    if file_name == "chapter":
         file_name = full_path.split("/")[-2]
     # flag = False # is true, then read quest text
     flag = "none"
     j = 0
     for i, line in enumerate(f_list):
-        if (line.lstrip().startswith("]")):
+        if line.lstrip().startswith("]"):
             flag = "none"
             j = 0
         if flag != "none":
@@ -44,20 +46,21 @@ def read_snbt(full_path, file_name):
             replace_with_lang_key(line, text_key, f_list, i, file_name)
             continue
         for key in should_replace_key_type_value:
-            if (line.lstrip().startswith(key + ":")):
+            if line.lstrip().startswith(key + ":"):
                 replace_with_lang_key(line, key, f_list, i, file_name)
         for key in should_replace_key_type_array:
-            if (line.lstrip().startswith(key + ":")):
+            if line.lstrip().startswith(key + ":"):
                 flag = key
         for key in should_replace_key_type_both:
-            if (line.lstrip().startswith(key + ":")):
-                if (line.rstrip().endswith("[")):
+            if line.lstrip().startswith(key + ":"):
+                if line.rstrip().endswith("["):
                     flag = key
                 else:
                     replace_with_lang_key(line, key, f_list, i, file_name)
     f = open(full_path, "w+", encoding="utf-8")
     f.writelines(f_list)
     f.close()
+
 
 def replace_with_lang_key(line, key, f_list, index, file_name):
     first_quote_index = line.find("\"")
@@ -70,11 +73,11 @@ def replace_with_lang_key(line, key, f_list, index, file_name):
     new_content = head + "\"{" + lang_key + "}\"" + tail
     f_list[index] = new_content
     content_dict[lang_key] = content
-        
+
 
 def write_lang(path):
     copy = content_dict.copy()
-    if (len(copy) == 0):
+    if len(copy) == 0:
         return
     to_append_entries = []
     f = open(path, "r+", encoding='utf-8')
@@ -82,12 +85,12 @@ def write_lang(path):
     f.close()
     f_list_copy = f_list.copy()
     for i, line in enumerate(f_list):
-        if (line.startswith("#")):
+        if line.startswith("#"):
             continue
         key = line.split("=")[0]
-        if (key in copy):
+        if key in copy:
             p = copy.pop(key)
-            if p.find("{")==-1 or p.find("}")==-1 :
+            if p.find("{") == -1 or p.find("}") == -1:
                 f_list_copy[i] = key + "=" + p + "\n"
     for key, value in copy.items():
         to_append_entries.append(key + "=" + value)
@@ -96,6 +99,7 @@ def write_lang(path):
     for entry in to_append_entries:
         f.write(entry + "\n")
     f.close()
+
 
 check_dir(ftbquests_path)
 write_lang(zh_cn_path)
