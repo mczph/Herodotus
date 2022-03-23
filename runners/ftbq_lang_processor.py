@@ -4,13 +4,15 @@ ftbquests_path = ".minecraft/config/ftbquests"
 zh_cn_path = ".minecraft/resources/herodotus/lang/zh_cn.lang"
 en_us_path = ".minecraft/resources/herodotus/lang/en_us.lang"
 should_replace_key_type_value = [
-    "title",
-    "description"
+    "title"
 ]
 should_replace_key_type_array = [
 	"text"
 ]
-context_dict = {}
+should_replace_key_type_both = [
+    "description"
+]
+content_dict = {}
 
 def check_dir(path):
     for file in os.listdir(path):
@@ -47,6 +49,12 @@ def read_snbt(full_path, file_name):
         for key in should_replace_key_type_array:
             if (line.lstrip().startswith(key + ":")):
                 flag = key
+        for key in should_replace_key_type_both:
+            if (line.lstrip().startswith(key + ":")):
+                if (line.rstrip().endswith("[")):
+                    flag = key
+                else:
+                    replace_with_lang_key(line, key, f_list, i, file_name)
     f = open(full_path, "w+", encoding="utf-8")
     f.writelines(f_list)
     f.close()
@@ -61,11 +69,11 @@ def replace_with_lang_key(line, key, f_list, index, file_name):
     print("get lang key %s, value = %s" % (lang_key, content))
     new_content = head + "\"{" + lang_key + "}\"" + tail
     f_list[index] = new_content
-    context_dict[lang_key] = content
+    content_dict[lang_key] = content
         
 
 def write_lang(path):
-    copy = context_dict.copy()
+    copy = content_dict.copy()
     if (len(copy) == 0):
         return
     to_append_entries = []
