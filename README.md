@@ -5,12 +5,12 @@
     <a herf="https://github.com/ProjectHDS/Herodotus/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/ProjectHDS/Herodotus?color=green&logo=github&style=flat-square"></a>
     <a herf="https://github.com/ProjectHDS/Herodotus/actions/workflows/TestRunner.yml"> <img src="https://img.shields.io/github/workflow/status/dtolnay/inventory/CI/master?logo=github&style=flat-square""></a>
 </div><br>
-      
+
 <div align="center">
-    <img src="https://raw.githubusercontent.com/ProjectHDS/Herodotus/master/icon.png" width="120px">
+    <img src="https://raw.githubusercontent.com/ProjectHDS/Herodotus/master/icon.png" width="180px">
     <h3 align="center">Herodotus : The Modpack (WIP)</h3>
 </div>
-      
+
 ## Brief
 Herodotus is a deep-tweaked extreme Minecraft modpack that mixed magic and technology together. Based on Minecraft 1.12.2 with Forge, mainly made with CraftTweaker2, FTBQuests.
 
@@ -26,5 +26,5 @@ See [CONTRIBUTING.md](https://github.com/ProjectHDS/Herodotus/blob/master/CONTRI
 
 ### Contributors
 
-This project exists thanks to all the people who contribute. 
+This project exists thanks to all the people who contribute.
 <a href="https://github.com/ProjectHDS/Herodotus/graphs/contributors"><img src="https://contrib.rocks/image?repo=ProjectHDS/Herodotus" /></a>
