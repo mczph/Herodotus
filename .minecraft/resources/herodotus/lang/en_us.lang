@@ -118,10 +118,7 @@ herodotus.quests.8cd59de7.text.1="Omni Tool! Your side construction helper! "
 herodotus.quests.db0fc392.text.1=Using flint and tinder to fire is too primitive. Thanks to my increasingly proficient lighting experience, a cheap and easy-to-use fire tool was born.
 herodotus.quests.2c30a542.text.1=Copper buckets could transfer fluids with normal temperate unlimitedly, but might broke while transfering hot fluids.
 herodotus.quests.1a636f31.text.3=Well, for science, it's necessary to have specialized tools for specialized jobs.
-herodotus.quests.857ad989.text.1=Throw it on the ground at night to draw starlight.
-herodotus.quests.857ad989.text.2=Known conversion rules: Glass Ore -> Starlight Ore, Starlight Frame -> Lightwell.
 herodotus.quests.2b235818.text.1=Mage's worktable could put medicals into items, in order to create some new items. Meanwhile, it requires more or less XP, or the process will failed.
-herodotus.quests.6efeae9d.text.1=Right click the altar with copper ingots at noon or iron ingots at midnight in main hand will produce a random amount of gold nuggets.
 herodotus.quests.6794529b.text.1=Hardened glass bottles could storage any fluids with a amount less than a bucket, it could also safely storage mercury.
 
 herodotus.quests.657d9db3.title=Ore Processing
@@ -277,10 +274,6 @@ herodotus.quests.236882ce.text.1=I could use a handful trowel.
 herodotus.quests.914b5a4b.text.1=I watched the flesh bolus intertwine, proliferate, and swell before my eyes. 
 herodotus.quests.310c522c.text.1=I broke the goo down and reorganized it to get a relatively more stable fluid.
 herodotus.quests.f82ee1dd.text.1=The flesh bolus is writhing in my hands and I need to find a place for Him to stay.
-herodotus.quests.75dea0ce.title=Kill 'Chickens', Get 'Eggs'
-herodotus.quests.75dea0ce.text.1=Disassembler. Disassemble living things. Even thinking about this hurts my conscience.
-herodotus.quests.75dea0ce.text.2=But my curiosity eventually wins. Gonna find some chickens, cows, sheeps and pigs to have a try.
-herodotus.quests.75dea0ce.text.3=Finally I got... Huh? What's this?
 herodotus.quests.f8989a37.title=Magical Seeds
 herodotus.quests.f8989a37.text.1=Why is such a thing called a "seed"? So plant it somewhere?
 herodotus.quests.f8989a37.text.2=Maybe it's not fit to bury it into soil. Should it be planted like some kinds of mushroom? 
@@ -322,9 +315,6 @@ herodotus.quests.9aab085f.text.2="Use Terminal to right-click the host to mark"
 herodotus.quests.9aab085f.text.3="Simple Storage Network Usage Guidelines Summary"
 herodotus.quests.c5dddc4b.text.2=Hope to find something in theb river.
 herodotus.quests.30108d5f.text.2=It is hoped that satisfactory conditions can be obtained through mutation.
-herodotus.quests.2bfd6bb4.text.1=Although the available tools have not changed,
-herodotus.quests.2bfd6bb4.text.2=but after modifying the countertop, it is more convenient to place the materials that need to be used.
-herodotus.quests.2bfd6bb4.text.3=Might be more comfortable to use.
 herodotus.quests.b8d34de9.text.2=Try to completely separate out a single piece of plastic.
 herodotus.quests.6734b516.text.1=If an interface is preset on the crafting table,
 herodotus.quests.6734b516.text.2=then I can just attach the toolbox to the workbench. Should it reduce some of the work?
@@ -349,6 +339,7 @@ herodotus.quests.ede45a70.text.2=After killing it, a breath of fresh air rushed 
 herodotus.quests.ede45a70.text.3=If the off-hand is holding an ampoule, can it be loaded?
 herodotus.quests.5b236766.text.1=Arrange a catalytic altar around it and use the correct seeds for the energy gathering ceremony.
 herodotus.quests.5b236766.text.2=Hope to improve seed vigor.
+herodotus.quests.5b236766.text.3=
 herodotus.quests.25548645.title=Collection and Filtering
 herodotus.quests.176e6145.text.1=I need an efficient machine that will provide some convenience for me to manipulate essences.
 herodotus.quests.d875571e.text.1=This stone can't be said to be rare, the best adjective I can think of is plausible.
@@ -360,19 +351,38 @@ herodotus.quests.04d5512b.text.2=And the seeds that are spawned seem to grow onl
 herodotus.quests.310c522c.text.2=Feeling stinging and tearing like something's trying to reassemble me.
 herodotus.quests.310c522c.text.3=What would happen if it was left to devour living creatures?
 herodotus.quests.c41641bc.text.2=Ability to obtain a more complete flesh bolus.
-herodotus.quests.f3cee682.text.1=4:31 Holding the vial filled with the grace of the Mother God between the palm of your hand, the secret door leading to the secret realm will be opened generously.
-herodotus.quests.f3cee682.text.2=4:32 Filled with gratitude while drank it, and a burst of violent tearing and pain rushed all the way to the top door along the mortal bone's esophagus. Stumble and struggle, and finally fell down to the knees.
-herodotus.quests.f3cee682.text.3=4:33C Clearly knew in the heart that the flesh and blood that followed the trend was gathering and forming. The pain finally ended with a bout of vomiting. A lively mass of flesh leaped out of the mouth.
-herodotus.quests.f3cee682.text.4=4:34 Hold it tight and ecstatic, this is the apostle of the Mother God, to be put into the ritual of divine sacrifice.
-herodotus.quests.f3cee682.text.5=4:35 Being guided on the right path by the secret technique, this trivial and meaningful labor is the first step.
-herodotus.quests.f3cee682.text.6=4:36 Thinking has become meaningless, just leave your whole body and mind to the Mother God.
-herodotus.quests.f3cee682.text.7=————Zealot's Codex
+
+herodotus.quests.f3cee682.text.1=Take a Zorra Fruit, ten portions of raw meat with blood, and a bottle of mercury.
+# herodotus.quests.f3cee682.text.1=4:31 Holding the vial filled with the grace of the Mother God between the palm of your hand, the secret door leading to the secret realm will be opened generously.
+# herodotus.quests.f3cee682.text.2=4:32 Filled with gratitude while drank it, and a burst of violent tearing and pain rushed all the way to the top door along the mortal bone's esophagus. Stumble and struggle, and finally fell down to the knees.
+# herodotus.quests.f3cee682.text.3=4:33C Clearly knew in the heart that the flesh and blood that followed the trend was gathering and forming. The pain finally ended with a bout of vomiting. A lively mass of flesh leaped out of the mouth.
+# herodotus.quests.f3cee682.text.4=4:34 Hold it tight and ecstatic, this is the apostle of the Mother God, to be put into the ritual of divine sacrifice.
+# herodotus.quests.f3cee682.text.5=4:35 Being guided on the right path by the secret technique, this trivial and meaningful labor is the first step.
+# herodotus.quests.f3cee682.text.6=4:36 Thinking has become meaningless, just leave your whole body and mind to the Mother God.
+# herodotus.quests.f3cee682.text.7=————Zealot's Codex
 herodotus.quests.a232d0a8.text.1=This crop likes shade and is best grown in a low light environment, about 1/7 of the normal light.
-herodotus.quests.f7f0b20c.text.1=合成需要在夜晚消耗 100 点经验和 12 点生命值
-herodotus.quests.857ad989.text.3=储满后右键日月祭坛即可触发转换, 方块须放在祭坛顶部
-herodotus.quests.de891235.text.1=合成消耗 10 点经验
-herodotus.quests.6efeae9d.text.2=
-herodotus.quests.6efeae9d.text.3=合成需要消耗 800 点经验和 12 点生命值
+herodotus.quests.f7f0b20c.text.1=Crafting this requires 100 exp and 12 health to be consumed during the night.
+
+herodotus.quests.857ad989.text.1=Throw it on the ground at night to draw starlight.
+herodotus.quests.857ad989.text.2=Known conversion rules: Glass Ore -> Starlight Ore, Starlight Frame -> Lightwell.
+herodotus.quests.857ad989.text.3=Right click on the Sun-Moon Altar when it is full to trigger the conversion, the block must be placed on top of the altar.
+
+herodotus.quests.de891235.text.1=Crafting this requires 10 exp and 12 health to be consumed.
+
+herodotus.quests.6efeae9d.text.1=Right click the altar with copper ingots at noon or iron ingots at midnight in main hand will produce a random amount of gold nuggets.
+herodotus.quests.6efeae9d.text.2=Crafting this requires 800 exp and 12 health to be consumed.
+
 herodotus.quests.863922b2.text.1=Break the glass, it will breaks into pieces. I don't know why it should be explained.
-herodotus.quests.75dea0ce.text.4=拆解生物的同时还产生了一些令人不安的紫色的灵气...
-herodotus.quests.2bfd6bb4.text.4=(还可以当作原版工作台使用）
+
+herodotus.quests.75dea0ce.title=Kill 'Chickens', Get 'Eggs'
+herodotus.quests.75dea0ce.text.1=Disassembler. Disassemble living things. Even thinking about this hurts my conscience.
+herodotus.quests.75dea0ce.text.2=But my curiosity eventually wins. Gonna find some chickens, cows, sheeps and pigs to have a try.
+herodotus.quests.75dea0ce.text.3=Finally I got... Huh? What's this?
+herodotus.quests.75dea0ce.text.4=The disassembly of the creature also produced some disturbing purple aura...
+
+herodotus.quests.2bfd6bb4.text.1=Although the available tools have not changed,
+herodotus.quests.2bfd6bb4.text.2=but after modifying the countertop, it is more convenient to place the materials that need to be used.
+herodotus.quests.2bfd6bb4.text.3=Might be more comfortable to use.
+herodotus.quests.2bfd6bb4.text.4=(Can also be used as a vanilla crafting table)
+
+herodotus.quests.3fa0d4f5.text.1=The eight advanced vis plants are planted at a distance of one block from each other, and every time a crop matures, it charges the primordial pearl on the primordial charger.

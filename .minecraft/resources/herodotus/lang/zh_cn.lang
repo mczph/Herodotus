@@ -131,10 +131,7 @@ herodotus.quests.61a03ebd.title=铸模
 herodotus.quests.8cd59de7.text.1=“全能工具！您身边的建筑帮手！”
 herodotus.quests.2c30a542.text.1=铜桶可以无限制地转移常温流体, 但是当转移热的流体时有几率会损坏。
 herodotus.quests.1a636f31.text.3=没办法, 为了科技的严谨, 专工专用是有必要的。
-herodotus.quests.857ad989.text.1=在夜晚将其掷在地上以汲取星能.
-herodotus.quests.857ad989.text.2=已知的转换规则：玻璃矿石 -> 星辉矿石, 星光框架 -> 聚星缸
 herodotus.quests.2b235818.text.1=法师工作台能够给物品注入魔法, 获得新的物品。这期间需要我的或多或少的经验, 否则这个注入魔法的过程就会失败。
-herodotus.quests.6efeae9d.text.1=在正午手持铜锭或在午夜手持铁锭右键祭坛获取随机数量的金粒。
 herodotus.quests.6794529b.text.1=强化玻璃瓶可以存储小于一桶的任意数量的流体, 并且有安全的存储汞的能力。
 
 herodotus.quests.657d9db3.title=矿物处理
@@ -287,10 +284,6 @@ herodotus.quests.236882ce.text.1=为了将砌砖粘结, 我需要一个趁手的
 herodotus.quests.914b5a4b.text.1=我看着肉块在我眼前交织 增殖 膨胀 
 herodotus.quests.310c522c.text.1=我将粘浆分解又重组 得到了一种相对更稳定的流体
 herodotus.quests.f82ee1dd.text.1=血肉团在我手中蠕动 我需要为祂寻找一个可以暂住的地方
-herodotus.quests.75dea0ce.title=杀“鸡”取“卵”
-herodotus.quests.75dea0ce.text.1=生物拆解机？这个名字让我感到我的良心隐隐作痛。
-herodotus.quests.75dea0ce.text.2=但我的好奇心赢了。我决定找几只猪、牛、羊、鸡来试试。
-herodotus.quests.75dea0ce.text.3=诶？拆出了什么？
 herodotus.quests.f8989a37.title=魔法种子
 herodotus.quests.f8989a37.text.1=这东西为什么叫种子啊？总得种在什么地方才对吧。
 herodotus.quests.f8989a37.text.2=看这样子埋在土里恐怕不行, 这东西是不是像蘑菇一样种在原木上的？
@@ -332,9 +325,6 @@ herodotus.quests.9aab085f.text.2=“使用终端右击主机进行标记”
 herodotus.quests.9aab085f.text.3=“简明储存网络使用指北摘要”
 herodotus.quests.c5dddc4b.text.2=希望能在河流里面有所发现
 herodotus.quests.30108d5f.text.2=希望通过杂交能过获得满意的条件
-herodotus.quests.2bfd6bb4.text.1=虽然能用的工具没有变化
-herodotus.quests.2bfd6bb4.text.2=但是对台面进行修改之后 可以更方便的放置需要使用的材料
-herodotus.quests.2bfd6bb4.text.3=使用起来可能也会更舒服吧
 herodotus.quests.b8d34de9.text.2=尝试完整的分离出一个塑料单片
 herodotus.quests.6734b516.text.1=如果在工作台上预设一个接口
 herodotus.quests.6734b516.text.2=就可以将工具箱连接至工作台上 应该能减少一部分工作量？
@@ -359,6 +349,9 @@ herodotus.quests.ede45a70.text.2=将其击杀后 却不知从哪里冲出一股�
 herodotus.quests.ede45a70.text.3=如果副手拿着一个安瓿能不能将它装起来呢
 herodotus.quests.5b236766.text.1=在其周围布置下催化祭坛  使用正确的种子进行聚能仪式
 herodotus.quests.5b236766.text.2=希望能够提升种子活力
+# TODO improve this, don't forget English ver.
+# config\ftbquests\normal\chapters\2eda9938\5b236766.snbt
+herodotus.quests.5b236766.text.3=
 herodotus.quests.25548645.title=收集与过滤
 herodotus.quests.176e6145.text.1=我需要一台有效的机器 为我操控源质提供一定的方便
 herodotus.quests.d875571e.text.1=这种石头不能说罕见 我能想到最好的形容词是似是而非
@@ -370,20 +363,39 @@ herodotus.quests.04d5512b.text.2=而催生而来的种子似乎也只能在其�
 herodotus.quests.310c522c.text.2=摸起来有严重的刺痛撕裂感 仿佛有什么尝试将我重组
 herodotus.quests.310c522c.text.3=如果任由它将生物进行吞噬会发生什么呢
 herodotus.quests.c41641bc.text.2=能够获得更完整的血肉块
-herodotus.quests.f3cee682.text.1=4:31将盛满母神恩典的小瓶捧与手掌之间, 通往秘境的秘门就会慷慨的敞开。
-herodotus.quests.f3cee682.text.2=4:32充满感激的一饮而尽, 一阵剧烈的撕扯和疼痛顺着凡胎浊骨的食道一路冲上顶门, 只能踉踉跄跄地挣扎, 最终跪倒在地。
-herodotus.quests.f3cee682.text.3=4:33而心中清楚的知道, 那是顺势而下的血肉正在汇聚成形。痛苦最终随着一阵呕吐而收束。一团活跃的血肉从口中跃出。
-herodotus.quests.f3cee682.text.4=4:34将其紧紧抓住, 欣喜若狂, 这是母神的使徒, 将被放入神圣祭祀的仪式。
-herodotus.quests.f3cee682.text.5=4:35被秘术已经指引着走上正确的道路, 这不足挂齿又意义非凡的阵痛则是迈出了第一步。
-herodotus.quests.f3cee682.text.6=4:36思考已经变得毫无意义, 将整个身心交给母神即可。
-herodotus.quests.f3cee682.text.7=————狂信者手札
+
+# TODO improve this, don't forget English ver.
+# config\ftbquests\normal\chapters\2eda9938\f3cee682.snbt
+herodotus.quests.f3cee682.text.1=服用佐拉果, 十份带血丝的生肉, 再用一瓶水银送服
+
+# herodotus.quests.f3cee682.text.1=4:31将盛满母神恩典的小瓶捧与手掌之间, 通往秘境的秘门就会慷慨的敞开。
+# herodotus.quests.f3cee682.text.2=4:32充满感激的一饮而尽, 一阵剧烈的撕扯和疼痛顺着凡胎浊骨的食道一路冲上顶门, 只能踉踉跄跄地挣扎, 最终跪倒在地。
+# herodotus.quests.f3cee682.text.3=4:33而心中清楚的知道, 那是顺势而下的血肉正在汇聚成形。痛苦最终随着一阵呕吐而收束。一团活跃的血肉从口中跃出。
+# herodotus.quests.f3cee682.text.4=4:34将其紧紧抓住, 欣喜若狂, 这是母神的使徒, 将被放入神圣祭祀的仪式。
+# herodotus.quests.f3cee682.text.5=4:35被秘术已经指引着走上正确的道路, 这不足挂齿又意义非凡的阵痛则是迈出了第一步。
+# herodotus.quests.f3cee682.text.6=4:36思考已经变得毫无意义, 将整个身心交给母神即可。
+# herodotus.quests.f3cee682.text.7=————狂信者手札
 herodotus.quests.a232d0a8.text.1=这种作物喜阴, 最好在亮度低的环境种植, 大约是正常亮度的 1/7.
 herodotus.quests.f7f0b20c.text.1=合成需要在夜晚消耗 100 点经验和 12 点生命值
+herodotus.quests.857ad989.text.1=在夜晚将其掷在地上以汲取星能.
+herodotus.quests.857ad989.text.2=已知的转换规则：玻璃矿石 -> 星辉矿石, 星光框架 -> 聚星缸
 herodotus.quests.857ad989.text.3=储满后右键日月祭坛即可触发转换, 方块须放在祭坛顶部
 herodotus.quests.de891235.text.1=合成消耗 10 点经验
-herodotus.quests.6efeae9d.text.2=
-herodotus.quests.6efeae9d.text.3=合成需要消耗 800 点经验和 12 点生命值
+herodotus.quests.6efeae9d.text.1=在正午手持铜锭或在午夜手持铁锭右键祭坛获取随机数量的金粒。
+herodotus.quests.6efeae9d.text.2=合成需要消耗 800 点经验和 12 点生命值
 
 herodotus.quests.863922b2.text.1=打碎玻璃, 玻璃就会碎成碎片, 我不知道这有什么可解释的
+
+herodotus.quests.75dea0ce.title=杀“鸡”取“卵”
+herodotus.quests.75dea0ce.text.1=生物拆解机？这个名字让我感到我的良心隐隐作痛。
+herodotus.quests.75dea0ce.text.2=但我的好奇心赢了。我决定找几只猪、牛、羊、鸡来试试。
+herodotus.quests.75dea0ce.text.3=诶？拆出了什么？
 herodotus.quests.75dea0ce.text.4=拆解生物的同时还产生了一些令人不安的紫色的灵气...
-herodotus.quests.2bfd6bb4.text.4=(还可以当作原版工作台使用）
+
+herodotus.quests.2bfd6bb4.text.1=虽然能用的工具没有变化
+herodotus.quests.2bfd6bb4.text.2=但是对台面进行修改之后 可以更方便的放置需要使用的材料
+herodotus.quests.2bfd6bb4.text.3=使用起来可能也会更舒服吧
+herodotus.quests.2bfd6bb4.text.4=(还可以当作原版工作台使用)
+
+herodotus.quests.3fa0d4f5.text.1=设法将八种进阶魔力植株隔一格距离种植在充能座附近，所有作物每成熟一轮，即可为充能座上的元始珍珠充能一次。
+
