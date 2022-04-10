@@ -30,12 +30,12 @@ public class Program
             .WriteTo.Console()
             .CreateLogger();
 
-        if (apiKey is null || blackList is null)
+        if (apiKey is null)
         {
-            Log.Logger.Error($"{nameof(apiKey)} and {nameof(blackList)} cannot be null!");
+            Log.Logger.Error($"{nameof(apiKey)} cannot be null!");
             return;
         }
-        var regex = blacklist.Split('-');
+        var regex = (blacklist ?? "").Split('-');
         var black = regex.Select(long.Parse).ToArray();
         modFolderPath ??= "./";
         Log.Logger.Information("Set mods folder: {0}", Path.GetFullPath(modFolderPath));
