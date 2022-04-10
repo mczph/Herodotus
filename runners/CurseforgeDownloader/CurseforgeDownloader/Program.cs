@@ -1,8 +1,11 @@
 using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Text.Json.Nodes;
+
 using CurseforgeDownloader;
+
 using Serilog;
+
 using File = System.IO.File;
 
 /// <summary>
@@ -13,12 +16,13 @@ public class Program
     /// <summary>
     /// 
     /// </summary>
+    /// <param name="blacklist"></param>
     /// <param name="apiKey"></param>
     /// <param name="modFolderPath"></param>
     /// <param name="threadCount"></param>
     /// <param name="blackList"></param>
     /// <returns></returns>
-    public static async Task Main(string? blacklist, string? apiKey,string? modFolderPath = null,int threadCount=8,string? blackList=null)
+    public static async Task Main(string? blacklist, string? apiKey, string? modFolderPath = null, int threadCount = 8, string? blackList = null)
     {
         Log.Logger = new LoggerConfiguration()
             .Enrich.FromLogContext()
@@ -26,17 +30,17 @@ public class Program
             .WriteTo.Console()
             .CreateLogger();
 
-        if (apiKey is null)
+        if (apiKey is null || blackList is null)
         {
-            Log.Logger.Error("Api key cannot be null!");
+            Log.Logger.Error($"{nameof(apiKey)} and {nameof(blackList)} cannot be null!");
             return;
         }
-        string[] regex = blacklist.Split('-');
-        long[] black = Array.ConvertAll<string, long>(regex, delegate (string s) { return int.Parse(s); });
+        var regex = blacklist.Split('-');
+        var black = regex.Select(long.Parse).ToArray();
         modFolderPath ??= "./";
-        Log.Logger.Information("Set mods folder: {0}",Path.GetFullPath(modFolderPath));
+        Log.Logger.Information("Set mods folder: {0}", Path.GetFullPath(modFolderPath));
         var d = new Download();
-        await d.DownloadAsync(apiKey,Path.GetFullPath(modFolderPath),threadCount,black);
+        await d.DownloadAsync(apiKey, Path.GetFullPath(modFolderPath), threadCount, black);
     }
 }
 
@@ -69,12 +73,12 @@ public class Download
     /// <param name="folder"></param>
     /// <param name="thread"></param>
     /// <param name="blackList"></param>
-    public async Task DownloadAsync(string apiKey,string folder,int thread,long[] blackList)
+    public async Task DownloadAsync(string apiKey, string folder, int thread, long[] blackList)
     {
         InitHeader(apiKey);
 
         var manifest = JsonSerializer.Deserialize<Manifest>(await File.ReadAllTextAsync("./manifest.json"));
-        var files = manifest?.Files?.Select(_ => new { FileId = _.FileId, ProjectId = _.ProjectId });
+        var files = manifest?.Files?.Select(_ => new { _.FileId, _.ProjectId });
         var sem = new SemaphoreSlim(thread);
         var tasks = files!.Select(async mod =>
         {
@@ -89,20 +93,20 @@ public class Download
                 var downloadUrl = JsonNode.Parse(
                     await HttpClient.GetStringAsync($"/v1/mods/{mod.ProjectId}/files/{mod.FileId}/download-url"))![
                     "data"];
-                Log.Logger.Information("Download {0}...",name!.GetValue<string>());
-                await File.WriteAllBytesAsync(Path.Combine(folder,Path.GetFileName(downloadUrl!.GetValue<string>())),await HttpClient.GetByteArrayAsync(downloadUrl.GetValue<string>()));
+                Log.Logger.Information("Download {0}...", name!.GetValue<string>());
+                await File.WriteAllBytesAsync(Path.Combine(folder, Path.GetFileName(downloadUrl!.GetValue<string>())), await HttpClient.GetByteArrayAsync(downloadUrl.GetValue<string>()));
                 Thread.Sleep(1000);
             }
             catch (Exception e)
             {
-                Log.Logger.Error(e.ToString(),e);
+                Log.Logger.Error(e.Message, e);
             }
             finally
             {
                 sem.Release(1);
             }
-        });
+        }).ToArray();
 
-        await Task.WhenAll(tasks);
+        Task.WaitAll(tasks);
     }
 }
