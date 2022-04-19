@@ -131,8 +131,15 @@ jobs:
           known_hosts: ${{ secrets.GITEE_SSH_HOST }}
 
       - name: Update Version Json
-        run: |
+        id: update-version-json
+        run: | 
           git clone git@gitee.com:ProjectHDS/HDSVersioning.git
+          cd ./HDSVersioning
+          python update_version.py
+
+      - name: Upload Version Json
+        if: ${{ steps.update-version-json.outputs.versionChanged == True}}
+        run: |
           cd ./HDSVersioning
           git config user.name GBLodb
           git config user.email garybluis@outlook.com
