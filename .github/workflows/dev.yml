@@ -138,7 +138,7 @@ jobs:
           python update_version.py
 
       - name: Upload Version Json
-        if: ${{ steps.update-version-json.outputs.versionChanged == 'True'}}
+        if: "steps.update-version-json.outputs.versionChanged == 'True'"
         run: |
           cd ./HDSVersioning
           git config user.name GBLodb
