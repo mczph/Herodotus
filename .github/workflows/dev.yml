@@ -143,7 +143,6 @@ jobs:
           cd ./HDSVersioning
           git config user.name GBLodb
           git config user.email garybluis@outlook.com
-          python update_version.py
           git add .
           git commit -m "Update Version ${{ env.VERSION }}.${{ github.run_number }}"
           git push
