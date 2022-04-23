@@ -1,0 +1,5 @@
+{
+  "name": "basic_thermal_melting_machine",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": []
+}

@@ -1,0 +1,217 @@
+{
+  "consumeCatalyst": false,
+  "location": "herodotus:basic_thermal_melting_machine",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "actuallyadditions:block_crystal_empowered",
+      "meta": 1
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        " ABA ",
+        "     ",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        "CDEDC",
+        "  F  ",
+        "  F  ",
+        "  F  ",
+        "  G  "
+      ],
+      [
+        "HEIEJ",
+        " F F ",
+        " F F ",
+        " F F ",
+        " KLK "
+      ],
+      [
+        "CDEDC",
+        "  F  ",
+        "  F  ",
+        "  F  ",
+        "  G  "
+      ],
+      [
+        " E@E ",
+        "     ",
+        "     ",
+        "     ",
+        "     "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_parts",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "herodotus:basic_thermal_melting_machine",
+        "type": "component"
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_parts",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_parts",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_parts",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "pneumaticcraft:pressure_chamber_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "modularmachinery:blockcasing",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "modularmachinery:blockcasing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "aspect": {
+        "capability": "tc6_aspect",
+        "type": "capability"
+      },
+      "hotair": {
+        "capability": "prodigy_hotair",
+        "type": "capability"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "item",
+        "fluid"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "item",
+        "fluid"
+      ],
+      "I": [
+        "hotair"
+      ],
+      "J": [
+        "item",
+        "fluid"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "aspect"
+      ]
+    }
+  },
+  "recipeMap": "basic_thermal_melting_machine"
+}

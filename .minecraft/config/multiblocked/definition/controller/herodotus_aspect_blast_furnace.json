@@ -1,0 +1,172 @@
+{
+  "consumeCatalyst": false,
+  "location": "herodotus:aspect_blast_furnace",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "actuallyadditions:block_crystal",
+      "meta": 2
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        " AIA ",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        "AACAD",
+        "  E  ",
+        "  E  ",
+        "  E  "
+      ],
+      [
+        "@FGFA",
+        " E E ",
+        " E E ",
+        " EHE "
+      ],
+      [
+        "AACAD",
+        "  E  ",
+        "  E  ",
+        "  E  "
+      ],
+      [
+        " AHA ",
+        "     ",
+        "     ",
+        "     "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "thaumcraft:plank_silverwood",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "herodotus:aspect_blast_furnace",
+        "type": "component"
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "thermalfoundation:storage_alloy",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_column",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "libvulpes:coil0",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "aspect": {
+        "capability": "tc6_aspect",
+        "type": "capability"
+      },
+      "hotair": {
+        "capability": "prodigy_hotair",
+        "type": "capability"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "aspect"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "hotair"
+      ],
+      "H": [
+        "item",
+        "fluid"
+      ],
+      "I": [
+        "item",
+        "fluid"
+      ]
+    }
+  },
+  "recipeMap": "aspect_blast_furnace"
+}

@@ -1,0 +1,236 @@
+{
+  "consumeCatalyst": false,
+  "location": "herodotus:aura_assembler",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "actuallyadditions:block_crystal",
+      "meta": 4
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABCBA",
+        "     ",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        "BBDBB",
+        "  E  ",
+        "  E  ",
+        "  F  ",
+        "     "
+      ],
+      [
+        "@DGDB",
+        " E E ",
+        " H E ",
+        " I J ",
+        "  K  "
+      ],
+      [
+        "BBDBB",
+        "  E  ",
+        "  E  ",
+        "  L  ",
+        "     "
+      ],
+      [
+        "ABMBA",
+        "     ",
+        "     ",
+        "     ",
+        "     "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_parts",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "herodotus:aura_assembler",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "thaumcraft:plank_silverwood",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "thaumadditions:brass_plated_silverwood",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "modularmachinery:blockcasing",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "thaumcraft:stairs_greatwood",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "modularmachinery:blockcasing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "thaumcraft:stairs_greatwood",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "thaumcraft:stairs_greatwood",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "thaumcraft:slab_greatwood",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "thaumcraft:stairs_greatwood",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "hotair": {
+        "capability": "prodigy_hotair",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "item"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "hotair"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "item"
+      ]
+    }
+  },
+  "recipeMap": "aura_assembler"
+}

@@ -16,7 +16,7 @@ import mods.tconstruct.Casting;
 import mods.tconstruct.Melting;
 import mods.pneumaticcraft.pressurechamber;
 import mods.factorytech.Grindstone;
-import mods.modularmachinery.RecipeBuilder as MMRecipeBuilder;
+// import mods.modularmachinery.RecipeBuilder as MMRecipeBuilder;
 import scripts.grassUtils.StringHelper;
 import scripts.hds_main.normal.T1.pyrotech.ptFunctions.allPyroAnvil;
 import scripts.hds_lib.crtlib;
@@ -80,11 +80,11 @@ for color in crtlib.colors {
     mods.astralsorcery.Grindstone.removeRecipe(dust.materialPart);
     Grindstone.removeRecipe(dust.materialPart);
 
-    MMRecipeBuilder.newBuilder("steamer_" ~ color, "steamer", 100)
+    /*MMRecipeBuilder.newBuilder("steamer_" ~ color, "steamer", 100)
         .addItemInput(dust, 2)
         .addFluidInput(<liquid:steam> * 500)
         .addItemOutput(clump.materialPart)
-        .build();
+        .build();*/
     
     for shape in crtlib.shapes {
         var output as IItemStack = oreDict.get(shape ~ od).materialPart;
