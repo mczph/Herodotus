@@ -1,3 +1,4 @@
+#loader crafttweaker multiblocked
 #priority 1145141
 
 static isInvalid as bool = false;
