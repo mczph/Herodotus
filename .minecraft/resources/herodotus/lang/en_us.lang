@@ -16,6 +16,17 @@ herodotus.jei.desc.log_basin=Right-click on any side of the Artisan's Workstump 
 herodotus.jei.desc.stone_basin=Right-click on any side of the Artisan's Workstump with the Stone Basin in hand to suspend it next to the workstump. Any recipe requiring liquid on the Artisan's Workstump requires the liquid in the Stone Basin to be consumed.
 herodotus.jei.desc.slime_grass_seed=This crop likes shade and is best grown in a low light environment, about 1/7 of the normal light.
 
+multiblocked.recipe_map.aspect_blast_furnace=Aspect Blast Furnace
+multiblocked.recipe_map.aura_assembler=Aura Assembler
+multiblocked.recipe_map.basic_thermal_melting_machine=Basic Thermal Melting Machine
+multiblocked.recipe_map.hot_air_boiler=Hot Air Steam Boiler
+multiblocked.recipe_map.steamer=Steamer
+aspect_blast_furnace.name=Aspect Blast Furnace Controller
+aura_assembler.name=Aura Assembler Controller
+basic_thermal_melting_machine.name=Basic Thermal Melting Machine
+hot_air_boiler.name=Hot Air Steam Boiler Controller
+steamer.name=Steamer Controller
+
 herodotus.quests.2d037bb7.text.1=The straw blocks are made by bundling the fibers into a bundle and stacking them into a bale.
 herodotus.quests.2d037bb7.text.2=Don't expect to build anything with this, I'm not going to be that first little piggy.
 herodotus.quests.2e0bc67f.text.1=A little spark can ignite this bundle of dry wood.
