@@ -262,7 +262,7 @@
   "jeid": "1.0.4-SNAPSHOT",
   "specialmobs": "1.0.4_for_mc1.12.2",
   "foamfixcore": "7.7.4",
-  "multiblocked": "0.4.1",
+  "multiblocked": "0.5.2",
   "pyrotech": "1.12.2-1.5.25",
   "packagedexcrafting": "1.12.2-1.0.2.3",
   "randomportals": "1.12.2-1.8.2.4",
