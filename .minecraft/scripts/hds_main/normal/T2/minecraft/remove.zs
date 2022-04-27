@@ -90,7 +90,7 @@ val removeByRecipeName as string[] = [
 ];
 
 val removeByModid as string[] = [
-    "modularmachinery",
+    // "modularmachinery",
     "teslathingies",
     "buildinggadgets"
 ];

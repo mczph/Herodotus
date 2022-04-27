@@ -47,7 +47,7 @@ RecipeBuilder.get("engineer")
   .addTool(<contenttweaker:hot_air_solderer>, 200)
   .addOutput(<prodigytech:heat_capacitor_3:12000>)
   .create();
-
+/*
 RecipeBuilder.get("engineer")
     .setShaped([
       [<magneticraft:multiblock_parts:5>, anyGear, <magneticraft:multiblock_parts:5>],
@@ -56,14 +56,14 @@ RecipeBuilder.get("engineer")
     .addTool(<contenttweaker:hot_air_solderer>, 300)
     .addOutput(<modularmachinery:blockcasing:3> * 4)
     .create();
-
+*/
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:blockQuartz>, <ore:plasticPurple>, <ore:blockQuartz>],
     [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>],
     [<ore:blockQuartz>, <ore:plasticPurple>, <ore:blockQuartz>]])
   .addTool(<contenttweaker:hot_air_solderer>, 800)
-  .addOutput(<modularcontroller:basic_thermal_melting_machine_controller>)
+  .addOutput(<herodotus:basic_thermal_melting_machine>)
   .create();
 
 RecipeBuilder.get("engineer")
@@ -72,9 +72,9 @@ RecipeBuilder.get("engineer")
     [<ore:lightPlateBronze>, null, <ore:lightPlateBronze>],
     [<ore:lightPlateBronze>, <pyrotech:brick_oven>, <ore:lightPlateBronze>]])
   .addTool(<contenttweaker:hot_air_solderer>, 800)
-  .addOutput(<modularcontroller:aspect_blast_furnace_controller>)
+  .addOutput(<herodotus:aspect_blast_furnace>)
   .create();
-
+/*
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:ingotIronCompressed>, null, <ore:ingotIronCompressed>],
@@ -110,7 +110,7 @@ RecipeBuilder.get("engineer")
   .addTool(<contenttweaker:hot_air_solderer>, 300)
   .addOutput(<modularmachinery:blockoutputbus:1>)
   .create();
-
+*/
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateBrass>, <minecraft:iron_bars>, <ore:plateBrass>],
@@ -126,7 +126,7 @@ RecipeBuilder.get("engineer")
     [<thaumcraft:plank_greatwood>, null, <thaumcraft:plank_greatwood>],
     [<ore:plateBrass>, <contenttweaker:bottled_aura>, <ore:plateBrass>]])
   .addTool(<contenttweaker:hot_air_solderer>, 500)
-  .addOutput(<modularcontroller:aura_assembler_controller>)
+  .addOutput(<herodotus:aura_assembler>)
   .create();
 
 RecipeBuilder.get("engineer")

@@ -24,7 +24,7 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansGrimoire>, 30)
   .addOutput(<thaumcraft:tube> * 6)
   .create();
-
+/*
 RecipeBuilder.get("mage")
   .setShaped([
     [<ore:ingotIronCompressed>, <thaumcraft:log_silverwood>, <ore:ingotIronCompressed>],
@@ -44,7 +44,7 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansAthame>, 30)
   .addOutput(<modularmagic:blockaspectprovideroutput>)
   .create();
-
+*/
 RecipeBuilder.get("mage")
   .setShaped([
     [<ore:ingotGold>, <thaumadditions:brass_plated_silverwood>, <ore:ingotGold>]])
