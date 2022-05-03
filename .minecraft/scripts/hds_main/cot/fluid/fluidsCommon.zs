@@ -20,3 +20,5 @@ CotUtils.addFluid("unstable_aura", 0xbecbf3, 1000, 1000, 1000, 2000, false);
 CotUtils.addFluid("unstable_mutation_agent", 0xaf1ad2, 1000, 1000, 1000, 2000, false);
 CotUtils.addFluid("taint_nutrition", 0x10005b, 1000, 1000, 1000, 2000, false);
 CotUtils.addFluid("golem_perfusate", 0x1005b3, 1000, 1000, 1000, 2000, false);
+CotUtils.addFluid("primordial_pearl_mix", 0x7427d, 1000, 1000, 1000, 2000, false);
+CotUtils.addFluid("universal_alchemical_solvent", 0xd4d46e, 1000, 1000, 1000, 2000, false);

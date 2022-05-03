@@ -10,7 +10,8 @@ val registerPartsArray as string[] = [
     "rhombus", "spherical", "square", "fourNuggets", "lightPlate",
     "rhombusCover", "sphericalCover", "squareCover",
     "rhombusTierTwo", "sphericalTierTwo", "squareTierTwo",
-    "rhombusTierThree", "sphericalTierThree", "squareTierThree",
+    "rhombusPrimordial", "sphericalPrimordial", "squarePrimordial",
+    "rhombusPrimordialActived", "sphericalPrimordialActived", "squarePrimordialActived",
     "bioactive"
 ];
 val register as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("registerPart");
@@ -46,7 +47,8 @@ static allPartsMap as string[][int] = {
         "rhombus", "spherical", "square",
         "rhombusCover", "sphericalCover", "squareCover",
         "rhombusTierTwo", "sphericalTierTwo", "squareTierTwo",
-        "rhombusTierThree", "sphericalTierThree", "squareTierThree"
+        "rhombusPrimordial", "sphericalPrimordial", "squarePrimordial",
+        "rhombusPrimordialActived", "sphericalPrimordialActived", "squarePrimordialActived"
     ],
     1 : [//metal1
         "nugget", "beam", "dirty_dust", "cluster", "ring",
@@ -149,6 +151,14 @@ static dyelist as int[string] = {
     "red_t2" : 0xff2400,
     "yellow_t2": 0xebcc14,
     "blue_t2": 0x3018cf,
+
+    // TODO Better color
+    "red_primordial" : 0xfc0d20,
+    "yellow_primordial" : 0xffd701,
+    "blue_primordial" : 0x10aadd,
+    "red_primordial_actived" : 0xfc0d20,
+    "yellow_primordial_actived" : 0xffd701,
+    "blue_primordial_actived" : 0x10aadd
 };
 
 static plainItemIDs as string[] = [
@@ -158,6 +168,12 @@ static plainItemIDs as string[] = [
     "square",
     "rhombus",
     "spherical",
+    "primordial_square",
+    "primordial_rhombus",
+    "primordial_spherical",
+    "actived_primordial_square",
+    "actived_primordial_rhombus",
+    "actived_primordial_spherical",
     "rhombus_polluted",
     "spherical_polluted",
     "square_polluted",
@@ -184,7 +200,9 @@ static plainItemIDs as string[] = [
     "colored_gem_bioactive",
     "omni_essential",
     "omni_essential_bioactive",
-    "thaum_mechanism"
+    "thaum_mechanism",
+    "filtered_enchanted_fabric",
+    "primordial_pearl_dust"
 ];
 
 static plainBlockIDs as string[] = [

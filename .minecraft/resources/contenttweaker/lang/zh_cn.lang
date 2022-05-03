@@ -71,6 +71,14 @@ item.contenttweaker.belial_christener_summoner.name=谵妄母仪 (召唤兽)
 item.contenttweaker.belial_christener_arachnida.name=谵妄母仪 (蛛形兽)
 item.contenttweaker.belial_christener_dead.name=谵妄母仪 (死亡)
 item.contenttweaker.thaum_mechanism.name=奥术装置
+item.contenttweaker.filtered_enchanted_fabric.name=元始浸润布匹
+item.contenttweaker.primordial_pearl_dust.name=元始珍珠粉
+item.contenttweaker.primordial_square.name=原初方形
+item.contenttweaker.primordial_rhombus.name=原初菱形
+item.contenttweaker.primordial_spherical.name=原初球形
+item.contenttweaker.actived_primordial_square.name=激活的原初方形
+item.contenttweaker.actived_primordial_rhombus.name=激活的原初菱形
+item.contenttweaker.actived_primordial_spherical.name=激活的原初球形
 
 tile.contenttweaker.altar.name=日月祭坛
 tile.contenttweaker.starlight_frame.name=星光框架
@@ -106,6 +114,14 @@ fluid.blue_t1=蓝色流体
 fluid.yellow_t2=相变临界黄色流体
 fluid.red_t2=相变临界红色流体
 fluid.blue_t2=相变临界蓝色流体
+fluid.red_primordial=原初红色流体
+fluid.yellow_primordial=原初黄色流体
+fluid.blue_primordial=原初蓝色流体
+fluid.red_primordial_actived=激活的原初红色流体
+fluid.yellow_primordial_actived=激活的原初黄色流体
+fluid.blue_primordial_actived=激活的原初蓝色流体
+fluid.primordial_pearl_mix=元始珍珠混合液
+fluid.universal_alchemical_solvent=通用炼金溶剂
 
 #MSH
 contenttweaker.part.rhombus=%s菱形
@@ -119,9 +135,12 @@ contenttweaker.part.light_plate=轻薄%s板
 contenttweaker.part.rhombus_tier_two=二级%s菱形
 contenttweaker.part.spherical_tier_two=二级%s球形
 contenttweaker.part.square_tier_two=二级%s方形
-contenttweaker.part.rhombus_tier_three=三级%s菱形
-contenttweaker.part.spherical_tier_three=三级%s球形
-contenttweaker.part.square_tier_three=三级%s方形
+contenttweaker.part.rhombus_primordial_actived=激活的%s原初菱形
+contenttweaker.part.spherical_primordial_actived=激活的%s原初球形
+contenttweaker.part.square_primordial_actived=激活的%s原初方形
+contenttweaker.part.rhombus_primordial=%s原初菱形
+contenttweaker.part.spherical_primordial=%s原初球形
+contenttweaker.part.square_primordial=%s原初方形
 contenttweaker.part.bioactive=生物活性%s
 
 base.material.bronze=青铜

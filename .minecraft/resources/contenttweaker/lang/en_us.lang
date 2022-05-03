@@ -72,6 +72,14 @@ item.contenttweaker.belial_christener_summoner.name=Belial Christener (Summoner)
 item.contenttweaker.belial_christener_arachnida.name=Belial Christener (Arachnida)
 item.contenttweaker.belial_christener_dead.name=Belial Christener (Dead)
 item.contenttweaker.thaum_mechanism.name=Arcane Mechanism
+item.contenttweaker.filtered_enchanted_fabric.name=Primordial-infused
+item.contenttweaker.primordial_pearl_dust.name=Primordial Pearl Dust
+item.contenttweaker.primordial_square.name=Primordial Square
+item.contenttweaker.primordial_rhombus.name=Primordial Rhombus
+item.contenttweaker.primordial_spherical.name=Primordial Spherical
+item.contenttweaker.actived_primordial_square.name=Actived Primordial Square
+item.contenttweaker.actived_primordial_rhombus.name=Actived Primordial Rhombus
+item.contenttweaker.actived_primordial_spherical.name=Actived Primordial Spherical
 
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame
@@ -107,6 +115,14 @@ fluid.blue_t1=Blue Fluid
 fluid.yellow_t2=Phase Transition Critical Yellow Fluid
 fluid.red_t2=Phase Transition Critical Red Fluid
 fluid.blue_t2=Phase Transition Critical Blue Fluid
+fluid.red_primordial=Primordial Red Fluid
+fluid.yellow_primordial=Primordial Yellow Fluid
+fluid.blue_primordial=Primordial Blue Fluid
+fluid.red_primordial_actived=Actived Primordial Red Fluid
+fluid.yellow_primordial_actived=Actived Primordial Yellow Fluid
+fluid.blue_primordial_actived=Actived Primordial Blue Fluid
+fluid.primordial_pearl_mix=Primordial Pearl Mix
+fluid.universal_alchemical_solvent=Universal Alchemical Solvent
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus
@@ -120,9 +136,12 @@ contenttweaker.part.light_plate=Light %s Plate
 contenttweaker.part.rhombus_tier_two=%s Rhombus (Tier Two)
 contenttweaker.part.spherical_tier_two=%s Spherical (Tier Two)
 contenttweaker.part.square_tier_two=%s Square (Tier Two)
-contenttweaker.part.rhombus_tier_three=%s Rhombus (Tier Three)
-contenttweaker.part.spherical_tier_three=%s Spherical (Tier Three)
-contenttweaker.part.square_tier_three=%s Square (Tier Three)
+contenttweaker.part.rhombus_primordial=Primordial %s Rhombus
+contenttweaker.part.spherical_primordial=Primordial %s Spherical
+contenttweaker.part.square_primordial=Primordial %s Square
+contenttweaker.part.rhombus_primordial_actived=Actived Primordial %s Rhombus
+contenttweaker.part.spherical_primordial_actived=Actived Primordial %s Spherical
+contenttweaker.part.square_primordia_activedl=Actived Primordial %s Square
 contenttweaker.part.bioactive=Bioactive %s
 
 base.material.bronze=Bronze
