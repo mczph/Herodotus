@@ -68,41 +68,41 @@ function getAllBasicAspects(amount as int) as CTAspectStack[] {
 }
 
 function tcSaltGetter(aspect as string) as IItemStack {
-    val temp as IItemStack = <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: aspect}]});
-    return temp;
+    return <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: aspect}]});
 }
 
 function tcPhialGetter(aspect as string) as IItemStack {
-    val temp as IItemStack = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: aspect}]});
-    return temp;
+    return <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: aspect}]});
 }
 
 function tcCrystalGetter(aspect as string) as IItemStack {
-    val temp as IItemStack = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: aspect}]});
-    return temp;
+    return <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: aspect}]});
 }
 
 function tcSSGetter(aspect as string) as IItemStack {
-    val temp as IItemStack = <thaumadditions:seal_symbol>.withTag({Aspect: aspect});
-    return temp;
+    return <thaumadditions:seal_symbol>.withTag({Aspect: aspect});
 }
 
 function tcPodGetter(aspect as string) as IItemStack {
-    val temp as IItemStack = <thaumadditions:vis_pod>.withTag({Aspect: aspect});
-    return temp;
+    return <thaumadditions:vis_pod>.withTag({Aspect: aspect});
 }
 
 function tcSeedGetter(aspect as string) as IItemStack {
-    val temp as IItemStack = <thaumadditions:vis_seeds>.withTag({Aspect: aspect});
-    return temp;
+    return <thaumadditions:vis_seeds>.withTag({Aspect: aspect});
 }
 
 function tcVisBlockGetter(aspect as string) as IItemStack {
-    val temp as IItemStack = <thaumadditions:crystal_block>.withTag({Aspect: aspect});
-    return temp;
+    return <thaumadditions:crystal_block>.withTag({Aspect: aspect});
 }
 
 function tconPartGetter(basic as IItemStack, material as string) as IItemStack {
-    val temp as IItemStack = basic.withTag({Material: material});
-    return temp;
+    return basic.withTag({Material: material});
+}
+
+function refinedBottleGetter(fluidName as string, amount as int = 1000) as IItemStack {
+    return <hdsutils:refined_bottle>.withTag({Fluid: {FluidName: fluidName, Amount: amount}});
+}
+
+function asRockCrystalGetter(collectiveCapability as int = 0, size as int = 0, fract as int = 0, purity as int = 0, sizeOverride as int = 0) as IItemStack {
+    return <astralsorcery:itemrockcrystalsimple>.withTag({astralsorcery: {crystalProperties: {collectiveCapability: 0, size: 0, fract: 0, purity: 0, sizeOverride: 0}}});
 }
