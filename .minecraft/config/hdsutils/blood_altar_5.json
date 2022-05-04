@@ -1,2597 +1,2594 @@
-{
-    "registryname": "blood_altar_5",
-    "localizedname": "blood_altar_5",
-    "parts": [
-        {
-            "x": 2,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": -1,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -9,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -8,
-            "y": -2,
-            "z": -1,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 13,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 10,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 9,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 7,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": -8,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -7,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": -8,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -9,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -10,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 12,
-            "z": -1,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "contenttweaker:bloodbath_bud@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "contenttweaker:bloodbath_bud@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 11,
-            "z": -1,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": -7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": -7,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 10,
-            "z": -1,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": -5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -6,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": -5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": -1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": -6,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -6,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": -6,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": -6,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": -2,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": -1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": 1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -5,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -5,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": -2,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": -5,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": -1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 10,
-            "z": 1,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": -5,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -5,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": -2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": -2,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": -5,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 11,
-            "z": 1,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "contenttweaker:bloodbath_bud@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": -1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": -1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": -1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 10,
-            "z": 0,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 12,
-            "z": 1,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 10,
-            "z": 0,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 10,
-            "z": 0,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -7,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": -2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": -2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": -1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 7,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 10,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 11,
-            "z": 0,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 13,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 11,
-            "z": 0,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 11,
-            "z": 0,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -7,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 1,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 1,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 12,
-            "z": 0,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 12,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 12,
-            "z": 0,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -8,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -7,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -7,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 8,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 9,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 13,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 13,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 13,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -7,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 7,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -7,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -10,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 8,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 8,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:bloodbath_bud@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 8,
-            "y": -2,
-            "z": -1,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": -1,
-            "elements": [
-                "bloodmagic:blood_rune"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sieve_tube@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "contenttweaker:flesh_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "contenttweaker:nerve_bundle@1"
-            ]
-        }
-    ]}
+[
+    {
+        "x": 2,
+        "y": 4,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -4,
+        "y": -2,
+        "z": -1,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": -9,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -8,
+        "y": -2,
+        "z": -1,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -2,
+        "z": 7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": 7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -2,
+        "z": 7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 5,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": -1,
+        "z": 0,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 5,
+        "z": 2,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 1,
+        "y": 5,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": -1,
+        "z": 0,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 5,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -1,
+        "z": 7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -1,
+        "z": 7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 13,
+        "z": -1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 10,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 9,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 7,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 6,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 5,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 4,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 6,
+        "z": 2,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 1,
+        "y": 6,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 4,
+        "z": 1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -4,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -5,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -6,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 1,
+        "y": -2,
+        "z": -8,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 0,
+        "z": -7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -7,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 0,
+        "z": 7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -1,
+        "y": -2,
+        "z": -8,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -9,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -2,
+        "z": 6,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -10,
+        "y": -2,
+        "z": 0,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 0,
+        "z": -7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": 6,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 0,
+        "z": 7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -2,
+        "z": 6,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -2,
+        "z": 6,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 12,
+        "z": -1,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 5,
+        "z": 1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 3,
+        "z": 0,
+        "elements": [
+            "contenttweaker:bloodbath_bud@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": 5,
+        "z": 1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 7,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 5,
+        "z": 1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": 5,
+        "z": 1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 3,
+        "z": 0,
+        "elements": [
+            "contenttweaker:bloodbath_bud@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -1,
+        "z": -7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -1,
+        "z": -7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -1,
+        "z": 6,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 11,
+        "z": -1,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 6,
+        "z": 1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 4,
+        "z": 0,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 4,
+        "z": 0,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -2,
+        "z": -7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": -7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -2,
+        "z": 5,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -2,
+        "z": -7,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": 5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 10,
+        "z": -1,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 4,
+        "y": -2,
+        "z": 5,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 5,
+        "z": 0,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": -1,
+        "y": 5,
+        "z": 0,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 7,
+        "z": 1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": 5,
+        "z": 0,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 5,
+        "z": 0,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 1,
+        "z": -5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -1,
+        "z": 5,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -1,
+        "z": 5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -1,
+        "z": -6,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 1,
+        "z": -5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 7,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -1,
+        "z": 5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 9,
+        "z": -1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -1,
+        "z": 5,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 4,
+        "y": -1,
+        "z": 5,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 6,
+        "z": 0,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 8,
+        "z": 1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 6,
+        "z": 0,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -2,
+        "z": -6,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -5,
+        "y": -2,
+        "z": 4,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 0,
+        "z": -5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": -6,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 0,
+        "z": 5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -2,
+        "z": -6,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -1,
+        "y": -2,
+        "z": 4,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -2,
+        "z": -6,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 0,
+        "z": -5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": 4,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 6,
+        "z": -2,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 1,
+        "y": -2,
+        "z": 4,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 0,
+        "z": 5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -1,
+        "y": 6,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 8,
+        "z": -1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 7,
+        "z": 0,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": 7,
+        "z": 0,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 9,
+        "z": 1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": 7,
+        "z": 0,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 7,
+        "z": 0,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -1,
+        "z": -5,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -5,
+        "y": -1,
+        "z": 4,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -1,
+        "z": -5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -4,
+        "y": -1,
+        "z": 4,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -1,
+        "z": 4,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 1,
+        "z": 5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 3,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 5,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -1,
+        "z": -5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -1,
+        "z": -5,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 5,
+        "z": -2,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 1,
+        "y": -1,
+        "z": 4,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 1,
+        "z": 5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -4,
+        "y": -1,
+        "z": -5,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 3,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": 5,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 7,
+        "z": -1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -1,
+        "z": 4,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 5,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -1,
+        "z": 4,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 4,
+        "y": -1,
+        "z": 4,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": 8,
+        "z": 0,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 10,
+        "z": 1,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 1,
+        "y": 8,
+        "z": 0,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -2,
+        "z": -5,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 4,
+        "y": 0,
+        "z": -4,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -6,
+        "y": -2,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -4,
+        "y": 0,
+        "z": 4,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": 2,
+        "z": -3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": -5,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 2,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 4,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": 4,
+        "z": -2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 6,
+        "z": -1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 4,
+        "z": -2,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": 3,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -4,
+        "y": -2,
+        "z": -5,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 2,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -4,
+        "y": 0,
+        "z": -4,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": 2,
+        "z": -3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 4,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 4,
+        "y": 0,
+        "z": 4,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 5,
+        "y": -2,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": 9,
+        "z": 0,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 11,
+        "z": 1,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 1,
+        "y": 9,
+        "z": 0,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 5,
+        "y": -1,
+        "z": -4,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 4,
+        "y": -1,
+        "z": -4,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -6,
+        "y": -1,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -1,
+        "z": -4,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -5,
+        "y": -1,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": 1,
+        "z": -3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -4,
+        "y": -1,
+        "z": 3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 1,
+        "z": -3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": 3,
+        "z": -2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -1,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 3,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -1,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": -1,
+        "z": -4,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 5,
+        "z": -1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": -1,
+        "z": 3,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -1,
+        "z": -4,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 3,
+        "z": -2,
+        "elements": [
+            "contenttweaker:bloodbath_bud@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": 5,
+        "z": -1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -1,
+        "z": -4,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 1,
+        "z": -3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 5,
+        "z": -1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": -1,
+        "z": 3,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -4,
+        "y": -1,
+        "z": -4,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": 1,
+        "z": -3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 3,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": 5,
+        "z": -1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -1,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": 3,
+        "z": -2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -1,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 4,
+        "y": -1,
+        "z": 3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 5,
+        "y": -1,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": 10,
+        "z": 0,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 12,
+        "z": 1,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 10,
+        "z": 0,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": 10,
+        "z": 0,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 5,
+        "y": -2,
+        "z": -4,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -7,
+        "y": -2,
+        "z": 2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -6,
+        "y": -2,
+        "z": 2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 3,
+        "y": 0,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": -2,
+        "z": -4,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 3,
+        "y": 2,
+        "z": -2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": 0,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": -4,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 2,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": -2,
+        "z": -4,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": 2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -3,
+        "y": 0,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 2,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": 2,
+        "z": -2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 4,
+        "z": -1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": 0,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 6,
+        "y": -2,
+        "z": 2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 7,
+        "y": -2,
+        "z": 2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": 10,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -1,
+        "y": 11,
+        "z": 0,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 13,
+        "z": 1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 11,
+        "z": 0,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": 11,
+        "z": 0,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 6,
+        "y": -1,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 5,
+        "y": -1,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -7,
+        "y": -1,
+        "z": 2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 4,
+        "y": -1,
+        "z": -3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 5,
+        "y": 1,
+        "z": -2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -1,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -5,
+        "y": -1,
+        "z": 2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -1,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": 1,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -4,
+        "y": -1,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": 1,
+        "z": 3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": -1,
+        "z": -3,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 1,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -1,
+        "z": 2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 1,
+        "z": 3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -1,
+        "z": 2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": -1,
+        "z": -3,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -1,
+        "y": -1,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -1,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -1,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 1,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": -1,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 1,
+        "z": 3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -4,
+        "y": -1,
+        "z": -3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": 1,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -1,
+        "z": 2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": 1,
+        "z": 3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -5,
+        "y": -1,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -1,
+        "z": 2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -5,
+        "y": 1,
+        "z": -2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 5,
+        "y": -1,
+        "z": 2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -1,
+        "y": 12,
+        "z": 0,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 12,
+        "z": 0,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": 12,
+        "z": 0,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    },
+    {
+        "x": 6,
+        "y": -2,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -8,
+        "y": -2,
+        "z": 1,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -7,
+        "y": 0,
+        "z": 2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 5,
+        "y": 0,
+        "z": -2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -5,
+        "y": 0,
+        "z": 2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -3,
+        "y": 2,
+        "z": 3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 0,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -4,
+        "y": -2,
+        "z": 1,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 2,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": -3,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 0,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 0,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 2,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 0,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": 2,
+        "z": 3,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -5,
+        "y": -2,
+        "z": -3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -5,
+        "y": 0,
+        "z": -2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 4,
+        "y": -2,
+        "z": 1,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 5,
+        "y": 0,
+        "z": 2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -7,
+        "y": 0,
+        "z": -2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 8,
+        "y": -2,
+        "z": 1,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": 9,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -1,
+        "y": 13,
+        "z": 0,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 13,
+        "z": 0,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": 13,
+        "z": 0,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 5,
+        "y": -1,
+        "z": -2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 4,
+        "y": -1,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -5,
+        "y": 1,
+        "z": 2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -1,
+        "z": -2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -1,
+        "z": -2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -4,
+        "y": -1,
+        "z": 1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": 1,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 3,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": -1,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -1,
+        "z": 1,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 1,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -1,
+        "z": 1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": -1,
+        "z": -2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": -1,
+        "z": 1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -1,
+        "z": -2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -1,
+        "z": 1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 3,
+        "z": 3,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -1,
+        "z": -2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": -1,
+        "z": 1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 1,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -1,
+        "z": 1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": 1,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -5,
+        "y": -1,
+        "z": -2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -1,
+        "z": 1,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 5,
+        "y": 1,
+        "z": 2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -7,
+        "y": -1,
+        "z": -2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 7,
+        "y": -2,
+        "z": -2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 6,
+        "y": -2,
+        "z": -2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -3,
+        "y": 2,
+        "z": 2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 2,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": -2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 2,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": 2,
+        "z": 2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -6,
+        "y": -2,
+        "z": -2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -7,
+        "y": -2,
+        "z": -2,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -2,
+        "z": -10,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -1,
+        "y": -2,
+        "z": 8,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 1,
+        "y": -2,
+        "z": 8,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 4,
+        "y": -1,
+        "z": -1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 3,
+        "y": -1,
+        "z": -1,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -3,
+        "y": 3,
+        "z": 2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": -1,
+        "z": -1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 3,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 1,
+        "y": -1,
+        "z": -1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": -1,
+        "z": -1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 3,
+        "z": 2,
+        "elements": [
+            "contenttweaker:bloodbath_bud@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": -1,
+        "z": -1,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": -2,
+        "y": -1,
+        "z": -1,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": 2,
+        "y": 3,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -3,
+        "y": -1,
+        "z": -1,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 3,
+        "y": 3,
+        "z": 2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 8,
+        "y": -2,
+        "z": -1,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": 4,
+        "y": -2,
+        "z": -1,
+        "elements": [
+            "bloodmagic:blood_rune"
+        ]
+    },
+    {
+        "x": -2,
+        "y": 4,
+        "z": 2,
+        "elements": [
+            "contenttweaker:sieve_tube@0"
+        ]
+    },
+    {
+        "x": -1,
+        "y": 4,
+        "z": 2,
+        "elements": [
+            "contenttweaker:flesh_block@0"
+        ]
+    },
+    {
+        "x": 0,
+        "y": 4,
+        "z": 2,
+        "elements": [
+            "contenttweaker:nerve_bundle@1"
+        ]
+    }
+]
