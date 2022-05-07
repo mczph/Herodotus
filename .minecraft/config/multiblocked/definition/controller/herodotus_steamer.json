@@ -1,0 +1,139 @@
+{
+  "consumeCatalyst": false,
+  "location": "herodotus:steamer",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "actuallyadditions:block_crystal_empowered",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        " A ",
+        " B ",
+        " B "
+      ],
+      [
+        "ACA",
+        "DEF",
+        "B B",
+        "BGB"
+      ],
+      [
+        "AAA",
+        " @ ",
+        " B ",
+        " B "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_parts",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "herodotus:steamer",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_column",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "minecraft:iron_bars",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_parts",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "fluid"
+      ],
+      "D": [
+        "item"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "item"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  },
+  "recipeMap": "steamer"
+}

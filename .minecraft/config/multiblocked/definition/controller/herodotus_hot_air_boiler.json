@@ -1,0 +1,148 @@
+{
+  "consumeCatalyst": false,
+  "location": "herodotus:hot_air_boiler",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "actuallyadditions:block_crystal",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "BCB",
+        "BDB",
+        " A "
+      ],
+      [
+        "@EA",
+        "F F",
+        "F F",
+        "AAA"
+      ],
+      [
+        "AAA",
+        "BGB",
+        "BDB",
+        " A "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "pyrotech:refractory_brick_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "herodotus:hot_air_boiler",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_column",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_parts",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_parts",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "infinite": {
+        "blocks": [
+          {
+            "id": "contenttweaker:infinite_water_upgrade_module"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      },
+      "hotair": {
+        "capability": "prodigy_hotair",
+        "type": "capability"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "fluid"
+      ],
+      "D": [
+        "D",
+        "infinite"
+      ],
+      "E": [
+        "hotair"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "fluid"
+      ]
+    }
+  },
+  "recipeMap": "hot_air_boiler"
+}
