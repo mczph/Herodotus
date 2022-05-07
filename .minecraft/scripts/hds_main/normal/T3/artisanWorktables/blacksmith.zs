@@ -6,7 +6,7 @@ import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
 import scripts.hds_main.utils.modloader.isInvalid;
 
-if(!isInvalid) {
+if(!isInvalid) {/*
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [<ore:plateInvar>, null, <ore:plateInvar>],
@@ -23,5 +23,5 @@ RecipeBuilder.get("blacksmith")
     [<ore:plateInvar>, null, <ore:plateInvar>]])
   .addTool(<ore:artisansHammer>, 20)
   .addOutput(<modularmachinery:blockcasing:2> * 2)
-  .create();
+  .create();*/
 }
