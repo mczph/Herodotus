@@ -69,7 +69,7 @@
 		uid: "d0f350ec",
 		type: "item",
 		items: [{
-			item: "contenttweaker:square"
+			item: "contenttweaker:spherical"
 		}]
 	}],
 	rewards: [{

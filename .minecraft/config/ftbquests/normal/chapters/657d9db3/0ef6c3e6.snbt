@@ -69,7 +69,7 @@
 		uid: "b3495e74",
 		type: "item",
 		items: [{
-			item: "contenttweaker:spherical"
+			item: "contenttweaker:rhombus"
 		}]
 	}],
 	rewards: [{

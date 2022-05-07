@@ -1,6 +1,11 @@
 {
+	title: "{herodotus.quests.a29ae9b6.title}",
 	x: 6.0d,
 	y: 0.0d,
+	text: [
+		"{herodotus.quests.a29ae9b6.text.1}",
+		"{herodotus.quests.a29ae9b6.text.2}"
+	],
 	dependencies: [
 		"55f6131a",
 		"2d90bfa2"
