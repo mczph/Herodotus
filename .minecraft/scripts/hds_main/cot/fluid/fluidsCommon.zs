@@ -27,5 +27,5 @@ CotUtils.addFluid("yellow_mercury_suspension", 0xaaaa55, 1000, 1000, 1000, 2000,
 
 for shape in cotlib.shapes {
     CotUtils.addFluid(shape ~ "_plastic", 0xdddddd, 1000, 1000, 1000, 15, true);
-    CotUtils.addFluid(shape ~ "_mercury_suspension", 0x808080, 1000, 1000, 1000, 2000, false);
+    CotUtils.addFluid(shape ~ "_mercury_suspension", 0x808080, 300, 1000, 1000, 0, false);
 }

@@ -123,6 +123,12 @@ fluid.yellow_primordial_actived=Actived Primordial Yellow Fluid
 fluid.blue_primordial_actived=Actived Primordial Blue Fluid
 fluid.primordial_pearl_mix=Primordial Pearl Mix
 fluid.universal_alchemical_solvent=Universal Alchemical Solvent
+fluid.red_mercury_suspension=Red Mercury Suspension
+fluid.yellow_mercury_suspension=Yellow Mercury Suspension
+fluid.blue_mercury_suspension=Blue Mercury Suspension
+fluid.square_mercury_suspension=Square Mercury Suspension
+fluid.rhombus_mercury_suspension=Rhombus Mercury Suspension
+fluid.spherical_mercury_suspension=Spherical Mercury Suspension
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus

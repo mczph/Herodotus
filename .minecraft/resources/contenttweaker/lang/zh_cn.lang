@@ -122,6 +122,12 @@ fluid.yellow_primordial_actived=激活的原初黄色流体
 fluid.blue_primordial_actived=激活的原初蓝色流体
 fluid.primordial_pearl_mix=元始珍珠混合液
 fluid.universal_alchemical_solvent=通用炼金溶剂
+fluid.red_mercury_suspension=红色水银悬浮液
+fluid.yellow_mercury_suspension=黄色水银悬浮液
+fluid.blue_mercury_suspension=蓝色水银悬浮液
+fluid.square_mercury_suspension=方形水银悬浮液
+fluid.rhombus_mercury_suspension=菱形水银悬浮液
+fluid.spherical_mercury_suspension=球形水银悬浮液
 
 #MSH
 contenttweaker.part.rhombus=%s菱形
