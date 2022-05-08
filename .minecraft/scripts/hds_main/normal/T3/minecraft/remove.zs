@@ -16,7 +16,8 @@ val removeByOutput as IItemStack[] = [
     <prodigytech:tartaric_aeroheater>,
     <prodigytech:tartaric_stoker>,
     <prodigytech:heat_capacitor_2:12000>,
-    <prodigytech:heat_capacitor_3:12000>
+    <prodigytech:heat_capacitor_3:12000>,
+    <botania:laputashard>
 ];
 
 if(!isInvalid) {
