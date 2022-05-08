@@ -5,6 +5,9 @@ import mods.contenttweaker.VanillaFactory;
 import scripts.grassUtils.CotUtils;
 import scripts.grassUtils.classes.MaterialSystemHelper.MaterialSystemHelper;
 
+static colors as string[] = ["red", "yellow", "blue"];
+static shapes as string[] = ["rhombus", "spherical", "square"];
+
 //registerParts
 val registerPartsArray as string[] = [
     "rhombus", "spherical", "square", "fourNuggets", "lightPlate",
@@ -14,7 +17,9 @@ val registerPartsArray as string[] = [
     "rhombusPrimordialActived", "sphericalPrimordialActived", "squarePrimordialActived",
     "bioactive"
 ];
+
 val register as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("registerPart");
+
 for name in registerPartsArray{
     register.registerNormalPart(name, "item", false);
 }
