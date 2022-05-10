@@ -24,11 +24,14 @@ if (!isInvalid) {
             <ore:gemFlawlessGlimmerite>, <ore:gemFlawlessGlimmerite>
     ]);
 
-    //TODO aspects
     for shape in crtlib.shapes {
         Infusion.registerRecipe("primo_shape_" ~ shape, "", itemUtils.getItem("contenttweaker:primordial_" ~ shape), 5,
         [
-
+            <aspect:aqua> * 200,
+            <aspect:permutatio> * 80,
+            <aspect:praecantatio> * 60,
+            <aspect:auram> * 80,
+            <aspect:alkimia> * 60
         ],
         crtlib.asRockCrystalGetter(),
         [
@@ -42,7 +45,12 @@ if (!isInvalid) {
     for color in crtlib.colors {
         Infusion.registerRecipe("primo_color_" ~ color, "", crtlib.refinedBottleGetter(color ~ "_primordial"), 5,
         [
-            
+            <aspect:terra> * 200,
+            <aspect:ordo> * 150,
+            <aspect:vitreus> * 80,
+            <aspect:metallum> * 80,
+            <aspect:praecantatio> * 60,
+            <aspect:machina> * 80
         ],
         crtlib.refinedBottleGetter("universal_alchemical_solvent"),
         [
@@ -56,7 +64,17 @@ if (!isInvalid) {
 
     Infusion.registerRecipe("laputashard", "", <botania:laputashard>, 5,
         [
-            
+            <aspect:aer> * 160,
+            <aspect:terra> * 120,
+            <aspect:ordo> * 120,
+            <aspect:perditio> * 80,
+            <aspect:motus> * 180,
+            <aspect:potentia> * 150,
+            <aspect:permutatio> * 120,
+            <aspect:praecantatio> * 100,
+            <aspect:alkimia> * 80,
+            <aspect:volatus> * 100,
+            <aspect:instrumentum> * 50,
         ],
         <thaumcraft:primordial_pearl>,
         [
