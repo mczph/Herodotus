@@ -2,7 +2,7 @@
   "consumeCatalyst": false,
   "location": "herodotus:steamer",
   "traits": {},
-  "allowRotate": true,
+  "allowRotate": false,
   "showInJei": true,
   "baseRenderer": {
     "state": {

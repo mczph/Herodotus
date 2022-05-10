@@ -2,7 +2,7 @@
   "consumeCatalyst": false,
   "location": "herodotus:basic_thermal_melting_machine",
   "traits": {},
-  "allowRotate": true,
+  "allowRotate": false,
   "showInJei": true,
   "baseRenderer": {
     "state": {

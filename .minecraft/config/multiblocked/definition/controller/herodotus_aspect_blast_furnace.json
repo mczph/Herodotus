@@ -2,7 +2,7 @@
   "consumeCatalyst": false,
   "location": "herodotus:aspect_blast_furnace",
   "traits": {},
-  "allowRotate": true,
+  "allowRotate": false,
   "showInJei": true,
   "baseRenderer": {
     "state": {
