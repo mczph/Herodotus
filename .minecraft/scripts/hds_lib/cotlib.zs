@@ -7,6 +7,18 @@ import scripts.grassUtils.classes.MaterialSystemHelper.MaterialSystemHelper;
 
 static colors as string[] = ["red", "yellow", "blue"];
 static shapes as string[] = ["rhombus", "spherical", "square"];
+static latinColors as string[] = ["rubrum", "flavum", "caeruleum"];
+static latinShapes as string[] = ["rhombus", "sphaericus", "quadrata"];
+static colorsMap as string[string] = {
+    "red" : "rubrum",
+    "yellow" : "flavum",
+    "blue" : "caeruleum"
+};
+static shapesMap as string[string] = {
+    "rhombus" : "rhombus",
+    "spherical" : "sphaericus",
+    "square" : "quadrata"
+};
 
 //registerParts
 val registerPartsArray as string[] = [
