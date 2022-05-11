@@ -1,5 +1,11 @@
 herodotus.placeholder=占位符
 herodotus.utils.currentlybanned=目前已被禁用
+modularmachinery.hot_air_boiler=热空气蒸汽锅炉
+modularmachinery.steamer=蒸汽蒸煮机
+modularmachinery.basic_thermal_melting_machine=基础热力热熔机
+modularmachinery.aspect_blast_furnace=源质高炉
+modularmachinery.aura_assembler=灵气装配机
+modularmachinery.modifier.infinite_water=用其替换流体输入仓上面的波纹铁质机械方块让机器不消耗水
 
 herodotus.welcomeMessage.head=欢迎游玩
 herodotus.welcomeMessage.name= 希罗多德 整合包!
@@ -9,18 +15,6 @@ herodotus.artisan_worktables.material.thaumium=神秘
 herodotus.jei.desc.log_basin=手持木盆右击工匠工作台侧边, 即可将木盆悬挂在工作台旁。工匠工作台上需要液体的配方, 都需要消耗木盆中的液体来完成。
 herodotus.jei.desc.stone_basin=手持石盆右击工匠工作台侧边, 即可将石盆悬挂在工作台旁。工匠工作台上需要液体的配方, 都需要消耗石盆中的液体来完成。
 herodotus.jei.desc.slime_grass_seed=这种作物喜阴, 最好在亮度低的环境种植, 大约是正常亮度的 1/7.
-
-multiblocked.recipe_map.aspect_blast_furnace=源质高炉
-multiblocked.recipe_map.aura_assembler=灵气装配机
-multiblocked.recipe_map.basic_thermal_melting_machine=基础热力热熔机
-multiblocked.recipe_map.hot_air_boiler=热空气蒸汽锅炉
-hot_air_boiler.description=用无限水升级组件替换流体输入仓上方任意一波纹铁质机械方块让机器不消耗水
-multiblocked.recipe_map.steamer=蒸汽蒸煮机
-aspect_blast_furnace.name=源质高炉控制器
-aura_assembler.name=灵气装配机控制器
-basic_thermal_melting_machine.name=基础热力热熔机控制器
-hot_air_boiler.name=热空气蒸汽锅炉控制器
-steamer.name=蒸汽蒸煮机控制器
 
 #一阶
 herodotus.quests.00ada03a.text.1=人类与动物最大的区别在于使用工具, 而如果需要制造工具...
