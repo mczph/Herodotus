@@ -8,6 +8,10 @@
 	},
 	x: 18.0d,
 	y: -4.0d,
+	text: [
+		"{herodotus.quests.af820bd4.text.1}",
+		"{herodotus.quests.af820bd4.text.2}"
+	],
 	dependencies: [
 		"b8981a6f"
 	],

@@ -4,7 +4,8 @@
 	y: -6.0d,
 	text: [
 		"{herodotus.quests.5c5ef62c.text.1}",
-		"{herodotus.quests.5c5ef62c.text.2}"
+		"{herodotus.quests.5c5ef62c.text.2}",
+		"{herodotus.quests.5c5ef62c.text.3}"
 	],
 	dependencies: [
 		"af820bd4"
