@@ -8,11 +8,21 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid) {
+
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<thaumcraft:plate>, <thaumcraft:jar_brace>, <thaumcraft:plate>],
+    [<ore:plateThaumium>,  <ore:plateThaumium>, <ore:plateThaumium>],
+    [<ore:plateIron>, <thaumcraft:void_seed>, <ore:plateIron>],
+    [<ore:plateThaumium>,  <ore:plateThaumium>, <ore:plateThaumium>]])
+  .addTool(<contenttweaker:hot_air_solderer>, 100)
+  .addOutput(<contenttweaker:aspect_reaction_vessel> * 2)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateThaumium>, <thaumcraft:jar_brace>, <ore:plateThaumium>],
     [<thaumicaugmentation:fortified_glass_pane>, <thaumicaugmentation:glass_tube>, <thaumicaugmentation:fortified_glass_pane>],
-    [<thaumcraft:plate>, <thaumcraft:jar_brace>, <thaumcraft:plate>]])
+    [<ore:plateThaumium>, <thaumcraft:jar_brace>, <ore:plateThaumium>]])
   .setFluid(<liquid:unstable_aura> * 250)
   .addTool(<ore:artisansSpanner>, 25)
   .addOutput(<hdsutils:straight_tunnel> * 6)
