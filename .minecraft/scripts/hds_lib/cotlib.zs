@@ -219,7 +219,23 @@ static plainItemIDs as string[] = [
     "omni_essential_bioactive",
     "thaum_mechanism",
     "filtered_enchanted_fabric",
-    "primordial_pearl_dust"
+    "primordial_pearl_dust",
+    "aspect_reaction_vessel",
+    "aspect_reaction_vessel_yellow",
+    "aspect_reaction_vessel_red",
+    "aspect_reaction_vessel_blue",
+    "aspect_reaction_vessel_spherical",
+    "aspect_reaction_vessel_square",
+    "aspect_reaction_vessel_rhombus",
+    "aspect_reaction_vessel_yellow_spherical",
+    "aspect_reaction_vessel_red_spherical",
+    "aspect_reaction_vessel_blue_spherical",
+    "aspect_reaction_vessel_yellow_square",
+    "aspect_reaction_vessel_red_square",
+    "aspect_reaction_vessel_blue_square",
+    "aspect_reaction_vessel_yellow_rhombus",
+    "aspect_reaction_vessel_red_rhombus",
+    "aspect_reaction_vessel_blue_rhombus"
 ];
 
 static plainBlockIDs as string[] = [

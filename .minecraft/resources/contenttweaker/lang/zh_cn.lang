@@ -94,6 +94,22 @@ tile.contenttweaker.flesh_block.name=血肉团
 tile.contenttweaker.sieve_tube.name=筛管
 tile.contenttweaker.nerve_bundle.name=神经束
 tile.contenttweaker.bloodbath_bud.name=浴血芽
+item.contenttweaker.aspect_reaction_vessel.name=源质反应釜
+item.contenttweaker.aspect_reaction_vessel_yellow.name=源质反应釜 (黄)
+item.contenttweaker.aspect_reaction_vessel_red.name=源质反应釜 (红)
+item.contenttweaker.aspect_reaction_vessel_blue.name=源质反应釜 (蓝)
+item.contenttweaker.aspect_reaction_vessel_spherical.name=源质反应釜 (球)
+item.contenttweaker.aspect_reaction_vessel_square.name=源质反应釜 (方)
+item.contenttweaker.aspect_reaction_vessel_rhombus.name=源质反应釜 (菱)
+item.contenttweaker.aspect_reaction_vessel_yellow_spherical.name=源质反应釜 (黄/球)
+item.contenttweaker.aspect_reaction_vessel_red_spherical.name=源质反应釜 (红/球)
+item.contenttweaker.aspect_reaction_vessel_blue_spherical.name=源质反应釜 (蓝/球)
+item.contenttweaker.aspect_reaction_vessel_yellow_square.name=源质反应釜 (黄/方)
+item.contenttweaker.aspect_reaction_vessel_red_square.name=源质反应釜 (红/方)
+item.contenttweaker.aspect_reaction_vessel_blue_square.name=源质反应釜 (蓝/方)
+item.contenttweaker.aspect_reaction_vessel_yellow_rhombus.name=源质反应釜 (黄/菱)
+item.contenttweaker.aspect_reaction_vessel_red_rhombus.name=源质反应釜 (红/菱)
+item.contenttweaker.aspect_reaction_vessel_blue_rhombus.name=源质反应釜 (蓝/菱)
 
 fluid.molten_gel=熔融凝胶质
 fluid.limewater=石灰水
@@ -128,6 +144,7 @@ fluid.blue_mercury_suspension=蓝色水银悬浮液
 fluid.square_mercury_suspension=方形水银悬浮液
 fluid.rhombus_mercury_suspension=菱形水银悬浮液
 fluid.spherical_mercury_suspension=球形水银悬浮液
+fluid.infusion_solution=注魔灌注液
 
 #MSH
 contenttweaker.part.rhombus=%s菱形

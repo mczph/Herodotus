@@ -80,6 +80,22 @@ item.contenttweaker.primordial_spherical.name=Primordial Spherical
 item.contenttweaker.actived_primordial_square.name=Actived Primordial Square
 item.contenttweaker.actived_primordial_rhombus.name=Actived Primordial Rhombus
 item.contenttweaker.actived_primordial_spherical.name=Actived Primordial Spherical
+item.contenttweaker.aspect_reaction_vessel.name=Aspect Reaction Vessel
+item.contenttweaker.aspect_reaction_vessel_yellow.name=Aspect Reaction Vessel (Yellow)
+item.contenttweaker.aspect_reaction_vessel_red.name=Aspect Reaction Vessel (Red)
+item.contenttweaker.aspect_reaction_vessel_blue.name=Aspect Reaction Vessel (Blue)
+item.contenttweaker.aspect_reaction_vessel_spherical.name=Aspect Reaction Vessel (Spherical)
+item.contenttweaker.aspect_reaction_vessel_square.name=Aspect Reaction Vessel (Square)
+item.contenttweaker.aspect_reaction_vessel_rhombus.name=Aspect Reaction Vessel (Rhombus)
+item.contenttweaker.aspect_reaction_vessel_yellow_spherical.name=Aspect Reaction Vessel (Yellow/Spherical)
+item.contenttweaker.aspect_reaction_vessel_red_spherical.name=Aspect Reaction Vessel (Red/Spherical)
+item.contenttweaker.aspect_reaction_vessel_blue_spherical.name=Aspect Reaction Vessel (Blue/Spherical)
+item.contenttweaker.aspect_reaction_vessel_yellow_square.name=Aspect Reaction Vessel (Yellow/Square)
+item.contenttweaker.aspect_reaction_vessel_red_square.name=Aspect Reaction Vessel (Red/Square)
+item.contenttweaker.aspect_reaction_vessel_blue_square.name=Aspect Reaction Vessel (Blue/Square)
+item.contenttweaker.aspect_reaction_vessel_yellow_rhombus.name=Aspect Reaction Vessel (Yellow/Rhombus)
+item.contenttweaker.aspect_reaction_vessel_red_rhombus.name=Aspect Reaction Vessel (Red/Rhombus)
+item.contenttweaker.aspect_reaction_vessel_blue_rhombus.name=Aspect Reaction Vessel (Blue/Rhombus)
 
 tile.contenttweaker.altar.name=Sun-Moon Altar
 tile.contenttweaker.starlight_frame.name=Starlight Frame
@@ -129,6 +145,7 @@ fluid.blue_mercury_suspension=Blue Mercury Suspension
 fluid.square_mercury_suspension=Square Mercury Suspension
 fluid.rhombus_mercury_suspension=Rhombus Mercury Suspension
 fluid.spherical_mercury_suspension=Spherical Mercury Suspension
+fluid.infusion_solution=Infusion Solution
 
 #MSH
 contenttweaker.part.rhombus=%s Rhombus

@@ -29,3 +29,5 @@ for shape in cotlib.shapes {
     CotUtils.addFluid(shape ~ "_plastic", 0xdddddd, 1000, 1000, 1000, 15, true);
     CotUtils.addFluid(shape ~ "_mercury_suspension", 0x808080, 300, 1000, 1000, 0, false);
 }
+
+CotUtils.addFluid("infusion_solution", 0x6520a1, 300, 1000, 1000, 0, false);
