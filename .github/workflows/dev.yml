@@ -199,7 +199,7 @@ jobs:
         id: hdsu_upload
         uses: itsmeow/curseforge-upload@v3
         with:
-          path: ".minecraft/mods/${{ steps.hdsu_path.outputs.hdsu_path }}"
+          file_path: ".minecraft/mods/${{ steps.hdsu_path.outputs.hdsu_path }}"
           game_endpoint: "minecraft"
           project_id: 574421
           game_versions: Minecraft 1.12.2
