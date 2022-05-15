@@ -233,13 +233,13 @@ jobs:
 
       - name: Setup server files
         run: |
-          mv ${GITHUB_WORKSPACE}/overrides/mods ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/overrides/config ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/overrides/scripts ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/overrides/resources ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/overrides/icon.png ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/runners/server/start.bat ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/runners/server/start.sh ${GITHUB_WORKSPACE}/server/
+          mkdir ${GITHUB_WORKSPACE}/server/mods
 
       - name: Run Downloader
         run: |
