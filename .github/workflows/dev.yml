@@ -188,7 +188,7 @@ jobs:
         id: hdsu_cache
         with:
           path: caches
-          key: ${{ runner.os }}-${{ hashFiles('herodotusutils**') }}
+          key: ${{ runner.os }}-${{ hashFiles('.minecraft/mods/herodotusutils**') }}
 
       - name: Get Herodotus Utils Path
         id: hdsu_path
@@ -208,10 +208,7 @@ jobs:
       
       - name: Write Herodotus CurseForge File ID
         if: steps.hdsu_cache.outputs.cache-hit != 'true'
-        run: |
-          sudo mkdir caches
-          cd caches
-          sudo echo ${{ steps.hdsu_upload.outputs.id }} > hdsu_file_id.txt
+        run: sudo bash runners/set_hds_file_id.sh ${{ steps.hdsu_upload.outputs.id }}
 
       - name: Write manifest
         run: python ${GITHUB_WORKSPACE}/runners/update_manifest.py
