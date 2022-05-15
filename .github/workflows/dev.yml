@@ -214,7 +214,7 @@ jobs:
         run: python ${GITHUB_WORKSPACE}/runners/update_manifest.py
 
       - name: Remove previous herodotus utils file
-        run: sudo rm .minecraft/mods/
+        run: sudo rm -r .minecraft/mods/
 
       - name: pack for release asset (curse pack)
         run: |
