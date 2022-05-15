@@ -210,7 +210,8 @@ jobs:
         if: steps.hdsu_cache.outputs.cache-hit != 'true'
         run: |
           sudo mkdir caches
-          sudo echo ${{ steps.hdsu_upload.outputs.id }} > caches/hdsu_file_id.txt
+          cd caches
+          sudo echo ${{ steps.hdsu_upload.outputs.id }} > hdsu_file_id.txt
 
       - name: Write manifest
         run: python ${GITHUB_WORKSPACE}/runners/update_manifest.py
