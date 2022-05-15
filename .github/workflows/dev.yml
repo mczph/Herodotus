@@ -202,13 +202,13 @@ jobs:
           file_path: ".minecraft/mods/${{ steps.hdsu_path.outputs.hdsu_path }}"
           game_endpoint: "minecraft"
           project_id: 574421
-          game_versions: Minecraft 1.12.2
+          game_versions: "Minecraft 1.12:1.12.2"
           release_type: beta
           token: ${{ secrets.CURSE_UPLOAD_TOKEN }}
       
       - name: Write Herodotus CurseForge File ID
         if: steps.hdsu_cache.outputs.cache-hit != 'true'
-        run: sudo bash runners/set_hds_file_id.sh ${{ steps.hdsu_upload.outputs.id }}
+        run: sudo bash runners/set_hdsu_file_id.sh ${{ steps.hdsu_upload.outputs.id }}
 
       - name: Write manifest
         run: python ${GITHUB_WORKSPACE}/runners/update_manifest.py
