@@ -262,3 +262,13 @@ jobs:
             ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip
             ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server.zip
 
+      - name: Release to CurseForge
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          file_path: "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip"
+          game_endpoint: "minecraft"
+          project_id: 622478
+          game_versions: "Minecraft 1.12:1.12.2"
+          release_type: alpha
+          token: ${{ secrets.CURSE_UPLOAD_TOKEN }}
+
