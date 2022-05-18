@@ -128,7 +128,7 @@ function getAllBasicAspects(amount as int) as CTAspectStack[] {
     ];
 }
 
-function tcSaltGetter(aspect as string amountnum as int = 1) as IItemStack {
+function tcSaltGetter(aspect as string, amountnum as int = 1) as IItemStack {
     return <thaumadditions:salt_essence>.withTag({Aspects: [{amount: amountnum, key: aspect}]});
 }
 
