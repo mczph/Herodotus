@@ -2,12 +2,16 @@
 #priority -1
 
 import mods.pneumaticcraft.thermopneumaticprocessingplant as TPP;
+import scripts.hds_lib.crtlib;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
+for shape in crtlib.shapes {
+    TPP.addRecipe(<liquid:plastic> * 125, itemUtils.getItem("contenttweaker:" ~ shape), 1.4, 373, game.getLiquid(shape ~ "_plastic") * 250);
+}
 val map as IItemStack[ILiquidStack] = {
     <liquid:rhombus_plastic> : <contenttweaker:rhombus>,
     <liquid:square_plastic> : <contenttweaker:square>,

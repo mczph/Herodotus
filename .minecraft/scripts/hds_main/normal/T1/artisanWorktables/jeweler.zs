@@ -1,6 +1,7 @@
 #packmode normal
 #priority -1
 
+import scripts.hds_lib.crtlib;
 import mods.artisanworktables.builder.RecipeBuilder;
 import scripts.hds_main.utils.modloader.isInvalid;
 
@@ -33,23 +34,13 @@ RecipeBuilder.get("jeweler")
   .addOutput(<ore:gemFlawlessGlimmerite>.materialPart, 2)
   .create();
 
-RecipeBuilder.get("jeweler")
-  .setShapeless([<contenttweaker:rhombus>])
-  .addTool(<ore:artisansGemCutter>, 2)
-  .addOutput(<contenttweaker:polished_rhombus>)
-  .create();
-
-RecipeBuilder.get("jeweler")
-  .setShapeless([<contenttweaker:square>])
-  .addTool(<ore:artisansGemCutter>, 2)
-  .addOutput(<contenttweaker:polished_square>)
-  .create();
-
-RecipeBuilder.get("jeweler")
-  .setShapeless([<contenttweaker:spherical>])
-  .addTool(<ore:artisansGemCutter>, 2)
-  .addOutput(<contenttweaker:polished_spherical>)
-  .create();
+for shape in crtlib.shapes {
+  RecipeBuilder.get("jeweler")
+    .setShapeless([itemUtils.getItem("contenttweaker:" ~ shape)])
+    .addTool(<ore:artisansGemCutter>, 2)
+    .addOutput(itemUtils.getItem("contenttweaker:polished_" ~ shape))
+    .create();
+}
 
 RecipeBuilder.get("jeweler")
   .setShapeless([<ore:gemFlawlessGlimmerite>])

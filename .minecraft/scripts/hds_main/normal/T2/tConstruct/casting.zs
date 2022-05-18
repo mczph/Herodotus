@@ -2,21 +2,19 @@
 #priority -1
 
 import mods.tconstruct.Casting;
+import scripts.hds_lib.crtlib;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
-val map as IItemStack[ILiquidStack] = {
-    <liquid:rhombus_plastic> : <contenttweaker:rhombus_recrystallized>,
-    <liquid:square_plastic> : <contenttweaker:square_recrystallized>,
-    <liquid:spherical_plastic> : <contenttweaker:spherical_recrystallized>
-};
-
-for liquid, item in map {
-    Casting.addTableRecipe(item, null, liquid, 250, false, 60);
+for shape in crtlib.shapes {
+    Casting.addTableRecipe(itemUtils.getItem("contenttweaker:" ~ shape ~ "_recrystallized"),
+        null, game.getLiquid(shape ~ "_plastic"), 250, false, 60);
 }
+
+
 Casting.addBasinRecipe(<contenttweaker:static_molten_plastic>, <contenttweaker:sticky_gel>, <liquid:light_oil>, 360, true, 45 * 20);
 Casting.addTableRecipe(<factorytech:ingot:6>, <tconstruct:cast_custom>, <liquid:molten_river_copper>, 144, false, 2 * 20);
 Casting.addTableRecipe(<factorytech:ingot:7>, <tconstruct:cast_custom>, <liquid:molten_river_nickel>, 144, false, 2 * 20);
