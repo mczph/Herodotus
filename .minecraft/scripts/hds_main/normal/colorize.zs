@@ -94,7 +94,7 @@ for color in crtlib.colors {
         var input3 as IOreDictEntry = oreDict.get(shape ~ "Cover" ~ od);
         var input4 as IItemStack = getShapeVariant(shape, "polluted");
         SoakingPot.addRecipe(shape ~ "_soaking_" ~ color, output, fluidTier1*500, input1, true, 3*60*20);
-        Casting.addTableRecipe(output, input2, fluidTier2, 250, true, 20 * 20);
+        Casting.addTableRecipe(output, input2, fluidTier2, 250, true, 27 * 20);
         RecipeBuilder.get("mason")
             .setShapeless([input2, dust])
             .addTool(<ore:artisansTrowel>, 2)

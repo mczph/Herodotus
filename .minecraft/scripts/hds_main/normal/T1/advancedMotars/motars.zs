@@ -4,6 +4,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.advancedmortars.Mortar;
+import scripts.hds_lib.crtlib;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 function basicMotarRecipe (output as IItemStack, secOutput as IItemStack, input as IIngredient) {
@@ -31,5 +32,14 @@ basicMotarRecipe(<ore:crushedOreLead>.materialPart, <ore:crushedOreLead>.materia
 
 Mortar.addRecipe(["stone", "iron", "gold", "diamond", "obsidian", "emerald"], <ore:dustLimestone>.firstItem, 2, [<pyrotech:rock:8>]);
 Mortar.addRecipe(["wood", "stone", "iron", "gold", "diamond", "obsidian", "emerald"], <prodigytech:flour>, 2, [<ore:cropWheat>]);
+
+for shape in crtlib.shapes {
+    Mortar.addRecipe(
+        ["stone", "iron", "gold", "diamond", "obsidian", "emerald"],
+        itemUtils.getItem("contenttweaker:polished_" ~ shape), 2,
+        <ore:gravel>, 0.8,
+        [itemUtils.getItem("contenttweaker:" ~ shape), <ore:gravel>, <ore:sand>]
+    );
+}
 
 }
