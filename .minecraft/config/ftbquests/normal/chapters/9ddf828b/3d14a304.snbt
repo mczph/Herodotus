@@ -1,4 +1,5 @@
 {
+	icon: "magneticraft:big_combustion_chamber",
 	x: 3.25d,
 	y: 3.5d,
 	dependencies: [
@@ -11,6 +12,22 @@
 		items: [{
 			item: "magneticraft:big_combustion_chamber"
 		}]
+	},
+	{
+		uid: "4816a9fe",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block"
+		}],
+		count: 17L
+	},
+	{
+		uid: "4c7b1180",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 2L
 	}],
 	rewards: [{
 		uid: "653b6439",

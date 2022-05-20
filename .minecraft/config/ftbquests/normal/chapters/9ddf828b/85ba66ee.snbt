@@ -1,4 +1,5 @@
 {
+	icon: "magneticraft:oil_heater",
 	x: 3.25d,
 	y: 1.5d,
 	dependencies: [
@@ -10,5 +11,21 @@
 		items: [{
 			item: "magneticraft:oil_heater"
 		}]
+	},
+	{
+		uid: "8395d464",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 14L
+	},
+	{
+		uid: "4795f94f",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 12L
 	}]
 }
