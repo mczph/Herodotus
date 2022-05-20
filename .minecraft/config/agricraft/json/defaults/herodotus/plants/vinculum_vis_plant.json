@@ -6,9 +6,9 @@
   "seed_name": "placeholder",
   "seed_items": [
     {
-      "item": "thaumadditions:vis_seeds",
+      "item": "thaumadditions:vis_seeds/vinculum",
       "meta": 0,
-      "tags": "{Aspect: \"vinculum\"}",
+      "tags": "",
       "ignoreMeta": false,
       "ignoreTags": [],
       "useOreDict": false

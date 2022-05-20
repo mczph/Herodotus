@@ -6,9 +6,9 @@
   "seed_name": "placeholder",
   "seed_items": [
     {
-      "item": "thaumadditions:vis_seeds",
+      "item": "thaumadditions:vis_seeds/perditio",
       "meta": 0,
-      "tags": "{Aspect: \"perditio\"}",
+      "tags": "",
       "ignoreMeta": false,
       "ignoreTags": [],
       "useOreDict": false

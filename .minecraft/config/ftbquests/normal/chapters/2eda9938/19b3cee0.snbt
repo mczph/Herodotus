@@ -9,80 +9,56 @@
 		uid: "2b2cfabc",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "aqua"
-			}
+			id: "thaumadditions:vis_seeds/aqua"
 		}]
 	},
 	{
 		uid: "fb58ef8a",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "ignis"
-			}
+			id: "thaumadditions:vis_seeds/ignis"
 		}]
 	},
 	{
 		uid: "028f160e",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "terra"
-			}
+			id: "thaumadditions:vis_seeds/terra"
 		}]
 	},
 	{
 		uid: "44c9ba05",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "aer"
-			}
+			id: "thaumadditions:vis_seeds/aer"
 		}]
 	},
 	{
 		uid: "e56bf003",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "ordo"
-			}
+			id: "thaumadditions:vis_seeds/ordo"
 		}]
 	},
 	{
 		uid: "5067f8b0",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "perditio"
-			}
+			id: "thaumadditions:vis_seeds/perditio"
 		}]
 	},
 	{
 		uid: "6b249510",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "alienis"
-			}
+			id: "thaumadditions:vis_seeds/alienis"
 		}]
 	},
 	{
 		uid: "557384dc",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "vitium"
-			}
+			id: "thaumadditions:vis_seeds/vitium"
 		}]
 	}]
 }
