@@ -8,6 +8,7 @@ if(!isInvalid){
 
 //Remove
 Campfire.removeRecipes(<pyrotech:material:22>);
+Campfire.removeRecipes(<pyrotech:book>);
 
 //Add
 Campfire.addRecipe("stone_hammer_head", <tconstruct:hammer_head>.withTag({Material: "flint"}), <pyrotech:material:10>, 200);
