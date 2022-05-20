@@ -15,5 +15,16 @@
 		uid: "7412c61b",
 		type: "random",
 		table: 0
-	}]
+	},
+	{
+		uid: "aa60dw3",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "pneumaticcraft:book"
+			}
+		}
+	}
+	]
 }
