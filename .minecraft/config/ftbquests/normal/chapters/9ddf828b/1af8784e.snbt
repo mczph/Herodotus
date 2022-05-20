@@ -1,4 +1,5 @@
 {
+	icon: "magneticraft:refinery",
 	x: 5.25d,
 	y: 1.5d,
 	dependencies: [
@@ -10,5 +11,21 @@
 		items: [{
 			item: "magneticraft:refinery"
 		}]
+	},
+	{
+		uid: "01cda855",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 32L
+	},
+	{
+		uid: "7de37991",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 48L
 	}]
 }

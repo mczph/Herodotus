@@ -1,4 +1,5 @@
 {
+	icon: "magneticraft:pumpjack",
 	x: 23.25d,
 	y: -2.5d,
 	dependencies: [
@@ -9,6 +10,45 @@
 		type: "item",
 		items: [{
 			item: "magneticraft:pumpjack"
+		}]
+	},
+	{
+		uid: "0843f4a6",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 2"
+		}],
+		count: 33L
+	},
+	{
+		uid: "4b46ce35",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 5L
+	},
+	{
+		uid: "298c29b3",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts"
+		}],
+		count: 16L
+	},
+	{
+		uid: "6efeee63",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 6L
+	},
+	{
+		uid: "b27bef67",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 4"
 		}]
 	}],
 	rewards: [{
