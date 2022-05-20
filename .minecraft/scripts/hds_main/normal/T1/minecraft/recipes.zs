@@ -11,6 +11,14 @@ import scripts.grassUtils.RecipeUtils.createCrossWithCore;
 
 if(!isInvalid){
 
+RecipeUtils.recipeTweak(true, <chisel:factory> * 32, 
+    createCrossWithCore(null, <ore:stone>, <ore:ingotIron>)
+);
+
+RecipeUtils.recipeTweak(true, <chisel:tyrian> * 32, 
+    RecipeUtils.createSurround(<ore:ingotIron>, <ore:stone>)
+);
+
 RecipeUtils.recipeTweak(true, <minecraft:clock>, [
     [null, <ore:nuggetGold>, null],
     [ <ore:nuggetGold>, <ore:dustRedstone>,  <ore:nuggetGold>],
@@ -255,6 +263,14 @@ recipes.addShaped("chisel_2", <chisel:chisel_iron>, [
     [null, <ore:ingotConstructionAlloy>],
     [<ore:stickWood>, null]
 ]);
+
+recipes.addShaped("chisel_blocks_from_iron_alloy", <chisel:factory> * 32,
+    createCrossWithCore(null, <ore:stone>, <ore:ingotConstructionAlloy>)
+);
+
+recipes.addShaped("more_chisel_blocks_from_iron_alloy", <chisel:tyrian> * 32, 
+    RecipeUtils.createSurround(<ore:ingotConstructionAlloy>, <ore:stone>)
+);
 
 recipes.addShaped("mercury_block", <contenttweaker:mercury_block>, RecipeUtils.createFull3(<ore:ingotMercury>));
 recipes.addShaped("mercury_block_deconstruct", <thaumcraft:quicksilver> * 9, [[<contenttweaker:mercury_block>]]);
