@@ -64,12 +64,14 @@ val bud as Block = VanillaFactory.createDirectionalBlock("bloodbath_bud", <block
 bud.fullBlock = false;
 bud.translucent = true;
 bud.blockSoundType = <soundtype:field_185859_l>;
+bud.lightOpacity = 0;
 bud.blockLayer = "CUTOUT";
 bud.register();
 
 val bundle as Block = VanillaFactory.createDirectionalBlock("nerve_bundle", <blockmaterial:plants>, "ALL");
 bundle.fullBlock = false;
 bundle.translucent = true;
+bundle.lightOpacity = 0;
 bundle.blockLayer = "CUTOUT";
 bundle.blockSoundType = <soundtype:field_185859_l>;
 bundle.register();
