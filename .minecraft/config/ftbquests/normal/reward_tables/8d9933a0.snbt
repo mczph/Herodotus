@@ -4,434 +4,434 @@
 	hide_tooltip: true,
 	rewards: [{
 		item: "chisel:factory 1 8",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 7",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 6",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 5",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 4",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 3",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 2",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 1",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 9",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 10",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 11",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 12",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 13",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 14",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory 1 15",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory1",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory1 1 1",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory1 1 2",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory1 1 3",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:factory1 1 4",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 1",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 2",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 3",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 4",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 5",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 6",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 7",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 8",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 9",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 10",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 11",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 12",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 13",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 14",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:futura 1 2",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:futura 1 3",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:futura 1 4",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:futura 1 5",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technicalnew",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technicalnew 1 1",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technicalnew 1 2",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technicalnew 1 3",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technicalnew 1 4",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:valentines",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 11",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 13",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 14",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical1 1 1",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical1 1 2",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical1 1 4",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:valentines 1 2",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:valentines 1 3",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:valentines 1 4",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:valentines 1 6",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:valentines 1 8",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 10",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 8",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 6",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 5",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 4",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 3",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 2",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 1",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technicalnew 1 8",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technicalnew 1 6",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technicalnew 1 5",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:laboratory 1 15",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:futura",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:futura 1 1",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:valentines 1 1",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:valentines 1 7",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical1 1 3",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technicalnew 1 7",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 12",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 7",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:valentines 1 9",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 9",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 2",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 15",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 7",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 8",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 9",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 10",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 11",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:paper 1 5",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:paper 1 4",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:paper 1 3",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:paper 1 2",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:paper 1 1",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:paper",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 14",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 13",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 12",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 3",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 4",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 5",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 6",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:paper 1 6",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:paper 1 7",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:paper 1 8",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical 1 15",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:technical1",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian 1 1",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:tyrian",
-		count: 8
+		count: 64
 	},
 	{
 		item: "chisel:valentines 1 5",
-		count: 8
+		count: 64
 	}]
 }
