@@ -29,7 +29,10 @@ if (!debug) {
         <actuallyadditions:block_tiny_torch>, <libvulpes:coil0:4>, <rftools:redstone_transmitter_block>,
         <rftools:redstone_receiver_block>, <rftools:sequencer_block>, <rftools:counter_block>, <rftools:logic_block>,
         <rftools:invchecker_block>, <rftools:sensor_block>, <rftools:analog_block>, <rftools:digit_block>,
-        <rftools:wire_block>, <rftools:timer_block>, <rftools:machine_base>, <mekanism:salt>, <mekanism:saltblock>
+        <rftools:wire_block>, <rftools:timer_block>, <rftools:machine_base>, <mekanism:salt>, <mekanism:saltblock>,
+        <nuclearcraft:moresmore>, <nuclearcraft:smore>, <nuclearcraft:marshmallow>, <nuclearcraft:milk_chocolate>,
+        <nuclearcraft:dark_chocolate>, <nuclearcraft:unsweetened_chocolate>, <nuclearcraft:cocoa_butter>,
+        <nuclearcraft:graham_cracker>, <nuclearcraft:ground_cocoa_nibs>, <nuclearcraft:dominos>
     ];
     var exceptedIngredient as IIngredient = null;
 
