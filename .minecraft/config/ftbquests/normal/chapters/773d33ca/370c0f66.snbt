@@ -10,5 +10,15 @@
 		items: [{
 			item: "prodigytech:solid_fuel_aeroheater"
 		}]
+	}],
+	rewards: [{
+		uid: "aafw0a3",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "prodigytech:guide"
+			}
+		}
 	}]
 }
