@@ -251,7 +251,8 @@ jobs:
           cd ${GITHUB_WORKSPACE}
           zip -r "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server.zip" -xi ${GITHUB_WORKSPACE}/server
 
-      - name: Release
+      - name: Release to GitHub
+        id: gh_release
         uses: softprops/action-gh-release@v1
         with:
           prerelease: true
@@ -270,5 +271,6 @@ jobs:
           project_id: 622478
           game_versions: "Minecraft 1.12:1.12.2"
           release_type: alpha
+          changelog: See ${{ steps.gh_release.outputs.url }}
           token: ${{ secrets.CURSE_UPLOAD_TOKEN }}
 
