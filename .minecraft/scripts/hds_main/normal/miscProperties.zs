@@ -1,6 +1,7 @@
 #packmode normal
 #priority 2
 
+import scripts.hds_main.utils.globalGrinder;
 import scripts.hds_main.utils.modloader.isInvalid;
 import mods.jei.JEI;
 
@@ -36,4 +37,5 @@ if (!isInvalid) {
     <entity:srparasites:pri_summoner>.addDrop(<contenttweaker:broken_ootheca> % 25);
     <entity:srparasites:pri_arachnida>.addDrop(<contenttweaker:broken_ootheca> % 45);
     vanilla.seeds.removeSeed(<item.teslathingies.tesla_plant_seeds:0>);
+    globalGrinder.addGrinderRecipe(<minecraft:coal>, <ore:dustCoal>.materialPart);
 }

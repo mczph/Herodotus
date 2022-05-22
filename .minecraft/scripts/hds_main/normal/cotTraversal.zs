@@ -69,9 +69,11 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         recipes.addShaped("dust_from_small_" ~ nameSnake, dust.materialPart, createFull2(dustSmall));
         recipes.addShaped("dust_from_tiny_" ~ nameSnake, dust.materialPart, createFull3(dustTiny));
 
-        globalGrinder.addGrinderRecipe(ingot, dust.materialPart);
-        
-        if (!plate.empty) {
+        if (!name == "Coal") {
+            globalGrinder.addGrinderRecipe(ingot, dust.materialPart);
+        }
+
+        if (!plate.empty && !name == "Coal") {
             globalGrinder.addGrinderRecipe(plate, dust.materialPart);
         }
 
