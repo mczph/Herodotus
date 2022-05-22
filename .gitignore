@@ -61,7 +61,6 @@
 /.minecraft/config/thaumicspeedup/cache.lock
 /.minecraft/config/ThermalTinkering/
 /.minecraft/config/ThermalTinkering/*.txt
-/.minecraft/config/jei/jei.cfg
 *.local
 /.minecraft/config/loliasm.cfg
 /.minecraft/config/JustEnoughCalculation/
