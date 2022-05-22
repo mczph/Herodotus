@@ -4,6 +4,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.advancedmortars.Mortar;
+import scripts.hds_lib.crtlib;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 function basicMotarRecipe (output as IItemStack, secOutput as IItemStack, input as IIngredient) {
