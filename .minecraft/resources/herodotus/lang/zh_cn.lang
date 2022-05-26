@@ -21,6 +21,8 @@ aura_assembler.name=灵气装配机控制器
 basic_thermal_melting_machine.name=基础热力热熔机控制器
 hot_air_boiler.name=热空气蒸汽锅炉控制器
 steamer.name=蒸汽蒸煮机控制器
+alchemical_restructure_chamber.name=化形易构室控制器
+multiblocked.recipe_map.alchemical_restructure_chamber=化形易构室
 
 #一阶
 herodotus.quests.00ada03a.text.1=人类与动物最大的区别在于使用工具, 而如果需要制造工具...

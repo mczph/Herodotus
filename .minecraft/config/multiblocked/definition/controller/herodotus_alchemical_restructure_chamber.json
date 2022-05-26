@@ -1,0 +1,437 @@
+{
+  "consumeCatalyst": false,
+  "location": "herodotus:alchemical_restructure_chamber",
+  "traits": {},
+  "allowRotate": false,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "botania_tweaks:compressed_tiny_potato_8",
+      "meta": 3
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "AAABBBAAA",
+        "CDDEEEDDC",
+        "CFFFFFFFC",
+        "CFFFFFFFC",
+        "CFFFFFFFC",
+        "CFFFFFFFC",
+        "CFFFFFFFC",
+        "CFFFFFFFC",
+        "CFFFFFFFC",
+        "CFFFFFFFC",
+        "CFFFFFFFC",
+        "CDDDDDDDC"
+      ],
+      [
+        "AAABBBAAA",
+        "GHIJKLMJG",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "GOPPQPPOG"
+      ],
+      [
+        "AAABBBAAA",
+        "GIJJKLMJG",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "GPOPRPOPG"
+      ],
+      [
+        "BBBBBBBBB",
+        "EJJOKLHJE",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "GPPSTSPPG"
+      ],
+      [
+        "BBBBBBBBB",
+        "EJOOOOOJE",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "GQRTUTRQG"
+      ],
+      [
+        "BBBBBBBBB",
+        "EJJOKHLJE",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "GPPSTSPPG"
+      ],
+      [
+        "AAABBBAAA",
+        "GIJHKMLJG",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "GPOPRPOPG"
+      ],
+      [
+        "AAABBBAAA",
+        "GIIJKMLJG",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "FNNNNNNNF",
+        "GOPPQPPOG"
+      ],
+      [
+        "AAABBBAAA",
+        "CDDD@DDDC",
+        "CVVVVVVVC",
+        "CVVVVVVVC",
+        "CVVVVVVVC",
+        "CVVVVVVVC",
+        "CVVVVVVVC",
+        "CVVVVVVVC",
+        "CVVVVVVVC",
+        "CVVVVVVVC",
+        "CVVVVVVVC",
+        "CDDDDDDDC"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_parts",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_parts",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "thaumicaugmentation:fortified_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "thaumcraft:metal_alchemical",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "contenttweaker:starlight_frame",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "contenttweaker:active_rune",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "contenttweaker:hollow_gold_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "M": {
+        "states": [
+          {
+            "id": "magneticraft:multiblock_parts",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "O": {
+        "states": [
+          {
+            "id": "bloodmagic:blood_rune",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "P": {
+        "states": [
+          {
+            "id": "factorytech:magnetblock",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "Q": {
+        "states": [
+          {
+            "id": "contenttweaker:pearl_infused_wood",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "R": {
+        "states": [
+          {
+            "id": "hdsutils:alchemy_input_hatch",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "fluidOut": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "S": {
+        "states": [
+          {
+            "id": "thaumcraft:metal_brass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "T": {
+        "states": [
+          {
+            "id": "thaumadditions:brass_plated_silverwood",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "U": {
+        "states": [
+          {
+            "id": "thaumcraft:metal_thaumium",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "V": {
+        "states": [
+          {
+            "id": "pneumaticcraft:pressure_chamber_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "pipes": {
+        "blocks": [
+          {
+            "id": "hdsutils:alchemy_controller"
+          },
+          {
+            "id": "hdsutils:vertical_right_angle"
+          },
+          {
+            "id": "minecraft:air"
+          },
+          {
+            "id": "hdsutils:alchemy_separator_tank"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "herodotus:alchemical_restructure_chamber",
+        "type": "component"
+      },
+      "column": {
+        "blocks": [
+          {
+            "id": "magneticraft:multiblock_column"
+          }
+        ],
+        "type": "blocks"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "column"
+      ],
+      "D": [
+        "column"
+      ],
+      "E": [
+        "fluidOut"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "column"
+      ],
+      "H": [],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "pipes"
+      ],
+      "O": [
+        "O"
+      ],
+      "P": [
+        "P"
+      ],
+      "Q": [
+        "Q"
+      ],
+      "R": [
+        "R"
+      ],
+      "S": [
+        "S"
+      ],
+      "T": [
+        "T"
+      ],
+      "U": [
+        "U"
+      ],
+      "V": [
+        "V"
+      ]
+    }
+  },
+  "recipeMap": "alchemical_restructure_chamber"
+}

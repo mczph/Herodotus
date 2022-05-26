@@ -21,6 +21,8 @@ aura_assembler.name=Aura Assembler Controller
 basic_thermal_melting_machine.name=Basic Thermal Melting Machine
 hot_air_boiler.name=Hot Air Steam Boiler Controller
 steamer.name=Steamer Controller
+alchemical_restructure_chamber.name=Alchemical Restructure Chamber Controller
+multiblocked.recipe_map.alchemical_restructure_chamber=Alchemical Restructure Chamber
 
 herodotus.quests.2d037bb7.text.1=The straw blocks are made by bundling the fibers into a bundle and stacking them into a bale.
 herodotus.quests.2d037bb7.text.2=Don't expect to build anything with this, I'm not going to be that first little piggy.

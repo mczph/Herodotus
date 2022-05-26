@@ -111,6 +111,8 @@ tile.contenttweaker.flesh_block.name=Block of Flesh
 tile.contenttweaker.sieve_tube.name=Sieve Tube
 tile.contenttweaker.nerve_bundle.name=Nerve Bundle
 tile.contenttweaker.bloodbath_bud.name=Bloodbath Bud
+tile.contenttweaker.hollow_gold_block.name=Hollow Gold Block
+tile.contenttweaker.pearl_infused_wood.name=Pearl Infused Wood
 
 fluid.molten_gel=Molten Gel
 fluid.limewater=Lime Water
