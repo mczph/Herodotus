@@ -92,7 +92,13 @@ val removeByOutput as IItemStack[] = [
     <rftools:digit_block>,
     <rftools:analog_block>,
     <snad:snad>,
-    <snad:snad:1>
+    <snad:snad:1>,
+    <actuallyadditions:block_laser_relay>,
+    <actuallyadditions:block_laser_relay_advanced>,
+    <actuallyadditions:block_laser_relay_fluids>,
+    <actuallyadditions:block_laser_relay_extreme>,
+    <actuallyadditions:block_laser_relay_item>,
+    <actuallyadditions:block_laser_relay_item_whitelist>
 ];
 
 val removeByRecipeName as string[] = [
