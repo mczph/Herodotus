@@ -37,7 +37,7 @@ for shape in crtlib.shapes {
     Mortar.addRecipe(
         ["stone", "iron", "gold", "diamond", "obsidian", "emerald"],
         itemUtils.getItem("contenttweaker:polished_" ~ shape), 2,
-        <ore:gravel>, 0.8,
+        <ore:gravel>.firstItem, 0.8,
         [itemUtils.getItem("contenttweaker:" ~ shape), <ore:gravel>, <ore:sand>]
     );
 }
