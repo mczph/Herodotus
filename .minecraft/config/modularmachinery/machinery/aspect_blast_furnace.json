@@ -25,7 +25,10 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockoutputbus"
             ]
         },
         {
@@ -137,7 +140,10 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockinputbus"
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockoutputbus"
             ]
         },
         {
@@ -193,6 +199,9 @@
             "y": 3,
             "z": 2,
             "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockinputbus",
                 "modularmachinery:blockoutputbus"
             ]
         },
