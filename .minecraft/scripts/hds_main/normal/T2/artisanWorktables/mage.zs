@@ -15,6 +15,10 @@ if (!isInvalid){
     .addTool(<ore:artisansAthame>, 40)
     .setFluid(<liquid:mercury> * 1000)
     .addOutput(<contenttweaker:infinite_water_upgrade_module>)
+    .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+    })
     .create();
 
     RecipeBuilder.get("mage")

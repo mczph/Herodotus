@@ -21,6 +21,10 @@ RecipeBuilder.get("mage")
     [<magneticraft:iron_pipe>, <magneticraft:iron_pipe>, <magneticraft:iron_pipe>],
     [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>]])
   .setFluid(<liquid:mercury> * 500)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(100, 1));
+    })
   .addTool(<ore:artisansGrimoire>, 30)
   .addOutput(<thaumcraft:tube> * 6)
   .create();
@@ -33,6 +37,10 @@ RecipeBuilder.get("mage")
   .setFluid(<liquid:mercury> * 1000)
   .addTool(<ore:artisansAthame>, 30)
   .addOutput(<modularmagic:blockaspectproviderinput>)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+    })
   .create();
 
 RecipeBuilder.get("mage")
@@ -43,6 +51,10 @@ RecipeBuilder.get("mage")
   .setFluid(<liquid:mercury> * 1000)
   .addTool(<ore:artisansAthame>, 30)
   .addOutput(<modularmagic:blockaspectprovideroutput>)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+    })
   .create();
 
 RecipeBuilder.get("mage")
@@ -51,6 +63,10 @@ RecipeBuilder.get("mage")
   .setFluid(<liquid:mercury> * 1000)
   .addTool(<ore:artisansGrimoire>, 30)
   .addOutput(<thaumcraft:filter> * 2)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(100, 1));
+    })
   .create();
 
 RecipeBuilder.get("mage")
@@ -61,6 +77,10 @@ RecipeBuilder.get("mage")
   .setFluid(<liquid:mercury> * 1000)
   .addTool(<ore:artisansGrimoire>, 50)
   .addOutput(<thaumcraft:condenser_lattice>)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+    })
   .create();
 
 RecipeBuilder.get("mage")
@@ -101,6 +121,10 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansGrimoire>, 120)
   .setFluid(<liquid:mercury> * 4000)
   .addOutput(<thaumcraft:condenser>)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+    })
   .create();
 
 RecipeBuilder.get("mage")
@@ -111,6 +135,10 @@ RecipeBuilder.get("mage")
   .setFluid(<liquid:mercury> * 2000)
   .addTool(<ore:artisansGrimoire>, 60)
   .addOutput(<thaumcraft:centrifuge>)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+    })
   .create();
 
 RecipeBuilder.get("mage")
@@ -121,6 +149,10 @@ RecipeBuilder.get("mage")
   .setFluid(<liquid:mercury> * 2000)
   .addTool(<ore:artisansGrimoire>, 120)
   .addOutput(<thaumadditions:aspect_combiner>)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+    })
   .create();
 
 RecipeBuilder.get("mage")
@@ -131,6 +163,10 @@ RecipeBuilder.get("mage")
   .setFluid(<liquid:mercury> * 250)
   .addTool(<ore:artisansGrimoire>, 10)
   .addOutput(<thaumcraft:mechanism_simple>)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(100, 1));
+    })
   .create();
 
 RecipeBuilder.get("mage")
@@ -151,6 +187,10 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansAthame>, 50)
   .setFluid(<liquid:mercury> * 1000)
   .addOutput(<hdsutils:taint_checker>)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+    })
   .create();
 
 RecipeBuilder.get("mage")
@@ -170,6 +210,10 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansAthame>, 50)
   .setFluid(<liquid:mercury> * 2000)
   .addOutput(<thaumcraft:sanity_checker>)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+    })
   .create();
 
 RecipeBuilder.get("mage")
@@ -180,6 +224,10 @@ RecipeBuilder.get("mage")
   .setFluid(<liquid:mercury> * 1000)
   .addTool(<ore:artisansHammer>, 100)
   .addOutput(<hdsutils:primordial_charger>)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+    })
   .create();
 
 RecipeBuilder.get("mage")
@@ -210,5 +258,21 @@ RecipeBuilder.get("mage")
   .setFluid(<liquid:unstable_aura> * 2000)
   .addTool(<ore:artisansAthame>, 20)
   .addOutput(<thaumadditions:jar_thaumium>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<improvedbackpacks:tanned_leather>, <astralsorcery:itemcraftingcomponent:5>, <improvedbackpacks:tanned_leather>],
+    [<pyrotech:refractory_glass>, <thaumcraft:thaumometer>, <pyrotech:refractory_glass>],
+    [null, <astralsorcery:itemcraftingcomponent:5>, null]])
+  .setFluid(<liquid:mercury> * 1000)
+  .addTool(<ore:artisansAthame>, 175)
+  .addOutput(<thaumcraft:goggles>)
+  .setExperienceRequired(500)
+  .setConsumeExperience(true)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+    })
   .create();
 }
