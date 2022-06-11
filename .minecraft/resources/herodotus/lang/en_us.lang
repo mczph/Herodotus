@@ -395,9 +395,8 @@ herodotus.quests.2bfd6bb4.text.4=(Can also be used as a vanilla crafting table)
 herodotus.quests.3fa0d4f5.text.1=The eight advanced vis plants are planted at a distance of one block from each other, and every time a crop matures, it charges the primordial pearl on the primordial charger.
 
 herodotus.quests.780dd5b4.text.1=Seeing an unknown liquid sample and taking a sample in a clean glass container for analysis is an important professionalism of the lab technician.
-herodotus.quests.b8981a6f.text.1=Seeing an unknown liquid sample and... This does not seem to be easy to bear in ordinary bottles, and requires the experimenter to handle with the help of some instruments.herodotus.quests.780dd5b4.title={herodotus.quests.780dd5b4.title}
-herodotus.quests.04d5512b.text.2={herodotus.quests.04d5512b.text.2}
-herodotus.quests.19b3cee0.title=低阶魔力种子
-herodotus.quests.5e5d5f07.title=高阶魔力种子
-herodotus.quests.5e5d5f07.text.1=这些种子似乎对普通的能量完全没有兴趣，它们渴望着弱小的同类。
-herodotus.quests.5e5d5f07.text.2=将它们继续种植在祭坛上，在祭坛获得一个红石信号后，它们会继续收割周围的作物直到完全成熟。
+herodotus.quests.b8981a6f.text.1=Seeing an unknown liquid sample and... This does not seem to be easy to bear in ordinary bottles, and requires the experimenter to handle with the help of some instruments.
+herodotus.quests.19b3cee0.title=Elementary Vis Seeds
+herodotus.quests.5e5d5f07.title=Advanced Vis Seeds
+herodotus.quests.5e5d5f07.text.1=These seeds seem to have no interest in ordinary energy. They crave their weaker counterparts.
+herodotus.quests.5e5d5f07.text.2=Keep them planted on the altar, and after the altar gets a redstone signal, they will continue to harvest the surrounding crops until they are fully mature.
