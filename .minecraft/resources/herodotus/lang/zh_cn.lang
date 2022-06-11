@@ -355,8 +355,6 @@ herodotus.quests.ede45a70.text.2=将其击杀后 却不知从哪里冲出一股�
 herodotus.quests.ede45a70.text.3=如果副手拿着一个安瓿能不能将它装起来呢
 herodotus.quests.5b236766.text.1=充能仪需要以特定的顺序吸收高阶的成熟魔力作物，以此来滋养元始珍珠。而魔力作物的排布同样也是固定的。
 herodotus.quests.5b236766.text.2=一定有某种组合方式可以将这八种高阶魔力作物和它们所需的低阶魔力作物塞进这个结构里面，我只需要好好拼接一下。
-# TODO improve this, don't forget English ver.
-# config\ftbquests\normal\chapters\2eda9938\5b236766.snbt
 herodotus.quests.25548645.title=收集与过滤
 herodotus.quests.25548645.text.1=直觉告诉我这些使用过的咒波凝结器天数未尽。把里面的格栅放进加水的液体搅拌器里洗干净就好。
 herodotus.quests.25548645.text.2=洗出来的这个粘浆或许有什么奇怪的生物爱吃, 但我不爱吃说明不了我不是"奇怪生物"们的一员。
