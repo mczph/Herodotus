@@ -1,91 +1,92 @@
 {
-	title: "低阶魔力种子",
-	x: 24.0d,
+	title: "高阶魔力种子",
+	x: 28.0d,
 	y: -4.0d,
 	text: [
-		"这些种子中蕴含的魔力还不足以让元始尘埃饱足，我需要精炼它们。"
+		"这些种子似乎对普通的能量完全没有兴趣，它们渴望着弱小的同类。",
+		"将它们继续种植在祭坛上，在祭坛获得一个红石信号后，它们会继续收割周围的作物直到完全成熟。"
 	],
 	dependencies: [
-		"167d511b",
-		"d875571e"
+		"04d5512b",
+		"19b3cee0"
 	],
 	tasks: [{
-		uid: "2b2cfabc",
+		uid: "2b2cfab5",
 		type: "item",
 		items: [{
 			id: "thaumadditions:vis_seeds",
 			tag: {
-				Aspect: "aqua"
+				Aspect: "luxuria"
 			}
 		}]
 	},
 	{
-		uid: "fb58ef8a",
+		uid: "154a1279",
 		type: "item",
 		items: [{
 			id: "thaumadditions:vis_seeds",
 			tag: {
-				Aspect: "ignis"
+				Aspect: "infernus"
 			}
 		}]
 	},
 	{
-		uid: "028f160e",
+		uid: "028f161a",
 		type: "item",
 		items: [{
 			id: "thaumadditions:vis_seeds",
 			tag: {
-				Aspect: "terra"
+				Aspect: "superbia"
 			}
 		}]
 	},
 	{
-		uid: "44c9ba05",
+		uid: "44c9baaa",
 		type: "item",
 		items: [{
 			id: "thaumadditions:vis_seeds",
 			tag: {
-				Aspect: "aer"
+				Aspect: "gula"
 			}
 		}]
 	},
 	{
-		uid: "e56bf003",
+		uid: "e56bf066",
 		type: "item",
 		items: [{
 			id: "thaumadditions:vis_seeds",
 			tag: {
-				Aspect: "ordo"
+				Aspect: "invidia"
 			}
 		}]
 	},
 	{
-		uid: "5067f8b0",
+		uid: "5067f810",
 		type: "item",
 		items: [{
 			id: "thaumadditions:vis_seeds",
 			tag: {
-				Aspect: "perditio"
+				Aspect: "desidia"
 			}
 		}]
 	},
 	{
-		uid: "6b249510",
+		uid: "7f249510",
 		type: "item",
 		items: [{
 			id: "thaumadditions:vis_seeds",
 			tag: {
-				Aspect: "alienis"
+				Aspect: "ira"
 			}
 		}]
 	},
 	{
-		uid: "557384dc",
+		uid: "888384dc",
 		type: "item",
 		items: [{
 			id: "thaumadditions:vis_seeds",
 			tag: {
-				Aspect: "vitium"
+				Aspect: "revelatio"
 			}
 		}]
 	}]

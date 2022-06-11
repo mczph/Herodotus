@@ -14,9 +14,6 @@
 		type: "item",
 		items: [{
 			item: "advancedmortars:mortar 1 1"
-		},
-		{
-			item: "advancedmortars:mortar"
 		}],
 		ignore_nbt: 1b
 	}]

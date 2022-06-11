@@ -353,8 +353,8 @@ herodotus.quests.914b5a4b.text.2=随着一声脆响 它变成了各色怪物 其
 herodotus.quests.914b5a4b.text.3=希望里面能有培育生物需要的营养物质
 herodotus.quests.ede45a70.text.2=将其击杀后 却不知从哪里冲出一股清气 让我疲劳的精神为之一震
 herodotus.quests.ede45a70.text.3=如果副手拿着一个安瓿能不能将它装起来呢
-herodotus.quests.5b236766.text.1=在其周围布置下催化祭坛  使用正确的种子进行聚能仪式
-herodotus.quests.5b236766.text.2=希望能够提升种子活力
+herodotus.quests.5b236766.text.1=充能仪需要以特定的顺序吸收高阶的成熟魔力作物，以此来滋养元始珍珠。而魔力作物的排布同样也是固定的。
+herodotus.quests.5b236766.text.2=一定有某种组合方式可以将这八种高阶魔力作物和它们所需的低阶魔力作物塞进这个结构里面，我只需要好好拼接一下。
 # TODO improve this, don't forget English ver.
 # config\ftbquests\normal\chapters\2eda9938\5b236766.snbt
 herodotus.quests.25548645.title=收集与过滤
@@ -365,8 +365,7 @@ herodotus.quests.d875571e.text.1=这种石头不能说罕见 我能想到最好�
 herodotus.quests.38c43997.text.1=“家用裂缝饲料”
 herodotus.quests.38c43997.text.2=“美味! ——不愿透露姓名的裂缝”
 herodotus.quests.38c43997.text.3=“不对错误过度喂食导致的裂缝死亡事件负责”
-herodotus.quests.04d5512b.text.1=我尝试在其上种植普通作物 似乎没有任何反应 可能只有带有魔力的基础种子才能接受其改造
-herodotus.quests.04d5512b.text.2=而催生而来的种子似乎也只能在其上生长
+herodotus.quests.04d5512b.text.1=经过研究，以特定的顺序在祭坛周围的八格种植基础的魔力种子，可以对种子中的能量进行精炼，用来对基础魔力种子进行转化。
 herodotus.quests.310c522c.text.2=摸起来有严重的刺痛撕裂感 仿佛有什么尝试将我重组
 herodotus.quests.310c522c.text.3=如果任由它将生物进行吞噬会发生什么呢
 herodotus.quests.c41641bc.text.2=能够获得更完整的血肉块
