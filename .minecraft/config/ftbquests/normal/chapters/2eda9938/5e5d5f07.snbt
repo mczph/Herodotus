@@ -1,10 +1,10 @@
 {
-	title: "高阶魔力种子",
+	title: "{herodotus.quests.5e5d5f07.title}",
 	x: 28.0d,
 	y: -4.0d,
 	text: [
-		"这些种子似乎对普通的能量完全没有兴趣，它们渴望着弱小的同类。",
-		"将它们继续种植在祭坛上，在祭坛获得一个红石信号后，它们会继续收割周围的作物直到完全成熟。"
+		"{herodotus.quests.5e5d5f07.text.1}",
+		"{herodotus.quests.5e5d5f07.text.2}"
 	],
 	dependencies: [
 		"04d5512b",

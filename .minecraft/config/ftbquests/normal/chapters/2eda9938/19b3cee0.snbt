@@ -1,9 +1,9 @@
 {
-	title: "低阶魔力种子",
+	title: "{herodotus.quests.19b3cee0.title}",
 	x: 24.0d,
 	y: -4.0d,
 	text: [
-		"这些种子中蕴含的魔力还不足以让元始尘埃饱足，我需要精炼它们。"
+		"{herodotus.quests.19b3cee0.text.1}"
 	],
 	dependencies: [
 		"167d511b",

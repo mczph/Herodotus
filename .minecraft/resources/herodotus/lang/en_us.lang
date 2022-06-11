@@ -335,7 +335,7 @@ herodotus.quests.5c5ef62c.text.2=I remembered a mantra, "In brightest day, in bl
 herodotus.quests.5c5ef62c.text.3=Perhaps I should recite this mantra...
 herodotus.quests.78efc57f.text.1=Rift... The Rift. This is the seed of the Rift. It comes from nothingness,
 herodotus.quests.78efc57f.text.2=and if it is infused with energy and given order, it will make a good container of energy.
-herodotus.quests.19b3cee0.text.1=As I expected, they did react. So let's add some purified aspects and see how the reaction turns out.
+herodotus.quests.19b3cee0.text.1=这些种子中蕴含的魔力还不足以让元始尘埃饱足，我需要精炼它们。
 herodotus.quests.167d511b.text.1=Now I know the name of this fluid - Aura. Life has some sort of inner aura, too.
 herodotus.quests.167d511b.text.2=If they were catalyzed with Primordium and heated, would that give them some kind of chemical reaction?
 herodotus.quests.f82ee1dd.text.2=I looked at the crucible by my hand and tentatively put it on it,
@@ -396,3 +396,8 @@ herodotus.quests.3fa0d4f5.text.1=The eight advanced vis plants are planted at a 
 
 herodotus.quests.780dd5b4.text.1=Seeing an unknown liquid sample and taking a sample in a clean glass container for analysis is an important professionalism of the lab technician.
 herodotus.quests.b8981a6f.text.1=Seeing an unknown liquid sample and... This does not seem to be easy to bear in ordinary bottles, and requires the experimenter to handle with the help of some instruments.herodotus.quests.780dd5b4.title={herodotus.quests.780dd5b4.title}
+herodotus.quests.04d5512b.text.2={herodotus.quests.04d5512b.text.2}
+herodotus.quests.19b3cee0.title=低阶魔力种子
+herodotus.quests.5e5d5f07.title=高阶魔力种子
+herodotus.quests.5e5d5f07.text.1=这些种子似乎对普通的能量完全没有兴趣，它们渴望着弱小的同类。
+herodotus.quests.5e5d5f07.text.2=将它们继续种植在祭坛上，在祭坛获得一个红石信号后，它们会继续收割周围的作物直到完全成熟。

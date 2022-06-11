@@ -346,7 +346,7 @@ herodotus.quests.78efc57f.text.1=裂缝...裂缝。这是裂缝的种子。这�
 herodotus.quests.78efc57f.text.2=倘若注入能量, 赋予秩序, 它将成为很好的能量容器。
 herodotus.quests.167d511b.text.1=现在我知道了这种流体的名字——灵气。生命也有内在的灵气, 
 herodotus.quests.167d511b.text.2=如果用原基催化并加热, 会不会让它们产生某种化学反应?
-herodotus.quests.19b3cee0.text.1=不出我所料, 它们的确发生了反应。那么我们加入一些提纯的要素, 看看反应结果如何。
+herodotus.quests.19b3cee0.text.1=这些种子中蕴含的魔力还不足以让元始尘埃饱足，我需要精炼它们。
 herodotus.quests.f82ee1dd.text.2=我看向手边的坩埚 试探性的将其放了上去
 herodotus.quests.f82ee1dd.text.3=祂迅速附着在了坩埚之上 并按照其喜好对其进行了大量改造
 herodotus.quests.914b5a4b.text.2=随着一声脆响 它变成了各色怪物 其中有一种背上背着囊肿
@@ -408,3 +408,8 @@ herodotus.quests.3fa0d4f5.text.1=设法将八种进阶魔力植株隔一格距�
 herodotus.quests.780dd5b4.text.1=看到未知的液体样本, 用洁净的玻璃容器取样分析, 是实验师的重要职业素养。
 herodotus.quests.b8981a6f.text.1=看到未知的液体样本... 这个好像不容易用普通瓶子承装, 需要实验师借助一些仪器来处理。
 
+herodotus.quests.04d5512b.text.2={herodotus.quests.04d5512b.text.2}
+herodotus.quests.19b3cee0.title=低阶魔力种子
+herodotus.quests.5e5d5f07.title=高阶魔力种子
+herodotus.quests.5e5d5f07.text.1=这些种子似乎对普通的能量完全没有兴趣，它们渴望着弱小的同类。
+herodotus.quests.5e5d5f07.text.2=将它们继续种植在祭坛上，在祭坛获得一个红石信号后，它们会继续收割周围的作物直到完全成熟。
