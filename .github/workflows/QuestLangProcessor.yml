@@ -1,7 +1,7 @@
 name: QuestLangProcessor
 on:
   push:
-    branches: [hotfix/quests**]
+    branches: [hotfix/quests**, cumulative/**]
 
 jobs:
   FTBQuestsProcessor:
