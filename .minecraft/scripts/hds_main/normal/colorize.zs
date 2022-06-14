@@ -94,13 +94,13 @@ for color in crtlib.colors {
         var input3 as IOreDictEntry = oreDict.get(shape ~ "Cover" ~ od);
         var input4 as IItemStack = getShapeVariant(shape, "polluted");
         SoakingPot.addRecipe(shape ~ "_soaking_" ~ color, output, fluidTier1*500, input1, true, 3*60*20);
-        Casting.addTableRecipe(output, input2, fluidTier2, 250, true, 27 * 20);
+        Casting.addTableRecipe(output, input2, fluidTier2, 250, true, 10 * 20);
         RecipeBuilder.get("mason")
             .setShapeless([input2, dust])
             .addTool(<ore:artisansTrowel>, 2)
             .addOutput(input3.materialPart)
             .create();
-        BrickKiln.addRecipe(shape ~ "_kiln_" ~ color, output, input3, 2 * 60 * 20);
+        BrickKiln.addRecipe(shape ~ "_kiln_" ~ color, output, input3, 90 * 20);
         pressurechamber.addRecipe([input4, dust, <contenttweaker:primordium_shard>], 0.0 - 0.15, [output2, <thermalfoundation:material:833>]);
         pressurechamber.addRecipe([input4 * 32, dust.materialPart * 32, <prodigytech:primordium>], 0.0 - 0.2, [output2 * 32, <thermalfoundation:material:833> * 32]);
     }

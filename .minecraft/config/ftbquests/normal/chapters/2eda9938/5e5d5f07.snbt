@@ -1,0 +1,93 @@
+{
+	title: "{herodotus.quests.5e5d5f07.title}",
+	x: 28.0d,
+	y: -4.0d,
+	text: [
+		"{herodotus.quests.5e5d5f07.text.1}",
+		"{herodotus.quests.5e5d5f07.text.2}"
+	],
+	dependencies: [
+		"04d5512b",
+		"19b3cee0"
+	],
+	tasks: [{
+		uid: "2b2cfab5",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "luxuria"
+			}
+		}]
+	},
+	{
+		uid: "154a1279",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "infernus"
+			}
+		}]
+	},
+	{
+		uid: "028f161a",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "superbia"
+			}
+		}]
+	},
+	{
+		uid: "44c9baaa",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "gula"
+			}
+		}]
+	},
+	{
+		uid: "e56bf066",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "invidia"
+			}
+		}]
+	},
+	{
+		uid: "5067f810",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "desidia"
+			}
+		}]
+	},
+	{
+		uid: "7f249510",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "ira"
+			}
+		}]
+	},
+	{
+		uid: "888384dc",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_seeds",
+			tag: {
+				Aspect: "revelatio"
+			}
+		}]
+	}]
+}

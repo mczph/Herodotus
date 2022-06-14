@@ -36,4 +36,14 @@ Dropt.list("zorra_fruit")
             .items([<contenttweaker:zorra_fruit>])
         )  
     );
+
+Dropt.list("aura_bottling_machine")
+    .add(Dropt.rule()
+        .matchBlocks(["requious:aura_bottling_machine:*"])
+        .replaceStrategy("REPLACE_ALL")
+        .matchHarvester(Dropt.harvester().type("PLAYER").mainHand("WHITELIST", [], "pickaxe;2;-1"))
+        .addDrop(Dropt.drop()
+            .items([<requious:aura_bottling_machine>])
+        )
+    );
 }

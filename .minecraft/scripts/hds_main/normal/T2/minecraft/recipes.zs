@@ -39,7 +39,7 @@ RecipeUtils.recipeTweak(true, <magneticraft:iron_pipe> * 8, [
 ]);
 
 RecipeUtils.recipeTweak(true, <artisanworktables:toolbox>, [
-	[<ore:plankWood>, <ore:plateBronze>, <ore:plankWood>],
+	[<ore:plankWood>, <ore:ingotBronze>, <ore:plankWood>],
 	[<ore:plankWood>, <ore:chest>, <ore:plankWood>],
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);

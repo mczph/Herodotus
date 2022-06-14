@@ -56,6 +56,10 @@ RecipeBuilder.get("mage")
         [<ore:stone>, <ore:dustGlimmerite>, <ore:stone>]])
     .addTool(<ore:artisansAthame>, 20)
     .setFluid(<liquid:mercury> * 250)
+    .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+    })
     .addOutput(<astralsorcery:blockmarble> * 12)
     .create();
 
@@ -125,5 +129,9 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansAthame>, 80)
   .setFluid(<liquid:mercury> * 1000)
   .addOutput(<astralsorcery:itemwand>)
+  .setRecipeAction(function(out, info, player) {
+        if (isNull(player) || player.world.remote) return;
+        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+    })
   .create();
 }

@@ -91,6 +91,7 @@ static toRemoveArcaneRecipes as [IItemStack] = [
     <thaumcraft:sanity_checker>,
     <thaumcraft:smelter_void>,
     <thaumcraft:seal>,
+    <thaumcraft:goggles>,
     <thaumicaugmentation:void_recharge_pedestal>,
     <thaumicaugmentation:impetus_diffuser>,
     <thaumicaugmentation:impetus_drainer>,

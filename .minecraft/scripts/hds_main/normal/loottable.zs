@@ -52,9 +52,7 @@ val removeItems as IItemStack[] = [
 ];
 
 for table in removeTables {
-    for item in removeItems{
-        LootTweaker.getTable(table).getPool("main").removeEntry(item.name);
-    }
+    LootTweaker.getTable(table).clear();
 }
 
 /*

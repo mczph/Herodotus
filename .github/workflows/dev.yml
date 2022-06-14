@@ -56,7 +56,7 @@ jobs:
           path: artifacts
 
   CreateServerPack:
-    if: "!endsWith(github.event.head_commit.message, 'NOSERVER')"
+    if: "!endsWith(github.event.head_commit.message, 'NOSERVER') && endsWith(github.ref, 'develop')"
     runs-on: ubuntu-latest
     needs: FTBQuestsProcessor
     steps:
@@ -186,6 +186,39 @@ jobs:
       - name: Build Downloader
         run: dotnet publish ${GITHUB_WORKSPACE}/runners/CurseforgeDownloader/CurseforgeDownloader/CurseforgeDownloader.csproj -c Release -o ${GITHUB_WORKSPACE}/ -r linux-x64 -p:PublishSingleFile=true
 
+      - name: Read Herodotus Utils Cache
+        uses: actions/cache@v3
+        id: hdsu_cache
+        with:
+          path: caches
+          key: ${{ runner.os }}-${{ hashFiles('.minecraft/mods/herodotusutils**') }}
+
+      - name: Get Herodotus Utils Path
+        id: hdsu_path
+        run: python ${GITHUB_WORKSPACE}/runners/get_hdsu_file_name.py
+
+      - name: Upload Herodotus Utils
+        if: steps.hdsu_cache.outputs.cache-hit != 'true'
+        id: hdsu_upload
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          file_path: ".minecraft/mods/${{ steps.hdsu_path.outputs.hdsu_path }}"
+          game_endpoint: "minecraft"
+          project_id: 574421
+          game_versions: "Minecraft 1.12:1.12.2"
+          release_type: beta
+          token: ${{ secrets.CURSE_UPLOAD_TOKEN }}
+      
+      - name: Write Herodotus CurseForge File ID
+        if: steps.hdsu_cache.outputs.cache-hit != 'true'
+        run: sudo bash runners/set_hdsu_file_id.sh ${{ steps.hdsu_upload.outputs.id }}
+
+      - name: Write manifest
+        run: python ${GITHUB_WORKSPACE}/runners/update_manifest.py
+
+      - name: Remove previous herodotus utils file
+        run: sudo rm -r .minecraft/mods/
+
       - name: pack for release asset (curse pack)
         run: |
           cd ${GITHUB_WORKSPACE}
@@ -203,13 +236,13 @@ jobs:
 
       - name: Setup server files
         run: |
-          mv ${GITHUB_WORKSPACE}/overrides/mods ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/overrides/config ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/overrides/scripts ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/overrides/resources ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/overrides/icon.png ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/runners/server/start.bat ${GITHUB_WORKSPACE}/server/
           mv ${GITHUB_WORKSPACE}/runners/server/start.sh ${GITHUB_WORKSPACE}/server/
+          mkdir ${GITHUB_WORKSPACE}/server/mods
 
       - name: Run Downloader
         run: |
@@ -221,7 +254,8 @@ jobs:
           cd ${GITHUB_WORKSPACE}
           zip -r "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server.zip" -xi ${GITHUB_WORKSPACE}/server
 
-      - name: Release
+      - name: Release to GitHub
+        id: gh_release
         uses: softprops/action-gh-release@v1
         with:
           prerelease: true
@@ -231,4 +265,15 @@ jobs:
           files: |
             ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip
             ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server.zip
+
+      - name: Release to CurseForge
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          file_path: "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip"
+          game_endpoint: "minecraft"
+          project_id: 622478
+          game_versions: "Minecraft 1.12:1.12.2"
+          release_type: beta
+          changelog: See ${{ steps.gh_release.outputs.url }}
+          token: ${{ secrets.CURSE_UPLOAD_TOKEN }}
 

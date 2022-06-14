@@ -1,12 +1,12 @@
 {
-	x: 28.0d,
-	y: -2.0d,
+	x: 32.0d,
+	y: -6.0d,
 	text: [
 		"{herodotus.quests.3fa0d4f5.text.1}"
 	],
 	dependencies: [
 		"5b236766",
-		"04d5512b",
+		"5e5d5f07",
 		"3e3d06ca"
 	],
 	size: 2.0d,
@@ -14,9 +14,10 @@
 		uid: "6cffced3",
 		type: "item",
 		items: [{
-			item: "thaumcraft:primordial_pearl"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:primordial_pearl"
+		}]
 	}]
 }
