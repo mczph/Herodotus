@@ -150,7 +150,7 @@ function tcPodGetter(aspect as string) as IItemStack {
 }
 
 function tcSeedGetter(aspect as string) as IItemStack {
-    return <thaumadditions:vis_seeds>.withTag({Aspect: aspect});
+    return itemUtils.getItem("thaumadditions:vis_seeds/" ~ aspect);
 }
 
 function tcVisBlockGetter(aspect as string) as IItemStack {

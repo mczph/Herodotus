@@ -14,80 +14,56 @@
 		uid: "2b2cfab5",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "luxuria"
-			}
+			item: "thaumadditions:vis_seeds/luxuria"
 		}]
 	},
 	{
 		uid: "154a1279",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "infernus"
-			}
+			item: "thaumadditions:vis_seeds/infernus"
 		}]
 	},
 	{
 		uid: "028f161a",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "superbia"
-			}
+			item: "thaumadditions:vis_seeds/superbia"
 		}]
 	},
 	{
 		uid: "44c9baaa",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "gula"
-			}
+			item: "thaumadditions:vis_seeds/gula"
 		}]
 	},
 	{
 		uid: "e56bf066",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "invidia"
-			}
+			item: "thaumadditions:vis_seeds/invidia"
 		}]
 	},
 	{
 		uid: "5067f810",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "desidia"
-			}
+			item: "thaumadditions:vis_seeds/desidia"
 		}]
 	},
 	{
 		uid: "7f249510",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "ira"
-			}
+			item: "thaumadditions:vis_seeds/ira"
 		}]
 	},
 	{
 		uid: "888384dc",
 		type: "item",
 		items: [{
-			id: "thaumadditions:vis_seeds",
-			tag: {
-				Aspect: "revelatio"
-			}
+			item: "thaumadditions:vis_seeds/revelatio"
 		}]
 	}]
 }
