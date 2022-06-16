@@ -40,7 +40,7 @@ This project exists thanks to all the people who contribute.
 
 Thanks to **JetBrains** for providing free open-source licenses for this project and its derivatives!
 
-JetBrains is a global software vendorspecializing in the creation of intelligent,
+JetBrains is a global software vendor specializing in the creation of intelligent,
 productivity-enhancing tools for software developers and teams.
 
 This project uses several IDEs from JetBrains:
