@@ -1,6 +1,3 @@
-container.prodigytech.heat_sawmill=热力切割机
-container.prodigytech.jei.ptsawmill=热力切割机
-
 herodotus.artisan_worktables.material.thaumium=神秘
 herodotus.jei.desc.log_basin=手持木盆右击工匠工作台侧边, 即可将木盆悬挂在工作台旁。工匠工作台上需要液体的配方, 都需要消耗木盆中的液体来完成。
 herodotus.jei.desc.slime_grass_seed=这种作物喜阴, 最好在亮度低的环境种植, 大约是正常亮度的 1/7.
@@ -28,8 +25,6 @@ requious.jei.recipe.altar=祭坛转换
 requious.jei.recipe.aura_bottling_machine=灵气压瓶
 requious.jei.recipe.sluice=河篦
 tile.aura_bottling_machine.name=灵气压瓶机
-tile.prodigytech.heat_sawmill.name=热力切割机
-tile.prodigytech.heat_sawmill.tooltip=比用手切割材料更加高效
 
 # Tier 1
 herodotus.quests.6ce14b36.title=《论不同材质对砖块性能的影响》

@@ -1,6 +1,3 @@
-container.prodigytech.heat_sawmill=Heat Cutter
-container.prodigytech.jei.ptsawmill=Heat Cutter
-
 herodotus.artisan_worktables.material.thaumium=Thaumium
 herodotus.jei.desc.log_basin=Right-click on any side of the Artisan's Workstump with the Log Basin in hand to suspend it next to the workstump. Any recipe requiring liquid on the Artisan's Workstump requires the liquid in the Log Basin to be consumed.
 herodotus.jei.desc.slime_grass_seed=This crop likes shade and is best grown in a low light environment, about 1/7 of the normal light.
@@ -27,10 +24,7 @@ multiblocked.recipe_map.alchemical_restructure_chamber=Alchemical Restructure Ch
 requious.jei.recipe.altar=Altar Convert
 requious.jei.recipe.aura_bottling_machine=Aura Bottling
 requious.jei.recipe.sluice=Sluice
-
 tile.aura_bottling_machine.name=Aura Bottling Machine
-tile.prodigytech.heat_sawmill.name=Heat Cutter
-tile.prodigytech.heat_sawmill.tooltip=More efficiency than cutting with hand.
 
 # Tier 1
 herodotus.quests.6ce14b36.title=«On The Influence Of Different Materials On The Performance Of Bricks»
