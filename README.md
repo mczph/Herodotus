@@ -34,7 +34,7 @@ This project exists thanks to all the people who contribute.
 <a href="https://github.com/ProjectHDS/Herodotus/graphs/contributors"><img src="https://contrib.rocks/image?repo=ProjectHDS/Herodotus" /></a>
 
 
-### Special Thanks
+## Special Thanks
 
 ![](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)
 
@@ -62,7 +62,7 @@ YourKit is the creator of <a href="https://www.yourkit.com/java/profiler/">YourK
 and <a href="https://www.yourkit.com/youmonitor/">YourKit YouMonitor</a>.
 
 
-### Licence
+## Licence
 
 This project is licensed under
 the [Mozilla Public License 2.0](https://github.com/ProjectHDS/Herodotus/blob/develop/LICENSE).
