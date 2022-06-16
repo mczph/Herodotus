@@ -11,7 +11,6 @@ if(!isInvalid) {
         val ars as string = "contenttweaker:aspect_reaction_vessel";
         HydraulicPress.addRecipe(crtlib.tcPhialGetter(lColor ~ "_" ~ crtlib.latinShapes[i], 50),
             itemUtils.getItem(ars ~ "_" ~ crtlib.colors[i] ~ "_" ~ crtlib.shapes[i]),
-            20 * 20, 0, true
-        );
+            20 * 20, 0);
     }
 }

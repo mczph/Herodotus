@@ -7,13 +7,13 @@ import mods.magneticraft.HydraulicPress;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
-HydraulicPress.addRecipe(<ore:gemChippedIron>.materialPart, <ore:plateIron>.materialPart, 60, 0, true);
-HydraulicPress.addRecipe(<ore:gemChippedCopper>.materialPart, <ore:plateCopper>.materialPart, 60, 0, true);
-HydraulicPress.addRecipe(<ore:gemChippedTin>.materialPart, <ore:plateTin>.materialPart, 60, 0, true);
-HydraulicPress.addRecipe(<ore:gemChippedNickel>.materialPart, <ore:plateNickel>.materialPart, 60, 0, true);
-HydraulicPress.addRecipe(<ore:ingotNickel>.materialPart * 4, <ore:densePlateNickel>.materialPart, 120, 2, true);
-HydraulicPress.addRecipe(<minecraft:quartz>, <ore:plateQuartz>.materialPart, 60, 1, true);
-HydraulicPress.addRecipe(<minecraft:quartz>, <ore:lightPlateQuartz>.materialPart, 60, 0, true);
-HydraulicPress.addRecipe(<ore:ingotBrass>.materialPart, <ore:plateBrass>.materialPart, 60, 1, true);
-HydraulicPress.addRecipe(<ore:ingotThaumium>.materialPart, <ore:plateThaumium>.materialPart, 60, 1, true);
+HydraulicPress.addRecipe(<ore:gemChippedIron>, <ore:plateIron>.materialPart, 60, 0);
+HydraulicPress.addRecipe(<ore:gemChippedCopper>, <ore:plateCopper>.materialPart, 60, 0);
+HydraulicPress.addRecipe(<ore:gemChippedTin>, <ore:plateTin>.materialPart, 60, 0);
+HydraulicPress.addRecipe(<ore:gemChippedNickel>, <ore:plateNickel>.materialPart, 60, 0);
+HydraulicPress.addRecipe(<ore:ingotNickel> * 4, <ore:densePlateNickel>.materialPart, 120, 2);
+HydraulicPress.addRecipe(<minecraft:quartz>, <ore:plateQuartz>.materialPart, 60, 1);
+HydraulicPress.addRecipe(<minecraft:quartz>, <ore:lightPlateQuartz>.materialPart, 60, 0);
+HydraulicPress.addRecipe(<ore:ingotBrass>, <ore:plateBrass>.materialPart, 60, 1);
+HydraulicPress.addRecipe(<ore:ingotThaumium>, <ore:plateThaumium>.materialPart, 60, 1);
 }

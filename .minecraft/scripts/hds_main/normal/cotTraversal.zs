@@ -37,6 +37,7 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         furnace.remove(ingot);
         val name as string = item.ores[0].name.substring("ingot".length);
         val nameSnake as string = toSnakeCase(name);
+        val ingotDict as IOreDictEntry = oreDict.get("ingot" ~ name);
         val block as IOreDictEntry = oreDict.get("block" ~ name);
         val nugget as IOreDictEntry = oreDict.get("nugget" ~ name);
         val dust as IOreDictEntry = oreDict.get("dust" ~ name);
@@ -97,12 +98,12 @@ for item in <item:contenttweaker:material_part>.definition.subItems {
         //pyrotech
         if (!block.empty && !plate.empty && nameSnake != "coal") {
             allPyroAnvil("block_to_plate_ptanvil_" ~ nameSnake, plate.materialPart * 4, block, 6, "hammer");
-            HydraulicPress.addRecipe(ingot, plate.materialPart, 60, 1, true);
+            HydraulicPress.addRecipe(ingotDict, plate.materialPart, 60, 1);
             recipes.addShaped("plate_to_block_" ~ nameSnake, block.materialPart, createFull3(plate));
         }
         if (!lightPlate.empty && !rod.empty && !rodLong.empty && !block.empty) {
-            HydraulicPress.addRecipe(ingot, lightPlate.materialPart, 60, 0, true);
-            CrushingTable.addRecipe(block.materialPart, lightPlate.materialPart * 5, true);
+            HydraulicPress.addRecipe(ingotDict, lightPlate.materialPart, 60, 0);
+            CrushingTable.addRecipe(block, lightPlate.materialPart * 5);
             recipes.addShaped(block.materialPart, createFull3(lightPlate));
             allPyroAnvil("lightplate_to_rod_ptanvil_" ~ nameSnake, rod.materialPart*3, lightPlate, 6, "pickaxe");
             RecipeBuilder.get("blacksmith")
